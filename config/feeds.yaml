@@ -13,7 +13,7 @@
 #   author_match   any = 任一作者条件；all = 一作与末作都满足
 
 feeds:
-- name: 测试Feed-修改v2
+- name: 突触与学习记忆
   journals:
   - Nature
   - Science
@@ -31,7 +31,6 @@ feeds:
     - learning and memory
     - memory consolidation
     - hippocamp
-    - test-term-xyz
     exclude:
     - erratum
     - retraction
