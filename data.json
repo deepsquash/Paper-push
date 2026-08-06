@@ -1,0 +1,390 @@
+{
+  "date": "2026-08-06",
+  "total": 12,
+  "feeds": {
+    "突触与学习记忆": [
+      {
+        "doi": "10.1038/s41593-026-02388-9",
+        "title": "Hippocampal CA3 connectomics reveals a gradient of mossy fiber inputs and selective feedforward inhibition onto pyramidal cells",
+        "journal": "Nature Neuroscience",
+        "published_online": "2026-08-05",
+        "is_early_access": true,
+        "authors": [
+          "Zhihao Zheng",
+          "Changjoo Park",
+          "Eric W. Hammerschmith",
+          "Ran Lu",
+          "Szi-Chieh Yu",
+          "Marissa Sorek",
+          "Ben Silverman",
+          "Chris S. Jordan",
+          "Amy R. Sterling",
+          "William M. Silversmith",
+          "Philipp Schlegel",
+          "Gregory S. X. E. Jefferis",
+          "Forrest Collman",
+          "H. Sebastian Seung",
+          "David W. Tank"
+        ],
+        "abstract": "",
+        "url": "https://doi.org/10.1038/s41593-026-02388-9",
+        "reasons": [
+          "关键词『hippocamp』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.7554/elife.87589",
+        "title": "Deletion of neuroligins from astrocytes does not detectably alter synapse numbers or astrocyte cytoarchitecture by maturity",
+        "journal": "eLife",
+        "published_online": "2026-08-04",
+        "is_early_access": true,
+        "authors": [
+          "Samantha Rose Golf",
+          "Justin H Trotter",
+          "Jinzhao Wang",
+          "George Nakahara",
+          "Xiao Han",
+          "Marius Wernig",
+          "Thomas C Südhof"
+        ],
+        "abstract": "Astrocytes perform multifarious roles in the formation, regulation, and function of synapses in the brain, but the mechanisms involved are incompletely understood. Interestingly, astrocytes abundantly express neuroligins, postsynaptic adhesion molecules that function as synaptic organizers by binding to presynaptic neurexins. Here, we examined the function of neuroligins in astrocytes with a rigorous genetic approach that uses the conditional deletion of all major neuroligins ( Nlgn1–3 ) in astrocytes in vivo in mice and complemented this approach by a genetic deletion of neuroligins in glial cells that are co-cultured with human neurons. Our results show that early postnatal deletion of neuroligins from astrocytes in vivo has no detectable effect on cortical or hippocampal excitatory or inhibitory synapses, and does not alter the cytoarchitecture of astrocytes when evaluated in young adult mice. Moreover, deletion of astrocytic neuroligins in co-cultures of human neurons produced no detectable consequences for the formation and function of synapses. Thus, astrocytic neuroligins are unlikely to fundamentally shape synapse formation or astrocyte morphogenesis, but likely perform other important roles that remain to be discovered.",
+        "url": "https://doi.org/10.7554/elife.87589",
+        "reasons": [
+          "关键词『hippocamp』(命中abstract)"
+        ],
+        "is_new": true
+      }
+    ],
+    "神经环路与行为": [
+      {
+        "doi": "10.1038/s41593-026-02388-9",
+        "title": "Hippocampal CA3 connectomics reveals a gradient of mossy fiber inputs and selective feedforward inhibition onto pyramidal cells",
+        "journal": "Nature Neuroscience",
+        "published_online": "2026-08-05",
+        "is_early_access": true,
+        "authors": [
+          "Zhihao Zheng",
+          "Changjoo Park",
+          "Eric W. Hammerschmith",
+          "Ran Lu",
+          "Szi-Chieh Yu",
+          "Marissa Sorek",
+          "Ben Silverman",
+          "Chris S. Jordan",
+          "Amy R. Sterling",
+          "William M. Silversmith",
+          "Philipp Schlegel",
+          "Gregory S. X. E. Jefferis",
+          "Forrest Collman",
+          "H. Sebastian Seung",
+          "David W. Tank"
+        ],
+        "abstract": "",
+        "url": "https://doi.org/10.1038/s41593-026-02388-9",
+        "reasons": [
+          "关键词『connectom』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1523/jneurosci.0315-25.2026",
+        "title": "Magnetogenetics: Tools for Noninvasive Neuromodulation with Cellular Resolution",
+        "journal": "Journal of Neuroscience",
+        "published_online": "2026-08-05",
+        "is_early_access": false,
+        "authors": [
+          "Tiffany T. Tran",
+          "Miriam Hernández-Morales",
+          "Victor Han",
+          "Chunlei Liu"
+        ],
+        "abstract": "Magnetogenetics is emerging as a promising tool to control neuronal activity and overcome the limitations of chemogenetics and optogenetics. While chemogenetics is restricted in temporal resolution, optogenetics is invasive and limited in penetration depth. Magnetogenetics addresses these challenges by offering a noninvasive approach that enables wireless and on-demand control of neuronal activity. Magnetogenetics uses synthetic magnetic nanoparticles or the protein ferritin as transducers to convert magnetic ﬁelds into thermal, mechanical, or biochemical signals that can activate ion channels and proteins sensitive to these stimuli. To achieve cellular resolution, the neurons of interest are genetically targeted by the expression of diverse ion channels that confer sensitivity to magnetic stimulation or by targeting transducers to ion channels via linkers such as antibodies and other binding domains. Neuroscientists have used magnetogenetics to drive calcium-dependent gene expression, to excite or inhibit neurons, and to modulate behavior in animal models, as discussed in this review. The efficacy of these methods has been met with skepticism, and the fundamental mechanisms have been unclear. However, several studies have demonstrated the effectiveness of magnetogenetics and uncovered the underlying mechanisms. While improvements are still needed for magnetogenetics to become a routine technique to control neuronal activity, there is tremendous potential for both technical innovation and applications. This review discusses the current approaches from their development and limitations to their applications across research ﬁelds, particularly neuroscience.",
+        "url": "https://doi.org/10.1523/jneurosci.0315-25.2026",
+        "reasons": [
+          "关键词『optogenetics』(命中abstract)"
+        ],
+        "is_new": true
+      }
+    ],
+    "神经退行性疾病": [
+      {
+        "doi": "10.1038/s41467-026-76173-4",
+        "title": "α-Synuclein blocks endoplasmic reticulum co-translational protein translocation early in Parkinson’s disease",
+        "journal": "Nature Communications",
+        "published_online": "2026-08-06",
+        "is_early_access": false,
+        "authors": [
+          "Chor Lai Lam",
+          "Nicholas J. F. Gatford",
+          "Ana Aragón-González",
+          "Benedict Tanudjojo",
+          "Anis Sahoo",
+          "Andrew R. Castle",
+          "Devika Agarwal",
+          "Ashwin Jainarayanan",
+          "Svenja S. Hester",
+          "Navoneel Sen",
+          "Justin L. P. Benesch",
+          "Roman Fischer",
+          "David Sims",
+          "George K. Tofaris"
+        ],
+        "abstract": "Abstract The primary mechanism and subcellular localisation of α-synuclein toxicity in Parkinson’s disease pathogenesis remain unknown. We spatially and temporally resolved proteomic and transcriptomic changes in human iPSC-derived dopaminergic neurons with increasing burden of pathological α-synuclein. We found that misfolded α-synuclein proteoforms, signified by the formation of nanoscale intraneuronal puncta, are associated with impaired translocon function at the endoplasmic reticulum (ER). We show that α-synuclein interacts with Sec61A in iPSC-derived dopaminergic neurons and in post-mortem brain tissue from patients with Parkinson’s disease. This interaction interferes with the co-translational translocation of ER-processed proteins including the vacuolar-type ATPase V0a1 subunit, glucocerebrosidase, and Cathepsin B, causing defective organelle function such as reduced lysosomal acidification, leading to increased extracellular vesicle release of α-synuclein. Defective ER-translocation was associated with increased ribosomal UFMylation and proteasomal recruitment but not activation of the unfolded protein response. Reduction of pathological α-synuclein by either CRISPRi to decrease α-synuclein expression or pharmacological activation of proteasomal degradation with repurposed drugs mitigates the ER defect. Our study offers a unifying mechanistic link between α-synuclein pathology and dysregulation of diverse organelle-associated proteins that are both Sec61A translocon substrates and genetic modifiers of Parkinson’s disease risk. Our data also provide a therapeutic rationale for proteasomal activation in early Parkinson’s disease.",
+        "url": "https://doi.org/10.1038/s41467-026-76173-4",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.7554/elife.95987",
+        "title": "LRRK2 regulates synaptic function through modulation of actin cytoskeletal dynamics",
+        "journal": "eLife",
+        "published_online": "2026-08-06",
+        "is_early_access": true,
+        "authors": [
+          "Giulia Tombesi",
+          "Shiva Kompella",
+          "Giulia Favetta",
+          "Chuyu Chen",
+          "Marta Ornaghi",
+          "Yibo Zhao",
+          "Ester Morosin",
+          "Martina Sevegnani",
+          "Adriano Lama",
+          "Antonella Marte",
+          "Ilaria Battisti",
+          "Lucia Iannotta",
+          "Nicoletta Plotegher",
+          "Laura Civiero",
+          "Franco Onofri",
+          "Britta J Eickholt",
+          "Giovanni Piccoli",
+          "Giorgio Arrigoni",
+          "Dayne Beccano-Kelly",
+          "Claudia Manzoni",
+          "Loukia Parisiadou",
+          "Elisa Greggio"
+        ],
+        "abstract": "Parkinson’s disease (PD) is a multisystemic disorder that manifests through motor and non-motor symptoms. Motor dysfunction results from the degeneration of dopamine-producing neurons in the substantia nigra pars compacta. Increasing evidence suggests that synapse dysfunction precedes neuronal loss by years. Still, early synaptic alterations in PD remain poorly understood. Here, we integrate literature meta-analysis and multi-omics with biochemical, imaging, and electrophysiological measurements in Lrrk2 mouse models and human iPSC-derived neurons lacking LRRK2. We demonstrate that brain-derived neurotrophic factor (BDNF) activates LRRK2 in differentiated SH-SY5Y cells and primary mouse neurons, reshaping the LRRK2 interactome toward a network of actin cytoskeleton-related proteins. Gene-ontology analyses of both literature-curated LRRK2 interactors and phospho-proteome from striatal tissues with elevated LRRK2 activity highlight synapse-actin remodeling as major affected pathways. We further observed that loss of LRRK2 impairs BDNF signaling and alters postsynaptic density architecture. Young Lrrk2 knockout mice display structural alterations in dendritic protrusions, a phenotype that normalizes with age. In human iPSC-derived neurons, LRRK2 knockout affects maturation and BDNF-dependent regulation of spontaneous synaptic activity. Taken together, our study discloses a critical role of LRRK2 in BDNF-dependent synaptic modulation and identifies the synaptic actin cytoskeleton as a convergent site of LRRK2-associated pathophysiological processes in PD.",
+        "url": "https://doi.org/10.7554/elife.95987",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1523/jneurosci.0193-26.2026",
+        "title": "Age-Related Positivity Bias in Emotion Recognition: Marker of Neurodegeneration or Shift in Decision Criterion?",
+        "journal": "Journal of Neuroscience",
+        "published_online": "2026-08-05",
+        "is_early_access": false,
+        "authors": [
+          "Simon Neugebauer"
+        ],
+        "abstract": "",
+        "url": "https://doi.org/10.1523/jneurosci.0193-26.2026",
+        "reasons": [
+          "关键词『neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41593-026-02367-0",
+        "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes",
+        "journal": "Nature Neuroscience",
+        "published_online": "2026-08-04",
+        "is_early_access": true,
+        "authors": [
+          "Julien Klimmt",
+          "Carolina Cardoso Gonçalves",
+          "Jessica Valentina Montgomery",
+          "Stephan A. Müller",
+          "Merle Bublitz",
+          "Severin Filser",
+          "Lars Paeger",
+          "Brigitte Nuscher",
+          "Angelika Dannert",
+          "Sigrun Roeber",
+          "Veronica Pravata",
+          "Martina Schifferer",
+          "Joshua J. Shrouder",
+          "Nathalie Schulz",
+          "Judit González-Gallego",
+          "Silvia Cappello",
+          "Thomas Misgeld",
+          "Nikolaus Plesnila",
+          "Eduardo Beltrán",
+          "Jochen Herms",
+          "Elena De Domenico",
+          "Marc D. Beyer",
+          "Joachim L. Schultze",
+          "Christian Haass",
+          "Stefan F. Lichtenthaler",
+          "Caterina Carraro",
+          "Dominik Paquet"
+        ],
+        "abstract": "Abstract Stem-cell-based in vitro models offer promising potential to elucidate human brain cell functions and interactions, but limitations in reproducibility, maturation and cell-type diversity persist. Especially, prolonged incorporation of mature microglia and studies of neuroinflammation have proven challenging. Here, we developed a human induced pluripotent stem cell-based three-dimensional cortical brain tissue model (3BTM) containing neurons, astrocytes and microglia with high reproducibility, maturity and viability. 3BTMs show morphological, functional and proteomic maturation of all cell types, leading to high similarity to their in vivo counterparts. Incorporated microglia survive for over 6 months and display mature morphology, functions and gene expression. Importantly, when engineered to model Alzheimer’s disease pathology, 3BTMs recapitulate key disease hallmarks, including amyloid deposition, increased phospho-tau levels and neuroinflammation, with microglia shifting their transcriptional landscape to disease-relevant signatures. Treatment of Alzheimer’s disease 3BTMs with anti-Aβ immunotherapy cleared deposits and largely reversed disease signatures in glia. Together, our microglia-containing model provides a platform for studying physiological and pathological states of human brain tissue.",
+        "url": "https://doi.org/10.1038/s41593-026-02367-0",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41467-026-76183-2",
+        "title": "Vestibular nucleus stimulation for ameliorating locomotor dynamics in a Parkinsonian mouse model",
+        "journal": "Nature Communications",
+        "published_online": "2026-08-04",
+        "is_early_access": false,
+        "authors": [
+          "Johannes Hartig",
+          "Maximilian Uwe Friedrich",
+          "Jérémy Signoret-Genest",
+          "Maria Gruber",
+          "Sawako Tabuchi",
+          "Hamidreza Alimohammadi",
+          "Max Leuschner",
+          "Nina Schöneberg",
+          "Robert Peach",
+          "Dennis Doll",
+          "Tobias Petschner",
+          "Amélie Neumann",
+          "Susanne Knorr",
+          "Jens Volkmann",
+          "Philip Tovote",
+          "Chi Wang Ip"
+        ],
+        "abstract": "Abstract Postural and locomotor dysfunction represent axial symptoms of Parkinson’s disease (PD), which remain poorly treated by medication and deep brain stimulation. Whilst non-invasive neuromodulation of the vestibular system via the vestibular nucleus complex (VNC) offers a novel therapeutic avenue, the underlying circuits are still poorly characterized. Here we show that the mouse VNC feeds extensive Vglut2 -defined projections into striato-thalamo-subthalamic and caudal medulla motor hubs and receives substantial input from the sensorimotor cortex. Optogenetic activation of excitatory VNC neurons at sub-symptomatic intensities increased cFos -based activity in basal ganglia-associated and brainstem motor targets. Unbiased pose dynamics and motion analysis respectively showed enhancement of behavioural modularity and locomotion with threshold-level stimulation. In a mouse model of PD, the latter further favored naturalistic gait patterns through improved motor coordination. Our data identify excitatory VNC processes as candidates for therapeutic targeting of axial motor dysfunction in the context of PD.",
+        "url": "https://doi.org/10.1038/s41467-026-76183-2",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41467-026-75931-8",
+        "title": "A prolonged hydrothermal past at Santorini Caldera revealed by sedimentary trace metal and microbial signatures",
+        "journal": "Nature Communications",
+        "published_online": "2026-08-04",
+        "is_early_access": true,
+        "authors": [
+          "Sofia Della Sala",
+          "Vasiliki Papadimitriou",
+          "Paraskevi Polymenakou",
+          "Steffen Kutterolf",
+          "Joost Frieling",
+          "David M. Pyle",
+          "Tamsin A. Mather",
+          "Stephanos Kilias",
+          "Christopher K. Jones",
+          "Tim Druitt",
+          "Jonas Preine",
+          "Christian Hübscher",
+          "Paraskevi Nomikou",
+          "Olga Koukousioura",
+          "Thomas A. Ronge",
+          "Sarah Beethe",
+          "Katharina Pank",
+          "Carole Berthod",
+          "Hehe Chen",
+          "Shun Chiyonobu",
+          "Acacia Clark",
+          "Susan DeBari",
+          "Ralf Gertisser",
+          "Raymond Johnston",
+          "Michael Manga",
+          "Molly McCanta",
+          "Iona McIntosh",
+          "Ally Peccia",
+          "Masako Tominaga",
+          "Yuzuru Yamamoto",
+          "Adam Woodhouse",
+          "Alexis Bernard",
+          "Tatiana Fernandez Perez",
+          "Kumar Batuk Joshi",
+          "Günther Kletetschka",
+          "Antony Morris",
+          "Xiaohui Li",
+          "Dimitrios Papanikolaou"
+        ],
+        "abstract": "Abstract Hydrothermal systems in volcanic calderas are critical in signalling volcanic unrest, forming ore deposits, and sustaining chemosynthetic microorganisms. Analysis of a ~3500-year sequence of sediments collected from the Santorini caldera, Greece, during International Ocean Discovery Program (IODP) Expedition 398 reveals the behaviour of a prolonged paleo-hydrothermal system. Sediment geochemical and metagenomic data record vigorous hydrothermal activity and metal fluxes for ~1100 years, within a 2270-year window between two major eruptions. Sediment hydrothermally-derived trace metals are significantly enriched over background (~200-fold for As and Hg, and 10–50-fold for Mn, Sb, Mo, and V), with long-term metal fluxes (9 t yr −1 As, 2.5 t yr −1 Cu, 7 kg yr −1 Ag) comparable to fluxes from present-day geothermal fields in the Taupo Volcanic Zone. Metagenomic analysis identifies elevated metal resistance genes—signals of microbial adaptation to heightened hydrothermal stressors. Here we integrate geological and genomic evidence to decipher the paleoenvironmental and biogeochemical history of the past hydrothermal system at Santorini caldera.",
+        "url": "https://doi.org/10.1038/s41467-026-75931-8",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.7554/elife.109422.3",
+        "title": "In-situ glial cell-surface proteomics identifies pro-longevity factors in Drosophila",
+        "journal": "eLife",
+        "published_online": "2026-08-04",
+        "is_early_access": true,
+        "authors": [
+          "Madeline P Marques",
+          "Bo Sun",
+          "Ye-Jin Park",
+          "Tyler Jackson",
+          "Tzu-Chiao Lu",
+          "Yanyan Qi",
+          "Erin Harrison",
+          "Miranda C Wang",
+          "Omar Moussa Pasha",
+          "Amogh Varanasi",
+          "Dominique Kiki Carey",
+          "DR Mani",
+          "Jonathan Zirin",
+          "Mujeeb Qadiri",
+          "Yanhui Hu",
+          "Kartik Venkatachalam",
+          "Norbert Perrimon",
+          "Steven A Carr",
+          "Namrata D Udeshi",
+          "Liqun Luo",
+          "Jiefu Li",
+          "Hongjie Li"
+        ],
+        "abstract": "Much focus has shifted towards understanding how glial dysfunction contributes to age-related neurodegeneration due to the critical roles glial cells play in maintaining brain health. Cell-cell interactions, which are largely mediated by cell-surface proteins, control many critical aspects of development and physiology; as such, dysregulation of glial cell-surface proteins is hypothesized to play an important role in age-related neurodegeneration. However, it remains technically difficult to profile glial cell-surface proteins in intact brains. Here, we applied an in-situ cell-surface proteomic profiling method to glial cells from intact fly brains. Applying this platform to young and old flies, we identified candidate genes predicted to be involved in brain aging. Through a genetic screen, we identified one surface protein, DIP-β, which is down-regulated in old flies and can increase fly lifespan when overexpressed in adult glial cells. We performed whole-head single-nucleus RNA-seq and revealed that DIP-β overexpression mainly impacts glial and fat cells. We also found that glial DIP-β overexpression was associated with improved cell-cell communication. Our study is the first to apply in-situ cell-surface proteomics to glial cells in Drosophila , and to identify DIP-β as a potential glial regulator of brain aging.",
+        "url": "https://doi.org/10.7554/elife.109422.3",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.7554/elife.105343.3",
+        "title": "Methylation clocks fail to generalize across genetically admixed individuals",
+        "journal": "eLife",
+        "published_online": "2026-08-04",
+        "is_early_access": true,
+        "authors": [
+          "Sebastián Cruz-Gonzalez",
+          "Ogechukwu Okpala",
+          "Esther Gu",
+          "Lissette Gomez",
+          "Makaela Mews",
+          "Jeffery M Vance",
+          "Michael L Cuccaro",
+          "Mario R Cornejo-Olivas",
+          "Briseida E Feliciano-Astacio",
+          "Goldie S Byrd",
+          "Jonathan Haines",
+          "Margaret A Pericak-Vance",
+          "Anthony J Griswold",
+          "William S Bush",
+          "John A Capra"
+        ],
+        "abstract": "Epigenetic aging clocks based on DNA methylation patterns across the genome have emerged as a potential biomarker for risk of age-related diseases, like Alzheimer’s disease (AD), and environmental and social stressors. However, methylation clocks have not been comprehensively validated in genetically diverse individuals. Here, we evaluate a set of first-, second-, and third-generation methylation clocks in 621 AD patients and matched controls from African American, Hispanic, and White cohorts. The clocks are less accurate at predicting age in genetically admixed cohorts compared to the White cohort, especially for those with substantial African ancestry. This decreased accuracy holds in >2500 individuals of European and African ancestry from three additional datasets. The clocks also fail to consistently identify age acceleration in admixed AD cases compared to controls. To explore potential causes for the lack of generalization of the clocks, we intersected clock CpGs with methylation, germline genetic variants, and methylation QTL (meQTL) data from global populations. We find differential methylation between African and European ancestry individuals is common for clock CpGs. Genetic variants rarely disrupt clock CpGs between populations, but a substantial fraction of clock CpGs have meQTL with significantly higher frequencies in African genetic ancestries. Our results demonstrate that methylation clocks often fail to predict age and AD risk when applied across populations and suggest avenues for improving their portability by considering differences in genetic and epigenetic patterns across human populations.",
+        "url": "https://doi.org/10.7554/elife.105343.3",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      }
+    ],
+    "特定课题组": [],
+    "通讯作者订阅": []
+  }
+}
