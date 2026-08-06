@@ -1,65 +1,89 @@
-# Feed 规则配置。每个 feed 独立匹配，命中结果在推送/看板中按 feed 分组展示。
+# 由 webadmin.py 网页编辑器生成。如需手改请保持此结构，或改用编辑器。
 #
 # 结构说明：
 #   name           必填，feed 名称
 #   journals       可选，仅在这些期刊中匹配；省略或为空 = 所有关注期刊
-#   keywords       可选，关键词规则：
-#     terms        关键词列表（大小写不敏感，支持英文/中文）
-#     match        any = 命中任意一个词即可（OR）；all = 所有词都要命中（AND）
-#     fields       在哪些字段中搜索：title / abstract / fulltext
-#                  fulltext 仅对 PMC 开放获取文章有效（见 README 限制说明）
+#   keywords       可选：
+#     terms        关键词列表（大小写不敏感）
+#     match        any = 命中任意一个词（OR）；all = 所有词都要命中（AND）
+#     fields       搜索范围：title / abstract / fulltext（fulltext 仅对 PMC 开放获取文章有效）
 #     exclude      排除词（NOT）：标题或摘要中出现即不命中
-#   first_authors  可选，第一作者姓氏/姓名片段列表
-#   last_authors   可选，最后作者（通讯/资深作者）姓氏/姓名片段列表
-#   author_match   any = 命中任一作者条件即可；all = 一作与末作条件都满足
-#
-# 说明：本文件为示例，请按需增删。任何段落均可删除，规则会相应放宽。
+#   first_authors  可选，第一作者姓名片段
+#   last_authors   可选，最后作者（通讯/资深）姓名片段
+#   author_match   any = 任一作者条件；all = 一作与末作都满足
 
 feeds:
-  - name: "突触与学习记忆"
-    journals: [Nature, Science, Cell, Neuron, Nature Neuroscience, eLife, Current Biology, PNAS]
-    keywords:
-      terms: ["synaptic plasticity", "long-term potentiation", "long-term depression",
-              "learning and memory", "memory consolidation", "hippocamp"]
-      match: any
-      fields: [title, abstract]
-      exclude: ["erratum", "retraction", "correction"]
-    first_authors: []
-    last_authors: []
-
-  - name: "神经环路与行为"
-    journals: [Nature, Science, Cell, Neuron, Nature Neuroscience, Journal of Neuroscience]
-    keywords:
-      terms: ["neural circuit", "optogenetics", "two-photon", "calcium imaging",
-              "behavioral", "connectom"]
-      match: any
-      fields: [title, abstract]
-    first_authors: []
-    last_authors: []
-
-  - name: "神经退行性疾病"
-    keywords:
-      terms: ["Alzheimer", "Parkinson", "amyotrophic lateral sclerosis", "tau",
-              "alpha-synuclein", "neurodegeneration", "amyloid"]
-      match: any
-      fields: [title, abstract]
-      exclude: ["review"]
-    first_authors: []
-    last_authors: []
-
-  # 示例：跟踪特定课题组（某第一作者 + 某最后作者，与逻辑）
-  - name: "特定课题组"
-    keywords:
-      terms: []
-      match: any
-      fields: [title, abstract]
-    first_authors: ["Sakmann"]
-    last_authors: ["Markram"]
-    author_match: all
-
-  # 示例：只看某几位通讯作者的任何文章（期刊不限）
-  - name: "通讯作者订阅"
-    keywords: {}
-    first_authors: []
-    last_authors: ["Tonegawa", "Buzsáki"]
-    author_match: any
+- name: 测试Feed-修改v2
+  journals:
+  - Nature
+  - Science
+  - Cell
+  - Neuron
+  - Nature Neuroscience
+  - eLife
+  - Current Biology
+  - PNAS
+  keywords:
+    terms:
+    - synaptic plasticity
+    - long-term potentiation
+    - long-term depression
+    - learning and memory
+    - memory consolidation
+    - hippocamp
+    - test-term-xyz
+    exclude:
+    - erratum
+    - retraction
+    - correction
+    match: any
+    fields:
+    - title
+    - abstract
+- name: 神经环路与行为
+  journals:
+  - Nature
+  - Science
+  - Cell
+  - Neuron
+  - Nature Neuroscience
+  - Journal of Neuroscience
+  keywords:
+    terms:
+    - neural circuit
+    - optogenetics
+    - two-photon
+    - calcium imaging
+    - behavioral
+    - connectom
+    match: any
+    fields:
+    - title
+    - abstract
+- name: 神经退行性疾病
+  keywords:
+    terms:
+    - Alzheimer
+    - Parkinson
+    - amyotrophic lateral sclerosis
+    - tau
+    - alpha-synuclein
+    - neurodegeneration
+    - amyloid
+    exclude:
+    - review
+    match: any
+    fields:
+    - title
+    - abstract
+- name: 特定课题组
+  first_authors:
+  - Sakmann
+  last_authors:
+  - Markram
+  author_match: all
+- name: 通讯作者订阅
+  last_authors:
+  - Tonegawa
+  - Buzsáki
+  author_match: any
