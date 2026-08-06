@@ -1,0 +1,57 @@
+# 关注期刊列表。Crossref 用 ISSN 查询，print 与 online 都配置以便覆盖提前在线文章。
+# 每个期刊的 online ISSN 对应其提前在线 (ahead of print) 文章的收录渠道。
+journals:
+  Science:
+    print: "0036-8075"
+    online: "1095-9203"
+  Nature:
+    print: "0028-0836"
+    online: "1476-4687"
+  Cell:
+    print: "0092-8674"
+    online: ""
+  Nature Neuroscience:
+    print: "1097-6256"
+    online: "1546-1726"
+  Neuron:
+    print: "0896-6273"
+    online: ""
+  Nature Communications:
+    print: "2041-1723"
+    online: "2041-1723"
+  Science Advances:
+    print: "2375-2548"
+    online: "2375-2548"
+  PNAS:
+    print: "0027-8424"
+    online: "1091-6490"
+  Cell Reports:
+    print: "2211-1247"
+    online: "2211-1247"
+  Current Biology:
+    print: "0960-9822"
+    online: ""
+  eLife:
+    print: "2050-084X"
+    online: "2050-084X"
+  Journal of Neuroscience:
+    print: "0270-6474"
+    online: "1529-2401"
+  Nature Biotechnology:
+    print: "1087-0156"
+    online: "1546-1696"
+  Nature Methods:
+    print: "1548-7091"
+    online: "1548-7105"
+  Nature Medicine:
+    print: "1078-8956"
+    online: "1546-170X"
+  Nature Protocols:
+    print: "1754-2189"
+    online: "1750-2799"
+  Annual Review of Neuroscience:
+    print: "0147-006X"
+    online: "1545-4126"
+  Nature Reviews Neuroscience:
+    print: "1471-003X"
+    online: "1471-0048"

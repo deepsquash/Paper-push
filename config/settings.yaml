@@ -1,0 +1,41 @@
+# 全局设置
+settings:
+  # 每次运行时回看多少天（提前在线文章在 Crossref 上线时间有滞后，建议 2-3 天）
+  lookback_days: 2
+  # 每个 feed 最多推送/展示多少篇（防止某日爆发式命中）
+  max_papers_per_feed: 25
+  # SQLite 数据库路径（去重记录）
+  storage: "data/seen.db"
+  # Crossref 礼貌池标识（填写你的邮箱，Crossref 会为你的请求提供更高优先级）
+  crossref_mailto: "you@example.com"
+  # 报告输出目录（本地运行时的生成位置，Actions 中会部署到 GitHub Pages）
+  report_dir: "dist"
+  # 看板公开 URL（部署到 GitHub Pages 后填写，微信推送会附上该链接）
+  # 例如 "https://<用户名>.github.io/paper-push/"
+  report_url: "https://deepsquash.github.io/Paper-push/"
+  # 排除的 DOI 前缀（期刊新闻/评论类内容，Crossref 常误标为研究文章）
+  exclude_doi_prefixes: ["10.1038/d41586"]
+
+# 微信推送（Server酱）。sendkey 从环境变量读取，不要写在这里。
+# 获取方式：https://sct.ftqq.com 登录后复制 SendKey（SCT 开头的字符串）
+# 本地运行时设置环境变量 SCT_SENDKEY；GitHub Actions 中配置同名 secret
+push:
+  wechat:
+    enabled: true
+    sendkey_env: "SCT_SENDKEY"
+    # 每天最多推送几条完整摘要（避免刷屏，其余可在网页看板查看）
+    max_papers_per_day: 20
+    # 推送分组标题，留空则用默认
+    title_prefix: "📚 文献速递"
+
+# Zotero 集成（仅本地运行模式，Actions 云端不用配置）
+# 获取：https://www.zotero.org/settings/keys 创建 API key
+# user_id 是 Zotero 个人页 URL 里的数字 ID
+zotero:
+  enabled: false
+  api_key_env: "ZOTERO_API_KEY"
+  user_id: 0
+  # 添加到的 collection key（可选，留空则不进任何分组）
+  collection_key: ""
+  # 用 feed 名称自动匹配同名 collection（需先在 Zotero 中创建好）
+  use_feed_collection: false
