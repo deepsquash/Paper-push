@@ -6,102 +6,83 @@
 
 ## 功能
 
+- **网页端完整产品**：看板 / Feed 管理 / 期刊管理 / 设置 / 手动运行（实时日志）全部在浏览器完成
 - **覆盖提前在线文章**：基于 Crossref `published-online` 日期抓取，期刊官网 Early Online 上线即收录
-- **网页可视化编辑 Feed**：运行 `python webadmin.py`，浏览器操作（见下方「网页编辑器」），无需手改配置文件
-- **灵活 feed 规则**（`config/feeds.yaml`，亦可网页编辑）：
+- **灵活 feed 规则**（网页可视化编辑，亦可手改 `config/feeds.yaml`）：
   - 关键词：标题 / 摘要 / 全文（全文仅对 PMC 开放获取文章有效）
   - 关键词逻辑：`any`（或）/ `all`（与）/ `exclude`（非）
   - 第一作者 / 最后作者（通讯/资深作者），`author_match: any/all`
   - 期刊白名单（可选，不填 = 全部关注期刊）
-- **微信即时推送**：Server酱，新命中实时送达，附原文链接
-- **网页看板**：GitHub Pages 每日更新，按 feed 分组，含命中理由、提前在线标记、摘要；
-  作者超过 6 位时展示前 3 + 后 3
-- **Zotero 一键入库**：
-  - 网页看板：点击「+ 添加至 Zotero」→ 浏览器需安装 [Zotero Connector](https://www.zotero.org/download/connectors)
-  - 本地运行：配置 API key 后自动写入（可选，见下）
+- **期刊管理**：网页增删期刊、编辑 ISSN
+- **微信即时推送**：Server酱（SendKey 在网页「设置」填写），新命中实时送达
+- **Zotero 一键入库**：看板文章卡片直接点击「添加至 Zotero」（网页配置 API key 即可，无需浏览器插件）
+- **每日定时**：内置 09:00（北京时间）自动运行；也可手动触发
 - **去重**：SQLite 记录已见 DOI，同一篇文章只推送一次
+- 作者超过 6 位时展示前 3 + 后 3
 
 ## 目录结构
 
 ```
 config/
-  journals.yaml    关注期刊与 ISSN（增删期刊改这里）
-  feeds.yaml       feed 匹配规则（用网页编辑器修改，见下）
-  settings.yaml    全局设置（回看天数、推送、Zotero）
+  journals.yaml    关注期刊与 ISSN（网页「期刊管理」编辑）
+  feeds.yaml       feed 匹配规则（网页「Feed 管理」编辑）
+  settings.yaml    全局设置（网页「设置」编辑：推送、Zotero、抓取参数）
 paperpush/
   sources/         Crossref / PubMed 数据源
   matcher.py       feed 匹配引擎
+  pipeline.py      核心流程（抓取→匹配→去重→推送→报告），CLI 与 Web 共用
   storage.py       SQLite 去重
   push/            微信推送 + HTML 看板
-  zotero.py        Zotero Web API
-main.py            主程序入口
-webadmin.py        本地网页 Feed 编辑器（重点功能，见下）
-.github/workflows/ GitHub Actions 定时任务
+  zotero.py        Zotero API
+web/               Web 前端（单页应用）
+app.py             Web 服务入口（含每日定时任务）
+main.py            CLI 入口（可选，兼容命令行运行）
+start.bat          Windows 一键启动
+.github/workflows/ GitHub Actions 定时任务（可选）
 ```
 
-## 网页编辑器（推荐）
+## 快速开始（网页完整版，推荐）
 
-不需要手改配置文件，浏览器可视化增删改 Feed：
+### 1. 一键启动
 
-```bash
-python webadmin.py
-# 自动打开 http://localhost:8080
-```
-
-- 每个 Feed 可独立设置：名称、期刊多选（不勾选 = 全部）、关键词（含 any/all 逻辑与排除词）、
-  搜索字段（标题/摘要/全文）、第一作者、最后作者、作者逻辑
-- 点「保存并推送」→ 自动写入 `config/feeds.yaml` 并 git push → GitHub Actions 下次运行即生效
-- git 身份自动从 `gh` 登录账号获取；如需自定义：`GIT_USER_NAME` / `GIT_USER_EMAIL` 环境变量
-- 默认端口 8080（Windows 保留端口段 8749-8848 不可用）；被占用时 `python webadmin.py --port 9000`
-- 不想自动推送：`python webadmin.py --no-push`（只写本地文件）
-
-## 快速开始
-
-### 1. 本地试跑
+Windows 双击 **`start.bat`**（首次自动安装依赖），或命令行：
 
 ```bash
 pip install -r requirements.txt
+python app.py          # 浏览器自动打开 http://localhost:8080
+```
+
+### 2. 使用流程
+
+打开 http://localhost:8080 后：
+
+1. **设置** 页：填写 Server酱 SendKey（微信推送）、Zotero API Key + User ID（一键入库）
+2. **Feed 管理** 页：新建/编辑筛选规则（期刊、关键词、作者、逻辑），点「保存全部 Feed」
+3. **期刊管理** 页：增删关注期刊与 ISSN（默认已含 18 个核心期刊）
+4. **运行** 页：点「立即运行」查看实时日志；之后每日 09:00（北京时间）自动运行
+5. **看板** 页：按 Feed 分组查看命中文章，一键「添加至 Zotero」
+
+> 定时任务与手动运行共用同一流程：抓取（含提前在线）→ 匹配 → 去重 → 微信推送 + Zotero 入库。
+
+### CLI 模式（可选）
+
+```bash
 python main.py --since-days 3 --no-push   # 抓取 → 匹配 → 生成 dist/index.html
 ```
 
-浏览器打开 `dist/index.html` 查看看板。
+## GitHub Actions（可选，二选一）
 
-### 2. 配置微信推送（Server酱）
+网页完整版自带每日定时任务，无需 GitHub Actions。若仍希望云端运行备份，
+保持 `.github/workflows/daily.yml` 并配置 secret `SCT_SENDKEY` 即可
+（注意：云端运行使用 push 到仓库的 feeds.yaml，与本机网页编辑的配置需保持同步）。
 
-1. 打开 [Server酱](https://sct.ftqq.com)，微信扫码登录，复制 SendKey
-2. 本地运行：
-   ```powershell
-   $env:SCT_SENDKEY = "SCTxxxxxxxxxx"
-   python main.py
-   ```
-3. GitHub Actions 运行：在仓库 Settings → Secrets and variables → Actions 中
-   添加 secret `SCT_SENDKEY`
+## Zotero 配置
 
-### 3. 部署到 GitHub Actions + Pages（每日自动运行）
-
-1. 推送代码到 GitHub 仓库（见「连接 GitHub」）
-2. 添加 secret `SCT_SENDKEY`
-3. 仓库 Settings → Pages → Source 选择 **GitHub Actions**
-4. 在 `config/settings.yaml` 中把 `report_url` 改为
-   `https://<你的用户名>.github.io/<仓库名>/`
-5. 手动触发测试：Actions → Daily paper push → Run workflow
-6. 每日 09:00（北京时间）自动运行
-
-### 4. Zotero（可选，本地模式）
-
-1. [Zotero API key](https://www.zotero.org/settings/keys) 创建 key（允许读写）
-2. 找到你的 user_id（zotero.org 个人页 URL 中的数字）
-3. 编辑 `config/settings.yaml` 的 `zotero` 段，设置 `enabled: true`、
-   `user_id: <你的ID>`，可选 `collection_key`（固定分组）或
-   `use_feed_collection: true`（自动归入与 feed 同名的分组，需先在 Zotero 建好）
-4. 本地运行：
-   ```powershell
-   $env:ZOTERO_API_KEY = "xxxx"
-   python main.py
-   ```
-
-> 注意：Zotero API key 属于个人凭据，**不要**配置到 GitHub Actions，
-> 云端看板请用 Zotero Connector 插件方式一键添加。
+1. [创建 API key](https://www.zotero.org/settings/keys)（允许读写）
+2. User ID：zotero.org 个人页 URL 中的数字
+3. 「设置」页填入并启用；可选：固定 Collection Key，或「按 Feed 名自动归类」
+   （需先在 Zotero 中建好同名分组）
+4. 配置后可选择：看板手动「添加至 Zotero」或「设置」页启用自动入库（每次运行新命中自动添加）
 
 ## Feed 规则详解
 

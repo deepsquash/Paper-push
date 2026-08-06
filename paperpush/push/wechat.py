@@ -31,9 +31,9 @@ def push_wechat(
     report_url: str = "",
 ) -> bool:
     """推送微信消息。feed_results: [(feed_name, papers)]，已按 feed 分组排序。"""
-    sendkey = os.environ.get(settings.sendkey_env, "").strip()
+    sendkey = settings.effective_sendkey
     if not settings.enabled or not sendkey:
-        log.info("微信推送未启用或缺少 %s 环境变量，跳过", settings.sendkey_env)
+        log.info("微信推送未启用或缺少 SendKey（环境变量 %s 或网页设置），跳过", settings.sendkey_env)
         return False
 
     total = sum(len(papers) for _, papers in feed_results)

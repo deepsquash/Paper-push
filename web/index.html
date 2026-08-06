@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PaperPush 文献速递</title>
+<style>
+:root { --bg:#0f1419; --card:#1a2029; --fg:#e6e9ee; --muted:#9aa4b2; --accent:#4da3ff;
+        --danger:#ff5c5c; --ok:#4ec94e; --border:#262d38; --tag:#253244; --tag-fg:#8fc4ff;
+        --early:#ffb84d; --new:#7ee07e; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg);
+       font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; }
+header { padding:16px 28px; border-bottom:1px solid var(--border);
+         display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+header h1 { margin:0; font-size:20px; }
+nav { display:flex; gap:4px; margin-top:10px; flex-wrap:wrap; }
+nav button { background:transparent; color:var(--muted); border:1px solid transparent;
+             border-radius:8px; padding:8px 16px; font-size:14px; cursor:pointer; }
+nav button.active { color:var(--accent); border-color:var(--accent); }
+main { max-width:960px; margin:0 auto; padding:20px 16px 80px; }
+.tab { display:none; }
+.tab.active { display:block; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:10px;
+        padding:16px 18px; margin:14px 0; }
+.paper { background:var(--card); border:1px solid var(--border); border-radius:10px;
+         padding:14px 16px; margin:10px 0; }
+.paper .title { font-size:15px; font-weight:600; line-height:1.45; }
+.paper .title a { color:var(--fg); text-decoration:none; }
+.paper .title a:hover { color:var(--accent); }
+.meta { color:var(--muted); font-size:12.5px; margin:6px 0; }
+.badge { display:inline-block; font-size:11px; border-radius:4px; padding:1px 7px; margin-left:6px; }
+.early { background:rgba(178,106,0,.18); color:var(--early); border:1px solid #b26a00; }
+.new   { background:rgba(46,125,50,.18); color:var(--new); border:1px solid #2e7d32; }
+.reason { display:inline-block; background:var(--tag); color:var(--tag-fg); font-size:11.5px;
+          border-radius:10px; padding:2px 9px; margin:2px 4px 2px 0; }
+.abstract { color:#c3cad4; font-size:13px; line-height:1.6; margin:8px 0 10px;
+            display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.abstract.open { -webkit-line-clamp:unset; }
+.actions { display:flex; gap:8px; flex-wrap:wrap; }
+button { background:var(--accent); color:#0b1520; border:none; border-radius:6px;
+         padding:8px 16px; font-size:13px; font-weight:600; cursor:pointer; }
+button:hover { filter:brightness(1.1); }
+button.ghost { background:transparent; border:1px solid #3a4454; color:var(--fg); font-weight:normal; }
+button.danger { background:transparent; border:1px solid #5a2d2d; color:var(--danger); font-weight:normal; }
+button:disabled { opacity:.5; cursor:not-allowed; }
+.btn-zotero { background:var(--accent); }
+.btn-link { background:transparent; border:1px solid #3a4454; color:var(--fg); text-decoration:none;
+            padding:6px 12px; border-radius:6px; font-size:12.5px; display:inline-block; }
+label { display:block; font-size:12px; color:var(--muted); margin:10px 0 4px; }
+input[type=text], input[type=number], input[type=password], textarea, select {
+        width:100%; background:#121826; color:var(--fg); border:1px solid #2c3545;
+        border-radius:6px; padding:7px 10px; font-size:13px; font-family:inherit; }
+textarea { min-height:64px; resize:vertical; }
+.row { display:flex; gap:14px; flex-wrap:wrap; }
+.row > div { flex:1; min-width:200px; }
+.checkgroup { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; }
+.checkgroup label { display:inline-flex; align-items:center; gap:5px; margin:0; cursor:pointer; }
+.radio { display:inline-flex; gap:14px; align-items:center; font-size:13px; margin-top:6px; flex-wrap:wrap; }
+.radio label { display:inline-flex; align-items:center; gap:4px; margin:0; cursor:pointer; }
+#toast { position:fixed; right:20px; bottom:20px; background:#26303f; border:1px solid var(--border);
+         border-radius:8px; padding:10px 16px; font-size:13px; display:none; max-width:420px; z-index:99; }
+#toast.ok { border-color:var(--ok); color:var(--ok); }
+#toast.err { border-color:var(--danger); color:var(--danger); }
+.empty { color:var(--muted); text-align:center; padding:40px 0; }
+.hint { color:var(--muted); font-size:12px; line-height:1.7; }
+.statgrid { display:flex; gap:10px; flex-wrap:wrap; margin:12px 0; }
+.stat { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:8px 16px; font-size:13px; }
+.stat b { color:var(--accent); font-size:16px; }
+.logbox { background:#0a0e14; border:1px solid var(--border); border-radius:8px;
+          padding:12px; font-family:Consolas,monospace; font-size:12px; line-height:1.6;
+          height:380px; overflow-y:auto; white-space:pre-wrap; color:#b8c4d4; }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th, td { border-bottom:1px solid var(--border); padding:8px 10px; text-align:left; }
+th { color:var(--muted); font-weight:normal; font-size:12px; }
+td input { background:transparent; border:1px solid #2c3545; border-radius:4px; padding:4px 8px; }
+.switch { display:inline-flex; align-items:center; gap:8px; cursor:pointer; font-size:13px; }
+.switch input { width:auto; }
+.fhead { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.fhead .actions { display:flex; gap:8px; }
+h2 { font-size:18px; border-bottom:1px solid var(--border); padding-bottom:8px; }
+h2 .cnt { color:var(--muted); font-weight:normal; font-size:13px; }
+.running-dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--ok);
+               animation:blink 1s infinite; margin-right:6px; }
+@keyframes blink { 50% { opacity:.2; } }
+@media (prefers-color-scheme: light) {
+  :root { --bg:#f6f7f9; --card:#fff; --fg:#1c2430; --muted:#68727f; --tag:#e8eef6; --tag-fg:#2563a8; }
+  body { background:var(--bg); }
+  .card, .paper, .stat, .logbox { border-color:#dfe4ea; }
+  .abstract { color:#4a5564; }
+  .logbox { background:#f0f2f5; color:#333; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>📚 PaperPush 文献速递</h1>
+  <nav>
+    <button class="active" data-tab="dashboard" onclick="showTab('dashboard')">看板</button>
+    <button data-tab="feeds" onclick="showTab('feeds')">Feed 管理</button>
+    <button data-tab="journals" onclick="showTab('journals')">期刊管理</button>
+    <button data-tab="settings" onclick="showTab('settings')">设置</button>
+    <button data-tab="run" onclick="showTab('run')">运行</button>
+  </nav>
+</header>
+<main>
+
+<!-- ============ 看板 ============ -->
+<div class="tab active" id="tab-dashboard">
+  <div id="dash-status"></div>
+  <div id="dash-content"></div>
+</div>
+
+<!-- ============ Feed 管理 ============ -->
+<div class="tab" id="tab-feeds">
+  <p class="hint">Feed 是文献筛选规则：期刊、关键词、第一/最后作者均为可选项，
+  不勾选期刊 = 关注全部期刊。保存后立即写入配置，下次运行生效。</p>
+  <div style="display:flex; gap:10px; margin:12px 0; flex-wrap:wrap">
+    <button onclick="addFeed()">＋ 新建 Feed</button>
+    <button onclick="saveFeeds()">💾 保存全部 Feed</button>
+    <button class="ghost" onclick="loadFeeds()">重新加载</button>
+  </div>
+  <div id="feed-cards"></div>
+  <div class="empty" id="feed-empty" style="display:none">还没有任何 Feed，点击「＋ 新建 Feed」开始</div>
+</div>
+
+<!-- ============ 期刊管理 ============ -->
+<div class="tab" id="tab-journals">
+  <p class="hint">管理关注期刊。Crossref 按 ISSN 检索：print 为纸质版 ISSN，online 为电子版 ISSN。
+  期刊以提前在线（ahead of print）文章会在 Crossref 以 online 记录收录；部分期刊 online ISSN 未注册到
+  Crossref（查询会 404），留空即可——其文章挂在 print ISSN 下。删除行将移除该期刊。</p>
+  <div style="display:flex; gap:10px; margin:12px 0; flex-wrap:wrap">
+    <button onclick="addJournalRow()">＋ 添加期刊</button>
+    <button onclick="saveJournals()">💾 保存期刊</button>
+    <button class="ghost" onclick="loadJournals()">重新加载</button>
+  </div>
+  <div class="card" style="padding:10px 18px">
+    <table id="journal-table">
+      <thead><tr><th>期刊名称</th><th>print ISSN</th><th>online ISSN</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ============ 设置 ============ -->
+<div class="tab" id="tab-settings">
+  <div class="card">
+    <h2 style="border:none">微信推送（Server酱）</h2>
+    <label>SendKey（SCT 开头的字符串，<a href="https://sct.ftqq.com" target="_blank" style="color:var(--accent)">Server酱</a> 登录后获取）</label>
+    <input type="password" id="set-sendkey" placeholder="SCTxxxxx">
+    <div class="switch" style="margin-top:10px"><input type="checkbox" id="set-push-enabled"> 启用微信推送</div>
+    <div class="row" style="margin-top:6px">
+      <div><label>每天最多推送条数</label><input type="number" id="set-max-day" min="1"></div>
+      <div><label>推送标题前缀</label><input type="text" id="set-title-prefix"></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2 style="border:none">Zotero 一键入库</h2>
+    <div class="switch"><input type="checkbox" id="set-zotero-enabled"> 启用 Zotero 集成（看板文章卡片出现「添加至 Zotero」按钮）</div>
+    <div class="row" style="margin-top:6px">
+      <div>
+        <label>API Key（<a href="https://www.zotero.org/settings/keys" target="_blank" style="color:var(--accent)">创建</a>，勾选读写权限）</label>
+        <input type="password" id="set-zotero-key" placeholder="xxxxxxxxxxxxxxxx">
+      </div>
+      <div><label>User ID（zotero.org 个人页 URL 中的数字）</label><input type="number" id="set-zotero-uid"></div>
+    </div>
+    <div class="row">
+      <div>
+        <label>固定 Collection Key（可选，留空则不归类）</label>
+        <input type="text" id="set-zotero-coll" placeholder="例如 9R4XABCD（Zotero 分组 URL 中）">
+      </div>
+      <div>
+        <label>按 Feed 名自动归类</label>
+        <div class="switch" style="margin-top:8px"><input type="checkbox" id="set-zotero-feedcoll"> 添加时归入与 Feed 同名的 Collection</div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h2 style="border:none">抓取设置</h2>
+    <div class="row">
+      <div><label>回看天数（提前在线文章收录有滞后，建议 2-3）</label><input type="number" id="set-lookback" min="1"></div>
+      <div><label>每个 Feed 最多保留文章数</label><input type="number" id="set-max-feed" min="1"></div>
+    </div>
+    <div class="row">
+      <div><label>Crossref 联系邮箱（礼貌池标识，提升请求优先级）</label><input type="text" id="set-mailto" placeholder="you@example.com"></div>
+      <div><label>排除的 DOI 前缀（期刊新闻/评论类，逗号分隔）</label><input type="text" id="set-exclude" placeholder="10.1038/d41586"></div>
+    </div>
+  </div>
+  <button onclick="saveSettings()" style="margin-top:14px">💾 保存设置</button>
+</div>
+
+<!-- ============ 运行 ============ -->
+<div class="tab" id="tab-run">
+  <div class="card">
+    <h2 style="border:none">手动运行</h2>
+    <p class="hint">点击后执行完整流程：Crossref 抓取（含提前在线）→ PubMed 摘要补充 → Feed 匹配 →
+    去重 → 微信推送 + 看板更新 + Zotero 自动入库（如启用）。每日 09:00（北京时间）自动运行。</p>
+    <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap">
+      <button id="btn-run" onclick="startRun()">▶ 立即运行</button>
+      <span id="run-status" style="color:var(--muted); font-size:13px"></span>
+    </div>
+  </div>
+  <div class="card">
+    <h2 style="border:none">运行日志 <span class="cnt" id="log-count"></span></h2>
+    <div class="logbox" id="logbox"></div>
+  </div>
+  <div class="card">
+    <h2 style="border:none">历史记录</h2>
+    <table id="history-table">
+      <thead><tr><th>开始时间</th><th>来源</th><th>抓取</th><th>新增</th><th>Feed 命中</th><th>推送</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+</main>
+<div id="toast"></div>
+<script>
+let JOURNALS = [];
+let feeds = [];
+let journals = [];
+let LOG_CURSOR = 0;
+
+function esc(s){ return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+function toast(msg, ok=true){
+  const t=document.getElementById("toast");
+  t.textContent=msg; t.className=ok?"ok":"err"; t.style.display="block";
+  clearTimeout(t._h); t._h=setTimeout(()=>t.style.display="none",5000);
+}
+async function api(url, opts){
+  const r = await fetch(url, opts);
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.message || ("HTTP "+r.status));
+  return j;
+}
+function showTab(name){
+  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active", b.dataset.tab===name));
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active", t.id==="tab-"+name));
+  if (name==="feeds") loadFeeds();
+  if (name==="journals") loadJournals();
+  if (name==="settings") loadSettings();
+  if (name==="run") { refreshState(); startLogPoll(); }
+  if (name==="dashboard") refreshState();
+}
+function fmtAuthors(names){
+  if (!names || names.length===0) return "—";
+  if (names.length<=6) return names.join(", ");
+  return names.slice(0,3).join(", ") + " … " + names.slice(-3).join(", ") + `（共 ${names.length} 位作者）`;
+}
+
+/* ================= 看板 ================= */
+async function refreshState(){
+  try {
+    const s = await api("/api/state");
+    const dash = document.getElementById("dash-status");
+    if (s.running) {
+      dash.innerHTML = `<span class="running-dot"></span>任务运行中（来源：${esc(s.source)}，开始于 ${esc(s.started_at)}）…`;
+    } else {
+      const lr = s.last_result || s.latest_run?.result;
+      const run = s.latest_run;
+      if (lr) {
+        dash.innerHTML = `<div class="statgrid">
+          <div class="stat">最近运行：<b>${esc(run?.started_at || "")}</b></div>
+          <div class="stat">抓取 <b>${lr.fetched??0}</b> 篇</div>
+          <div class="stat">提前在线 <b>${lr.early??0}</b> 篇</div>
+          <div class="stat">新增 <b>${lr.new??0}</b> 篇</div>
+          <div class="stat">推送 ${lr.pushed? '<b style="color:var(--ok)">成功</b>':'<span style="color:var(--muted)">—</span>'}</div>
+          ${lr.error? `<div class="stat" style="color:var(--danger)">错误：${esc(lr.error)}</div>`:""}
+        </div>`;
+      } else {
+        dash.innerHTML = `<p class="empty">还没有运行记录，去「运行」页点击「立即运行」，或等待每日 09:00 自动运行</p>`;
+      }
+    }
+    const details = (s.last_result || s.latest_run?.result)?.details || {};
+    const keys = Object.keys(details);
+    const box = document.getElementById("dash-content");
+    if (!keys.length) { box.innerHTML = ""; return; }
+    box.innerHTML = keys.map(fname => `
+      <section>
+        <h2>${esc(fname)} <span class="cnt">（${details[fname].length} 篇）</span></h2>
+        ${details[fname].map(p=>paperCard(p, fname)).join("") || '<div class="empty">本 Feed 暂无命中</div>'}
+      </section>`).join("");
+  } catch(e){ toast("加载看板失败："+e.message, false); }
+}
+function paperCard(p, feed){
+  const badges = (p.is_early_access?'<span class="badge early">🟢 提前在线</span>':"") +
+                 (p.is_new?'<span class="badge new">NEW</span>':"");
+  const reasons = (p.reasons||[]).map(r=>`<span class="reason">${esc(r)}</span>`).join("") || "";
+  return `<div class="paper">
+    <div class="title"><a href="${esc(p.url)}" target="_blank">${esc(p.title)}</a>${badges}</div>
+    <div class="meta">${esc(p.journal)} · 在线发布 ${esc(p.published_online||"—")} · ${esc(fmtAuthors(p.authors))}</div>
+    <div>${reasons}</div>
+    <div class="abstract" onclick="this.classList.toggle('open')" title="点击展开/收起摘要">${esc(p.abstract||"(无摘要，点击标题查看原文)")}</div>
+    <div class="actions">
+      <a class="btn-link" href="${esc(p.url)}" target="_blank">打开原文</a>
+      <button class="btn-zotero" data-doi="${esc(p.doi)}" data-feed="${esc(feed)}">＋ 添加至 Zotero</button>
+    </div>
+  </div>`;
+}
+
+document.addEventListener("click", e => {
+  const btn = e.target.closest(".btn-zotero");
+  if (!btn) return;
+  zoteroAdd(btn.dataset.doi, btn.dataset.feed);
+});
+
+/* ================= Feed 管理 ================= */
+function newFeed(){ return {name:"", journals:[], keywords:{terms:[],match:"any",fields:["title","abstract"],exclude:[]}, first_authors:[],last_authors:[],author_match:"any"}; }
+function feedCard(f,i){
+  const allSel = f.journals.length===0;
+  const jCheck = JOURNALS.map(j=>`<label><input type="checkbox" class="jsel" data-i="${i}" data-j="${esc(j)}" ${allSel||f.journals.includes(j)?"checked":""}> ${esc(j)}</label>`).join("");
+  const fCheck = ["title","abstract","fulltext"].map(fd=>{
+    const label = fd==="title"?"标题":fd==="abstract"?"摘要":"全文(PMC)";
+    return `<label><input type="checkbox" class="fsel" data-i="${i}" data-f="${fd}" ${(f.keywords.fields||[]).includes(fd)?"checked":""}> ${label}</label>`;
+  }).join("");
+  return `<div class="card" data-i="${i}">
+    <div class="fhead">
+      <b>${esc(f.name||"(未命名)")}</b>
+      <div class="actions">
+        <button class="ghost" onclick="moveFeed(${i},-1)">↑</button>
+        <button class="ghost" onclick="moveFeed(${i},1)">↓</button>
+        <button class="danger" onclick="delFeed(${i})">删除</button>
+      </div>
+    </div>
+    <label>Feed 名称</label>
+    <input type="text" class="fname" data-i="${i}" value="${esc(f.name)}" placeholder="例如：突触与学习记忆">
+    <label>期刊（不勾选 = 全部关注期刊）
+      <span style="float:right"><a href="javascript:setAllJ(${i},true)" style="color:var(--accent)">全选</a> / <a href="javascript:setAllJ(${i},false)" style="color:var(--accent)">全不选</a></span></label>
+    <div class="checkgroup">${jCheck}</div>
+    <div class="row">
+      <div>
+        <label>关键词（每行一个，不区分大小写）</label>
+        <textarea class="terms" data-i="${i}" placeholder="synaptic plasticity&#10;hippocamp">${esc((f.keywords.terms||[]).join("\n"))}</textarea>
+        <div class="radio">
+          <label><input type="radio" class="km" data-i="${i}" name="km${i}" value="any" ${f.keywords.match!=="all"?"checked":""}> 任一命中(OR)</label>
+          <label><input type="radio" class="km" data-i="${i}" name="km${i}" value="all" ${f.keywords.match==="all"?"checked":""}> 全部命中(AND)</label>
+        </div>
+        <label>在哪些字段搜索</label>
+        <div class="checkgroup">${fCheck}</div>
+      </div>
+      <div>
+        <label>排除词（标题/摘要出现即排除）</label>
+        <textarea class="excl" data-i="${i}" placeholder="review">${esc((f.keywords.exclude||[]).join("\n"))}</textarea>
+        <label>第一作者（姓名或姓氏片段，每行一个）</label>
+        <textarea class="fa" data-i="${i}" placeholder="Sakmann">${esc((f.first_authors||[]).join("\n"))}</textarea>
+        <label>最后作者（通讯/资深）</label>
+        <textarea class="la" data-i="${i}" placeholder="Markram">${esc((f.last_authors||[]).join("\n"))}</textarea>
+        <div class="radio">
+          <label><input type="radio" class="am" data-i="${i}" name="am${i}" value="any" ${f.author_match!=="all"?"checked":""}> 任一作者条件</label>
+          <label><input type="radio" class="am" data-i="${i}" name="am${i}" value="all" ${f.author_match==="all"?"checked":""}> 一作+末作都需命中</label>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+function renderFeeds(){
+  document.getElementById("feed-cards").innerHTML = feeds.map(feedCard).join("");
+  document.getElementById("feed-empty").style.display = feeds.length?"none":"block";
+}
+async function loadFeeds(){
+  try {
+    const d = await api("/api/feeds");
+    JOURNALS = d.journals; feeds = d.feeds; renderFeeds();
+  } catch(e){ toast("加载 Feed 失败："+e.message, false); }
+}
+function setAllJ(i,on){ document.querySelectorAll(`.jsel[data-i="${i}"]`).forEach(c=>c.checked=on); }
+function collectFeed(i){
+  const root = document.querySelector(`.card[data-i="${i}"]`);
+  const q = s => root.querySelector(s);
+  const split = v => v.value.split(/[\n,，;；]+/).map(x=>x.trim()).filter(Boolean);
+  return {
+    name: q(".fname").value.trim(),
+    journals: [...root.querySelectorAll(".jsel")].filter(c=>c.checked).map(c=>c.dataset.j),
+    keywords: {
+      terms: split(q(".terms")),
+      match: q(".km:checked")?.value || "any",
+      fields: [...root.querySelectorAll(".fsel")].filter(c=>c.checked).map(c=>c.dataset.f),
+      exclude: split(q(".excl")),
+    },
+    first_authors: split(q(".fa")),
+    last_authors: split(q(".la")),
+    author_match: q(".am:checked")?.value || "any",
+  };
+}
+function addFeed(){ feeds.push(newFeed()); renderFeeds(); }
+function delFeed(i){ feeds.splice(i,1); renderFeeds(); }
+function moveFeed(i,d){ const t=feeds.splice(i,1)[0]; feeds.splice(Math.min(Math.max(i+d,0),feeds.length),0,t); renderFeeds(); }
+async function saveFeeds(){
+  try {
+    const data = feeds.map((_,i)=>collectFeed(i));
+    if (!data.every(f=>f.name)) throw new Error("存在未命名 Feed，请填写名称");
+    const r = await api("/api/feeds", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({feeds:data})});
+    toast("✅ "+r.message);
+    await loadFeeds();
+  } catch(e){ toast("❌ 保存失败："+e.message, false); }
+}
+
+/* ================= 期刊管理 ================= */
+async function loadJournals(){
+  try {
+    const d = await api("/api/journals");
+    journals = d.journals; renderJournals();
+  } catch(e){ toast("加载期刊失败："+e.message, false); }
+}
+function renderJournals(){
+  document.querySelector("#journal-table tbody").innerHTML = journals.map((j,i)=>`
+    <tr data-i="${i}">
+      <td><input type="text" class="jname" data-i="${i}" value="${esc(j.name)}" placeholder="期刊名称"></td>
+      <td><input type="text" class="jprint" data-i="${i}" value="${esc(j.print)}" placeholder="print ISSN"></td>
+      <td><input type="text" class="jonline" data-i="${i}" value="${esc(j.online)}" placeholder="online ISSN（可留空）"></td>
+      <td><button class="danger" onclick="delJournal(${i})">删除</button></td>
+    </tr>`).join("");
+}
+function addJournalRow(){ journals.push({name:"",print:"",online:""}); renderJournals(); }
+function delJournal(i){ journals.splice(i,1); renderJournals(); }
+async function saveJournals(){
+  try {
+    const data = journals.map((_,i)=>{
+      const root = document.querySelector(`#journal-table tr[data-i="${i}"]`);
+      return {name: root.querySelector(".jname").value.trim(), print: root.querySelector(".jprint").value.trim(), online: root.querySelector(".jonline").value.trim()};
+    });
+    const r = await api("/api/journals", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({journals:data})});
+    toast("✅ "+r.message);
+    await loadJournals(); await loadFeeds();
+  } catch(e){ toast("❌ 保存失败："+e.message, false); }
+}
+
+/* ================= 设置 ================= */
+async function loadSettings(){
+  try {
+    const s = await api("/api/settings");
+    document.getElementById("set-sendkey").value = s.wechat.sendkey||"";
+    document.getElementById("set-push-enabled").checked = s.wechat.enabled!==false;
+    document.getElementById("set-max-day").value = s.wechat.max_papers_per_day||20;
+    document.getElementById("set-title-prefix").value = s.wechat.title_prefix||"📚 文献速递";
+    document.getElementById("set-zotero-enabled").checked = !!s.zotero.enabled;
+    document.getElementById("set-zotero-key").value = s.zotero.api_key||"";
+    document.getElementById("set-zotero-uid").value = s.zotero.user_id||"";
+    document.getElementById("set-zotero-coll").value = s.zotero.collection_key||"";
+    document.getElementById("set-zotero-feedcoll").checked = !!s.zotero.use_feed_collection;
+    document.getElementById("set-lookback").value = s.lookback_days||2;
+    document.getElementById("set-max-feed").value = s.max_papers_per_feed||25;
+    document.getElementById("set-mailto").value = s.crossref_mailto||"";
+    document.getElementById("set-exclude").value = (s.exclude_doi_prefixes||[]).join(",");
+  } catch(e){ toast("加载设置失败："+e.message, false); }
+}
+async function saveSettings(){
+  try {
+    const payload = {
+      lookback_days: +document.getElementById("set-lookback").value,
+      max_papers_per_feed: +document.getElementById("set-max-feed").value,
+      crossref_mailto: document.getElementById("set-mailto").value.trim(),
+      exclude_doi_prefixes: document.getElementById("set-exclude").value.split(/[,，]+/).map(x=>x.trim()).filter(Boolean),
+      wechat: {
+        enabled: document.getElementById("set-push-enabled").checked,
+        sendkey: document.getElementById("set-sendkey").value.trim(),
+        max_papers_per_day: +document.getElementById("set-max-day").value,
+        title_prefix: document.getElementById("set-title-prefix").value.trim(),
+      },
+      zotero: {
+        enabled: document.getElementById("set-zotero-enabled").checked,
+        api_key: document.getElementById("set-zotero-key").value.trim(),
+        user_id: +document.getElementById("set-zotero-uid").value,
+        collection_key: document.getElementById("set-zotero-coll").value.trim(),
+        use_feed_collection: document.getElementById("set-zotero-feedcoll").checked,
+      },
+    };
+    const r = await api("/api/settings", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload)});
+    toast("✅ "+r.message);
+  } catch(e){ toast("❌ 保存失败："+e.message, false); }
+}
+
+/* ================= 运行 ================= */
+async function startRun(){
+  const btn = document.getElementById("btn-run");
+  btn.disabled = true;
+  try {
+    const r = await api("/api/run", {method:"POST"});
+    toast("✅ "+r.message);
+    document.getElementById("logbox").innerHTML = "";
+    LOG_CURSOR = 0;
+    pollState();
+  } catch(e){ toast("❌ "+e.message, false); btn.disabled=false; }
+}
+let pollTimer = null;
+function pollState(){
+  clearTimeout(pollTimer);
+  fetch("/api/state").then(r=>r.json()).then(s=>{
+    const el = document.getElementById("run-status");
+    el.innerHTML = s.running
+      ? `<span class="running-dot"></span>运行中…（${esc(s.source)}，${esc(s.started_at)}）`
+      : "空闲";
+    document.getElementById("btn-run").disabled = s.running;
+    if (!s.running) { refreshState(); renderHistory(s.history); }
+  }).catch(()=>{});
+  pollTimer = setTimeout(pollState, 3000);
+}
+let logTimer = null;
+function startLogPoll(){
+  clearTimeout(logTimer);
+  fetch("/api/logs?since="+LOG_CURSOR).then(r=>r.json()).then(d=>{
+    const box = document.getElementById("logbox");
+    if (d.logs.length) {
+      box.appendChild(document.createTextNode(d.logs.join("\n")+"\n"));
+      box.scrollTop = box.scrollHeight;
+      LOG_CURSOR = d.total;
+      document.getElementById("log-count").textContent = `（${d.total} 行）`;
+    }
+  }).catch(()=>{});
+  logTimer = setTimeout(startLogPoll, 2000);
+}
+function renderHistory(h){
+  document.querySelector("#history-table tbody").innerHTML = (h||[]).map(r=>`
+    <tr>
+      <td>${esc(r.started_at)}</td>
+      <td>${esc(r.source)}</td>
+      <td>${r.fetched}</td>
+      <td>${r.new}</td>
+      <td>${Object.entries(r.feed_counts||{}).map(([k,v])=>`${esc(k)}:${v}`).join("  ")||"—"}</td>
+      <td>${r.ok?"✅":"❌"}</td>
+    </tr>`).join("") || `<tr><td colspan="6" class="empty">暂无记录</td></tr>`;
+}
+
+/* ================= Zotero ================= */
+async function zoteroAdd(doi, feed){
+  try {
+    const r = await api("/api/zotero/add", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({doi, feed})});
+    toast("✅ "+r.message);
+  } catch(e){ toast("❌ "+e.message, false); }
+}
+
+refreshState();
+</script>
+</body>
+</html>

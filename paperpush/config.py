@@ -17,21 +17,27 @@ DEFAULT_CONFIG_DIR = ROOT_DIR / "config"
 class WeChatSettings:
     enabled: bool = True
     sendkey_env: str = "SCT_SENDKEY"
+    sendkey: str = ""  # 网页设置页保存的 key（环境变量优先）
     max_papers_per_day: int = 20
     title_prefix: str = "📚 文献速递"
+
+    @property
+    def effective_sendkey(self) -> str:
+        return os.environ.get(self.sendkey_env, "").strip() or self.sendkey.strip()
 
 
 @dataclass
 class ZoteroSettings:
     enabled: bool = False
     api_key_env: str = "ZOTERO_API_KEY"
+    api_key: str = ""  # 网页设置页保存的 key（环境变量优先）
     user_id: int = 0
     collection_key: str = ""
     use_feed_collection: bool = False
 
     @property
-    def api_key(self) -> str:
-        return os.environ.get(self.api_key_env, "")
+    def effective_api_key(self) -> str:
+        return os.environ.get(self.api_key_env, "").strip() or self.api_key.strip()
 
 
 @dataclass
@@ -92,12 +98,14 @@ def load_settings(config_dir: Path = DEFAULT_CONFIG_DIR) -> Settings:
         wechat=WeChatSettings(
             enabled=bool(push.get("enabled", True)),
             sendkey_env=str(push.get("sendkey_env", "SCT_SENDKEY")),
+            sendkey=str(push.get("sendkey", "")),
             max_papers_per_day=int(push.get("max_papers_per_day", 20)),
             title_prefix=str(push.get("title_prefix", "📚 文献速递")),
         ),
         zotero=ZoteroSettings(
             enabled=bool(zotero.get("enabled", False)),
             api_key_env=str(zotero.get("api_key_env", "ZOTERO_API_KEY")),
+            api_key=str(zotero.get("api_key", "")),
             user_id=int(zotero.get("user_id", 0)),
             collection_key=str(zotero.get("collection_key", "")),
             use_feed_collection=bool(zotero.get("use_feed_collection", False)),

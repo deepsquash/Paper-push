@@ -10,7 +10,7 @@ from typing import List
 
 import requests
 
-from ..config import ZoteroSettings
+from .config import ZoteroSettings
 
 log = logging.getLogger(__name__)
 
@@ -22,10 +22,10 @@ def add_paper(settings: ZoteroSettings, doi: str, feed_name: str = "") -> str:
 
     返回新创建的 item key（字符串）；失败或未启用返回空字符串。
     """
-    if not settings.enabled or not settings.api_key:
+    if not settings.enabled or not settings.effective_api_key:
         log.info("Zotero 未启用或缺少 API key，跳过添加 %s", doi)
         return ""
-    headers = {"Zotero-API-Key": settings.api_key, "Content-Type": "application/json"}
+    headers = {"Zotero-API-Key": settings.effective_api_key, "Content-Type": "application/json"}
     item = {"contentType": "fulltext", "content": doi}
     try:
         resp = requests.post(f"{API}/users/{settings.user_id}/items", json=item, headers=headers, timeout=60)
@@ -44,12 +44,12 @@ def add_paper(settings: ZoteroSettings, doi: str, feed_name: str = "") -> str:
 
 def list_collections(settings: ZoteroSettings) -> List[dict]:
     """列出所有 collection 及其名称（用于按 feed 名匹配）。"""
-    if not settings.api_key:
+    if not settings.effective_api_key:
         return []
     try:
         resp = requests.get(
             f"{API}/users/{settings.user_id}/collections",
-            headers={"Zotero-API-Key": settings.api_key},
+            headers={"Zotero-API-Key": settings.effective_api_key},
             params={"limit": 100},
             timeout=30,
         )
@@ -66,7 +66,7 @@ def add_to_collection(settings: ZoteroSettings, item_key: str, collection_key: s
         resp = requests.post(
             f"{API}/users/{settings.user_id}/collections/{collection_key}/items",
             json=[{"itemKey": item_key}],
-            headers={"Zotero-API-Key": settings.api_key, "Content-Type": "application/json"},
+            headers={"Zotero-API-Key": settings.effective_api_key, "Content-Type": "application/json"},
             timeout=30,
         )
         resp.raise_for_status()
