@@ -16,10 +16,13 @@ API_TMPL = "https://sctapi.ftqq.com/{sendkey}.send"
 
 
 def _author_line(p: Paper, max_n: int = 6) -> str:
-    names = [a.full_name for a in p.authors if a.full_name][:max_n]
-    if len(p.authors) > max_n:
-        names.append("et al.")
-    return ", ".join(names)
+    """作者展示：6 位以内全显示，超过 6 位显示前 3 + 后 3。"""
+    names = [a.full_name for a in p.authors if a.full_name]
+    if not names:
+        return ""
+    if len(names) <= max_n:
+        return ", ".join(names)
+    return f"{', '.join(names[:3])} … {', '.join(names[-3:])}（共 {len(names)} 位作者）"
 
 
 def push_wechat(

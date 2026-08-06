@@ -60,6 +60,16 @@ def _fmt_date(d: str) -> str:
     return d or "—"
 
 
+def _author_names(paper: Paper) -> str:
+    """作者展示：6 位以内全显示，超过 6 位显示前 3 + 后 3。"""
+    names = [a.full_name for a in paper.authors if a.full_name]
+    if not names:
+        return "—"
+    if len(names) <= 6:
+        return ", ".join(names)
+    return f"{', '.join(names[:3])} … {', '.join(names[-3:])}（共 {len(names)} 位作者）"
+
+
 def render_report(
     feed_results: Dict[str, List[Tuple[Paper, MatchResult]]],
     report_dir: str,
@@ -87,9 +97,7 @@ def render_report(
             reasons = "".join(
                 f'<span class="reason">{html.escape(r)}</span>' for r in match.reasons
             ) or '<span class="reason">feed 命中</span>'
-            authors = ", ".join(a.full_name for a in paper.authors if a.full_name) or "—"
-            if len(authors) > 220:
-                authors = authors[:220] + " …"
+            authors = _author_names(paper)
             doi_url = f"https://doi.org/{paper.doi}"
             cards.append(
                 f'<div class="paper">'

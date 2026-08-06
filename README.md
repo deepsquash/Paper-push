@@ -7,13 +7,15 @@
 ## 功能
 
 - **覆盖提前在线文章**：基于 Crossref `published-online` 日期抓取，期刊官网 Early Online 上线即收录
-- **灵活 feed 规则**（`config/feeds.yaml`）：
+- **网页可视化编辑 Feed**：运行 `python webadmin.py`，浏览器操作（见下方「网页编辑器」），无需手改配置文件
+- **灵活 feed 规则**（`config/feeds.yaml`，亦可网页编辑）：
   - 关键词：标题 / 摘要 / 全文（全文仅对 PMC 开放获取文章有效）
   - 关键词逻辑：`any`（或）/ `all`（与）/ `exclude`（非）
   - 第一作者 / 最后作者（通讯/资深作者），`author_match: any/all`
   - 期刊白名单（可选，不填 = 全部关注期刊）
 - **微信即时推送**：Server酱，新命中实时送达，附原文链接
-- **网页看板**：GitHub Pages 每日更新，按 feed 分组，含命中理由、提前在线标记、摘要
+- **网页看板**：GitHub Pages 每日更新，按 feed 分组，含命中理由、提前在线标记、摘要；
+  作者超过 6 位时展示前 3 + 后 3
 - **Zotero 一键入库**：
   - 网页看板：点击「+ 添加至 Zotero」→ 浏览器需安装 [Zotero Connector](https://www.zotero.org/download/connectors)
   - 本地运行：配置 API key 后自动写入（可选，见下）
@@ -24,7 +26,7 @@
 ```
 config/
   journals.yaml    关注期刊与 ISSN（增删期刊改这里）
-  feeds.yaml       feed 匹配规则（核心配置）
+  feeds.yaml       feed 匹配规则（用网页编辑器修改，见下）
   settings.yaml    全局设置（回看天数、推送、Zotero）
 paperpush/
   sources/         Crossref / PubMed 数据源
@@ -33,8 +35,25 @@ paperpush/
   push/            微信推送 + HTML 看板
   zotero.py        Zotero Web API
 main.py            主程序入口
+webadmin.py        本地网页 Feed 编辑器（重点功能，见下）
 .github/workflows/ GitHub Actions 定时任务
 ```
+
+## 网页编辑器（推荐）
+
+不需要手改配置文件，浏览器可视化增删改 Feed：
+
+```bash
+python webadmin.py
+# 自动打开 http://localhost:8080
+```
+
+- 每个 Feed 可独立设置：名称、期刊多选（不勾选 = 全部）、关键词（含 any/all 逻辑与排除词）、
+  搜索字段（标题/摘要/全文）、第一作者、最后作者、作者逻辑
+- 点「保存并推送」→ 自动写入 `config/feeds.yaml` 并 git push → GitHub Actions 下次运行即生效
+- git 身份自动从 `gh` 登录账号获取；如需自定义：`GIT_USER_NAME` / `GIT_USER_EMAIL` 环境变量
+- 默认端口 8080（Windows 保留端口段 8749-8848 不可用）；被占用时 `python webadmin.py --port 9000`
+- 不想自动推送：`python webadmin.py --no-push`（只写本地文件）
 
 ## 快速开始
 
