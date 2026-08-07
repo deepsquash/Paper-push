@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-06",
-  "total": 12,
+  "date": "2026-08-07",
+  "total": 9,
   "feeds": {
     "突触与学习记忆": [
       {
@@ -26,37 +26,32 @@
           "H. Sebastian Seung",
           "David W. Tank"
         ],
-        "abstract": "",
+        "abstract": "The mossy fiber (MF) connections to pyramidal cells in hippocampal CA3 are thought to participate in pattern separation, pattern completion and memory encoding, yet no large-scale neuronal wiring diagram exists for these connections. We assembled a 3D electron microscopy volume (~1&#x2009;&#xd7;&#x2009;1&#x2009;&#xd7;&#x2009;0.1&#x2009;mm 3 ) from mouse hippocampal CA3. By proofreading and automated segmentation, we reconstructed and classified all soma-containing neurons-including 1,815 pyramidal cells and 229 inhibitory cells-and over 55,000 MF axons. Pyramidal cells receive more numerous MF inputs along a proximodistal gradient. Some distal cells show surprisingly high convergence via relatively small terminals with fewer vesicles. Pyramidal cells share significantly more MF inputs than networks randomized by degree-preserving swap and are better approximated by networks randomized by proximity-preserving swap. We identify a feedforward inhibitory circuit motif from MFs via perisomatic interneurons that selectively target a pyramidal subtype. We demonstrated large-scale mapping across levels in the hippocampus-from circuits to cell types to vesicles. The dataset is shared through Pyr.ai , an online platform for hippocampal connectomics.",
         "url": "https://doi.org/10.1038/s41593-026-02388-9",
         "reasons": [
           "关键词『hippocamp』(命中title)"
         ],
         "is_new": true
-      },
-      {
-        "doi": "10.7554/elife.87589",
-        "title": "Deletion of neuroligins from astrocytes does not detectably alter synapse numbers or astrocyte cytoarchitecture by maturity",
-        "journal": "eLife",
-        "published_online": "2026-08-04",
-        "is_early_access": true,
-        "authors": [
-          "Samantha Rose Golf",
-          "Justin H Trotter",
-          "Jinzhao Wang",
-          "George Nakahara",
-          "Xiao Han",
-          "Marius Wernig",
-          "Thomas C Südhof"
-        ],
-        "abstract": "Astrocytes perform multifarious roles in the formation, regulation, and function of synapses in the brain, but the mechanisms involved are incompletely understood. Interestingly, astrocytes abundantly express neuroligins, postsynaptic adhesion molecules that function as synaptic organizers by binding to presynaptic neurexins. Here, we examined the function of neuroligins in astrocytes with a rigorous genetic approach that uses the conditional deletion of all major neuroligins ( Nlgn1–3 ) in astrocytes in vivo in mice and complemented this approach by a genetic deletion of neuroligins in glial cells that are co-cultured with human neurons. Our results show that early postnatal deletion of neuroligins from astrocytes in vivo has no detectable effect on cortical or hippocampal excitatory or inhibitory synapses, and does not alter the cytoarchitecture of astrocytes when evaluated in young adult mice. Moreover, deletion of astrocytic neuroligins in co-cultures of human neurons produced no detectable consequences for the formation and function of synapses. Thus, astrocytic neuroligins are unlikely to fundamentally shape synapse formation or astrocyte morphogenesis, but likely perform other important roles that remain to be discovered.",
-        "url": "https://doi.org/10.7554/elife.87589",
-        "reasons": [
-          "关键词『hippocamp』(命中abstract)"
-        ],
-        "is_new": true
       }
     ],
     "神经环路与行为": [
+      {
+        "doi": "10.1523/jneurosci.0512-26.2026",
+        "title": "Layer 5 and 6b extratelencephalic neurons encode distinct sound features in auditory cortex",
+        "journal": "Journal of Neuroscience",
+        "published_online": "2026-08-06",
+        "is_early_access": true,
+        "authors": [
+          "Madan Ghimire",
+          "Ross S. Williamson"
+        ],
+        "abstract": "Extratelencephalic (ET) neurons in layers (L)5 and 6b of the auditory cortex (ACtx) provide major corticofugal outputs to subcortical structures and contribute to auditory learning and experience-dependent plasticity. Although both ET subtypes innervate overlapping downstream targets, they differ in morphology, intrinsic physiology, and molecular identity, suggesting distinct functional roles. However, their in vivo response properties remain incompletely characterized. Here, we used a projection-defined viral strategy to express GCaMP8s selectively in L5 and L6b ET neurons in the ACtx of male and female mice and recorded calcium activity during presentation of diverse acoustic stimuli. L5 ET neurons predominantly exhibited sound-evoked excitation, higher response sparseness, and greater trial-to-trial reliability than L6b ET neurons; these differences were most pronounced for pure tones and sinusoidally amplitude-modulated (sAM) noise. In contrast, L6b ET neurons frequently exhibited sound-evoked suppression, particularly for more complex stimuli (including sAM noise and spectrotemporal ripples). Unsupervised clustering identified separable temporal response motifs and tuning profiles. L5 ET neurons favored single-peaked frequency tuning and monotonically increasing intensity tuning, whereas L6b ET neurons exhibited complex frequency tuning, monotonically decreasing intensity tuning, and stronger pairwise functional coupling (noise correlations). Together, these results support complementary corticofugal processing streams, with L5 ET neurons conveying more selective acoustic feature representations and L6b ET neurons conveying more integrative corticofugal signals. Significance Statement The primary auditory cortex sends extensive descending projections to subcortical structures, shaping how sounds are processed. These projections arise from distinct extratelencephalic (ET) neurons in cortical layers 5 and 6b, yet how these populations encode sound has remained un",
+        "url": "https://doi.org/10.1523/jneurosci.0512-26.2026",
+        "reasons": [
+          "关键词『two-photon』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.1038/s41593-026-02388-9",
         "title": "Hippocampal CA3 connectomics reveals a gradient of mossy fiber inputs and selective feedforward inhibition onto pyramidal cells",
@@ -80,7 +75,7 @@
           "H. Sebastian Seung",
           "David W. Tank"
         ],
-        "abstract": "",
+        "abstract": "The mossy fiber (MF) connections to pyramidal cells in hippocampal CA3 are thought to participate in pattern separation, pattern completion and memory encoding, yet no large-scale neuronal wiring diagram exists for these connections. We assembled a 3D electron microscopy volume (~1&#x2009;&#xd7;&#x2009;1&#x2009;&#xd7;&#x2009;0.1&#x2009;mm 3 ) from mouse hippocampal CA3. By proofreading and automated segmentation, we reconstructed and classified all soma-containing neurons-including 1,815 pyramidal cells and 229 inhibitory cells-and over 55,000 MF axons. Pyramidal cells receive more numerous MF inputs along a proximodistal gradient. Some distal cells show surprisingly high convergence via relatively small terminals with fewer vesicles. Pyramidal cells share significantly more MF inputs than networks randomized by degree-preserving swap and are better approximated by networks randomized by proximity-preserving swap. We identify a feedforward inhibitory circuit motif from MFs via perisomatic interneurons that selectively target a pyramidal subtype. We demonstrated large-scale mapping across levels in the hippocampus-from circuits to cell types to vesicles. The dataset is shared through Pyr.ai , an online platform for hippocampal connectomics.",
         "url": "https://doi.org/10.1038/s41593-026-02388-9",
         "reasons": [
           "关键词『connectom』(命中title)"
@@ -109,6 +104,51 @@
     ],
     "神经退行性疾病": [
       {
+        "doi": "10.1038/s41467-026-76434-2",
+        "title": "Diagnostic performance of plasma pTau217 in genetically admixed South American populations",
+        "journal": "Nature Communications",
+        "published_online": "2026-08-06",
+        "is_early_access": true,
+        "authors": [
+          "Pamela V. Martino-Adami",
+          "Joice Coutinho de Alvarenga",
+          "Pilar Freccero",
+          "Hanna Huber",
+          "Julio Fernandez",
+          "Ivonne Carolina Bolaños Burgos",
+          "Maria Barbara Postillone",
+          "Gabriela Tomé Oliveira Engelmann",
+          "Ines Mintz",
+          "Marco Aurelio Romano Silva",
+          "Nancy Medel",
+          "Erika de Oliveira Hansen",
+          "Julieta Lisso",
+          "Natalia Dias Silva",
+          "Andréa Teixeira Carvalho",
+          "Nicolás Irureta",
+          "Débora Marques de Miranda",
+          "Mariana Vallejo-Azar",
+          "Luiz Armando Cunha de Marco",
+          "Stefanie Heilmann-Heimbach",
+          "Jonas Jardim de Paula",
+          "Silvia Kochen",
+          "Rafaela Teixeira de Ávila",
+          "Patricia Solis",
+          "Anja Schneider",
+          "Paula Gonzalez",
+          "Bernardo de Mattos Viana",
+          "Maria Carolina Dalmasso",
+          "Maria Aparecida Camargos Bicalho",
+          "Alfredo Ramírez"
+        ],
+        "abstract": "Abstract Plasma pTau217 is a leading biomarker for Alzheimer’s disease, but evidence from genetically admixed populations in low- and middle-income countries remains limited. We evaluated the diagnostic performance of pTau217 and pTau217/Aβ42 measured using Simoa technology in memory-clinic cohorts from Brazil (Cog-Aging-Study, n = 353) and Argentina (GeNED.ar, n = 134). Here we show that both biomarkers accurately identified cerebrospinal fluid (CSF)-defined amyloid pathology in Cog-Aging-Study-Brazil and showed high concordance with clinical diagnosis across both cohorts. Classification performance was improved using two-cut-off approaches that account for diagnostic uncertainty. We further show that APOE-ε4 , lower body mass index, and reduced kidney function were associated with higher pTau217 in Cog-Aging-Study-Brazil, whereas education also influenced biomarker levels in GeNED.ar-Argentina. African ancestry modified APOE-ε4 effect on CSF but not plasma biomarkers. These findings support the use of plasma pTau217-based biomarkers in genetically admixed South American populations and in settings with limited access to CSF testing and brain imaging.",
+        "url": "https://doi.org/10.1038/s41467-026-76434-2",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
         "doi": "10.1038/s41467-026-76173-4",
         "title": "α-Synuclein blocks endoplasmic reticulum co-translational protein translocation early in Parkinson’s disease",
         "journal": "Nature Communications",
@@ -134,6 +174,25 @@
         "url": "https://doi.org/10.1038/s41467-026-76173-4",
         "reasons": [
           "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1073/pnas.2615786123",
+        "title": "Aggregation kinetics define the temporal window of IAPP proteotoxicity",
+        "journal": "PNAS",
+        "published_online": "2026-08-06",
+        "is_early_access": false,
+        "authors": [
+          "Annette Plesner",
+          "Ping Cao",
+          "Daniel P. Raleigh",
+          "Andisheh Abedini"
+        ],
+        "abstract": "Aggregation of islet amyloid polypeptide (IAPP) to form amyloid contributes to β-cell dysfunction in type 2 diabetes, yet the identity and temporal persistence of the toxic species is unresolved. Competing models attribute toxicity to mature fibrils, fibril growth, or transient prefibrillar intermediates formed during the lag phase or via secondary nucleation. Here, we directly test these models by combining time-resolved β-cell functional assays with concurrent biophysical measurements of IAPP aggregation across multiple perturbations and sequence variants. Across 22 independent experiments spanning more than a 450-fold range in lag times, we find that maximal toxicity occurs during the lag phase and declines as fibrils accumulate. The duration of β-cell dysfunction scales linearly with lag phase length, establishing aggregation kinetics as a quantitative predictor of the onset, peak, and termination of toxicity. Perturbations that alter aggregation kinetics, including concentration, temperature, and sequence, predictably shift the temporal window of toxicity. The diabetes-associated S20G variant produces higher peak toxicity over a compressed time window, whereas the slower-aggregating variants examined prolong toxicity without increasing its magnitude. These results resolve competing models by demonstrating that transient lag-phase intermediates, rather than growth phase processes or mature fibrils, dominate β-cell dysfunction, and establish aggregation kinetics as a predictor of the timing and duration of cellular exposure to toxic intermediates.",
+        "url": "https://doi.org/10.1073/pnas.2615786123",
+        "reasons": [
+          "关键词『amyloid』(命中abstract)"
         ],
         "is_new": true
       },
@@ -187,199 +246,6 @@
         "url": "https://doi.org/10.1523/jneurosci.0193-26.2026",
         "reasons": [
           "关键词『neurodegeneration』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41593-026-02367-0",
-        "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes",
-        "journal": "Nature Neuroscience",
-        "published_online": "2026-08-04",
-        "is_early_access": true,
-        "authors": [
-          "Julien Klimmt",
-          "Carolina Cardoso Gonçalves",
-          "Jessica Valentina Montgomery",
-          "Stephan A. Müller",
-          "Merle Bublitz",
-          "Severin Filser",
-          "Lars Paeger",
-          "Brigitte Nuscher",
-          "Angelika Dannert",
-          "Sigrun Roeber",
-          "Veronica Pravata",
-          "Martina Schifferer",
-          "Joshua J. Shrouder",
-          "Nathalie Schulz",
-          "Judit González-Gallego",
-          "Silvia Cappello",
-          "Thomas Misgeld",
-          "Nikolaus Plesnila",
-          "Eduardo Beltrán",
-          "Jochen Herms",
-          "Elena De Domenico",
-          "Marc D. Beyer",
-          "Joachim L. Schultze",
-          "Christian Haass",
-          "Stefan F. Lichtenthaler",
-          "Caterina Carraro",
-          "Dominik Paquet"
-        ],
-        "abstract": "Abstract Stem-cell-based in vitro models offer promising potential to elucidate human brain cell functions and interactions, but limitations in reproducibility, maturation and cell-type diversity persist. Especially, prolonged incorporation of mature microglia and studies of neuroinflammation have proven challenging. Here, we developed a human induced pluripotent stem cell-based three-dimensional cortical brain tissue model (3BTM) containing neurons, astrocytes and microglia with high reproducibility, maturity and viability. 3BTMs show morphological, functional and proteomic maturation of all cell types, leading to high similarity to their in vivo counterparts. Incorporated microglia survive for over 6 months and display mature morphology, functions and gene expression. Importantly, when engineered to model Alzheimer’s disease pathology, 3BTMs recapitulate key disease hallmarks, including amyloid deposition, increased phospho-tau levels and neuroinflammation, with microglia shifting their transcriptional landscape to disease-relevant signatures. Treatment of Alzheimer’s disease 3BTMs with anti-Aβ immunotherapy cleared deposits and largely reversed disease signatures in glia. Together, our microglia-containing model provides a platform for studying physiological and pathological states of human brain tissue.",
-        "url": "https://doi.org/10.1038/s41593-026-02367-0",
-        "reasons": [
-          "关键词『Alzheimer、tau、amyloid』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41467-026-76183-2",
-        "title": "Vestibular nucleus stimulation for ameliorating locomotor dynamics in a Parkinsonian mouse model",
-        "journal": "Nature Communications",
-        "published_online": "2026-08-04",
-        "is_early_access": false,
-        "authors": [
-          "Johannes Hartig",
-          "Maximilian Uwe Friedrich",
-          "Jérémy Signoret-Genest",
-          "Maria Gruber",
-          "Sawako Tabuchi",
-          "Hamidreza Alimohammadi",
-          "Max Leuschner",
-          "Nina Schöneberg",
-          "Robert Peach",
-          "Dennis Doll",
-          "Tobias Petschner",
-          "Amélie Neumann",
-          "Susanne Knorr",
-          "Jens Volkmann",
-          "Philip Tovote",
-          "Chi Wang Ip"
-        ],
-        "abstract": "Abstract Postural and locomotor dysfunction represent axial symptoms of Parkinson’s disease (PD), which remain poorly treated by medication and deep brain stimulation. Whilst non-invasive neuromodulation of the vestibular system via the vestibular nucleus complex (VNC) offers a novel therapeutic avenue, the underlying circuits are still poorly characterized. Here we show that the mouse VNC feeds extensive Vglut2 -defined projections into striato-thalamo-subthalamic and caudal medulla motor hubs and receives substantial input from the sensorimotor cortex. Optogenetic activation of excitatory VNC neurons at sub-symptomatic intensities increased cFos -based activity in basal ganglia-associated and brainstem motor targets. Unbiased pose dynamics and motion analysis respectively showed enhancement of behavioural modularity and locomotion with threshold-level stimulation. In a mouse model of PD, the latter further favored naturalistic gait patterns through improved motor coordination. Our data identify excitatory VNC processes as candidates for therapeutic targeting of axial motor dysfunction in the context of PD.",
-        "url": "https://doi.org/10.1038/s41467-026-76183-2",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41467-026-75931-8",
-        "title": "A prolonged hydrothermal past at Santorini Caldera revealed by sedimentary trace metal and microbial signatures",
-        "journal": "Nature Communications",
-        "published_online": "2026-08-04",
-        "is_early_access": true,
-        "authors": [
-          "Sofia Della Sala",
-          "Vasiliki Papadimitriou",
-          "Paraskevi Polymenakou",
-          "Steffen Kutterolf",
-          "Joost Frieling",
-          "David M. Pyle",
-          "Tamsin A. Mather",
-          "Stephanos Kilias",
-          "Christopher K. Jones",
-          "Tim Druitt",
-          "Jonas Preine",
-          "Christian Hübscher",
-          "Paraskevi Nomikou",
-          "Olga Koukousioura",
-          "Thomas A. Ronge",
-          "Sarah Beethe",
-          "Katharina Pank",
-          "Carole Berthod",
-          "Hehe Chen",
-          "Shun Chiyonobu",
-          "Acacia Clark",
-          "Susan DeBari",
-          "Ralf Gertisser",
-          "Raymond Johnston",
-          "Michael Manga",
-          "Molly McCanta",
-          "Iona McIntosh",
-          "Ally Peccia",
-          "Masako Tominaga",
-          "Yuzuru Yamamoto",
-          "Adam Woodhouse",
-          "Alexis Bernard",
-          "Tatiana Fernandez Perez",
-          "Kumar Batuk Joshi",
-          "Günther Kletetschka",
-          "Antony Morris",
-          "Xiaohui Li",
-          "Dimitrios Papanikolaou"
-        ],
-        "abstract": "Abstract Hydrothermal systems in volcanic calderas are critical in signalling volcanic unrest, forming ore deposits, and sustaining chemosynthetic microorganisms. Analysis of a ~3500-year sequence of sediments collected from the Santorini caldera, Greece, during International Ocean Discovery Program (IODP) Expedition 398 reveals the behaviour of a prolonged paleo-hydrothermal system. Sediment geochemical and metagenomic data record vigorous hydrothermal activity and metal fluxes for ~1100 years, within a 2270-year window between two major eruptions. Sediment hydrothermally-derived trace metals are significantly enriched over background (~200-fold for As and Hg, and 10–50-fold for Mn, Sb, Mo, and V), with long-term metal fluxes (9 t yr −1 As, 2.5 t yr −1 Cu, 7 kg yr −1 Ag) comparable to fluxes from present-day geothermal fields in the Taupo Volcanic Zone. Metagenomic analysis identifies elevated metal resistance genes—signals of microbial adaptation to heightened hydrothermal stressors. Here we integrate geological and genomic evidence to decipher the paleoenvironmental and biogeochemical history of the past hydrothermal system at Santorini caldera.",
-        "url": "https://doi.org/10.1038/s41467-026-75931-8",
-        "reasons": [
-          "关键词『tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.7554/elife.109422.3",
-        "title": "In-situ glial cell-surface proteomics identifies pro-longevity factors in Drosophila",
-        "journal": "eLife",
-        "published_online": "2026-08-04",
-        "is_early_access": true,
-        "authors": [
-          "Madeline P Marques",
-          "Bo Sun",
-          "Ye-Jin Park",
-          "Tyler Jackson",
-          "Tzu-Chiao Lu",
-          "Yanyan Qi",
-          "Erin Harrison",
-          "Miranda C Wang",
-          "Omar Moussa Pasha",
-          "Amogh Varanasi",
-          "Dominique Kiki Carey",
-          "DR Mani",
-          "Jonathan Zirin",
-          "Mujeeb Qadiri",
-          "Yanhui Hu",
-          "Kartik Venkatachalam",
-          "Norbert Perrimon",
-          "Steven A Carr",
-          "Namrata D Udeshi",
-          "Liqun Luo",
-          "Jiefu Li",
-          "Hongjie Li"
-        ],
-        "abstract": "Much focus has shifted towards understanding how glial dysfunction contributes to age-related neurodegeneration due to the critical roles glial cells play in maintaining brain health. Cell-cell interactions, which are largely mediated by cell-surface proteins, control many critical aspects of development and physiology; as such, dysregulation of glial cell-surface proteins is hypothesized to play an important role in age-related neurodegeneration. However, it remains technically difficult to profile glial cell-surface proteins in intact brains. Here, we applied an in-situ cell-surface proteomic profiling method to glial cells from intact fly brains. Applying this platform to young and old flies, we identified candidate genes predicted to be involved in brain aging. Through a genetic screen, we identified one surface protein, DIP-β, which is down-regulated in old flies and can increase fly lifespan when overexpressed in adult glial cells. We performed whole-head single-nucleus RNA-seq and revealed that DIP-β overexpression mainly impacts glial and fat cells. We also found that glial DIP-β overexpression was associated with improved cell-cell communication. Our study is the first to apply in-situ cell-surface proteomics to glial cells in Drosophila , and to identify DIP-β as a potential glial regulator of brain aging.",
-        "url": "https://doi.org/10.7554/elife.109422.3",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.7554/elife.105343.3",
-        "title": "Methylation clocks fail to generalize across genetically admixed individuals",
-        "journal": "eLife",
-        "published_online": "2026-08-04",
-        "is_early_access": true,
-        "authors": [
-          "Sebastián Cruz-Gonzalez",
-          "Ogechukwu Okpala",
-          "Esther Gu",
-          "Lissette Gomez",
-          "Makaela Mews",
-          "Jeffery M Vance",
-          "Michael L Cuccaro",
-          "Mario R Cornejo-Olivas",
-          "Briseida E Feliciano-Astacio",
-          "Goldie S Byrd",
-          "Jonathan Haines",
-          "Margaret A Pericak-Vance",
-          "Anthony J Griswold",
-          "William S Bush",
-          "John A Capra"
-        ],
-        "abstract": "Epigenetic aging clocks based on DNA methylation patterns across the genome have emerged as a potential biomarker for risk of age-related diseases, like Alzheimer’s disease (AD), and environmental and social stressors. However, methylation clocks have not been comprehensively validated in genetically diverse individuals. Here, we evaluate a set of first-, second-, and third-generation methylation clocks in 621 AD patients and matched controls from African American, Hispanic, and White cohorts. The clocks are less accurate at predicting age in genetically admixed cohorts compared to the White cohort, especially for those with substantial African ancestry. This decreased accuracy holds in >2500 individuals of European and African ancestry from three additional datasets. The clocks also fail to consistently identify age acceleration in admixed AD cases compared to controls. To explore potential causes for the lack of generalization of the clocks, we intersected clock CpGs with methylation, germline genetic variants, and methylation QTL (meQTL) data from global populations. We find differential methylation between African and European ancestry individuals is common for clock CpGs. Genetic variants rarely disrupt clock CpGs between populations, but a substantial fraction of clock CpGs have meQTL with significantly higher frequencies in African genetic ancestries. Our results demonstrate that methylation clocks often fail to predict age and AD risk when applied across populations and suggest avenues for improving their portability by considering differences in genetic and epigenetic patterns across human populations.",
-        "url": "https://doi.org/10.7554/elife.105343.3",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
         ],
         "is_new": true
       }
