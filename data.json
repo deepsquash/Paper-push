@@ -1,40 +1,156 @@
 {
-  "date": "2026-08-07",
-  "total": 9,
+  "date": "2026-08-08",
+  "total": 11,
   "feeds": {
     "突触与学习记忆": [
       {
-        "doi": "10.1038/s41593-026-02388-9",
-        "title": "Hippocampal CA3 connectomics reveals a gradient of mossy fiber inputs and selective feedforward inhibition onto pyramidal cells",
+        "doi": "10.1038/s41593-026-02392-z",
+        "title": "Striatal endocannabinoids drive one-shot learning",
         "journal": "Nature Neuroscience",
-        "published_online": "2026-08-05",
+        "published_online": "2026-08-07",
         "is_early_access": true,
         "authors": [
-          "Zhihao Zheng",
-          "Changjoo Park",
-          "Eric W. Hammerschmith",
-          "Ran Lu",
-          "Szi-Chieh Yu",
-          "Marissa Sorek",
-          "Ben Silverman",
-          "Chris S. Jordan",
-          "Amy R. Sterling",
-          "William M. Silversmith",
-          "Philipp Schlegel",
-          "Gregory S. X. E. Jefferis",
-          "Forrest Collman",
-          "H. Sebastian Seung",
-          "David W. Tank"
+          "Charlotte Piette",
+          "Arnaud Hubert",
+          "Sylvie Perez",
+          "Jérémy Peixoto",
+          "Nicolas Gervasi",
+          "Hugues Berry",
+          "Jonathan Touboul",
+          "Laurent Venance"
         ],
-        "abstract": "The mossy fiber (MF) connections to pyramidal cells in hippocampal CA3 are thought to participate in pattern separation, pattern completion and memory encoding, yet no large-scale neuronal wiring diagram exists for these connections. We assembled a 3D electron microscopy volume (~1&#x2009;&#xd7;&#x2009;1&#x2009;&#xd7;&#x2009;0.1&#x2009;mm 3 ) from mouse hippocampal CA3. By proofreading and automated segmentation, we reconstructed and classified all soma-containing neurons-including 1,815 pyramidal cells and 229 inhibitory cells-and over 55,000 MF axons. Pyramidal cells receive more numerous MF inputs along a proximodistal gradient. Some distal cells show surprisingly high convergence via relatively small terminals with fewer vesicles. Pyramidal cells share significantly more MF inputs than networks randomized by degree-preserving swap and are better approximated by networks randomized by proximity-preserving swap. We identify a feedforward inhibitory circuit motif from MFs via perisomatic interneurons that selectively target a pyramidal subtype. We demonstrated large-scale mapping across levels in the hippocampus-from circuits to cell types to vesicles. The dataset is shared through Pyr.ai , an online platform for hippocampal connectomics.",
-        "url": "https://doi.org/10.1038/s41593-026-02388-9",
+        "abstract": "Abstract One-shot learning—the ability to form memories after a single, brief salient event—is essential for behavioral flexibility in a dynamic world. However, how one-shot learning unfolds in the brain and whether it relies on distinct plasticity mechanisms remains unknown. Here we show that a nonclassical plasticity mechanism requiring only a few stimulations—endocannabinoid-mediated long-term potentiation (eCB-LTP)—underlies one-shot learning in the striatum. To do so, we developed a one-shot behavioral paradigm—the sticky tape avoidance test—in which mice learn to avoid a piece of sticky tape after a spontaneous single and brief contact. Brief, but not prolonged, contacts drive striatal potentiation in vivo and engage coordinated cortical–striatal activity patterns consistent with eCB-LTP induction, as corroborated by ex vivo electrophysiology and computational modeling. Finally, genetic and pharmacological disruptions of eCB-LTP impaired one-shot learning. These results highlight the essential role of nonclassical plasticity mechanisms in supporting memory formation after a single experience.",
+        "url": "https://doi.org/10.1038/s41593-026-02392-z",
         "reasons": [
-          "关键词『hippocamp』(命中title)"
+          "关键词『long-term potentiation』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1073/pnas.2601801123",
+        "title": "Experience-dependent modulation of extracellular matrix integrity supports perceptual skill learning and memory",
+        "journal": "PNAS",
+        "published_online": "2026-08-07",
+        "is_early_access": false,
+        "authors": [
+          "Jéssica Winne",
+          "Rebecca Schrader",
+          "Makayla Anfuson",
+          "Melissa L. Caras"
+        ],
+        "abstract": "Perceptual learning refines sensory abilities but requires extensive training, limiting its real-world impact. Understanding its neural mechanisms could accelerate skill acquisition. The extracellular matrix (ECM) has been proposed to regulate learning by degrading to enable synaptic plasticity, and reaccumulating over several days to stabilize the changes. However, this time course does not align with the temporal dynamics of many forms of learning, including perceptual learning, which involves daily performance gains that consolidate between training sessions. To resolve this discrepancy, we tracked and manipulated auditory cortical ECM integrity in Mongolian gerbils during perceptual learning. We found that the ECM undergoes rapid training-induced changes, degrading and returning to baseline within 24 h of each session. The magnitude of this cycle diminished with continued training, and the cycle ultimately disappeared as performance plateaued. Enzymatic digestion of the ECM with chondroitinase ABC (chABC) impaired perceptual learning, and postlearning chABC treatment destabilized the acquired skill memory. These findings identify the ECM as a key regulator of perceptual learning and support a framework in which an experience-dependent decrease in ECM degradation constrains further plasticity, preserving learned representations against interference from new input.",
+        "url": "https://doi.org/10.1073/pnas.2601801123",
+        "reasons": [
+          "关键词『synaptic plasticity、learning and memory』(命中abstract/title)"
         ],
         "is_new": true
       }
     ],
     "神经环路与行为": [
+      {
+        "doi": "10.1038/s41593-026-02392-z",
+        "title": "Striatal endocannabinoids drive one-shot learning",
+        "journal": "Nature Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Charlotte Piette",
+          "Arnaud Hubert",
+          "Sylvie Perez",
+          "Jérémy Peixoto",
+          "Nicolas Gervasi",
+          "Hugues Berry",
+          "Jonathan Touboul",
+          "Laurent Venance"
+        ],
+        "abstract": "Abstract One-shot learning—the ability to form memories after a single, brief salient event—is essential for behavioral flexibility in a dynamic world. However, how one-shot learning unfolds in the brain and whether it relies on distinct plasticity mechanisms remains unknown. Here we show that a nonclassical plasticity mechanism requiring only a few stimulations—endocannabinoid-mediated long-term potentiation (eCB-LTP)—underlies one-shot learning in the striatum. To do so, we developed a one-shot behavioral paradigm—the sticky tape avoidance test—in which mice learn to avoid a piece of sticky tape after a spontaneous single and brief contact. Brief, but not prolonged, contacts drive striatal potentiation in vivo and engage coordinated cortical–striatal activity patterns consistent with eCB-LTP induction, as corroborated by ex vivo electrophysiology and computational modeling. Finally, genetic and pharmacological disruptions of eCB-LTP impaired one-shot learning. These results highlight the essential role of nonclassical plasticity mechanisms in supporting memory formation after a single experience.",
+        "url": "https://doi.org/10.1038/s41593-026-02392-z",
+        "reasons": [
+          "关键词『behavioral』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41593-026-02391-0",
+        "title": "Pyramidal cell types and circuit organization of the mouse insular cortex reveal functional specializations",
+        "journal": "Nature Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Bart C. Jongbloets",
+          "Yang Chen",
+          "Michael A. Muniak",
+          "Ian K. Gingerich",
+          "Kayla A. Maanum",
+          "Tianyi Mao"
+        ],
+        "abstract": "Abstract The insular cortex integrates interoceptive and exteroceptive information to mediate bodily homeostasis, emotion and learning. However, the cellular and circuit substrates governing insular functions are poorly understood compared to primary cortices. Here we quantify dendritic morphology together with projections, electrical properties and/or local inputs of 1,130 mouse insular pyramidal neurons. Neurons are mapped onto a quantitative Nissl-derived model of the insula. Using improved algorithms, we define 21 morphological, 12 electrical and 9 input neuronal types, some unique to the insula. Several types exhibit elaborate dendrites, reminiscent of primate cortical neurons. Furthermore, morphological properties constrain and often predict inputs, electrical properties, projection targets or molecular markers. Eight morphological types are differentially distributed between the functionally distinct anterior and posterior insula, facilitating a quantitative demarcation between these subregions. Certain types receive intra-insular excitatory inputs originating far beyond cortical columns, which functionally bridge a long-range thalamus-to-amygdala circuit linking sensory information to valence behaviorally. Our work establishes a structure-and-function foundation for investigating the insula.",
+        "url": "https://doi.org/10.1038/s41593-026-02391-0",
+        "reasons": [
+          "关键词『behavioral』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41593-026-02375-0",
+        "title": "A suite of engineered mice for interrogating psychedelic drug actions",
+        "journal": "Nature Neuroscience",
+        "published_online": "2026-08-06",
+        "is_early_access": true,
+        "authors": [
+          "Yi-Ting Chiu",
+          "Ariel Y. Deutch",
+          "Wei Wang",
+          "Gavin P. Schmitz",
+          "Karen Lu Huang",
+          "D. Dewran Kocak",
+          "Pierre Llorach",
+          "Kasey R. Bowyer",
+          "Bei Liu",
+          "Noah Sciaky",
+          "Kunjie Hua",
+          "Chongguang Chen",
+          "Sarah E. Mott",
+          "Jesse Niehaus",
+          "Jeffrey F. DiBerto",
+          "Justin English",
+          "Jessica J. Walsh",
+          "Grégory Scherrer",
+          "Melissa A. Herman",
+          "Zhuhao Wu",
+          "William C. Wetsel",
+          "Bryan L. Roth"
+        ],
+        "abstract": "Psychedelic drugs, such as lysergic acid diethylamide and psilocybin, have emerged as potentially transformative therapeutics for various neuropsychiatric conditions, including depression, anxiety, post-traumatic stress disorder, migraine and cluster headaches. Classical psychedelics exert their effects through activation of 5-hydroxytryptamine 2A receptors (HTR2As). Here we provide a suite of engineered mice that will be useful for clarifying the role of HTR2A in psychedelic drug actions. We generated Htr2a EGFP-CreERT2 mice to identify both HTR2A-EGFP-CT receptors and HTR2A-containing cells, thereby revealing HTR2A distribution in the brain. We also generated humanized Htr2a A242S -EGFP-Cre and constitutive Htr2a Cre mice. Psychedelic-induced behavioral changes in these mice validated their utility for these studies. Electrophysiological investigations on brain sections from these mice revealed that 2,5,-dimethoxy-4-iodoamphetamine induced robust increases in firing of genetically identified pyramidal neurons. These mouse lines are valuable tools for investigating the molecular, cellular, pharmacological, physiological, behavioral and other mechanisms of psychedelic actions in vivo.",
+        "url": "https://doi.org/10.1038/s41593-026-02375-0",
+        "reasons": [
+          "关键词『behavioral』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41593-026-02380-3",
+        "title": "Comparative insights into insula structure and function",
+        "journal": "Nature Neuroscience",
+        "published_online": "2026-08-06",
+        "is_early_access": true,
+        "authors": [
+          "Joey A. Charbonneau",
+          "Sarah B. Carp",
+          "Jeffrey L. Bennett",
+          "Savannah M. Maw",
+          "Gilda Moadab",
+          "John P. Christianson",
+          "Mark G. Baxter",
+          "Eliza Bliss-Moreau"
+        ],
+        "abstract": "The insular cortex has become an increasingly important focus of neuroscientific research because of its broad involvement in psychological and behavioral processes and its dysfunction in neuropsychiatric, developmental, degenerative and metabolic disorders. The insula is easily imaged in the human brain and is also a key target for both fundamental and translational studies in nonhuman animals. However, owing to a dearth of truly comparative studies on the insula, the extent to which this region shares structural and functional homologies between humans, monkeys and rodents remains incompletely understood. Here, we systematically evaluate current knowledge regarding homologies in the insula among model species and humans. We examine the strengths and limitations of various laboratory species for investigating the insula, and discuss how these factors influence the interpretation of findings and their application to the human insula. Finally, we propose research directions aimed at strengthening translational insula research and enhancing our understanding of cross-species similarities and differences.",
+        "url": "https://doi.org/10.1038/s41593-026-02380-3",
+        "reasons": [
+          "关键词『behavioral』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.1523/jneurosci.0512-26.2026",
         "title": "Layer 5 and 6b extratelencephalic neurons encode distinct sound features in auditory cortex",
@@ -49,55 +165,6 @@
         "url": "https://doi.org/10.1523/jneurosci.0512-26.2026",
         "reasons": [
           "关键词『two-photon』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41593-026-02388-9",
-        "title": "Hippocampal CA3 connectomics reveals a gradient of mossy fiber inputs and selective feedforward inhibition onto pyramidal cells",
-        "journal": "Nature Neuroscience",
-        "published_online": "2026-08-05",
-        "is_early_access": true,
-        "authors": [
-          "Zhihao Zheng",
-          "Changjoo Park",
-          "Eric W. Hammerschmith",
-          "Ran Lu",
-          "Szi-Chieh Yu",
-          "Marissa Sorek",
-          "Ben Silverman",
-          "Chris S. Jordan",
-          "Amy R. Sterling",
-          "William M. Silversmith",
-          "Philipp Schlegel",
-          "Gregory S. X. E. Jefferis",
-          "Forrest Collman",
-          "H. Sebastian Seung",
-          "David W. Tank"
-        ],
-        "abstract": "The mossy fiber (MF) connections to pyramidal cells in hippocampal CA3 are thought to participate in pattern separation, pattern completion and memory encoding, yet no large-scale neuronal wiring diagram exists for these connections. We assembled a 3D electron microscopy volume (~1&#x2009;&#xd7;&#x2009;1&#x2009;&#xd7;&#x2009;0.1&#x2009;mm 3 ) from mouse hippocampal CA3. By proofreading and automated segmentation, we reconstructed and classified all soma-containing neurons-including 1,815 pyramidal cells and 229 inhibitory cells-and over 55,000 MF axons. Pyramidal cells receive more numerous MF inputs along a proximodistal gradient. Some distal cells show surprisingly high convergence via relatively small terminals with fewer vesicles. Pyramidal cells share significantly more MF inputs than networks randomized by degree-preserving swap and are better approximated by networks randomized by proximity-preserving swap. We identify a feedforward inhibitory circuit motif from MFs via perisomatic interneurons that selectively target a pyramidal subtype. We demonstrated large-scale mapping across levels in the hippocampus-from circuits to cell types to vesicles. The dataset is shared through Pyr.ai , an online platform for hippocampal connectomics.",
-        "url": "https://doi.org/10.1038/s41593-026-02388-9",
-        "reasons": [
-          "关键词『connectom』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1523/jneurosci.0315-25.2026",
-        "title": "Magnetogenetics: Tools for Noninvasive Neuromodulation with Cellular Resolution",
-        "journal": "Journal of Neuroscience",
-        "published_online": "2026-08-05",
-        "is_early_access": false,
-        "authors": [
-          "Tiffany T. Tran",
-          "Miriam Hernández-Morales",
-          "Victor Han",
-          "Chunlei Liu"
-        ],
-        "abstract": "Magnetogenetics is emerging as a promising tool to control neuronal activity and overcome the limitations of chemogenetics and optogenetics. While chemogenetics is restricted in temporal resolution, optogenetics is invasive and limited in penetration depth. Magnetogenetics addresses these challenges by offering a noninvasive approach that enables wireless and on-demand control of neuronal activity. Magnetogenetics uses synthetic magnetic nanoparticles or the protein ferritin as transducers to convert magnetic ﬁelds into thermal, mechanical, or biochemical signals that can activate ion channels and proteins sensitive to these stimuli. To achieve cellular resolution, the neurons of interest are genetically targeted by the expression of diverse ion channels that confer sensitivity to magnetic stimulation or by targeting transducers to ion channels via linkers such as antibodies and other binding domains. Neuroscientists have used magnetogenetics to drive calcium-dependent gene expression, to excite or inhibit neurons, and to modulate behavior in animal models, as discussed in this review. The efficacy of these methods has been met with skepticism, and the fundamental mechanisms have been unclear. However, several studies have demonstrated the effectiveness of magnetogenetics and uncovered the underlying mechanisms. While improvements are still needed for magnetogenetics to become a routine technique to control neuronal activity, there is tremendous potential for both technical innovation and applications. This review discusses the current approaches from their development and limitations to their applications across research ﬁelds, particularly neuroscience.",
-        "url": "https://doi.org/10.1523/jneurosci.0315-25.2026",
-        "reasons": [
-          "关键词『optogenetics』(命中abstract)"
         ],
         "is_new": true
       }
@@ -230,22 +297,6 @@
         "url": "https://doi.org/10.7554/elife.95987",
         "reasons": [
           "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1523/jneurosci.0193-26.2026",
-        "title": "Age-Related Positivity Bias in Emotion Recognition: Marker of Neurodegeneration or Shift in Decision Criterion?",
-        "journal": "Journal of Neuroscience",
-        "published_online": "2026-08-05",
-        "is_early_access": false,
-        "authors": [
-          "Simon Neugebauer"
-        ],
-        "abstract": "",
-        "url": "https://doi.org/10.1523/jneurosci.0193-26.2026",
-        "reasons": [
-          "关键词『neurodegeneration』(命中title)"
         ],
         "is_new": true
       }
