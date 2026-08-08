@@ -48,6 +48,7 @@ def _sort_key(p):
 
 def _paper_to_dict(p: Paper, m, is_new: bool) -> dict:
     return {
+        "key": Library.key_for(p),
         "doi": p.doi,
         "title": p.title,
         "journal": p.journal,
@@ -59,6 +60,34 @@ def _paper_to_dict(p: Paper, m, is_new: bool) -> dict:
         "url": p.url or f"https://doi.org/{p.doi}",
         "reasons": m.reasons,
     }
+
+
+def evaluate_library(config_dir: str | Path = None, days: int = 180) -> dict:
+    """保存 Feed 后立即用本地半年文献库重算首页，不等待下一次网络抓取。"""
+    config_dir = Path(config_dir) if config_dir else Path(__file__).resolve().parent.parent / "config"
+    settings = load_settings(config_dir)
+    feeds = load_feeds(config_dir)
+    library = Library(Path(settings.storage).with_name("library.db"))
+    try:
+        papers = library.papers_as_models(days=days)
+        reactions = library.reaction_map(Library.key_for(p) for p in papers)
+        details = {}
+        counts = {}
+        for feed in feeds:
+            items = []
+            for paper in papers:
+                match = matcher.match_paper(paper, feed)
+                if match:
+                    item = _paper_to_dict(paper, match, False)
+                    item["reaction"] = reactions.get(item["key"], "")
+                    if item["reaction"] != "hidden":
+                        items.append(item)
+            items.sort(key=lambda item: item.get("published_online") or "", reverse=True)
+            details[feed.name] = items[: settings.max_papers_per_feed]
+            counts[feed.name] = len(items)
+        return {"ok": True, "details": details, "feeds": counts, "library_total": len(papers)}
+    finally:
+        library.close()
 
 
 def run_once(

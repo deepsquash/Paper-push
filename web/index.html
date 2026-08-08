@@ -110,10 +110,23 @@ h2 .cnt { color:var(--muted); font-weight:normal; font-size:13px; }
 .journal-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:14px; }
 .journal-tile { cursor:pointer; min-height:126px; transition:.18s transform,.18s border-color; }
 .journal-tile:hover { transform:translateY(-2px); border-color:var(--accent); }
-.journal-tile h3 { margin:0 0 8px; font-size:16px; }
+.journal-tile { position:relative; overflow:hidden; border-top:5px solid var(--accent); }
+.journal-tile::after { content:""; position:absolute; width:86px; height:86px; right:-28px; bottom:-36px;
+  border-radius:50%; background:linear-gradient(135deg,rgba(18,113,91,.14),rgba(213,147,69,.2)); }
+.journal-tile h3 { margin:12px 0 8px; font-family:Georgia,"Noto Serif SC",serif; font-size:19px; line-height:1.25; }
 .source-pill { display:inline-block; padding:3px 8px; border-radius:99px; background:#e4f1ed; color:#176451; font-size:11px; }
 .query-box { min-height:94px; font-family:Consolas,"SFMono-Regular",monospace; line-height:1.55; }
 .query-help { padding:10px 12px; background:#eef5f2; border-radius:9px; color:#49615a; font-size:12px; line-height:1.7; margin-top:8px; }
+.condition-list { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+.condition-chip { display:inline-flex; gap:7px; align-items:center; background:#e4f1ed; color:#184f42;
+  border:1px solid #b9d9cf; border-radius:99px; padding:6px 10px; font-size:12px; }
+.condition-chip b { text-transform:uppercase; font-size:10px; color:#8a5a28; }
+.condition-chip button { background:transparent; color:#8d3c31; padding:0; min-width:auto; }
+.journal-picker { max-height:200px; overflow:auto; border:1px solid var(--input-border); border-radius:10px;
+  background:var(--input-bg); padding:8px; display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:5px; }
+.journal-option { padding:7px 8px; border-radius:7px; cursor:pointer; color:var(--fg); font-size:12px; }
+.journal-option:hover { background:#e4f1ed; }
+.selected-journals { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
 .reaction { font-size:16px; min-width:38px; padding:6px 10px; }
 .reaction.on { background:#e5f4ef; color:var(--accent); border:1px solid var(--accent); }
 .lang-btn { border-color:#637b74!important; color:#e9f3f0!important; }
@@ -169,6 +182,11 @@ h2 .cnt { color:var(--muted); font-weight:normal; font-size:13px; }
     <button onclick="addFeed()">＋ 新建 Feed</button>
     <button onclick="saveFeeds()">💾 保存全部 Feed</button>
     <button class="ghost" onclick="loadFeeds()">重新加载</button>
+  </div>
+  <div class="card">
+    <b>半年文献库</b>
+    <p class="hint">Feed 会匹配本地半年文献库，而不只是最近 2-3 天。首次使用请初始化全部期刊；该任务在后台运行。</p>
+    <div class="toolbar"><button onclick="syncCatalog()">初始化全部来源（过去半年）</button><span id="catalog-status" class="hint"></span></div>
   </div>
   <div id="feed-cards"></div>
   <div class="empty" id="feed-empty" style="display:none">还没有任何 Feed，点击「＋ 新建 Feed」开始</div>
@@ -342,7 +360,11 @@ async function refreshState(){
         dash.innerHTML = `<p class="empty">还没有运行记录，去「运行」页点击「立即运行」，或等待每日 09:00 自动运行</p>`;
       }
     }
-    const details = (s.last_result || s.latest_run?.result)?.details || {};
+    // Feed 定义可能刚保存。每次进入首页都向后端请求本地半年库的实时匹配结果，
+    // 避免继续展示上一次网络抓取 run 的旧快照。
+    let live=null;
+    try { live=await api('/api/feeds/results'); } catch(_) {}
+    const details = live?.details || (s.last_result || s.latest_run?.result)?.details || {};
     const keys = Object.keys(details);
     const box = document.getElementById("dash-content");
     if (!keys.length) {
@@ -403,9 +425,21 @@ async function loadFavorites(){
 
 /* ================= Feed 管理 ================= */
 function newFeed(){ return {name:"", query:"", journals:[], keywords:{terms:[],match:"any",fields:["title","abstract"],exclude:[]}, first_authors:[],last_authors:[],author_match:"any"}; }
+function legacyConditions(f){
+  if(f.conditions) return f.conditions;
+  const out=[];
+  (f.keywords?.terms||[]).forEach((v,i)=>out.push({op:i?'OR':'AND',type:'TS',value:v}));
+  (f.keywords?.exclude||[]).forEach(v=>out.push({op:'NOT',type:'TS',value:v}));
+  (f.first_authors||[]).forEach(v=>out.push({op:'AND',type:'FA',value:v}));
+  (f.last_authors||[]).forEach(v=>out.push({op:'AND',type:'LA',value:v}));
+  return out;
+}
 function feedCard(f,i){
-  const allSel = f.journals.length===0;
-  const jCheck = JOURNALS.map(j=>`<label><input type="checkbox" class="jsel" data-i="${i}" data-j="${esc(j)}" ${allSel||f.journals.includes(j)?"checked":""}> ${esc(j)}</label>`).join("");
+  f.conditions=legacyConditions(f);
+  if(!f.query && f.conditions.length) rebuildQuery(f);
+  const selected=(f.journals||[]).map(j=>`<span class="condition-chip">${esc(j)}<button onclick="removeJournal(${i},'${esc(j)}')">×</button></span>`).join("");
+  const jOptions=JOURNALS.filter(j=>!(f.journals||[]).includes(j)).map(j=>`<div class="journal-option" onclick="addJournal(${i},'${esc(j)}')">＋ ${esc(j)}</div>`).join("");
+  const chips=f.conditions.map((c,k)=>`<span class="condition-chip"><b>${esc(c.op)} · ${esc(c.type)}</b>${esc(c.value)}<button onclick="removeCondition(${i},${k})">×</button></span>`).join("");
   const fCheck = ["title","abstract","fulltext"].map(fd=>{
     const label = fd==="title"?"标题":fd==="abstract"?"摘要":"全文(PMC)";
     return `<label><input type="checkbox" class="fsel" data-i="${i}" data-f="${fd}" ${(f.keywords.fields||[]).includes(fd)?"checked":""}> ${label}</label>`;
@@ -421,15 +455,23 @@ function feedCard(f,i){
     </div>
     <label>Feed 名称</label>
     <input type="text" class="fname" data-i="${i}" value="${esc(f.name)}" placeholder="例如：突触与学习记忆">
-    <label>高级布尔表达式 / Advanced Boolean query</label>
+    <label>筛选条件（点选类型后添加；可组合 AND / OR / NOT）</label>
+    <div class="row">
+      <div style="flex:.45"><select class="condition-op"><option>AND</option><option>OR</option><option>NOT</option></select></div>
+      <div><select class="condition-type"><option value="TS">关键词（标题+摘要）</option><option value="TI">标题关键词</option><option value="AB">摘要关键词</option><option value="AU">作者</option><option value="FA">第一作者</option><option value="LA">最后作者</option></select></div>
+      <div style="flex:2"><input class="condition-value" type="text" placeholder="输入关键词或作者姓名"></div>
+      <div style="flex:0"><button onclick="addCondition(${i})">添加</button></div>
+    </div>
+    <div class="condition-list">${chips||'<span class="hint">尚未添加条件</span>'}</div>
+    <label>生成的布尔表达式（可直接编辑，支持括号和嵌套）</label>
     <textarea class="query-box query" data-i="${i}" placeholder='TS=((optogenetic* OR chemogenetic*) AND memory) AND LA=(Tonegawa OR Buzsaki)'>${esc(f.query||"")}</textarea>
     <div class="query-help">字段：TS 主题 · TI 标题 · AB 摘要 · FT 全文 · AU 任意作者 · FA 第一作者 · LA 最后作者 · SO 来源<br>
     运算符：AND / OR / NOT，支持括号、"精确短语"、通配符 *。填写高级表达式后优先使用它；下方简单规则仍可作为期刊白名单。</div>
     <button class="ghost" style="margin-top:8px" onclick="validateFeedQuery(${i})">检查表达式</button>
-    <label>期刊（不勾选 = 全部关注期刊）
-      <span style="float:right"><a href="javascript:setAllJ(${i},true)" style="color:var(--accent)">全选</a> / <a href="javascript:setAllJ(${i},false)" style="color:var(--accent)">全不选</a></span></label>
-    <div class="checkgroup">${jCheck}</div>
-    <div class="row">
+    <label>期刊范围（从列表点击添加；为空 = 全部来源）</label>
+    <div class="selected-journals">${selected||'<span class="hint">全部来源</span>'}</div>
+    <details><summary>选择期刊</summary><div class="journal-picker">${jOptions||'<span class="hint">已选择全部期刊</span>'}</div></details>
+    <details style="margin-top:12px"><summary>兼容旧版简单规则（可选）</summary><div class="row">
       <div>
         <label>关键词（每行一个，不区分大小写）</label>
         <textarea class="terms" data-i="${i}" placeholder="synaptic plasticity&#10;hippocamp">${esc((f.keywords.terms||[]).join("\n"))}</textarea>
@@ -452,17 +494,40 @@ function feedCard(f,i){
           <label><input type="radio" class="am" data-i="${i}" name="am${i}" value="all" ${f.author_match==="all"?"checked":""}> 一作+末作都需命中</label>
         </div>
       </div>
-    </div>
+    </div></details>
   </div>`;
 }
 function renderFeeds(){
   document.getElementById("feed-cards").innerHTML = feeds.map(feedCard).join("");
   document.getElementById("feed-empty").style.display = feeds.length?"none":"block";
 }
+function rebuildQuery(f){
+  const conditions=f.conditions||[];
+  if(!conditions.length){f.query="";return;}
+  let expr="";
+  conditions.forEach((c,k)=>{
+    const term=`${c.type}=${/\s/.test(c.value)?'"'+c.value.replace(/"/g,'\\"')+'"':c.value}`;
+    if(k===0) expr=c.op==='NOT'?`NOT ${term}`:term;
+    else expr=c.op==='NOT'?`${expr} AND NOT ${term}`:`${expr} ${c.op} ${term}`;
+  });
+  f.query=expr;
+}
+function addCondition(i){
+  const root=document.querySelector(`.card[data-i="${i}"]`), value=root.querySelector('.condition-value').value.trim();
+  if(!value){toast('请输入关键词或作者姓名',false);return;}
+  feeds[i].conditions=legacyConditions(feeds[i]);
+  feeds[i].conditions.push({op:root.querySelector('.condition-op').value,type:root.querySelector('.condition-type').value,value});
+  rebuildQuery(feeds[i]); renderFeeds();
+}
+function removeCondition(i,k){ feeds[i].conditions=legacyConditions(feeds[i]); feeds[i].conditions.splice(k,1); rebuildQuery(feeds[i]); renderFeeds(); }
+function addJournal(i,name){ feeds[i].journals=feeds[i].journals||[]; if(!feeds[i].journals.includes(name)) feeds[i].journals.push(name); renderFeeds(); }
+function removeJournal(i,name){ feeds[i].journals=(feeds[i].journals||[]).filter(j=>j!==name); renderFeeds(); }
 async function loadFeeds(){
   try {
     const d = await api("/api/feeds");
-    JOURNALS = d.journals; feeds = d.feeds; renderFeeds();
+    JOURNALS = d.journals; feeds = d.feeds;
+    feeds.forEach(f=>{ f.conditions=legacyConditions(f); if(!f.query&&f.conditions.length) rebuildQuery(f); });
+    renderFeeds();
   } catch(e){ toast("加载 Feed 失败："+e.message, false); }
 }
 function setAllJ(i,on){ document.querySelectorAll(`.jsel[data-i="${i}"]`).forEach(c=>c.checked=on); }
@@ -473,7 +538,7 @@ function collectFeed(i){
   return {
     name: q(".fname").value.trim(),
     query: q(".query").value.trim(),
-    journals: [...root.querySelectorAll(".jsel")].filter(c=>c.checked).map(c=>c.dataset.j),
+    journals: feeds[i].journals||[],
     keywords: {
       terms: split(q(".terms")),
       match: q(".km:checked")?.value || "any",
@@ -501,7 +566,20 @@ async function saveFeeds(){
     const r = await api("/api/feeds", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({feeds:data})});
     toast("✅ "+r.message);
     await loadFeeds();
+    await refreshState();
+    showTab("dashboard");
   } catch(e){ toast("❌ 保存失败："+e.message, false); }
+}
+async function syncCatalog(){
+  try { const r=await api('/api/catalog/sync',{method:'POST'}); toast(r.message); pollCatalog(); }
+  catch(e){ toast(e.message,false); }
+}
+async function pollCatalog(){
+  try {
+    const s=await api('/api/catalog/sync');
+    document.getElementById('catalog-status').textContent=`${s.message} ${s.done}/${s.total}${s.journal?' · '+s.journal:''}`;
+    if(s.running) setTimeout(pollCatalog,3000); else { toast('✅ 半年文献库初始化完成'); await refreshState(); }
+  } catch(e){ toast(e.message,false); }
 }
 
 /* ================= 期刊管理 ================= */
@@ -517,7 +595,8 @@ function renderJournals(){
       <span class="source-pill">${j.source==='biorxiv'?'PREPRINT · NEUROSCIENCE':'JOURNAL'}</span>
       <h3>${esc(j.name)}</h3>
       <div class="hint">${esc(j.print||j.online||'bioRxiv API')}</div>
-      <div style="margin-top:12px;color:var(--accent);font-size:12px">查看过去半年最新文章 →</div>
+      <div style="margin-top:10px"><b style="font-size:20px;color:var(--accent)">${j.paper_count||0}</b> <span class="hint">篇已入库</span></div>
+      <div style="margin-top:8px;color:var(--accent);font-size:12px">查看过去半年最新文章 →</div>
     </div>`).join("");
   document.querySelector("#journal-table tbody").innerHTML = journals.map((j,i)=>`
     <tr data-i="${i}">

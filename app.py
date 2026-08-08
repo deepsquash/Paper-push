@@ -58,6 +58,7 @@ RUN_STATE = {
 _RUN_LOCK = threading.Lock()
 _SYNC_LOCK = threading.Lock()
 SYNC_STATE = {"running": False, "journal": "", "message": ""}
+CATALOG_STATE = {"running": False, "done": 0, "total": 0, "journal": "", "message": ""}
 
 
 # ================= 工具 =================
@@ -377,7 +378,23 @@ def api_save_feeds():
             if not validation["valid"]:
                 return jsonify({"ok": False, "message": f"Feed『{feed['name']}』：{validation['message']}"}), 400
     _write_yaml(FEEDS_PATH, {"feeds": feeds})
-    return jsonify({"ok": True, "message": f"已保存 {len(feeds)} 个 Feed，下次运行即生效"})
+    # 关键修复：配置保存后立即用已缓存的半年文献库重算，不再显示旧 run 的结果。
+    result = pipeline.evaluate_library(CONFIG_DIR, days=180)
+    with _RUN_LOCK:
+        RUN_STATE["last_result"] = {
+            **result, "fetched": result.get("library_total", 0), "early": 0, "new": 0,
+            "pushed": False, "error": "", "finished_at": datetime.now().isoformat(timespec="seconds"),
+        }
+    return jsonify({
+        "ok": True,
+        "message": f"已保存 {len(feeds)} 个 Feed，并从半年文献库重新匹配",
+        "result": RUN_STATE["last_result"],
+    })
+
+
+@app.get("/api/feeds/results")
+def api_feed_results():
+    return jsonify(pipeline.evaluate_library(CONFIG_DIR, days=180))
 
 
 @app.post("/api/query/validate")
@@ -496,14 +513,71 @@ def api_sync_status(name: str):
         library.close()
 
 
+@app.post("/api/catalog/sync")
+def api_sync_catalog():
+    with _SYNC_LOCK:
+        if CATALOG_STATE["running"]:
+            return jsonify({"ok": False, "message": "期刊库正在初始化"}), 409
+        journals = _read_yaml(JOURNALS_PATH).get("journals") or {}
+        CATALOG_STATE.update({
+            "running": True, "done": 0, "total": len(journals), "journal": "", "message": "开始初始化…",
+        })
+
+    def worker():
+        settings = load_settings(CONFIG_DIR)
+        since = datetime.now().date() - timedelta(days=180)
+        library = Library(LIBRARY_DB)
+        try:
+            for name, spec in journals.items():
+                CATALOG_STATE["journal"] = name
+                CATALOG_STATE["message"] = f"正在同步 {name}"
+                try:
+                    if spec.get("source") == "biorxiv":
+                        papers = biorxiv.fetch(
+                            since, datetime.now().date(), spec.get("category", "neuroscience"),
+                            max_pages=60, journal_name=name, max_records=10000,
+                        )
+                        source = "biorxiv"
+                    else:
+                        papers = crossref.fetch_journal(
+                            name, [spec.get("print", ""), spec.get("online", "")], since,
+                            settings.crossref_mailto, max_pages=10,
+                            excluded_doi_prefixes=settings.exclude_doi_prefixes or None,
+                        )
+                        source = "crossref"
+                    library.upsert(papers, source=source, category=spec.get("category", ""))
+                    library.mark_sync(name, since.isoformat(), len(papers), "ok", f"已同步 {len(papers)} 篇")
+                except Exception as exc:  # noqa: BLE001
+                    library.mark_sync(name, since.isoformat(), 0, "error", str(exc))
+                    log.warning("初始化期刊失败 %s: %s", name, exc)
+                CATALOG_STATE["done"] += 1
+            CATALOG_STATE["message"] = "半年期刊库初始化完成"
+        finally:
+            library.close()
+            CATALOG_STATE["running"] = False
+
+    threading.Thread(target=worker, daemon=True, name="paperpush-catalog-sync").start()
+    return jsonify({"ok": True, "message": "已开始后台初始化全部来源的半年文献"}), 202
+
+
+@app.get("/api/catalog/sync")
+def api_catalog_status():
+    return jsonify(CATALOG_STATE)
+
+
 @app.get("/api/journals")
 def api_get_journals():
     data = _read_yaml(JOURNALS_PATH)
     journals = data.get("journals", {})
+    library = Library(LIBRARY_DB)
+    counts = library.journal_counts()
+    sync = {name: library.sync_info(name) for name in journals}
+    library.close()
     return jsonify({
         "journals": [
             {"name": k, "print": (v.get("print") or ""), "online": (v.get("online") or ""),
-             "source": v.get("source", "crossref"), "category": v.get("category", "")}
+             "source": v.get("source", "crossref"), "category": v.get("category", ""),
+             "paper_count": counts.get(k, 0), "last_sync": sync.get(k)}
             for k, v in journals.items()
         ]
     })

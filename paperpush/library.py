@@ -178,5 +178,9 @@ class Library:
         row = self.conn.execute("SELECT * FROM source_sync WHERE source_key=?", (source_key,)).fetchone()
         return dict(row) if row else None
 
+    def journal_counts(self) -> dict[str, int]:
+        rows = self.conn.execute("SELECT journal,COUNT(*) AS count FROM papers GROUP BY journal").fetchall()
+        return {row["journal"]: row["count"] for row in rows}
+
     def close(self) -> None:
         self.conn.close()
