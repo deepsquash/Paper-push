@@ -1,0 +1,11 @@
+{
+  "name": "PaperPush 文献速递",
+  "short_name": "PaperPush",
+  "description": "双语科研文献发现、Feed 订阅与推送",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f0e8",
+  "theme_color": "#13231f",
+  "lang": "zh-CN",
+  "icons": []
+}

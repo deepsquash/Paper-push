@@ -20,6 +20,29 @@
 - **去重**：SQLite 记录已见 DOI，同一篇文章只推送一次
 - 作者超过 6 位时展示前 3 + 后 3
 
+## 产品化能力（当前版本）
+
+- **中英文与移动端**：响应式网页、中文优先界面、语言切换入口；PWA manifest + service worker，
+  可在手机浏览器“添加到主屏幕”，为后续封装 iOS/Android App 保留同一套 API
+- **Web of Science 风格检索**：Feed 支持 `AND / OR / NOT`、嵌套括号、引号短语、
+  通配符 `*` / `?`，以及字段 `TS/TI/AB/FT/AU/FA/LA/SO`
+- **期刊发现库**：内置 57 个来源（Nature/Science/Cell 系、神经科学主流期刊和
+  `bioRxiv · Neuroscience`），点击期刊可查看本地半年文献并触发首次回填
+- **本地文献库**：SQLite 持久化文章、来源同步状态、收藏和屏蔽反馈；后续刷新增量更新
+- **相对时间**：一周以内显示“几天前”，一天以内显示“几小时前”
+- **个性化反馈**：文章可收藏或标记不感兴趣；屏蔽文章从发现流和 Feed 看板移除
+
+复杂检索示例：
+
+```text
+("synaptic plasticity" OR hippocamp*) AND memory
+TS=((optogenetic* OR chemogenetic*) AND memory) AND LA=(Tonegawa OR Buzsaki)
+(TI=(astrocyte OR microglia) OR AB="glial cell") AND NOT SO=review
+```
+
+字段含义：`TS` 主题、`TI` 标题、`AB` 摘要、`FT` 全文、`AU` 任意作者、
+`FA` 第一作者、`LA` 最后作者、`SO` 期刊/来源。
+
 ## 目录结构
 
 ```
@@ -51,6 +74,16 @@ Windows 双击 **`start.bat`**（首次自动安装依赖），或命令行：
 pip install -r requirements.txt
 python app.py          # 浏览器自动打开 http://localhost:8080
 ```
+
+服务器 / Docker 部署（同一 API 可供后续 iOS、Android、微信小程序调用）：
+
+```bash
+docker build -t paperpush .
+docker run -d -p 8080:8080 -v paperpush-data:/app/data --name paperpush paperpush
+```
+
+生产模式使用 Waitress；`python app.py --host 0.0.0.0` 可直接监听局域网/服务器地址。
+对外公网服务前仍应增加用户登录、HTTPS、密钥加密和数据库迁移（当前是单用户本地产品）。
 
 ### 2. 使用流程
 

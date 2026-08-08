@@ -13,9 +13,11 @@ from typing import Callable, Dict, List, Optional
 from . import matcher, storage
 from .config import load_feeds, load_journals, load_settings
 from .models import Paper
+from .library import Library
 from .push.report import render_report
 from .push.wechat import push_wechat
 from .sources import crossref, pubmed
+from .sources import biorxiv
 
 log = logging.getLogger("paperpush")
 
@@ -87,6 +89,7 @@ def run_once(
         "feeds": {},
         "details": {},
     }
+    library = Library(Path(settings.storage).with_name("library.db"))
 
     def info(msg: str) -> None:
         log.info(msg)
@@ -114,7 +117,7 @@ def run_once(
     # 1. Crossref 抓取（含提前在线文章）
     issns_by_journal = {
         name: [v["print"]] + ([v["online"]] if v.get("online") else [])
-        for name, v in journals.items()
+        for name, v in journals.items() if v.get("source", "crossref") == "crossref" and v.get("print")
     }
     try:
         papers = crossref.fetch_recent(
@@ -133,6 +136,18 @@ def run_once(
     info(f"Crossref 抓到 {len(papers)} 篇（其中提前在线 {result['early']} 篇）")
     if not papers:
         warn("没有抓到任何文章，请检查网络/ISSN 配置")
+
+    # bioRxiv neuroscience 与期刊文章统一进入本地文献库。
+    try:
+        preprints = biorxiv.fetch(since, date.today(), "neuroscience", max_pages=5)
+        papers.extend(preprints)
+        info(f"bioRxiv · Neuroscience 抓到 {len(preprints)} 篇")
+    except Exception as e:  # noqa: BLE001
+        warn(f"bioRxiv 抓取失败（不影响期刊文章）：{e}")
+    library.upsert([p for p in papers if p.journal != "bioRxiv · Neuroscience"], source="crossref")
+    library.upsert([p for p in papers if p.journal == "bioRxiv · Neuroscience"], source="biorxiv", category="neuroscience")
+    result["fetched"] = len(papers)
+    result["early"] = sum(1 for p in papers if p.is_early_access)
 
     # 2. 摘要补充 + fulltext 通道预计算
     try:
@@ -174,6 +189,17 @@ def run_once(
         result["details"][name] = [
             _paper_to_dict(p, m, p.doi.lower() in new_dois) for p, m in feed_results[name]
         ]
+    reactions = library.reaction_map(
+        item["key"] for items in result["details"].values() for item in items
+    )
+    for items in result["details"].values():
+        for item in items:
+            item["reaction"] = reactions.get(item["key"], "")
+    # 已标记为“不感兴趣”的文章不再出现在 Feed 看板。
+    result["details"] = {
+        name: [item for item in items if item.get("reaction") != "hidden"]
+        for name, items in result["details"].items()
+    }
 
     new_feed_results = {
         name: [(p, m) for p, m in items if p.doi.lower() in new_dois]
@@ -218,5 +244,6 @@ def run_once(
             warn(f"Zotero 自动添加失败：{e}")
 
     store.close()
+    library.close()
     info("本轮完成")
     return result

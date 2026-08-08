@@ -40,6 +40,7 @@ class Paper:
 @dataclass
 class FeedRule:
     name: str
+    query: str = ""  # Web of Science 风格布尔表达式（优先于旧版字段）
     journals: list = field(default_factory=list)  # 空 = 全部
     keyword_terms: list = field(default_factory=list)
     keyword_match: str = "any"  # any | all
@@ -52,7 +53,8 @@ class FeedRule:
     @property
     def has_any_condition(self) -> bool:
         return bool(
-            self.keyword_terms
+            self.query
+            or self.keyword_terms
             or self.first_authors
             or self.last_authors
             or self.exclude_terms

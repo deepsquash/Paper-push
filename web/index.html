@@ -2,30 +2,34 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#13231f">
+<link rel="manifest" href="/manifest.webmanifest">
 <title>PaperPush 文献速递</title>
 <style>
-:root { --bg:#0f1419; --card:#1a2029; --fg:#e6e9ee; --muted:#9aa4b2; --accent:#4da3ff;
+:root { --bg:#f3f0e8; --card:#fffdf7; --fg:#192522; --muted:#6d7873; --accent:#12715b;
         --danger:#ff5c5c; --ok:#4ec94e; --border:#262d38; --tag:#253244; --tag-fg:#8fc4ff;
         --early:#ffb84d; --new:#7ee07e;
-        --input-bg:#121826; --input-border:#2c3545; --toast-bg:#26303f; --code-fg:#b8c4d4; }
+        --input-bg:#fff; --input-border:#cfd7d2; --toast-bg:#1c2d29; --code-fg:#d9e8e3;
+        --nav-bg:#13231f; --shadow:0 12px 32px rgba(31,50,44,.08); }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--fg);
        font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; }
-header { padding:16px 28px; border-bottom:1px solid var(--border);
+header { padding:15px 28px; background:var(--nav-bg); color:#f5f1e8; position:sticky; top:0; z-index:20;
+         box-shadow:0 5px 20px rgba(8,20,17,.18);
          display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; }
 header h1 { margin:0; font-size:20px; }
 nav { display:flex; gap:4px; margin-top:10px; flex-wrap:wrap; }
-nav button { background:transparent; color:var(--muted); border:1px solid transparent;
+nav button { background:transparent; color:#a9bbb5; border:1px solid transparent;
              border-radius:8px; padding:8px 16px; font-size:14px; cursor:pointer; }
-nav button.active { color:var(--accent); border-color:var(--accent); }
-main { max-width:960px; margin:0 auto; padding:20px 16px 80px; }
+nav button.active { color:#fff; border-color:#4ec4a4; background:rgba(78,196,164,.12); }
+main { max-width:1120px; margin:0 auto; padding:26px 20px 90px; }
 .tab { display:none; }
 .tab.active { display:block; }
-.card { background:var(--card); border:1px solid var(--border); border-radius:10px;
-        padding:16px 18px; margin:14px 0; }
-.paper { background:var(--card); border:1px solid var(--border); border-radius:10px;
-         padding:14px 16px; margin:10px 0; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:16px;
+        padding:18px 20px; margin:14px 0; box-shadow:var(--shadow); }
+.paper { background:var(--card); border:1px solid var(--border); border-radius:14px;
+         padding:16px 18px; margin:11px 0; box-shadow:0 8px 24px rgba(31,50,44,.05); }
 .paper .title { font-size:15px; font-weight:600; line-height:1.45; }
 .paper .title a { color:var(--fg); text-decoration:none; }
 .paper .title a:hover { color:var(--accent); }
@@ -35,11 +39,11 @@ main { max-width:960px; margin:0 auto; padding:20px 16px 80px; }
 .new   { background:rgba(46,125,50,.18); color:var(--new); border:1px solid #2e7d32; }
 .reason { display:inline-block; background:var(--tag); color:var(--tag-fg); font-size:11.5px;
           border-radius:10px; padding:2px 9px; margin:2px 4px 2px 0; }
-.abstract { color:#c3cad4; font-size:13px; line-height:1.6; margin:8px 0 10px;
+.abstract { color:#4f5e59; font-size:13px; line-height:1.68; margin:8px 0 10px;
             display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
 .abstract.open { -webkit-line-clamp:unset; }
 .actions { display:flex; gap:8px; flex-wrap:wrap; }
-button { background:var(--accent); color:#0b1520; border:none; border-radius:6px;
+button { background:var(--accent); color:#fff; border:none; border-radius:9px;
          padding:8px 16px; font-size:13px; font-weight:600; cursor:pointer; }
 button:hover { filter:brightness(1.1); }
 button.ghost { background:transparent; border:1px solid #3a4454; color:var(--fg); font-weight:normal; }
@@ -73,7 +77,7 @@ input[type=checkbox], input[type=radio] { width:auto; accent-color:var(--accent)
 .statgrid { display:flex; gap:10px; flex-wrap:wrap; margin:12px 0; }
 .stat { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:8px 16px; font-size:13px; }
 .stat b { color:var(--accent); font-size:16px; }
-.logbox { background:#0a0e14; border:1px solid var(--border); border-radius:8px;
+.logbox { background:#10201c; border:1px solid var(--border); border-radius:10px;
           padding:12px; font-family:Consolas,monospace; font-size:12px; line-height:1.6;
           height:380px; overflow-y:auto; white-space:pre-wrap; color:var(--code-fg); }
 table { width:100%; border-collapse:collapse; font-size:13px; }
@@ -98,31 +102,69 @@ h2 .cnt { color:var(--muted); font-weight:normal; font-size:13px; }
   .abstract { color:#4a5564; }
   .logbox { background:#f0f2f5; }
 }
+.hero { padding:30px; border-radius:20px; background:linear-gradient(135deg,#183c32,#12715b 58%,#d59345);
+        color:#fff; box-shadow:0 18px 45px rgba(18,68,55,.2); margin-bottom:20px; }
+.hero h2 { border:0; margin:0 0 7px; font-family:Georgia,"Noto Serif SC",serif; font-size:29px; }
+.hero p { margin:0; color:#d8ede7; max-width:720px; }
+.toolbar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:14px 0; }
+.journal-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:14px; }
+.journal-tile { cursor:pointer; min-height:126px; transition:.18s transform,.18s border-color; }
+.journal-tile:hover { transform:translateY(-2px); border-color:var(--accent); }
+.journal-tile h3 { margin:0 0 8px; font-size:16px; }
+.source-pill { display:inline-block; padding:3px 8px; border-radius:99px; background:#e4f1ed; color:#176451; font-size:11px; }
+.query-box { min-height:94px; font-family:Consolas,"SFMono-Regular",monospace; line-height:1.55; }
+.query-help { padding:10px 12px; background:#eef5f2; border-radius:9px; color:#49615a; font-size:12px; line-height:1.7; margin-top:8px; }
+.reaction { font-size:16px; min-width:38px; padding:6px 10px; }
+.reaction.on { background:#e5f4ef; color:var(--accent); border:1px solid var(--accent); }
+.lang-btn { border-color:#637b74!important; color:#e9f3f0!important; }
+@media (max-width:720px) {
+  header { padding:12px 14px; }
+  header h1 { font-size:17px; }
+  nav { overflow-x:auto; flex-wrap:nowrap; width:100%; padding-bottom:3px; }
+  nav button { flex:0 0 auto; padding:7px 11px; }
+  main { padding:16px 12px 85px; }
+  .hero { padding:22px 19px; border-radius:15px; }
+  .hero h2 { font-size:23px; }
+  .journal-grid { grid-template-columns:1fr; }
+  table { min-width:720px; }
+  .card:has(table) { overflow-x:auto; }
+}
 </style>
 </head>
 <body>
 <header>
-  <h1>📚 PaperPush 文献速递</h1>
+  <h1>PaperPush <span style="color:#8edbc7;font-weight:400">文献速递</span></h1>
   <nav>
-    <button class="active" data-tab="dashboard" onclick="showTab('dashboard')">看板</button>
+    <button class="active" data-tab="dashboard" onclick="showTab('dashboard')">发现</button>
+    <button data-tab="favorites" onclick="showTab('favorites')">收藏</button>
     <button data-tab="feeds" onclick="showTab('feeds')">Feed 管理</button>
     <button data-tab="journals" onclick="showTab('journals')">期刊管理</button>
     <button data-tab="settings" onclick="showTab('settings')">设置</button>
     <button data-tab="run" onclick="showTab('run')">运行</button>
+    <button class="lang-btn" onclick="toggleLanguage()" id="lang-button">EN</button>
   </nav>
 </header>
 <main>
 
 <!-- ============ 看板 ============ -->
 <div class="tab active" id="tab-dashboard">
+  <div class="hero">
+    <h2>把真正相关的研究，送到你面前。</h2>
+    <p>聚合期刊与 bioRxiv 预印本，用可组合的布尔检索 Feed 跟踪主题、作者和来源。</p>
+  </div>
   <div id="dash-status"></div>
   <div id="dash-content"></div>
+</div>
+
+<div class="tab" id="tab-favorites">
+  <div class="hero"><h2>你的收藏</h2><p>保留值得精读、稍后处理或准备加入 Zotero 的文章。</p></div>
+  <div id="favorite-content"></div>
 </div>
 
 <!-- ============ Feed 管理 ============ -->
 <div class="tab" id="tab-feeds">
   <p class="hint">Feed 是文献筛选规则：期刊、关键词、第一/最后作者均为可选项，
-  不勾选期刊 = 关注全部期刊。保存后立即写入配置，下次运行生效。</p>
+  不勾选期刊 = 关注全部期刊。高级表达式支持 AND / OR / NOT、括号、引号短语、通配符和字段限定。</p>
   <div style="display:flex; gap:10px; margin:12px 0; flex-wrap:wrap">
     <button onclick="addFeed()">＋ 新建 Feed</button>
     <button onclick="saveFeeds()">💾 保存全部 Feed</button>
@@ -142,12 +184,16 @@ h2 .cnt { color:var(--muted); font-weight:normal; font-size:13px; }
     <button onclick="saveJournals()">💾 保存期刊</button>
     <button class="ghost" onclick="loadJournals()">重新加载</button>
   </div>
+  <div id="journal-grid" class="journal-grid"></div>
+  <div id="journal-detail" style="display:none"></div>
+  <details style="margin-top:20px"><summary>高级：编辑期刊元数据 / Advanced metadata editor</summary>
   <div class="card" style="padding:10px 18px">
     <table id="journal-table">
       <thead><tr><th>期刊名称</th><th>print ISSN</th><th>online ISSN</th><th></th></tr></thead>
       <tbody></tbody>
     </table>
   </div>
+  </details>
 </div>
 
 <!-- ============ 设置 ============ -->
@@ -228,6 +274,7 @@ let JOURNALS = [];
 let feeds = [];
 let journals = [];
 let LOG_CURSOR = 0;
+let UI_LANG = localStorage.getItem("paperpush-lang") || "zh";
 
 function esc(s){ return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 function toast(msg, ok=true){
@@ -247,8 +294,24 @@ function showTab(name){
   if (name==="feeds") loadFeeds();
   if (name==="journals") loadJournals();
   if (name==="settings") loadSettings();
+  if (name==="favorites") loadFavorites();
   if (name==="run") { refreshState(); startLogPoll(); }
   if (name==="dashboard") refreshState();
+}
+function toggleLanguage(){
+  UI_LANG = UI_LANG==="zh" ? "en" : "zh";
+  localStorage.setItem("paperpush-lang", UI_LANG);
+  document.getElementById("lang-button").textContent = UI_LANG==="zh" ? "EN" : "中文";
+  toast(UI_LANG==="zh" ? "界面语言：中文" : "Interface language: English");
+}
+function relativeTime(dateText){
+  if (!dateText) return "—";
+  const then = new Date(dateText.length===10 ? dateText+"T00:00:00" : dateText);
+  const hours = Math.max(0, (Date.now()-then.getTime())/3600000);
+  if (hours < 1) return UI_LANG==="zh" ? "刚刚" : "just now";
+  if (hours < 24) return UI_LANG==="zh" ? `${Math.floor(hours)} 小时前` : `${Math.floor(hours)}h ago`;
+  if (hours < 168) return UI_LANG==="zh" ? `${Math.floor(hours/24)} 天前` : `${Math.floor(hours/24)}d ago`;
+  return dateText.slice(0,10);
 }
 function fmtAuthors(names){
   if (!names || names.length===0) return "—";
@@ -282,7 +345,11 @@ async function refreshState(){
     const details = (s.last_result || s.latest_run?.result)?.details || {};
     const keys = Object.keys(details);
     const box = document.getElementById("dash-content");
-    if (!keys.length) { box.innerHTML = ""; return; }
+    if (!keys.length) {
+      const recent=await api("/api/discover");
+      box.innerHTML='<h2>最近发表 <span class="cnt">/ Latest</span></h2>'+(recent.papers.map(p=>paperCard(p,"发现")).join("")||'<div class="empty">文献库为空。去「运行」刷新最近文章，或在「期刊管理」同步半年文献。</div>');
+      return;
+    }
     box.innerHTML = keys.map(fname => `
       <section>
         <h2>${esc(fname)} <span class="cnt">（${details[fname].length} 篇）</span></h2>
@@ -296,24 +363,46 @@ function paperCard(p, feed){
   const reasons = (p.reasons||[]).map(r=>`<span class="reason">${esc(r)}</span>`).join("") || "";
   return `<div class="paper">
     <div class="title"><a href="${esc(p.url)}" target="_blank">${esc(p.title)}</a>${badges}</div>
-    <div class="meta">${esc(p.journal)} · 在线发布 ${esc(p.published_online||"—")} · ${esc(fmtAuthors(p.authors))}</div>
+    <div class="meta">${esc(p.journal)} · ${esc(relativeTime(p.published_online||p.published_print))} · ${esc(fmtAuthors(p.authors))}</div>
     <div>${reasons}</div>
     <div class="abstract" onclick="this.classList.toggle('open')" title="点击展开/收起摘要">${esc(p.abstract||"(无摘要，点击标题查看原文)")}</div>
     <div class="actions">
       <a class="btn-link" href="${esc(p.url)}" target="_blank">打开原文</a>
+      <button class="ghost reaction ${p.reaction==='liked'?'on':''}" data-key="${esc(p.key||p.doi)}" data-state="liked" title="收藏">♡</button>
+      <button class="ghost reaction" data-key="${esc(p.key||p.doi)}" data-state="hidden" title="不感兴趣">×</button>
       <button class="btn-zotero" data-doi="${esc(p.doi)}" data-feed="${esc(feed)}">＋ 添加至 Zotero</button>
     </div>
   </div>`;
 }
 
 document.addEventListener("click", e => {
+  const reaction = e.target.closest(".reaction");
+  if (reaction) {
+    reactPaper(reaction.dataset.key, reaction.dataset.state, reaction);
+    return;
+  }
   const btn = e.target.closest(".btn-zotero");
   if (!btn) return;
   zoteroAdd(btn.dataset.doi, btn.dataset.feed);
 });
 
+async function reactPaper(key,state,button){
+  try {
+    const next = state==="liked" && button.classList.contains("on") ? "" : state;
+    await api("/api/papers/reaction", {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({key,state:next})});
+    if (state==="hidden") button.closest(".paper")?.remove();
+    else button.classList.toggle("on", next==="liked");
+  } catch(e){ toast(e.message,false); }
+}
+async function loadFavorites(){
+  try {
+    const data=await api("/api/library?favorites=1&days=730&limit=200");
+    document.getElementById("favorite-content").innerHTML=data.papers.map(p=>paperCard(p,"收藏")).join("")||'<div class="empty">还没有收藏文章</div>';
+  } catch(e){ toast(e.message,false); }
+}
+
 /* ================= Feed 管理 ================= */
-function newFeed(){ return {name:"", journals:[], keywords:{terms:[],match:"any",fields:["title","abstract"],exclude:[]}, first_authors:[],last_authors:[],author_match:"any"}; }
+function newFeed(){ return {name:"", query:"", journals:[], keywords:{terms:[],match:"any",fields:["title","abstract"],exclude:[]}, first_authors:[],last_authors:[],author_match:"any"}; }
 function feedCard(f,i){
   const allSel = f.journals.length===0;
   const jCheck = JOURNALS.map(j=>`<label><input type="checkbox" class="jsel" data-i="${i}" data-j="${esc(j)}" ${allSel||f.journals.includes(j)?"checked":""}> ${esc(j)}</label>`).join("");
@@ -332,6 +421,11 @@ function feedCard(f,i){
     </div>
     <label>Feed 名称</label>
     <input type="text" class="fname" data-i="${i}" value="${esc(f.name)}" placeholder="例如：突触与学习记忆">
+    <label>高级布尔表达式 / Advanced Boolean query</label>
+    <textarea class="query-box query" data-i="${i}" placeholder='TS=((optogenetic* OR chemogenetic*) AND memory) AND LA=(Tonegawa OR Buzsaki)'>${esc(f.query||"")}</textarea>
+    <div class="query-help">字段：TS 主题 · TI 标题 · AB 摘要 · FT 全文 · AU 任意作者 · FA 第一作者 · LA 最后作者 · SO 来源<br>
+    运算符：AND / OR / NOT，支持括号、"精确短语"、通配符 *。填写高级表达式后优先使用它；下方简单规则仍可作为期刊白名单。</div>
+    <button class="ghost" style="margin-top:8px" onclick="validateFeedQuery(${i})">检查表达式</button>
     <label>期刊（不勾选 = 全部关注期刊）
       <span style="float:right"><a href="javascript:setAllJ(${i},true)" style="color:var(--accent)">全选</a> / <a href="javascript:setAllJ(${i},false)" style="color:var(--accent)">全不选</a></span></label>
     <div class="checkgroup">${jCheck}</div>
@@ -378,6 +472,7 @@ function collectFeed(i){
   const split = v => v.value.split(/[\n,，;；]+/).map(x=>x.trim()).filter(Boolean);
   return {
     name: q(".fname").value.trim(),
+    query: q(".query").value.trim(),
     journals: [...root.querySelectorAll(".jsel")].filter(c=>c.checked).map(c=>c.dataset.j),
     keywords: {
       terms: split(q(".terms")),
@@ -389,6 +484,12 @@ function collectFeed(i){
     last_authors: split(q(".la")),
     author_match: q(".am:checked")?.value || "any",
   };
+}
+async function validateFeedQuery(i){
+  const q=document.querySelector(`.card[data-i="${i}"] .query`).value.trim();
+  if(!q){ toast("表达式为空，将使用下方简单规则"); return; }
+  try { const r=await api("/api/query/validate",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:q})}); toast((r.valid?"✅ ":"❌ ")+r.message,r.valid); }
+  catch(e){ toast(e.message,false); }
 }
 function addFeed(){ feeds.push(newFeed()); renderFeeds(); }
 function delFeed(i){ feeds.splice(i,1); renderFeeds(); }
@@ -411,6 +512,13 @@ async function loadJournals(){
   } catch(e){ toast("加载期刊失败："+e.message, false); }
 }
 function renderJournals(){
+  document.getElementById("journal-grid").innerHTML = journals.map((j,i)=>`
+    <div class="card journal-tile" onclick="openJournal(${i})">
+      <span class="source-pill">${j.source==='biorxiv'?'PREPRINT · NEUROSCIENCE':'JOURNAL'}</span>
+      <h3>${esc(j.name)}</h3>
+      <div class="hint">${esc(j.print||j.online||'bioRxiv API')}</div>
+      <div style="margin-top:12px;color:var(--accent);font-size:12px">查看过去半年最新文章 →</div>
+    </div>`).join("");
   document.querySelector("#journal-table tbody").innerHTML = journals.map((j,i)=>`
     <tr data-i="${i}">
       <td><input type="text" class="jname" data-i="${i}" value="${esc(j.name)}" placeholder="期刊名称"></td>
@@ -419,13 +527,40 @@ function renderJournals(){
       <td><button class="danger" onclick="delJournal(${i})">删除</button></td>
     </tr>`).join("");
 }
-function addJournalRow(){ journals.push({name:"",print:"",online:""}); renderJournals(); }
+async function openJournal(i){
+  const j=journals[i], detail=document.getElementById("journal-detail");
+  detail.style.display="block";
+  detail.innerHTML=`<div class="hero"><h2>${esc(j.name)}</h2><p>过去半年文献库。首次打开请同步，之后每次刷新只需加载新增文章。</p></div>
+    <div class="toolbar"><button onclick="syncJournal(${i})">同步过去半年</button><button class="ghost" onclick="loadJournalPapers(${i})">刷新列表</button><button class="ghost" onclick="closeJournal()">返回期刊库</button></div>
+    <div id="journal-papers"><div class="empty">正在读取本地文献库…</div></div>`;
+  document.getElementById("journal-grid").style.display="none";
+  await loadJournalPapers(i);
+}
+function closeJournal(){ document.getElementById("journal-detail").style.display="none"; document.getElementById("journal-grid").style.display="grid"; }
+async function loadJournalPapers(i){
+  try { const d=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/papers`); document.getElementById("journal-papers").innerHTML=d.papers.map(p=>paperCard(p,journals[i].name)).join("")||'<div class="empty">本地还没有文章，请点击「同步过去半年」</div>'; }
+  catch(e){ toast(e.message,false); }
+}
+async function syncJournal(i){
+  toast("正在同步，首次回填半年数据可能需要 1-3 分钟…");
+  try { const r=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`,{method:"POST"}); toast("✅ "+r.message); pollJournalSync(i); }
+  catch(e){ toast("同步失败："+e.message,false); }
+}
+async function pollJournalSync(i){
+  try {
+    const s=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`);
+    toast(s.message || s.last_sync?.message || "正在同步…");
+    if(s.running) setTimeout(()=>pollJournalSync(i),3000);
+    else await loadJournalPapers(i);
+  } catch(e){ toast(e.message,false); }
+}
+function addJournalRow(){ journals.push({name:"",print:"",online:"",source:"crossref",category:""}); renderJournals(); }
 function delJournal(i){ journals.splice(i,1); renderJournals(); }
 async function saveJournals(){
   try {
     const data = journals.map((_,i)=>{
       const root = document.querySelector(`#journal-table tr[data-i="${i}"]`);
-      return {name: root.querySelector(".jname").value.trim(), print: root.querySelector(".jprint").value.trim(), online: root.querySelector(".jonline").value.trim()};
+      return {name: root.querySelector(".jname").value.trim(), print: root.querySelector(".jprint").value.trim(), online: root.querySelector(".jonline").value.trim(), source:journals[i].source||"crossref", category:journals[i].category||""};
     });
     const r = await api("/api/journals", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({journals:data})});
     toast("✅ "+r.message);
@@ -538,6 +673,7 @@ async function zoteroAdd(doi, feed){
 }
 
 refreshState();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(()=>{});
 </script>
 </body>
 </html>

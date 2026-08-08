@@ -139,3 +139,19 @@ def fetch_recent(
 
     time.sleep(0.2)
     return list(papers.values())
+
+
+def fetch_journal(
+    journal_name: str,
+    issns: List[str],
+    since: date,
+    mailto: str = "",
+    max_pages: int = 8,
+    excluded_doi_prefixes: List[str] = None,
+) -> List[Paper]:
+    """按单一期刊回填较长时间窗口；供期刊详情首次加载半年文献。"""
+    return fetch_recent(
+        {journal_name: [i for i in issns if i]}, since, mailto,
+        max_pages_per_journal=max_pages,
+        excluded_doi_prefixes=excluded_doi_prefixes,
+    )

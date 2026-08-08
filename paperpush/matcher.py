@@ -11,6 +11,7 @@ from dataclasses import dataclass, field
 from typing import List, Optional, Set
 
 from .models import FeedRule, Paper
+from .query import QuerySyntaxError, evaluate, parse_query
 
 
 @dataclass
@@ -62,6 +63,18 @@ def match_paper(
         return None
 
     result = MatchResult(feed_name=feed.name)
+
+    # 新版复杂表达式优先。期刊也可通过 SO= 写入表达式；feed.journals 仍作为快速白名单。
+    if feed.query:
+        try:
+            query_result = evaluate(parse_query(feed.query), paper)
+        except QuerySyntaxError:
+            return None
+        if not query_result.matched:
+            return None
+        result.matched_keywords = query_result.hits
+        result.matched_fields = ["布尔表达式"]
+        return result
 
     # 排除词（非逻辑）：标题或摘要中出现即不命中
     combined_text = f"{paper.title} {paper.abstract}"

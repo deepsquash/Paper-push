@@ -55,3 +55,122 @@ journals:
   Nature Reviews Neuroscience:
     print: "1471-003X"
     online: "1471-0048"
+  bioRxiv · Neuroscience:
+    print: ""
+    online: ""
+    source: "biorxiv"
+    category: "neuroscience"
+  Nature Human Behaviour:
+    print: "2397-3374"
+    online: "2397-3374"
+  Nature Biomedical Engineering:
+    print: "2157-846X"
+    online: "2157-846X"
+  Nature Aging:
+    print: "2662-8465"
+    online: "2662-8465"
+  Nature Genetics:
+    print: "1061-4036"
+    online: "1546-1718"
+  Nature Immunology:
+    print: "1529-2908"
+    online: "1529-2916"
+  Nature Cancer:
+    print: "2662-1347"
+    online: "2662-1347"
+  Nature Microbiology:
+    print: "2058-5276"
+    online: "2058-5276"
+  Nature Chemical Biology:
+    print: "1552-4450"
+    online: "1552-4469"
+  Molecular Psychiatry:
+    print: "1359-4184"
+    online: "1476-5578"
+  Translational Psychiatry:
+    print: "2158-3188"
+    online: "2158-3188"
+  Cell Stem Cell:
+    print: "1934-5909"
+    online: "1875-9777"
+  Cell Metabolism:
+    print: "1550-4131"
+    online: "1932-7420"
+  Cell Systems:
+    print: "2405-4712"
+    online: "2405-4720"
+  Cell Genomics:
+    print: "2666-979X"
+    online: "2666-979X"
+  Cell Reports Medicine:
+    print: "2666-3791"
+    online: "2666-3791"
+  Cell Reports Methods:
+    print: "2667-2375"
+    online: "2667-2375"
+  Trends in Neurosciences:
+    print: "0166-2236"
+    online: "1878-108X"
+  Trends in Cognitive Sciences:
+    print: "1364-6613"
+    online: "1879-307X"
+  Trends in Cell Biology:
+    print: "0962-8924"
+    online: "1879-3088"
+  Developmental Cell:
+    print: "1534-5807"
+    online: "1878-1551"
+  Immunity:
+    print: "1074-7613"
+    online: "1097-4180"
+  Cancer Cell:
+    print: "1535-6108"
+    online: "1878-3686"
+  Molecular Cell:
+    print: "1097-2765"
+    online: "1097-4164"
+  Cerebral Cortex:
+    print: "1047-3211"
+    online: "1460-2199"
+  Brain:
+    print: "0006-8950"
+    online: "1460-2156"
+  Neurology:
+    print: "0028-3878"
+    online: "1526-632X"
+  Biological Psychiatry:
+    print: "0006-3223"
+    online: "1873-2402"
+  NeuroImage:
+    print: "1053-8119"
+    online: "1095-9572"
+  Journal of Neuroscience Methods:
+    print: "0165-0270"
+    online: "1872-678X"
+  Neuroscience:
+    print: "0306-4522"
+    online: "1873-7544"
+  Frontiers in Neuroscience:
+    print: "1662-4548"
+    online: "1662-453X"
+  Communications Biology:
+    print: "2399-3642"
+    online: "2399-3642"
+  EMBO Journal:
+    print: "0261-4189"
+    online: "1460-2075"
+  PLOS Biology:
+    print: "1544-9173"
+    online: "1545-7885"
+  PLOS Computational Biology:
+    print: "1553-734X"
+    online: "1553-7358"
+  Science Translational Medicine:
+    print: "1946-6234"
+    online: "1946-6242"
+  Science Immunology:
+    print: "2470-9468"
+    online: "2470-9468"
+  Science Robotics:
+    print: "2470-9476"
+    online: "2470-9476"

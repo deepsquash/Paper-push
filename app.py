@@ -30,6 +30,10 @@ from flask import Flask, jsonify, request, send_from_directory
 from paperpush.config import ROOT_DIR
 from paperpush import pipeline
 from paperpush.pipeline import get_logs
+from paperpush.library import Library
+from paperpush.query import validate_query
+from paperpush.sources import crossref, pubmed, biorxiv
+from paperpush.config import load_settings
 
 log = logging.getLogger("paperpush.app")
 CONFIG_DIR = ROOT_DIR / "config"
@@ -37,6 +41,7 @@ FEEDS_PATH = CONFIG_DIR / "feeds.yaml"
 JOURNALS_PATH = CONFIG_DIR / "journals.yaml"
 SETTINGS_PATH = CONFIG_DIR / "settings.yaml"
 RUNS_DB = ROOT_DIR / "data" / "runs.db"
+LIBRARY_DB = ROOT_DIR / "data" / "library.db"
 
 CST = timezone(timedelta(hours=8))  # 北京时间（无需 tzdata）
 SCHEDULE_HOUR = 9  # 每日 09:00 北京时间
@@ -51,6 +56,8 @@ RUN_STATE = {
     "last_result": None,
 }
 _RUN_LOCK = threading.Lock()
+_SYNC_LOCK = threading.Lock()
+SYNC_STATE = {"running": False, "journal": "", "message": ""}
 
 
 # ================= 工具 =================
@@ -199,6 +206,9 @@ def _normalize_feed(f: dict) -> dict:
     """把前端传来的 feed 规范化（补默认值），与 matcher 兼容。"""
     kw = f.get("keywords") or {}
     out = {"name": str(f.get("name", "")).strip()}
+    query = str(f.get("query", "")).strip()
+    if query:
+        out["query"] = query
     if f.get("journals"):
         out["journals"] = [str(j) for j in f["journals"]]
     terms = [str(t).strip() for t in (kw.get("terms") or []) if str(t).strip()]
@@ -230,6 +240,7 @@ def _feeds_with_defaults(feeds: list) -> list:
         kw = f.get("keywords") or {}
         out.append({
             "name": f.get("name", ""),
+            "query": f.get("query", ""),
             "journals": [str(j) for j in (f.get("journals") or [])],
             "keywords": {
                 "terms": [str(t) for t in (kw.get("terms") or [])],
@@ -360,8 +371,129 @@ def api_save_feeds():
         return jsonify({"ok": False, "message": "Feed 名称重复"}), 400
     if not names:
         return jsonify({"ok": False, "message": "至少需要保留一个 Feed"}), 400
+    for feed in feeds:
+        if feed.get("query"):
+            validation = validate_query(feed["query"])
+            if not validation["valid"]:
+                return jsonify({"ok": False, "message": f"Feed『{feed['name']}』：{validation['message']}"}), 400
     _write_yaml(FEEDS_PATH, {"feeds": feeds})
     return jsonify({"ok": True, "message": f"已保存 {len(feeds)} 个 Feed，下次运行即生效"})
+
+
+@app.post("/api/query/validate")
+def api_query_validate():
+    return jsonify(validate_query(str((request.get_json(force=True) or {}).get("query", ""))))
+
+
+@app.get("/api/library")
+def api_papers():
+    library = Library(LIBRARY_DB)
+    try:
+        papers = library.list_papers(
+            journal=str(request.args.get("journal", "")),
+            days=max(1, min(int(request.args.get("days", 180)), 730)),
+            limit=max(1, min(int(request.args.get("limit", 60)), 200)),
+            offset=max(0, int(request.args.get("offset", 0))),
+            favorites=request.args.get("favorites") == "1",
+        )
+        return jsonify({"papers": papers})
+    finally:
+        library.close()
+
+
+@app.get("/api/discover")
+def api_discover():
+    library = Library(LIBRARY_DB)
+    try:
+        return jsonify({"papers": library.list_papers(days=7, limit=100)})
+    finally:
+        library.close()
+
+
+@app.post("/api/papers/reaction")
+def api_paper_reaction():
+    payload = request.get_json(force=True) or {}
+    library = Library(LIBRARY_DB)
+    try:
+        library.set_reaction(str(payload.get("key", "")), str(payload.get("state", "")))
+        return jsonify({"ok": True})
+    finally:
+        library.close()
+
+
+@app.get("/api/journals/<path:name>/papers")
+def api_journal_papers(name: str):
+    library = Library(LIBRARY_DB)
+    try:
+        return jsonify({"papers": library.list_papers(journal=name, days=180, limit=100)})
+    finally:
+        library.close()
+
+
+@app.post("/api/journals/<path:name>/sync")
+def api_sync_journal(name: str):
+    journals = (_read_yaml(JOURNALS_PATH).get("journals") or {})
+    spec = journals.get(name)
+    if not spec:
+        return jsonify({"ok": False, "message": "期刊不存在"}), 404
+    with _SYNC_LOCK:
+        if SYNC_STATE["running"]:
+            return jsonify({"ok": False, "message": f"正在同步 {SYNC_STATE['journal']}，请等待完成"}), 409
+        SYNC_STATE.update({"running": True, "journal": name, "message": "正在连接数据源…"})
+
+    def worker():
+        settings = load_settings(CONFIG_DIR)
+        since = datetime.now().date() - timedelta(days=180)
+        library = Library(LIBRARY_DB)
+        library.mark_sync(name, since.isoformat(), 0, "running", "正在回填过去半年")
+        try:
+            if spec.get("source") == "biorxiv":
+                SYNC_STATE["message"] = "正在分页下载 bioRxiv neuroscience 半年数据…"
+                papers = biorxiv.fetch(
+                    since, datetime.now().date(), spec.get("category", "neuroscience"),
+                    max_pages=60, journal_name=name, max_records=10000,
+                )
+                source = "biorxiv"
+            else:
+                SYNC_STATE["message"] = f"正在回填 {name} 的 Crossref 数据…"
+                papers = crossref.fetch_journal(
+                    name, [spec.get("print", ""), spec.get("online", "")], since,
+                    settings.crossref_mailto, max_pages=10,
+                    excluded_doi_prefixes=settings.exclude_doi_prefixes or None,
+                )
+                try:
+                    pubmed.enrich_abstracts(papers)
+                except Exception:  # noqa: BLE001
+                    pass
+                source = "crossref"
+            library.upsert(papers, source=source, category=spec.get("category", ""))
+            message = f"已同步 {len(papers)} 篇（过去半年）"
+            library.mark_sync(name, since.isoformat(), len(papers), "ok", message)
+            SYNC_STATE["message"] = message
+        except Exception as exc:  # noqa: BLE001
+            message = str(exc)
+            library.mark_sync(name, since.isoformat(), 0, "error", message)
+            SYNC_STATE["message"] = message
+            log.exception("期刊同步失败：%s", name)
+        finally:
+            library.close()
+            SYNC_STATE["running"] = False
+
+    threading.Thread(target=worker, daemon=True, name="paperpush-journal-sync").start()
+    return jsonify({"ok": True, "message": "同步已在后台开始"}), 202
+
+
+@app.get("/api/journals/<path:name>/sync")
+def api_sync_status(name: str):
+    library = Library(LIBRARY_DB)
+    try:
+        return jsonify({
+            "running": bool(SYNC_STATE["running"] and SYNC_STATE["journal"] == name),
+            "message": SYNC_STATE["message"] if SYNC_STATE["journal"] == name else "",
+            "last_sync": library.sync_info(name),
+        })
+    finally:
+        library.close()
 
 
 @app.get("/api/journals")
@@ -370,7 +502,8 @@ def api_get_journals():
     journals = data.get("journals", {})
     return jsonify({
         "journals": [
-            {"name": k, "print": (v.get("print") or ""), "online": (v.get("online") or "")}
+            {"name": k, "print": (v.get("print") or ""), "online": (v.get("online") or ""),
+             "source": v.get("source", "crossref"), "category": v.get("category", "")}
             for k, v in journals.items()
         ]
     })
@@ -388,6 +521,9 @@ def api_save_journals():
         p = str(it.get("print", "")).strip()
         o = str(it.get("online", "")).strip()
         journals[name] = {"print": p, "online": o}
+        if it.get("source") == "biorxiv":
+            journals[name]["source"] = "biorxiv"
+            journals[name]["category"] = str(it.get("category", "neuroscience"))
     if not journals:
         return jsonify({"ok": False, "message": "至少需要一个期刊"}), 400
     _write_yaml(JOURNALS_PATH, {"journals": journals})
@@ -441,6 +577,7 @@ def api_zotero_add():
 def main() -> int:
     parser = argparse.ArgumentParser(description="PaperPush 网页端完整版")
     parser.add_argument("--port", type=int, default=8080)
+    parser.add_argument("--host", default="127.0.0.1", help="本地默认 127.0.0.1；服务器部署使用 0.0.0.0")
     parser.add_argument("--no-browser", action="store_true")
     parser.add_argument("--no-scheduler", action="store_true", help="不启动每日定时任务")
     args = parser.parse_args()
@@ -464,7 +601,11 @@ def main() -> int:
 
     log.info("PaperPush 网页版已启动：http://localhost:%d", args.port)
     log.info("每日 %02d:00（北京时间）自动运行；也可在「运行」页手动触发", SCHEDULE_HOUR)
-    app.run(host="127.0.0.1", port=args.port, threaded=True)
+    try:
+        from waitress import serve
+        serve(app, host=args.host, port=args.port, threads=8)
+    except ImportError:
+        app.run(host=args.host, port=args.port, threaded=True)
     return 0
 
 

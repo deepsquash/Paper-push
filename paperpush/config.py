@@ -68,6 +68,7 @@ def load_feeds(config_dir: Path = DEFAULT_CONFIG_DIR) -> List[FeedRule]:
         feeds.append(
             FeedRule(
                 name=str(item.get("name", "unnamed")),
+                query=str(item.get("query", "")).strip(),
                 journals=[str(j) for j in (item.get("journals") or [])],
                 keyword_terms=[str(t) for t in (kw.get("terms") or [])],
                 keyword_match=str(kw.get("match", "any")),
