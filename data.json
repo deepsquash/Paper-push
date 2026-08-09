@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-08",
-  "total": 11,
+  "date": "2026-08-09",
+  "total": 14,
   "feeds": {
     "突触与学习记忆": [
       {
@@ -90,213 +90,253 @@
           "关键词『behavioral』(命中abstract)"
         ],
         "is_new": true
-      },
-      {
-        "doi": "10.1038/s41593-026-02375-0",
-        "title": "A suite of engineered mice for interrogating psychedelic drug actions",
-        "journal": "Nature Neuroscience",
-        "published_online": "2026-08-06",
-        "is_early_access": true,
-        "authors": [
-          "Yi-Ting Chiu",
-          "Ariel Y. Deutch",
-          "Wei Wang",
-          "Gavin P. Schmitz",
-          "Karen Lu Huang",
-          "D. Dewran Kocak",
-          "Pierre Llorach",
-          "Kasey R. Bowyer",
-          "Bei Liu",
-          "Noah Sciaky",
-          "Kunjie Hua",
-          "Chongguang Chen",
-          "Sarah E. Mott",
-          "Jesse Niehaus",
-          "Jeffrey F. DiBerto",
-          "Justin English",
-          "Jessica J. Walsh",
-          "Grégory Scherrer",
-          "Melissa A. Herman",
-          "Zhuhao Wu",
-          "William C. Wetsel",
-          "Bryan L. Roth"
-        ],
-        "abstract": "Psychedelic drugs, such as lysergic acid diethylamide and psilocybin, have emerged as potentially transformative therapeutics for various neuropsychiatric conditions, including depression, anxiety, post-traumatic stress disorder, migraine and cluster headaches. Classical psychedelics exert their effects through activation of 5-hydroxytryptamine 2A receptors (HTR2As). Here we provide a suite of engineered mice that will be useful for clarifying the role of HTR2A in psychedelic drug actions. We generated Htr2a EGFP-CreERT2 mice to identify both HTR2A-EGFP-CT receptors and HTR2A-containing cells, thereby revealing HTR2A distribution in the brain. We also generated humanized Htr2a A242S -EGFP-Cre and constitutive Htr2a Cre mice. Psychedelic-induced behavioral changes in these mice validated their utility for these studies. Electrophysiological investigations on brain sections from these mice revealed that 2,5,-dimethoxy-4-iodoamphetamine induced robust increases in firing of genetically identified pyramidal neurons. These mouse lines are valuable tools for investigating the molecular, cellular, pharmacological, physiological, behavioral and other mechanisms of psychedelic actions in vivo.",
-        "url": "https://doi.org/10.1038/s41593-026-02375-0",
-        "reasons": [
-          "关键词『behavioral』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41593-026-02380-3",
-        "title": "Comparative insights into insula structure and function",
-        "journal": "Nature Neuroscience",
-        "published_online": "2026-08-06",
-        "is_early_access": true,
-        "authors": [
-          "Joey A. Charbonneau",
-          "Sarah B. Carp",
-          "Jeffrey L. Bennett",
-          "Savannah M. Maw",
-          "Gilda Moadab",
-          "John P. Christianson",
-          "Mark G. Baxter",
-          "Eliza Bliss-Moreau"
-        ],
-        "abstract": "The insular cortex has become an increasingly important focus of neuroscientific research because of its broad involvement in psychological and behavioral processes and its dysfunction in neuropsychiatric, developmental, degenerative and metabolic disorders. The insula is easily imaged in the human brain and is also a key target for both fundamental and translational studies in nonhuman animals. However, owing to a dearth of truly comparative studies on the insula, the extent to which this region shares structural and functional homologies between humans, monkeys and rodents remains incompletely understood. Here, we systematically evaluate current knowledge regarding homologies in the insula among model species and humans. We examine the strengths and limitations of various laboratory species for investigating the insula, and discuss how these factors influence the interpretation of findings and their application to the human insula. Finally, we propose research directions aimed at strengthening translational insula research and enhancing our understanding of cross-species similarities and differences.",
-        "url": "https://doi.org/10.1038/s41593-026-02380-3",
-        "reasons": [
-          "关键词『behavioral』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1523/jneurosci.0512-26.2026",
-        "title": "Layer 5 and 6b extratelencephalic neurons encode distinct sound features in auditory cortex",
-        "journal": "Journal of Neuroscience",
-        "published_online": "2026-08-06",
-        "is_early_access": true,
-        "authors": [
-          "Madan Ghimire",
-          "Ross S. Williamson"
-        ],
-        "abstract": "Extratelencephalic (ET) neurons in layers (L)5 and 6b of the auditory cortex (ACtx) provide major corticofugal outputs to subcortical structures and contribute to auditory learning and experience-dependent plasticity. Although both ET subtypes innervate overlapping downstream targets, they differ in morphology, intrinsic physiology, and molecular identity, suggesting distinct functional roles. However, their in vivo response properties remain incompletely characterized. Here, we used a projection-defined viral strategy to express GCaMP8s selectively in L5 and L6b ET neurons in the ACtx of male and female mice and recorded calcium activity during presentation of diverse acoustic stimuli. L5 ET neurons predominantly exhibited sound-evoked excitation, higher response sparseness, and greater trial-to-trial reliability than L6b ET neurons; these differences were most pronounced for pure tones and sinusoidally amplitude-modulated (sAM) noise. In contrast, L6b ET neurons frequently exhibited sound-evoked suppression, particularly for more complex stimuli (including sAM noise and spectrotemporal ripples). Unsupervised clustering identified separable temporal response motifs and tuning profiles. L5 ET neurons favored single-peaked frequency tuning and monotonically increasing intensity tuning, whereas L6b ET neurons exhibited complex frequency tuning, monotonically decreasing intensity tuning, and stronger pairwise functional coupling (noise correlations). Together, these results support complementary corticofugal processing streams, with L5 ET neurons conveying more selective acoustic feature representations and L6b ET neurons conveying more integrative corticofugal signals. Significance Statement The primary auditory cortex sends extensive descending projections to subcortical structures, shaping how sounds are processed. These projections arise from distinct extratelencephalic (ET) neurons in cortical layers 5 and 6b, yet how these populations encode sound has remained un",
-        "url": "https://doi.org/10.1523/jneurosci.0512-26.2026",
-        "reasons": [
-          "关键词『two-photon』(命中abstract)"
-        ],
-        "is_new": true
       }
     ],
     "神经退行性疾病": [
       {
-        "doi": "10.1038/s41467-026-76434-2",
-        "title": "Diagnostic performance of plasma pTau217 in genetically admixed South American populations",
-        "journal": "Nature Communications",
-        "published_online": "2026-08-06",
+        "doi": "10.1093/brain/awag275",
+        "title": "Adoptive T-cell therapies in neuroinfectious and neuroinflammatory diseases",
+        "journal": "Brain",
+        "published_online": "2026-08-07",
         "is_early_access": true,
         "authors": [
-          "Pamela V. Martino-Adami",
-          "Joice Coutinho de Alvarenga",
-          "Pilar Freccero",
-          "Hanna Huber",
-          "Julio Fernandez",
-          "Ivonne Carolina Bolaños Burgos",
-          "Maria Barbara Postillone",
-          "Gabriela Tomé Oliveira Engelmann",
-          "Ines Mintz",
-          "Marco Aurelio Romano Silva",
-          "Nancy Medel",
-          "Erika de Oliveira Hansen",
-          "Julieta Lisso",
-          "Natalia Dias Silva",
-          "Andréa Teixeira Carvalho",
-          "Nicolás Irureta",
-          "Débora Marques de Miranda",
-          "Mariana Vallejo-Azar",
-          "Luiz Armando Cunha de Marco",
-          "Stefanie Heilmann-Heimbach",
-          "Jonas Jardim de Paula",
-          "Silvia Kochen",
-          "Rafaela Teixeira de Ávila",
-          "Patricia Solis",
-          "Anja Schneider",
-          "Paula Gonzalez",
-          "Bernardo de Mattos Viana",
-          "Maria Carolina Dalmasso",
-          "Maria Aparecida Camargos Bicalho",
-          "Alfredo Ramírez"
+          "Nicolas Lambert",
+          "Irene Cortese"
         ],
-        "abstract": "Abstract Plasma pTau217 is a leading biomarker for Alzheimer’s disease, but evidence from genetically admixed populations in low- and middle-income countries remains limited. We evaluated the diagnostic performance of pTau217 and pTau217/Aβ42 measured using Simoa technology in memory-clinic cohorts from Brazil (Cog-Aging-Study, n = 353) and Argentina (GeNED.ar, n = 134). Here we show that both biomarkers accurately identified cerebrospinal fluid (CSF)-defined amyloid pathology in Cog-Aging-Study-Brazil and showed high concordance with clinical diagnosis across both cohorts. Classification performance was improved using two-cut-off approaches that account for diagnostic uncertainty. We further show that APOE-ε4 , lower body mass index, and reduced kidney function were associated with higher pTau217 in Cog-Aging-Study-Brazil, whereas education also influenced biomarker levels in GeNED.ar-Argentina. African ancestry modified APOE-ε4 effect on CSF but not plasma biomarkers. These findings support the use of plasma pTau217-based biomarkers in genetically admixed South American populations and in settings with limited access to CSF testing and brain imaging.",
-        "url": "https://doi.org/10.1038/s41467-026-76434-2",
+        "abstract": "Abstract Immune dysfunction, spanning pathogenic autoimmunity and impaired host defense, represents a convergent mechanism across neurological autoimmune and inflammatory diseases and opportunistic infections. Despite advances in immunomodulatory and anti-infective therapies, many patients remain treatment-refractory, reflecting limitations of conventional agents. Adoptive T-cell therapies introduce dynamic “living drugs” capable of in vivo expansion, adaptation, and persistence. These promising characteristics have led to a rapid proliferation of preliminary reports and clinical trials in inflammatory and infectious diseases of the nervous system, placing neurologists at the forefront of this evolving therapeutic landscape. In this Update, we advance a disease-centred conceptual framework designed to reposition T-cell-based therapies within neurological practice. Rather than adopting a technology-driven perspective, we organize disorders according to major patterns of immune dysfunction. Immune deficiency predisposing to opportunistic infection and immune dysregulation driving autoimmunity constitute the principal axes of neurological immune pathology. Within the autoimmune spectrum, distinct immunopathological archetypes (autoantibody-mediated, mixed B- and T-cell-driven, and disorders at the interface of inflammation and neurodegeneration) provide a pragmatic structure for therapeutic reasoning. Building on this classification, we delineate how adoptive T-cells (chimeric antigen receptor T-cells, virus-specific T-cells, and regulatory T-cells) may be differentially aligned with underlying disease biology, linking mechanistic insight to clinical strategy.",
+        "url": "https://doi.org/10.1093/brain/awag275",
         "reasons": [
-          "关键词『Alzheimer、tau、amyloid』(命中abstract/title)"
+          "关键词『neurodegeneration』(命中abstract)"
         ],
         "is_new": true
       },
       {
-        "doi": "10.1038/s41467-026-76173-4",
-        "title": "α-Synuclein blocks endoplasmic reticulum co-translational protein translocation early in Parkinson’s disease",
-        "journal": "Nature Communications",
-        "published_online": "2026-08-06",
-        "is_early_access": false,
-        "authors": [
-          "Chor Lai Lam",
-          "Nicholas J. F. Gatford",
-          "Ana Aragón-González",
-          "Benedict Tanudjojo",
-          "Anis Sahoo",
-          "Andrew R. Castle",
-          "Devika Agarwal",
-          "Ashwin Jainarayanan",
-          "Svenja S. Hester",
-          "Navoneel Sen",
-          "Justin L. P. Benesch",
-          "Roman Fischer",
-          "David Sims",
-          "George K. Tofaris"
-        ],
-        "abstract": "Abstract The primary mechanism and subcellular localisation of α-synuclein toxicity in Parkinson’s disease pathogenesis remain unknown. We spatially and temporally resolved proteomic and transcriptomic changes in human iPSC-derived dopaminergic neurons with increasing burden of pathological α-synuclein. We found that misfolded α-synuclein proteoforms, signified by the formation of nanoscale intraneuronal puncta, are associated with impaired translocon function at the endoplasmic reticulum (ER). We show that α-synuclein interacts with Sec61A in iPSC-derived dopaminergic neurons and in post-mortem brain tissue from patients with Parkinson’s disease. This interaction interferes with the co-translational translocation of ER-processed proteins including the vacuolar-type ATPase V0a1 subunit, glucocerebrosidase, and Cathepsin B, causing defective organelle function such as reduced lysosomal acidification, leading to increased extracellular vesicle release of α-synuclein. Defective ER-translocation was associated with increased ribosomal UFMylation and proteasomal recruitment but not activation of the unfolded protein response. Reduction of pathological α-synuclein by either CRISPRi to decrease α-synuclein expression or pharmacological activation of proteasomal degradation with repurposed drugs mitigates the ER defect. Our study offers a unifying mechanistic link between α-synuclein pathology and dysregulation of diverse organelle-associated proteins that are both Sec61A translocon substrates and genetic modifiers of Parkinson’s disease risk. Our data also provide a therapeutic rationale for proteasomal activation in early Parkinson’s disease.",
-        "url": "https://doi.org/10.1038/s41467-026-76173-4",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1073/pnas.2615786123",
-        "title": "Aggregation kinetics define the temporal window of IAPP proteotoxicity",
-        "journal": "PNAS",
-        "published_online": "2026-08-06",
-        "is_early_access": false,
-        "authors": [
-          "Annette Plesner",
-          "Ping Cao",
-          "Daniel P. Raleigh",
-          "Andisheh Abedini"
-        ],
-        "abstract": "Aggregation of islet amyloid polypeptide (IAPP) to form amyloid contributes to β-cell dysfunction in type 2 diabetes, yet the identity and temporal persistence of the toxic species is unresolved. Competing models attribute toxicity to mature fibrils, fibril growth, or transient prefibrillar intermediates formed during the lag phase or via secondary nucleation. Here, we directly test these models by combining time-resolved β-cell functional assays with concurrent biophysical measurements of IAPP aggregation across multiple perturbations and sequence variants. Across 22 independent experiments spanning more than a 450-fold range in lag times, we find that maximal toxicity occurs during the lag phase and declines as fibrils accumulate. The duration of β-cell dysfunction scales linearly with lag phase length, establishing aggregation kinetics as a quantitative predictor of the onset, peak, and termination of toxicity. Perturbations that alter aggregation kinetics, including concentration, temperature, and sequence, predictably shift the temporal window of toxicity. The diabetes-associated S20G variant produces higher peak toxicity over a compressed time window, whereas the slower-aggregating variants examined prolong toxicity without increasing its magnitude. These results resolve competing models by demonstrating that transient lag-phase intermediates, rather than growth phase processes or mature fibrils, dominate β-cell dysfunction, and establish aggregation kinetics as a predictor of the timing and duration of cellular exposure to toxic intermediates.",
-        "url": "https://doi.org/10.1073/pnas.2615786123",
-        "reasons": [
-          "关键词『amyloid』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.7554/elife.95987",
-        "title": "LRRK2 regulates synaptic function through modulation of actin cytoskeletal dynamics",
-        "journal": "eLife",
-        "published_online": "2026-08-06",
+        "doi": "10.3389/fnins.2026.1894751",
+        "title": "Developing artificial intelligence-based techniques for brain MRI image segmentation",
+        "journal": "Frontiers in Neuroscience",
+        "published_online": "2026-08-07",
         "is_early_access": true,
         "authors": [
-          "Giulia Tombesi",
-          "Shiva Kompella",
-          "Giulia Favetta",
-          "Chuyu Chen",
-          "Marta Ornaghi",
-          "Yibo Zhao",
-          "Ester Morosin",
-          "Martina Sevegnani",
-          "Adriano Lama",
-          "Antonella Marte",
-          "Ilaria Battisti",
-          "Lucia Iannotta",
-          "Nicoletta Plotegher",
-          "Laura Civiero",
-          "Franco Onofri",
-          "Britta J Eickholt",
-          "Giovanni Piccoli",
-          "Giorgio Arrigoni",
-          "Dayne Beccano-Kelly",
-          "Claudia Manzoni",
-          "Loukia Parisiadou",
-          "Elisa Greggio"
+          "Salliah Shafi",
+          "Gufran Ahmad Ansari"
         ],
-        "abstract": "Parkinson’s disease (PD) is a multisystemic disorder that manifests through motor and non-motor symptoms. Motor dysfunction results from the degeneration of dopamine-producing neurons in the substantia nigra pars compacta. Increasing evidence suggests that synapse dysfunction precedes neuronal loss by years. Still, early synaptic alterations in PD remain poorly understood. Here, we integrate literature meta-analysis and multi-omics with biochemical, imaging, and electrophysiological measurements in Lrrk2 mouse models and human iPSC-derived neurons lacking LRRK2. We demonstrate that brain-derived neurotrophic factor (BDNF) activates LRRK2 in differentiated SH-SY5Y cells and primary mouse neurons, reshaping the LRRK2 interactome toward a network of actin cytoskeleton-related proteins. Gene-ontology analyses of both literature-curated LRRK2 interactors and phospho-proteome from striatal tissues with elevated LRRK2 activity highlight synapse-actin remodeling as major affected pathways. We further observed that loss of LRRK2 impairs BDNF signaling and alters postsynaptic density architecture. Young Lrrk2 knockout mice display structural alterations in dendritic protrusions, a phenotype that normalizes with age. In human iPSC-derived neurons, LRRK2 knockout affects maturation and BDNF-dependent regulation of spontaneous synaptic activity. Taken together, our study discloses a critical role of LRRK2 in BDNF-dependent synaptic modulation and identifies the synaptic actin cytoskeleton as a convergent site of LRRK2-associated pathophysiological processes in PD.",
-        "url": "https://doi.org/10.7554/elife.95987",
+        "abstract": "Introduction Brain MRI image segmentation is essential for the accurate diagnosis and treatment of neurological disorders, including brain tumors, Alzheimer’s disease, and multiple sclerosis. Artificial intelligence (AI), particularly deep learning, has emerged as an effective approach for improving the precision and efficiency of medical image segmentation while reducing manual effort. Methods This study utilized a publicly available Kaggle brain MRI dataset containing labeled images for supervised learning. A Convolutional Neural Network (CNN)-based framework was developed for automatic brain MRI segmentation. The methodology incorporated preprocessing techniques, including noise removal, normalization, and data augmentation, to improve image quality and model performance. The proposed model was evaluated using Accuracy, Dice Score, and Intersection over Union (IoU). Results Experimental results demonstrated that the proposed AI-based segmentation framework achieved high segmentation accuracy and effectively distinguished normal brain tissue from abnormal regions. The model outperformed conventional image-processing methods by providing improved segmentation precision, reducing manual intervention, and enhancing the reliability of medical image analysis. Discussion The findings demonstrate the potential of AI-based deep learning techniques for automated brain MRI segmentation in clinical applications. The proposed framework can support clinicians by improving diagnostic accuracy and reducing processing time. Future work will focus on implementing more advanced deep learning architectures and expanding the dataset to further improve segmentation performance and clinical applicability.",
+        "url": "https://doi.org/10.3389/fnins.2026.1894751",
         "reasons": [
-          "关键词『Parkinson』(命中abstract)"
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.03.742644",
+        "title": "Mechanisms of resilience to autosomal dominant Alzheimer's disease via oligogenic modulation of rare variants in the entorhinal cortex",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "El-Amri, Y.",
+          "Villalba-Moreno, N. D.",
+          "Urban, J.",
+          "Alzueta-Torrecillas, M.",
+          "Valdez-Gaxiola, C. A.",
+          "Gonzalez-Perez, J.",
+          "Song, Z.",
+          "Tang, R.",
+          "Cardona-Madrigal, D.",
+          "Villegas, A.",
+          "Krasemann, S.",
+          "Glatzel, M.",
+          "Aguillon, D.",
+          "Kobro-Flatmoen, A.",
+          "Witter, M.",
+          "Fernandez, V.",
+          "Zhao, H.",
+          "Ruiz, A.",
+          "Marino, C.",
+          "Sepulveda-Falla, D."
+        ],
+        "abstract": "Two PSEN1 E280A carriers have presented extreme protection against autosomal dominant Alzheimer's disease (ADAD), with over two decades of delay for dementia onset. One of them, a male heterozygous for the RELN-COLBOS protective variant showed increased neuronal density in the entorhinal cortex (1). We conducted a deep phenotyping and genotyping study of the entorhinal cortex in protected and unprotected PSEN1 E280A cases, sporadic AD, and non-demented controls. We used single nuclei and spatial transcriptomics, whole genome sequencing, and candidate genotype-associated expression changes (GAEC) analysis. Our results showed unique neuronal and oligodendrocytic populations in the male RELN-COLBOS patient. Unique RELN positive inhibitory interneurons were enriched in cortical Layer I, while unique abundant ADAMTSL1 positive excitatory neurons were distributed in Layers II/III and Layer Va. These neurons and mature myelinated oligodendrocytes benefitted from increased expression of LRP6 receptor, functioning as a non-canonical receptor for the mutated Reelin protein encoded by RELN-COLBOS. Finally, GAEC and pathway enrichment analyses suggested that other mutations enhanced RELN-COLBOS effects in oligodendrocytes in the male RELN-COLBOS patient, explaining the phenotypic differences with his sister, a RELN-COLBOS carrier with no evident protection from ADAD. Our findings suggest that extreme deviations of the PSEN1 E280A phenotype are more likely attributed to oligogenic effects, including simultaneous mutations occurring in genes including ITGA2, involved in single molecular pathways, such as the Integrins / Focal Adhesion pathway, as potential disease modifiers for Alzheimer's disease (AD).",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742644v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.05.743051",
+        "title": "Sex-divergent trajectories of hippocampal and cortical NMDA receptor density across the Alzheimer 's disease continuum",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Acosta-Martinez, M.",
+          "Carter, V.",
+          "Nessim, A.",
+          "Murphy, S.",
+          "Dhawan, J.",
+          "Beach, T. G.",
+          "Serrano, G. E.",
+          "Sundermann, E. E.",
+          "Biegon, A."
+        ],
+        "abstract": "While loss of NMDA receptors (NMDARs) is associated with Alzheimer's disease (AD) severity, the effect of sex or the relationship between regional NMDAR density and antemortem cognitive status across the AD spectrum has not been examined. We performed quantitative in vitro autoradiography of hippocampus, entorhinal cortex (EC), and parietal cortex using NMDAR and tau radioligands. Relationships between regional NMDAR density and cognitive status assessed by the Mini Mental State Exam (MMSE), and between NMDAR and tau density, were examined by bivariate correlations. In both sexes, the largest AD-related decreases in NMDAR density were observed in the CA1 field. However, there was a significant diagnosis by sex interaction driven by sex-specific changes in the mild cognitive impairment (MCI) stage, with lower NMDAR density in MCI women, but not MCI men relative to same-sex controls. Within diagnosis analyses revealed positive correlations between NMDAR density and MMSE scores and significant negative correlations between EC NMDAR and tau density, which was significant only in AD men. Our data show that changes in hippocampal NMDAR density across the AD continuum are modulated by sex and may contribute to the known sex differences in the clinical trajectory of the disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.05.743051v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.04.740599",
+        "title": "Metabolic brain network reorganization precedes clinical conversion in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Limberger, C.",
+          "Schu, G.",
+          "Salvi de Souza, G.",
+          "De Bastiani, M. A.",
+          "Bieger, A.",
+          "Colissi-Martins, G.",
+          "Carello-Collar, G.",
+          "Povala, G.",
+          "S. Machado, L.",
+          "H. Schlickmann, T.",
+          "the Alzheimer's Disease Neuroimaging Initiative,",
+          "A. Pascoal, T.",
+          "Rosa-Neto, P.",
+          "R. Zimmer, E."
+        ],
+        "abstract": "Introduction: Brain glucose hypometabolism is a hallmark of Alzheimer's disease (AD), yet conventional [18F]-fluorodeoxyglucose (FDG) positron emission tomography (PET) analyses have limited sensitivity in preclinical stages. Metabolic brain network approaches may better capture early vulnerability preceding clinical conversion. Methods: Cognitively unimpaired individuals (n = 127) from the ADNI cohort with baseline FDG-PET and amyloid (A) and tau (T) status were classified as clinically stable or converters over an average longitudinal follow-up of 5.8 years. Baseline brain FDG uptake patterns were analyzed at the regional, voxel, and network levels across AT profiles. Network density was quantified globally and within functional networks. AD biomarkers and cognitive performance were also examined. Results: Conventional FDG-PET SUVr analyses failed to distinguish cognitively stable individuals from clinical converters at baseline, either at the regional or voxel levels. AT(N) biomarkers and neuropsychological performance likewise did not differ significantly between groups. In contrast, clinical converters exhibited hyperconnected metabolic networks at baseline, including within the default-mode network. These effects were consistent across A-T-, A+T-, and A+T+ groups, with network density higher in clinical converters than in cognitively stable individuals. Conversely, network density among stable individuals declined with AT progression, pointing to divergent network trajectories. Discussion: Metabolic network organization analysis revealed early AD-related vulnerability beyond regional hypometabolism, even before detectable amyloid positivity, and may reflect divergent trajectories of resilience and pathological propagation preceding clinical conversion. By leveraging existing FDG-PET datasets, this framework offers a valuable opportunity to identify individuals at risk of clinical progression at scale.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.740599v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.03.742532",
+        "title": "α-Synuclein aggregates in corticostriatal terminals impair glutamatergic transmission in the absence of neurodegeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Brzozowski, C. F.",
+          "Fokakis, Z. N.",
+          "Menard, M. A.",
+          "Challa, H. V.",
+          "Gallardo, I.",
+          "Hall, J. D.",
+          "Narbert, D.",
+          "Millett, M. F.",
+          "Hardaway, J. A.",
+          "Moehle, M. S.",
+          "Volpicelli-Daley, L. A."
+        ],
+        "abstract": "Substantia nigra pars compacta dopamine neuron loss and Lewy pathology, aggregates of alpha-synuclein, characterize Parkinson disease and Dementia with Lewy Bodies. Lewy pathology localizes to cortical neurons, and is found as Lewy neurites in the striatum, but its effects on excitatory synaptic function are just beginning to be understood. Corticostriatal projections regulate motor and cognitive behaviors impaired in these disorders. Alpha-synuclein aggregation was induced in mouse M2 cortex, a vulnerable region in human disease. Early after initiation, aggregates localized to corticostriatal vesicular glutamate transporter 1 (vGLUT1)-positive terminals, with sparing of spiny projection neuron (SPN) soma, and dopamine terminals and neurons. Corticostriatal presynaptic aggregates significantly impaired glutamatergic transmission, without overt cortical neuron loss, and were associated with decreased synaptic density and volume. Thus, formation of presynaptic alpha-synuclein aggregates impairs corticostriatal function without degeneration of cortical neurons or striatal dopamine terminals, suggesting pathologic alpha-synuclein is sufficient for synaptic loss. Our findings also point to early synaptic dysfunction as a therapeutic target in Lewy body diseases.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742532v1",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.03.742448",
+        "title": "Age-dependent brain pigmentation drives early neuroinflammatory molecular signatures linked to neurodegeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Penuelas, N.",
+          "Xicoy, H.",
+          "Lorente-Picon, M.",
+          "Nicolau-Vera, A.",
+          "Parent, A.",
+          "Gonzalez-Sepulveda, M.",
+          "Laguna, A.",
+          "Vila, M."
+        ],
+        "abstract": "Background: Neuromelanin (NM) is a pigment that progressively accumulates with age in catecholaminergic neurons, particularly in the substantia nigra, ventral tegmental area, and locus coeruleus. These neuronal populations are especially vulnerable to degeneration in Parkinson's disease (PD). Elevated intracellular NM levels have been linked to neurodegeneration and PD-like phenotypes in experimental models. However, the molecular mechanisms underlying NM-induced pathology remain poorly understood, as human studies cannot disentangle the specific effects of NM accumulation from those of normal aging. Methods: We performed transcriptomic microarray analysis on laser-captured catecholaminergic neurons and regions (substantia nigra, ventral tegmental area, locus coeruleus) from NM-producing transgenic mice (tgNM) and NM-free wild-type controls across different ages, and compared them to data from postmortem human brain tissue. One of the molecular targets identified, GPNMB, was validated in mouse and human tissue, and functionally tested in vivo. Results: We identified region- and age-dependent transcriptional changes associated with progressive NM accumulation. NM consistently upregulated neuroinflammatory pathways with enrichment of disease-associated microglial genes, while downregulating transcription, translation, and mitochondrial functions. Locus coeruleus exhibited the earliest and strongest transcriptional alterations, whereas substantia nigra and ventral tegmental area showed a later-onset, age-progressive transcriptional dysfunction. Neuron-specific analyses revealed that many changes originated within NM-containing neurons rather than being solely glial-driven. NM-driven transcriptional profiles in mice strongly correlated with postmortem data from PD patients, underscoring their translational relevance. Among molecular targets, the glycoprotein GPNMB was consistently upregulated in NM-containing neurons and validated at RNA and protein levels in both NM-pr",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742448v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.06.29.735429",
+        "title": "Dissociable structural and molecular pathways of age-related change in sustained attention",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Subbulakshmi, S.",
+          "Park, J.",
+          "Rathmann-Bloch, J.",
+          "Ward, T.",
+          "Cheng, G. L.",
+          "Miller, D. S.",
+          "Schwartz, S. T.",
+          "Sheng, J.",
+          "Tran, T. T.",
+          "Sha, S. J.",
+          "Deutsch, G.",
+          "Trelle, A. N.",
+          "Mormino, E. C.",
+          "Wagner, A. D."
+        ],
+        "abstract": "Sustained attention, the capacity to maintain goal-directed attention over extended periods, declines with age but with substantial individual variability across cognitively unimpaired (CU) older adults. The neurobiological mechanisms driving both the decline and its variability across CU remain poorly understood. Two candidate processes may contribute: microstructural deterioration of the superior longitudinal fasciculus (SLF), the principal white-matter tract coupling prefrontal and parietal nodes of the dorsal attention network, and subclinical accumulation of Alzheimer's disease (AD)-related pathology, which may erode attentional function through disruption of neuromodulatory systems and progressive involvement of frontoparietal cortical substrates. We combined (a) diffusion MRI tractography, quantifying SLF fractional anisotropy (FA) and mean diffusivity (MD) alongside two control tracts, the corticospinal tract (CST) and cingulum (CGC), with (b) a plasma panel indexing AD-related pathology (pTau-181, pTau-217), neuroaxonal injury (NfL), and astrocytic reactivity (GFAP) in 162 CU older adults drawn from two Stanford cohorts (plasma subsample N = 146). Sustained attention was assessed using the gradual-onset Continuous Performance Task (gradCPT) and indexed by a composite score (Att-Z) derived from discriminability (d') and response-time variability (RTV). Parallel mediation and commonality analyses were used to test whether structural and molecular pathways contribute independently to age-related attentional decline. Older age was associated with lower Att-Z ({beta} = -0.315, p < 0.001). In simultaneous three-tract regression models, only SLF microstructure uniquely predicted Att-Z (FA: {beta} = +0.275, p < 0.001; MD: {beta} = -0.320, p < 0.001). SLF microstructure mediated the age-attention relationship. At the molecular level, plasma pTau-181 ({beta} = -0.212, pFDR < 0.03) and pTau-217 ({beta} = -0.163, pFDR < 0.05) predicted Att-Z and each mediated age-relat",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735429v2",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2025.12.02.690396",
+        "title": "Grey matter embedding of the cholinergic system",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Weuthen, A.",
+          "Chopra, S.",
+          "Bergmann, D. L.",
+          "Li, M.",
+          "Besteher, B.",
+          "Walter, M."
+        ],
+        "abstract": "Integrity of acetylcholine-producing basal forebrain nuclei Ch1-4 is crucial for neurocognitive functioning and grey matter decline represents a hallmark of neuropsychiatric disorders, including Alzheimer's disease, Parkinson's disease and schizophrenia. Approaches that link brain-wide grey matter atrophy with diminished cholinergic innervation from Ch1-4 projections are required for neuroimaging of disease stages and pharmacological decisions addressing cholinergic deficits. The current study assessed human magnetic resonance imaging-based markers for cholinergic nucleus subregions and synaptic targets in healthy exploration (HCP, n = 1113) and replication (IXI, n = 587) cohorts. Ch1-3 and Ch4 were delineated at 50% cytoarchitectonic probability to determine their grey matter coupling patterns using structural covariance analyses. Spatial colocalization with vesicular acetylcholine transporter, M1-muscarinic and 4{beta}2-nicotinic receptor density quantified the correspondence with synaptic cholinergic markers. All individual-level cholinergic nucleus and target region indices showed good test-retest reliability (R [&ge;] 0.80) when restricted to voxels with at least 10% grey matter probability. Spatial colocalization with presynaptic acetylcholine transporters emphasized a cholinergic nature of Ch1-4 grey matter and its coupling with corticopetal projections such as amygdala, insula and cingulate cortices. Subcortical gradients of M1-muscarinic receptor density and the Ch1-3 structural covariance map, however, dominated in locations of striatal cholinergic interneurons, such as nucleus accumbens, caudate nucleus and putamen. Ch4 covaried with medial thalamus and hippocampus, while both subregions' structural covariance networks converged in a posterolateral Ch4 extensions, potentially resembling subputaminal nucleus of Ayala. The results emphasize Ch1-4 morphometry as marker for acetylcholine-driven brain regions and describe neuroimaging strategies to indicate sy",
+        "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.690396v2",
+        "reasons": [
+          "关键词『Alzheimer、Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.03.742447",
+        "title": "Molecular Disease Stages of Oligodendrocytic and Neuronal Tau Burden in Progressive Supranuclear Palsy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-07",
+        "is_early_access": true,
+        "authors": [
+          "Briel, N.",
+          "Ruf, V. C.",
+          "Feyen, P. L. C.",
+          "Roeber, S.",
+          "Arzberger, T.",
+          "Windl, O.",
+          "Weiss, T.",
+          "Arosio, P.",
+          "Hoeglinger, G.",
+          "Struebing, F. L.",
+          "Herms, J."
+        ],
+        "abstract": "Background. Progressive supranuclear palsy (PSP) is a primary tauopathy defined by the accumulation of 4R tau isoforms in neurons, oligodendrocytes and astrocytes. Despite evidence of genetic susceptibility operating through glial cell types, it remains poorly understood how cell type-specific epigenetic-transcriptional programs evolve with progression of tau pathology. Methods. We conducted single-nucleus chromatin accessibility (snATACseq) and RNA sequencing (snRNAseq) on postmortem frontal cortex samples from PSP patients (n = 8) and matched controls (n = 8), yielding over 144,000 nuclei passing quality control. Tau pathology burden, including neurofibrillary tangles, coiled bodies, and tufted astrocytes, was quantified on AT8-immunostained sections from the same individuals. We integrated differential gene expression analysis, transcription factor motif enrichment, weighted gene co-expression network analysis, and pseudotime modeling anchored to cell type-specific tau pathology burden to delineate molecular pseudo-progression trajectories. Results. In eight cell types, 20 subclasses, and 70 subclusters, PSP brains displayed a selective depletion of certain excitatory deep-layer neurons and oligodendrocyte subclusters, with relative preservation of inhibitory neurons and vascular cells. Genetic risk enrichment was localized to astrocytes and oligodendrocytes, whereas excitatory neurons exhibited the greatest transcriptional dysregulation. Oligodendrocyte pseudo-progression indicated a transition from homeostatic myelination programs (MBP, MOBP) through glucocorticoid-responsive stress (FKBP5, ZBTB16), to compensatory myelination (PLP1, CNP) and proteostasis stress (UCHL1, CYRAB, CLU). Neuronal pseudo-progression revealed early dysregulation of synaptic (RORB2, NRG3, NPTX1), microtubule dynamics (KIF2C, RAB27B, TUBA/B), and survival (MEG3, FTX) pathways, alongside a transient increase in neuron-glia interactions (GRIP, CNTNAP4, ERBB4), converging late on ribosomal",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742447v1",
+        "reasons": [
+          "关键词『tau』(命中title)"
         ],
         "is_new": true
       }
