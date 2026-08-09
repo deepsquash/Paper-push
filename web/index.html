@@ -3,756 +3,760 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#13231f">
+<meta name="theme-color" content="#0f1e1a">
 <link rel="manifest" href="/manifest.webmanifest">
 <title>PaperPush 文献速递</title>
 <style>
-:root { --bg:#f3f0e8; --card:#fffdf7; --fg:#192522; --muted:#6d7873; --accent:#12715b;
-        --danger:#ff5c5c; --ok:#4ec94e; --border:#262d38; --tag:#253244; --tag-fg:#8fc4ff;
-        --early:#ffb84d; --new:#7ee07e;
-        --input-bg:#fff; --input-border:#cfd7d2; --toast-bg:#1c2d29; --code-fg:#d9e8e3;
-        --nav-bg:#13231f; --shadow:0 12px 32px rgba(31,50,44,.08); }
-* { box-sizing:border-box; }
-body { margin:0; background:var(--bg); color:var(--fg);
-       font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; }
-header { padding:15px 28px; background:var(--nav-bg); color:#f5f1e8; position:sticky; top:0; z-index:20;
-         box-shadow:0 5px 20px rgba(8,20,17,.18);
-         display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; }
-header h1 { margin:0; font-size:20px; }
-nav { display:flex; gap:4px; margin-top:10px; flex-wrap:wrap; }
-nav button { background:transparent; color:#a9bbb5; border:1px solid transparent;
-             border-radius:8px; padding:8px 16px; font-size:14px; cursor:pointer; }
-nav button.active { color:#fff; border-color:#4ec4a4; background:rgba(78,196,164,.12); }
-main { max-width:1120px; margin:0 auto; padding:26px 20px 90px; }
-.tab { display:none; }
-.tab.active { display:block; }
-.card { background:var(--card); border:1px solid var(--border); border-radius:16px;
-        padding:18px 20px; margin:14px 0; box-shadow:var(--shadow); }
-.paper { background:var(--card); border:1px solid var(--border); border-radius:14px;
-         padding:16px 18px; margin:11px 0; box-shadow:0 8px 24px rgba(31,50,44,.05); }
-.paper .title { font-size:15px; font-weight:600; line-height:1.45; }
-.paper .title a { color:var(--fg); text-decoration:none; }
-.paper .title a:hover { color:var(--accent); }
-.meta { color:var(--muted); font-size:12.5px; margin:6px 0; }
-.badge { display:inline-block; font-size:11px; border-radius:4px; padding:1px 7px; margin-left:6px; }
-.early { background:rgba(178,106,0,.18); color:var(--early); border:1px solid #b26a00; }
-.new   { background:rgba(46,125,50,.18); color:var(--new); border:1px solid #2e7d32; }
-.reason { display:inline-block; background:var(--tag); color:var(--tag-fg); font-size:11.5px;
-          border-radius:10px; padding:2px 9px; margin:2px 4px 2px 0; }
-.abstract { color:#4f5e59; font-size:13px; line-height:1.68; margin:8px 0 10px;
-            display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
-.abstract.open { -webkit-line-clamp:unset; }
-.actions { display:flex; gap:8px; flex-wrap:wrap; }
-button { background:var(--accent); color:#fff; border:none; border-radius:9px;
-         padding:8px 16px; font-size:13px; font-weight:600; cursor:pointer; }
-button:hover { filter:brightness(1.1); }
-button.ghost { background:transparent; border:1px solid #3a4454; color:var(--fg); font-weight:normal; }
-button.danger { background:transparent; border:1px solid #5a2d2d; color:var(--danger); font-weight:normal; }
-button:disabled { opacity:.5; cursor:not-allowed; }
-.btn-zotero { background:var(--accent); }
-.btn-link { background:transparent; border:1px solid var(--input-border); color:var(--fg); text-decoration:none;
-            padding:6px 12px; border-radius:6px; font-size:12.5px; display:inline-block; }
-label { display:block; font-size:12px; color:var(--muted); margin:10px 0 4px; }
-input[type=text], input[type=number], input[type=password], textarea, select {
-        width:100%; background:var(--input-bg); color:var(--fg); border:1px solid var(--input-border);
-        border-radius:6px; padding:7px 10px; font-size:13px; font-family:inherit;
-        accent-color:var(--accent); }
-input::placeholder, textarea::placeholder { color:var(--muted); opacity:.8; }
-input:focus, textarea:focus, select:focus { outline:1px solid var(--accent); border-color:var(--accent); }
-textarea { min-height:64px; resize:vertical; }
-.row { display:flex; gap:14px; flex-wrap:wrap; }
-.row > div { flex:1; min-width:200px; }
-.checkgroup { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; }
-.checkgroup label { display:inline-flex; align-items:center; gap:5px; margin:0; cursor:pointer; }
-.radio { display:inline-flex; gap:14px; align-items:center; font-size:13px; margin-top:6px; flex-wrap:wrap; }
-.radio label { display:inline-flex; align-items:center; gap:4px; margin:0; cursor:pointer; }
-input[type=checkbox], input[type=radio] { width:auto; accent-color:var(--accent); }
-#toast { position:fixed; right:20px; bottom:20px; background:var(--toast-bg); border:1px solid var(--border);
-         border-radius:8px; padding:10px 16px; font-size:13px; display:none; max-width:420px; z-index:99;
-         color:var(--fg); }
-#toast.ok { border-color:var(--ok); color:var(--ok); }
-#toast.err { border-color:var(--danger); color:var(--danger); }
-.empty { color:var(--muted); text-align:center; padding:40px 0; }
-.hint { color:var(--muted); font-size:12px; line-height:1.7; }
-.statgrid { display:flex; gap:10px; flex-wrap:wrap; margin:12px 0; }
-.stat { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:8px 16px; font-size:13px; }
-.stat b { color:var(--accent); font-size:16px; }
-.logbox { background:#10201c; border:1px solid var(--border); border-radius:10px;
-          padding:12px; font-family:Consolas,monospace; font-size:12px; line-height:1.6;
-          height:380px; overflow-y:auto; white-space:pre-wrap; color:var(--code-fg); }
-table { width:100%; border-collapse:collapse; font-size:13px; }
-th, td { border-bottom:1px solid var(--border); padding:8px 10px; text-align:left; }
-th { color:var(--muted); font-weight:normal; font-size:12px; }
-td input { background:var(--input-bg); border:1px solid var(--input-border); border-radius:4px;
-           padding:4px 8px; color:var(--fg); width:100%; }
-.switch { display:inline-flex; align-items:center; gap:8px; cursor:pointer; font-size:13px; }
-.switch input { width:auto; }
-.fhead { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
-.fhead .actions { display:flex; gap:8px; }
-h2 { font-size:18px; border-bottom:1px solid var(--border); padding-bottom:8px; }
-h2 .cnt { color:var(--muted); font-weight:normal; font-size:13px; }
-.running-dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--ok);
-               animation:blink 1s infinite; margin-right:6px; }
-@keyframes blink { 50% { opacity:.2; } }
-@media (prefers-color-scheme: light) {
-  :root { --bg:#f6f7f9; --card:#fff; --fg:#1c2430; --muted:#68727f; --tag:#e8eef6; --tag-fg:#2563a8;
-          --input-bg:#fff; --input-border:#c9d2dc; --toast-bg:#eef2f7; --code-fg:#333; }
-  body { background:var(--bg); }
-  .card, .paper, .stat { border-color:#dfe4ea; }
-  .abstract { color:#4a5564; }
-  .logbox { background:#f0f2f5; }
+:root{
+  --bg:#f5f3ec; --surface:#fffefa; --surface-2:#f0efe7; --fg:#1a2521; --muted:#69756f;
+  --line:#e3e1d6; --accent:#12715b; --accent-soft:#e2f0eb; --accent-ink:#0c5544;
+  --gold:#c8842f; --danger:#c2453b; --ok:#2f9e6f;
+  --input-bg:#fffefa; --input-line:#d3d2c6; --shadow:0 10px 30px rgba(26,37,33,.07);
+  --radius:16px;
 }
-.hero { padding:30px; border-radius:20px; background:linear-gradient(135deg,#183c32,#12715b 58%,#d59345);
-        color:#fff; box-shadow:0 18px 45px rgba(18,68,55,.2); margin-bottom:20px; }
-.hero h2 { border:0; margin:0 0 7px; font-family:Georgia,"Noto Serif SC",serif; font-size:29px; }
-.hero p { margin:0; color:#d8ede7; max-width:720px; }
-.toolbar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:14px 0; }
-.journal-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:14px; }
-.journal-tile { cursor:pointer; min-height:126px; transition:.18s transform,.18s border-color; }
-.journal-tile:hover { transform:translateY(-2px); border-color:var(--accent); }
-.journal-tile { position:relative; overflow:hidden; border-top:5px solid var(--accent); }
-.journal-tile::after { content:""; position:absolute; width:86px; height:86px; right:-28px; bottom:-36px;
-  border-radius:50%; background:linear-gradient(135deg,rgba(18,113,91,.14),rgba(213,147,69,.2)); }
-.journal-tile h3 { margin:12px 0 8px; font-family:Georgia,"Noto Serif SC",serif; font-size:19px; line-height:1.25; }
-.source-pill { display:inline-block; padding:3px 8px; border-radius:99px; background:#e4f1ed; color:#176451; font-size:11px; }
-.query-box { min-height:94px; font-family:Consolas,"SFMono-Regular",monospace; line-height:1.55; }
-.query-help { padding:10px 12px; background:#eef5f2; border-radius:9px; color:#49615a; font-size:12px; line-height:1.7; margin-top:8px; }
-.condition-list { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
-.condition-chip { display:inline-flex; gap:7px; align-items:center; background:#e4f1ed; color:#184f42;
-  border:1px solid #b9d9cf; border-radius:99px; padding:6px 10px; font-size:12px; }
-.condition-chip b { text-transform:uppercase; font-size:10px; color:#8a5a28; }
-.condition-chip button { background:transparent; color:#8d3c31; padding:0; min-width:auto; }
-.journal-picker { max-height:200px; overflow:auto; border:1px solid var(--input-border); border-radius:10px;
-  background:var(--input-bg); padding:8px; display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:5px; }
-.journal-option { padding:7px 8px; border-radius:7px; cursor:pointer; color:var(--fg); font-size:12px; }
-.journal-option:hover { background:#e4f1ed; }
-.selected-journals { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
-.reaction { font-size:16px; min-width:38px; padding:6px 10px; }
-.reaction.on { background:#e5f4ef; color:var(--accent); border:1px solid var(--accent); }
-.lang-btn { border-color:#637b74!important; color:#e9f3f0!important; }
-@media (max-width:720px) {
-  header { padding:12px 14px; }
-  header h1 { font-size:17px; }
-  nav { overflow-x:auto; flex-wrap:nowrap; width:100%; padding-bottom:3px; }
-  nav button { flex:0 0 auto; padding:7px 11px; }
-  main { padding:16px 12px 85px; }
-  .hero { padding:22px 19px; border-radius:15px; }
-  .hero h2 { font-size:23px; }
-  .journal-grid { grid-template-columns:1fr; }
-  table { min-width:720px; }
-  .card:has(table) { overflow-x:auto; }
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0f1613; --surface:#18211d; --surface-2:#141c19; --fg:#e9efe9; --muted:#9aa89f;
+    --line:#26312c; --accent:#3fb48e; --accent-soft:#183029; --accent-ink:#8fe0c6;
+    --gold:#e0a95a; --input-bg:#111815; --input-line:#2c3a34; --shadow:0 12px 30px rgba(0,0,0,.35);
+  }
 }
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);
+  font-family:-apple-system,"Segoe UI",Roboto,"Microsoft YaHei",sans-serif;
+  -webkit-font-smoothing:antialiased;line-height:1.5}
+a{color:var(--accent);text-decoration:none}
+h1,h2,h3{margin:0}
+
+/* top bar */
+header{position:sticky;top:0;z-index:30;background:rgba(15,30,26,.96);
+  backdrop-filter:blur(8px);color:#f2efe6;border-bottom:1px solid rgba(255,255,255,.06)}
+.bar{max-width:1120px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;
+  justify-content:space-between;gap:12px}
+.brand{font-size:18px;font-weight:700;letter-spacing:.3px;white-space:nowrap}
+.brand span{color:#7fd8bd;font-weight:500;margin-left:6px;font-size:14px}
+nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav button{background:transparent;color:#b6c6bf;border:0;border-radius:10px;
+  padding:8px 14px;font-size:14px;cursor:pointer;white-space:nowrap;transition:.15s}
+nav button:hover{color:#fff;background:rgba(255,255,255,.06)}
+nav button.active{color:#0f1e1a;background:#7fd8bd;font-weight:600}
+.lang{border:1px solid rgba(255,255,255,.25)!important;color:#e9f3f0!important;
+  background:transparent!important;font-size:12px!important;padding:7px 10px!important}
+
+main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
+.tab{display:none;animation:fade .25s ease}
+.tab.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+/* hero */
+.hero{padding:30px 32px;border-radius:22px;color:#fff;margin-bottom:22px;
+  background:linear-gradient(130deg,#123a30,#12715b 60%,#c8842f);box-shadow:var(--shadow)}
+.hero h2{font-family:Georgia,"Noto Serif SC",serif;font-size:27px;margin-bottom:8px}
+.hero p{margin:0;color:#dbeee7;max-width:760px;font-size:14px}
+.hero .mini{display:flex;gap:18px;margin-top:16px;flex-wrap:wrap}
+.hero .mini div{font-size:13px;color:#cfe9e0}
+.hero .mini b{display:block;font-size:22px;color:#fff}
+
+/* cards & papers */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px;margin:14px 0;box-shadow:var(--shadow)}
+.section-title{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
+.section-title h2{font-size:19px}
+.section-title .cnt{color:var(--muted);font-size:13px}
+
+.paper{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:16px 18px;margin:12px 0;box-shadow:var(--shadow);transition:.15s}
+.paper:hover{border-color:var(--accent)}
+.paper .jrow{display:flex;align-items:center;gap:10px;margin-bottom:9px;flex-wrap:wrap}
+.jtag{font-size:12px;font-weight:700;color:#fff;background:var(--accent);
+  padding:4px 12px;border-radius:8px;letter-spacing:.2px}
+.jtag.pre{background:var(--gold)}
+.paper .time{color:var(--muted);font-size:12.5px}
+.paper .title{font-size:16px;font-weight:650;line-height:1.4}
+.paper .title a{color:var(--fg)}
+.paper .title a:hover{color:var(--accent)}
+.paper .authors{color:var(--muted);font-size:13px;margin:7px 0}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.reason{background:var(--accent-soft);color:var(--accent-ink);font-size:11.5px;
+  border-radius:20px;padding:3px 10px}
+.badge{font-size:11px;border-radius:6px;padding:2px 8px}
+.badge.new{background:rgba(47,158,111,.16);color:var(--ok);border:1px solid var(--ok)}
+.abstract{color:var(--muted);font-size:13.5px;line-height:1.68;margin:8px 0 12px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.abstract.open{-webkit-line-clamp:unset}
+.pactions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+
+/* buttons */
+button{font-family:inherit;background:var(--accent);color:#fff;border:0;border-radius:10px;
+  padding:9px 16px;font-size:13.5px;font-weight:600;cursor:pointer;transition:.15s}
+button:hover{filter:brightness(1.07)}
+button:active{transform:translateY(1px)}
+button:disabled{opacity:.5;cursor:not-allowed}
+button.ghost{background:transparent;border:1px solid var(--input-line);color:var(--fg);font-weight:500}
+button.ghost:hover{border-color:var(--accent);color:var(--accent)}
+button.danger{background:transparent;border:1px solid rgba(194,69,59,.5);color:var(--danger);font-weight:500}
+button.sm{padding:6px 11px;font-size:12.5px}
+.icon-btn{background:var(--surface-2);border:1px solid var(--line);color:var(--muted);
+  width:38px;height:34px;padding:0;border-radius:9px;font-size:15px}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent)}
+.icon-btn.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.linkbtn{background:transparent;border:1px solid var(--input-line);color:var(--fg);
+  padding:7px 13px;border-radius:9px;font-size:12.5px;font-weight:500;display:inline-flex;gap:5px}
+.linkbtn:hover{border-color:var(--accent);color:var(--accent)}
+
+/* forms */
+label{display:block;font-size:12.5px;color:var(--muted);margin:12px 0 5px;font-weight:500}
+input[type=text],input[type=number],input[type=password],textarea,select{
+  width:100%;background:var(--input-bg);color:var(--fg);border:1px solid var(--input-line);
+  border-radius:10px;padding:9px 12px;font-size:13.5px;font-family:inherit;transition:.15s}
+input:focus,textarea:focus,select:focus{outline:0;border-color:var(--accent);
+  box-shadow:0 0 0 3px var(--accent-soft)}
+input::placeholder,textarea::placeholder{color:var(--muted);opacity:.7}
+textarea{min-height:70px;resize:vertical;line-height:1.55}
+select{appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' stroke='%2369756f' stroke-width='1.6' fill='none'/></svg>");
+  background-repeat:no-repeat;background-position:right 11px center;padding-right:30px}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+.row>div{flex:1;min-width:200px}
+.switch{display:inline-flex;align-items:center;gap:9px;cursor:pointer;font-size:13.5px;color:var(--fg)}
+.switch input{width:auto}
+input[type=checkbox],input[type=radio]{width:auto;accent-color:var(--accent);transform:scale(1.1)}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:16px 0}
+.hint{color:var(--muted);font-size:12.5px;line-height:1.7}
+.empty{color:var(--muted);text-align:center;padding:46px 20px;font-size:14px}
+
+/* feed builder */
+.feed-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px}
+.cond{display:grid;grid-template-columns:96px 190px 1fr 40px;gap:8px;margin:8px 0;align-items:center}
+.cond .op-first{visibility:hidden}
+.mode-tabs{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);
+  border-radius:10px;padding:3px;gap:3px;margin:6px 0 4px}
+.mode-tabs button{background:transparent;color:var(--muted);padding:6px 14px;font-size:12.5px;border-radius:7px}
+.mode-tabs button.on{background:var(--accent);color:#fff}
+.qpreview{background:var(--surface-2);border:1px dashed var(--input-line);border-radius:10px;
+  padding:10px 13px;font-family:Consolas,monospace;font-size:12.5px;color:var(--accent-ink);
+  word-break:break-word;margin-top:6px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0}
+.chip{display:inline-flex;align-items:center;gap:7px;background:var(--accent-soft);
+  color:var(--accent-ink);border-radius:20px;padding:6px 8px 6px 12px;font-size:12.5px}
+.chip button{background:transparent;color:var(--accent-ink);padding:0;width:18px;height:18px;
+  border-radius:50%;font-size:12px;line-height:1}
+.chip button:hover{background:rgba(0,0,0,.08)}
+.picker{max-height:230px;overflow:auto;border:1px solid var(--input-line);border-radius:10px;
+  background:var(--input-bg);padding:8px;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:4px;margin-top:6px}
+.opt{padding:7px 9px;border-radius:8px;cursor:pointer;font-size:12.5px;color:var(--fg)}
+.opt:hover{background:var(--accent-soft);color:var(--accent-ink)}
+
+/* journal grid */
+.jgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.jcard{position:relative;overflow:hidden;cursor:pointer;border-top:4px solid var(--accent);
+  background:var(--surface);border:1px solid var(--line);border-top-width:4px;
+  border-radius:14px;padding:18px;box-shadow:var(--shadow);transition:.16s}
+.jcard.pre{border-top-color:var(--gold)}
+.jcard:hover{transform:translateY(-3px);border-color:var(--accent)}
+.jcard .pill{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.4px;
+  padding:3px 9px;border-radius:20px;background:var(--accent-soft);color:var(--accent-ink)}
+.jcard.pre .pill{background:rgba(200,132,47,.15);color:var(--gold)}
+.jcard h3{font-family:Georgia,"Noto Serif SC",serif;font-size:18px;margin:12px 0 4px;line-height:1.25}
+.jcard .issn{color:var(--muted);font-size:12px}
+.jcard .count{margin-top:12px;font-size:12.5px;color:var(--muted)}
+.jcard .count b{font-size:22px;color:var(--accent);font-family:inherit}
+
+/* table */
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left}
+th{color:var(--muted);font-weight:500;font-size:12px}
+td input{padding:6px 9px}
+.logbox{background:#0c1512;color:#cfe0d8;border:1px solid var(--line);border-radius:12px;
+  padding:14px;font-family:Consolas,monospace;font-size:12px;line-height:1.6;height:360px;
+  overflow:auto;white-space:pre-wrap}
+
+/* misc */
+.statgrid{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  padding:10px 16px;font-size:13px;box-shadow:var(--shadow)}
+.stat b{color:var(--accent);font-size:17px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);
+  margin-right:7px;animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.3}}
+.progress{height:8px;border-radius:8px;background:var(--surface-2);overflow:hidden;margin:10px 0}
+.progress i{display:block;height:100%;background:var(--accent);transition:width .3s}
+.backbar{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+#toast{position:fixed;left:50%;transform:translateX(-50%);bottom:24px;z-index:99;
+  background:#18211d;color:#f0efe6;border:1px solid var(--line);border-radius:12px;
+  padding:12px 20px;font-size:13.5px;max-width:90vw;display:none;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+#toast.err{border-color:var(--danger);color:#ffb4ad}
+#toast.ok{border-color:var(--ok)}
+@media (max-width:720px){
+  .bar{flex-direction:column;align-items:stretch;gap:8px;padding:10px 12px}
+  .brand{text-align:center}
+  main{padding:16px 13px 96px}
+  .hero{padding:22px 20px}.hero h2{font-size:22px}
+  .cond{grid-template-columns:1fr 1fr;gap:6px}
+  .cond .val{grid-column:1/3}
+  .jgrid{grid-template-columns:1fr 1fr;gap:11px}
+  .card:has(#journal-table){overflow-x:auto}
+}
+@media (max-width:440px){.jgrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
-  <h1>PaperPush <span style="color:#8edbc7;font-weight:400">文献速递</span></h1>
-  <nav>
-    <button class="active" data-tab="dashboard" onclick="showTab('dashboard')">发现</button>
-    <button data-tab="favorites" onclick="showTab('favorites')">收藏</button>
-    <button data-tab="feeds" onclick="showTab('feeds')">Feed 管理</button>
-    <button data-tab="journals" onclick="showTab('journals')">期刊管理</button>
-    <button data-tab="settings" onclick="showTab('settings')">设置</button>
-    <button data-tab="run" onclick="showTab('run')">运行</button>
-    <button class="lang-btn" onclick="toggleLanguage()" id="lang-button">EN</button>
-  </nav>
+  <div class="bar">
+    <div class="brand">PaperPush<span data-i18n="tagline">文献速递</span></div>
+    <nav id="nav"></nav>
+  </div>
 </header>
 <main>
-
-<!-- ============ 看板 ============ -->
-<div class="tab active" id="tab-dashboard">
-  <div class="hero">
-    <h2>把真正相关的研究，送到你面前。</h2>
-    <p>聚合期刊与 bioRxiv 预印本，用可组合的布尔检索 Feed 跟踪主题、作者和来源。</p>
-  </div>
-  <div id="dash-status"></div>
-  <div id="dash-content"></div>
-</div>
-
-<div class="tab" id="tab-favorites">
-  <div class="hero"><h2>你的收藏</h2><p>保留值得精读、稍后处理或准备加入 Zotero 的文章。</p></div>
-  <div id="favorite-content"></div>
-</div>
-
-<!-- ============ Feed 管理 ============ -->
-<div class="tab" id="tab-feeds">
-  <p class="hint">Feed 是文献筛选规则：期刊、关键词、第一/最后作者均为可选项，
-  不勾选期刊 = 关注全部期刊。高级表达式支持 AND / OR / NOT、括号、引号短语、通配符和字段限定。</p>
-  <div style="display:flex; gap:10px; margin:12px 0; flex-wrap:wrap">
-    <button onclick="addFeed()">＋ 新建 Feed</button>
-    <button onclick="saveFeeds()">💾 保存全部 Feed</button>
-    <button class="ghost" onclick="loadFeeds()">重新加载</button>
-  </div>
-  <div class="card">
-    <b>半年文献库</b>
-    <p class="hint">Feed 会匹配本地半年文献库，而不只是最近 2-3 天。首次使用请初始化全部期刊；该任务在后台运行。</p>
-    <div class="toolbar"><button onclick="syncCatalog()">初始化全部来源（过去半年）</button><span id="catalog-status" class="hint"></span></div>
-  </div>
-  <div id="feed-cards"></div>
-  <div class="empty" id="feed-empty" style="display:none">还没有任何 Feed，点击「＋ 新建 Feed」开始</div>
-</div>
-
-<!-- ============ 期刊管理 ============ -->
-<div class="tab" id="tab-journals">
-  <p class="hint">管理关注期刊。Crossref 按 ISSN 检索：print 为纸质版 ISSN，online 为电子版 ISSN。
-  期刊以提前在线（ahead of print）文章会在 Crossref 以 online 记录收录；部分期刊 online ISSN 未注册到
-  Crossref（查询会 404），留空即可——其文章挂在 print ISSN 下。删除行将移除该期刊。</p>
-  <div style="display:flex; gap:10px; margin:12px 0; flex-wrap:wrap">
-    <button onclick="addJournalRow()">＋ 添加期刊</button>
-    <button onclick="saveJournals()">💾 保存期刊</button>
-    <button class="ghost" onclick="loadJournals()">重新加载</button>
-  </div>
-  <div id="journal-grid" class="journal-grid"></div>
-  <div id="journal-detail" style="display:none"></div>
-  <details style="margin-top:20px"><summary>高级：编辑期刊元数据 / Advanced metadata editor</summary>
-  <div class="card" style="padding:10px 18px">
-    <table id="journal-table">
-      <thead><tr><th>期刊名称</th><th>print ISSN</th><th>online ISSN</th><th></th></tr></thead>
-      <tbody></tbody>
-    </table>
-  </div>
-  </details>
-</div>
-
-<!-- ============ 设置 ============ -->
-<div class="tab" id="tab-settings">
-  <div class="card">
-    <h2 style="border:none">微信推送（Server酱）</h2>
-    <label>SendKey（SCT 开头的字符串，<a href="https://sct.ftqq.com" target="_blank" style="color:var(--accent)">Server酱</a> 登录后获取）</label>
-    <input type="password" id="set-sendkey" placeholder="SCTxxxxx">
-    <div class="switch" style="margin-top:10px"><input type="checkbox" id="set-push-enabled"> 启用微信推送</div>
-    <div class="row" style="margin-top:6px">
-      <div><label>每天最多推送条数</label><input type="number" id="set-max-day" min="1"></div>
-      <div><label>推送标题前缀</label><input type="text" id="set-title-prefix"></div>
-    </div>
-  </div>
-  <div class="card">
-    <h2 style="border:none">Zotero 一键入库</h2>
-    <div class="switch"><input type="checkbox" id="set-zotero-enabled"> 启用 Zotero 集成（看板文章卡片出现「添加至 Zotero」按钮）</div>
-    <div class="row" style="margin-top:6px">
-      <div>
-        <label>API Key（<a href="https://www.zotero.org/settings/keys" target="_blank" style="color:var(--accent)">创建</a>，勾选读写权限）</label>
-        <input type="password" id="set-zotero-key" placeholder="xxxxxxxxxxxxxxxx">
-      </div>
-      <div><label>User ID（zotero.org 个人页 URL 中的数字）</label><input type="number" id="set-zotero-uid"></div>
-    </div>
-    <div class="row">
-      <div>
-        <label>固定 Collection Key（可选，留空则不归类）</label>
-        <input type="text" id="set-zotero-coll" placeholder="例如 9R4XABCD（Zotero 分组 URL 中）">
-      </div>
-      <div>
-        <label>按 Feed 名自动归类</label>
-        <div class="switch" style="margin-top:8px"><input type="checkbox" id="set-zotero-feedcoll"> 添加时归入与 Feed 同名的 Collection</div>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <h2 style="border:none">抓取设置</h2>
-    <div class="row">
-      <div><label>回看天数（提前在线文章收录有滞后，建议 2-3）</label><input type="number" id="set-lookback" min="1"></div>
-      <div><label>每个 Feed 最多保留文章数</label><input type="number" id="set-max-feed" min="1"></div>
-    </div>
-    <div class="row">
-      <div><label>Crossref 联系邮箱（礼貌池标识，提升请求优先级）</label><input type="text" id="set-mailto" placeholder="you@example.com"></div>
-      <div><label>排除的 DOI 前缀（期刊新闻/评论类，逗号分隔）</label><input type="text" id="set-exclude" placeholder="10.1038/d41586"></div>
-    </div>
-  </div>
-  <button onclick="saveSettings()" style="margin-top:14px">💾 保存设置</button>
-</div>
-
-<!-- ============ 运行 ============ -->
-<div class="tab" id="tab-run">
-  <div class="card">
-    <h2 style="border:none">手动运行</h2>
-    <p class="hint">点击后执行完整流程：Crossref 抓取（含提前在线）→ PubMed 摘要补充 → Feed 匹配 →
-    去重 → 微信推送 + 看板更新 + Zotero 自动入库（如启用）。每日 09:00（北京时间）自动运行。</p>
-    <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap">
-      <button id="btn-run" onclick="startRun()">▶ 立即运行</button>
-      <span id="run-status" style="color:var(--muted); font-size:13px"></span>
-    </div>
-  </div>
-  <div class="card">
-    <h2 style="border:none">运行日志 <span class="cnt" id="log-count"></span></h2>
-    <div class="logbox" id="logbox"></div>
-  </div>
-  <div class="card">
-    <h2 style="border:none">历史记录</h2>
-    <table id="history-table">
-      <thead><tr><th>开始时间</th><th>来源</th><th>抓取</th><th>新增</th><th>Feed 命中</th><th>推送</th></tr></thead>
-      <tbody></tbody>
-    </table>
-  </div>
-</div>
-
+  <div class="tab active" id="tab-discover"></div>
+  <div class="tab" id="tab-favorites"></div>
+  <div class="tab" id="tab-feeds"></div>
+  <div class="tab" id="tab-journals"></div>
+  <div class="tab" id="tab-settings"></div>
+  <div class="tab" id="tab-run"></div>
 </main>
 <div id="toast"></div>
-<script>
-let JOURNALS = [];
-let feeds = [];
-let journals = [];
-let LOG_CURSOR = 0;
-let UI_LANG = localStorage.getItem("paperpush-lang") || "zh";
 
-function esc(s){ return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
-function toast(msg, ok=true){
-  const t=document.getElementById("toast");
-  t.textContent=msg; t.className=ok?"ok":"err"; t.style.display="block";
-  clearTimeout(t._h); t._h=setTimeout(()=>t.style.display="none",5000);
-}
-async function api(url, opts){
-  const r = await fetch(url, opts);
-  const j = await r.json();
-  if (!r.ok) throw new Error(j.message || ("HTTP "+r.status));
+<script>
+/* ================= i18n ================= */
+const I18N = {
+  zh:{
+    tagline:"文献速递", discover:"发现", favorites:"收藏", feeds:"Feed 订阅", journals:"期刊库",
+    settings:"设置", run:"运行", lang:"EN",
+    heroTitle:"把真正相关的研究，送到你面前", heroSub:"聚合顶刊与 bioRxiv 预印本，用可组合的布尔条件跟踪主题、作者与来源。",
+    library:"文献库", latest:"最近发表", feedHits:"命中",
+    open:"原文", fav:"收藏", hide:"不感兴趣", zotero:"加入 Zotero",
+    noRun:"文献库还没有内容。前往「期刊库」初始化过去半年，或到「运行」页立即抓取最新文章。",
+    favEmpty:"还没有收藏。在任意文章上点 ♡ 即可收藏。",
+    newFeed:"＋ 新建 Feed", saveFeeds:"保存全部", reload:"重新加载", feedEmpty:"还没有 Feed，点击「＋ 新建 Feed」开始。",
+    feedIntro:"每个 Feed 是一组筛选条件。点选类型（关键词 / 作者）与逻辑（并 / 或 / 非）即可组合，无需手写表达式。",
+    initTitle:"半年文献库", initSub:"Feed 会在本地半年文献库中匹配。首次使用请一次性初始化全部来源（后台运行，可离开本页）。",
+    initBtn:"初始化全部来源（过去半年）", feedName:"Feed 名称",
+    condTitle:"筛选条件", addCond:"＋ 添加条件", modeSimple:"可视化", modeAdv:"高级表达式",
+    genQuery:"生成的检索式", advHint:"字段：TS 主题 · TI 标题 · AB 摘要 · AU 作者 · FA 一作 · LA 末作 · SO 来源。支持 AND/OR/NOT、括号、\"短语\"、通配符 *。",
+    jscope:"期刊范围（留空 = 全部来源）", allSrc:"全部来源", pickJournal:"添加期刊", validate:"检查检索式",
+    opAND:"并 AND", opOR:"或 OR", opNOT:"非 NOT",
+    tTS:"关键词（标题+摘要）", tTI:"标题关键词", tAB:"摘要关键词", tAU:"作者（任意）", tFA:"第一作者", tLA:"最后作者", tSO:"期刊来源",
+    condPh:"输入关键词或作者姓名",
+    jIntro:"点击期刊查看过去半年文献。首次进入请同步；之后自动增量更新。",
+    addJournal:"＋ 添加期刊", saveJournals:"保存期刊", metaEditor:"高级：编辑期刊 ISSN 元数据",
+    inLib:"篇已入库", viewLatest:"查看过去半年文章 →", journal:"期刊", preprint:"预印本",
+    backJournals:"← 返回期刊库", syncHalf:"同步过去半年", refreshList:"刷新列表",
+    jDetailSub:"过去半年文献库。首次进入请点击同步；之后每次刷新只加载新增。",
+    noLocal:"本地还没有文章，请点击「同步过去半年」。",
+    setWechat:"微信推送（Server酱）", sendkey:"SendKey", enableWechat:"启用微信推送",
+    maxDay:"每天最多推送条数", titlePrefix:"推送标题前缀",
+    setZotero:"Zotero 一键入库", enableZotero:"启用 Zotero（文章卡片出现「加入 Zotero」）",
+    apiKey:"API Key（需读写权限）", userId:"User ID（个人页 URL 数字）",
+    collKey:"固定 Collection Key（可选）", feedColl:"按 Feed 名自动归类到同名 Collection",
+    setFetch:"抓取设置", lookback:"每日增量回看天数（提前在线有滞后，建议 2-3）",
+    maxFeed:"每个 Feed 最多展示文章数", mailto:"Crossref 联系邮箱（礼貌池，提升配额）",
+    excludePrefix:"排除 DOI 前缀（新闻/评论，逗号分隔）", saveSettings:"保存设置",
+    runTitle:"手动运行", runSub:"执行完整流程：抓取（含提前在线）→ 补全摘要 → Feed 匹配 → 去重 → 微信推送 → 入库。每日 09:00（北京时间）自动运行。",
+    runNow:"▶ 立即运行", idle:"空闲", running:"运行中", logTitle:"运行日志", historyTitle:"历史记录",
+    hTime:"时间", hSource:"来源", hFetch:"抓取", hNew:"新增", hHit:"命中", hPush:"推送",
+    saved:"已保存", validOk:"检索式有效", empty2:"本 Feed 暂无命中文章",
+    authors:"位作者", noAbstract:"（暂无摘要，点击标题查看原文）",
+  },
+  en:{
+    tagline:"Paper Feed", discover:"Discover", favorites:"Saved", feeds:"Feeds", journals:"Journals",
+    settings:"Settings", run:"Run", lang:"中文",
+    heroTitle:"The research that matters, delivered to you", heroSub:"Aggregate top journals and bioRxiv preprints; track topics, authors and sources with composable Boolean rules.",
+    library:"Library", latest:"Latest", feedHits:"hits",
+    open:"Source", fav:"Save", hide:"Not interested", zotero:"Add to Zotero",
+    noRun:"Library is empty. Initialize the last 6 months in Journals, or fetch now on the Run page.",
+    favEmpty:"No saved papers yet. Tap ♡ on any paper to save it.",
+    newFeed:"＋ New Feed", saveFeeds:"Save all", reload:"Reload", feedEmpty:"No feeds yet. Click \u201c＋ New Feed\u201d to start.",
+    feedIntro:"Each feed is a set of filters. Pick a type (keyword / author) and logic (AND / OR / NOT) \u2014 no need to write expressions.",
+    initTitle:"Six-month library", initSub:"Feeds match against a local 6-month library. Initialize all sources once (runs in background).",
+    initBtn:"Initialize all sources (last 6 months)", feedName:"Feed name",
+    condTitle:"Filters", addCond:"＋ Add condition", modeSimple:"Visual", modeAdv:"Advanced",
+    genQuery:"Generated query", advHint:"Fields: TS topic · TI title · AB abstract · AU author · FA first · LA last · SO source. Supports AND/OR/NOT, parentheses, \"phrase\", wildcard *.",
+    jscope:"Journal scope (empty = all sources)", allSrc:"All sources", pickJournal:"Add journal", validate:"Validate query",
+    opAND:"AND", opOR:"OR", opNOT:"NOT",
+    tTS:"Keyword (title+abstract)", tTI:"Title keyword", tAB:"Abstract keyword", tAU:"Author (any)", tFA:"First author", tLA:"Last author", tSO:"Source",
+    condPh:"Enter keyword or author name",
+    jIntro:"Click a journal for its last 6 months. Sync on first visit; incremental after.",
+    addJournal:"＋ Add journal", saveJournals:"Save journals", metaEditor:"Advanced: edit journal ISSN metadata",
+    inLib:"in library", viewLatest:"View last 6 months →", journal:"JOURNAL", preprint:"PREPRINT",
+    backJournals:"← Back to journals", syncHalf:"Sync last 6 months", refreshList:"Refresh",
+    jDetailSub:"Local 6-month library. Sync on first visit; later refreshes only load new items.",
+    noLocal:"No local papers yet. Click \u201cSync last 6 months\u201d.",
+    setWechat:"WeChat push (Server\u9171)", sendkey:"SendKey", enableWechat:"Enable WeChat push",
+    maxDay:"Max papers pushed per day", titlePrefix:"Push title prefix",
+    setZotero:"Zotero one-click", enableZotero:"Enable Zotero (adds \u201cAdd to Zotero\u201d button)",
+    apiKey:"API Key (read/write)", userId:"User ID (number in profile URL)",
+    collKey:"Fixed Collection Key (optional)", feedColl:"Auto-file into a collection named after the feed",
+    setFetch:"Fetch settings", lookback:"Daily look-back days (early-access lag, 2-3)",
+    maxFeed:"Max papers per feed", mailto:"Crossref contact email (polite pool)",
+    excludePrefix:"Excluded DOI prefixes (news/editorial, comma)", saveSettings:"Save settings",
+    runTitle:"Manual run", runSub:"Full pipeline: fetch \u2192 abstracts \u2192 feed match \u2192 dedup \u2192 push \u2192 library. Auto-runs 09:00 (Beijing).",
+    runNow:"▶ Run now", idle:"Idle", running:"Running", logTitle:"Run log", historyTitle:"History",
+    hTime:"Time", hSource:"Source", hFetch:"Fetched", hNew:"New", hHit:"Hits", hPush:"Push",
+    saved:"Saved", validOk:"Query is valid", empty2:"No matches for this feed yet",
+    authors:"authors", noAbstract:"(No abstract, open the source to read.)",
+  }
+};
+let LANG = localStorage.getItem("pp-lang")||"zh";
+const t = k => (I18N[LANG][k] ?? I18N.zh[k] ?? k);
+
+/* ================= state ================= */
+let JOURNALS=[], feeds=[], journals=[], LOG_CURSOR=0, CUR_TAB="discover", journalDetail=null;
+const TABS=["discover","favorites","feeds","journals","settings","run"];
+
+/* ================= helpers ================= */
+function esc(s){return String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");}
+function toast(msg,ok=true){const el=document.getElementById("toast");el.textContent=msg;
+  el.className=ok?"ok":"err";el.style.display="block";clearTimeout(el._h);el._h=setTimeout(()=>el.style.display="none",4200);}
+async function api(url,opts){
+  const r=await fetch(url,opts);
+  let j={}; try{j=await r.json();}catch(_){}
+  if(!r.ok) throw new Error(j.message||("HTTP "+r.status));
   return j;
 }
-function showTab(name){
-  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active", b.dataset.tab===name));
-  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active", t.id==="tab-"+name));
-  if (name==="feeds") loadFeeds();
-  if (name==="journals") loadJournals();
-  if (name==="settings") loadSettings();
-  if (name==="favorites") loadFavorites();
-  if (name==="run") { refreshState(); startLogPoll(); }
-  if (name==="dashboard") refreshState();
+function relTime(d){
+  if(!d) return "—";
+  const dt=new Date(d.length===10?d+"T00:00:00":d);
+  if(isNaN(dt)) return esc(d);
+  const h=Math.max(0,(Date.now()-dt.getTime())/3.6e6);
+  if(h<1) return LANG==="zh"?"刚刚":"just now";
+  if(h<24) return LANG==="zh"?`${Math.floor(h)} 小时前`:`${Math.floor(h)}h ago`;
+  if(h<168) return LANG==="zh"?`${Math.floor(h/24)} 天前`:`${Math.floor(h/24)}d ago`;
+  return (d+"").slice(0,10);
 }
-function toggleLanguage(){
-  UI_LANG = UI_LANG==="zh" ? "en" : "zh";
-  localStorage.setItem("paperpush-lang", UI_LANG);
-  document.getElementById("lang-button").textContent = UI_LANG==="zh" ? "EN" : "中文";
-  toast(UI_LANG==="zh" ? "界面语言：中文" : "Interface language: English");
-}
-function relativeTime(dateText){
-  if (!dateText) return "—";
-  const then = new Date(dateText.length===10 ? dateText+"T00:00:00" : dateText);
-  const hours = Math.max(0, (Date.now()-then.getTime())/3600000);
-  if (hours < 1) return UI_LANG==="zh" ? "刚刚" : "just now";
-  if (hours < 24) return UI_LANG==="zh" ? `${Math.floor(hours)} 小时前` : `${Math.floor(hours)}h ago`;
-  if (hours < 168) return UI_LANG==="zh" ? `${Math.floor(hours/24)} 天前` : `${Math.floor(hours/24)}d ago`;
-  return dateText.slice(0,10);
-}
-function fmtAuthors(names){
-  if (!names || names.length===0) return "—";
-  if (names.length<=6) return names.join(", ");
-  return names.slice(0,3).join(", ") + " … " + names.slice(-3).join(", ") + `（共 ${names.length} 位作者）`;
+function authorLine(a){
+  a=a||[]; if(!a.length) return "—";
+  if(a.length<=6) return a.join(", ");
+  return a.slice(0,3).join(", ")+" … "+a.slice(-3).join(", ")+`（${a.length} ${t("authors")}）`;
 }
 
-/* ================= 看板 ================= */
-async function refreshState(){
-  try {
-    const s = await api("/api/state");
-    const dash = document.getElementById("dash-status");
-    if (s.running) {
-      dash.innerHTML = `<span class="running-dot"></span>任务运行中（来源：${esc(s.source)}，开始于 ${esc(s.started_at)}）…`;
-    } else {
-      const lr = s.last_result || s.latest_run?.result;
-      const run = s.latest_run;
-      if (lr) {
-        dash.innerHTML = `<div class="statgrid">
-          <div class="stat">最近运行：<b>${esc(run?.started_at || "")}</b></div>
-          <div class="stat">抓取 <b>${lr.fetched??0}</b> 篇</div>
-          <div class="stat">提前在线 <b>${lr.early??0}</b> 篇</div>
-          <div class="stat">新增 <b>${lr.new??0}</b> 篇</div>
-          <div class="stat">推送 ${lr.pushed? '<b style="color:var(--ok)">成功</b>':'<span style="color:var(--muted)">—</span>'}</div>
-          ${lr.error? `<div class="stat" style="color:var(--danger)">错误：${esc(lr.error)}</div>`:""}
-        </div>`;
-      } else {
-        dash.innerHTML = `<p class="empty">还没有运行记录，去「运行」页点击「立即运行」，或等待每日 09:00 自动运行</p>`;
-      }
-    }
-    // Feed 定义可能刚保存。每次进入首页都向后端请求本地半年库的实时匹配结果，
-    // 避免继续展示上一次网络抓取 run 的旧快照。
-    let live=null;
-    try { live=await api('/api/feeds/results'); } catch(_) {}
-    const details = live?.details || (s.last_result || s.latest_run?.result)?.details || {};
-    const keys = Object.keys(details);
-    const box = document.getElementById("dash-content");
-    if (!keys.length) {
-      const recent=await api("/api/discover");
-      box.innerHTML='<h2>最近发表 <span class="cnt">/ Latest</span></h2>'+(recent.papers.map(p=>paperCard(p,"发现")).join("")||'<div class="empty">文献库为空。去「运行」刷新最近文章，或在「期刊管理」同步半年文献。</div>');
-      return;
-    }
-    box.innerHTML = keys.map(fname => `
-      <section>
-        <h2>${esc(fname)} <span class="cnt">（${details[fname].length} 篇）</span></h2>
-        ${details[fname].map(p=>paperCard(p, fname)).join("") || '<div class="empty">本 Feed 暂无命中</div>'}
-      </section>`).join("");
-  } catch(e){ toast("加载看板失败："+e.message, false); }
+/* ================= nav ================= */
+function renderNav(){
+  const nav=document.getElementById("nav");
+  nav.innerHTML=TABS.map(x=>`<button data-tab="${x}" class="${x===CUR_TAB?"active":""}" onclick="showTab('${x}')">${esc(t(x))}</button>`).join("")
+    +`<button class="lang" onclick="toggleLang()">${esc(t("lang"))}</button>`;
+  document.documentElement.lang = LANG==="zh"?"zh-CN":"en";
 }
-function paperCard(p, feed){
-  const badges = (p.is_early_access?'<span class="badge early">🟢 提前在线</span>':"") +
-                 (p.is_new?'<span class="badge new">NEW</span>':"");
-  const reasons = (p.reasons||[]).map(r=>`<span class="reason">${esc(r)}</span>`).join("") || "";
+function toggleLang(){LANG=LANG==="zh"?"en":"zh";localStorage.setItem("pp-lang",LANG);renderNav();renderTab(CUR_TAB);}
+function showTab(name){CUR_TAB=name;journalDetail=null;
+  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===name));
+  document.querySelectorAll(".tab").forEach(el=>el.classList.toggle("active",el.id==="tab-"+name));
+  renderNav(); renderTab(name);
+}
+function renderTab(name){
+  if(name==="discover") renderDiscover();
+  else if(name==="favorites") renderFavorites();
+  else if(name==="feeds") renderFeeds();
+  else if(name==="journals") renderJournals();
+  else if(name==="settings") renderSettings();
+  else if(name==="run") renderRun();
+}
+
+/* ================= paper card ================= */
+function paperCard(p,feedName){
+  const src=p.source==="biorxiv"||/biorxiv/i.test(p.journal||"");
+  const badges=(p.is_new?`<span class="badge new">NEW</span>`:"");
+  const reasons=(p.reasons||[]).map(r=>`<span class="reason">${esc(r)}</span>`).join("");
+  const key=esc(p.key||p.doi||"");
   return `<div class="paper">
-    <div class="title"><a href="${esc(p.url)}" target="_blank">${esc(p.title)}</a>${badges}</div>
-    <div class="meta">${esc(p.journal)} · ${esc(relativeTime(p.published_online||p.published_print))} · ${esc(fmtAuthors(p.authors))}</div>
-    <div>${reasons}</div>
-    <div class="abstract" onclick="this.classList.toggle('open')" title="点击展开/收起摘要">${esc(p.abstract||"(无摘要，点击标题查看原文)")}</div>
-    <div class="actions">
-      <a class="btn-link" href="${esc(p.url)}" target="_blank">打开原文</a>
-      <button class="ghost reaction ${p.reaction==='liked'?'on':''}" data-key="${esc(p.key||p.doi)}" data-state="liked" title="收藏">♡</button>
-      <button class="ghost reaction" data-key="${esc(p.key||p.doi)}" data-state="hidden" title="不感兴趣">×</button>
-      <button class="btn-zotero" data-doi="${esc(p.doi)}" data-feed="${esc(feed)}">＋ 添加至 Zotero</button>
+    <div class="jrow">
+      <span class="jtag ${src?"pre":""}">${esc(p.journal||"—")}</span>
+      <span class="time">${esc(relTime(p.published_online||p.published_print))}</span>
+      ${badges}
+    </div>
+    <div class="title"><a href="${esc(p.url||("https://doi.org/"+(p.doi||"")))}" target="_blank" rel="noopener">${esc(p.title||"(untitled)")}</a></div>
+    <div class="authors">${esc(authorLine(p.authors))}</div>
+    ${reasons?`<div class="tags">${reasons}</div>`:""}
+    <div class="abstract" onclick="this.classList.toggle('open')">${esc(p.abstract||t("noAbstract"))}</div>
+    <div class="pactions">
+      <a class="linkbtn" href="${esc(p.url||("https://doi.org/"+(p.doi||"")))}" target="_blank" rel="noopener">↗ ${esc(t("open"))}</a>
+      <button class="icon-btn ${p.reaction==="liked"?"on":""}" title="${esc(t("fav"))}" onclick="react('${key}','liked',this)">♥</button>
+      <button class="icon-btn" title="${esc(t("hide"))}" onclick="react('${key}','hidden',this)">✕</button>
+      ${p.doi?`<button class="linkbtn" onclick="zoteroAdd('${esc(p.doi)}','${esc(feedName||"")}')">＋ ${esc(t("zotero"))}</button>`:""}
     </div>
   </div>`;
 }
+async function react(key,state,btn){
+  if(!key){toast("no key",false);return;}
+  try{
+    const on=btn.classList.contains("on");
+    const next=state==="liked"&&on?"":state;
+    await api("/api/papers/reaction",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({key,state:next})});
+    if(state==="hidden"){btn.closest(".paper").style.display="none";}
+    else{btn.classList.toggle("on",next==="liked");}
+  }catch(e){toast(e.message,false);}
+}
+async function zoteroAdd(doi,feed){
+  try{const r=await api("/api/zotero/add",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({doi,feed})});toast("✓ "+r.message);}
+  catch(e){toast(e.message,false);}
+}
 
-document.addEventListener("click", e => {
-  const reaction = e.target.closest(".reaction");
-  if (reaction) {
-    reactPaper(reaction.dataset.key, reaction.dataset.state, reaction);
-    return;
+/* ================= discover ================= */
+async function renderDiscover(){
+  const box=document.getElementById("tab-discover");
+  box.innerHTML=`<div class="hero"><h2>${esc(t("heroTitle"))}</h2><p>${esc(t("heroSub"))}</p>
+    <div class="mini" id="hero-mini"></div></div>
+    <div id="disc-status"></div><div id="disc-body"><div class="empty">…</div></div>`;
+  let results=null;
+  try{results=await api("/api/feeds/results");}catch(_){}
+  const total=results?.library_total||0;
+  document.getElementById("hero-mini").innerHTML=
+    `<div><b>${total}</b>${esc(t("library"))}</div>`+
+    Object.entries(results?.feeds||{}).slice(0,3).map(([k,v])=>`<div><b>${v}</b>${esc(k)}</div>`).join("");
+  const details=results?.details||{};
+  const feedKeys=Object.keys(details);
+  const body=document.getElementById("disc-body");
+  if(feedKeys.length){
+    body.innerHTML=feedKeys.map(fn=>`
+      <div class="section-title"><h2>${esc(fn)}</h2><span class="cnt">${details[fn].length} ${esc(t("feedHits"))}</span></div>
+      ${details[fn].length?details[fn].map(p=>paperCard(p,fn)).join(""):`<div class="empty">${esc(t("empty2"))}</div>`}`).join("");
+  }else{
+    try{
+      const rec=await api("/api/discover");
+      body.innerHTML=`<div class="section-title"><h2>${esc(t("latest"))}</h2></div>`+
+        (rec.papers.length?rec.papers.map(p=>paperCard(p,"")).join(""):`<div class="empty">${esc(t("noRun"))}</div>`);
+    }catch(e){body.innerHTML=`<div class="empty">${esc(t("noRun"))}</div>`;}
   }
-  const btn = e.target.closest(".btn-zotero");
-  if (!btn) return;
-  zoteroAdd(btn.dataset.doi, btn.dataset.feed);
-});
-
-async function reactPaper(key,state,button){
-  try {
-    const next = state==="liked" && button.classList.contains("on") ? "" : state;
-    await api("/api/papers/reaction", {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({key,state:next})});
-    if (state==="hidden") button.closest(".paper")?.remove();
-    else button.classList.toggle("on", next==="liked");
-  } catch(e){ toast(e.message,false); }
-}
-async function loadFavorites(){
-  try {
-    const data=await api("/api/library?favorites=1&days=730&limit=200");
-    document.getElementById("favorite-content").innerHTML=data.papers.map(p=>paperCard(p,"收藏")).join("")||'<div class="empty">还没有收藏文章</div>';
-  } catch(e){ toast(e.message,false); }
 }
 
-/* ================= Feed 管理 ================= */
-function newFeed(){ return {name:"", query:"", journals:[], keywords:{terms:[],match:"any",fields:["title","abstract"],exclude:[]}, first_authors:[],last_authors:[],author_match:"any"}; }
-function legacyConditions(f){
-  if(f.conditions) return f.conditions;
-  const out=[];
-  (f.keywords?.terms||[]).forEach((v,i)=>out.push({op:i?'OR':'AND',type:'TS',value:v}));
-  (f.keywords?.exclude||[]).forEach(v=>out.push({op:'NOT',type:'TS',value:v}));
-  (f.first_authors||[]).forEach(v=>out.push({op:'AND',type:'FA',value:v}));
-  (f.last_authors||[]).forEach(v=>out.push({op:'AND',type:'LA',value:v}));
-  return out;
+/* ================= favorites ================= */
+async function renderFavorites(){
+  const box=document.getElementById("tab-favorites");
+  box.innerHTML=`<div class="hero"><h2>${esc(t("favorites"))}</h2></div><div id="fav-body"><div class="empty">…</div></div>`;
+  try{
+    const d=await api("/api/library?favorites=1&days=730&limit=200");
+    document.getElementById("fav-body").innerHTML=d.papers.length?d.papers.map(p=>paperCard(p,"")).join(""):`<div class="empty">${esc(t("favEmpty"))}</div>`;
+  }catch(e){document.getElementById("fav-body").innerHTML=`<div class="empty">${esc(e.message)}</div>`;}
 }
+
+/* ================= feeds ================= */
+const FIELD_TYPES=["TS","TI","AB","AU","FA","LA","SO"];
+function newFeed(){return{name:"",mode:"simple",query:"",journals:[],conditions:[{op:"AND",type:"TS",value:""}]};}
+function fromLegacy(f){
+  if(f.conditions) return f;
+  const c=[];
+  // 关键词默认 OR（命中任一即可）；作者同类型之间也用 OR（一篇文章不可能有两个一作/末作）。
+  (f.keywords?.terms||[]).forEach((v,i)=>c.push({op:i?"OR":"AND",type:"TS",value:v}));
+  (f.keywords?.exclude||[]).forEach(v=>c.push({op:"NOT",type:"TS",value:v}));
+  (f.first_authors||[]).forEach((v,i)=>c.push({op:i?"OR":"AND",type:"FA",value:v}));
+  (f.last_authors||[]).forEach((v,i)=>c.push({op:i?"OR":"AND",type:"LA",value:v}));
+  f.conditions=c.length?c:[{op:"AND",type:"TS",value:""}];
+  f.mode=(f.query&&!c.length)?"advanced":"simple";
+  return f;
+}
+function buildQuery(f){
+  const cs=(f.conditions||[]).filter(c=>c.value.trim());
+  if(!cs.length) return "";
+  let e="";
+  cs.forEach((c,k)=>{
+    const v=c.value.trim();
+    const term=`${c.type}=${/\s/.test(v)?`"${v.replace(/"/g,'\\"')}"`:v}`;
+    if(k===0) e=c.op==="NOT"?`NOT ${term}`:term;
+    else e=c.op==="NOT"?`${e} AND NOT ${term}`:`${e} ${c.op} ${term}`;
+  });
+  return e;
+}
+function typeOptions(sel){return FIELD_TYPES.map(x=>`<option value="${x}" ${x===sel?"selected":""}>${esc(t("t"+x))}</option>`).join("");}
+function opOptions(sel){return["AND","OR","NOT"].map(x=>`<option value="${x}" ${x===sel?"selected":""}>${esc(t("op"+x))}</option>`).join("");}
 function feedCard(f,i){
-  f.conditions=legacyConditions(f);
-  if(!f.query && f.conditions.length) rebuildQuery(f);
-  const selected=(f.journals||[]).map(j=>`<span class="condition-chip">${esc(j)}<button onclick="removeJournal(${i},'${esc(j)}')">×</button></span>`).join("");
-  const jOptions=JOURNALS.filter(j=>!(f.journals||[]).includes(j)).map(j=>`<div class="journal-option" onclick="addJournal(${i},'${esc(j)}')">＋ ${esc(j)}</div>`).join("");
-  const chips=f.conditions.map((c,k)=>`<span class="condition-chip"><b>${esc(c.op)} · ${esc(c.type)}</b>${esc(c.value)}<button onclick="removeCondition(${i},${k})">×</button></span>`).join("");
-  const fCheck = ["title","abstract","fulltext"].map(fd=>{
-    const label = fd==="title"?"标题":fd==="abstract"?"摘要":"全文(PMC)";
-    return `<label><input type="checkbox" class="fsel" data-i="${i}" data-f="${fd}" ${(f.keywords.fields||[]).includes(fd)?"checked":""}> ${label}</label>`;
-  }).join("");
+  fromLegacy(f);
+  const selJ=(f.journals||[]).map(j=>`<span class="chip">${esc(j)}<button onclick="rmJournal(${i},'${esc(j)}')">✕</button></span>`).join("");
+  const optsJ=JOURNALS.filter(j=>!(f.journals||[]).includes(j)).map(j=>`<div class="opt" onclick="addJournal(${i},'${esc(j)}')">＋ ${esc(j)}</div>`).join("");
+  const conds=(f.conditions||[]).map((c,k)=>`
+    <div class="cond">
+      <select class="${k===0?"op-first":""}" onchange="updCond(${i},${k},'op',this.value)">${opOptions(c.op)}</select>
+      <select onchange="updCond(${i},${k},'type',this.value)">${typeOptions(c.type)}</select>
+      <input class="val" type="text" value="${esc(c.value)}" placeholder="${esc(t("condPh"))}" onchange="updCond(${i},${k},'value',this.value)">
+      <button class="icon-btn" onclick="rmCond(${i},${k})">✕</button>
+    </div>`).join("");
   return `<div class="card" data-i="${i}">
-    <div class="fhead">
-      <b>${esc(f.name||"(未命名)")}</b>
-      <div class="actions">
-        <button class="ghost" onclick="moveFeed(${i},-1)">↑</button>
-        <button class="ghost" onclick="moveFeed(${i},1)">↓</button>
-        <button class="danger" onclick="delFeed(${i})">删除</button>
-      </div>
+    <div class="feed-head">
+      <input class="fname" type="text" value="${esc(f.name)}" placeholder="${esc(t("feedName"))}"
+        style="font-size:16px;font-weight:600;max-width:340px" onchange="feeds[${i}].name=this.value">
+      <button class="danger sm" onclick="delFeed(${i})">✕</button>
     </div>
-    <label>Feed 名称</label>
-    <input type="text" class="fname" data-i="${i}" value="${esc(f.name)}" placeholder="例如：突触与学习记忆">
-    <label>筛选条件（点选类型后添加；可组合 AND / OR / NOT）</label>
-    <div class="row">
-      <div style="flex:.45"><select class="condition-op"><option>AND</option><option>OR</option><option>NOT</option></select></div>
-      <div><select class="condition-type"><option value="TS">关键词（标题+摘要）</option><option value="TI">标题关键词</option><option value="AB">摘要关键词</option><option value="AU">作者</option><option value="FA">第一作者</option><option value="LA">最后作者</option></select></div>
-      <div style="flex:2"><input class="condition-value" type="text" placeholder="输入关键词或作者姓名"></div>
-      <div style="flex:0"><button onclick="addCondition(${i})">添加</button></div>
+    <div class="mode-tabs">
+      <button class="${f.mode!=="advanced"?"on":""}" onclick="setMode(${i},'simple')">${esc(t("modeSimple"))}</button>
+      <button class="${f.mode==="advanced"?"on":""}" onclick="setMode(${i},'advanced')">${esc(t("modeAdv"))}</button>
     </div>
-    <div class="condition-list">${chips||'<span class="hint">尚未添加条件</span>'}</div>
-    <label>生成的布尔表达式（可直接编辑，支持括号和嵌套）</label>
-    <textarea class="query-box query" data-i="${i}" placeholder='TS=((optogenetic* OR chemogenetic*) AND memory) AND LA=(Tonegawa OR Buzsaki)'>${esc(f.query||"")}</textarea>
-    <div class="query-help">字段：TS 主题 · TI 标题 · AB 摘要 · FT 全文 · AU 任意作者 · FA 第一作者 · LA 最后作者 · SO 来源<br>
-    运算符：AND / OR / NOT，支持括号、"精确短语"、通配符 *。填写高级表达式后优先使用它；下方简单规则仍可作为期刊白名单。</div>
-    <button class="ghost" style="margin-top:8px" onclick="validateFeedQuery(${i})">检查表达式</button>
-    <label>期刊范围（从列表点击添加；为空 = 全部来源）</label>
-    <div class="selected-journals">${selected||'<span class="hint">全部来源</span>'}</div>
-    <details><summary>选择期刊</summary><div class="journal-picker">${jOptions||'<span class="hint">已选择全部期刊</span>'}</div></details>
-    <details style="margin-top:12px"><summary>兼容旧版简单规则（可选）</summary><div class="row">
-      <div>
-        <label>关键词（每行一个，不区分大小写）</label>
-        <textarea class="terms" data-i="${i}" placeholder="synaptic plasticity&#10;hippocamp">${esc((f.keywords.terms||[]).join("\n"))}</textarea>
-        <div class="radio">
-          <label><input type="radio" class="km" data-i="${i}" name="km${i}" value="any" ${f.keywords.match!=="all"?"checked":""}> 任一命中(OR)</label>
-          <label><input type="radio" class="km" data-i="${i}" name="km${i}" value="all" ${f.keywords.match==="all"?"checked":""}> 全部命中(AND)</label>
-        </div>
-        <label>在哪些字段搜索</label>
-        <div class="checkgroup">${fCheck}</div>
-      </div>
-      <div>
-        <label>排除词（标题/摘要出现即排除）</label>
-        <textarea class="excl" data-i="${i}" placeholder="review">${esc((f.keywords.exclude||[]).join("\n"))}</textarea>
-        <label>第一作者（姓名或姓氏片段，每行一个）</label>
-        <textarea class="fa" data-i="${i}" placeholder="Sakmann">${esc((f.first_authors||[]).join("\n"))}</textarea>
-        <label>最后作者（通讯/资深）</label>
-        <textarea class="la" data-i="${i}" placeholder="Markram">${esc((f.last_authors||[]).join("\n"))}</textarea>
-        <div class="radio">
-          <label><input type="radio" class="am" data-i="${i}" name="am${i}" value="any" ${f.author_match!=="all"?"checked":""}> 任一作者条件</label>
-          <label><input type="radio" class="am" data-i="${i}" name="am${i}" value="all" ${f.author_match==="all"?"checked":""}> 一作+末作都需命中</label>
-        </div>
-      </div>
-    </div></details>
+    <div class="${f.mode==="advanced"?"hidden":""}" style="${f.mode==="advanced"?"display:none":""}">
+      <label>${esc(t("condTitle"))}</label>
+      ${conds}
+      <button class="ghost sm" onclick="addCondRow(${i})">${esc(t("addCond"))}</button>
+      <label>${esc(t("genQuery"))}</label>
+      <div class="qpreview">${esc(buildQuery(f)||"—")}</div>
+    </div>
+    <div style="${f.mode==="advanced"?"":"display:none"}">
+      <label>${esc(t("genQuery"))}</label>
+      <textarea class="qadv" onchange="feeds[${i}].query=this.value" placeholder='TS=((optogenetic* OR chemogenetic*) AND memory) AND LA=(Tonegawa OR Buzsaki)'>${esc(f.query||buildQuery(f))}</textarea>
+      <div class="hint" style="margin-top:6px">${esc(t("advHint"))}</div>
+      <button class="ghost sm" style="margin-top:8px" onclick="validateFeed(${i})">${esc(t("validate"))}</button>
+    </div>
+    <label>${esc(t("jscope"))}</label>
+    <div class="chips">${selJ||`<span class="hint">${esc(t("allSrc"))}</span>`}</div>
+    <details><summary style="cursor:pointer;color:var(--accent);font-size:12.5px">${esc(t("pickJournal"))}</summary>
+      <div class="picker">${optsJ||`<span class="hint">—</span>`}</div>
+    </details>
   </div>`;
 }
 function renderFeeds(){
-  document.getElementById("feed-cards").innerHTML = feeds.map(feedCard).join("");
-  document.getElementById("feed-empty").style.display = feeds.length?"none":"block";
+  const box=document.getElementById("tab-feeds");
+  box.innerHTML=`
+    <div class="hero"><h2>${esc(t("feeds"))}</h2><p>${esc(t("feedIntro"))}</p></div>
+    <div class="card"><b>${esc(t("initTitle"))}</b><p class="hint" style="margin:6px 0 0">${esc(t("initSub"))}</p>
+      <div class="toolbar"><button onclick="syncCatalog()" id="init-btn">${esc(t("initBtn"))}</button></div>
+      <div id="catalog-prog"></div></div>
+    <div class="toolbar">
+      <button onclick="addFeed()">${esc(t("newFeed"))}</button>
+      <button onclick="saveFeeds()">💾 ${esc(t("saveFeeds"))}</button>
+      <button class="ghost" onclick="loadFeeds()">${esc(t("reload"))}</button>
+    </div>
+    <div id="feed-cards"></div>`;
+  if(!feeds.length){loadFeeds();return;}
+  drawFeeds();
 }
-function rebuildQuery(f){
-  const conditions=f.conditions||[];
-  if(!conditions.length){f.query="";return;}
-  let expr="";
-  conditions.forEach((c,k)=>{
-    const term=`${c.type}=${/\s/.test(c.value)?'"'+c.value.replace(/"/g,'\\"')+'"':c.value}`;
-    if(k===0) expr=c.op==='NOT'?`NOT ${term}`:term;
-    else expr=c.op==='NOT'?`${expr} AND NOT ${term}`:`${expr} ${c.op} ${term}`;
-  });
-  f.query=expr;
+function drawFeeds(){
+  document.getElementById("feed-cards").innerHTML=feeds.length?feeds.map(feedCard).join(""):`<div class="empty">${esc(t("feedEmpty"))}</div>`;
 }
-function addCondition(i){
-  const root=document.querySelector(`.card[data-i="${i}"]`), value=root.querySelector('.condition-value').value.trim();
-  if(!value){toast('请输入关键词或作者姓名',false);return;}
-  feeds[i].conditions=legacyConditions(feeds[i]);
-  feeds[i].conditions.push({op:root.querySelector('.condition-op').value,type:root.querySelector('.condition-type').value,value});
-  rebuildQuery(feeds[i]); renderFeeds();
-}
-function removeCondition(i,k){ feeds[i].conditions=legacyConditions(feeds[i]); feeds[i].conditions.splice(k,1); rebuildQuery(feeds[i]); renderFeeds(); }
-function addJournal(i,name){ feeds[i].journals=feeds[i].journals||[]; if(!feeds[i].journals.includes(name)) feeds[i].journals.push(name); renderFeeds(); }
-function removeJournal(i,name){ feeds[i].journals=(feeds[i].journals||[]).filter(j=>j!==name); renderFeeds(); }
 async function loadFeeds(){
-  try {
-    const d = await api("/api/feeds");
-    JOURNALS = d.journals; feeds = d.feeds;
-    feeds.forEach(f=>{ f.conditions=legacyConditions(f); if(!f.query&&f.conditions.length) rebuildQuery(f); });
-    renderFeeds();
-  } catch(e){ toast("加载 Feed 失败："+e.message, false); }
+  try{const d=await api("/api/feeds");JOURNALS=d.journals;feeds=(d.feeds||[]).map(fromLegacy);drawFeeds();}
+  catch(e){toast(e.message,false);}
 }
-function setAllJ(i,on){ document.querySelectorAll(`.jsel[data-i="${i}"]`).forEach(c=>c.checked=on); }
-function collectFeed(i){
-  const root = document.querySelector(`.card[data-i="${i}"]`);
-  const q = s => root.querySelector(s);
-  const split = v => v.value.split(/[\n,，;；]+/).map(x=>x.trim()).filter(Boolean);
-  return {
-    name: q(".fname").value.trim(),
-    query: q(".query").value.trim(),
-    journals: feeds[i].journals||[],
-    keywords: {
-      terms: split(q(".terms")),
-      match: q(".km:checked")?.value || "any",
-      fields: [...root.querySelectorAll(".fsel")].filter(c=>c.checked).map(c=>c.dataset.f),
-      exclude: split(q(".excl")),
-    },
-    first_authors: split(q(".fa")),
-    last_authors: split(q(".la")),
-    author_match: q(".am:checked")?.value || "any",
-  };
+function setMode(i,m){feeds[i].mode=m;if(m==="advanced")feeds[i].query=buildQuery(feeds[i])||feeds[i].query;drawFeeds();}
+function updCond(i,k,field,val){feeds[i].conditions[k][field]=val;
+  const pv=document.querySelector(`.card[data-i="${i}"] .qpreview`);if(pv)pv.textContent=buildQuery(feeds[i])||"—";}
+function addCondRow(i){feeds[i].conditions.push({op:"AND",type:"TS",value:""});drawFeeds();}
+function rmCond(i,k){feeds[i].conditions.splice(k,1);if(!feeds[i].conditions.length)feeds[i].conditions.push({op:"AND",type:"TS",value:""});drawFeeds();}
+function addJournal(i,n){feeds[i].journals=feeds[i].journals||[];if(!feeds[i].journals.includes(n))feeds[i].journals.push(n);drawFeeds();}
+function rmJournal(i,n){feeds[i].journals=(feeds[i].journals||[]).filter(x=>x!==n);drawFeeds();}
+function addFeed(){feeds.push(newFeed());drawFeeds();window.scrollTo(0,document.body.scrollHeight);}
+function delFeed(i){feeds.splice(i,1);drawFeeds();}
+async function validateFeed(i){
+  const q=feeds[i].mode==="advanced"?feeds[i].query:buildQuery(feeds[i]);
+  if(!q){toast("—");return;}
+  try{const r=await api("/api/query/validate",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:q})});toast((r.valid?"✓ ":"✕ ")+r.message,r.valid);}
+  catch(e){toast(e.message,false);}
 }
-async function validateFeedQuery(i){
-  const q=document.querySelector(`.card[data-i="${i}"] .query`).value.trim();
-  if(!q){ toast("表达式为空，将使用下方简单规则"); return; }
-  try { const r=await api("/api/query/validate",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:q})}); toast((r.valid?"✅ ":"❌ ")+r.message,r.valid); }
-  catch(e){ toast(e.message,false); }
-}
-function addFeed(){ feeds.push(newFeed()); renderFeeds(); }
-function delFeed(i){ feeds.splice(i,1); renderFeeds(); }
-function moveFeed(i,d){ const t=feeds.splice(i,1)[0]; feeds.splice(Math.min(Math.max(i+d,0),feeds.length),0,t); renderFeeds(); }
 async function saveFeeds(){
-  try {
-    const data = feeds.map((_,i)=>collectFeed(i));
-    if (!data.every(f=>f.name)) throw new Error("存在未命名 Feed，请填写名称");
-    const r = await api("/api/feeds", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({feeds:data})});
-    toast("✅ "+r.message);
-    await loadFeeds();
-    await refreshState();
-    showTab("dashboard");
-  } catch(e){ toast("❌ 保存失败："+e.message, false); }
+  try{
+    const payload=feeds.map(f=>({name:(f.name||"").trim(),query:f.mode==="advanced"?(f.query||"").trim():buildQuery(f),journals:f.journals||[]}));
+    if(payload.some(f=>!f.name)) throw new Error(LANG==="zh"?"存在未命名 Feed":"A feed is missing a name");
+    const r=await api("/api/feeds",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({feeds:payload})});
+    toast("✓ "+r.message);
+    showTab("discover");
+  }catch(e){toast(e.message,false);}
 }
 async function syncCatalog(){
-  try { const r=await api('/api/catalog/sync',{method:'POST'}); toast(r.message); pollCatalog(); }
-  catch(e){ toast(e.message,false); }
+  try{await api("/api/catalog/sync",{method:"POST"});document.getElementById("init-btn").disabled=true;pollCatalog();}
+  catch(e){toast(e.message,false);}
 }
 async function pollCatalog(){
-  try {
-    const s=await api('/api/catalog/sync');
-    document.getElementById('catalog-status').textContent=`${s.message} ${s.done}/${s.total}${s.journal?' · '+s.journal:''}`;
-    if(s.running) setTimeout(pollCatalog,3000); else { toast('✅ 半年文献库初始化完成'); await refreshState(); }
-  } catch(e){ toast(e.message,false); }
+  try{
+    const s=await api("/api/catalog/sync");
+    const prog=document.getElementById("catalog-prog");
+    if(prog){
+      const pct=s.total?Math.round(s.done/s.total*100):0;
+      prog.innerHTML=`<div class="progress"><i style="width:${pct}%"></i></div>
+        <div class="hint">${esc(s.message||"")} ${s.done}/${s.total}${s.journal?" · "+esc(s.journal):""}</div>`;
+    }
+    if(s.running) setTimeout(pollCatalog,2500);
+    else{const b=document.getElementById("init-btn");if(b)b.disabled=false;}
+  }catch(_){}
 }
 
-/* ================= 期刊管理 ================= */
-async function loadJournals(){
-  try {
-    const d = await api("/api/journals");
-    journals = d.journals; renderJournals();
-  } catch(e){ toast("加载期刊失败："+e.message, false); }
-}
+/* ================= journals ================= */
 function renderJournals(){
-  document.getElementById("journal-grid").innerHTML = journals.map((j,i)=>`
-    <div class="card journal-tile" onclick="openJournal(${i})">
-      <span class="source-pill">${j.source==='biorxiv'?'PREPRINT · NEUROSCIENCE':'JOURNAL'}</span>
+  if(journalDetail!==null){renderJournalDetail(journalDetail);return;}
+  const box=document.getElementById("tab-journals");
+  box.innerHTML=`
+    <div class="hero"><h2>${esc(t("journals"))}</h2><p>${esc(t("jIntro"))}</p></div>
+    <div id="jgrid" class="jgrid"></div>
+    <details style="margin-top:22px"><summary style="cursor:pointer;color:var(--accent)">${esc(t("metaEditor"))}</summary>
+      <div class="toolbar"><button class="ghost" onclick="addJournalRow()">${esc(t("addJournal"))}</button>
+        <button onclick="saveJournals()">💾 ${esc(t("saveJournals"))}</button></div>
+      <div class="card" style="padding:10px 16px;overflow-x:auto"><table id="journal-table">
+        <thead><tr><th>${esc(t("feedName"))}</th><th>print ISSN</th><th>online ISSN</th><th></th></tr></thead>
+        <tbody></tbody></table></div>
+    </details>`;
+  if(!journals.length){loadJournals();return;}
+  drawJournalGrid();
+}
+function drawJournalGrid(){
+  const grid=document.getElementById("jgrid");if(!grid)return;
+  grid.innerHTML=journals.map((j,i)=>{
+    const pre=j.source==="biorxiv";
+    return `<div class="jcard ${pre?"pre":""}" onclick="openJournal(${i})">
+      <span class="pill">${pre?esc(t("preprint")):esc(t("journal"))}</span>
       <h3>${esc(j.name)}</h3>
-      <div class="hint">${esc(j.print||j.online||'bioRxiv API')}</div>
-      <div style="margin-top:10px"><b style="font-size:20px;color:var(--accent)">${j.paper_count||0}</b> <span class="hint">篇已入库</span></div>
-      <div style="margin-top:8px;color:var(--accent);font-size:12px">查看过去半年最新文章 →</div>
-    </div>`).join("");
-  document.querySelector("#journal-table tbody").innerHTML = journals.map((j,i)=>`
-    <tr data-i="${i}">
-      <td><input type="text" class="jname" data-i="${i}" value="${esc(j.name)}" placeholder="期刊名称"></td>
-      <td><input type="text" class="jprint" data-i="${i}" value="${esc(j.print)}" placeholder="print ISSN"></td>
-      <td><input type="text" class="jonline" data-i="${i}" value="${esc(j.online)}" placeholder="online ISSN（可留空）"></td>
-      <td><button class="danger" onclick="delJournal(${i})">删除</button></td>
-    </tr>`).join("");
+      <div class="issn">${esc(j.print||j.online||"bioRxiv API")}</div>
+      <div class="count"><b>${j.paper_count||0}</b> ${esc(t("inLib"))}</div>
+      <div style="margin-top:6px;color:var(--accent);font-size:12px">${esc(t("viewLatest"))}</div>
+    </div>`;}).join("");
+  const tb=document.querySelector("#journal-table tbody");
+  if(tb)tb.innerHTML=journals.map((j,i)=>`<tr data-i="${i}">
+    <td><input class="jn" value="${esc(j.name)}" onchange="journals[${i}].name=this.value"></td>
+    <td><input class="jp" value="${esc(j.print)}" onchange="journals[${i}].print=this.value"></td>
+    <td><input class="jo" value="${esc(j.online)}" onchange="journals[${i}].online=this.value"></td>
+    <td><button class="danger sm" onclick="delJournal(${i})">✕</button></td></tr>`).join("");
 }
-async function openJournal(i){
-  const j=journals[i], detail=document.getElementById("journal-detail");
-  detail.style.display="block";
-  detail.innerHTML=`<div class="hero"><h2>${esc(j.name)}</h2><p>过去半年文献库。首次打开请同步，之后每次刷新只需加载新增文章。</p></div>
-    <div class="toolbar"><button onclick="syncJournal(${i})">同步过去半年</button><button class="ghost" onclick="loadJournalPapers(${i})">刷新列表</button><button class="ghost" onclick="closeJournal()">返回期刊库</button></div>
-    <div id="journal-papers"><div class="empty">正在读取本地文献库…</div></div>`;
-  document.getElementById("journal-grid").style.display="none";
-  await loadJournalPapers(i);
+async function loadJournals(){
+  try{const d=await api("/api/journals");journals=d.journals;drawJournalGrid();}
+  catch(e){toast(e.message,false);}
 }
-function closeJournal(){ document.getElementById("journal-detail").style.display="none"; document.getElementById("journal-grid").style.display="grid"; }
+function addJournalRow(){journals.push({name:"",print:"",online:"",source:"crossref",category:""});drawJournalGrid();}
+function delJournal(i){journals.splice(i,1);drawJournalGrid();}
+async function saveJournals(){
+  try{const r=await api("/api/journals",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({journals})});
+    toast("✓ "+r.message);await loadJournals();}
+  catch(e){toast(e.message,false);}
+}
+async function openJournal(i){journalDetail=i;renderJournalDetail(i);}
+async function renderJournalDetail(i){
+  const j=journals[i];
+  const box=document.getElementById("tab-journals");
+  box.innerHTML=`
+    <div class="backbar"><button class="ghost" onclick="backToJournals()">${esc(t("backJournals"))}</button></div>
+    <div class="hero"><h2>${esc(j.name)}</h2><p>${esc(t("jDetailSub"))}</p></div>
+    <div class="toolbar">
+      <button onclick="syncJournal(${i})" id="jsync-btn">${esc(t("syncHalf"))}</button>
+      <button class="ghost" onclick="loadJournalPapers(${i})">${esc(t("refreshList"))}</button>
+      <span class="hint" id="jsync-msg"></span>
+    </div>
+    <div id="journal-papers"><div class="empty">…</div></div>`;
+  loadJournalPapers(i);
+}
+function backToJournals(){journalDetail=null;renderJournals();drawJournalGrid();}
 async function loadJournalPapers(i){
-  try { const d=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/papers`); document.getElementById("journal-papers").innerHTML=d.papers.map(p=>paperCard(p,journals[i].name)).join("")||'<div class="empty">本地还没有文章，请点击「同步过去半年」</div>'; }
-  catch(e){ toast(e.message,false); }
+  try{const d=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/papers`);
+    const el=document.getElementById("journal-papers");if(!el)return;
+    el.innerHTML=d.papers.length?d.papers.map(p=>paperCard(p,journals[i].name)).join(""):`<div class="empty">${esc(t("noLocal"))}</div>`;}
+  catch(e){toast(e.message,false);}
 }
 async function syncJournal(i){
-  toast("正在同步，首次回填半年数据可能需要 1-3 分钟…");
-  try { const r=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`,{method:"POST"}); toast("✅ "+r.message); pollJournalSync(i); }
-  catch(e){ toast("同步失败："+e.message,false); }
+  const btn=document.getElementById("jsync-btn");if(btn)btn.disabled=true;
+  try{await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`,{method:"POST"});pollJournalSync(i);}
+  catch(e){toast(e.message,false);if(btn)btn.disabled=false;}
 }
 async function pollJournalSync(i){
-  try {
-    const s=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`);
-    toast(s.message || s.last_sync?.message || "正在同步…");
-    if(s.running) setTimeout(()=>pollJournalSync(i),3000);
-    else await loadJournalPapers(i);
-  } catch(e){ toast(e.message,false); }
-}
-function addJournalRow(){ journals.push({name:"",print:"",online:"",source:"crossref",category:""}); renderJournals(); }
-function delJournal(i){ journals.splice(i,1); renderJournals(); }
-async function saveJournals(){
-  try {
-    const data = journals.map((_,i)=>{
-      const root = document.querySelector(`#journal-table tr[data-i="${i}"]`);
-      return {name: root.querySelector(".jname").value.trim(), print: root.querySelector(".jprint").value.trim(), online: root.querySelector(".jonline").value.trim(), source:journals[i].source||"crossref", category:journals[i].category||""};
-    });
-    const r = await api("/api/journals", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({journals:data})});
-    toast("✅ "+r.message);
-    await loadJournals(); await loadFeeds();
-  } catch(e){ toast("❌ 保存失败："+e.message, false); }
+  try{const s=await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`);
+    const m=document.getElementById("jsync-msg");if(m)m.textContent=s.message||s.last_sync?.message||"";
+    if(s.running)setTimeout(()=>pollJournalSync(i),2500);
+    else{const b=document.getElementById("jsync-btn");if(b)b.disabled=false;await loadJournalPapers(i);await loadJournals();}}
+  catch(_){}
 }
 
-/* ================= 设置 ================= */
+/* ================= settings ================= */
+function renderSettings(){
+  const box=document.getElementById("tab-settings");
+  box.innerHTML=`
+    <div class="hero"><h2>${esc(t("settings"))}</h2></div>
+    <div class="card"><h2 style="font-size:16px;margin-bottom:4px">${esc(t("setWechat"))}</h2>
+      <label>${esc(t("sendkey"))} · <a href="https://sct.ftqq.com" target="_blank">Server酱</a></label>
+      <input type="password" id="set-sendkey" placeholder="SCTxxxx">
+      <label class="switch" style="margin-top:12px"><input type="checkbox" id="set-push"> ${esc(t("enableWechat"))}</label>
+      <div class="row" style="margin-top:6px">
+        <div><label>${esc(t("maxDay"))}</label><input type="number" id="set-maxday" min="1"></div>
+        <div><label>${esc(t("titlePrefix"))}</label><input type="text" id="set-prefix"></div>
+      </div></div>
+    <div class="card"><h2 style="font-size:16px;margin-bottom:8px">${esc(t("setZotero"))}</h2>
+      <label class="switch"><input type="checkbox" id="set-zo"> ${esc(t("enableZotero"))}</label>
+      <div class="row" style="margin-top:6px">
+        <div><label>${esc(t("apiKey"))} · <a href="https://www.zotero.org/settings/keys" target="_blank">↗</a></label><input type="password" id="set-zokey"></div>
+        <div><label>${esc(t("userId"))}</label><input type="number" id="set-zouid"></div>
+      </div>
+      <div class="row"><div><label>${esc(t("collKey"))}</label><input type="text" id="set-zocoll"></div>
+        <div><label>&nbsp;</label><label class="switch"><input type="checkbox" id="set-zofeed"> ${esc(t("feedColl"))}</label></div></div></div>
+    <div class="card"><h2 style="font-size:16px;margin-bottom:8px">${esc(t("setFetch"))}</h2>
+      <div class="row"><div><label>${esc(t("lookback"))}</label><input type="number" id="set-look" min="1"></div>
+        <div><label>${esc(t("maxFeed"))}</label><input type="number" id="set-maxfeed" min="1"></div></div>
+      <div class="row"><div><label>${esc(t("mailto"))}</label><input type="text" id="set-mail" placeholder="you@example.com"></div>
+        <div><label>${esc(t("excludePrefix"))}</label><input type="text" id="set-excl"></div></div></div>
+    <button onclick="saveSettings()">💾 ${esc(t("saveSettings"))}</button>`;
+  loadSettings();
+}
 async function loadSettings(){
-  try {
-    const s = await api("/api/settings");
-    document.getElementById("set-sendkey").value = s.wechat.sendkey||"";
-    document.getElementById("set-push-enabled").checked = s.wechat.enabled!==false;
-    document.getElementById("set-max-day").value = s.wechat.max_papers_per_day||20;
-    document.getElementById("set-title-prefix").value = s.wechat.title_prefix||"📚 文献速递";
-    document.getElementById("set-zotero-enabled").checked = !!s.zotero.enabled;
-    document.getElementById("set-zotero-key").value = s.zotero.api_key||"";
-    document.getElementById("set-zotero-uid").value = s.zotero.user_id||"";
-    document.getElementById("set-zotero-coll").value = s.zotero.collection_key||"";
-    document.getElementById("set-zotero-feedcoll").checked = !!s.zotero.use_feed_collection;
-    document.getElementById("set-lookback").value = s.lookback_days||2;
-    document.getElementById("set-max-feed").value = s.max_papers_per_feed||25;
-    document.getElementById("set-mailto").value = s.crossref_mailto||"";
-    document.getElementById("set-exclude").value = (s.exclude_doi_prefixes||[]).join(",");
-  } catch(e){ toast("加载设置失败："+e.message, false); }
+  try{const s=await api("/api/settings");
+    const set=(id,v)=>{const el=document.getElementById(id);if(el){if(el.type==="checkbox")el.checked=!!v;else el.value=v??"";}};
+    set("set-sendkey",s.wechat.sendkey);set("set-push",s.wechat.enabled!==false);
+    set("set-maxday",s.wechat.max_papers_per_day||20);set("set-prefix",s.wechat.title_prefix||"");
+    set("set-zo",s.zotero.enabled);set("set-zokey",s.zotero.api_key);set("set-zouid",s.zotero.user_id||"");
+    set("set-zocoll",s.zotero.collection_key);set("set-zofeed",s.zotero.use_feed_collection);
+    set("set-look",s.lookback_days||2);set("set-maxfeed",s.max_papers_per_feed||25);
+    set("set-mail",s.crossref_mailto);set("set-excl",(s.exclude_doi_prefixes||[]).join(","));
+  }catch(e){toast(e.message,false);}
 }
 async function saveSettings(){
-  try {
-    const payload = {
-      lookback_days: +document.getElementById("set-lookback").value,
-      max_papers_per_feed: +document.getElementById("set-max-feed").value,
-      crossref_mailto: document.getElementById("set-mailto").value.trim(),
-      exclude_doi_prefixes: document.getElementById("set-exclude").value.split(/[,，]+/).map(x=>x.trim()).filter(Boolean),
-      wechat: {
-        enabled: document.getElementById("set-push-enabled").checked,
-        sendkey: document.getElementById("set-sendkey").value.trim(),
-        max_papers_per_day: +document.getElementById("set-max-day").value,
-        title_prefix: document.getElementById("set-title-prefix").value.trim(),
-      },
-      zotero: {
-        enabled: document.getElementById("set-zotero-enabled").checked,
-        api_key: document.getElementById("set-zotero-key").value.trim(),
-        user_id: +document.getElementById("set-zotero-uid").value,
-        collection_key: document.getElementById("set-zotero-coll").value.trim(),
-        use_feed_collection: document.getElementById("set-zotero-feedcoll").checked,
-      },
-    };
-    const r = await api("/api/settings", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload)});
-    toast("✅ "+r.message);
-  } catch(e){ toast("❌ 保存失败："+e.message, false); }
+  const g=id=>document.getElementById(id);
+  try{
+    const payload={lookback_days:+g("set-look").value,max_papers_per_feed:+g("set-maxfeed").value,
+      crossref_mailto:g("set-mail").value.trim(),
+      exclude_doi_prefixes:g("set-excl").value.split(/[,，]+/).map(x=>x.trim()).filter(Boolean),
+      wechat:{enabled:g("set-push").checked,sendkey:g("set-sendkey").value.trim(),
+        max_papers_per_day:+g("set-maxday").value,title_prefix:g("set-prefix").value.trim()},
+      zotero:{enabled:g("set-zo").checked,api_key:g("set-zokey").value.trim(),user_id:+g("set-zouid").value,
+        collection_key:g("set-zocoll").value.trim(),use_feed_collection:g("set-zofeed").checked}};
+    const r=await api("/api/settings",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+    toast("✓ "+r.message);
+  }catch(e){toast(e.message,false);}
 }
 
-/* ================= 运行 ================= */
-async function startRun(){
-  const btn = document.getElementById("btn-run");
-  btn.disabled = true;
-  try {
-    const r = await api("/api/run", {method:"POST"});
-    toast("✅ "+r.message);
-    document.getElementById("logbox").innerHTML = "";
-    LOG_CURSOR = 0;
-    pollState();
-  } catch(e){ toast("❌ "+e.message, false); btn.disabled=false; }
+/* ================= run ================= */
+function renderRun(){
+  const box=document.getElementById("tab-run");
+  box.innerHTML=`
+    <div class="hero"><h2>${esc(t("runTitle"))}</h2><p>${esc(t("runSub"))}</p></div>
+    <div class="card"><div class="toolbar" style="margin:0">
+      <button id="btn-run" onclick="startRun()">${esc(t("runNow"))}</button>
+      <span class="hint" id="run-status"></span></div></div>
+    <div class="card"><h2 style="font-size:16px">${esc(t("logTitle"))} <span class="cnt" id="log-count"></span></h2>
+      <div class="logbox" id="logbox"></div></div>
+    <div class="card"><h2 style="font-size:16px;margin-bottom:8px">${esc(t("historyTitle"))}</h2>
+      <div style="overflow-x:auto"><table id="history-table"><thead><tr>
+        <th>${esc(t("hTime"))}</th><th>${esc(t("hSource"))}</th><th>${esc(t("hFetch"))}</th>
+        <th>${esc(t("hNew"))}</th><th>${esc(t("hHit"))}</th><th>${esc(t("hPush"))}</th></tr></thead><tbody></tbody></table></div></div>`;
+  LOG_CURSOR=0;pollState();startLogPoll();
 }
-let pollTimer = null;
+async function startRun(){
+  const btn=document.getElementById("btn-run");if(btn)btn.disabled=true;
+  try{const r=await api("/api/run",{method:"POST"});toast("✓ "+r.message);
+    const lb=document.getElementById("logbox");if(lb)lb.textContent="";LOG_CURSOR=0;pollState();}
+  catch(e){toast(e.message,false);if(btn)btn.disabled=false;}
+}
+let pollTimer=null;
 function pollState(){
   clearTimeout(pollTimer);
   fetch("/api/state").then(r=>r.json()).then(s=>{
-    const el = document.getElementById("run-status");
-    el.innerHTML = s.running
-      ? `<span class="running-dot"></span>运行中…（${esc(s.source)}，${esc(s.started_at)}）`
-      : "空闲";
-    document.getElementById("btn-run").disabled = s.running;
-    if (!s.running) { refreshState(); renderHistory(s.history); }
+    const el=document.getElementById("run-status");
+    if(el)el.innerHTML=s.running?`<span class="dot"></span>${esc(t("running"))}`:esc(t("idle"));
+    const btn=document.getElementById("btn-run");if(btn)btn.disabled=s.running;
+    if(!s.running) renderHistory(s.history);
   }).catch(()=>{});
-  pollTimer = setTimeout(pollState, 3000);
+  if(CUR_TAB==="run") pollTimer=setTimeout(pollState,3000);
 }
-let logTimer = null;
+let logTimer=null;
 function startLogPoll(){
   clearTimeout(logTimer);
   fetch("/api/logs?since="+LOG_CURSOR).then(r=>r.json()).then(d=>{
-    const box = document.getElementById("logbox");
-    if (d.logs.length) {
-      box.appendChild(document.createTextNode(d.logs.join("\n")+"\n"));
-      box.scrollTop = box.scrollHeight;
-      LOG_CURSOR = d.total;
-      document.getElementById("log-count").textContent = `（${d.total} 行）`;
-    }
+    const box=document.getElementById("logbox");
+    if(box&&d.logs&&d.logs.length){box.appendChild(document.createTextNode(d.logs.join("\n")+"\n"));
+      box.scrollTop=box.scrollHeight;LOG_CURSOR=d.total;
+      const c=document.getElementById("log-count");if(c)c.textContent=`(${d.total})`;}
   }).catch(()=>{});
-  logTimer = setTimeout(startLogPoll, 2000);
+  if(CUR_TAB==="run") logTimer=setTimeout(startLogPoll,2000);
 }
 function renderHistory(h){
-  document.querySelector("#history-table tbody").innerHTML = (h||[]).map(r=>`
-    <tr>
-      <td>${esc(r.started_at)}</td>
-      <td>${esc(r.source)}</td>
-      <td>${r.fetched}</td>
-      <td>${r.new}</td>
-      <td>${Object.entries(r.feed_counts||{}).map(([k,v])=>`${esc(k)}:${v}`).join("  ")||"—"}</td>
-      <td>${r.ok?"✅":"❌"}</td>
-    </tr>`).join("") || `<tr><td colspan="6" class="empty">暂无记录</td></tr>`;
+  const tb=document.querySelector("#history-table tbody");if(!tb)return;
+  tb.innerHTML=(h||[]).map(r=>`<tr><td>${esc((r.started_at||"").replace("T"," "))}</td><td>${esc(r.source||"")}</td>
+    <td>${r.fetched??0}</td><td>${r.new??0}</td>
+    <td>${Object.entries(r.feed_counts||{}).map(([k,v])=>esc(k)+":"+v).join("  ")||"—"}</td>
+    <td>${r.ok?"✓":"✕"}</td></tr>`).join("")||`<tr><td colspan="6" class="empty">—</td></tr>`;
 }
 
-/* ================= Zotero ================= */
-async function zoteroAdd(doi, feed){
-  try {
-    const r = await api("/api/zotero/add", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({doi, feed})});
-    toast("✅ "+r.message);
-  } catch(e){ toast("❌ "+e.message, false); }
-}
-
-refreshState();
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(()=>{});
+/* ================= boot ================= */
+renderNav();
+showTab("discover");
+if("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(()=>{});
 </script>
 </body>
 </html>

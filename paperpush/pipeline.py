@@ -219,7 +219,7 @@ def run_once(
             _paper_to_dict(p, m, p.doi.lower() in new_dois) for p, m in feed_results[name]
         ]
     reactions = library.reaction_map(
-        item["key"] for items in result["details"].values() for item in items
+        item.get("key", "") for items in result["details"].values() for item in items
     )
     for items in result["details"].values():
         for item in items:

@@ -447,6 +447,39 @@ def api_journal_papers(name: str):
         library.close()
 
 
+def _sync_one_journal(name: str, spec: dict, library: Library, settings, *,
+                      enrich: bool = True, progress=None) -> int:
+    """同步单个期刊过去半年文献到 library，返回入库数量。progress(msg) 可选。"""
+    since = datetime.now().date() - timedelta(days=180)
+    if spec.get("source") == "biorxiv":
+        if progress:
+            progress("正在分页下载 bioRxiv neuroscience 半年数据…")
+        papers = biorxiv.fetch(
+            since, datetime.now().date(), spec.get("category", "neuroscience"),
+            max_pages=60, journal_name=name, max_records=10000,
+        )
+        source = "biorxiv"
+    else:
+        if progress:
+            progress(f"正在回填 {name} 的 Crossref 数据…")
+        papers = crossref.fetch_journal(
+            name, [spec.get("print", ""), spec.get("online", "")], since,
+            settings.crossref_mailto, max_pages=10,
+            excluded_doi_prefixes=settings.exclude_doi_prefixes or None,
+        )
+        if enrich and papers:
+            if progress:
+                progress(f"正在为 {name} 补全摘要（PubMed）…")
+            try:
+                pubmed.enrich_abstracts(papers)
+            except Exception:  # noqa: BLE001
+                pass
+        source = "crossref"
+    library.upsert(papers, source=source, category=spec.get("category", ""))
+    library.mark_sync(name, since.isoformat(), len(papers), "ok", f"已同步 {len(papers)} 篇（过去半年）")
+    return len(papers)
+
+
 @app.post("/api/journals/<path:name>/sync")
 def api_sync_journal(name: str):
     journals = (_read_yaml(JOURNALS_PATH).get("journals") or {})
@@ -464,33 +497,12 @@ def api_sync_journal(name: str):
         library = Library(LIBRARY_DB)
         library.mark_sync(name, since.isoformat(), 0, "running", "正在回填过去半年")
         try:
-            if spec.get("source") == "biorxiv":
-                SYNC_STATE["message"] = "正在分页下载 bioRxiv neuroscience 半年数据…"
-                papers = biorxiv.fetch(
-                    since, datetime.now().date(), spec.get("category", "neuroscience"),
-                    max_pages=60, journal_name=name, max_records=10000,
-                )
-                source = "biorxiv"
-            else:
-                SYNC_STATE["message"] = f"正在回填 {name} 的 Crossref 数据…"
-                papers = crossref.fetch_journal(
-                    name, [spec.get("print", ""), spec.get("online", "")], since,
-                    settings.crossref_mailto, max_pages=10,
-                    excluded_doi_prefixes=settings.exclude_doi_prefixes or None,
-                )
-                try:
-                    pubmed.enrich_abstracts(papers)
-                except Exception:  # noqa: BLE001
-                    pass
-                source = "crossref"
-            library.upsert(papers, source=source, category=spec.get("category", ""))
-            message = f"已同步 {len(papers)} 篇（过去半年）"
-            library.mark_sync(name, since.isoformat(), len(papers), "ok", message)
-            SYNC_STATE["message"] = message
+            count = _sync_one_journal(name, spec, library, settings,
+                                      progress=lambda m: SYNC_STATE.update({"message": m}))
+            SYNC_STATE["message"] = f"已同步 {count} 篇（过去半年）"
         except Exception as exc:  # noqa: BLE001
-            message = str(exc)
-            library.mark_sync(name, since.isoformat(), 0, "error", message)
-            SYNC_STATE["message"] = message
+            library.mark_sync(name, since.isoformat(), 0, "error", str(exc))
+            SYNC_STATE["message"] = str(exc)
             log.exception("期刊同步失败：%s", name)
         finally:
             library.close()
@@ -525,29 +537,16 @@ def api_sync_catalog():
 
     def worker():
         settings = load_settings(CONFIG_DIR)
-        since = datetime.now().date() - timedelta(days=180)
         library = Library(LIBRARY_DB)
         try:
             for name, spec in journals.items():
                 CATALOG_STATE["journal"] = name
                 CATALOG_STATE["message"] = f"正在同步 {name}"
                 try:
-                    if spec.get("source") == "biorxiv":
-                        papers = biorxiv.fetch(
-                            since, datetime.now().date(), spec.get("category", "neuroscience"),
-                            max_pages=60, journal_name=name, max_records=10000,
-                        )
-                        source = "biorxiv"
-                    else:
-                        papers = crossref.fetch_journal(
-                            name, [spec.get("print", ""), spec.get("online", "")], since,
-                            settings.crossref_mailto, max_pages=10,
-                            excluded_doi_prefixes=settings.exclude_doi_prefixes or None,
-                        )
-                        source = "crossref"
-                    library.upsert(papers, source=source, category=spec.get("category", ""))
-                    library.mark_sync(name, since.isoformat(), len(papers), "ok", f"已同步 {len(papers)} 篇")
+                    _sync_one_journal(name, spec, library, settings, enrich=True,
+                                      progress=lambda m: CATALOG_STATE.update({"message": m}))
                 except Exception as exc:  # noqa: BLE001
+                    since = datetime.now().date() - timedelta(days=180)
                     library.mark_sync(name, since.isoformat(), 0, "error", str(exc))
                     log.warning("初始化期刊失败 %s: %s", name, exc)
                 CATALOG_STATE["done"] += 1
