@@ -466,9 +466,12 @@ def _sync_one_journal(name: str, spec: dict, library: Library, settings, *,
     if spec.get("source") == "biorxiv":
         if progress:
             progress(f"正在分页下载 bioRxiv neuroscience 数据（自 {since.isoformat()}）…")
+        # bioRxiv 每页仅 30 条且响应较慢（每页 2-8s），全量半年需十几分钟。
+        # 批量初始化时只取最近约 300 篇保证整体速度；用户可在 bioRxiv 期刊页用起始日期做完整回填。
+        cap = 300 if enrich_limit else 20000
         papers = biorxiv.fetch(
             since, datetime.now().date(), spec.get("category", "neuroscience"),
-            max_pages=max(60, since_days // 3), journal_name=name, max_records=20000,
+            max_pages=max(60, since_days // 3), journal_name=name, max_records=cap,
         )
         source = "biorxiv"
     else:

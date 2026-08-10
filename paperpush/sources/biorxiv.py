@@ -51,8 +51,7 @@ def fetch(since: date, until: date, category: str = "neuroscience", max_pages: i
             if not collection:
                 break
             for item in collection:
-                if category and str(item.get("category", "")).casefold() != category.replace("_", " ").casefold():
-                    continue
+                # 服务端已按 ?category 过滤，此处不再二次过滤（避免误伤大小写/标点差异）
                 doi = str(item.get("doi", ""))
                 paper = Paper(
                     doi=doi, title=str(item.get("title", "")), journal=journal_name,
