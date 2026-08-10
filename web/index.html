@@ -64,6 +64,14 @@ main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
   padding:20px;margin:14px 0;box-shadow:var(--shadow)}
 .section-title{display:flex;align-items:baseline;gap:10px;margin:26px 0 8px}
 .section-title h2{font-size:19px}
+.subtabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:8px;scrollbar-width:none}
+.subtabs::-webkit-scrollbar{display:none}
+.subtab{flex:0 0 auto;background:var(--surface);border:1px solid var(--line);color:var(--muted);
+  border-radius:999px;padding:8px 16px;font-size:13.5px;font-weight:600;cursor:pointer;white-space:nowrap}
+.subtab:hover{border-color:var(--accent);color:var(--accent)}
+.subtab.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.subtab .sc{background:rgba(255,255,255,.25);border-radius:20px;padding:1px 7px;font-size:11px;margin-left:4px}
+.subtab:not(.on) .sc{background:var(--accent-soft);color:var(--accent-ink)}
 .section-title .cnt{color:var(--muted);font-size:13px}
 
 .paper{background:var(--surface);border:1px solid var(--line);border-radius:14px;
@@ -231,8 +239,9 @@ const I18N = {
     favEmpty:"还没有收藏。在任意文章上点 ♡ 即可收藏。",
     newFeed:"＋ 新建 Feed", saveFeeds:"保存全部", reload:"重新加载", feedEmpty:"还没有 Feed，点击「＋ 新建 Feed」开始。",
     feedIntro:"每个 Feed 是一组筛选条件。点选类型（关键词 / 作者）与逻辑（并 / 或 / 非）即可组合，无需手写表达式。",
-    initTitle:"半年文献库", initSub:"Feed 会在本地半年文献库中匹配。首次使用请一次性初始化全部来源（后台运行，可离开本页）。",
-    initBtn:"初始化全部来源（过去半年）", feedName:"Feed 名称",
+    initTitle:"初始化 / 更新文献库", initSub:"Feed 会在本地文献库中匹配。选择起始日期后一次性抓取全部来源（后台运行，可离开本页）。留空默认过去半年。",
+    initBtn:"抓取全部来源", feedName:"Feed 名称",
+    allArticles:"全部文章", preprintTab:"预印本", sinceDate:"起始日期", syncBtn:"抓取",
     condTitle:"筛选条件", addCond:"＋ 添加条件", modeSimple:"可视化", modeAdv:"高级表达式",
     genQuery:"生成的检索式", advHint:"字段：TS 主题 · TI 标题 · AB 摘要 · AU 作者 · FA 一作 · LA 末作 · SO 来源。支持 AND/OR/NOT、括号、\"短语\"、通配符 *。",
     jscope:"期刊范围（留空 = 全部来源）", allSrc:"全部来源", pickJournal:"添加期刊", validate:"检查检索式",
@@ -269,8 +278,9 @@ const I18N = {
     favEmpty:"No saved papers yet. Tap ♡ on any paper to save it.",
     newFeed:"＋ New Feed", saveFeeds:"Save all", reload:"Reload", feedEmpty:"No feeds yet. Click \u201c＋ New Feed\u201d to start.",
     feedIntro:"Each feed is a set of filters. Pick a type (keyword / author) and logic (AND / OR / NOT) \u2014 no need to write expressions.",
-    initTitle:"Six-month library", initSub:"Feeds match against a local 6-month library. Initialize all sources once (runs in background).",
-    initBtn:"Initialize all sources (last 6 months)", feedName:"Feed name",
+    initTitle:"Initialize / update library", initSub:"Feeds match against the local library. Pick a start date, then fetch all sources (runs in background). Empty = last 6 months.",
+    initBtn:"Fetch all sources", feedName:"Feed name",
+    allArticles:"All articles", preprintTab:"Preprints", sinceDate:"Since date", syncBtn:"Fetch",
     condTitle:"Filters", addCond:"＋ Add condition", modeSimple:"Visual", modeAdv:"Advanced",
     genQuery:"Generated query", advHint:"Fields: TS topic · TI title · AB abstract · AU author · FA first · LA last · SO source. Supports AND/OR/NOT, parentheses, \"phrase\", wildcard *.",
     jscope:"Journal scope (empty = all sources)", allSrc:"All sources", pickJournal:"Add journal", validate:"Validate query",
@@ -393,31 +403,46 @@ async function zoteroAdd(doi,feed){
 }
 
 /* ================= discover ================= */
+let DISC_RESULTS=null, DISC_SUB="__all__";
 async function renderDiscover(){
   const box=document.getElementById("tab-discover");
   box.innerHTML=`<div class="hero"><h2>${esc(t("heroTitle"))}</h2><p>${esc(t("heroSub"))}</p>
     <div class="mini" id="hero-mini"></div></div>
-    <div id="disc-status"></div><div id="disc-body"><div class="empty">…</div></div>`;
-  let results=null;
-  try{results=await api("/api/feeds/results");}catch(_){}
-  const total=results?.library_total||0;
+    <div class="subtabs" id="disc-subtabs"></div>
+    <div id="disc-body"><div class="empty">…</div></div>`;
+  try{DISC_RESULTS=await api("/api/feeds/results");}catch(_){DISC_RESULTS={details:{},feeds:{},library_total:0};}
+  const total=DISC_RESULTS.library_total||0;
   document.getElementById("hero-mini").innerHTML=
     `<div><b>${total}</b>${esc(t("library"))}</div>`+
-    Object.entries(results?.feeds||{}).slice(0,3).map(([k,v])=>`<div><b>${v}</b>${esc(k)}</div>`).join("");
-  const details=results?.details||{};
-  const feedKeys=Object.keys(details);
-  const body=document.getElementById("disc-body");
-  if(feedKeys.length){
-    body.innerHTML=feedKeys.map(fn=>`
-      <div class="section-title"><h2>${esc(fn)}</h2><span class="cnt">${details[fn].length} ${esc(t("feedHits"))}</span></div>
-      ${details[fn].length?details[fn].map(p=>paperCard(p,fn)).join(""):`<div class="empty">${esc(t("empty2"))}</div>`}`).join("");
-  }else{
-    try{
-      const rec=await api("/api/discover");
-      body.innerHTML=`<div class="section-title"><h2>${esc(t("latest"))}</h2></div>`+
-        (rec.papers.length?rec.papers.map(p=>paperCard(p,"")).join(""):`<div class="empty">${esc(t("noRun"))}</div>`);
-    }catch(e){body.innerHTML=`<div class="empty">${esc(t("noRun"))}</div>`;}
-  }
+    Object.entries(DISC_RESULTS.feeds||{}).slice(0,3).map(([k,v])=>`<div><b>${v}</b>${esc(k)}</div>`).join("");
+  const feedKeys=Object.keys(DISC_RESULTS.details||{});
+  if(!feedKeys.includes(DISC_SUB) && DISC_SUB!=="__all__" && DISC_SUB!=="__preprint__") DISC_SUB="__all__";
+  // 子标签：全部文章 · 各 Feed · 预印本
+  const tabs=[{id:"__all__",label:t("allArticles")}]
+    .concat(feedKeys.map(k=>({id:k,label:k,count:DISC_RESULTS.details[k].length})))
+    .concat([{id:"__preprint__",label:t("preprintTab")}]);
+  document.getElementById("disc-subtabs").innerHTML=tabs.map(x=>
+    `<button class="subtab ${x.id===DISC_SUB?"on":""}" onclick="pickDisc('${esc(x.id)}')">${esc(x.label)}${x.count!=null?` <span class="sc">${x.count}</span>`:""}</button>`).join("");
+  await renderDiscBody();
+}
+async function pickDisc(id){DISC_SUB=id;
+  document.querySelectorAll("#disc-subtabs .subtab").forEach(b=>b.classList.toggle("on",b.getAttribute("onclick").includes("'"+id+"'")));
+  await renderDiscBody();}
+async function renderDiscBody(){
+  const body=document.getElementById("disc-body");if(!body)return;
+  body.innerHTML=`<div class="empty">…</div>`;
+  try{
+    if(DISC_SUB==="__all__"){
+      const r=await api("/api/discover?scope=all&days=180");
+      body.innerHTML=r.papers.length?r.papers.map(p=>paperCard(p,"")).join(""):`<div class="empty">${esc(t("noRun"))}</div>`;
+    }else if(DISC_SUB==="__preprint__"){
+      const r=await api("/api/discover?scope=preprint&days=180");
+      body.innerHTML=r.papers.length?r.papers.map(p=>paperCard(p,"")).join(""):`<div class="empty">${esc(t("noRun"))}</div>`;
+    }else{
+      const items=(DISC_RESULTS.details||{})[DISC_SUB]||[];
+      body.innerHTML=items.length?items.map(p=>paperCard(p,DISC_SUB)).join(""):`<div class="empty">${esc(t("empty2"))}</div>`;
+    }
+  }catch(e){body.innerHTML=`<div class="empty">${esc(e.message)}</div>`;}
 }
 
 /* ================= favorites ================= */
@@ -504,9 +529,6 @@ function renderFeeds(){
   const box=document.getElementById("tab-feeds");
   box.innerHTML=`
     <div class="hero"><h2>${esc(t("feeds"))}</h2><p>${esc(t("feedIntro"))}</p></div>
-    <div class="card"><b>${esc(t("initTitle"))}</b><p class="hint" style="margin:6px 0 0">${esc(t("initSub"))}</p>
-      <div class="toolbar"><button onclick="syncCatalog()" id="init-btn">${esc(t("initBtn"))}</button></div>
-      <div id="catalog-prog"></div></div>
     <div class="toolbar">
       <button onclick="addFeed()">${esc(t("newFeed"))}</button>
       <button onclick="saveFeeds()">💾 ${esc(t("saveFeeds"))}</button>
@@ -548,7 +570,10 @@ async function saveFeeds(){
   }catch(e){toast(e.message,false);}
 }
 async function syncCatalog(){
-  try{await api("/api/catalog/sync",{method:"POST"});document.getElementById("init-btn").disabled=true;pollCatalog();}
+  const inp=document.getElementById("init-since");
+  const body=inp&&inp.value?{since_date:inp.value}:{since_days:180};
+  try{await api("/api/catalog/sync",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+    const b=document.getElementById("init-btn");if(b)b.disabled=true;pollCatalog();}
   catch(e){toast(e.message,false);}
 }
 async function pollCatalog(){
@@ -561,7 +586,7 @@ async function pollCatalog(){
         <div class="hint">${esc(s.message||"")} ${s.done}/${s.total}${s.journal?" · "+esc(s.journal):""}</div>`;
     }
     if(s.running) setTimeout(pollCatalog,2500);
-    else{const b=document.getElementById("init-btn");if(b)b.disabled=false;}
+    else{const b=document.getElementById("init-btn");if(b)b.disabled=false;await loadJournals();}
   }catch(_){}
 }
 
@@ -571,6 +596,13 @@ function renderJournals(){
   const box=document.getElementById("tab-journals");
   box.innerHTML=`
     <div class="hero"><h2>${esc(t("journals"))}</h2><p>${esc(t("jIntro"))}</p></div>
+    <div class="card"><b>${esc(t("initTitle"))}</b><p class="hint" style="margin:6px 0 8px">${esc(t("initSub"))}</p>
+      <div class="toolbar" style="margin:0">
+        <label style="margin:0">${esc(t("sinceDate"))}</label>
+        <input type="date" id="init-since" style="max-width:180px">
+        <button onclick="syncCatalog()" id="init-btn">${esc(t("initBtn"))}</button>
+      </div>
+      <div id="catalog-prog"></div></div>
     <div id="jgrid" class="jgrid"></div>
     <details style="margin-top:22px"><summary style="cursor:pointer;color:var(--accent)">${esc(t("metaEditor"))}</summary>
       <div class="toolbar"><button class="ghost" onclick="addJournalRow()">${esc(t("addJournal"))}</button>
@@ -619,7 +651,9 @@ async function renderJournalDetail(i){
     <div class="backbar"><button class="ghost" onclick="backToJournals()">${esc(t("backJournals"))}</button></div>
     <div class="hero"><h2>${esc(j.name)}</h2><p>${esc(t("jDetailSub"))}</p></div>
     <div class="toolbar">
-      <button onclick="syncJournal(${i})" id="jsync-btn">${esc(t("syncHalf"))}</button>
+      <label style="margin:0">${esc(t("sinceDate"))}</label>
+      <input type="date" id="jsince" style="max-width:170px">
+      <button onclick="syncJournal(${i})" id="jsync-btn">${esc(t("syncBtn"))}</button>
       <button class="ghost" onclick="loadJournalPapers(${i})">${esc(t("refreshList"))}</button>
       <span class="hint" id="jsync-msg"></span>
     </div>
@@ -635,7 +669,9 @@ async function loadJournalPapers(i){
 }
 async function syncJournal(i){
   const btn=document.getElementById("jsync-btn");if(btn)btn.disabled=true;
-  try{await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`,{method:"POST"});pollJournalSync(i);}
+  const inp=document.getElementById("jsince");
+  const body=inp&&inp.value?{since_date:inp.value}:{since_days:180};
+  try{await api(`/api/journals/${encodeURIComponent(journals[i].name)}/sync`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});pollJournalSync(i);}
   catch(e){toast(e.message,false);if(btn)btn.disabled=false;}
 }
 async function pollJournalSync(i){

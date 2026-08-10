@@ -17,7 +17,31 @@ from ..models import Author, Paper
 log = logging.getLogger(__name__)
 
 API_BASE = "https://api.crossref.org"
-UA = "PaperPush/0.1 (mailto:%s)"
+UA = "PaperPush/1.0 (https://github.com/deepsquash/Paper-push; mailto:%s)"
+DEFAULT_MAILTO = "paperpush@example.com"
+
+
+def _get_with_retry(session, url, params, retries=5, base_sleep=1.0):
+    """带指数退避的 Crossref 请求，处理 429 / 超时 / 连接重置。"""
+    last_err = None
+    for attempt in range(retries):
+        try:
+            resp = session.get(url, params=params, timeout=45)
+            if resp.status_code == 429:
+                wait = float(resp.headers.get("Retry-After", base_sleep * (2 ** attempt)))
+                log.warning("Crossref 429 限流，%.1fs 后重试（%d/%d）", wait, attempt + 1, retries)
+                time.sleep(min(wait, 30))
+                continue
+            resp.raise_for_status()
+            return resp
+        except requests.RequestException as e:
+            last_err = e
+            wait = base_sleep * (2 ** attempt)
+            log.warning("Crossref 请求异常（%d/%d），%.1fs 后重试：%s", attempt + 1, retries, wait, e)
+            time.sleep(wait)
+    if last_err:
+        raise last_err
+    return None
 
 # 这些 DOI 前缀对应期刊的新闻/评论类内容（非研究文章），Crossref 误标为 journal-article
 DEFAULT_EXCLUDED_DOI_PREFIXES = [
@@ -95,8 +119,9 @@ def fetch_recent(
     按 (期刊, 归一化标题) 合并，保留发布时间较晚的一条。
     """
     excluded_doi_prefixes = excluded_doi_prefixes or DEFAULT_EXCLUDED_DOI_PREFIXES
+    mailto = mailto or DEFAULT_MAILTO
     session = requests.Session()
-    session.headers.update({"User-Agent": UA % (mailto or "anonymous@example.com")})
+    session.headers.update({"User-Agent": UA % mailto})
     papers: Dict[tuple, Paper] = {}
 
     def _add(p: Paper) -> None:
@@ -110,27 +135,25 @@ def fetch_recent(
     filters = ["from-online-pub-date"] if date_filter == "online" else ["from-online-pub-date", "from-pub-date"]
 
     for journal_name, issns in issns_by_journal.items():
-        for issn in issns:
+        # 去重 ISSN（print 与 online 可能相同），避免重复请求触发限流
+        for issn in list(dict.fromkeys(i for i in issns if i)):
             url = f"{API_BASE}/journals/{issn}/works"
             for filter_field in filters:
                 cursor = "*"
                 for _ in range(max_pages_per_journal):
                     try:
-                        resp = session.get(
-                            url,
-                            params={
-                                "filter": f"{filter_field}:{since.isoformat()},type:journal-article",
-                                "rows": 200,
-                                "sort": "published",
-                                "order": "desc",
-                                "cursor": cursor,
-                                "mailto": mailto,
-                            },
-                            timeout=30,
-                        )
-                        resp.raise_for_status()
+                        resp = _get_with_retry(session, url, {
+                            "filter": f"{filter_field}:{since.isoformat()},type:journal-article",
+                            "rows": 200,
+                            "sort": "published",
+                            "order": "desc",
+                            "cursor": cursor,
+                            "mailto": mailto,
+                        })
                     except requests.RequestException as e:
-                        log.warning("Crossref 请求失败 %s/%s: %s", journal_name, issn, e)
+                        log.warning("Crossref 最终失败 %s/%s (%s): %s", journal_name, issn, filter_field, e)
+                        break
+                    if resp is None:
                         break
 
                     data = resp.json()["message"]
@@ -145,7 +168,7 @@ def fetch_recent(
                     cursor = data.get("next-cursor")
                     if not items or not cursor:
                         break
-                    time.sleep(0.3)
+                    time.sleep(0.5)  # 礼貌间隔，降低 429 概率
 
     time.sleep(0.2)
     return list(papers.values())

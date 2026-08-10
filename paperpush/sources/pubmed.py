@@ -96,9 +96,14 @@ def _fetch_abstracts(session: requests.Session, pmids: List[str]) -> Dict[str, s
     return out
 
 
-def enrich_abstracts(papers: List[Paper]) -> None:
-    """批量按 DOI 查找 PMID 并补充摘要（原地修改）。"""
+def enrich_abstracts(papers: List[Paper], limit: int = 0) -> None:
+    """批量按 DOI 查找 PMID 并补充摘要（原地修改）。
+
+    limit>0 时最多处理前 limit 篇缺摘要文章（批量初始化时限制耗时）。
+    """
     missing = [p for p in papers if not p.abstract]
+    if limit and len(missing) > limit:
+        missing = missing[:limit]
     if not missing:
         return
     session = _session()

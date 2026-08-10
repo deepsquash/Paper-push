@@ -114,12 +114,19 @@ class Library:
         return {row["paper_key"]: row["state"] for row in rows}
 
     def list_papers(self, *, journal: str = "", days: int = 180, limit: int = 100,
-                    offset: int = 0, favorites: bool = False, include_hidden: bool = False) -> list[dict]:
+                    offset: int = 0, favorites: bool = False, include_hidden: bool = False,
+                    source: str = "", exclude_source: str = "") -> list[dict]:
         where = ["COALESCE(p.published_online, p.published_print, p.first_seen) >= ?"]
         args: list = [(date.today() - timedelta(days=days)).isoformat()]
         if journal:
             where.append("p.journal = ?")
             args.append(journal)
+        if source:
+            where.append("p.source = ?")
+            args.append(source)
+        if exclude_source:
+            where.append("p.source != ?")
+            args.append(exclude_source)
         if favorites:
             where.append("r.state = 'liked'")
         elif not include_hidden:

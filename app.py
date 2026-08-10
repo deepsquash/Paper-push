@@ -408,10 +408,12 @@ def api_papers():
     try:
         papers = library.list_papers(
             journal=str(request.args.get("journal", "")),
-            days=max(1, min(int(request.args.get("days", 180)), 730)),
-            limit=max(1, min(int(request.args.get("limit", 60)), 200)),
+            days=max(1, min(int(request.args.get("days", 180)), 1825)),
+            limit=max(1, min(int(request.args.get("limit", 60)), 300)),
             offset=max(0, int(request.args.get("offset", 0))),
             favorites=request.args.get("favorites") == "1",
+            source=str(request.args.get("source", "")),
+            exclude_source=str(request.args.get("exclude_source", "")),
         )
         return jsonify({"papers": papers})
     finally:
@@ -420,9 +422,17 @@ def api_papers():
 
 @app.get("/api/discover")
 def api_discover():
+    """首页「全部文章」/「预印本」标签用。scope=all|preprint。"""
+    scope = str(request.args.get("scope", "all"))
+    days = max(1, min(int(request.args.get("days", 180)), 1825))
     library = Library(LIBRARY_DB)
     try:
-        return jsonify({"papers": library.list_papers(days=7, limit=100)})
+        kwargs = {"days": days, "limit": 150}
+        if scope == "preprint":
+            kwargs["source"] = "biorxiv"
+        else:
+            kwargs["exclude_source"] = "biorxiv"  # “全部文章”默认只看正式期刊，预印本单列
+        return jsonify({"papers": library.list_papers(**kwargs)})
     finally:
         library.close()
 
@@ -448,36 +458,51 @@ def api_journal_papers(name: str):
 
 
 def _sync_one_journal(name: str, spec: dict, library: Library, settings, *,
-                      enrich: bool = True, progress=None) -> int:
-    """同步单个期刊过去半年文献到 library，返回入库数量。progress(msg) 可选。"""
-    since = datetime.now().date() - timedelta(days=180)
+                      since_days: int = 180, enrich: bool = True, enrich_limit: int = 0, progress=None) -> int:
+    """同步单个期刊自 since_days 天前起的文献到 library，返回入库数量。"""
+    since = datetime.now().date() - timedelta(days=since_days)
+    # 回填窗口越长，允许翻页越多
+    max_pages = max(10, min(60, since_days // 15))
     if spec.get("source") == "biorxiv":
         if progress:
-            progress("正在分页下载 bioRxiv neuroscience 半年数据…")
+            progress(f"正在分页下载 bioRxiv neuroscience 数据（自 {since.isoformat()}）…")
         papers = biorxiv.fetch(
             since, datetime.now().date(), spec.get("category", "neuroscience"),
-            max_pages=60, journal_name=name, max_records=10000,
+            max_pages=max(60, since_days // 3), journal_name=name, max_records=20000,
         )
         source = "biorxiv"
     else:
         if progress:
-            progress(f"正在回填 {name} 的 Crossref 数据…")
+            progress(f"正在回填 {name} 的 Crossref 数据（自 {since.isoformat()}）…")
         papers = crossref.fetch_journal(
             name, [spec.get("print", ""), spec.get("online", "")], since,
-            settings.crossref_mailto, max_pages=10,
+            settings.crossref_mailto, max_pages=max_pages,
             excluded_doi_prefixes=settings.exclude_doi_prefixes or None,
         )
         if enrich and papers:
             if progress:
-                progress(f"正在为 {name} 补全摘要（PubMed）…")
+                progress(f"正在为 {name} 补全摘要（PubMed，{len(papers)} 篇）…")
             try:
-                pubmed.enrich_abstracts(papers)
+                # 批量初始化时限制补摘要数量以控制总耗时；单期刊手动同步(enrich_limit=0)则全量补全
+                pubmed.enrich_abstracts(papers, limit=enrich_limit)
             except Exception:  # noqa: BLE001
                 pass
         source = "crossref"
     library.upsert(papers, source=source, category=spec.get("category", ""))
-    library.mark_sync(name, since.isoformat(), len(papers), "ok", f"已同步 {len(papers)} 篇（过去半年）")
+    library.mark_sync(name, since.isoformat(), len(papers), "ok", f"已同步 {len(papers)} 篇（自 {since.isoformat()}）")
     return len(papers)
+
+
+def _parse_since_days(payload: dict) -> int:
+    """从请求解析回填起始：支持 since_days 或 since_date(YYYY-MM-DD)。默认 180 天，上限 5 年。"""
+    payload = payload or {}
+    if payload.get("since_date"):
+        try:
+            d = datetime.strptime(str(payload["since_date"]), "%Y-%m-%d").date()
+            return max(1, min((datetime.now().date() - d).days, 1825))
+        except ValueError:
+            pass
+    return max(1, min(int(payload.get("since_days", 180) or 180), 1825))
 
 
 @app.post("/api/journals/<path:name>/sync")
@@ -486,6 +511,7 @@ def api_sync_journal(name: str):
     spec = journals.get(name)
     if not spec:
         return jsonify({"ok": False, "message": "期刊不存在"}), 404
+    since_days = _parse_since_days(request.get_json(silent=True) or {})
     with _SYNC_LOCK:
         if SYNC_STATE["running"]:
             return jsonify({"ok": False, "message": f"正在同步 {SYNC_STATE['journal']}，请等待完成"}), 409
@@ -493,13 +519,13 @@ def api_sync_journal(name: str):
 
     def worker():
         settings = load_settings(CONFIG_DIR)
-        since = datetime.now().date() - timedelta(days=180)
+        since = datetime.now().date() - timedelta(days=since_days)
         library = Library(LIBRARY_DB)
-        library.mark_sync(name, since.isoformat(), 0, "running", "正在回填过去半年")
+        library.mark_sync(name, since.isoformat(), 0, "running", "正在回填")
         try:
-            count = _sync_one_journal(name, spec, library, settings,
+            count = _sync_one_journal(name, spec, library, settings, since_days=since_days,
                                       progress=lambda m: SYNC_STATE.update({"message": m}))
-            SYNC_STATE["message"] = f"已同步 {count} 篇（过去半年）"
+            SYNC_STATE["message"] = f"已同步 {count} 篇（自 {since.isoformat()}）"
         except Exception as exc:  # noqa: BLE001
             library.mark_sync(name, since.isoformat(), 0, "error", str(exc))
             SYNC_STATE["message"] = str(exc)
@@ -527,12 +553,14 @@ def api_sync_status(name: str):
 
 @app.post("/api/catalog/sync")
 def api_sync_catalog():
+    since_days = _parse_since_days(request.get_json(silent=True) or {})
     with _SYNC_LOCK:
         if CATALOG_STATE["running"]:
             return jsonify({"ok": False, "message": "期刊库正在初始化"}), 409
         journals = _read_yaml(JOURNALS_PATH).get("journals") or {}
         CATALOG_STATE.update({
-            "running": True, "done": 0, "total": len(journals), "journal": "", "message": "开始初始化…",
+            "running": True, "done": 0, "total": len(journals), "journal": "",
+            "message": "开始初始化…", "since_days": since_days,
         })
 
     def worker():
@@ -543,20 +571,22 @@ def api_sync_catalog():
                 CATALOG_STATE["journal"] = name
                 CATALOG_STATE["message"] = f"正在同步 {name}"
                 try:
-                    _sync_one_journal(name, spec, library, settings, enrich=True,
+                    _sync_one_journal(name, spec, library, settings, since_days=since_days, enrich=True,
+                                      enrich_limit=80,
                                       progress=lambda m: CATALOG_STATE.update({"message": m}))
                 except Exception as exc:  # noqa: BLE001
-                    since = datetime.now().date() - timedelta(days=180)
+                    since = datetime.now().date() - timedelta(days=since_days)
                     library.mark_sync(name, since.isoformat(), 0, "error", str(exc))
                     log.warning("初始化期刊失败 %s: %s", name, exc)
                 CATALOG_STATE["done"] += 1
-            CATALOG_STATE["message"] = "半年期刊库初始化完成"
+                time.sleep(1.0)  # 期刊之间留间隔，降低 Crossref 限流概率
+            CATALOG_STATE["message"] = "期刊库初始化完成"
         finally:
             library.close()
             CATALOG_STATE["running"] = False
 
     threading.Thread(target=worker, daemon=True, name="paperpush-catalog-sync").start()
-    return jsonify({"ok": True, "message": "已开始后台初始化全部来源的半年文献"}), 202
+    return jsonify({"ok": True, "message": "已开始后台初始化全部来源"}), 202
 
 
 @app.get("/api/catalog/sync")
