@@ -81,6 +81,13 @@ main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
 .jtag{font-size:12px;font-weight:700;color:#fff;background:var(--accent);
   padding:4px 12px;border-radius:8px;letter-spacing:.2px}
 .jtag.pre{background:var(--gold)}
+/* 期刊分档配色（小清新柔和色系） */
+.tier1{background:#e5484d!important;color:#fff!important}   /* CNS：珊瑚红 */
+.tier2{background:#e07a3f!important;color:#fff!important}   /* Nat Neuro / Neuron：暖橙 */
+.tier3{background:#d9a441!important;color:#3a2c10!important} /* Nat Med/NBT/Methods：琥珀 */
+.tier4{background:#5b9a7b!important;color:#fff!important}   /* NC/SciAdv/CR/CurBio/PNAS：青绿 */
+.tier5{background:#6a8fc7!important;color:#fff!important}   /* eLife / J Neurosci：雾蓝 */
+.tier6{background:#9aa3ad!important;color:#fff!important}   /* 其他：灰蓝 */
 .paper .time{color:var(--muted);font-size:12.5px}
 .paper .title{font-size:16px;font-weight:650;line-height:1.4}
 .paper .title a{color:var(--fg)}
@@ -232,7 +239,7 @@ const I18N = {
   zh:{
     tagline:"文献速递", discover:"发现", favorites:"收藏", feeds:"Feed 订阅", journals:"期刊库",
     settings:"设置", run:"运行", lang:"EN",
-    heroTitle:"把真正相关的研究，送到你面前", heroSub:"聚合顶刊与 bioRxiv 预印本，用可组合的布尔条件跟踪主题、作者与来源。",
+    heroTitle:"Stay ahead of the literature.", heroSub:"顶刊与 bioRxiv 预印本，一处追踪。",
     library:"文献库", latest:"最近发表", feedHits:"命中",
     open:"原文", fav:"收藏", hide:"不感兴趣", zotero:"加入 Zotero",
     noRun:"文献库还没有内容。前往「期刊库」初始化过去半年，或到「运行」页立即抓取最新文章。",
@@ -271,7 +278,7 @@ const I18N = {
   en:{
     tagline:"Paper Feed", discover:"Discover", favorites:"Saved", feeds:"Feeds", journals:"Journals",
     settings:"Settings", run:"Run", lang:"中文",
-    heroTitle:"The research that matters, delivered to you", heroSub:"Aggregate top journals and bioRxiv preprints; track topics, authors and sources with composable Boolean rules.",
+    heroTitle:"Stay ahead of the literature.", heroSub:"Top journals and bioRxiv preprints, tracked in one place.",
     library:"Library", latest:"Latest", feedHits:"hits",
     open:"Source", fav:"Save", hide:"Not interested", zotero:"Add to Zotero",
     noRun:"Library is empty. Initialize the last 6 months in Journals, or fetch now on the Run page.",
@@ -329,7 +336,8 @@ function relTime(d){
   if(!d) return "—";
   const dt=new Date(d.length===10?d+"T00:00:00":d);
   if(isNaN(dt)) return esc(d);
-  const h=Math.max(0,(Date.now()-dt.getTime())/3.6e6);
+  const h=(Date.now()-dt.getTime())/3.6e6;
+  if(h<0) return (d+"").slice(0,10);           // 未来日期（期刊卷期日期）直接显示日期
   if(h<1) return LANG==="zh"?"刚刚":"just now";
   if(h<24) return LANG==="zh"?`${Math.floor(h)} 小时前`:`${Math.floor(h)}h ago`;
   if(h<168) return LANG==="zh"?`${Math.floor(h/24)} 天前`:`${Math.floor(h/24)}d ago`;
@@ -340,6 +348,21 @@ function authorLine(a){
   if(a.length<=6) return a.join(", ");
   return a.slice(0,3).join(", ")+" … "+a.slice(-3).join(", ")+`（${a.length} ${t("authors")}）`;
 }
+/* 期刊分档：1=CNS，6=其他。用于卡片配色。 */
+const TIER_MAP={
+  "cell":1,"nature":1,"science":1,
+  "nature neuroscience":2,"neuron":2,
+  "nature medicine":3,"nature biotechnology":3,"nature methods":3,
+  "cell reports":4,"nature communications":4,"science advances":4,"current biology":4,"pnas":4,
+  "elife":5,"journal of neuroscience":5,
+};
+function journalTier(name){
+  const n=(name||"").trim().toLowerCase();
+  if(TIER_MAP[n]) return TIER_MAP[n];
+  if(/biorxiv/.test(n)) return 6;
+  return 6;
+}
+const TIER_COLORS={1:"#e5484d",2:"#e07a3f",3:"#d9a441",4:"#5b9a7b",5:"#6a8fc7",6:"#9aa3ad"};
 
 /* ================= nav ================= */
 function renderNav(){
@@ -371,8 +394,8 @@ function paperCard(p,feedName){
   const key=esc(p.key||p.doi||"");
   return `<div class="paper">
     <div class="jrow">
-      <span class="jtag ${src?"pre":""}">${esc(p.journal||"—")}</span>
-      <span class="time">${esc(relTime(p.published_online||p.published_print))}</span>
+      <span class="jtag tier${journalTier(p.journal)}">${esc(p.journal||"—")}</span>
+      <span class="time">${esc(relTime(p.published_display||p.published_online||p.published_print))}</span>
       ${badges}
     </div>
     <div class="title"><a href="${esc(p.url||("https://doi.org/"+(p.doi||"")))}" target="_blank" rel="noopener">${esc(p.title||"(untitled)")}</a></div>
@@ -618,11 +641,13 @@ function drawJournalGrid(){
   const grid=document.getElementById("jgrid");if(!grid)return;
   grid.innerHTML=journals.map((j,i)=>{
     const pre=j.source==="biorxiv";
-    return `<div class="jcard ${pre?"pre":""}" onclick="openJournal(${i})">
-      <span class="pill">${pre?esc(t("preprint")):esc(t("journal"))}</span>
+    const tier=journalTier(j.name);
+    const col=TIER_COLORS[tier];
+    return `<div class="jcard" style="border-top-color:${col}" onclick="openJournal(${i})">
+      <span class="pill tier${tier}">${pre?esc(t("preprint")):"T"+tier}</span>
       <h3>${esc(j.name)}</h3>
       <div class="issn">${esc(j.print||j.online||"bioRxiv API")}</div>
-      <div class="count"><b>${j.paper_count||0}</b> ${esc(t("inLib"))}</div>
+      <div class="count"><b style="color:${col}">${j.paper_count||0}</b> ${esc(t("inLib"))}</div>
       <div style="margin-top:6px;color:var(--accent);font-size:12px">${esc(t("viewLatest"))}</div>
     </div>`;}).join("");
   const tb=document.querySelector("#journal-table tbody");

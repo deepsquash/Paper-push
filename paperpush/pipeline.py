@@ -53,6 +53,8 @@ def _paper_to_dict(p: Paper, m, is_new: bool) -> dict:
         "title": p.title,
         "journal": p.journal,
         "published_online": p.published_online,
+        "published_print": p.published_print,
+        "published_display": Library.effective_date(p.published_online or "", p.published_print or "", ""),
         "is_early_access": p.is_early_access,
         "is_new": is_new,
         "authors": [a.full_name for a in p.authors if a.full_name],
@@ -82,7 +84,7 @@ def evaluate_library(config_dir: str | Path = None, days: int = 180) -> dict:
                     item["reaction"] = reactions.get(item["key"], "")
                     if item["reaction"] != "hidden":
                         items.append(item)
-            items.sort(key=lambda item: item.get("published_online") or "", reverse=True)
+            items.sort(key=lambda item: item.get("published_display") or item.get("published_online") or "", reverse=True)
             details[feed.name] = items[: settings.max_papers_per_feed]
             counts[feed.name] = len(items)
         return {"ok": True, "details": details, "feeds": counts, "library_total": len(papers)}

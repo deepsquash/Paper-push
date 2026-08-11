@@ -92,14 +92,31 @@ class Library:
         self.conn.commit()
         return count
 
+    @staticmethod
+    def effective_date(online: str, printed: str, first_seen: str) -> str:
+        """展示/排序用的“实际可见日期”。
+
+        期刊常给未来的卷期日期（如 NeuroImage 把 online 写成两个月后），
+        这类未来日期不能当作真实上线时间。规则：取 online / print 中不晚于今天的最早者；
+        若都为未来，则退回 first_seen 的日期（即我们抓到它的时间）。
+        """
+        today = date.today().isoformat()
+        cands = [d for d in (online, printed) if d]
+        past = [d for d in cands if d <= today]
+        if past:
+            return max(past)  # 已发生的日期里取最近的
+        seen = (first_seen or "")[:10]
+        return seen or (min(cands) if cands else "")
+
     def _row_dict(self, row: sqlite3.Row) -> dict:
         authors = json.loads(row["authors_json"] or "[]")
+        eff = self.effective_date(row["published_online"] or "", row["published_print"] or "", row["first_seen"] or "")
         return {
             "key": row["paper_key"], "doi": row["doi"], "title": row["title"],
             "journal": row["journal"], "source": row["source"], "category": row["category"],
             "authors": [f"{a.get('given', '')} {a.get('family', '')}".strip() for a in authors],
             "abstract": row["abstract"], "published_online": row["published_online"],
-            "published_print": row["published_print"], "url": row["url"],
+            "published_print": row["published_print"], "published_display": eff, "url": row["url"],
             "is_early_access": bool(row["is_early_access"]), "reaction": row["reaction"] or "",
         }
 
@@ -116,28 +133,38 @@ class Library:
     def list_papers(self, *, journal: str = "", days: int = 180, limit: int = 100,
                     offset: int = 0, favorites: bool = False, include_hidden: bool = False,
                     source: str = "", exclude_source: str = "") -> list[dict]:
-        where = ["COALESCE(p.published_online, p.published_print, p.first_seen) >= ?"]
-        args: list = [(date.today() - timedelta(days=days)).isoformat()]
+        today = date.today().isoformat()
+        # SQL 中的“实际可见日期”：取 online/print 里不晚于今天的最近者，否则退回 first_seen。
+        eff = (
+            "CASE"
+            " WHEN COALESCE(p.published_online,'')<=:today AND p.published_online>=COALESCE(NULLIF(p.published_print,''),'') THEN p.published_online"
+            " WHEN COALESCE(p.published_print,'')<=:today AND p.published_print!='' THEN p.published_print"
+            " WHEN COALESCE(p.published_online,'')<=:today AND p.published_online!='' THEN p.published_online"
+            " ELSE substr(p.first_seen,1,10) END"
+        )
+        where = [f"{eff} >= :since"]
+        params: dict = {"today": today, "since": (date.today() - timedelta(days=days)).isoformat()}
         if journal:
-            where.append("p.journal = ?")
-            args.append(journal)
+            where.append("p.journal = :journal")
+            params["journal"] = journal
         if source:
-            where.append("p.source = ?")
-            args.append(source)
+            where.append("p.source = :source")
+            params["source"] = source
         if exclude_source:
-            where.append("p.source != ?")
-            args.append(exclude_source)
+            where.append("p.source != :exsource")
+            params["exsource"] = exclude_source
         if favorites:
             where.append("r.state = 'liked'")
         elif not include_hidden:
             where.append("COALESCE(r.state, '') != 'hidden'")
-        args.extend([limit, offset])
+        params["limit"] = limit
+        params["offset"] = offset
         rows = self.conn.execute(
             f"""SELECT p.*, r.state AS reaction FROM papers p
                 LEFT JOIN reactions r ON r.paper_key=p.paper_key
                 WHERE {' AND '.join(where)}
-                ORDER BY COALESCE(p.published_online, p.published_print, p.first_seen) DESC
-                LIMIT ? OFFSET ?""", args,
+                ORDER BY {eff} DESC, p.first_seen DESC
+                LIMIT :limit OFFSET :offset""", params,
         ).fetchall()
         return [self._row_dict(row) for row in rows]
 
