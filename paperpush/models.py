@@ -28,6 +28,7 @@ class Paper:
     authors: list = field(default_factory=list)
     published_online: Optional[str] = None  # ISO 日期
     published_print: Optional[str] = None
+    created: Optional[str] = None  # Crossref created 日期：最接近真实上线时间，且不会是未来
     abstract: str = ""
     fulltext: str = ""  # 仅 PMC 开放获取时可用
     url: str = ""

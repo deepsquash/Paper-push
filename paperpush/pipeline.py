@@ -43,7 +43,7 @@ def get_logs(since: int = 0) -> Dict[str, object]:
 
 
 def _sort_key(p):
-    return (p.published_online or "") or (p.published_print or "") or ""
+    return Library.effective_date(p.published_online or "", p.published_print or "", "", p.created or "")
 
 
 def _paper_to_dict(p: Paper, m, is_new: bool) -> dict:
@@ -54,7 +54,7 @@ def _paper_to_dict(p: Paper, m, is_new: bool) -> dict:
         "journal": p.journal,
         "published_online": p.published_online,
         "published_print": p.published_print,
-        "published_display": Library.effective_date(p.published_online or "", p.published_print or "", ""),
+        "published_display": Library.effective_date(p.published_online or "", p.published_print or "", "", p.created or ""),
         "is_early_access": p.is_early_access,
         "is_new": is_new,
         "authors": [a.full_name for a in p.authors if a.full_name],
@@ -85,7 +85,7 @@ def evaluate_library(config_dir: str | Path = None, days: int = 180) -> dict:
                     if item["reaction"] != "hidden":
                         items.append(item)
             items.sort(key=lambda item: item.get("published_display") or item.get("published_online") or "", reverse=True)
-            details[feed.name] = items[: settings.max_papers_per_feed]
+            details[feed.name] = items  # 不再限制每个 Feed 的展示数量
             counts[feed.name] = len(items)
         return {"ok": True, "details": details, "feeds": counts, "library_total": len(papers)}
     finally:
@@ -206,8 +206,7 @@ def run_once(
 
     for name, items in feed_results.items():
         items.sort(key=lambda t: _sort_key(t[0]), reverse=True)
-        feed_results[name] = items[: settings.max_papers_per_feed]
-        result["feeds"][name] = len(items)
+        result["feeds"][name] = len(items)  # 完整命中数（不受展示/推送上限影响）
         info(f"feed『{name}』命中 {len(items)} 篇")
     matched_dois = [p.doi for items in feed_results.values() for p, _ in items]
 

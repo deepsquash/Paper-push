@@ -36,6 +36,7 @@ class Library:
                 fulltext TEXT DEFAULT '',
                 published_online TEXT,
                 published_print TEXT,
+                created TEXT,
                 url TEXT DEFAULT '',
                 is_early_access INTEGER NOT NULL DEFAULT 0,
                 first_seen TEXT NOT NULL,
@@ -58,6 +59,10 @@ class Library:
             );
             """
         )
+        # 旧库迁移：补 created 列
+        cols = {r[1] for r in self.conn.execute("PRAGMA table_info(papers)").fetchall()}
+        if "created" not in cols:
+            self.conn.execute("ALTER TABLE papers ADD COLUMN created TEXT")
         self.conn.commit()
 
     @staticmethod
@@ -75,42 +80,52 @@ class Library:
             self.conn.execute(
                 """INSERT INTO papers
                 (paper_key, doi, title, journal, source, category, issn, authors_json, abstract,
-                 fulltext, published_online, published_print, url, is_early_access, first_seen, updated_at)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 fulltext, published_online, published_print, created, url, is_early_access, first_seen, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(paper_key) DO UPDATE SET
                   title=excluded.title, journal=excluded.journal, source=excluded.source,
                   category=excluded.category, issn=excluded.issn, authors_json=excluded.authors_json,
                   abstract=CASE WHEN excluded.abstract != '' THEN excluded.abstract ELSE papers.abstract END,
                   fulltext=CASE WHEN excluded.fulltext != '' THEN excluded.fulltext ELSE papers.fulltext END,
                   published_online=excluded.published_online, published_print=excluded.published_print,
+                  created=excluded.created,
                   url=excluded.url, is_early_access=excluded.is_early_access, updated_at=excluded.updated_at""",
                 (key, paper.doi, paper.title, paper.journal, source, category, paper.issn,
                  json.dumps(authors, ensure_ascii=False), paper.abstract, paper.fulltext,
-                 paper.published_online, paper.published_print, paper.url, int(paper.is_early_access), now, now),
+                 paper.published_online, paper.published_print, paper.created, paper.url,
+                 int(paper.is_early_access), now, now),
             )
             count += 1
         self.conn.commit()
         return count
 
     @staticmethod
-    def effective_date(online: str, printed: str, first_seen: str) -> str:
-        """展示/排序用的“实际可见日期”。
+    def effective_date(online: str, printed: str, first_seen: str, created: str = "") -> str:
+        """展示/排序用的“实际上线日期”。
 
-        期刊常给未来的卷期日期（如 NeuroImage 把 online 写成两个月后），
-        这类未来日期不能当作真实上线时间。规则：取 online / print 中不晚于今天的最早者；
-        若都为未来，则退回 first_seen 的日期（即我们抓到它的时间）。
+        期刊常给未来的卷期日期（如 J Neurosci Methods 把 print 写成两个月后），
+        这类未来日期不是真实上线时间。优先级：
+          1) published-online（若不晚于今天）——真正的“提前在线”日期
+          2) created（Crossref 记录创建日，最接近上线，且从不为未来）
+          3) 其余不晚于今天的日期里取最近者
+          4) 都为未来则退回 first_seen
         """
         today = date.today().isoformat()
-        cands = [d for d in (online, printed) if d]
-        past = [d for d in cands if d <= today]
+        if online and online <= today:
+            return online
+        if created and created <= today:
+            return created
+        past = [d for d in (online, printed, created) if d and d <= today]
         if past:
-            return max(past)  # 已发生的日期里取最近的
+            return max(past)
         seen = (first_seen or "")[:10]
-        return seen or (min(cands) if cands else "")
+        return seen or created or online or printed or ""
 
     def _row_dict(self, row: sqlite3.Row) -> dict:
         authors = json.loads(row["authors_json"] or "[]")
-        eff = self.effective_date(row["published_online"] or "", row["published_print"] or "", row["first_seen"] or "")
+        created = row["created"] if "created" in row.keys() else ""
+        eff = self.effective_date(row["published_online"] or "", row["published_print"] or "",
+                                  row["first_seen"] or "", created or "")
         return {
             "key": row["paper_key"], "doi": row["doi"], "title": row["title"],
             "journal": row["journal"], "source": row["source"], "category": row["category"],
@@ -134,12 +149,13 @@ class Library:
                     offset: int = 0, favorites: bool = False, include_hidden: bool = False,
                     source: str = "", exclude_source: str = "") -> list[dict]:
         today = date.today().isoformat()
-        # SQL 中的“实际可见日期”：取 online/print 里不晚于今天的最近者，否则退回 first_seen。
+        # SQL 中的“实际上线日期”：优先 online(≤今天)，其次 created(≤今天)，
+        # 再次取不晚于今天的最近日期，最后退回 first_seen。与 effective_date() 一致。
         eff = (
             "CASE"
-            " WHEN COALESCE(p.published_online,'')<=:today AND p.published_online>=COALESCE(NULLIF(p.published_print,''),'') THEN p.published_online"
-            " WHEN COALESCE(p.published_print,'')<=:today AND p.published_print!='' THEN p.published_print"
-            " WHEN COALESCE(p.published_online,'')<=:today AND p.published_online!='' THEN p.published_online"
+            " WHEN COALESCE(p.published_online,'')!='' AND p.published_online<=:today THEN p.published_online"
+            " WHEN COALESCE(p.created,'')!='' AND p.created<=:today THEN p.created"
+            " WHEN COALESCE(p.published_print,'')!='' AND p.published_print<=:today THEN p.published_print"
             " ELSE substr(p.first_seen,1,10) END"
         )
         where = [f"{eff} >= :since"]
@@ -178,9 +194,11 @@ class Library:
         papers = []
         for row in rows:
             authors = [Author(**a) for a in json.loads(row["authors_json"] or "[]")]
+            created = row["created"] if "created" in row.keys() else None
             papers.append(Paper(
                 doi=row["doi"] or "", title=row["title"], journal=row["journal"], issn=row["issn"],
-                authors=authors, published_online=row["published_online"], published_print=row["published_print"],
+                authors=authors, created=created,
+                published_online=row["published_online"], published_print=row["published_print"],
                 abstract=row["abstract"], fulltext=row["fulltext"], url=row["url"],
                 is_early_access=bool(row["is_early_access"]),
             ))

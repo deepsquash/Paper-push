@@ -55,7 +55,8 @@ def fetch(since: date, until: date, category: str = "neuroscience", max_pages: i
                 doi = str(item.get("doi", ""))
                 paper = Paper(
                     doi=doi, title=str(item.get("title", "")), journal=journal_name,
-                    authors=_authors(str(item.get("authors", ""))), published_online=str(item.get("date", "")),
+                    authors=_authors(str(item.get("authors", ""))),
+                    created=str(item.get("date", "")), published_online=str(item.get("date", "")),
                     abstract=str(item.get("abstract", "")), url=f"https://www.biorxiv.org/content/{doi}v{item.get('version', '1')}",
                     is_early_access=True,
                 )

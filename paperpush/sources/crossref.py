@@ -80,10 +80,11 @@ def _to_paper(item: dict, journal_name: str) -> Paper:
         seq = "first" if i == 0 else ("last" if i == len(item["author"]) - 1 else "middle")
         authors.append(Author(given=a.get("given", ""), family=a.get("family", ""), sequence=seq))
 
-    published_online = _parse_date(
-        (item.get("published-online") or item.get("issued") or {}).get("date-parts", [])
-    )
+    # 只用真正的 online 日期，不再退回 issued（issued 可能是未来的卷期日期）
+    published_online = _parse_date((item.get("published-online") or {}).get("date-parts", []))
     published_print = _parse_date((item.get("published-print") or {}).get("date-parts", []))
+    # created = DOI 记录首次创建时间，最接近真实上线时间，且从不为未来
+    created = _parse_date((item.get("created") or {}).get("date-parts", []))
     # 提前在线判定：有 online 日期但无正式卷期/印刷日期
     is_early = bool(published_online and not (item.get("volume") and item.get("issue")))
 
@@ -93,6 +94,7 @@ def _to_paper(item: dict, journal_name: str) -> Paper:
         journal=journal_name,
         issn=",".join(item.get("ISSN", []) or []),
         authors=authors,
+        created=created,
         published_online=published_online,
         published_print=published_print,
         abstract=_strip_abstract(item.get("abstract", "")),
