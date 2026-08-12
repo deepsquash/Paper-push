@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-11",
-  "total": 9,
+  "date": "2026-08-12",
+  "total": 13,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [
@@ -43,6 +43,129 @@
       }
     ],
     "神经退行性疾病": [
+      {
+        "doi": "10.7554/elife.107661.3",
+        "title": "In vivo mapping of striatal neurodegeneration in Huntington’s disease with Soma and Neurite Density Imaging",
+        "journal": "eLife",
+        "published_online": "2026-08-11",
+        "is_early_access": true,
+        "authors": [
+          "Vasileios Ioakeimidis",
+          "Marco Palombo",
+          "Chiara Casella",
+          "Lucy Layland",
+          "Carolyn McNabb",
+          "Robin Schubert",
+          "Philip Pallmann",
+          "Monica Busse",
+          "Cheney Drew",
+          "Sundus Alusi",
+          "Timothy Harrower",
+          "Jane Davies",
+          "Anne Rosser",
+          "Claudia Metzler-Baddeley"
+        ],
+        "abstract": "Huntington’s disease (HD) is an inherited neurodegenerative disorder characterised by progressive cognitive and motor decline driven by basal ganglia (BG) atrophy. Clinical trials of novel disease-modifying therapies are ongoing, creating a need for sensitive non-invasive imaging biomarkers. Soma and Neurite Density Imaging (SANDI) is a multi-shell diffusion MRI model that estimates intracellular signal fractions from sphere-shaped soma and shows promise as a marker of neurodegeneration. The objectives of this study were to characterise HD-related microstructural abnormalities in the BG using SANDI and to examine relationships between SANDI and volumetric measurements and motor performance. T1- and diffusion-weighted images ( b -values 200–6000 s/mm²) were acquired on a 3T Siemens Connectom scanner (300 mT/m) in 56 individuals with HD and 57 age- and sex-matched controls. HD participants completed Quantitative Motor (Q-Motor) tasks, summarised using principal component analysis. SANDI estimated apparent soma and neurite density, apparent soma size, and extracellular signal fraction. Microstructural and volumetric indices were extracted from bilateral caudate, putamen, pallidum and thalamus regions, compared between groups, and correlated with Q-Motor performance. HD was associated with reduced apparent soma density and increased apparent soma size and extracellular signal fraction in the BG but not the thalami. No group differences were present for apparent neurite density. SANDI metrics correlated with Q-Motor performance and explained up to 63% of striatal atrophy in HD. SANDI indices detected HD-related striatal neurodegeneration, explained atrophy, and correlated with motor impairments, demonstrating its potential as an in vivo biomarker and surrogate clinical outcome measure for HD and other neurodegenerative diseases.",
+        "url": "https://doi.org/10.7554/elife.107661.3",
+        "reasons": [
+          "关键词『neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41588-026-02716-6",
+        "title": "Plasticity of human microglia and brain perivascular macrophages in aging and Alzheimer’s disease",
+        "journal": "Nature Genetics",
+        "published_online": "2026-08-11",
+        "is_early_access": true,
+        "authors": [
+          "Donghoon Lee",
+          "James M. Vicari",
+          "Christian Porras",
+          "Collin Spencer",
+          "Milos Pjanic",
+          "Xinyi Wang",
+          "Seon Kinrot",
+          "Philipp Weiler",
+          "Roman Kosoy",
+          "Jaroslav Bendl",
+          "Prashant N M",
+          "Konstantina Psychogyiou",
+          "Periklis Malakates",
+          "Evelyn Hennigan",
+          "Jennifer Monteiro Fortes",
+          "Shiwei Zheng",
+          "Karen Therrien",
+          "Deepika Mathur",
+          "Steven P. Kleopoulos",
+          "Zhiping Shao",
+          "Stathis Argyriou",
+          "Marcela Alvia",
+          "Clara Casey",
+          "Aram Hong",
+          "Kristin G. Beaumont",
+          "Robert Sebra",
+          "Christopher P. Kellner",
+          "David A. Bennett",
+          "Guo-Cheng Yuan",
+          "Georgios Voloudakis",
+          "Fabian J. Theis",
+          "Vahram Haroutunian",
+          "Gabriel E. Hoffman",
+          "John F. Fullard",
+          "Panos Roussos"
+        ],
+        "abstract": "",
+        "url": "https://doi.org/10.1038/s41588-026-02716-6",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.07.02.736180",
+        "title": "The SEA-AD DREAM Challenge: Community benchmarking human and AI agent solutions for Alzheimer's disease neuropathology prediction from single-nucleus transcriptomics",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-11",
+        "is_early_access": true,
+        "authors": [
+          "Lai, H.-Y.",
+          "Kalavros, N.",
+          "Chung, V.",
+          "Kaplan, E. S.",
+          "Saez-Rodriguez, J.",
+          "Ai, L.",
+          "Anastassiou, D.",
+          "Cai, L.",
+          "Chen, E.",
+          "Garach Velez, I.",
+          "Gursoy, G.",
+          "Herrera, L. J.",
+          "Li, X.",
+          "Londin, E.",
+          "Loher, P.",
+          "Nazeraj, I.",
+          "Ortuno, F.",
+          "Ou Yang, T.-H.",
+          "Rigoutsos, I.",
+          "Rojas, I.",
+          "Andreoletti, G.",
+          "Foschini, L.",
+          "Heath, L.",
+          "Oskotsky, T.",
+          "Sirota, M.",
+          "Stolovitzky, G.",
+          "Travaglini, K. J.",
+          "Zou, J.",
+          "Gabitto, M. I."
+        ],
+        "abstract": "Single-nucleus transcriptomic atlases offer an unprecedented opportunity to connect cellular molecular states with Alzheimer's disease (AD) neuropathology, but whether these profiles encode reproducible, predictive information about pathological burden remains unclear. We present the SEA-AD DREAM Challenge, an open, international, model-to-data competition built on the Seattle Alzheimer's Disease Brain Cell Atlas to predict Alzheimer's disease neuropathological severity from single-nucleus RNA-sequencing data. Participants developed containerized models to predict categorical neuropathological staging, including overall Alzheimer's disease neuropathologic change, Braak stage, Thal phase, and CERAD score, as well as quantitative amyloid-{beta} and phospho-tau burden measured by 6E10 and AT8 immunohistochemistry. Across 17 eligible teams from 15 countries, the crowdsourcing framework enabled systematic comparison of diverse computational approaches and surfaced a broad landscape of modeling strategies and candidate predictive features. Top-performing methods achieved near-perfect prediction of categorical staging, with the best submission reaching a quadratic weighted kappa of 1.0 for the Overall AD Neuropathological Change score (ADNC), and competitive prediction of quantitative pathological burden in held-out data, with a best concordance correlation coefficient of 0.48. Post hoc perturbation analyses revealed that top categorical-stage predictions relied heavily on donor-level metadata-driven signals rather than transcriptomic features, whereas quantitative pathology prediction was more robust and supported by transcriptomic and cell-type-associated features with potential biological relevance to AD progression. The challenge also introduced the first AI Agent Track in a DREAM Challenge, providing an early benchmark for autonomous and human-guided agentic model development in single-cell neuroscience. This work demonstrates that single-nucleus transcriptomes encode",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736180v2",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.1073/pnas.2619797123",
         "title": "Selective loss of primary cilia and neurotrophic signaling in G51D α-synuclein mice highlights a common pathway to Parkinson’s disease",
@@ -557,10 +680,29 @@
           "Slack, F. J.",
           "Hide, W."
         ],
-        "abstract": "Many aged individuals accumulate advanced Alzheimer's disease (AD) neuropathology without cognitive decline, signifying potent endogenous resilience mechanisms. Mimicking resilience to AD may offer new therapeutic opportunities by emulating endogenous neuroprotection, but the molecular pathways that underpin resilience remain largely unknown. MicroRNAs (miRNAs) -small noncoding RNA molecules that post-transcriptionally regulate gene expression- influence neuronal and glial processes associated with development, aging, and AD neurodegeneration but their role in resilience has not been characterized. We investigated resilience-associated miRNAs and their targeted programs in the dorsolateral prefrontal cortex of post-mortem human brains. We analyzed matched miRNA and messenger RNA (mRNA) expression across resilient, AD, and control subjects from the Religious Order Study and Memory and Aging Project (ROSMAP) cohort. Nine miRNAs were differentially expressed in resilience compared with AD, including previously unreported miR-362-3p and miR-433-3p and new resilience-associated roles for known AD-related miRNAs, including neuronal miR-132-3p and miR-129-5p. By analyzing miRNA activity across AD progression, we found additional cognitive-associated miRNAs (e.g., miR-335-5p and miR-19b) and one plaque-restricted miRNA (miR-199a-5p). Sex-specific miRNA dysregulation was observed: miR-7-5p showed male-specific upregulation in AD versus resilience and suggested sex-specific differences in AD patients. Integrated co-expression and target-enrichment analyses linked resilience-associated miRNAs to pathways that were associated with cognitive decline, including transforming growth factor {beta}, Rho guanosine triphosphatases, and neurotransmitter receptor regulation. We also report restricted co-activity in AD subjects for miR-362-3p with inflammatory pathways, including tumor necrosis factor and Toll-like receptor signaling. These results demonstrate systematic involvement of mi",
+        "abstract": "Many aged individuals accumulate advanced Alzheimers disease (AD) neuropathology without cognitive decline, signifying potent endogenous resilience mechanisms. Mimicking resilience to AD may offer new therapeutic opportunities by emulating endogenous neuroprotection, but the molecular pathways that underpin resilience remain largely unknown. MicroRNAs (miRNAs)--small noncoding RNA molecules that post-transcriptionally regulate gene expression--influence neuronal and glial processes associated with development, aging, and AD neurodegeneration but their role in resilience has not been characterized. We investigated resilience-associated miRNAs and their targeted programs in the dorsolateral prefrontal cortex of post-mortem human brains. We analyzed matched miRNA and messenger RNA (mRNA) expression across resilient, AD, and control subjects from the Religious Order Study and Memory and Aging Project (ROSMAP) cohort. Nine miRNAs were differentially expressed in resilience compared with AD, including previously unreported miR-362-3p and miR-433-3p and new resilience-associated roles for known AD-related miRNAs, including neuronal miR-132-3p and miR-129-5p. By analyzing miRNA activity across AD progression, we found additional cognitive-associated miRNAs (e.g., miR-335-5p and miR-19b) and one plaque-restricted miRNA (miR-199a-5p). Sex-specific miRNA dysregulation was observed: miR-7-5p showed male-specific upregulation in AD versus resilience and suggested sex-specific differences in AD patients. Integrated co-expression and target-enrichment analyses linked resilience-associated miRNAs to pathways that were associated with cognitive decline, including transforming growth factor {beta}, Rho guanosine triphosphatases, and neurotransmitter receptor regulation. We also report restricted co-activity in AD subjects for miR-362-3p with inflammatory pathways, including tumor necrosis factor and Toll-like receptor signaling. These results demonstrate systematic involvement of miR",
         "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.737285v1",
         "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中title/abstract)"
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.04.742870",
+        "title": "A New Frontier in CWD Detection: Antemortem Plasma Biomarkers and Behavioral Profiling in Transgenic Mouse Models",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-10",
+        "is_early_access": true,
+        "authors": [
+          "Seerley Nolan, A. L.",
+          "McElroy, S. D.",
+          "Mace, A. A.",
+          "Grindeland Panter, A. L."
+        ],
+        "abstract": "Chronic Wasting Disease (CWD) is a fatal transmissible spongiform encephalopathy (TSE) that is confined to cervids (deer, moose, elk, and reindeer) but shares key properties with human neurodegenerative conditions such as Alzheimers, Parkinsons, Huntingtons disease and frontal-temporal dementia. CWD and other TSEs are caused by the misfolded prion protein (PrP). Although the identification of diagnostic and prognostic biomarkers at all stages of disease progression is becoming exceedingly critical as CWD continues to increase in prevalence, accurate antemortem testing techniques are extremely limited. This study made use of cervidized transgenic mice (mice carrying the cervid PrP) that recapitulate CWD in various disease stages and investigated the utility of neurological biomarkers and neurobehavioral manifestations for CWD detection. Neurofilament light chain (NFL), glial fibrillary acidic protein (GFAP), and total Tau (t-Tau) were assessed under the hypothesis that combined biomarker signatures might more reliably reflect CWD-related neurodegeneration and disease progression. Analyses at 90, 132, 174, and 230 days post-CWD inoculation show distinct biomarker elevation, with all three biomarkers significantly elevated in the CWD animals by 132 days post-inoculation. To our knowledge, this is the first demonstration that these three plasma biomarkers are useful not only for detecting CWD, but also for identifying it at early antemortem stages of disease. Novel phenotypes were also revealed by comprehensive phenotypic profiling, including rigid tail elevation, increased grip strength, and impaired coordination, to lend further support to plasma biomarker data indicating neurologic impairment associated with brain pathology. Ultimately, the goal is to improve antemortem, non-invasive CWD detection methods to enable earlier detection and assist with disease management.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742870v1",
+        "reasons": [
+          "关键词『Alzheimer、Parkinson、tau、neurodegeneration』(命中abstract)"
         ],
         "is_new": true
       }
