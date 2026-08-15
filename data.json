@@ -1,114 +1,8 @@
 {
-  "date": "2026-08-14",
-  "total": 20,
+  "date": "2026-08-15",
+  "total": 7,
   "feeds": {
-    "突触与学习记忆": [
-      {
-        "doi": "10.1038/s41586-026-10896-8",
-        "title": "Neural basis of compositional control",
-        "journal": "Nature",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Assia Chericoni",
-          "Justin M. Fine",
-          "Taha S. Ismail",
-          "Gabriela Delgado Salazar",
-          "Melissa C. Franch",
-          "Elizabeth Mickiewicz",
-          "Ana G. Chavez",
-          "Eleonora Bartoli",
-          "Danika L. Paulo",
-          "Vaishnav Krishnan",
-          "Mohamed Hegazy",
-          "Alica M. Goldman",
-          "Lu Lin",
-          "Garrett P. Banks",
-          "Nisha Giridharan",
-          "Mohammed Hasen",
-          "Nicole R. Provenza",
-          "Andrew Watrous",
-          "Seng Bum Michael Yoo",
-          "Sameer A. Sheth",
-          "Benjamin Y. Hayden"
-        ],
-        "abstract": "Naturalistic goal-directed behaviour often involves continuous actions directed at dynamically changing goals 1-3 . Just as microeconomics serves as a rigorous foundation for discrete choices, control theory can serve as a foundation for understanding choice in continuous ones 3,4 . In continuous contexts, behaviour is composed of blends of goals, and the closest analogue to choice is a strategic reweighting of goal-specific control policies 5,6 . Here, to understand the algorithmic and neural bases of continuous choice, we examined behaviour and brain activity in humans performing a continuous prey-pursuit task 7 . Using a newly developed control-theoretic decomposition of behaviour, we find that pursuit strategies are well described by a meta-controller dictating a mixture of lower-level controllers, each linked to specific pursuit goals. Neurons in the anterior cingulate cortex predict major changes in policy blends, whereas hippocampal neurons encode and update the latent policy state supporting early planning. Meanwhile, orbitofrontal cortex activity is consistent with an encoding of the current value structure of the task, rather than policy switching. Together these results are consistent with a tripartite functional division in which hippocampus serves as a state-estimating controller, anterior cingulate cortex serves as a meta-controller, and orbitofrontal cortex provides a value context signal.",
-        "url": "https://doi.org/10.1038/s41586-026-10896-8",
-        "reasons": [
-          "关键词『hippocamp』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41586-026-10907-8",
-        "title": "Procognitive restoration of PV neuron plasticity in neurodevelopmental disorders",
-        "journal": "Nature",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Yu-Tzu Shih",
-          "Jason Bondoc Alipio",
-          "Zin-Juan Klaft",
-          "Nathaniel Green",
-          "Alok Nath Mohapatra",
-          "Travis D. Goode",
-          "Muthu Panchanatham",
-          "Devesh Pathak",
-          "Lai Ping Wong",
-          "Ruslan Sadreyev",
-          "Jung Ho Hyun",
-          "Omar Ahmed",
-          "Chris Dulla",
-          "Amar Sahay"
-        ],
-        "abstract": "The hippocampus forms memories of our experiences in populations of coactive pyramidal neurons (PNs) 1-3 . Fast-spiking parvalbumin-expressing inhibitory neurons (PV INs) in the dentate gyrus-CA3/CA2 circuit of the hippocampus precisely control PN activity through mossy fibre-dependent&#xa0;feedforward inhibition 4-11 . PV INs coordinate experience-dependent changes in their intrinsic excitability, synaptic connectivity, physiology and plasticity properties 9,12-15 -referred to here as experience-dependent PV IN plasticity-to regulate PN activity. PV IN&#xa0;impairments in early life, when neural circuitry is highly sensitive to experience, are thought to result in network hyperexcitability, seizures and impaired cognition, which are hallmarks of neurodevelopmental disorders (NDDs) 16-18 . Here we designed an input-specific translatome screen to identify regulators of experience-dependent PV IN plasticity genes (XPGs) in the CA3/CA2 subregion of adult hippocampus. We demonstrate that a substantial proportion of upregulated candidate XPGs exhibit haploinsufficiency in autism spectrum disorder, epilepsies, bipolar disorder and schizophrenia, which suggests that there is impaired experience-dependent PV IN plasticity in NDDs. In proof-of-concept experiments, targeted upregulation of a candidate XPG, the homeobox gene Meis2 (ref. 19 ), in CA3/CA2 PV INs in an NDD risk mouse model in adulthood is sufficient to restore experience-dependent PV IN plasticity. Moreover, ensemble and sharp-wave ripple properties and cognition were improved, and seizures were suppressed. Thus, experience-dependent PV IN plasticity is a convergent mechanism for NDD risk genes that can be&#xa0;re-instated in adulthood to reverse developmental deficits in circuitry, network excitability and cognition.",
-        "url": "https://doi.org/10.1038/s41586-026-10907-8",
-        "reasons": [
-          "关键词『hippocamp』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41593-026-02403-z",
-        "title": "Cross-region neuron co-firing mediated by ripple oscillations supports distributed working memory representations",
-        "journal": "Nature Neuroscience",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Ilya A. Verzhbinsky",
-          "Jonathan Daume",
-          "Sophia Cheng",
-          "Ueli Rutishauser",
-          "Eric Halgren"
-        ],
-        "abstract": "High-frequency (~90-Hz) ripple oscillations may promote integrative processing in mammalian brains. Co-occurrence of ripple oscillations has been associated with enhanced temporal binding of neural activity between nearby human cortical neurons, but whether co-ripple facilitation of neuronal coupling supports cognitive processing or occurs at greater distances remains unclear. Here we analyze intracranial recordings from patients implanted with microwire electrodes in the hippocampus, amygdala, ventromedial prefrontal cortex, anterior cingulate cortex and pre-supplementary motor area, bilaterally, during a working memory task. We demonstrate that ripple rates increase in all recorded regions during encoding, maintenance and retrieval. Co-occurrence of ripples increases between brain regions, associated with ~30% increases in cross-region co-firing, without decrement over distances up to 220&#x2009;mm. Cross-regional co-rippling and associated co-firing scale with memory load during maintenance and retrieval. During retrieval, co-ripples promote reinstatement of stimulus-specific, long-distance co-firing patterns observed during encoding, especially during rapid recognition. Co-occurring ripple oscillations thus coordinate long-range, stimulus-specific neural co-firing supporting distributed representations during human cognition.",
-        "url": "https://doi.org/10.1038/s41593-026-02403-z",
-        "reasons": [
-          "关键词『hippocamp』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.7554/elife.103956",
-        "title": "Human brain-wide activation of sleep rhythms",
-        "journal": "eLife",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Haiteng Wang",
-          "Qihong Zou",
-          "Jinbo Zhang",
-          "Jia-Hong Gao",
-          "Yunzhe Liu"
-        ],
-        "abstract": "During sleep, our brain undergoes highly synchronized activity, orchestrated by distinct neural rhythms. Little is known about the associated brain activation during these sleep rhythms, and even less about their functional implications. In this study, we investigated the brain-wide activation underlying human sleep rhythms by employing simultaneous electroencephalography and functional magnetic resonance imaging in 107 participants during nocturnal naps (first half of the night). We identified robust coupling between slow oscillations (SOs) and fast spindles during deep non-rapid eye movement sleep (N2/3 stages), with spindle peaks consistently occurring just before the SO UP-state. This SO-spindle coupling was linked to elevated activation in both the thalamus and hippocampus, alongside increased functional connectivity from the hippocampus to the thalamus and from the thalamus to the medial prefrontal cortex. An open-ended cognitive state decoding analysis suggested that these activations may relate to episodic memory processes, yet were distinct from task-related networks. Together, these findings highlight the thalamus as a key coordinator of hippocampal–cortical communication during sleep and provide new insights into the mechanisms by which synchronized sleep rhythms may support memory consolidation.",
-        "url": "https://doi.org/10.7554/elife.103956",
-        "reasons": [
-          "关键词『memory consolidation、hippocamp』(命中abstract)"
-        ],
-        "is_new": true
-      }
-    ],
+    "突触与学习记忆": [],
     "神经环路与行为": [
       {
         "doi": "10.1523/jneurosci.0385-26.2026",
@@ -146,59 +40,109 @@
           "关键词『calcium imaging、behavioral』(命中abstract)"
         ],
         "is_new": true
-      },
-      {
-        "doi": "10.1038/s41586-026-10907-8",
-        "title": "Procognitive restoration of PV neuron plasticity in neurodevelopmental disorders",
-        "journal": "Nature",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Yu-Tzu Shih",
-          "Jason Bondoc Alipio",
-          "Zin-Juan Klaft",
-          "Nathaniel Green",
-          "Alok Nath Mohapatra",
-          "Travis D. Goode",
-          "Muthu Panchanatham",
-          "Devesh Pathak",
-          "Lai Ping Wong",
-          "Ruslan Sadreyev",
-          "Jung Ho Hyun",
-          "Omar Ahmed",
-          "Chris Dulla",
-          "Amar Sahay"
-        ],
-        "abstract": "The hippocampus forms memories of our experiences in populations of coactive pyramidal neurons (PNs) 1-3 . Fast-spiking parvalbumin-expressing inhibitory neurons (PV INs) in the dentate gyrus-CA3/CA2 circuit of the hippocampus precisely control PN activity through mossy fibre-dependent&#xa0;feedforward inhibition 4-11 . PV INs coordinate experience-dependent changes in their intrinsic excitability, synaptic connectivity, physiology and plasticity properties 9,12-15 -referred to here as experience-dependent PV IN plasticity-to regulate PN activity. PV IN&#xa0;impairments in early life, when neural circuitry is highly sensitive to experience, are thought to result in network hyperexcitability, seizures and impaired cognition, which are hallmarks of neurodevelopmental disorders (NDDs) 16-18 . Here we designed an input-specific translatome screen to identify regulators of experience-dependent PV IN plasticity genes (XPGs) in the CA3/CA2 subregion of adult hippocampus. We demonstrate that a substantial proportion of upregulated candidate XPGs exhibit haploinsufficiency in autism spectrum disorder, epilepsies, bipolar disorder and schizophrenia, which suggests that there is impaired experience-dependent PV IN plasticity in NDDs. In proof-of-concept experiments, targeted upregulation of a candidate XPG, the homeobox gene Meis2 (ref. 19 ), in CA3/CA2 PV INs in an NDD risk mouse model in adulthood is sufficient to restore experience-dependent PV IN plasticity. Moreover, ensemble and sharp-wave ripple properties and cognition were improved, and seizures were suppressed. Thus, experience-dependent PV IN plasticity is a convergent mechanism for NDD risk genes that can be&#xa0;re-instated in adulthood to reverse developmental deficits in circuitry, network excitability and cognition.",
-        "url": "https://doi.org/10.1038/s41586-026-10907-8",
-        "reasons": [
-          "关键词『neural circuit』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1523/jneurosci.2386-24.2026",
-        "title": "Real-Time Brain-State-Coupled Corticocortical Paired Associative Stimulation of Cognitive Networks",
-        "journal": "Journal of Neuroscience",
-        "published_online": "2026-08-12",
-        "is_early_access": false,
-        "authors": [
-          "D. Blair Jovellar",
-          "Sonia Turrini",
-          "Paolo Belardinelli",
-          "Olivier Roy",
-          "Emiliano Santarnecchi",
-          "Ulf Ziemann"
-        ],
-        "abstract": "Brain networks coordinate distributed neuronal assemblies to support cognition. Spike-timing-dependent plasticity (STDP) and neuronal oscillations are key substractes for state-gated learning rules that shape network coupling and cognitive operations; nonetheless, how STDP mechanisms interact with neuronal oscillations is largely unexplored in humans. Corticocortical paired associative stimulation (ccPAS) provides a noninvasive system-level model of associative timing rules by pairing dual-site transcranial magnetic stimulation (TMS) across axonally connected regions with an interstimulus interval matched to pathway conduction. Here we (1) synthesize ccPAS applications and barriers to brain-state-coupled implementation in cognitive networks; (2) provide an actionable roadmap for real-time state estimation, targeting, and dual-site parameter selection; and (3) demonstrate a novel implementation of theta phase-locked frontoparietal (FP) ccPAS with concurrent EEG in adult human participants. We tested whether ccPAS delivered at the positive phase of ongoing theta (POS) induces distinct changes in evoked EEG activity and FP connectivity compared with phase-uncoupled ccPAS (RAND) and phase-locked single-site prefrontal (PREF) controls. At the evoked level, POS produced a frontocentral polarity reversal of the canonical N45 component and a right parietotemporal negativity relative to both controls. At the network level, POS induced frequency-specific reconfigurations in postintervention connectivity beyond either control ingredient alone. Together, these changes in evoked activity and rapid network reconfiguration provide the first empirical evidence consistent with phase-gated STDP in humans—whereby oscillatory phase gates cortical excitability and modulates STDP efficacy—emerging as short-term network-level expression. Future work will assess long-term plasticity by tracking connectivity at later time points and testing for concomitant behavioral effects.",
-        "url": "https://doi.org/10.1523/jneurosci.2386-24.2026",
-        "reasons": [
-          "关键词『behavioral』(命中abstract)"
-        ],
-        "is_new": true
       }
     ],
     "神经退行性疾病": [
+      {
+        "doi": "10.1038/s41588-026-02709-5",
+        "title": "PLCG2 downregulation impairs synaptic function and increases Alzheimer’s disease hallmarks in neuronal cultures",
+        "journal": "Nature Genetics",
+        "published_online": "2026-08-14",
+        "is_early_access": true,
+        "authors": [
+          "Audrey Coulon",
+          "Florian Rabiller",
+          "Mari Takalo",
+          "Avishek Roy",
+          "Alexandre Pelletier",
+          "Henna Martiskainen",
+          "Dolores Siedlecki-Wullich",
+          "Nina Lannette-Weimann",
+          "Naďa Majerníková",
+          "Arthur Grenon",
+          "Vance Gao",
+          "Anaël Erhardt",
+          "Anne Pernodet",
+          "Morgane Lemaire",
+          "Floriane Limoge",
+          "Pauline Walle",
+          "Tiago Mendes",
+          "Karine Guyot",
+          "Célia Lemeu",
+          "Lukas-Iohan Carvalho",
+          "Ana Raquel Melo de Farias",
+          "Marc Hulsman",
+          "Chloé Najdek",
+          "Alejandra Freire-Regatillo",
+          "Orthis Saha",
+          "Philippe Amouyel",
+          "Camille Charbonnier",
+          "Jean-François Deleuze",
+          "Orio Dols-Icardo",
+          "Heli Jeskanen",
+          "Roosa-Maria Willman",
+          "Teemu Kuulasmaa",
+          "Mitja Kurki",
+          "John Hardy",
+          "Sami Heikkinen",
+          "Henne Holstege",
+          "Petra Mäkinen",
+          "Gaël Nicolas",
+          "Simon Mead",
+          "Michael Wagner",
+          "Alfredo Ramirez",
+          "Tuomas Rauramaa",
+          "Aarno Palotie",
+          "Rebecca Sims",
+          "Hilkka Soininen",
+          "John van Swieten",
+          "Julie Williams",
+          "Céline Bellenguez",
+          "Carla Gelle",
+          "Erwan Lambert",
+          "Marcos R. Costa",
+          "Julia TCW",
+          "Enrico Glaab",
+          "Anne-Marie Ayral",
+          "Florie Demiautte",
+          "Benjamin Grenier-Boley",
+          "Manon Muntaner",
+          "Delphine Eberlé",
+          "Séverine Deforges",
+          "Joel T. Haas",
+          "Devrim Kilinc",
+          "Christophe Mulle",
+          "Julien Chapuis",
+          "Mikko Hiltunen",
+          "Julie Dumont",
+          "Jean-Charles Lambert"
+        ],
+        "abstract": "",
+        "url": "https://doi.org/10.1038/s41588-026-02709-5",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.3389/fnins.2026.1892148",
+        "title": "Retinal neurovascular coupling dysfunction and plasma metabolomic features as biomarkers of Alzheimer’s disease: an integrated diagnostic model",
+        "journal": "Frontiers in Neuroscience",
+        "published_online": "2026-08-14",
+        "is_early_access": true,
+        "authors": [
+          "Pan Xiao",
+          "Yunxia Wang",
+          "Jian Li",
+          "Wangjun Li"
+        ],
+        "abstract": "Objective To explore features associated with impaired retinal neurovascular coupling among individuals diagnosed with Alzheimer’s disease (AD) and its association with alterations in plasma metabolomics, and to establish an integrated diagnostic model for evaluating its possible significance regarding early-stage identification of AD. Methods We prospectively enrolled 85 AD patients, 82 subjects with mild cognitive impairment (MCI), and 83 cognitively normal controls. Retinal vessel density, foveal avascular zone (FAZ) parameters, choriocapillaris flow deficits (CCFDs), ganglion cell layer thickness, and neurovascular coupling index (NVCI) were quantified using optical coherence tomography angiography (OCTA). Untargeted plasma metabolomics was performed via ultra-high-performance liquid chromatography–quadrupole time-of-flight mass spectrometry. Differential metabolites and pathways were identified, followed by correlation, regression, and receiver operating characteristic (ROC) analyses. Results Compared with controls, the AD group showed reduced superficial vascular plexus perfusion density (−7.1%, P < 0.001), enlarged FAZ area (+16.1%, P < 0.001), increased CCFDs (+28.3%, P < 0.001), decreased ganglion cell layer thickness (−18.3%, P < 0.001), and lower NVCI (−12.7%, P < 0.001). Values in the MCI group were intermediate. In metabolomic profiling, AD patients had lower leucine (−17.0%, P < 0.001) and phosphatidylcholine PC(16:0/20:4) (−19.4%, P < 0.001), but higher ceramide d18:1/24:1 (+33.6%, P < 0.001) and ceramide/sphingomyelin ratio (+22.2%, P < 0.001). NVCI positively correlated with leucine ( r = 0.205, q = 0.0011) and negatively with ceramide d18:1/24:1 ( r = −0.139, q = 0.0280). An integrated model combining FAZ area, CCFDs, NVCI, leucine, ceramide d18:1/24:1, and PC(16:0/20:4) discriminated AD from controls with an AUC of 0.908 (95% CI: 0.865–0.952), 83.5% sensitivity, and 88.0% specificity. For predicting MCI-to-AD progression, the AUC was 0.744 (95% CI",
+        "url": "https://doi.org/10.3389/fnins.2026.1892148",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.1038/s41593-026-02398-7",
         "title": "Dendritic translation and neuroproteasome-mediated degradation of endogenous tau revealed by STARFISH",
@@ -214,10 +158,10 @@
           "Zhao Ming",
           "Kapil V. Ramachandran"
         ],
-        "abstract": "",
+        "abstract": "In Alzheimer's disease, the protein tau is thought to redistribute from axons to the somatodendritic compartment and form fibrillar aggregates. Although tau aggregation is a hallmark of Alzheimer's disease, the dynamics of its synthesis and degradation are not well characterized. Given that nascent polypeptides are particularly susceptible to misfolding, local control of tau synthesis and degradation may be essential to prevent aggregation. Here we develop STARFISH, a method for visualizing the subcellular site of endogenous mRNA translation in primary neurons and in vivo with single-molecule sensitivity and near-codon resolution, without modifying the nascent polypeptide. Using STARFISH, we show that despite the broad distribution of Mapt mRNA, tau is translated exclusively in neuronal dendrites. About one-third of newly synthesized tau is co-translationally or peri-translationally degraded in dendrites by a neuronal-specific plasma-membrane-associated proteasome, the neuroproteasome. Failure of neuroproteasome-mediated degradation leads to the protein synthesis-dependent accumulation of somatodendritically mislocalized endogenous tau aggregates. These findings define a proteostasis mechanism that counterbalances the constitutive physiological overproduction of tau. We speculate that failure of this proteostasis system contributes to tau aggregation in dendrites in Alzheimer's disease.",
         "url": "https://doi.org/10.1038/s41593-026-02398-7",
         "reasons": [
-          "关键词『tau』(命中title)"
+          "关键词『Alzheimer、tau』(命中abstract/title)"
         ],
         "is_new": true
       },
@@ -268,225 +212,6 @@
         "url": "https://doi.org/10.1038/s41380-026-03823-w",
         "reasons": [
           "关键词『tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.07.742974",
-        "title": "Targeting CDC42 with CASIN Reprograms Cell Type Specific Transcriptomes and MAPK Driven Transcription Factor Networks in the Aging Brain",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-13",
-        "is_early_access": true,
-        "authors": [
-          "LeeBae, J.",
-          "Bopp, V.",
-          "Moehrle, B.",
-          "Kuehlwein, J.",
-          "Grozdanov, V.",
-          "Kiechle, M.",
-          "Mayer, B.",
-          "Geiger, H.",
-          "Danzer, K. M."
-        ],
-        "abstract": "Background Parkinson disease (PD) is driven by alpha synuclein (alpha syn) aggregation and affects vulnerable dopaminergic and GABAergic neurons, and its incidence rises dramatically with age. In our alpha syn mouse model, motor impairment required both alpha syn oligomers and the aging milieu, and pharmacological inhibition of the age hyperactivated Rho GTPase CDC42 with CASIN fully restored motor function, yet the underlying transcriptional pathways mediating this rescue remain to be elucidated. Methods We used an inducible alpha syn oligomer PD mouse model across three age groups (6, 16, and 24 months) with four conditions per group: alhpa syn non-induced (OFF), induced (ON), and each with CASIN treatment (OFF CASIN, ON CASIN). Brain tissue from one hemisphere (0 to minus 5 mm Bregma) was sequenced using 10x Genomics 3' Chromium, with 3 to 4 mice per condition of both male and female mice. Results snRNA-seq demonstrated that CASIN robustly reverted PD related transcriptional alterations at 24 months whereas aging related changes were strongest at 16 months. Network and pathway analyses identified CASIN's mode of action on two major downstream signaling cascades, MAPK and PI3K/AKT, in the context of aging and MAPK signaling in PD. Conclusion Convergent gene, transcription factor, pathway, and network level evidence points to EGFR, PI3K, MAPK signaling as the axis through which CASIN may restore mitochondrial and synaptic function in PD and aging",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.07.742974v1",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.07.743508",
-        "title": "Mitochondrial Metabolism and Calcium Handling in Parkinson's Disease hiPSC-derived Astrocytes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-13",
-        "is_early_access": true,
-        "authors": [
-          "Cavalcante, G. C.",
-          "Caldeira da Silva, C. C.",
-          "Vogt, E. L.",
-          "Ravagnani, F. G.",
-          "Fulaneto, V. A.",
-          "de Carvalho Aguiar, P.",
-          "Kowaltowski, A. J."
-        ],
-        "abstract": "Parkinson's disease (PD) is the second most common neurodegenerative disorder worldwide, and mutations in the LRRK2 and PRKN genes are among the most common familial causes of the disease. In neurodegenerative diseases such as PD, disturbances in Ca2+; homeostasis and cellular bioenergetics impair the function of neurons and glial cells, contributing to disease progression. These changes are not limited to neurons; mitochondrial dysfunction and disrupted Ca2+ homeostasis in astrocytes are increasingly recognized as key contributors to PD, impairing bioenergetics, redox balance, neuroinflammatory responses, and metabolic support essential for dopaminergic neuron survival. In this study, we investigated mitochondrial calcium homeostasis, mitochondrial oxidative phosphorylation, morphology and distribution in human induced pluripotent stem cell (hiPSC)-derived astrocytes with mutations in the PD genes LRRK2 (G2019S) and PRKN (c.155delA; Ex3-4del) and wild-type controls. Intracellular calcium dynamics were assessed using Fura-2 AM. Compared with control astrocytes, LRRK2-related PD patient-derived mutant astrocytes exhibited lower intracellular calcium levels, and slower calcium extrusion following stimulation with ATP. Mitochondrial morphology was analyzed using MitoTracker Deep Red, revealing increased mitochondrial fragmentation and redistribution of mitochondria toward the cell periphery in both PD mutant cell types. Because oxidative phosphorylation is tightly regulated by mitochondrial morphology and calcium homeostasis, we next assessed oxygen consumption rates using a continuous metabolic monitoring system (Resipher) and quantified the expression of genes (RT-qPCR) and proteins (capillary electrophoresis-based western detection) involved in mitochondrial calcium transport and bioenergetics. These analyses showed that PRKN mutant astrocytes exhibit a more oxidative bioenergetic phenotype than LRRK2 mutant astrocytes, while both mutant lines displayed altered phos",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.07.743508v1",
-        "reasons": [
-          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41467-026-76558-5",
-        "title": "Multiple-layer mesh from electrospinnable amyloid‑like protein and their application in treating oral ulcer",
-        "journal": "Nature Communications",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Juanhua Tian",
-          "Yujia Zhang",
-          "Yan Li",
-          "Yongchun Liu",
-          "Rundong Song",
-          "Shuo Wei",
-          "Ziyu Cao",
-          "Li Xue",
-          "Tie Chong",
-          "Peng Yang"
-        ],
-        "abstract": "",
-        "url": "https://doi.org/10.1038/s41467-026-76558-5",
-        "reasons": [
-          "关键词『amyloid』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1073/pnas.2613258123",
-        "title": "Structure and dynamics of confined water in amyloid protein fibril nanochannels",
-        "journal": "PNAS",
-        "published_online": "2026-08-12",
-        "is_early_access": false,
-        "authors": [
-          "Fiona Mon",
-          "Conor B. Abraham",
-          "John E. Straub"
-        ],
-        "abstract": "Many fibrils of amyloid proteins are characterized by a dense core structure that largely excludes water. However, an increasing number of amyloid fibril structures are observed to contain water channels. Although water in membrane protein channels and pores has been studied, the structure and dynamics of water in amyloid protein fibril nanochannels is largely unexplored. In this computational study, we used molecular dynamics simulations to characterize the structure and dynamics of water inside the water channels of ex vivo human Serum Amyloid A (hSAA), ex vivo murine SAA (mSAA), and ex vivo feline SAA (fSAA) fibrils. Although these proteins are highly homologous, their fibril architectures differ substantially, providing an opportunity to understand how sequence-level variation influences interior water behavior. We find that water within the channels of all three fibrils exhibits damped translational and rotational diffusion relative to bulk water and adopts distinct ordered hydrogen-bonding networks. The water in fSAA and hSAA channels hydrates interior salt-bridges and hydrogen bonds with hydrophilic side chains, suggesting a stabilizing role. Confined water in mSAA channels engages in interactions with both the side chains and backbone of the residues, showing a unique trigonal arrangement and ice-like dynamics that has not been previously reported for confined water. Our results serve to elucidate the structural and dynamical role of water in the interior of amyloid protein fibrils.",
-        "url": "https://doi.org/10.1073/pnas.2613258123",
-        "reasons": [
-          "关键词『amyloid』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41587-026-03281-3",
-        "title": "Author Correction: Circular RNA aptamers targeting neuroinflammation ameliorate Alzheimer disease phenotypes in mouse models",
-        "journal": "Nature Biotechnology",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Xin Feng",
-          "Bo-Wen Jiang",
-          "Si-Nan Zhai",
-          "Chu-Xiao Liu",
-          "Hao Wu",
-          "Bang-Qi Zhu",
-          "Meng-Yuan Wei",
-          "Jia Wei",
-          "Li Yang",
-          "Ling-Ling Chen"
-        ],
-        "abstract": "",
-        "url": "https://doi.org/10.1038/s41587-026-03281-3",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s41380-026-03814-x",
-        "title": "A novel method to disentangle tightly linked risk and resilience genes for brain disorders: application to Alzheimer’s disease",
-        "journal": "Molecular Psychiatry",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Eric J. Barnett",
-          "Jonathan L. Hess",
-          "Jiahui Hou",
-          "Valentina Escott-Price",
-          "Christine Fennema-Notestine",
-          "William Kremen",
-          "Shu-Ju Lin",
-          "Chunling Zhang",
-          "Ditte Demontis",
-          "Anders D. Børglum",
-          "Chris Gaiteri",
-          "Jeremy Elman",
-          "Peter Holmans",
-          "Stephen V. Faraone",
-          "Stephen J. Glatt"
-        ],
-        "abstract": "Genetic risk factors for neuropsychiatric disorders are well documented. However, some individuals with high genetic risk remain unaffected, and the mechanisms underlying such resilience remain poorly understood. The presence of protective resilience factors that mitigate risk could help explain the disconnect between predicted risk and reality, particularly when genetic contributions are substantial but incompletely understood. Identifying and studying resilience factors could improve our understanding of pathology, enhance risk prediction, and inform preventive measures or treatment strategies. However, such efforts are complicated by the difficulty of identifying resilience that is separable from low risk. We developed a novel adversarial multi-task neural network model to detect genetic resilience markers. The model learns to separate high-risk unaffected individuals from affected individuals at similar risk while \"unlearning\" patterns found in low-risk groups using adversarial learning. In simulated and existing Alzheimer's disease (AD) datasets, we identified markers of resilience with a feature-importance-based approach that prioritized specificity, generated resilience scores, and analyzed associations with polygenic risk scores (PRS). In simulations, our model had high specificity and sensitivity in identifying resilience markers, significantly outperforming traditional approaches. Applied to AD data, the model generated genetic resilience scores protective against AD and independent of PRS. We identified five resilience-associated SNPs, including known AD-associated variants, underscoring their potential involvement in resilience. Our findings support the utility of resilience scores in modifying risk predictions, particularly for high-risk groups. Expanding this method could aid in understanding resilience mechanisms, potentially improving diagnosis, prevention, and treatment strategies for AD and other brain disorders.",
-        "url": "https://doi.org/10.1038/s41380-026-03814-x",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.3389/fnins.2026.1813556",
-        "title": "Assessing microglial phagocytosis of apoptotic neurons in vitro: a multimodal approach",
-        "journal": "Frontiers in Neuroscience",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Anthony Mukwaya",
-          "Zhuoran Yin",
-          "Ryan Yarcusko",
-          "George Baldwin",
-          "Nasir Uddin",
-          "Harshini Venkat",
-          "Yixi Xue",
-          "Natalia S. Van Arnam",
-          "Hio Tong Kam",
-          "Dong Feng Chen",
-          "Susanne Krasemann",
-          "Anton Lennikov",
-          "Milica A. Margeta"
-        ],
-        "abstract": "Microglia are the resident immune cells of the central nervous system, responsible for defending against infections, responding to tissue damage, and maintaining homeostasis. Dysregulation of their phagocytic activity has been implicated in many neurodegenerative diseases of the brain and the eye, including Alzheimer's disease, multiple sclerosis, glaucoma, and age-related macular degeneration. Past work has shown that brain and retinal microglia switch to a disease-associated molecular phenotype (DAM) following phagocytosis of apoptotic neurons in vivo , but it is technically challenging to perform these assessments and isolate phagocytic cells for downstream analysis. Although several protocols exist for isolating and culturing microglia to evaluate their phagocytic activity in vitro , these approaches often fail to mimic the pathophysiology of neurodegeneration, where dysregulated phagocytosis of damaged or apoptotic neurons is a key feature. Here we describe a protocol for evaluating phosphatidylserine-mediated phagocytosis by primary mouse brain microglia in vitro . The procedure involves isolating primary mouse brain microglia, inducing apoptosis in a feeder neuronal cell line, labeling apoptotic cells with a fluorescent dye, feeding the labeled cells to the microglia, and analyzing phagocytosis using several complementary approaches. This protocol enables an accessible and high-throughput assessment of microglial phagocytic activity using a biologically relevant stimulus, offering improved insights into the regulation of this critical immune process in a disease-relevant context.",
-        "url": "https://doi.org/10.3389/fnins.2026.1813556",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.09.04.674192",
-        "title": "APOE4 promotes cerebrovascular fibrosis and amyloid deposition via a pericyte-to-myofibroblast transition",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Schuldt, B. R.",
-          "Haworth-Staines, D.",
-          "Perez-Arevalo, A.",
-          "Broekaart, D. W. M.",
-          "Harlock, A.",
-          "Wang, L.",
-          "Bright, A.",
-          "Gallagher, G.",
-          "Rabinowitz, G.",
-          "Goate, A. M.",
-          "Raj, T.",
-          "Pereira, A. C.",
-          "Blanchard, J. W."
-        ],
-        "abstract": "Cerebrovascular disease is a major but poorly understood feature of Alzheimer's disease (AD). The strongest genetic AD risk factor, APOE4, is associated with cerebrovascular degeneration, including vascular amyloid deposition and fibrosis. To uncover how APOE4 promotes cerebrovascular pathology, we assembled a single-cell transcriptomic atlas of human brain vasculature. In APOE4 carriers, pericyte abundance was significantly reduced and accompanied by the emergence of a myofibroblast-like cell population co-expressing contraction and extracellular matrix genes. Immunostaining confirmed non-vascular myofibroblasts in APOE4 human and mouse brains. We show that APOE4 pericytes transition into myofibroblasts that secrete fibronectin, which promotes vascular amyloid accumulation. Computational and experimental analyses identified elevated TGF-{beta} signaling as the driver of this pericyte-to-myofibroblast transition. Inhibition of TGF-{beta} restored pericyte coverage and reduced vascular fibrosis and amyloid to APOE3 levels, revealing a targetable mechanism linking APOE4 to cerebrovascular pathology in AD.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.09.04.674192v2",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.05.27.728228",
-        "title": "Hindmarsh-Rose neuronal network with spike-timing-dependent plasticity demonstrates coordinated reset neuromodulation for Parkinson's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-12",
-        "is_early_access": true,
-        "authors": [
-          "Sharafi, S.",
-          "Gilmer, J.",
-          "Al Borno, M.",
-          "Uchida, T. K."
-        ],
-        "abstract": "Computational models of brain structures impacted by Parkinson's disease are useful for studying pathological synchronization and exploring potential therapies. We use the Hindmarsh-Rose neuronal model to simulate synchronized activity in the subthalamic nucleus, capturing key features of the pathological rhythms observed in Parkinson's disease. Our model incorporates chemical synapses whose strengths evolve according to a spike-timing-dependent plasticity (STDP) rule. We apply coordinated reset stimulation with rapidly varying sequences (RVS CR) and examine its ability to weaken synaptic weights, thereby reducing neuronal synchrony. This stimulation technique delivers phase-shifted stimuli to distinct sites in a random sequence. We explore how stimulation frequency and the number of stimulation sites affect the efficacy of RVS CR at desynchronizing the network and observe good agreement with previous studies. We demonstrate that RVS CR efficacy is sensitive to the depression-to-potentiation ratio in the STDP rule, which may be an important parameter to tune when reconciling simulations with experimental data. Numerical simulation of neuronal networks is constrained by computational resources when models demand large networks. This work proposes a model that demonstrates similar utility with a relatively small network, enabling researchers to study pathological neuronal activity and treatments more efficiently.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728228v2",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
         ],
         "is_new": true
       }
