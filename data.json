@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-20",
-  "total": 23,
+  "date": "2026-08-21",
+  "total": 21,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [
@@ -30,6 +30,37 @@
         "url": "https://doi.org/10.1038/s41586-026-10928-3",
         "reasons": [
           "关键词『neural circuit』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1038/s41586-026-10900-1",
+        "title": "Asymmetric prefrontal representations for leader–follower dynamics",
+        "journal": "Nature",
+        "published_online": "2026-08-19",
+        "is_early_access": true,
+        "authors": [
+          "Yuan Cheng",
+          "Yusi Chen",
+          "Myungji Kwak",
+          "Ross P. Kempner",
+          "Rudramani Singha",
+          "Jared Winslow",
+          "Runqi Liu",
+          "Umais Khan",
+          "Tessa Spangler",
+          "Alvi Khan",
+          "Talmo Pereira",
+          "Matthew Whiteway",
+          "Evan S. Schaffer",
+          "Nuttida Rungratsameetaweemana",
+          "Nan Yang",
+          "Herbert Zheng Wu"
+        ],
+        "abstract": "Across species, cooperative behaviour is often organized by distinct social roles such as leaders and followers 1 , yet the neural mechanisms that support these emergent role dynamics remain unclear. Here we introduce a mouse paradigm that captures leader-follower dynamics during cooperation. In this paradigm, stable social roles emerge through reciprocal interaction and predict learning speed. Disrupting the activity of the medial prefrontal cortex (mPFC), particularly in followers, impairs cooperation and induces complementary shifts in how animals weigh self- and partner-related cues during decision-making. Calcium imaging reveals that the mPFC represents leader-follower dynamics and computes an egocentric social value map of the partner's position in a role-dependent manner. By integrating these empirical findings with a multi-agent inverse reinforcement learning framework, we identify latent value functions that guide cooperative decisions and are decodable from mPFC activity. These findings identify prefrontal representations of leader-follower dynamics and partner information, revealing how social roles structure asymmetric yet reciprocal influence over joint decisions.",
+        "url": "https://doi.org/10.1038/s41586-026-10900-1",
+        "reasons": [
+          "关键词『calcium imaging』(命中abstract)"
         ],
         "is_new": true
       },
@@ -78,6 +109,128 @@
       }
     ],
     "神经退行性疾病": [
+      {
+        "doi": "10.3389/fnins.2026.1912268",
+        "title": "Retinoic acid-related orphan receptor alpha (RORα) as a candidate multi-pathway target in Alzheimer’s disease: mechanisms and therapeutic prospects",
+        "journal": "Frontiers in Neuroscience",
+        "published_online": "2026-08-20",
+        "is_early_access": true,
+        "authors": [
+          "Shivakanth Chintalapally",
+          "Kalpana Rajanala",
+          "Arun Upadhyay"
+        ],
+        "abstract": "The development of Alzheimer disease (AD) involves a cluster of pathogenic processes, including amyloid-beta (Aβ) deposition, tau-mediated neurodegeneration, chronic neuroinflammation, oxidative stress (OS), metabolic dysregulation, and disruption of circadian rhythms. Nuclear hormone receptor, Retinoic Acid-Related Orphan Receptor Alpha (RORα) was shown to regulate multiple neuroprotective pathways such as inflammatory signaling (NF-κB suppression), mitochondrial integrity and mitophagy, redox homeostasis [upregulation of glutathione peroxidase 1 (GPX1), and mitochondrial superoxide dismutase 2, (SOD2)], calcium-dependent synaptic architecture [inositol 1,4,5-trisphosphate receptor type 1 (ITPR1), Purkinje cell protein 4 (PCP4)], and circadian rhythm stability [period 2 (PER2), brain and muscle ARNT-like 1 (BMAL1)]. Multi-omics network analyses place RORα within regulatory networks that are co-associated with key AD-related genes and supports an associational, network-based relationship for RORA . Preclinical gene-augmentation studies using adeno-associated viral vectors report that RORα overexpression reduces APP levels, remodels the complement regulator CD59 glycoprotein (CD59), inhibits OS, and enhances neuronal survival, although these effects were established largely in retinal and other non-AD systems. These findings support the potential of RORA as a therapeutic target through genetic intervention, but direct demonstration of AD-modifying efficacy in-vivo is still lacking. Investigational RORA -focused gene therapy in retinal degenerative diseases provides proof-of-concept for, but does not yet establish, applicability within the central nervous system. Taken together, this evidence nominates RORA as a candidate system-level regulator that may help restore disrupted homeostatic transcriptional networks in AD, a hypothesis that remains to be tested. We propose that RORα functions as a transcriptional hub coupling three homeostatic axes that fail in AD; the ci",
+        "url": "https://doi.org/10.3389/fnins.2026.1912268",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.15.745002",
+        "title": "STAT1 sets microglial neutral-lipid content independently of lipid-handling transcriptional programs",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-20",
+        "is_early_access": true,
+        "authors": [
+          "El Mesaoudi, A.",
+          "Lundby, J. M. B.",
+          "De Jong, N.",
+          "Luo, Y.",
+          "Lin, L.",
+          "Kim, D. W."
+        ],
+        "abstract": "Inflammatory activation and lipid remodeling are linked features of microglial states, but how inflammatory transcription factors shape microglial lipid handling is unclear. Here we show that STAT1 sets neutral-lipid content in microglia through a route not predicted by lipid-handling transcription. Acute STAT1 depletion in primary microglia lowered neutral-lipid content while lipid-uptake and lipid-storage programs were induced, and interferon-{gamma} activation moved inflammatory transcription in the opposite direction yet lowered lipid content alike. Single-cell transcriptomic and chromatin profiling of Stat1- and Irf1-deficient mice showed that STAT1 and IRF1 organize overlapping inflammatory and lipid-handling programs, with genome-wide accessibility changes that did not predict transcriptional output at individual lipid-handling loci. Microglia co-expressing STAT1 and APOE recurred across Alzheimer's disease and multiple sclerosis datasets. Transcriptional program engagement is therefore separable from cellular lipid state, and lipid-handling gene expression cannot be read as a proxy for microglial lipid content.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.745002v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.15.745006",
+        "title": "Population-specific transcriptional-state remodeling of cortical and hypothalamic neurons in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-20",
+        "is_early_access": true,
+        "authors": [
+          "Sejer, S.",
+          "Pedersen, M.",
+          "Lundby, J. M. B.",
+          "De Jong, N.",
+          "Kim, D. W."
+        ],
+        "abstract": "Selective neuronal vulnerability shapes Alzheimer's disease, but it is commonly inferred from changes in the relative representation of neuronal populations rather than from molecular changes within those populations. We mapped both dimensions across disease progression in amyloid, tau, and combined amyloid-tau mouse models, extended the analysis to cortex and hypothalamus in an independent tau model, and tested the resulting framework in human Alzheimer's disease. Populations with similar reductions in representation showed markedly different degrees of molecular remodeling, while substantial state changes also occurred in populations whose representation remained close to wild type. Disease altered excitability, synaptic, and regulatory programs and reshaped the distribution of cellular states within matched neuronal identities. A particularly recurrent excitatory state linked CAMKK2-AMPK signaling with microtubule regulation. It expanded in glutamatergic populations early in the combined amyloid-tau model, but its direction was not fixed: the same state reversed with age in dentate granule-like neurons and was reduced in corticothalamic neurons of an independent tau model. Remodeling extended beyond cortex to hypothalamic Hdc-positive tuberomammillary neurons, which showed focused excitability-associated changes despite representation close to wild type. In human Alzheimer's disease, remodeling was strongest in several deep-layer and RORB-positive excitatory populations independently associated with vulnerability. The CAMKK2-AMPK-associated state was predominantly reduced rather than increased. An independently defined human depletion-associated neuronal identity instead overlapped other synaptic and calcium-signaling components of the same broader remodeling architecture. Neuronal involvement in Alzheimer's disease is therefore expressed as structured, population-specific remodeling of molecular state, extending across cortical and hypothalamic identities and on",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.745006v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.15.744687",
+        "title": "Biomarker Fidelity Score - A Quantitative Framework for Individual-Level Validation of Explainability Methods in 3D Alzheimer's Disease MRI Classification",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-20",
+        "is_early_access": true,
+        "authors": [
+          "Lepcha, D. C.",
+          "Ali, A.",
+          "Martin, S. A.",
+          "Syed-Abdul, S."
+        ],
+        "abstract": "Explainability methods applied to deep learning models for Alzheimer's disease neuroimaging produce attribution maps that vary substantially across methods and architectures, yet no validated quantitative framework exists for determining which method most faithfully localises attribution signal within established AD biomarker anatomy at the individual subject level. Existing validation approaches rely on group-level comparisons or qualitative visual inspection, leaving individual-level biomarker alignment uncharacterised. We introduce the Biomarker Fidelity Score (BFS), a quantitative tool measuring spatial overlap between individual-level 3D explainability attention maps and atlas-registered AD-relevant neuroimaging ROIs across thirteen anatomically defined structures including hippocampus, entorhinal cortex, amygdala, and parahippocampal gyrus. Five explainability methods (GradCAM++, Integrated Gradients, DeepSHAP, LRP, ScoreCAM) were benchmarked across three volumetric architectures (3D ResNet-18, DenseNet-121, Swin-UNETR) on 327 balanced ADNI-3 subjects. Integrated Gradients achieved the highest BFS across all architectures while GradCAM++ consistently showed the lowest biomarker alignment (all p<0.001, Friedman test). The complete BFS pipeline replicated these rankings without retraining on 207 independent OASIS-3 subjects, with maximum absolute difference of 0.0005 across all fifteen method-architecture combinations and Spearman rank correlation of 0.964 between cohort rankings. By offering an externally validated, individual-level, biomarker-grounded quantitative standard, BFS equips clinicians and AI developers with practical guidance for selecting trustworthy explainability methods in AD neuroimaging.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.744687v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.15.745015",
+        "title": "Targeting Astrocytic Stat3 Reveals Context-Dependent Modulation of Prion Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-20",
+        "is_early_access": true,
+        "authors": [
+          "Makarava, N.",
+          "Pandit, N. P.",
+          "Mychko, O.",
+          "Molesworth, K.",
+          "Safadi, T.",
+          "Bocharova, O.",
+          "Baskakov, I. V."
+        ],
+        "abstract": "Reactive astrogliosis is a prominent feature of prion diseases, yet the molecular mechanisms regulating astrocyte activation and their contribution to disease progression remain poorly understood. Signal transducer and activator of transcription 3 (Stat3) is a master regulator of reactive astrocytes in numerous neurological disorders, but its role in prion disease has not been established. Here, we investigated the contribution of astrocytic Stat3 signaling to prion pathogenesis using an inducible astrocyte-specific Stat3 knockout mouse model. Stat3 expression was elevated across multiple neuroinflammatory conditions but was most strongly induced during prion disease. Among four mouse-adapted prion strains (ME7, RML, 22L, and SSLOW), the magnitude of Stat3 activation closely paralleled the severity of neuroinflammation. Astrocyte-specific Stat3 deletion was evaluated in mice infected with either the highly inflammatory SSLOW strain or the less inflammatory 22L strain. Stat3 deletion had no detectable effect on disease progression in SSLOW-infected mice but modestly delayed disease onset and behavioral decline in male mice infected with the 22L strain, particularly when knockout was induced before prion inoculation. Despite its limited effect on survival, astrocyte-specific Stat3 deletion consistently attenuated astrocyte reactivity, as evidenced by reduced vimentin expression, delayed cortical GFAP induction, and lower GFAP expression in recombined astrocytes at the single-cell level, demonstrating a cell-autonomous role for Stat3 in promoting reactive astrogliosis. In contrast, PrPSc accumulation and overall microglial activation remained unchanged, indicating that astrocytic Stat3 signaling is dispensable for prion replication and does not substantially influence the global microglial response. Tamoxifen-induced recombination occurred in only 40-70% of astrocytes, resulting in partial and region-dependent Stat3 deletion that likely underestimated the impact of ast",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.745015v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.15.741912",
+        "title": "Disruptions in glucose and amyloid-beta transport in mouse models manifesting metabolic syndrome",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-20",
+        "is_early_access": true,
+        "authors": [
+          "Wang, L.",
+          "Curran, G. L.",
+          "Gali, C. C.",
+          "Zhou, A. L.",
+          "Min, P. H.",
+          "Lowe, V. J.",
+          "Kandimalla, K. K."
+        ],
+        "abstract": "Studies in humans and murine models have pointed towards a possible link between metabolic syndrome, which shows insulin resistance and metabolic dysregulation, and Alzheimer's disease (AD) pathology marked by amyloid-beta (A{beta}) accumulation and hypometabolism in the brain. Yet, the underlying biological mechanisms by which metabolic syndrome affects these pathological changes in AD brain remain unknown. We hypothesized that insulin resistance is responsible for alterations in blood-brain barrier (BBB) transport of A{beta} peptides and glucose. This hypothesis was tested by employing radiolabeled ligands (125I-A{beta}40, 125I-A{beta}42, and 18F-FDG) in high-fat diet (HFD)-fed mouse models that manifest metabolic syndrome. Further, we assessed alterations in the expression of various molecular mediators within the brain microcapillaries harvested from both low-fat diet (LFD)-fed and HFD-fed mice. Our findings show that HFD-fed mice developed peripheral insulin resistance and obesity. In addition, HFD-fed mice demonstrated an increase in the influx rate of A{beta} peptides and a reduction in 18F-FDG (a glucose surrogate) influx rate compared to LFD-fed mice. These transport changes are associated with the increase in the BBB endothelial expression of RAGE (receptor to traffic A{beta} from plasma-to-brain) and reduction of GLUT1 (glucose transporter) expression in HFD-fed mice compared to LFD-fed mice. Moreover, disruption in insulin signaling, as indicated by reduced pAKT and pERK expression, was observed in HFD-fed mice. Inhibiting AKT or ERK phosphorylation resulted in similar changes in A{beta} and glucose uptake in polarized BBB endothelial cell monolayers in vitro. These results indicate that high-fat diet induced metabolic syndrome may lead to BBB dysfunction, characterized by increased plasma-to-brain A{beta} trafficking and diminished glucose transport at the BBB, thereby aggravating the expression of AD pathological hallmarks.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.741912v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.1038/s41586-026-10924-7",
         "title": "An Icelandic pangenome reference",
@@ -138,10 +291,10 @@
           "Didac Vidal-Piñeiro",
           "Yunpeng Wang"
         ],
-        "abstract": "",
+        "abstract": "Alzheimer's disease is now defined by underlying pathology, with elevated amyloid-beta (A&#x3b2;) sufficient for diagnosis in the absence of cognitive symptoms. We combined longitudinal magnetic resonance imaging and A&#x3b2; positron emission tomography data from three cognitively healthy cohorts to examine cortical thickness trajectories in individuals who later converted to A&#x3b2;-positive status, using magnetic resonance images acquired years before conversion. Individuals who subsequently developed elevated A&#x3b2; showed a thicker cortex and reduced cortical thinning, detectable up to 7&#x2009;years before conversion. Many effects persisted after accounting for quantitative A&#x3b2; levels, suggesting some cortical thickness changes may be partly independent of A&#x3b2;. Differences in cortical thickness and its change showed moderate spatial correspondence with A&#x3b2; deposition patterns, and the timing of thickness changes tracked the progression of A&#x3b2; accumulation. These findings indicate that cortical thickness alterations can precede positron emission tomography-detectable amyloid positivity by several years, suggesting high amyloid burden may not represent the earliest imaging marker of Alzheimer's disease.",
         "url": "https://doi.org/10.1038/s41593-026-02363-4",
         "reasons": [
-          "关键词『amyloid』(命中title)"
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
         ],
         "is_new": true
       },
@@ -359,218 +512,6 @@
         "url": "https://www.biorxiv.org/content/10.1101/2024.05.15.594309v4",
         "reasons": [
           "关键词『Parkinson、alpha-synuclein、neurodegeneration』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1038/s44318-026-00897-8",
-        "title": "Disease-specific tau polymorphs are associated with unique protein networks across proteinopathies",
-        "journal": "EMBO Journal",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Nicha Puangmalai",
-          "Nemil Bhatt",
-          "Nopparat Suthprasertporn",
-          "Ernesto G Miranda-Morales",
-          "Nikita Shchankin",
-          "Madison Samples",
-          "Ahmet E Balci",
-          "Jia Yi Liew",
-          "Mauro Montalbano",
-          "Yingxin Zhao",
-          "Rakez Kayed"
-        ],
-        "abstract": "Abstract Tau protein aggregates adopt distinct conformations across tauopathies, yet the protein interactions engaged by disease-specific polymorphs remain poorly characterized. Here, we demonstrate that conformationally distinct tau polymorphs associate with disease-specific interaction networks across Alzheimer’s disease (AD), progressive supranuclear palsy (PSP), and dementia with Lewy bodies (DLB). Interactome profiling of tau aggregates from PBS- and sarkosyl-soluble brain fractions identified 493 high-confidence interactors exhibiting remarkable disease specificity. As an exploratory feature discovery machine learning classification discriminated against diseases using as few as four to six protein features. AD tau selectively engaged glycolytic enzymes, TCA cycle components, and glutamate/GABA cycling machinery, with the astrocytic transporter SLC1A2 showing 27-fold enrichment. PSP tau exhibited extensive interactor depletion alongside selective proteasome enrichment, whereas DLB tau associated with neurogenesis modulators while depleting neuroinflammatory mediators. Interaction patterns were corroborated by parallel reaction monitoring mass spectrometry and proximity ligation assays and corresponded to disease-specific post-translational modification profiles. These findings show that tau polymorph conformations are associated with disease-specific interaction networks, providing molecular insight into tauopathy heterogeneity.",
-        "url": "https://doi.org/10.1038/s44318-026-00897-8",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.12.744516",
-        "title": "Clinically Relevant Biomarkers of Alzheimer's Disease Are Associated with Age and Cortical Atrophy in Chimpanzees (Pan troglodytes)",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Mulholland, M.",
-          "Magden, E. R.",
-          "Achorn, A. M.",
-          "Mangin, J.-F.",
-          "Hopkins, W. D."
-        ],
-        "abstract": "Chimpanzees share a number of age-related brain changes with humans, such as reductions in neurons and increases in neuropathology. To date, there are no published studies of peripheral biomarkers related to Alzheimer's pathology and their associations with age and cortical atrophy in chimpanzees. Here we examined cross-sectional differences and longitudinal changes in biomarkers of pathological protein aggregation, neuroinflammation, and microglial function measured in serum. We examined the relationships between biomarkers and clinically relevant biomarker ratios with both age and cortical atrophy. We found linear and quadratic relationships between age and several biomarkers and ratios. Most biomarkers increased with age. While controlling for sex, we found significant negative associations between age and sulci surface area, mean depth, and gray matter thickness and a positive association with fold opening. A{beta}42 and A{beta}40 showed higher biomarker values associated with lower surface area, mean depth, and gray matter thickness and higher fold opening values. The clinically relevant biomarker ratios were also associated with cortical atrophy-A{beta}42/A{beta}40 was negatively associated with gray matter thickness, and pTau217/A{beta}42 (both total and brain-derived) was positively associated with surface area and gray matter thickness and negatively associated with fold opening. Consistent with our hypotheses and previous findings in humans, many peripheral biomarkers associated with neurodegeneration and Alzheimer's disease increase as chimpanzees age. We believe this is the first evidence demonstrating an association between these clinically relevant biomarkers of Alzheimer's disease and phenotypes of brain aging in nonhuman primates, underscoring their importance as models of aging and neurodegenerative disease.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.12.744516v1",
-        "reasons": [
-          "关键词『Alzheimer、tau、neurodegeneration』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.02.742293",
-        "title": "Anisotropic conductivity modeling for tDCS in Parkinson's disease using multidimensional diffusion MRI",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Osorio Jurado, S.",
-          "Skorpil, M.",
-          "Svenningsson, P.",
-          "Moreno, R.",
-          "Olsson, C."
-        ],
-        "abstract": "Transcranial direct current stimulation (tDCS) dose depends on how brain conductivity is modeled. White matter anisotropy is conventionally estimated from single-shell diffusion tensor imaging (DTI). Multidimensional diffusion MRI (MD-dMRI), specifically q-space trajectory imaging (QTI), instead gives a mean tensor expected to carry less kurtosis bias. Our primary question was whether replacing the conventional single-shell tensor with this mean tensor would change the predicted field. We built, to our knowledge, the first MD-dMRI tDCS conductivity model and compared it against DTI and isotropic models in 29 participants (12 with Parkinson's disease, 17 controls) across four montages, with the same mesh, electrodes, and solver. The three models agreed within a few percent. The two anisotropic models differed mainly in tensor orientation (about 21 degrees in white matter), with small differences in field magnitude. Field did not differ between patients and controls in any region or montage (which was an exploratory, underpowered comparison). Whole-brain electric field correlated with MR elastography stiffness (partial r = +0.58) but attenuated to non-significance once cerebrospinal fluid morphology was accounted for (r = +0.06 to +0.09). With no ground-truth field or conductivity available, the study establishes the feasibility of the MD-dMRI model and characterizes field sensitivity rather than improved dosimetry accuracy. The choice of diffusion tensor is second order for dose, which is primarily influenced by individual anatomy. For Parkinson's disease, modeling efforts should focus on cerebrospinal fluid- and atrophy-aware head models and dose normalization, rather than a more complex diffusion tensor.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.02.742293v2",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744293",
-        "title": "Reduced entropy of subthalamic beta bursts predicts freezing of gait in Parkinson's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Beaudoin, C. A.",
-          "O'Keeffe, A. B.",
-          "Abdi-Sargezeh, B.",
-          "Gillies, M. J.",
-          "Oswal, A.",
-          "Green, A. L."
-        ],
-        "abstract": "Background: Freezing of gait (FOG) in Parkinson's disease is associated with abnormal beta activity in the subthalamic nucleus (STN), but the temporal structure of burst dynamics remains poorly understood. Objectives: To determine whether temporal features of STN beta bursts distinguish pre-freeze from stable gait and predict freezing onset. Methods: STN recordings during gait from four individuals were analyzed. Temporal features of burst timing, including entropy and variability, were computed across behavioral states. Predictive performance was assessed using leave-one-patient-out classifiers. Results: Entropy of inter-burst intervals was reduced prior to freezing (p < 0.01), with strong predictive performance (AUC = 0.825; threshold AUC = 0.858). During freezing, variability measures decreased and temporal structure increased, while entropy did not differ from pre-freeze. Phase-amplitude coupling showed frequency-specific but heterogeneous effects across comparisons. Conclusions: Reduced temporal variability of STN beta burst timing precedes and predicts freezing, suggesting a transition to constrained neural dynamics.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744293v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744723",
-        "title": "Altered microglial communication in brains with Alzheimer's Disease pathology",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "dos Santos, L.",
-          "A. Vialle, R.",
-          "Comandante-Lou, N.",
-          "Green, G. S.",
-          "Wang, Y.",
-          "Tasaki, S.",
-          "Habib, N.",
-          "Menon, V.",
-          "De Jager, P.",
-          "Raittz, R. T.",
-          "Bennett, D. A.",
-          "de Paiva Lopes, K."
-        ],
-        "abstract": "Microglia are the resident immune cells of the central nervous system and are highly versatile, continuously monitoring the brain microenvironment with their motile processes and responding to perturbations in diverse ways. Recent studies have revealed substantial functional heterogeneity among microglial states, suggesting that analyzing individual subpopulations is essential to capture specialized signaling programs and disease-associated interactions that would otherwise be obscured in bulk analyses. To better understand how these cells interact, we performed a ligand-receptor communication analysis using single-nucleus RNA sequencing data from the dorsolateral prefrontal cortex, comprising 16 microglial subpopulations together with other myeloid cells identified in brain tissue, including macrophages and monocytes. We characterized the signaling roles of these cell populations, compared individuals with and without neuropathologically defined Alzheimer's disease, and associated cell-pair interactions with AD-related clinical and neuropathological traits. We found that AD was characterized by altered microglial composition and rewiring of intercellular communication, including disease-specific signaling pathways and distinct interaction hubs. Lipid-associated microglia were associated with tau pathology, whereas nuclear receptor signaling microglia were linked to hippocampal sclerosis. These findings were replicated in three independent datasets. Overall, this work provides an initial but comprehensive map of microglial communication in the aging human brain and identifies candidate signaling interactions for future functional validation.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744723v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744357",
-        "title": "Ex vivo activation unmasks a sex-convergent, exhaustion-associated CD8+ T cell expansion in Parkinson's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Grandke, F.",
-          "Diener, C.",
-          "Becher, B.",
-          "Becker, A.",
-          "Ludwig, N.",
-          "Walch-Rückheim, B.",
-          "Tänzer, T.",
-          "Dillmann, K.-U.",
-          "Hart, M.",
-          "Unger, M.",
-          "Fassbender, K.",
-          "Meese, E.",
-          "Keller, A."
-        ],
-        "abstract": "Parkinson's disease (PD) affects an estimated 6.4 million men and 5.3 million women worldwide, and still lacks a validated peripheral biomarker. Brain tissue is inaccessible in living patients, making peripheral blood an attractive alternative, but existing studies have profiled immune cells almost exclusively as static, resting-state snapshots that cannot reveal how those cells function under challenge. A longitudinal design, following patients over time, or applying a controlled stimulus to reveal functional differences invisible at rest, offers a more sensitive window onto disease-associated dysfunction, and sex, despite differential PD incidence and progression, is rarely treated as a primary variable. Here, using ex vivo PMA/ionomycin stimulation as a controlled functional challenge, we profiled 195k PBMCs from 84 samples of 14 PD patients and 14 controls by single-cell RNA sequencing across an activation time course (0h, 2h, 4h), stratified by sex throughout. Sex explained more transcriptional variance than disease status, and male and female PD patients showed largely divergent responses at rest that converged, by peak activation, on a discrete CD8+ effector memory T cell subpopulation (Tem-CD8). This subpopulation showed an exhaustion-consistent programme, coinciding with a failure to resolve AP-1 induction and a reduction in inferred intercellular communication. The PD peripheral immune phenotype is therefore better characterised as a activation-dependent response than a fixed resting-state signature, identifying Tem-CD8 exhaustion as a disease-associated, sex-convergent candidate for further study.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744357v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744719",
-        "title": "Parietal Cortex Transcriptomics Refines Parkinson Disease GWAS Nomination and Highlights STAT3 as a Putative Upstream Glial Regulator",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Alfradique-Dunham, I.",
-          "Sanford, J.",
-          "Liu, M.",
-          "Perrin, R. J.",
-          "Franklin, E. E.",
-          "Norris, S.",
-          "Kotzbauer, P. T.",
-          "Perlmutter, J. S.",
-          "Budde, J. P.",
-          "Cruchaga, C.",
-          "Ibanez, L.",
-          "Minaya, M."
-        ],
-        "abstract": "Parkinson disease (PD) affects more than 1.1 million individuals in the United States and around 12 million worldwide. Although Genome Wide Association Studies (GWAS) have substantially advanced our understanding of PD genetic architecture, the regulatory mechanisms linking PD risk loci to disease-relevant gene expression remain incompletely characterized, limiting our ability to infer disease mechanisms from genetic associations. Here, we integrated disease-state parietal cortex transcriptomics with the International Parkinson's Disease Genomics Consortium (iPDGC) locus prioritization to refine PD gene nomination and identify biologically plausible candidates missed by GWAS-only approaches. Using bulk RNA-seq from 99 neuropathologically confirmed PD cases and 30 neuropathologically confirmed controls, we prioritized candidate genes across 78 loci and classified them according to concordance between genetic evidence and differential expression in diseased cortices. This integrative approach recovered candidate genes not captured by external GWAS-based prioritization methods and highlighted synaptic, lysosomal, and proteostasis pathways as major components of PD risk biology. Network and transcription factor analyses further suggested coordinated regulation of these genes, with STAT3 emerging as a putative upstream glial regulator. Together, these findings suggest that integrating disease-state transcriptomics with genetic prioritization can refine PD risk-gene nomination and uncover regulatory programs that may be missed by GWAS alone.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744719v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.12.744193",
-        "title": "Myelin maturation failure and oligodendrocyte precursor loss underlie default mode network disruption in a humanized APP knock-in model of Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Unaran, E.",
-          "Adebiyi, O.",
-          "Krishnan, M. R.",
-          "Bussey, T. J.",
-          "Saksida, L. M.",
-          "Prado, M. A.",
-          "Prado, V. F.",
-          "Menon, R. S."
-        ],
-        "abstract": "Alzheimer's disease disrupts large-scale brain networks before cognitive symptoms emerge, yet the mechanisms underlying this progression remain unclear. In humans, default mode network (DMN) connectivity follows a biphasic trajectory, with a transition from hypersynchrony to hyposynchrony associated with increasing amyloid burden and cognitive decline. Using a mouse model of amyloidopathy that recapitulates this trajectory, we show that amyloid-{beta} accumulation arrests normal age-dependent myelin maturation, followed by progressive myelin loss and oligodendroglial dysfunction. In healthy animals, regional myelin coverage predicts DMN strength, revealing a coupling that is disrupted by amyloidopathy. Notably, DMN hypersynchrony emerges before substantial amyloid accumulation or overt myelin loss, whereas subsequent oligodendroglial dysfunction and myelin loss coincide with DMN disintegration and cognitive deficits. These findings identify disruption of myelin-network coupling as a potential mechanism underlying the biphasic evolution of network dysfunction in Alzheimer's disease and suggest that restoring oligodendroglial function may provide cognitive benefits beyond those of amyloid-targeting strategies.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.12.744193v2",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.01.21.700898",
-        "title": "Biophysically realistic network-level transport model of tau progression with exosome-mediated release and uptake processes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-18",
-        "is_early_access": true,
-        "authors": [
-          "Barron, N.",
-          "Tora, V.",
-          "Cozzolino, E.",
-          "Bertsch, M.",
-          "Raj, A."
-        ],
-        "abstract": "The spatiotemporal progression of tau in neurodegenerative diseases like Alzheimer's follows the brain's structural connectome, yet a gap exists between the macroscopic spread observed over years and the protein kinetics occurring over hours. Current models fail to reconcile this disparity or incorporate the cellular mechanisms driving transmission. Here, we advance the Network Transport Model (NTM) to bridge these scales by integrating active transport along microtubules, continuous toxic tau production, and exosome-mediated release and uptake. This framework constitutes one of the most biologically detailed models of tau spread on a whole brain to date, representing a significant innovation in how multiscale proteinopathies are simulated. Simulations on the mouse connectome demonstrate that this framework replicates empirical tau propagation patterns. Our results identify trans-neuronal release and uptake rates as the primary \"bottleneck\" on macroscopic spread, providing a biologically grounded explanation for the disease's slow progression. Furthermore, we find that high aggregation sequesters tau within regions, limiting global transmission, while increasing the abundance of toxic polymeric tau fibrils. Meanwhile, tau transport polarity bias (anterograde vs. retrograde) dictates spatial patterning. By linking molecular mechanics to system-wide pathology, this model provides an \"in-silico\" framework to evaluate how cellular-targeted interventions might alter the trajectory of tauopathic dementias.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.01.21.700898v2",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
         ],
         "is_new": true
       }
