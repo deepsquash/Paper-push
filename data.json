@@ -1,10 +1,114 @@
 {
-  "date": "2026-08-23",
-  "total": 18,
+  "date": "2026-08-24",
+  "total": 11,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.08.20.745566",
+        "title": "GABAergic and glutamatergic synaptic networks and mitochondrial morphology in the thalamic ventral motor and centromedian nuclei of Rhesus Monkey: A comparative 3D Electron Microscopic Analysis between Control and Parkinsonian State",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-23",
+        "is_early_access": true,
+        "authors": [
+          "Masilamoni, G. J.",
+          "Villalba, R. M.",
+          "Pare, J.-F.",
+          "Smith, Y."
+        ],
+        "abstract": "The ventral motor and the centromedian (CM) nuclei receive prominent GABAergic inputs from the basal ganglia, massive glutamatergic projections from motor cortices and significant GABAergic afferents from the reticular thalamic nucleus. There is strong evidence that disrupted processing of information through these connections may contribute to the pathophysiology of the basal ganglia-thalamocortical loop in Parkinson's disease (PD). To further assess potential ultrastructural changes in synaptic connectivity and mitochondrial integrity that may contribute to these network dysfunctions, we used a 3D electron microscopic approach to determine whether the pattern of synaptic innervation and morphological integrity of dendritic mitochondria are altered in the basal ganglia-receiving parvocellular ventral anterior nucleus (VApc) and CM neurons of MPTP-treated parkinsonian monkeys. Three main conclusions can be drawn from our findings: (1) Although the overall pattern of synaptic innervation of VApc and CM neurons is not altered in parkinsonian monkeys, the volume of putative corticothalamic terminals is significantly increased in both nuclei, (2) the prevalence of corticothalamic terminals in contact with distal dendrites is several orders of magnitude higher in VApc than CM in both control and parkinsonian monkeys, (3) the complexity and ultrastructural integrity of dendritic mitochondria is altered in CM, but not in the VApc, of parkinsonian monkeys. These findings lay the foundation for future studies of changes in cortical neuromodulation of VApc and CM neurons in parkinsonism and suggest that mitochondrial defects may contribute to the degeneration of CM neurons in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.745566v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.18.745353",
+        "title": "Pseudotime analysis of 2,106 brains across nine regions reveals conserved immune, neuronal, and myelin regulatory programs in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-23",
+        "is_early_access": true,
+        "authors": [
+          "Ecca, F.",
+          "Song, S.",
+          "Naymik, M.",
+          "Huentelman, M.",
+          "Piras, I."
+        ],
+        "abstract": "Pseudotime trajectories can reconstruct latent disease progression from cross-sectional transcriptomic data. However, whether Alzheimer's disease (AD) progression follows a conserved molecular architecture across brain regions remains unclear. We applied pseudotime analysis to harmonized bulk RNA-seq data from 2,106 postmortem brain samples (1,364 AD, 742 controls) across nine brain regions from three AMP-AD cohorts (ROSMAP, Mayo, MSBB). Pseudotime was significantly associated with AD diagnosis in all nine regions and with Braak stage in seven of nine. We identified 21 genes with concordant pseudotime associations across all regions, increasing to 234 when the cerebellum was excluded. Pathway analysis revealed 1,268 significant associations, with synaptic deregulation as the most conserved process, and immune/ECM programs showing greater regional specificity. The cerebellum followed a distinct pattern, with enrichment for protein refolding and chaperone pathways rather than neurodegeneration. Co-expression network analysis identified six conserved metamodules, including immune/glial (MM1) and excitatory neuronal (MM2) programs spanning all nine regions, and an oligodendrocyte/myelin program (MM3) in seven cortical regions. Key driver analysis identified 76 unique genes across 35 modules, with HCK and LAPTM5 as the most broadly replicated immune regulators in seven regions. Oligodendrocyte-associated key drivers (MYRF, CNP, MOBP) increased along pseudotime in cortical regions, supporting active myelin remodeling during AD progression. These findings reveal a conserved transcriptional architecture underlying AD progression, organized around coordinated immune activation, synaptic loss, and myelin remodeling, with the cerebellum following a distinct trajectory.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745353v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.18.745347",
+        "title": "TRAPPC8 Is an Endogenous Brake on UFMylation That Suppresses Tauopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-23",
+        "is_early_access": true,
+        "authors": [
+          "WAN, Y.",
+          "Cordes, E.",
+          "Feng, W.",
+          "Lee, S. I.",
+          "Munechika, K.",
+          "Sun, Y.",
+          "Gao, Z.",
+          "Gao, B.",
+          "Zhu, J.",
+          "Wong, M. Y.",
+          "Norman, K.",
+          "Wang, S.",
+          "chen, h.",
+          "Liu, B.",
+          "Li, Z.",
+          "Srinivasan, M.",
+          "Amin, S.",
+          "Wei, X.",
+          "Mok, S.-A.",
+          "Shen, R.",
+          "Luo, W.",
+          "Gong, S.",
+          "Li, H.",
+          "Yu, H.",
+          "Gan, L."
+        ],
+        "abstract": "UFMylation, a ubiquitin-like protein modification, drives tau spread through the brain, but what keeps this process in check has remained unclear. We show that TRAPPC8 acts as a natural brake on UFMylation, binding directly to the E1 enzyme UBA5 to dampen pathway activity. In Alzheimer's disease brain tissue, TRAPPC8 is reduced while UFMylation is elevated, suggesting this brake fails as disease progresses. Sustaining UFMylation in human iPSC-derived neurons increased tau aggregation and spread while disrupting lysosomal function and lipid balance. Restoring TRAPPC8-UBA5 binding reversed these defects through the lysosomal protein CLN8, which restored lysosomal function and reduced tau pathology. Notably, expressing just the UBA5-binding region of TRAPPC8 was enough to suppress tau pathology in vivo, marking it as a promising therapeutic target.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745347v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.18.745599",
+        "title": "Loss of calbindin and rise in pT217-tau in aging monkey prefrontal cortical dendrites",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-23",
+        "is_early_access": true,
+        "authors": [
+          "Perone, I.",
+          "Bolat, D.",
+          "Gu, Z.",
+          "Zeiss, C. J.",
+          "Bliss-Moreau, E.",
+          "Duque, A.",
+          "Arellano, J. I.",
+          "Zhao, Y.",
+          "Datta, D.",
+          "Arnsten, A. F."
+        ],
+        "abstract": "INTRODUCTION: Tau pathology in Alzheimers disease preferentially afflicts excitatory neurons in the limbic and association cortices that utilize high levels of calcium signaling to perform cognitive operations. This includes the layer III pyramidal cells in the dorsolateral prefrontal cortex (dlPFC) that subserve higher cognition, which express the calcium-binding protein, calbindin, when young and healthy, but lose calbindin and develop tangles and degenerate in Alzheimers disease (AD). These data suggest that loss of calbindin may be associated with the emergence of tau pathology. However, the relationship between calbindin and early-stage, soluble tau pathology is challenging to study in human brains, as soluble pTau dephosphorylates within 15min postmortem. In contrast, the relationship between calbindin and soluble pT217-tau expression can be studied in aging macaques with naturally-occurring tau pathology, where perfusion fixation is possible to capture phosphorylation state in situ. METHODS: The current study used multiple-label-immunofluorescence to label MAP2-positive dlPFC layer III pyramidal cells for calbindin and pT217-tau in macaque brains across the adult age span (8-34.5yrs). The study employed a semi-automated CellProfiler workflow to identify labeled pyramidal cell dendrites the cellular compartment where tau pathology begins in AD. RESULTS: Calbindin expression decreased with age, while pT217Tau increased with age. Specifically, the ratio of calbindin/pT217-tau within a dendrite decreased with age, and was especially prominent in the aged macaques with long-term inflammatory disorders. DISCUSSION: These data suggest that the loss of calbindin in dendrites with advancing age, and especially with inflammation, contributes to the rise of tau pathology and the risk of AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745599v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.1093/brain/awag284",
         "title": "Divergent tau pathology profiles induced by distinct alpha-synuclein aggregates in non-human primates",
@@ -173,299 +277,28 @@
         "is_new": true
       },
       {
-        "doi": "10.1038/s42003-026-10797-6",
-        "title": "A pathological phosphorylation pattern enhances tau cooperativity on microtubules and facilitates tau filament assembly",
-        "journal": "Communications Biology",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Xiangyu Fan",
-          "Joey B. Truong",
-          "Kyoko Okada",
-          "Henry Lin",
-          "Kassandra M. Ori-McKenney",
-          "Richard J. McKenney"
-        ],
-        "abstract": "Abstract Phosphorylation of the microtubule-associated protein tau plays important roles in both normal physiology and disease. While tau phosphorylation levels are similarly elevated in processes such as fetal development and hibernation and in pathological states like Alzheimer’s disease, the pattern of phosphorylation differs between these contexts. Whether distinct phosphorylation patterns differentially impact tau’s function on microtubules and its propensity to form neurofibrillary tangles (NFTs) has remained unclear. Here we investigated how differential phosphorylation affects microtubule binding, cooperative tau envelope formation, and NFT-relevant filament assembly. Consistent with prior work, phosphorylation decreases tau’s overall microtubule affinity. However, we find that phosphorylation more dramatically impacts cooperativity between tau molecules during envelope formation. Strikingly, the specific pattern of phosphorylation, rather than overall level, strongly promotes tau filament assembly in vitro. These findings provide insights into how tau phosphorylation modulates its physiological microtubule interactions and its pathoconversion into NFTs.",
-        "url": "https://doi.org/10.1038/s42003-026-10797-6",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2024.05.15.594309",
-        "title": "Genetic screening identifies glial adenosine as a therapeutic target in alpha-synucleinopathy",
+        "doi": "10.64898/2026.08.21.746338",
+        "title": "Engineered α-Synuclein-specific nanobody CAR iTregs restrain neuroinflammation and proteinopathy in Parkinson's disease mice",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
+        "published_online": "2026-08-22",
         "is_early_access": true,
         "authors": [
-          "Sodders, M. J.",
-          "Avila-Pacheco, J.",
-          "Okorie, E. C.",
-          "Tahmasebidehkordi, H.",
-          "Marathi, A.",
-          "Kumari, N.",
-          "Lakhani, M.",
-          "Schiro, A.",
-          "Shen, M.",
-          "Sriram, N.",
-          "Sarkar, S.",
-          "Olsen, A. L."
+          "Calderoni, A.",
+          "Nannoni, M.",
+          "Ruffini, G.",
+          "Doglio, M.",
+          "Bercher Brayer, C.",
+          "Giannelli, S. G.",
+          "Melki, R.",
+          "Casucci, M.",
+          "Bonini, C.",
+          "Muggeo, S.",
+          "Broccoli, V."
         ],
-        "abstract": "Neuronal alpha-synucleinopathies, including Parkinson's disease (PD) and dementia with Lewy bodies (DLB), lack disease-modifying therapies. We developed a Drosophila model for identifying novel glial-based therapeutic targets for alpha-synucleinopathies. In this model, human alpha-synuclein is expressed in neurons and individual genes are independently knocked down in glia. We performed a forward genetic screen, knocking down the entire Drosophila kinome in glia in alpha-synuclein expressing flies. Among the top hits were five genes (Ak1, Ak6, Adk1, Adk2, and awd) involved in adenosine metabolism. Knockdown of each gene increased brain adenosine levels, improved locomotor dysfunction, reduced alpha-synuclein oligomer levels, and rescued neurodegeneration. We determined that the mechanism of neuroprotection requires adenosine signaling through the neuronal adenosine receptor (AdoR) in Drosophila. These experiments support glial adenosine as a novel therapeutic target in PD.",
-        "url": "https://www.biorxiv.org/content/10.1101/2024.05.15.594309v5",
+        "abstract": "Parkinson's disease (PD) is characterized by progressive DAergic neurodegeneration and the accumulation of aggregated -Synuclein (Syn), which drives chronic neuroinflammation through sustained activation of innate and adaptive immune responses. Regulatory T cells (Tregs) exert potent immunosuppressive functions and have shown neuroprotective effects in preclinical PD models; however, clinical translation of polyclonal Treg therapies has been limited by poor tissue specificity and insufficient therapeutic efficacy. To overcome these limitations, we engineered induced human Tregs (iTregs) expressing chimeric antigen receptors (CARs) directed against pathological Syn aggregates. Among the CAR designs tested, only a nanobody-based construct incorporating NbSyn87 displayed selective antigen-dependent activation in response to Syn preformed fibrils (PFFs). Intriguingly, despite the ability of the parental NbSyn87 nanobody to bind both monomeric and aggregated Syn, incorporation into the CAR architecture conferred functional selectivity for aggregated conformers. This feature enabled discrimination between pathological extracellular aggregates and physiological monomeric Syn, providing an important safety advantage. To evaluate therapeutic activity in vivo, we established an immunodeficient mouse model of synucleinopathy permissive to human cell engraftment. iTregs preferentially accumulated within Syn-rich brain regions and, in the presence of astrocyte-derived human IL-2 with antigen-independent mechanism. Conversely, only CAR iTregs directed against Syn significantly reduced microglial and astrocytic activation, decreased pro-inflammatory cytokine expression, and attenuated Syn pathology. Collectively, these findings demonstrate that Syn-specific CAR iTregs can selectively exert potent local immunomodulatory effects, establishing a promising antigen-specific cellular immunotherapy platform for PD and other synucleinopathies.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746338v1",
         "reasons": [
-          "关键词『Parkinson、alpha-synuclein、neurodegeneration』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.14.737967",
-        "title": "Astrocyte regulatory volume decrease is condition-dependent in intact brain tissue and requires the volume regulated anion channel",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Sriram, S.",
-          "Lopez, C. D.",
-          "Pham, P.",
-          "Binder, D. K.",
-          "Fiacco, T. A."
-        ],
-        "abstract": "Multiple lines of evidence point to the volume regulated anion channel (VRAC) as being instrumental for cellular volume regulation in many cell types, including astrocytes. VRAC are thought to open during periods of astrocyte swelling, releasing anions and osmolytes to drive water out of the cell, allowing it to return to baseline volume even under sustained osmotic or ionic challenge, a process called regulatory volume decrease, or RVD. However, the occurrence of RVD and VRACs role in this process has remained controversial, with clear evidence in cultured cells but mixed reports from work in intact brain tissue. In the present study, we aimed to address this gap by generating a transgenic mouse line in which VRAC is conditionally ablated in astrocytes (VRAC cKO) and recording the volume responses of astrocytes in VRAC cKO and control tissue using real-time volume imaging. We found that the effect of VRAC cKO on astrocyte swelling was dependent on whether swelling was evoked by elevated extracellular potassium, or by reduced extracellular osmolarity. We also found that both VRAC and the presence of sufficient intracellular taurine concentration were required to elicit RVD in astrocytes, but only in hypoosmolar conditions. Our findings provide new information on the conditions needed to elicit RVD in intact brain tissue, and that VRAC is required for RVD to occur. Our findings further suggest that reduction of intracellular ion concentration is essential for VRAC to be activated, rather than simply membrane expansion. Future experiments will examine the solute release aspect of VRAC activation upon astrocyte swelling, as well as the contributions of VRAC to pathological volume dysregulation.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.737967v1",
-        "reasons": [
-          "关键词『tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.01.21.700898",
-        "title": "Biophysically realistic network-level transport model of tau progression with exosome-mediated release and uptake processes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Barron, N.",
-          "Tora, V.",
-          "Cozzolino, E.",
-          "Bertsch, M.",
-          "Raj, A."
-        ],
-        "abstract": "The spatiotemporal progression of tau in neurodegenerative diseases like Alzheimers follows the brains structural connectome, yet a gap exists between the macroscopic spread observed over years and the protein kinetics occurring over hours. Current models fail to reconcile this disparity or incorporate the cellular mechanisms driving transmission. Here, we advance the Network Transport Model (NTM) to bridge these scales by integrating active transport along microtubules, continuous toxic tau production, and exosome-mediated release and uptake. This framework constitutes one of the most biologically detailed models of tau spread on a whole brain to date, representing a significant innovation in how multiscale proteinopathies are simulated.\n\nSimulations on the mouse connectome demonstrate that this framework replicates empirical tau propagation patterns. Our results identify trans-neuronal release and uptake rates as the primary \"bottleneck\" on macroscopic spread, providing a biologically grounded explanation for the diseases slow progression. Furthermore, we find that high aggregation sequesters tau within regions, limiting global transmission, while increasing the abundance of toxic polymeric tau fibrils. Meanwhile, tau transport polarity bias (anterograde vs. retrograde) dictates spatial patterning. By linking molecular mechanics to system-wide pathology, this model provides an \"in-silico\" framework to evaluate how cellular-targeted interventions might alter the trajectory of tauopathic dementias.\n\nAuthor SummaryIn Alzheimers disease and related dementias, a protein called tau forms misfolded aggregates and gradually spreads through the brain along its neuronal wiring. A long-standing puzzle is linking the microscopic protein dynamics taking minutes to hours to the multiyear macroscopic spread of the disease. We developed a new mathematical model that is capable to explain macroscopic spreading behavior of tau as an emerging process from the underlying biophysical ",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.01.21.700898v2",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.06.02.729568",
-        "title": "Spatially resolved mapping of tau amplification rates via differentiable simulation of prion-like propagation",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Kondo, Y.",
-          "Naoki, H.",
-          "the Alzheimers Disease Neuroimaging Initiative,"
-        ],
-        "abstract": "Neurodegenerative diseases exhibit characteristic yet heterogeneous patterns of pathological spread, whose underlying determinants remain unclear. A central challenge is that inferring spatially heterogeneous propagation kinetics from neuroimaging data constitutes a high-dimensional inverse problem that has remained intractable at the whole-brain scale. Here, we present a differentiable reaction-diffusion framework that enables inference of spatially resolved tau amplification rates from tau PET data. By integrating MRI-informed forward simulation with error backpropagation, our approach reconstructs subject-specific voxel-wise maps of tau amplification rates across the human brain. Analysis of the inferred maps showed that the amplification rates have a positive spatial association with amyloid PET, suggesting that they capture aspects of regional vulnerability to amyloid-driven tau accumulation. Furthermore, integration with transcriptomic data identified gene expression programs associated with regional variation in amplification. These findings provide a data-driven framework linking molecular architecture to large-scale propagation dynamics in neurodegeneration.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729568v2",
-        "reasons": [
-          "关键词『tau、neurodegeneration、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744719",
-        "title": "Parietal Cortex Transcriptomics Refines Parkinson Disease GWAS Nomination and Highlights STAT3 as a Putative Upstream Glial Regulator",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Alfradique-Dunham, I.",
-          "Sanford, J.",
-          "Liu, M.",
-          "Perrin, R. J.",
-          "Franklin, E. E.",
-          "Norris, S.",
-          "Kotzbauer, P. T.",
-          "Perlmutter, J. S.",
-          "Budde, J. P.",
-          "Cruchaga, C.",
-          "Ibanez, L.",
-          "Minaya, M."
-        ],
-        "abstract": "Parkinson disease (PD) affects more than 1.1 million individuals in the United States and around 12 million worldwide. Although Genome Wide Association Studies (GWAS) have substantially advanced our understanding of PD genetic architecture, the regulatory mechanisms linking PD risk loci to disease-relevant gene expression remain incompletely characterized, limiting our ability to infer disease mechanisms from genetic associations. Here, we integrated disease-state parietal cortex transcriptomics with the International Parkinsons Disease Genomics Consortium (iPDGC) locus prioritization to refine PD gene nomination and identify biologically plausible candidates missed by GWAS-only approaches. Using bulk RNA-seq from 99 neuropathologically confirmed PD cases and 30 neuropathologically confirmed controls, we prioritized candidate genes across 78 loci and classified them according to concordance between genetic evidence and differential expression in diseased cortices. This integrative approach recovered candidate genes not captured by external GWAS-based prioritization methods and highlighted synaptic, lysosomal, and proteostasis pathways as major components of PD risk biology. Network and transcription factor analyses further suggested coordinated regulation of these genes, with STAT3 emerging as a putative upstream glial regulator. Together, these findings suggest that integrating disease-state transcriptomics with genetic prioritization can refine PD risk-gene nomination and uncover regulatory programs that may be missed by GWAS alone.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744719v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.20.746004",
-        "title": "Population-scale subcellular proteomics reveals intracellular remodelling across the Alzheimer's disease-resilience spectrum",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Jolly, H. A.",
-          "Seghers, P.",
-          "Balcomb, K.",
-          "Smith, A. J.",
-          "Pearson, L.",
-          "Agrawal, I.",
-          "Geary, B.",
-          "Bennett, D. A.",
-          "Wisniewski, T.",
-          "Fowler, S. L.",
-          "Drummond, E.",
-          "Crook, O. M.",
-          "Carlyle, B. C."
-        ],
-        "abstract": "Proteome-wide analyses of human tissue have transformed our understanding of disease, but provide limited insight into protein localisation, a functionally informative dimension of the proteome. In Alzheimer's disease, amyloid-{beta} and tau exhibit aberrant localisation, yet whether spatial reorganisation extends proteome-wide has remained inaccessible to abundance-based proteomics. Here, we develop comparative subcellular proteomics applied to dorsolateral prefrontal cortex from 75 individuals spanning the Alzheimer's disease-resilience spectrum, modelling protein localisation across disease. We identify 217 disease-associated localisation shifts enriched for endolysosomal function, intracellular trafficking, and RNA processing, and resolve tau proteoforms within insoluble aggregates. Our strongest localisation candidates show only modest differences in whole-tissue abundance, highlighting disease biology inaccessible to conventional proteomics. We validate co-localisation of CSNK1A1 with pathological tau and identify an unexpected neuronal localisation pattern for SCAI, a cancer-associated protein not previously characterised in human brain, highlighting the discovery potential of subcellular proteomics in tissue.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746004v1",
-        "reasons": [
-          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744293",
-        "title": "Reduced entropy of subthalamic beta bursts predicts freezing of gait in Parkinsons disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Beaudoin, C. A.",
-          "OKeeffe, A. B.",
-          "Abdi-Sargezeh, B.",
-          "Gillies, M. J.",
-          "Oswal, A.",
-          "Green, A. L."
-        ],
-        "abstract": "BackgroundFreezing of gait (FOG) in Parkinsons disease is associated with abnormal beta activity in the subthalamic nucleus (STN), but the temporal structure of burst dynamics remains poorly understood.\n\nObjectivesTo determine whether temporal features of STN beta bursts distinguish pre-freeze from stable gait and predict freezing onset.\n\nMethodsSTN recordings during gait from four individuals were analyzed. Temporal features of burst timing, including entropy and variability, were computed across behavioral states. Predictive performance was assessed using leave-one-patient-out classifiers.\n\nResultsEntropy of inter-burst intervals was reduced prior to freezing (p < 0.01), with strong predictive performance (AUC = 0.825; threshold AUC = 0.858). During freezing, variability measures decreased and temporal structure increased, while entropy did not differ from pre-freeze. Phase-amplitude coupling showed frequency-specific but heterogeneous effects across comparisons.\n\nConclusionsReduced temporal variability of STN beta burst timing precedes and predicts freezing, suggesting a transition to constrained neural dynamics.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744293v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.17.745375",
-        "title": "A Systems Neuroscience Approach Identifies IL1B-CASP3 Signaling as a Molecular Link Between Polystyrene Exposure and Alzheimer's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Gupta, R.",
-          "Lakhanpal, S.",
-          "Gupta, S.",
-          "Kumar, S."
-        ],
-        "abstract": "The widespread presence of microplastics and nanoplastics has emerged as a significant environmental concern, with increasing evidence suggesting potential adverse effects on neurological health. However, the molecular mechanisms linking polystyrene exposure to Alzheimers disease (AD) remain poorly understood. In this study, an integrative systems biology framework was employed to investigate the molecular interplay between environmental polystyrene exposure and AD pathogenesis. AD-associated genes were retrieved from the Comparative Toxicogenomics Database (CTD) and DisGeNET, while polystyrene-responsive genes were obtained from CTD. Integration of these datasets identified 16 shared genes potentially connecting polystyrene exposure with AD. Transcriptomic analysis of the hippocampal dataset GSE29378 revealed significant differential expression of several overlapping genes between AD and healthy controls. Functional enrichment analyses demonstrated that these genes are predominantly involved in oxidative stress, inflammatory signaling, apoptosis, and synaptic function, all of which are central to AD pathology. Weighted gene co-expression network analysis (WGCNA) further identified disease-associated modules containing multiple intersecting genes strongly correlated with AD clinical traits. Protein-protein interaction analysis highlighted IL1B, CASP3, BCL2, ACHE, and APOE as key hub genes, indicating their potential roles in integrating environmental stress responses with neurodegenerative pathways. Independent validation using the GSE48350 dataset confirmed the robust diagnostic performance of several hub genes in discriminating AD from control samples. Collectively, these findings suggest that environmental polystyrene exposure may promote AD progression through neuroinflammation, oxidative stress, apoptosis, and synaptic dysfunction, providing novel mechanistic insights and identifying promising molecular targets for future experimental, clinical, and epidemiolog",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745375v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.18.745090",
-        "title": "α-Synuclein impairs mitochondrial function and alters cryptochrome regulation in the substantia nigra",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "O'Sullivan, S. A.",
-          "Kacperczyk-Perdyan, A.",
-          "Ulusoy, A.",
-          "Pinto-Costa, R.",
-          "Lee, S. S.",
-          "Lawrynowicz, U.",
-          "Prehn, J.",
-          "Mieczkowski, J.",
-          "Di Monte, D. A."
-        ],
-        "abstract": "Dopaminergic neurons in the substantia nigra pars compacta are key targets of -synuclein pathology and neurodegeneration in Parkinson's disease (PD). It is thought that pathological accumulation of -synuclein significantly contributes to nigral neuronal dysfunction and ensuing neuronal demise. In this study, we further assessed this possibility and interrogated the role of -synuclein burden in compromising neuronal function and altering physiological neuronal pathways. In particular, we focused on nigral mitochondrial impairment and disruption of circadian regulatory pathways triggered by sustained -synuclein expression. Using an in vivo AAV-mediated model, we show that -synuclein accumulation over a period of 12 weeks is associated with mitochondrial complex I and IV deficits and leads to dopaminergic cell loss. Proximity ligation assays revealed association of both total and phosphorylated -synuclein with mitochondrial proteins at a time (between 4 and 12 weeks) that paralleled the development of mitochondrial dysfunction. Spatial transcriptomic analysis of the substantia nigra identified coordinated alterations in genes involved in mitochondrial, metabolic, and circadian pathways, including increased expression of circadian-associated genes such as Nr1d1, Nr1d2, Cry2, Arntl2, and Csnk1e. At the protein level, -synuclein overexpression was associated with a differential shift in cryptochrome protein expression, characterized by reduced CRY1 and increased CRY2. Data provide evidence of a specific window of time during which sustained -synuclein burden results in direct -synuclein-mitochondria interactions and nigral mitochondrial damage. During the same time period, a specific remodeling of molecular clock components occurs, providing a potential new mechanism contributing to metabolic and mitochondrial dysregulations and, ultimately, neuronal injury and degeneration.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745090v1",
-        "reasons": [
-          "关键词『Parkinson、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.06.17.732817",
-        "title": "Identifying Novel Estrogenic Mitochondrial Targets in Hypothalamic Proopiomelanocortin Neurons by Chemoproteomics",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Qiu, J.",
-          "Bosch, M. A.",
-          "Wolfe, M. S.",
-          "Korac, K.",
-          "Rizzo, S.",
-          "Stincic, T. L.",
-          "Farley, S. E.",
-          "Fitzgerald, W.",
-          "Rajendran, M.",
-          "Laguerre, A.",
-          "Stein, F.",
-          "F. Copenhaver, P.",
-          "Ronnekleiv, O. K.",
-          "Ronnekleiv-Kelly, S. M.",
-          "Rostovtseva, T.",
-          "Bezrukov, S.",
-          "Schultz, C.",
-          "Kelly, M. J."
-        ],
-        "abstract": "Loss of estrogens at menopause is linked to impaired brain metabolism and increased risk of Alzheimers disease (AD). However, estrogen replacement therapies are limited due to the deleterious effects of estrogen on peripheral organs and increased risk of vascular dementia. We have developed a non-steroidal estrogenic compound, STX, which does not bind to the classical estrogen receptors  and {beta}, but mimics estrogenic signaling in the central nervous system (CNS) without the peripheral reproductive actions. STX is protective against neurodegeneration in stroke and AD models, but its molecular targets are unknown. Here, we identified and validated STX neural targets using chemoproteomic, molecular biological, electrophysiological and metabolic assays of hypothalamic proopiomelanocortin (POMC) neurons. Chemoproteomic profiling identified voltage dependent anion channels (VDAC1-3) as major intracellular binding partners in mHypo43 (POMC) cells. Based on quantitative single-cell PCR, Vdac2 was identified as the dominant isoform in female hypothalamic POMC neurons. Seahorse metabolic flux analyses showed that STX potently increased glycolysis, oxidative respiration and mitochondrial ATP production in mHypo43 cells. Nanomolar concentrations of STX enhanced VDAC2 voltage-dependent gating in reconstituted lipid membranes and shifted the low-conductance states toward anion selectivity, consistent with increased ATP flux. Together, these findings reveal a mechanism for the neuroprotective effects of STX through enhancing mitochondrial bioenergetics and modulating VDAC channel properties, potentially increasing cellular energy stores. Therefore, this work identifies previously unrecognized estrogenic mitochondrial targets and provides a mechanistic basis for the neuroprotective actions of STX relevant to menopause-associated brain vulnerability.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732817v2",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.18.745399",
-        "title": "Mesoscale medial temporal lobe connectivity patterns relate to tau pathology and memory in older adults",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-21",
-        "is_early_access": true,
-        "authors": [
-          "Fischer, L.",
-          "Vockert, N.",
-          "Hoepker Fernandes, J.",
-          "Garcia-Garcia, B.",
-          "Roemer-Cassiano, S. N.",
-          "Franzmeier, N.",
-          "Gellersen, H. M.",
-          "Schumann-Werner, B.",
-          "Behrenbruch, N.",
-          "Schwarck, S.",
-          "Molloy, E. N.",
-          "Behnisch, G.",
-          "Seidenbecher, C.",
-          "Schott, B. H.",
-          "Morgado, B.",
-          "Esselmann, H.",
-          "Wiltfang, J.",
-          "Barthel, H.",
-          "Sabri, O.",
-          "Kreissl, M. C.",
-          "Duezel, E.",
-          "Schreiber, S.",
-          "Kuehn, E.",
-          "Maass, A."
-        ],
-        "abstract": "The medial temporal lobe (MTL) is crucial for episodic memory. Tau pathology is a hallmark of Alzheimer's disease (AD) and accumulates in layer-specific patterns in the MTL during aging. It is, however, unclear whether early AD pathology relates to mesoscale network signatures distinct from non-pathological aging. To address this gap, we acquired 7 Tesla submillimeter-resolution resting-state fMRI, plasma-based AD biomarkers, glial fibrillary acidic protein (GFAP) levels, APOE genotype, regional [18F]PI-2620 tau PET burden, and longitudinal episodic memory data in 75 cognitively unimpaired older adults. Older age was associated with lower perirhinal-hippocampal connectivity and lower network segregation, whereas higher plasma-based AD pathology was associated with higher perirhinal-hippocampal connectivity. Furthermore, temporal-lobe tau burden was related to altered connectivity patterns in tau-vulnerable MTL subfields and layers, dependent on GFAP levels. Retrosplenial tau burden was associated with higher hippocampal-retrosplenial connectivity consistent with tau spread along canonical hippocampal output pathways. Finally, higher connectivity within the hippocampus attenuated the negative association between temporal-lobe tau burden and memory performance but predicted unfavorable memory trajectories. Our findings show differential associations of age and AD pathology with mesoscale MTL-connectivity patterns. Importantly, increased hippocampal connectivity may support memory function in the short term while contributing to subsequent memory decline.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745399v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
         ],
         "is_new": true
       }
