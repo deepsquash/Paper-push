@@ -1,10 +1,78 @@
 {
-  "date": "2026-08-24",
-  "total": 11,
+  "date": "2026-08-25",
+  "total": 7,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.08.19.745783",
+        "title": "Calibration-Aware and Interpretable Graph Learning for Multi-Cohort Diffusion Connectome Brain-Age Modeling",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-24",
+        "is_early_access": true,
+        "authors": [
+          "Badea, A.",
+          "Poves Acle, I.",
+          "Mendez de Inza, P.",
+          "Lin, H.",
+          "Anderson, R. J.",
+          "Johnson, K. G.",
+          "Whitson, H. E.",
+          "Song, A. W.",
+          "Badea, C. T.",
+          "Alzheimers Disease Neuroimaging Initiative,",
+          "The HABS-HD Study Team,"
+        ],
+        "abstract": "Brain-age models derived from diffusion MRI-based structural connectomes may provide imaging biomarkers of accelerated brain aging, but their biological interpretation and transportability across heterogeneous populations remain uncertain. We developed a calibration-aware and hierarchically interpretable graph-learning framework and evaluated it across four independent aging and Alzheimer's disease-related cohorts: ADNI, Duke/UNC ADRC, HABS-HD, and AD-DECODE. The analysis included 1,093 connectome sessions from 789 participants. Cohort-specific graph neural networks were trained using participant-grouped cross-validation across five imaging and multimodal feature configurations. Prediction performance varied more strongly across cohorts than across feature sets, with imaging-only out-of-fold mean absolute error ranging from 4.72 years in ADNI to 9.75 years in AD-DECODE. The imaging-only graph neural network was competitive with ridge, elastic-net, and gradient-boosted regression models trained on matched vectorized connectome features, but was not uniformly superior. Age-bias-corrected brain-age gap was most consistently associated with reduced diffusion-derived microstructural integrity and structural-network organization across cohorts. In longitudinal analyses, corrected brain-age gap showed moderate-to-good within-person preservation in ADNI and HABS-HD, with intraclass correlation coefficients of 0.67 and 0.81, respectively; higher baseline values also predicted subsequent microstructural and network deterioration in ADNI. Multiscale SHAP analysis identified distributed contributions from global graph topology, regional imaging features, edge-derived regional summaries, and individual structural connections involving thalamic, striatal, frontal, parietal, cerebellar, hippocampal, and entorhinal circuitry. External transfer was highly sensitive to cohort shift: across 12 off-diagonal train-test evaluations, median mean absolute error decreased from 17.39 to 8.22",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745783v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.19.745052",
+        "title": "Reliability and disease sensitivity are dissociable properties of EEG foundation-model representations",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-24",
+        "is_early_access": true,
+        "authors": [
+          "Gebregergis, B. T.",
+          "Yhdego, H. G.",
+          "Teklu, T."
+        ],
+        "abstract": "Abstract EEG foundation models (EEG-FMs) are evaluated almost entirely on disease-discrimination accuracy. A clinical biomarker additionally requires measurement reliability, the stability of repeated measurements on the same individual, which regulatory biomarker frameworks treat as a prerequisite that discrimination does not imply. We asked whether frozen EEG-FM representations provide such stability, whether it is predictable from conventional model descriptors, and what information supports it. We measured test-retest reliability, disease discrimination, and representation distinctiveness for nine frozen representations: six EEG-oriented foundation models spanning masked, contrastive and predictive pretraining, handcrafted spectral features, and two general-purpose time-series models with no EEG exposure. All were evaluated under one preprocessing pipeline across two healthy retest cohorts, at roughly one month and two years, and three neurodegenerative cohorts. Reliability was measured in healthy adults only; the disease cohorts contribute cross-sectional discrimination. Reliability, quantified as the intraclass correlation coefficient (ICC), varied enormously (mean 0.08 to 0.76; coefficient of variation, CV, 53.0%) while disease discrimination, measured as area under the receiver operating characteristic curve (AUC), occupied a far narrower range across the same nine (AUC CV 5.4%), a roughly tenfold difference in relative dispersion, described rather than formally tested. We did not test formal AUC equivalence, so we describe discrimination as varying substantially less than reliability rather than as equivalent. The variation was not consistently explained by pretraining paradigm or domain among the models studied, and a model with no EEG exposure was among the most reliable tested. Alpha-band information contributed disproportionately to reliability, whereas theta-band information ranked first for Alzheimer disease and frontotemporal dementia discrimination,",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745052v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.19.745861",
+        "title": "Mapping Alzheimer's neuropathology signatures to the whole brain transcriptome using machine learning data fusion",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-24",
+        "is_early_access": true,
+        "authors": [
+          "Bhattacharya, A.",
+          "Savignac, C.",
+          "Hodgson, L.",
+          "Stanley, J.",
+          "Wolf, G.",
+          "Krishnaswamy, S.",
+          "Bennett, D. A.",
+          "Binder, E. B.",
+          "Bzdok, D."
+        ],
+        "abstract": "In Alzheimer's disease (AD), misfolded proteins emerge across the entire brain in structured, yet not rigid, spatiotemporal patterns. Yet, a systematic bias of single-cell genomics toward sampling mostly cortical tissue limits our understanding of the whole-brain transcriptomic vulnerability to AD. Here, we develop a machine learning method to extrapolate local AD neuropathology signatures to the whole brain. By analyzing gene expression profiles of over two million cortical cells from 427 humans spanning the AD-pathology spectrum, we derive transcriptomic estimators of AD neuropathology. After extensive validations on datasets with known ground-truth, we apply this framework to three million cells from 108 brain regions in the Siletti whole human brain atlas and derive an anticipated brain map of transcriptomic signatures indexing AD neuropathology. This interrogation of regions spanning the cortical, subcortical, and brainstem structures, uncovers transcriptomic signatures associated with hyperphosphorylated tau in the medulla oblongata, dorsal raphe nucleus, and the tuberal and mammillary regions of the hypothalamus. At the cellular level, assessments of these signatures across 31 cell populations identify VGLUT1/2 expressing neurons, astrocytes, and microglia as key neuropathology-resembling populations. Within the hippocampus, pathology signatures surface in the rostral cornu ammonis (CA) subfields, particularly in the CA1 pyramidal neurons and dentate granule cells. {beta}-amyloid-like signatures localize to the neocortex with laminar selectivity--most prominently in upper layer somatostatin+ intratelencephalic neurons (L2-L3), but also in deep layer intratelencephalic and corticothalamic neurons (L5-L6). Neocortical astrocytes and microglia exhibiting disease associated signatures similarly demonstrate a unique laminar preference. Together, this study provides the first whole human brain map of AD pathology-associated transcriptomic signals, and exposes vulne",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745861v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.08.20.745566",
         "title": "GABAergic and glutamatergic synaptic networks and mitochondrial morphology in the thalamic ventral motor and centromedian nuclei of Rhesus Monkey: A comparative 3D Electron Microscopic Analysis between Control and Parkinsonian State",
@@ -106,199 +174,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745599v1",
         "reasons": [
           "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1093/brain/awag284",
-        "title": "Divergent tau pathology profiles induced by distinct alpha-synuclein aggregates in non-human primates",
-        "journal": "Brain",
-        "published_online": "2026-08-22",
-        "is_early_access": true,
-        "authors": [
-          "Morgane Darricau",
-          "Camille Neu-Faber",
-          "Mathieu Bourdenx",
-          "Sandra Dovero",
-          "Gregory Porras",
-          "Marie-Laure Thiolat",
-          "Ines Trigo-Damas",
-          "Nuria Garcia-Carrillo",
-          "Maria Trinidad Herrero",
-          "Miquel Vila",
-          "Jose A Obeso",
-          "Vincent Planche",
-          "Erwan Bezard",
-          "Benjamin Dehay"
-        ],
-        "abstract": "Abstract Proteinopathies are frequently accompanied by co-pathologies, which complicate understanding the pathophysiological mechanisms of neurodegenerative diseases. In this study, we employed a well-characterised baboon cohort to investigate the occurrence of tau pathology following intrastriatal injections of two distinct α-synuclein extracts (small aggregates: SA and large aggregates: LA) derived from the brains of Parkinson’s disease (PD) patients. Biochemical and histopathological analyses (6, 12, or 24 months after injections) revealed significantly higher phospho-tau expression and greater frequency of neuropil threads in both LA- (n=18) and SA-injected baboons (n=12) compared with control animals. We also observed distinct patterns of tau pathology depending on the assembly of α-synuclein aggregates. Baboons injected with SA exhibited tangle-like phosphorylated tau lesions and neuropil threads, with no significant differences across post-injection time points. Moreover, a uniform distribution of tau pathology was detected along the rostro-caudal axis of the medial temporal lobe, affecting neuronal, oligodendroglial, and astrocytic cell types. On the other hand, baboons injected with LA exhibited neuropil threads and few glial lesions but lacked phospho-tau intraneuronal aggregates. The occurrence of phospho-tau lesions was associated with phospho-synuclein pathology. These observations suggest a link between nigrostriatal synucleinopathy and limbic tau co-pathology, providing pathophysiological insights into PD dementia.",
-        "url": "https://doi.org/10.1093/brain/awag284",
-        "reasons": [
-          "关键词『Parkinson、tau、alpha-synuclein』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744594",
-        "title": "Disease-specific tangle immunophenotypes distinguish hippocampal vulnerability in Alzheimers disease and Parkinsons disease dementia",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-22",
-        "is_early_access": true,
-        "authors": [
-          "Schreiner, S.",
-          "Miranda de la Maza, M.",
-          "Hammer, G. P.",
-          "Jeannelle, F.",
-          "Darricau, M.",
-          "Mirault, D.",
-          "Mechawar, N.",
-          "Netherlands Brain Bank,",
-          "Mittelbronn, M.",
-          "Bouvier, D. S."
-        ],
-        "abstract": "Structured AbstractINTRODUCTION\n\nTau pathology typically occurs in Alzheime[r]s disease (AD), however is also frequently present in Parkinso[n]s disease dementia (PDD) and Dementia with Lewy Bodies (DLB), yet its disease-specific signature is unclear.\n\nMETHODSFive tau, amyloid-{beta}, -synuclein and neuronal markers were analysed across hippocampal subfields in non-demented controls (CTLs), AD, PDD and DLB using multiplex immunohistochemistry, single-tangle classification and confocal imaging.\n\nRESULTSAT8, pTau217, and GT38 were predominatly detected in AD, while pS422 was enriched in PDD and pS396 showed a region- and disease-specific pattern. DLB resembled AD in subregional tau distribution. Tau marker correlation were different comparing AD, PDD and CTL. Single-tangle analyses revealed disease-specific immunophenotypes but conserved mature intra-tangle epitope organisation. Distinct tau signatures were associated with inhibitory interneuron vulnerability, while regional tau co-occurrence with amyloid-{beta} and -synuclein remained conserved.\n\nDISCUSSIONDisease-specific tau signatures vary across hippocampal subregions and neuronal populations, implicating the contribution of regional and cell-specific factors beyond pathology burden.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744594v1",
-        "reasons": [
-          "关键词『Alzheimer、Parkinson、tau、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.13.744723",
-        "title": "Altered microglial communication in brains with Alzheimers Disease pathology",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-22",
-        "is_early_access": true,
-        "authors": [
-          "dos Santos, L.",
-          "Vialle, R. A.",
-          "Comandante-Lou, N.",
-          "Green, G.",
-          "Wang, Y.",
-          "Tasaki, S.",
-          "Habib, N.",
-          "Menon, V.",
-          "De Jager, P. L.",
-          "Raittz, R. T.",
-          "Bennett, D. A.",
-          "de Paiva Lopes, K."
-        ],
-        "abstract": "Microglia are the resident immune cells of the central nervous system and are highly versatile, continuously monitoring the brain microenvironment with their motile processes and responding to perturbations in diverse ways. Recent studies have revealed substantial functional heterogeneity among microglial states, suggesting that analyzing individual subpopulations is essential to capture specialized signaling programs and disease-associated interactions that would otherwise be obscured in bulk analyses. To better understand how these cells interact, we performed a ligand-receptor communication analysis using single-nucleus RNA sequencing data from the dorsolateral prefrontal cortex, comprising 16 microglial subpopulations together with other myeloid cells identified in brain tissue, including macrophages and monocytes. We characterized the signaling roles of these cell populations, compared individuals with and without neuropathologically defined Alzheimers disease, and associated cell-pair interactions with AD-related clinical and neuropathological traits. We found that AD was characterized by altered microglial composition and rewiring of intercellular communication, including disease-specific signaling pathways and distinct interaction hubs. Lipid-associated microglia were associated with tau pathology, whereas nuclear receptor signaling microglia were linked to hippocampal sclerosis. These findings were replicated in three independent datasets. Overall, this work provides an initial but comprehensive map of microglial communication in the aging human brain and identifies candidate signaling interactions for future functional validation.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744723v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.12.744193",
-        "title": "Myelin maturation failure and oligodendrocyte precursor loss underlie default mode network disruption in a humanized APP knock-in model of Alzheimers disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-22",
-        "is_early_access": true,
-        "authors": [
-          "Unaran, E.",
-          "Adebiyi, O.",
-          "Krishnan, M. R.",
-          "Bussey, T. J.",
-          "Saksida, L. M.",
-          "Prado, M. A.",
-          "Prado, V. F.",
-          "Menon, R. S."
-        ],
-        "abstract": "Alzheimers disease disrupts large-scale brain networks before cognitive symptoms emerge, yet the mechanisms underlying this progression remain unclear. In humans, default mode network (DMN) connectivity follows a biphasic trajectory, with a transition from hypersynchrony to hyposynchrony associated with increasing amyloid burden and cognitive decline. Using a mouse model of amyloidopathy that recapitulates this trajectory, we show that amyloid-{beta} accumulation arrests normal age-dependent myelin maturation, followed by progressive myelin loss and oligodendroglial dysfunction. In healthy animals, regional myelin coverage predicts DMN strength, revealing a coupling that is disrupted by amyloidopathy. Notably, DMN hypersynchrony emerges before substantial amyloid accumulation or overt myelin loss, whereas subsequent oligodendroglial dysfunction and myelin loss coincide with DMN disintegration and cognitive deficits. These findings identify disruption of myelin-network coupling as a potential mechanism underlying the biphasic evolution of network dysfunction in Alzheimers disease and suggest that restoring oligodendroglial function may provide cognitive benefits beyond those of amyloid-targeting strategies.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.12.744193v2",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.03.17.643730",
-        "title": "Longitudinal tractography monitors cortical stroke-induced thalamocortical degeneration and neuroprotection by human iPSC-derived neurons",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-22",
-        "is_early_access": true,
-        "authors": [
-          "Kartsivadze, S.",
-          "Shen, Y.-P.",
-          "Jansson, L.",
-          "Galan-Pintado, L.",
-          "Kher, K.",
-          "Aviles, S.",
-          "Gottschalk, M.",
-          "Kalantari, A.",
-          "Mertens, D.",
-          "Martinez-Curiel, R.",
-          "Aswendt, M.",
-          "Lindvall, O.",
-          "Tortosa, S. P.",
-          "Kokaia, Z."
-        ],
-        "abstract": "Cortical ischemic stroke can trigger secondary neurodegeneration in remote brain regions connected to the primary lesion, particularly the thalamus. Although secondary thalamic degeneration is well established, the temporal relationship among early disruption of the thalamocortical pathway, neuronal degeneration, neuroinflammation, and delayed thalamic atrophy remains incompletely defined. Here, we investigated the longitudinal progression of secondary thalamic degeneration after cortical stroke, with particular emphasis on diffusion MRI tractography to monitor changes in anatomically defined thalamocortical pathways. We further determined whether early intracortical transplantation of human induced pluripotent stem cell (hiPSC)-derived neuronal progenitors could protect the remote thalamus and preserve thalamocortical connectivity.Cortical ischemic stroke was induced by distal middle cerebral artery occlusion in rats, and animals were assessed at multiple time points up to 6 months after stroke using longitudinal volumetric MRI and diffusion MRI tractography, combined with histological analyses of neuronal degeneration and microglial activation. The cortical infarct was established within 3-4 days, whereas alterations in diffusion metrics of thalamocortical pathways were detected within the first days after stroke. Neuronal degeneration in the ipsilateral ventral posterior nucleus (VPN) was evident at 2 weeks and preceded measurable VPN atrophy, which began at 3 months. Microglial activation also peaked at 2 weeks, coinciding with the onset of neuronal degeneration. Early intracortical transplantation of cortically primed hiPSC-derived neuronal progenitors 48 h after stroke did not alter cortical infarct volume but preserved VPN neurons, reduced subsequent thalamic atrophy, and maintained diffusion properties of affected thalamocortical pathways.These findings define secondary thalamic degeneration as a temporally ordered process in which early alterations in the t",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643730v2",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.14.741835",
-        "title": "High-Content Screening Identifies Dithiocarbamates As A Class Of Chemicals That Disrupts TDP-43 Proteostasis",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-22",
-        "is_early_access": true,
-        "authors": [
-          "Fragola, G.",
-          "Weeks, R. D.",
-          "Wolter, J.",
-          "Bryan, A. F.",
-          "Kapfer, K. N.",
-          "Tian, X.",
-          "Necarsulmer, J. C.",
-          "Evangelista, B. A.",
-          "Bhat, V.",
-          "Arooji, O. K.",
-          "Beltran, A. S.",
-          "Brennan, T. A.",
-          "Niederhuber, M. J.",
-          "Hepperla, A.",
-          "Collins, L. B.",
-          "Williams, T. I.",
-          "Ezzell, A. J.",
-          "Planchart, A.",
-          "Cohen, T. J."
-        ],
-        "abstract": "Transactive response DNA-binding protein 43 (TDP-43) aggregation and loss of function are hallmark features of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) among other neurodegenerative diseases. Despite epidemiological evidence linking environmental exposures to neurodegeneration, few toxicants have been directly associated with neurodegeneration. Here, we performed a high-content imaging screen, using a library of over a thousand chemical compounds that are considered high risk for human exposure and identified 21 toxicants that drive TDP-43 aggregation. Among the top chemical hits, five belonged to the dithiocarbamate (DTC) class of thiol-reactive compounds including the agricultural pesticides thiram and ziram. Thiram directly promoted TDP-43 cysteine oxidation and intermolecular crosslinking, whereas ziram induced TDP-43 aggregation via zinc imbalance and enhanced oxidative stress, suggesting DTCs disrupt redox homeostasis. In primary neurons and human iPSC-derived neurons, DTCs led to TDP-43 aggregation and prominent splicing defects consistent with loss of TDP-43 function. In exposed zebrafish, DTCs impaired TDP-43 function and triggered widespread transcriptional changes reflected by perturbed stress response and metabolic signatures. By combining TDP-43 loss of function mutations with chemical exposures, we observed accelerated TDP-43 loss of function and chemical-induced aggregation, supporting a multiple hit mechanism driving TDP-43 dysfunction. Together, these findings identify DTCs, particularly those used as agricultural pesticides, as dominant modifiers of TDP-43 proteostasis and identify redox imbalance and zinc homeostasis as a central molecular mechanism linking toxicant exposure to TDP-43 proteinopathy.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.741835v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.21.746338",
-        "title": "Engineered α-Synuclein-specific nanobody CAR iTregs restrain neuroinflammation and proteinopathy in Parkinson's disease mice",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-22",
-        "is_early_access": true,
-        "authors": [
-          "Calderoni, A.",
-          "Nannoni, M.",
-          "Ruffini, G.",
-          "Doglio, M.",
-          "Bercher Brayer, C.",
-          "Giannelli, S. G.",
-          "Melki, R.",
-          "Casucci, M.",
-          "Bonini, C.",
-          "Muggeo, S.",
-          "Broccoli, V."
-        ],
-        "abstract": "Parkinson's disease (PD) is characterized by progressive DAergic neurodegeneration and the accumulation of aggregated -Synuclein (Syn), which drives chronic neuroinflammation through sustained activation of innate and adaptive immune responses. Regulatory T cells (Tregs) exert potent immunosuppressive functions and have shown neuroprotective effects in preclinical PD models; however, clinical translation of polyclonal Treg therapies has been limited by poor tissue specificity and insufficient therapeutic efficacy. To overcome these limitations, we engineered induced human Tregs (iTregs) expressing chimeric antigen receptors (CARs) directed against pathological Syn aggregates. Among the CAR designs tested, only a nanobody-based construct incorporating NbSyn87 displayed selective antigen-dependent activation in response to Syn preformed fibrils (PFFs). Intriguingly, despite the ability of the parental NbSyn87 nanobody to bind both monomeric and aggregated Syn, incorporation into the CAR architecture conferred functional selectivity for aggregated conformers. This feature enabled discrimination between pathological extracellular aggregates and physiological monomeric Syn, providing an important safety advantage. To evaluate therapeutic activity in vivo, we established an immunodeficient mouse model of synucleinopathy permissive to human cell engraftment. iTregs preferentially accumulated within Syn-rich brain regions and, in the presence of astrocyte-derived human IL-2 with antigen-independent mechanism. Conversely, only CAR iTregs directed against Syn significantly reduced microglial and astrocytic activation, decreased pro-inflammatory cytokine expression, and attenuated Syn pathology. Collectively, these findings demonstrate that Syn-specific CAR iTregs can selectively exert potent local immunomodulatory effects, establishing a promising antigen-specific cellular immunotherapy platform for PD and other synucleinopathies.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746338v1",
-        "reasons": [
-          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
         ],
         "is_new": true
       }
