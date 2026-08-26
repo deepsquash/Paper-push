@@ -1,10 +1,175 @@
 {
-  "date": "2026-08-25",
-  "total": 7,
+  "date": "2026-08-26",
+  "total": 10,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.05.04.722764",
+        "title": "Humanized APP is the primary determinant of regional brain volume in humanized APOE knock-in mice: a cross-sectional ex vivo MRI study",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-25",
+        "is_early_access": true,
+        "authors": [
+          "Bhattrai, A.",
+          "Raikes, A. C.",
+          "Brinton, R. D."
+        ],
+        "abstract": "INTRODUCTION: Age, Apolipoprotein E4 (APOE4) genotype, and biological sex are major risk factors for late-onset Alzheimer's disease (LOAD), and preclinical mouse models enable controlled investigation of these factors. To date, humanized APOE4 has not recapitulated LOAD-relevant brain volume phenotypes. Given the central role of amyloid precursor protein (APP) in LOAD pathogenesis, incorporating humanized APP (hAPP) alongside humanized APOE (hAPOE) may therefore improve translational modeling of structural brain changes characterized by neuroimaging. METHODS: Aged mice (mean age = 23.25 months) carrying murine (m) or humanized (h) APP and either murine Apoe or hAPOE3/3 (hAPOE3-HOM), hAPOE3/4 (hAPOE4-HET), or hAPOE4/4 (hAPOE4-HOM) underwent in-skull ex vivo volumetric MRI. Regional volumes were quantified in absolute terms and relative to total brain volume (TBV). Linear models included APP type, APOE genotype, and sex, with FDR correction applied within contrasts. RESULTS: Brain volumes were primarily determined by APP background, with hAPP globally reducing total and regional volumes relative to mAPP mice. Across hAPP models, hAPOE4-HOM exhibited the greatest brain-wide reductions, which was mitigated by a single hAPOE3 allele. In contrast, mouse APP exerted modest effect in hAPOE, with hAPOE4 carriers exhibiting greater total volume without regional specificity. After TBV adjustment, hAPP mice exhibited subcortical vulnerability with relative cortical preservation. Females exhibited larger brain volumes than males, independent of APP or APOE genotype. DISCUSSION: hAPP induces distinctly smaller brain volumes in this humanized APOE knock-in model, and hAPOE4 homozygosity amplifies that effect, indicating genotype-dependent susceptibility. Because this study is cross-sectional and lacks histopathological confirmation, volume differences may reflect developmental or constitutive effects rather than neurodegeneration. Humanized APP and APOE are therefore necessary but",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722764v2",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.20.746024",
+        "title": "Cross-Regional Trajectory Analysis Reveals Distinct Temporal Progression of Shared Proteomic Programs in Alzheimer's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-25",
+        "is_early_access": true,
+        "authors": [
+          "Gao, T.",
+          "Upadhyaya, Y.",
+          "Pan, Y.",
+          "Nho, K.",
+          "Saykin, A. J.",
+          "Yan, J."
+        ],
+        "abstract": "Alzheimer's pathology progresses through anatomically distinct brain regions, yet how molecular programs are temporally organized across vulnerable regions remains poorly understood. Here, we reconstructed continuous proteomic trajectories from matched dorsolateral prefrontal cortex (DLPFC) and superior temporal gyrus (STG) proteomes to investigate cross-regional molecular progression in AD. The inferred trajectories closely recapitulated established neuropathological staging while remaining independent of age, sex, and race. Across regions, a mitochondrial bioenergetic protein subset declined substantially earlier in the STG than in the DLPFC, revealing a previously unrecognized regional temporal offset in metabolic dysfunction. In parallel, a broadly shared proteomic program progressed in both regions but more rapidly in the STG, indicating that shared molecular responses differ in their temporal progression despite overall coordination. Together, these findings demonstrate that regional vulnerability in AD is reflected not only by the molecular programs involved but also by their temporal organization during disease progression.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746024v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.20.746036",
+        "title": "Chronic trazodone treatment consolidates sleep, improves memory, and reduces amyloid pathology in a mouse model of Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-25",
+        "is_early_access": true,
+        "authors": [
+          "Arai, M.",
+          "Yue, J.",
+          "Shams, E.",
+          "Stevens, C. J.",
+          "Han, H.",
+          "Gibson, R.",
+          "Yildirim, T.",
+          "Feldman, H. H.",
+          "Wellington, C. L.",
+          "Kent, B. A."
+        ],
+        "abstract": "Sleep disturbance in Alzheimer's disease (AD), particularly the reduction of slow wave sleep (SWS), has been proposed as a novel therapeutic target, with disease-modifying potential. Trazodone, an antidepressant with robust SWS-promoting properties, is currently the most prescribed sleep-promoting medication in the United States. Here, we demonstrate that chronic trazodone administration consolidates sleep in the APP NL-F knock-in mouse model of AD, increasing NREM sleep duration and slow wave power during the rest phase while promoting wake during the active phase. These sleep consolidating effects were accompanied by lower regional glial activation and amyloid burden, particularly in male mice. Most notably, hippocampal amyloid plaque burden was 45% lower in mice treated from 14 to 16 months of age than in vehicle-treated controls. Chronic trazodone treatment was also associated with better short-term and long-term recognition memory. Together, these findings support the potential of repurposing trazodone as a well-tolerated, disease-modifying therapeutic for AD, capable of enhancing sleep quality, improving cognition, and lowering AD-relevant neuropathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746036v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.20.746093",
+        "title": "Spoken Recall Reveals Lexical and Mnemonic Function Differences in Temporal Lobe Epilepsy Patients",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-25",
+        "is_early_access": true,
+        "authors": [
+          "Rosenberg, A. M.",
+          "Tefera, E.",
+          "Gu, Z.",
+          "Borges, H.",
+          "Mansoor, A.",
+          "Shah, T.",
+          "Capozzi, G.",
+          "Barr, W. B.",
+          "Henin, S. M.",
+          "Johnson, S. B.",
+          "Liu, A."
+        ],
+        "abstract": "Background and Objectives: Word-finding difficulty is common in healthy aging and in neurologic disorders, including temporal lobe epilepsy (TLE) and early Alzheimer disease. Standard language measures have limited sensitivity for detecting subtle or longitudinal changes in spontaneous speech. We examined whether natural language processing and acoustic analysis of spoken biographical recall could identify lexical and temporal speech features associated with language and memory performance in TLE. Methods: We conducted a cross-sectional observational study of spoken recall during a Famous Faces biographical memory task. Adults with TLE and healthy controls (HCs) viewed 20 famous faces and spontaneously recalled biographical details. Speech was transcribed and diarized using automated tools. Lexical measures included word counts and lexical index (ratio of rare to common words). Acoustic measures included utterance and pause duration and pause frequency. Features were compared between groups and correlated with neuropsychological measures, including Montreal Cognitive Assessment (MoCA), Boston Naming Test (BNT), delayed recall, education, and biographical recall accuracy Results: Eighty-one adults participated (51 TLE, 30 HCs). Lexical measures did not differ between groups. In TLE, lexical index correlated with BNT performance (rs=0.62) and MoCA score (rs=0.35). Compared with HCs, participants with TLE produced shorter utterances (5.54 {+/-} 2.50 vs. 6.59 {+/-} 2.63; Cohen's d=0.41, 95% CI -0.05 to 0.86, p=0.041), shorter pauses (0.61 {+/-} 0.21 vs 0.67 {+/-} 0.22, Cohen's d=0.29, 95% CI -0.16 to 0.74, p=0.043), and more frequent pauses (10.81 {+/-} 3.30 vs 9.29 {+/-} 3.59, Cohen's d=-0.45, 95% CI -0.90 to 0.01, p=0.036). Higher education was associated with longer utterances, longer pauses, and lower pause frequency, without evidence of a diagnosis-by-education interaction. Faster utterance rate was associated with better biographical recall in both groups, while h",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746093v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.21.746168",
+        "title": "Breakdown in the synaptic vesicle cycle defines early and reversible cortical pathogenesis in ALS",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-25",
+        "is_early_access": true,
+        "authors": [
+          "Laszlo, Z. I.",
+          "Sanchez-Avila, A.",
+          "McFarlane, A.",
+          "van der Hoorn, D.",
+          "San Gil, R.",
+          "Spires-Jones, T. L.",
+          "Gillingwater, T. H.",
+          "Walker, A. K.",
+          "Henstridge, C. M."
+        ],
+        "abstract": "Synaptic failure is considered an early driver of Amyotrophic Lateral Sclerosis (ALS), yet identifying the molecular events initiating synaptic decline remains challenging in end-stage human tissue. Here, we exploit the late involvement of the primary visual cortex (Brodmann Area 17 (BA17)) to investigate early disease-associated changes in human ALS. Structural analyses revealed neuropil compaction, presynaptic terminal shrinkage, and synaptic degeneration despite preservation of local neuronal populations. Deep synaptoneurosome proteomics identified a regional signature characterised by disruption of presynaptic vesicle cycling, which closely resembles early pathological changes observed in the inducible human TDP-43 rNLS8 mouse model. Importantly, suppression of TDP-43 expression in vivo restored these proteomic alterations, highlighting recovery of presynaptic vesicle machinery within preserved synaptic structures. Together, these findings reveal early synaptic pathology as a distinct and potentially reversible stage of ALS neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746168v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.21.743990",
+        "title": "Syndecan-4 exerts canonical heparan sulfate-dependent and noncanonical heparan sulfate-independent functions that regulate Aβ amyloid homeostasis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-25",
+        "is_early_access": true,
+        "authors": [
+          "Shim, K. H.",
+          "Ran, Y.",
+          "Ryu, D.",
+          "Moore, B.",
+          "Yook, Y.",
+          "Amin, P.",
+          "Liu, X.",
+          "Afroz, F.",
+          "Martin, C.",
+          "Beheray, M.",
+          "Tsering, W.",
+          "Liu, L.",
+          "Platt, M.",
+          "Roberts, B.",
+          "Seyfried, N.",
+          "Prokop, S.",
+          "Levites, Y.",
+          "Golde, T."
+        ],
+        "abstract": "Background Heparan sulfate (HS) and heparan sulfate proteoglycans (HSPGs) are components of the amyloid deposits in Alzheimers disease (AD) and other amyloidoses. HS and HSPGs are canonically thought to facilitate amyloid deposition by accelerating the aggregation of amyloidogenic proteins and impairing their clearance in a HS-dependent manner. Methods Leveraging insights from large-scale proteomic data, we focused on Syndecan-4 (Sdc4), the most increased transmembrane HSPG in the AD brain and in the brain of A{beta} amyloid depositing mice. We used proximity ligation assays (PLA) to evaluate the association of Sdc4 with A{beta} in situ and assessed the impacts of the Sdc4 ectodomain on A{beta} aggregation in vitro. Overexpression studies in cells, hiPSC-derived neurons, and mouse organotypic brain slice cultures (OBSCs) coupled with structure-function studies were used to investigate impacts on A{beta} production and APP processing. Finally, effects of overexpression of Sdc4 in vivo in the CRND8 amyloid deposition model were evaluated. Results Consistent with canonical roles, PLA demonstrated a spatial association of Sdc4 with amyloid deposits, and in vitro, the Sdc4 ectodomain accelerated A{beta} fibril formation in a HS-dependent manner. Unexpectedly, Sdc4 overexpression reduced A{beta} production in CHO cells, hiPSC-derived neurons, and OBSCs. These effects were accompanied by dramatic decreases in the levels of sAPP and C83 and increased immature APP in the cell. Sdc4 promoted altered APP localization into detergent resistant membrane domains and increased APP association with ATG5+/LC3+/Cathepsin D+ vesicles. Structure-function studies revealed that the transmembrane region mediates these effects in a glycosaminoglycan-independent manner. Sdc4 overexpression in the brain of APP mice significantly reduced amyloid deposition at an early age. Conclusions Sdc4 exerts paradoxical and mechanistically distinct effects that could impact AD pathogenesis differentially,",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.743990v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.21.746231",
+        "title": "Sex Chromosomes and Gonadal Hormones Contribute to B Cell Antibody Responses in Aging and Alzheimer's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-25",
+        "is_early_access": true,
+        "authors": [
+          "Zuppe, H.",
+          "Casali, B.",
+          "Reed, E."
+        ],
+        "abstract": "It is increasingly appreciated that B cell populations in the brain shift during aging and Alzheimer's Disease (AD), contributing to neuroinflammation and cognitive decline. Though the underlying mechanisms remain unclear, biological sex is likely a key regulator since differences in B cell antibody responses are one of the most well conserved sex differences in immunology. Sex differences in B cell subtypes and antibody classes are significant because they drive sexually dimorphic immune responses and subsequent disease susceptibility. Despite extensive work evaluating the effects of gonadal hormones on B cells, the effects of aging and AD pathology, and the contributions of sex chromosomes are understudied. We evaluated B cell subtypes in the brain and bloodstream in both adult and 5xFAD mice via flow cytometry and antibody levels in the cortical brain region of both groups via ELISAs. We found sex differences mediated by both sex chromosomes and the gonadal hormone environment; these differences were primarily involved in antibody class-switching.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746231v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.08.19.745783",
         "title": "Calibration-Aware and Interpretable Graph Learning for Multi-Cohort Diffusion Connectome Brain-Age Modeling",
@@ -70,110 +235,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745861v1",
         "reasons": [
           "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.20.745566",
-        "title": "GABAergic and glutamatergic synaptic networks and mitochondrial morphology in the thalamic ventral motor and centromedian nuclei of Rhesus Monkey: A comparative 3D Electron Microscopic Analysis between Control and Parkinsonian State",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-23",
-        "is_early_access": true,
-        "authors": [
-          "Masilamoni, G. J.",
-          "Villalba, R. M.",
-          "Pare, J.-F.",
-          "Smith, Y."
-        ],
-        "abstract": "The ventral motor and the centromedian (CM) nuclei receive prominent GABAergic inputs from the basal ganglia, massive glutamatergic projections from motor cortices and significant GABAergic afferents from the reticular thalamic nucleus. There is strong evidence that disrupted processing of information through these connections may contribute to the pathophysiology of the basal ganglia-thalamocortical loop in Parkinson's disease (PD). To further assess potential ultrastructural changes in synaptic connectivity and mitochondrial integrity that may contribute to these network dysfunctions, we used a 3D electron microscopic approach to determine whether the pattern of synaptic innervation and morphological integrity of dendritic mitochondria are altered in the basal ganglia-receiving parvocellular ventral anterior nucleus (VApc) and CM neurons of MPTP-treated parkinsonian monkeys. Three main conclusions can be drawn from our findings: (1) Although the overall pattern of synaptic innervation of VApc and CM neurons is not altered in parkinsonian monkeys, the volume of putative corticothalamic terminals is significantly increased in both nuclei, (2) the prevalence of corticothalamic terminals in contact with distal dendrites is several orders of magnitude higher in VApc than CM in both control and parkinsonian monkeys, (3) the complexity and ultrastructural integrity of dendritic mitochondria is altered in CM, but not in the VApc, of parkinsonian monkeys. These findings lay the foundation for future studies of changes in cortical neuromodulation of VApc and CM neurons in parkinsonism and suggest that mitochondrial defects may contribute to the degeneration of CM neurons in PD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.745566v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.18.745353",
-        "title": "Pseudotime analysis of 2,106 brains across nine regions reveals conserved immune, neuronal, and myelin regulatory programs in Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-23",
-        "is_early_access": true,
-        "authors": [
-          "Ecca, F.",
-          "Song, S.",
-          "Naymik, M.",
-          "Huentelman, M.",
-          "Piras, I."
-        ],
-        "abstract": "Pseudotime trajectories can reconstruct latent disease progression from cross-sectional transcriptomic data. However, whether Alzheimer's disease (AD) progression follows a conserved molecular architecture across brain regions remains unclear. We applied pseudotime analysis to harmonized bulk RNA-seq data from 2,106 postmortem brain samples (1,364 AD, 742 controls) across nine brain regions from three AMP-AD cohorts (ROSMAP, Mayo, MSBB). Pseudotime was significantly associated with AD diagnosis in all nine regions and with Braak stage in seven of nine. We identified 21 genes with concordant pseudotime associations across all regions, increasing to 234 when the cerebellum was excluded. Pathway analysis revealed 1,268 significant associations, with synaptic deregulation as the most conserved process, and immune/ECM programs showing greater regional specificity. The cerebellum followed a distinct pattern, with enrichment for protein refolding and chaperone pathways rather than neurodegeneration. Co-expression network analysis identified six conserved metamodules, including immune/glial (MM1) and excitatory neuronal (MM2) programs spanning all nine regions, and an oligodendrocyte/myelin program (MM3) in seven cortical regions. Key driver analysis identified 76 unique genes across 35 modules, with HCK and LAPTM5 as the most broadly replicated immune regulators in seven regions. Oligodendrocyte-associated key drivers (MYRF, CNP, MOBP) increased along pseudotime in cortical regions, supporting active myelin remodeling during AD progression. These findings reveal a conserved transcriptional architecture underlying AD progression, organized around coordinated immune activation, synaptic loss, and myelin remodeling, with the cerebellum following a distinct trajectory.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745353v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.18.745347",
-        "title": "TRAPPC8 Is an Endogenous Brake on UFMylation That Suppresses Tauopathy",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-23",
-        "is_early_access": true,
-        "authors": [
-          "WAN, Y.",
-          "Cordes, E.",
-          "Feng, W.",
-          "Lee, S. I.",
-          "Munechika, K.",
-          "Sun, Y.",
-          "Gao, Z.",
-          "Gao, B.",
-          "Zhu, J.",
-          "Wong, M. Y.",
-          "Norman, K.",
-          "Wang, S.",
-          "chen, h.",
-          "Liu, B.",
-          "Li, Z.",
-          "Srinivasan, M.",
-          "Amin, S.",
-          "Wei, X.",
-          "Mok, S.-A.",
-          "Shen, R.",
-          "Luo, W.",
-          "Gong, S.",
-          "Li, H.",
-          "Yu, H.",
-          "Gan, L."
-        ],
-        "abstract": "UFMylation, a ubiquitin-like protein modification, drives tau spread through the brain, but what keeps this process in check has remained unclear. We show that TRAPPC8 acts as a natural brake on UFMylation, binding directly to the E1 enzyme UBA5 to dampen pathway activity. In Alzheimer's disease brain tissue, TRAPPC8 is reduced while UFMylation is elevated, suggesting this brake fails as disease progresses. Sustaining UFMylation in human iPSC-derived neurons increased tau aggregation and spread while disrupting lysosomal function and lipid balance. Restoring TRAPPC8-UBA5 binding reversed these defects through the lysosomal protein CLN8, which restored lysosomal function and reduced tau pathology. Notably, expressing just the UBA5-binding region of TRAPPC8 was enough to suppress tau pathology in vivo, marking it as a promising therapeutic target.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745347v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.18.745599",
-        "title": "Loss of calbindin and rise in pT217-tau in aging monkey prefrontal cortical dendrites",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-23",
-        "is_early_access": true,
-        "authors": [
-          "Perone, I.",
-          "Bolat, D.",
-          "Gu, Z.",
-          "Zeiss, C. J.",
-          "Bliss-Moreau, E.",
-          "Duque, A.",
-          "Arellano, J. I.",
-          "Zhao, Y.",
-          "Datta, D.",
-          "Arnsten, A. F."
-        ],
-        "abstract": "INTRODUCTION: Tau pathology in Alzheimers disease preferentially afflicts excitatory neurons in the limbic and association cortices that utilize high levels of calcium signaling to perform cognitive operations. This includes the layer III pyramidal cells in the dorsolateral prefrontal cortex (dlPFC) that subserve higher cognition, which express the calcium-binding protein, calbindin, when young and healthy, but lose calbindin and develop tangles and degenerate in Alzheimers disease (AD). These data suggest that loss of calbindin may be associated with the emergence of tau pathology. However, the relationship between calbindin and early-stage, soluble tau pathology is challenging to study in human brains, as soluble pTau dephosphorylates within 15min postmortem. In contrast, the relationship between calbindin and soluble pT217-tau expression can be studied in aging macaques with naturally-occurring tau pathology, where perfusion fixation is possible to capture phosphorylation state in situ. METHODS: The current study used multiple-label-immunofluorescence to label MAP2-positive dlPFC layer III pyramidal cells for calbindin and pT217-tau in macaque brains across the adult age span (8-34.5yrs). The study employed a semi-automated CellProfiler workflow to identify labeled pyramidal cell dendrites the cellular compartment where tau pathology begins in AD. RESULTS: Calbindin expression decreased with age, while pT217Tau increased with age. Specifically, the ratio of calbindin/pT217-tau within a dendrite decreased with age, and was especially prominent in the aged macaques with long-term inflammatory disorders. DISCUSSION: These data suggest that the loss of calbindin in dendrites with advancing age, and especially with inflammation, contributes to the rise of tau pathology and the risk of AD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745599v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
         ],
         "is_new": true
       }
