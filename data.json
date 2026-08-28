@@ -1,216 +1,159 @@
 {
-  "date": "2026-08-26",
-  "total": 10,
+  "date": "2026-08-28",
+  "total": 8,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
       {
-        "doi": "10.64898/2026.05.04.722764",
-        "title": "Humanized APP is the primary determinant of regional brain volume in humanized APOE knock-in mice: a cross-sectional ex vivo MRI study",
+        "doi": "10.64898/2026.08.24.746580",
+        "title": "SorCS1 promotes synaptic and cognitive resilience despite amyloid pathology in Alzheimer's disease model mice",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-25",
+        "published_online": "2026-08-27",
         "is_early_access": true,
         "authors": [
-          "Bhattrai, A.",
-          "Raikes, A. C.",
-          "Brinton, R. D."
+          "Yi, N.",
+          "Lee, A. K.",
+          "Bourojeni, F. B.",
+          "Wang, M.",
+          "Inagaki, M.",
+          "Takahashi, H."
         ],
-        "abstract": "INTRODUCTION: Age, Apolipoprotein E4 (APOE4) genotype, and biological sex are major risk factors for late-onset Alzheimer's disease (LOAD), and preclinical mouse models enable controlled investigation of these factors. To date, humanized APOE4 has not recapitulated LOAD-relevant brain volume phenotypes. Given the central role of amyloid precursor protein (APP) in LOAD pathogenesis, incorporating humanized APP (hAPP) alongside humanized APOE (hAPOE) may therefore improve translational modeling of structural brain changes characterized by neuroimaging. METHODS: Aged mice (mean age = 23.25 months) carrying murine (m) or humanized (h) APP and either murine Apoe or hAPOE3/3 (hAPOE3-HOM), hAPOE3/4 (hAPOE4-HET), or hAPOE4/4 (hAPOE4-HOM) underwent in-skull ex vivo volumetric MRI. Regional volumes were quantified in absolute terms and relative to total brain volume (TBV). Linear models included APP type, APOE genotype, and sex, with FDR correction applied within contrasts. RESULTS: Brain volumes were primarily determined by APP background, with hAPP globally reducing total and regional volumes relative to mAPP mice. Across hAPP models, hAPOE4-HOM exhibited the greatest brain-wide reductions, which was mitigated by a single hAPOE3 allele. In contrast, mouse APP exerted modest effect in hAPOE, with hAPOE4 carriers exhibiting greater total volume without regional specificity. After TBV adjustment, hAPP mice exhibited subcortical vulnerability with relative cortical preservation. Females exhibited larger brain volumes than males, independent of APP or APOE genotype. DISCUSSION: hAPP induces distinctly smaller brain volumes in this humanized APOE knock-in model, and hAPOE4 homozygosity amplifies that effect, indicating genotype-dependent susceptibility. Because this study is cross-sectional and lacks histopathological confirmation, volume differences may reflect developmental or constitutive effects rather than neurodegeneration. Humanized APP and APOE are therefore necessary but",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722764v2",
+        "abstract": "Alzheimer's disease (AD) lacks effective therapies despite extensive efforts targeting amyloid {beta} (A{beta}) and its precursor processing. Synapse loss is the strongest correlate of cognitive decline, driven partly by A{beta} oligomers (A{beta}Os), which bind multiple synaptic membrane proteins including the synaptic organizer neurexin and disrupt synaptic integrity and function. The protein sorting receptor SorCS1 blocks interactions between A{beta}Os and {beta}-isoforms of neurexins ({beta}-Nrxns), but its therapeutic relevance in vivo remains unclear. Using 5xFAD mice, which overproduce A{beta}Os, combined with forebrain specific neuronal SorCS1 overexpression, we show that SorCS1 preserves working memory, synaptic integrity, and basal excitatory transmission without altering amyloid deposition, in part by restoring synaptic {beta}-Nrxn expression. SorCS1 also reduces tau hyperphosphorylation in 5xFAD synaptosomes and binds the tau kinase GSK3{beta}. These results identify SorCS1 as an AD resilience promoting factor that maintains synaptic connectivity and attenuates tau pathology, revealing a therapeutic strategy that operates independently of amyloid reduction.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746580v1",
         "reasons": [
-          "关键词『Alzheimer、neurodegeneration、amyloid』(命中abstract)"
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
         ],
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.08.20.746024",
-        "title": "Cross-Regional Trajectory Analysis Reveals Distinct Temporal Progression of Shared Proteomic Programs in Alzheimer's Disease",
+        "doi": "10.64898/2026.08.23.746508",
+        "title": "Hyperactivation of the AXL-ICD/SIRT2 axis by Amyloid-β impairs astrocytic autophagic flux and exacerbates neuroinflammation",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-25",
+        "published_online": "2026-08-27",
         "is_early_access": true,
         "authors": [
-          "Gao, T.",
-          "Upadhyaya, Y.",
-          "Pan, Y.",
-          "Nho, K.",
-          "Saykin, A. J.",
-          "Yan, J."
+          "Kim, T. Y.",
+          "Bhalla, M.",
+          "Park, U. P.",
+          "Hyeon, S. J.",
+          "Hwang, I.-Y.",
+          "Seo, Y.",
+          "Youn, W.",
+          "Lee, J.-A.",
+          "Lee, J.",
+          "Lee, B.",
+          "Ryu, H.",
+          "Lee, C. J."
         ],
-        "abstract": "Alzheimer's pathology progresses through anatomically distinct brain regions, yet how molecular programs are temporally organized across vulnerable regions remains poorly understood. Here, we reconstructed continuous proteomic trajectories from matched dorsolateral prefrontal cortex (DLPFC) and superior temporal gyrus (STG) proteomes to investigate cross-regional molecular progression in AD. The inferred trajectories closely recapitulated established neuropathological staging while remaining independent of age, sex, and race. Across regions, a mitochondrial bioenergetic protein subset declined substantially earlier in the STG than in the DLPFC, revealing a previously unrecognized regional temporal offset in metabolic dysfunction. In parallel, a broadly shared proteomic program progressed in both regions but more rapidly in the STG, indicating that shared molecular responses differ in their temporal progression despite overall coordination. Together, these findings demonstrate that regional vulnerability in AD is reflected not only by the molecular programs involved but also by their temporal organization during disease progression.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746024v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.20.746036",
-        "title": "Chronic trazodone treatment consolidates sleep, improves memory, and reduces amyloid pathology in a mouse model of Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-25",
-        "is_early_access": true,
-        "authors": [
-          "Arai, M.",
-          "Yue, J.",
-          "Shams, E.",
-          "Stevens, C. J.",
-          "Han, H.",
-          "Gibson, R.",
-          "Yildirim, T.",
-          "Feldman, H. H.",
-          "Wellington, C. L.",
-          "Kent, B. A."
-        ],
-        "abstract": "Sleep disturbance in Alzheimer's disease (AD), particularly the reduction of slow wave sleep (SWS), has been proposed as a novel therapeutic target, with disease-modifying potential. Trazodone, an antidepressant with robust SWS-promoting properties, is currently the most prescribed sleep-promoting medication in the United States. Here, we demonstrate that chronic trazodone administration consolidates sleep in the APP NL-F knock-in mouse model of AD, increasing NREM sleep duration and slow wave power during the rest phase while promoting wake during the active phase. These sleep consolidating effects were accompanied by lower regional glial activation and amyloid burden, particularly in male mice. Most notably, hippocampal amyloid plaque burden was 45% lower in mice treated from 14 to 16 months of age than in vehicle-treated controls. Chronic trazodone treatment was also associated with better short-term and long-term recognition memory. Together, these findings support the potential of repurposing trazodone as a well-tolerated, disease-modifying therapeutic for AD, capable of enhancing sleep quality, improving cognition, and lowering AD-relevant neuropathology.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746036v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.20.746093",
-        "title": "Spoken Recall Reveals Lexical and Mnemonic Function Differences in Temporal Lobe Epilepsy Patients",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-25",
-        "is_early_access": true,
-        "authors": [
-          "Rosenberg, A. M.",
-          "Tefera, E.",
-          "Gu, Z.",
-          "Borges, H.",
-          "Mansoor, A.",
-          "Shah, T.",
-          "Capozzi, G.",
-          "Barr, W. B.",
-          "Henin, S. M.",
-          "Johnson, S. B.",
-          "Liu, A."
-        ],
-        "abstract": "Background and Objectives: Word-finding difficulty is common in healthy aging and in neurologic disorders, including temporal lobe epilepsy (TLE) and early Alzheimer disease. Standard language measures have limited sensitivity for detecting subtle or longitudinal changes in spontaneous speech. We examined whether natural language processing and acoustic analysis of spoken biographical recall could identify lexical and temporal speech features associated with language and memory performance in TLE. Methods: We conducted a cross-sectional observational study of spoken recall during a Famous Faces biographical memory task. Adults with TLE and healthy controls (HCs) viewed 20 famous faces and spontaneously recalled biographical details. Speech was transcribed and diarized using automated tools. Lexical measures included word counts and lexical index (ratio of rare to common words). Acoustic measures included utterance and pause duration and pause frequency. Features were compared between groups and correlated with neuropsychological measures, including Montreal Cognitive Assessment (MoCA), Boston Naming Test (BNT), delayed recall, education, and biographical recall accuracy Results: Eighty-one adults participated (51 TLE, 30 HCs). Lexical measures did not differ between groups. In TLE, lexical index correlated with BNT performance (rs=0.62) and MoCA score (rs=0.35). Compared with HCs, participants with TLE produced shorter utterances (5.54 {+/-} 2.50 vs. 6.59 {+/-} 2.63; Cohen's d=0.41, 95% CI -0.05 to 0.86, p=0.041), shorter pauses (0.61 {+/-} 0.21 vs 0.67 {+/-} 0.22, Cohen's d=0.29, 95% CI -0.16 to 0.74, p=0.043), and more frequent pauses (10.81 {+/-} 3.30 vs 9.29 {+/-} 3.59, Cohen's d=-0.45, 95% CI -0.90 to 0.01, p=0.036). Higher education was associated with longer utterances, longer pauses, and lower pause frequency, without evidence of a diagnosis-by-education interaction. Faster utterance rate was associated with better biographical recall in both groups, while h",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746093v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.21.746168",
-        "title": "Breakdown in the synaptic vesicle cycle defines early and reversible cortical pathogenesis in ALS",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-25",
-        "is_early_access": true,
-        "authors": [
-          "Laszlo, Z. I.",
-          "Sanchez-Avila, A.",
-          "McFarlane, A.",
-          "van der Hoorn, D.",
-          "San Gil, R.",
-          "Spires-Jones, T. L.",
-          "Gillingwater, T. H.",
-          "Walker, A. K.",
-          "Henstridge, C. M."
-        ],
-        "abstract": "Synaptic failure is considered an early driver of Amyotrophic Lateral Sclerosis (ALS), yet identifying the molecular events initiating synaptic decline remains challenging in end-stage human tissue. Here, we exploit the late involvement of the primary visual cortex (Brodmann Area 17 (BA17)) to investigate early disease-associated changes in human ALS. Structural analyses revealed neuropil compaction, presynaptic terminal shrinkage, and synaptic degeneration despite preservation of local neuronal populations. Deep synaptoneurosome proteomics identified a regional signature characterised by disruption of presynaptic vesicle cycling, which closely resembles early pathological changes observed in the inducible human TDP-43 rNLS8 mouse model. Importantly, suppression of TDP-43 expression in vivo restored these proteomic alterations, highlighting recovery of presynaptic vesicle machinery within preserved synaptic structures. Together, these findings reveal early synaptic pathology as a distinct and potentially reversible stage of ALS neurodegeneration.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746168v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.21.743990",
-        "title": "Syndecan-4 exerts canonical heparan sulfate-dependent and noncanonical heparan sulfate-independent functions that regulate Aβ amyloid homeostasis",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-25",
-        "is_early_access": true,
-        "authors": [
-          "Shim, K. H.",
-          "Ran, Y.",
-          "Ryu, D.",
-          "Moore, B.",
-          "Yook, Y.",
-          "Amin, P.",
-          "Liu, X.",
-          "Afroz, F.",
-          "Martin, C.",
-          "Beheray, M.",
-          "Tsering, W.",
-          "Liu, L.",
-          "Platt, M.",
-          "Roberts, B.",
-          "Seyfried, N.",
-          "Prokop, S.",
-          "Levites, Y.",
-          "Golde, T."
-        ],
-        "abstract": "Background Heparan sulfate (HS) and heparan sulfate proteoglycans (HSPGs) are components of the amyloid deposits in Alzheimers disease (AD) and other amyloidoses. HS and HSPGs are canonically thought to facilitate amyloid deposition by accelerating the aggregation of amyloidogenic proteins and impairing their clearance in a HS-dependent manner. Methods Leveraging insights from large-scale proteomic data, we focused on Syndecan-4 (Sdc4), the most increased transmembrane HSPG in the AD brain and in the brain of A{beta} amyloid depositing mice. We used proximity ligation assays (PLA) to evaluate the association of Sdc4 with A{beta} in situ and assessed the impacts of the Sdc4 ectodomain on A{beta} aggregation in vitro. Overexpression studies in cells, hiPSC-derived neurons, and mouse organotypic brain slice cultures (OBSCs) coupled with structure-function studies were used to investigate impacts on A{beta} production and APP processing. Finally, effects of overexpression of Sdc4 in vivo in the CRND8 amyloid deposition model were evaluated. Results Consistent with canonical roles, PLA demonstrated a spatial association of Sdc4 with amyloid deposits, and in vitro, the Sdc4 ectodomain accelerated A{beta} fibril formation in a HS-dependent manner. Unexpectedly, Sdc4 overexpression reduced A{beta} production in CHO cells, hiPSC-derived neurons, and OBSCs. These effects were accompanied by dramatic decreases in the levels of sAPP and C83 and increased immature APP in the cell. Sdc4 promoted altered APP localization into detergent resistant membrane domains and increased APP association with ATG5+/LC3+/Cathepsin D+ vesicles. Structure-function studies revealed that the transmembrane region mediates these effects in a glycosaminoglycan-independent manner. Sdc4 overexpression in the brain of APP mice significantly reduced amyloid deposition at an early age. Conclusions Sdc4 exerts paradoxical and mechanistically distinct effects that could impact AD pathogenesis differentially,",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.743990v1",
+        "abstract": "Autophagy dysfunction and neuroinflammation are central to Alzheimer's disease (AD), yet how extracellular amyloid-{beta} (A{beta}) couples to impaired autophagic flux and heightened neuroinflammation remains unknown. Here, we identify the TAM receptor AXL as a molecular transducer that couples A{beta} sensing to the regulation of autophagy and neuroinflammation in astrocytes. A{beta} induces {gamma}-secretase-dependent cleavage of AXL, generating a nuclear intracellular domain (AXL-ICD) that forms phase-separated condensates and activates autophagy gene transcription through SIRT2-mediated recruitment of the RUVBL1/2-INO80 chromatin-remodeling complex. This axis is activated in astrocytes of postmortem AD brains. Concurrently, AXL-ICD binds to the SIRT2 catalytic domain and suppresses its deacetylase activity, increasing -tubulin acetylation and altering microtubule dynamics. While moderate AXL-ICD levels promote autophagic flux, excessive elevation paradoxically triggers microtubule hyperstabilization, thereby impairing autophagosome-lysosome fusion and causing pathological accumulation of autophagosomes and H2O2. The inhibitory peptide AxSBiP disrupts the AXL-ICD/SIRT2 interaction, restores autophagic flux, reduces plaque burden, and normalizes A{beta}-induced H2O2 production and astrogliosis in APP/PS1 mice. We propose the AXL-ICD/SIRT2 axis as an effective therapeutic target to reduce A{beta} burden and neuroinflammation in AD",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.746508v1",
         "reasons": [
           "关键词『Alzheimer、amyloid』(命中abstract/title)"
         ],
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.08.21.746231",
-        "title": "Sex Chromosomes and Gonadal Hormones Contribute to B Cell Antibody Responses in Aging and Alzheimer's Disease",
+        "doi": "10.64898/2026.08.24.742564",
+        "title": "CSF complement proteins are associated with early tau pathology and synaptic damage in an asymptomatic population at risk of Alzheimer's disease",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-25",
+        "published_online": "2026-08-27",
         "is_early_access": true,
         "authors": [
-          "Zuppe, H.",
-          "Casali, B.",
-          "Reed, E."
+          "Loncke, J.",
+          "Savard, M.",
+          "Picard, C.",
+          "Zetterberg, H.",
+          "Auld, D.",
+          "Badawy, M.",
+          "Ducharme, S.",
+          "Villeneuve, S.",
+          "Breitner, J. C. S.",
+          "Poirier, J.",
+          "The Alzheimer's Disease Neuroimaging Initiative,",
+          "The PREVENT-AD Research Group,"
         ],
-        "abstract": "It is increasingly appreciated that B cell populations in the brain shift during aging and Alzheimer's Disease (AD), contributing to neuroinflammation and cognitive decline. Though the underlying mechanisms remain unclear, biological sex is likely a key regulator since differences in B cell antibody responses are one of the most well conserved sex differences in immunology. Sex differences in B cell subtypes and antibody classes are significant because they drive sexually dimorphic immune responses and subsequent disease susceptibility. Despite extensive work evaluating the effects of gonadal hormones on B cells, the effects of aging and AD pathology, and the contributions of sex chromosomes are understudied. We evaluated B cell subtypes in the brain and bloodstream in both adult and 5xFAD mice via flow cytometry and antibody levels in the cortical brain region of both groups via ELISAs. We found sex differences mediated by both sex chromosomes and the gonadal hormone environment; these differences were primarily involved in antibody class-switching.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746231v1",
+        "abstract": "Complement-mediated neuroinflammation has been implicated in Alzheimer's disease (AD), but its role during the pre-symptomatic phase of the disease remains unclear. In the PREVENT-AD cohort of cognitively unimpaired individuals at increased familial risk of AD, we investigated whether CSF complement proteins relate to early AD pathology and synaptic dysfunction, then assessed our results' reproducibility across the clinical AD spectrum. Baseline CSF C1q, C3, C3b, and Factor H were measured in relation to CSF AD biomarkers, synaptic proteins, cognition, MRI volumetry, and amyloid and tau PET. Key findings were then examined in 708 participants from ADNI spanning cognitively normal, mild cognitive impairment (MCI), and dementia stages of AD. In PREVENT-AD, C1q was positively associated with CSF P-tau181, T-tau, and multiple synaptic markers including ADAM23, GAP43, SNAP25, and SYT1. Factor H showed similarly strong positive associations with P-tau181, T-tau, ADAM22, ADAM23, GAP43, and SYT1. By contrast, C3 showed minimal associations, while C3b displayed weaker positive relationships with P-tau181, T-tau, ADAM22, and ADAM23. Complement proteins were not robustly associated with amyloid or tau PET, and only C1q related to lower global cognitive performance. In ADNI, C1q emerged as the most consistent analyte, showing positive associations with tau, neurofilament light, and synaptic markers across all diagnostic groups. C3 exhibited predominantly negative associations, whereas C3b and Factor H showed stage-dependent relationships, particularly with evident neurodegeneration and synaptic injury in symptomatic individuals. These findings identify complement dysregulation, especially involving C1q, as an early correlate of tau-linked synaptic pathology, and support a role for complement activation in the AD molecular cascade.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.742564v1",
         "reasons": [
-          "关键词『Alzheimer』(命中title)"
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中title/abstract)"
         ],
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.08.19.745783",
-        "title": "Calibration-Aware and Interpretable Graph Learning for Multi-Cohort Diffusion Connectome Brain-Age Modeling",
+        "doi": "10.64898/2026.08.24.746635",
+        "title": "Cognitive Fitness in Ageing (COFITAGE): A Multimodal and Longitudinal Neuroimaging Dataset",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-24",
+        "published_online": "2026-08-27",
         "is_early_access": true,
         "authors": [
-          "Badea, A.",
-          "Poves Acle, I.",
-          "Mendez de Inza, P.",
-          "Lin, H.",
-          "Anderson, R. J.",
-          "Johnson, K. G.",
-          "Whitson, H. E.",
-          "Song, A. W.",
-          "Badea, C. T.",
-          "Alzheimers Disease Neuroimaging Initiative,",
-          "The HABS-HD Study Team,"
+          "Jacquemin, A.",
+          "Huang, J.",
+          "Beliy, N.",
+          "Degueldre, C.",
+          "Meyer, F.",
+          "Chylinski, D.",
+          "Narbutas, J.",
+          "Van Egroo, M.",
+          "Salmon, E.",
+          "Talwar, P.",
+          "Collette, F.",
+          "Vandewalle, G.",
+          "Bastin, C.",
+          "Bahri, M. A.",
+          "Phillips, C."
         ],
-        "abstract": "Brain-age models derived from diffusion MRI-based structural connectomes may provide imaging biomarkers of accelerated brain aging, but their biological interpretation and transportability across heterogeneous populations remain uncertain. We developed a calibration-aware and hierarchically interpretable graph-learning framework and evaluated it across four independent aging and Alzheimer's disease-related cohorts: ADNI, Duke/UNC ADRC, HABS-HD, and AD-DECODE. The analysis included 1,093 connectome sessions from 789 participants. Cohort-specific graph neural networks were trained using participant-grouped cross-validation across five imaging and multimodal feature configurations. Prediction performance varied more strongly across cohorts than across feature sets, with imaging-only out-of-fold mean absolute error ranging from 4.72 years in ADNI to 9.75 years in AD-DECODE. The imaging-only graph neural network was competitive with ridge, elastic-net, and gradient-boosted regression models trained on matched vectorized connectome features, but was not uniformly superior. Age-bias-corrected brain-age gap was most consistently associated with reduced diffusion-derived microstructural integrity and structural-network organization across cohorts. In longitudinal analyses, corrected brain-age gap showed moderate-to-good within-person preservation in ADNI and HABS-HD, with intraclass correlation coefficients of 0.67 and 0.81, respectively; higher baseline values also predicted subsequent microstructural and network deterioration in ADNI. Multiscale SHAP analysis identified distributed contributions from global graph topology, regional imaging features, edge-derived regional summaries, and individual structural connections involving thalamic, striatal, frontal, parietal, cerebellar, hippocampal, and entorhinal circuitry. External transfer was highly sensitive to cohort shift: across 12 off-diagonal train-test evaluations, median mean absolute error decreased from 17.39 to 8.22",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745783v1",
+        "abstract": "Purpose: Brain aging involves interrelated changes in molecular processes, neuroinflammatory mechanisms, brain macro- and microstructure, sleep physiology, and cognition. The 50 to 70 years age range represents a critical transition period, in which these subtle alterations may precede measurable cognitive decline and the onset of clinical neurodegenerative disease. To allow systematic investigation of these early alterations and the subsequent progression in brain aging, we provide an open-access data resource from a multidisciplinary longitudinal study integrating neuroimaging, genetics, sleep, and neuropsychological phenotyping with assessments at baseline and at 2-year follow-up. Acquisition and Validation Methods: The baseline cohort comprises 101 community-dwelling participants (50-69 years old) who underwent magnetic resonance imaging (MRI) using a 3T protocol that included high-resolution structural imaging (T1- and T2-weighted), quantitative multi-parametric acquisitions with B1 mapping, and multi-shell diffusion-weighted imaging. Moreover, positron emission tomography (PET) imaging was performed using [18F]Flutemetamol or [18F]Florbetapir (amyloid-beta tracers) in all participants, with a subset also undergoing [18F]THK-5351 PET (tau-related/neuroinflammation). The dataset was complemented by extensive phenotypic data, including sleep and neuropsychological assessments, and by genotype data through genetic analysis. 66 participants underwent a 2-year cognitive follow-up, enabling longitudinal analyses of cognitive trajectories. Data acquisition and curation were performed using standardized procedures, with systematic quality control to support reliable cross-sectional and longitudinal analyses. Data Format and Usage Notes: All data are distributed in a BIDS-compliant format, and released in open-access (EBRAINS). Potential Applications: This dataset supports multimodal analyses, allowing the identification of interpretable patterns characterizing brain ag",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746635v1",
         "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
+          "关键词『tau、amyloid』(命中abstract)"
         ],
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.08.19.745052",
-        "title": "Reliability and disease sensitivity are dissociable properties of EEG foundation-model representations",
+        "doi": "10.64898/2026.08.27.747536",
+        "title": "Peripheral Monocyte-Derived Extracellular Vesicles Establish an Immune-Brain Communication Pathway in Alzheimer's Disease",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-24",
+        "published_online": "2026-08-27",
         "is_early_access": true,
         "authors": [
-          "Gebregergis, B. T.",
-          "Yhdego, H. G.",
-          "Teklu, T."
+          "Wang, M.",
+          "Wang, W.",
+          "Li, Y.",
+          "Liu, Z.",
+          "Semaan, L.",
+          "Kemper, A.",
+          "Liu, X. S.",
+          "Zhang, L.",
+          "Chopp, M.",
+          "Zhang, Z. G.",
+          "Zhang, Y."
         ],
-        "abstract": "Abstract EEG foundation models (EEG-FMs) are evaluated almost entirely on disease-discrimination accuracy. A clinical biomarker additionally requires measurement reliability, the stability of repeated measurements on the same individual, which regulatory biomarker frameworks treat as a prerequisite that discrimination does not imply. We asked whether frozen EEG-FM representations provide such stability, whether it is predictable from conventional model descriptors, and what information supports it. We measured test-retest reliability, disease discrimination, and representation distinctiveness for nine frozen representations: six EEG-oriented foundation models spanning masked, contrastive and predictive pretraining, handcrafted spectral features, and two general-purpose time-series models with no EEG exposure. All were evaluated under one preprocessing pipeline across two healthy retest cohorts, at roughly one month and two years, and three neurodegenerative cohorts. Reliability was measured in healthy adults only; the disease cohorts contribute cross-sectional discrimination. Reliability, quantified as the intraclass correlation coefficient (ICC), varied enormously (mean 0.08 to 0.76; coefficient of variation, CV, 53.0%) while disease discrimination, measured as area under the receiver operating characteristic curve (AUC), occupied a far narrower range across the same nine (AUC CV 5.4%), a roughly tenfold difference in relative dispersion, described rather than formally tested. We did not test formal AUC equivalence, so we describe discrimination as varying substantially less than reliability rather than as equivalent. The variation was not consistently explained by pretraining paradigm or domain among the models studied, and a model with no EEG exposure was among the most reliable tested. Alpha-band information contributed disproportionately to reliability, whereas theta-band information ranked first for Alzheimer disease and frontotemporal dementia discrimination,",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745052v1",
+        "abstract": "Alzheimer's disease (AD) is increasingly recognized as a systemic disorder involving both central and peripheral immune dysfunction, yet the mechanisms by which peripheral immune cells influence neurodegeneration remain poorly understood. Here we identify a physiological extracellular vesicle (EV)-mediated route through which peripheral monocytes communicate with neurons and show that AD-associated monocyte remodeling converts this pathway into a mechanism that mediates neuronal injury. Reanalysis of single-cell transcriptomic data revealed pronounced inflammatory and EV-related transcriptional remodeling in circulating monocytes from patients with AD. Using a genetic CD63-based EV tracking mouse, we found that EVs released from peripheral Lyz2-expressing myeloid cells, including monocytes, accessed the healthy brain parenchyma and preferentially associated with neurons. EVs isolated from primary peripheral monocytes of 5xFAD mice were enriched in inflammatory cargo, including IL-1{beta}, and markedly suppressed distal axonal growth. Neutralization of EV-associated IL-1{beta} partially restored axonal growth, identifying IL-1{beta} as an important mediator of EV-induced neuronal injury. A{beta} stimulation reproduced key features of this pathogenic EV phenotype in RAW 264.7 macrophage-like cells and induced coordinated metabolic dysfunction and pro-inflammatory activation in primary peripheral monocytes. Moreover, repeated systemic administration of EVs from A{beta}-stimulated RAW 264.7 cells accelerated behavioral and cognitive decline and reduced hippocampal synaptic integrity in 5xFAD mice without increasing cerebral amyloid plaque burden. Together, these findings reveal a peripheral monocyte-EV-neuron communication axis that operates under homeostatic conditions and can be redirected toward pathogenic signaling in AD. Targeting this EV-mediated pathway may provide a therapeutic strategy complementary to current A{beta}-directed approaches.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747536v1",
         "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
+          "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.24.746720",
+        "title": "A conserved serotonin receptor pathway is a druggable modifier of Tau pathology, neural circuit formation and neurodegeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-27",
+        "is_early_access": true,
+        "authors": [
+          "Tsap, M. I.",
+          "Navrotska, V. V.",
+          "Labus, J.",
+          "Ponimaskin, E.",
+          "Yatsenko, A. S.",
+          "Shcherbata, H. R."
+        ],
+        "abstract": "Tauopathies are devastating neurodegenerative disorders characterized by Tau hyperphosphorylation, neurofibrillary tangle (NFT) formation, neuronal dysfunction, and cognitive decline. Here, we establish a new Drosophila tauopathy model expressing eGFP-tagged human TauWT or the disease-associated TauP301L variant in the nervous system. TauP301L expression recapitulates key pathological and behavioral hallmarks of tauopathy, including elevated Tau hyperphosphorylation, accumulation of NFT-like, pTau-positive assemblies in vivo, reduced lifespan, hyperactivity, sleep loss, progressive locomotor decline, and age-dependent brain degeneration. Strikingly, TauP301L also disrupts the architecture of the mushroom body, a learning- and memory-related circuit in Drosophila, revealing an early disruption of neural circuit formation that is distinct from adult neurodegenerative phenotypes. We further show that suppression of serotonin 5-HT7R-CDK5 signaling pathway, either by genetic knockdown or pharmacological inhibition with inverse agonist, rescues Tau-induced behavioral and anatomical phenotypes. These findings identify 5-HT7R signaling as a conserved and druggable modifier of Tau toxicity and establish this model as a powerful in vivo platform for mechanistic studies and therapeutic discovery in tauopathies.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746720v1",
+        "reasons": [
+          "关键词『tau、neurodegeneration』(命中title)"
         ],
         "is_new": true
       },
@@ -218,7 +161,7 @@
         "doi": "10.64898/2026.08.19.745861",
         "title": "Mapping Alzheimer's neuropathology signatures to the whole brain transcriptome using machine learning data fusion",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-24",
+        "published_online": "2026-08-26",
         "is_early_access": true,
         "authors": [
           "Bhattacharya, A.",
@@ -231,10 +174,37 @@
           "Binder, E. B.",
           "Bzdok, D."
         ],
-        "abstract": "In Alzheimer's disease (AD), misfolded proteins emerge across the entire brain in structured, yet not rigid, spatiotemporal patterns. Yet, a systematic bias of single-cell genomics toward sampling mostly cortical tissue limits our understanding of the whole-brain transcriptomic vulnerability to AD. Here, we develop a machine learning method to extrapolate local AD neuropathology signatures to the whole brain. By analyzing gene expression profiles of over two million cortical cells from 427 humans spanning the AD-pathology spectrum, we derive transcriptomic estimators of AD neuropathology. After extensive validations on datasets with known ground-truth, we apply this framework to three million cells from 108 brain regions in the Siletti whole human brain atlas and derive an anticipated brain map of transcriptomic signatures indexing AD neuropathology. This interrogation of regions spanning the cortical, subcortical, and brainstem structures, uncovers transcriptomic signatures associated with hyperphosphorylated tau in the medulla oblongata, dorsal raphe nucleus, and the tuberal and mammillary regions of the hypothalamus. At the cellular level, assessments of these signatures across 31 cell populations identify VGLUT1/2 expressing neurons, astrocytes, and microglia as key neuropathology-resembling populations. Within the hippocampus, pathology signatures surface in the rostral cornu ammonis (CA) subfields, particularly in the CA1 pyramidal neurons and dentate granule cells. {beta}-amyloid-like signatures localize to the neocortex with laminar selectivity--most prominently in upper layer somatostatin+ intratelencephalic neurons (L2-L3), but also in deep layer intratelencephalic and corticothalamic neurons (L5-L6). Neocortical astrocytes and microglia exhibiting disease associated signatures similarly demonstrate a unique laminar preference. Together, this study provides the first whole human brain map of AD pathology-associated transcriptomic signals, and exposes vulne",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745861v1",
+        "abstract": "In Alzheimer's disease (AD), misfolded proteins emerge across the entire brain in structured, yet not rigid, spatiotemporal patterns. Yet, a systematic bias of single-cell genomics toward sampling mostly cortical tissue limits our understanding of the whole-brain transcriptomic vulnerability to AD. Here, we develop a machine learning method to extrapolate local AD neuropathology signatures to the whole brain. By analyzing gene expression profiles of over two million cortical cells from 427 humans spanning the AD-pathology spectrum, we derive transcriptomic estimators of AD neuropathology. After extensive validations on datasets with known ground truth, we apply this framework to three million cells from 108 brain regions in the Siletti whole human brain atlas and derive an anticipated brain map of transcriptomic signatures indexing AD neuropathology. This interrogation of regions spanning the cortical, subcortical, and brainstem structures uncovers transcriptomic signatures associated with hyperphosphorylated tau in the medulla oblongata, dorsal raphe nucleus, and the tuberal and mammillary regions of the hypothalamus. At the cellular level, assessments of these signatures across 31 cell populations identify VGLUT1/2 expressing neurons, astrocytes, and microglia as key neuropathology-resembling populations. Within the hippocampus, pathology signatures surface in the rostral cornu ammonis (CA) subfields, particularly in the CA1 pyramidal neurons and dentate granule cells. {beta}-amyloid-like signatures localize to the neocortex with laminar selectivity--most prominently in upper layer somatostatin+ intratelencephalic neurons (L2-L3), but also in deep layer intratelencephalic and corticothalamic neurons (L5-L6). Neocortical astrocytes and microglia exhibiting disease associated signatures similarly demonstrate a unique laminar preference. Together, this study provides the first whole human brain map of AD pathology-associated transcriptomic signals, and exposes cell t",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745861v2",
         "reasons": [
           "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.05.14.653914",
+        "title": "Synaptic endocytic failure drives dopamine deficiency and protein transfer-mediated striatal dopamine-like neuron compensation",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-26",
+        "is_early_access": true,
+        "authors": [
+          "Li, Z.",
+          "Lin, Y.",
+          "Caulino-Rocha, A.",
+          "Mukherjee, B.",
+          "Liu, M.",
+          "Cao, X.",
+          "Wang, Z.",
+          "Lai, C.",
+          "Huang, H.",
+          "Ding, Z.",
+          "Milosevic, I.",
+          "Cao, M."
+        ],
+        "abstract": "Presynaptic endocytic dysfunction is an early feature of Parkinson's disease (PD), but how dopamine circuits adapt to chronic synaptic failure remains unclear. In dopamine neuron-specific Synaptojanin 1 knockout mice, loss of this PD-linked endocytic protein causes terminal dystrophy and striatal dopamine deficiency, yet motor coordination is preserved. Chronic endocytic failure induces striatal dopamine-like neurons (DALNs) with circuit-dependent dopaminergic protein accumulation. DALNs do not arise through transcriptional reprogramming; instead, they acquire dopaminergic proteins from midbrain dopamine neurons through selective long-range transfer that favors soluble cargoes and can convey disease-associated proteins, including -synuclein and tau. Functionally, DALNs support local dopamine production, partially preserve motor performance and increase resistance to acute dopaminergic lesions. This adaptation is shared across PD-linked endocytic mutants and is developmentally constrained, but is not reproduced by acute denervation. Thus, synaptic endocytic stress triggers inter-neuronal protein transfer as an adaptive circuit mechanism supporting dopamine compensation and neuroprotection in early PD.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.05.14.653914v4",
+        "reasons": [
+          "关键词『Parkinson、tau』(命中abstract)"
         ],
         "is_new": true
       }
