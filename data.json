@@ -1,33 +1,266 @@
 {
-  "date": "2026-08-31",
-  "total": 1,
+  "date": "2026-09-01",
+  "total": 9,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
       {
-        "doi": "10.64898/2026.08.25.747113",
-        "title": "RGC-specific reversal of lipid peroxidation drives neuroprotection and vision restoration in optic nerve ischemia by targeting GPX4",
+        "doi": "10.64898/2026.08.23.746508",
+        "title": "Hyperactivation of the AXL-ICD/SIRT2 axis by Amyloid-β impairs astrocytic autophagic flux and exacerbates neuroinflammation",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-29",
+        "published_online": "2026-08-31",
         "is_early_access": true,
         "authors": [
-          "Yang, M.",
-          "Pan, J.",
-          "Modgil, S.",
-          "Pujari, R.",
-          "Pan, C.",
-          "Alkhabaz, A.",
-          "Ren, X.",
-          "Liu, L.",
-          "Shariati, M. A.",
-          "Ahmed, T.",
-          "Wu, H.",
-          "Dalal, R.",
-          "Liao, Y. J."
+          "Kim, T. Y.",
+          "Bhalla, M.",
+          "Park, U. P.",
+          "Hyeon, S. J.",
+          "Hwang, I.-Y.",
+          "Seo, Y.",
+          "Youn, W.",
+          "Lee, J.-A.",
+          "Lee, J.",
+          "Lee, B.",
+          "Ryu, H.",
+          "Lee, C. J."
         ],
-        "abstract": "Nonarteritic anterior ischemic optic neuropathy (NAION) is the leading cause of acute optic nerve related vision loss in older adults, yet no disease modifying therapy exists. Although ischemia is a defining feature of NAION, prior therapeutic efforts targeting vascular insufficiency or nonspecific oxidative stress have failed to prevent irreversible retinal ganglion cell (RGC) degeneration, underscoring an unresolved mechanistic gap between ischemic insult and permanent axonal failure. In this endeavour, we identify lipid peroxidation as an important driver of neurodegeneration in NAION. Analyses of human NAION retina, together with a rigorously validated mouse model, demonstrated a remarkable activation of phospholipid peroxidation within the retina following ischemic injury. RGC-specific overexpression of glutathione peroxidase 4 (GPX4), the only known enzyme capable of directly detoxifying phospholipid hydroperoxides within biological membranes, confers striking protection of RGC survival, axonal integrity, and visual function. We further demonstrate that mitochondrial-targeted GPX4 provides superior protection, suggesting mitochondria as a critical locus of lipid peroxidation-driven vulnerability in NAION. Leveraging real-time multiparametric in vivo imaging to directly interrogate axonal metabolism and function, we demonstrate that RGC-specific GPX4 overexpression robustly restores axonal and retinal mitochondrial abundance, improves ATP bioenergetics, and suppresses superoxide stress following optic nerve ischemia. Mitochondria-targeted GPX4 expression further restores axonal transport and retinofugal projections to central visual targets, thereby stabilizing visual pathway connectivity. Notably, these neuroprotective effects are recapitulated by Ebselen, a clinically tested GPX mimetic, identifying lipid peroxide detoxification as a translatable and imaging-validated therapeutic strategy. Collectively, this work establishes ischemia-induced lipid peroxidatio",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747113v1",
+        "abstract": "Autophagy dysfunction and neuroinflammation are central to Alzheimer's disease (AD), yet how extracellular amyloid-{beta} (A{beta}) couples to impaired autophagic flux and heightened neuroinflammation remains unknown. Here, we identify the TAM receptor AXL as a molecular transducer that couples A{beta} sensing to the regulation of autophagy and neuroinflammation in astrocytes. A{beta} induces {gamma}-secretase-dependent cleavage of AXL, generating a nuclear intracellular domain (AXL-ICD) that forms phase-separated condensates and activates autophagy gene transcription through SIRT2-mediated recruitment of the RUVBL1/2-INO80 chromatin-remodeling complex. This axis is activated in astrocytes of postmortem AD brains. Concurrently, AXL-ICD binds to the SIRT2 catalytic domain and suppresses its deacetylase activity, increasing -tubulin acetylation and altering microtubule dynamics. While moderate AXL-ICD levels promote autophagic flux, excessive elevation paradoxically triggers microtubule hyperstabilization, thereby impairing autophagosome-lysosome fusion and causing pathological accumulation of autophagosomes and H2O2. The inhibitory peptide AxSBiP disrupts the AXL-ICD/SIRT2 interaction, restores autophagic flux, reduces plaque burden, and normalizes A{beta}-induced H2O2 production and astrogliosis in APP/PS1 mice. We propose the AXL-ICD/SIRT2 axis as an effective therapeutic target to reduce A{beta} burden and neuroinflammation in AD",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.746508v2",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.26.746438",
+        "title": "Transcriptomic characteristics along the longitudinal axis of the hippocampus and medial entorhinal cortex across species",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-31",
+        "is_early_access": true,
+        "authors": [
+          "Cheng, S.",
+          "Wang, Q.",
+          "Feng, Y.",
+          "Chen, C.",
+          "Suri, G.",
+          "Liang, Y.",
+          "Yang, Y.",
+          "Gao, K.",
+          "Witter, M.",
+          "Yang, H.",
+          "Lin, J.",
+          "Miao, C."
+        ],
+        "abstract": "The hippocampus (HPC) and medial entorhinal cortex (MEC) are essential for learning, memory, and spatial cognition, and both exhibit dorsoventral (longitudinal) organization across mammalian species. While prior studies have highlighted functional differences along this axis, the molecular basis and cross-species conservation of these differences remain poorly understood. Here, we employed spatial transcriptomics to generate a comprehensive molecular atlas of HPC and MEC in five species-human, tree shrew, mouse, canine, and pig-standardizing the dorsoventral axis for cross-species comparison. Using support vector machine (SVM) models, we identified high-weight genes predictive of dorsoventral identity and revealed conserved functional patterns: dorsal HPC was enriched for cytoskeletal and synaptic pathways, while ventral HPC favored nucleotide and energy metabolism. In the MEC, dorsal regions were enriched for calcium transport and lipid metabolism, whereas ventral regions were associated with calcium homeostasis and amyloid regulation. Species-specific SVM models uncovered dramatic divergence, leading us to propose the ancestral confinement theory, suggesting that conserved dorsoventral features are maintained within an evolutionary framework that permits species-specific adaptations. To link molecular patterns with cell types, we conducted single-nucleus RNA sequencing of tree shrew HPC and MEC and integrated data from other species. Deconvolution analysis showed species-specific GABAergic neuron distributions along the axis, with notable dorsal enrichment in human and ventral enrichment in other species. Together, our findings provide a cross-species molecular framework of HPC and MEC organization, revealing both conserved and species-specific dorsoventral programs underlying brain function and evolution.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.746438v1",
+        "reasons": [
+          "关键词『amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.22.746470",
+        "title": "Cerebrospinal fluid YWHAG:NPTX2 ratio predicts clinical severity and future phenoconversion in frontotemporal lobar degeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-31",
+        "is_early_access": true,
+        "authors": [
+          "Oh, H. S.-H.",
+          "Downer, J. D.",
+          "Dietz, C. D.",
+          "Yballa, C.",
+          "Marcora, E.",
+          "Lario-Lago, A.",
+          "Heuer, H. W.",
+          "Forsberg, L. K.",
+          "Hsiao-Nakamoto, J.",
+          "Chiu, C.-L.",
+          "Auger, P.",
+          "Powers, C.",
+          "Di Paolo, G.",
+          "Huang, F.",
+          "Appleby, B.",
+          "Barmada, S.",
+          "Bayram, E.",
+          "Bozoki, A.",
+          "Clark, D.",
+          "Darby, R. R.",
+          "Dickerson, B.",
+          "Domoto-Reilly, K.",
+          "Faber, K.",
+          "Fagan, A.",
+          "Foroud, T.",
+          "Galasko, D. R.",
+          "Geschwind, D.",
+          "Ghoshal, N.",
+          "Graff-Radford, N.",
+          "Grant, I. M.",
+          "Hales, C. M.",
+          "Honig, L. S.",
+          "Hsiung, G.-Y.",
+          "Huey, E. D.",
+          "Irwin, D.",
+          "Knopman, D.",
+          "Kornak, J.",
+          "Kwan, J.",
+          "Leger, G. C.",
+          "Litvan, I.",
+          "Mackenzie, I. R.",
+          "Mendez, M. F.",
+          "Onyike, C.",
+          "Pascual, B."
+        ],
+        "abstract": "Frontotemporal lobar degeneration (FTLD) is a common cause of early-onset dementias marked by progressive declines in behavior, cognition, and/or movement. FTLD neuropathologies, including TDP-43 proteinopathies and primary tauopathies, do not have reliable fluid biomarkers for in-vivo diagnosis nor biomarkers that directly correspond to FTLD clinical features. Fluid biomarkers that forecast and track FTLD clinical progression, irrespective of pathology or clinical syndrome, are urgently needed to improve clinical trial designs. We previously identified the ratio between two cerebrospinal fluid (CSF) synaptic proteins, YWHAG and NPTX2, as a prognostic biomarker of cognitive decline in Alzheimers disease (AD), independent of core AD pathologies, amyloid and tau. Here, we evaluate its utility in sporadic and familial FTLD compared to other neurodegenerative diseases. Using CSF assays from four independent cohorts (UCSF-MAC, ALLFTD, GENFI, PDBP), we find CSF YWHAG:NPTX2 is substantially elevated across all sporadic and familial FTLD syndromes, AD, and dementia with Lewy bodies. CSF YWHAG:NPTX2 robustly correlates with clinical severity across sporadic and familial FTLD (C9orf72, GRN, or MAPT mutations), independent of current gold-standard neurodegeneration biomarker neurofilament light (NfL). In presymptomatic familial FTLD, CSF YWHAG:NPTX2 is estimated to rise roughly a decade before symptom onset and improves prediction of imminent symptomatic conversion by 1.7-fold compared to plasma NfL alone, more than halving the estimated sample size required for an FTLD prevention clinical trial. These findings underscore CSF YWHAG:NPTX2 as a cross-dementia synaptic biomarker of cognitive decline and a promising biomarker for disease staging and prognosis across the clinico-pathological continuum of FTLD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746470v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.04.05.716600",
+        "title": "Spatiotemporal Characterization of Amyloidosis-Associated Microglial States Reveals Sex Difference in Early Plaque Formation",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-31",
+        "is_early_access": true,
+        "authors": [
+          "Vinayak Manjally, A.",
+          "Fowler, A. M.",
+          "Thanayangyuen, J.",
+          "Cheval, M.",
+          "Iordanov, M.",
+          "Liljegren, D.",
+          "Milord, Y.",
+          "Park, J.",
+          "Yamashita, E.",
+          "Kieffer, A. C.",
+          "Tay, T. L."
+        ],
+        "abstract": "Twice as many women develop Alzheimer's disease (AD) compared to men. Several key aspects, such as genetic risk factors, hormonal vulnerability, social responsibilities, and differences in longevity, contribute to the strong female bias in AD. To assess whether sex differences can be detected during the onset of AD, we examined the amyloid-{beta} (A{beta}) plaque burden--one of the hallmarks of AD--and microglial states in young 5XFAD mouse models of amyloid pathology. We hypothesized that an elevated A{beta} burden will directly correlate with an increase in microglial cell number and phagocytic activity, shaping the appearance of compact dense-core plaques in the cortex from 2 to 6 months of age. As expected, no change in microglial density and phenotype was found in A{beta} plaque-free hypothalamus of 5XFAD male and female mice when compared to age-matched wildtype controls. By quantifying the number and coverage of diffuse and dense-core plaques in the cortex, we discovered a pronounced increase in A{beta} plaques and microglial clustering in 4-month-old female 5XFAD compared to male mice. Conversely by 6 months, higher total plaque load in males and no sex difference in the number of plaque-associated microglial (PAM) cluster was observed. Our spatiotemporal characterization of microglial CD68, Dectin-1 (Clec7a), and CD11c (Itgax) expression revealed transient sex differences in the upregulation of only CD68 among these phagocytic markers in cortical microglia. In 4-months-old males, greater phagolysosomal activity may benefit A{beta} clearance and delay plaque formation. In females, lower microglial phagolysosomal activity and increased microgliosis may have led to the increase in plaque deposition and compaction from 2-4 months. Our results suggest that during early amyloidosis, sex differences in CD68-associated phagolysosomal activity and microglia-driven plaque compaction may cause disproportionate AD risk and severity that is compounded by other exacerbat",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.04.05.716600v2",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.25.747130",
+        "title": "Coordinated dysregulation of modular gene activity in human neuropathologies",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-31",
+        "is_early_access": true,
+        "authors": [
+          "Kang, G.",
+          "Oldham, M. C."
+        ],
+        "abstract": "Understanding which genes are reproducibly dysregulated in which cell types is foundational knowledge for efforts to slow or reverse pathologies. For neuropathologies, such efforts rely primarily on differential expression analysis of single-nucleus RNA-seq (snRNA-seq) data. However, this strategy suffers from experimental and statistical challenges that limit marker gene reproducibility. We describe a novel strategy called Covariation Projection Analysis (CoPA) that combines the power of bulk sampling with the precision of single-cell methods. By  projecting bulk gene coexpression modules onto pseudobulked snRNA-seq cell types, CoPA reveals the cellular origins of highly reproducible genomic programs and their relative importance among cell types. By comparing CoPA projection patterns between normal and pathological human brain samples using differential CoPA (dCoPA), we identify gene coexpression modules that are uniformly and reproducibly dysregulated in specific neocortical cell types in Alzheimers disease or schizophrenia. We share our findings through a novel web application called CoPA Cabana (https://oldhamlab.shinyapps.io/copacabana/).",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747130v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.25.747102",
+        "title": "A neuronal CRISPRi screen identifies PQLC2 as a lysosomal pH regulator controlling tau homeostasis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-31",
+        "is_early_access": true,
+        "authors": [
+          "Welch, M.",
+          "Sampognaro, P. J.",
+          "Shu, S.",
+          "Chaplot, K.",
+          "Bothra, A.",
+          "Castruita, P. A.",
+          "Smith, A. W.",
+          "Antee, T.",
+          "Hodul, M.",
+          "Tian, R.",
+          "Gao, V.",
+          "Limas, J. C.",
+          "Burris, K. D.",
+          "Parker, J. L.",
+          "Yokoyama, J. S.",
+          "Miller, B. L.",
+          "Seeley, W. W.",
+          "Newstead, S.",
+          "Kampmann, M.",
+          "Kao, A. W."
+        ],
+        "abstract": "Lysosomes make key contributions to the maintenance of cellular proteostasis, and their functional compromise has been linked to aging and neurodegenerative disease. A defining characteristic of lysosomes is their relative acidity compared to other subcellular compartments, a quality that enables the efficient breakdown of macromolecules. Evidence suggests that neuronal lysosomal pH becomes dysregulated with aging and neurodegenerative disease, yet the mechanisms by which lysosomal pH is maintained remain incompletely understood. To better understand neuronal lysosomal pH regulation, we conducted a genome-wide CRISPRi-based screen in iPSC-derived iNeurons for modifiers of lysosomal pH. We validated several previously known regulators of lysosomal pH and identified novel pathways capable of modifying lysosomal pH, including protein UFMylation and mitochondrial homeostasis. We demonstrate that loss of the lysosomal cationic amino acid exporter, PQLC2, prevents lysosomal acidification in a manner independent of amino acid transport. A novel, tauopathy-associated mutation in PQLC2 impairs lysosomal acidification and drives tau accumulation. Together, this study reveals novel genes that modify lysosomal pH and highlights potential new targets for ameliorating age-related lysosome dysfunction.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747102v1",
+        "reasons": [
+          "关键词『tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.25.747129",
+        "title": "Structural generalization and continual learning enabled by factorized entorhinal-hippocampal memory and entorhinal-parietal action circuits",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-30",
+        "is_early_access": true,
+        "authors": [
+          "Hwang, J.",
+          "Neupane, S.",
+          "Jazayeri, M.",
+          "Fiete, I."
+        ],
+        "abstract": "Flexible behavior requires generalizable memory and learning. For example, we rapidly learn to commute in new cities by reusing our knowledge of Euclidean two-dimensional space and structures like roundabouts and subway systems without forgetting how to get to a favorite restaurant back home. Yet we lack a detailed understanding of how the brain uses existing knowledge to generalize while retaining the memory of specific past experiences. To address this gap, we combine behavioral measurements, neural recordings, and computational modeling in an abstract sequential image navigation task to study three forms of generalization: mnemonic generalization, from visual to mental navigation; transitive generalization, from trained to novel routes; and structural generalization, from familiar to new environments. In contrast to monkeys and humans, recurrent neural networks failed at all generalizations. We found that a structured entorhinal-hippocampal memory model, which provides a content-independent metric scaffold based on grid cells for storing experience, coupled to a policy recurrent network, succeeds at all three. The content-independent scaffold enables mnemonic and transitive generalization through path integration and facilitates structural generalization by allowing reuse of a previously learned action policy network. Moreover, the scaffold's high combinatorial capacity permits continual learning without catastrophic forgetting. We recorded neural activity from the entorhinal cortex and posterior parietal cortex of two monkeys performing the task and found two distinct computations across the neural population. Modularizing an entorhinal and parietal action policy network to separately track distance and initiate actions captured the distinct population dynamics and improved model performance. Finally, we added a reinforcement learning module to the network that enabled it to learn an appropriate scale factor to align the grid periodicity with the environmental t",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747129v1",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.28.747944",
+        "title": "Characterizing shared and distinctive molecular phenotypes across motor regions in ALS with and without TDP-43 pathology in a veteran cohort",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-30",
+        "is_early_access": true,
+        "authors": [
+          "Doyle, P. H.",
+          "Kazempour Dehkordi, S.",
+          "Orr, T. C.",
+          "Sun, X.",
+          "Pater, M. S.",
+          "Arnold, F. J.",
+          "Ly, C. V.",
+          "Orr, M."
+        ],
+        "abstract": "Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease characterized by progressive dysfunction and loss of upper and lower motor neurons. Although motor neuron degeneration ultimately drives paralysis, neuronal dysfunction may precede cell death by a prolonged interval, suggesting that vulnerable neurons engage stress-adaptive programs that permit survival despite impaired function. Cellular senescence represents one such persistent stress response and has increasingly been implicated in neurodegenerative disease, including disorders associated with TDP-43 pathology. Here, we investigated whether senescence-associated molecular states are present in vulnerable motor neurons in ALS and whether they differ according to anatomical region and phosphorylated TDP-43 (pTDP-43) pathology. Postmortem primary motor cortex, cervical spinal cord, and lumbar spinal cord were obtained from the Department of Veterans Affairs Biorepository Brain Bank from individuals with ALS classified as pTDP-43-positive or pTDP-43-negative, together with non-ALS controls. Targeted bulk transcriptomic profiling was combined with GeoMx Digital Spatial Profiling of individual motor neurons to characterize disease-, region-, and pathology-associated molecular phenotypes while preserving anatomical context. Across ALS cases, we identified alterations in pathways related to cell-cycle regulation, RNA processing, mitochondrial function, proteostasis, inflammation, and synaptic signaling. These signatures varied by anatomical region and pTDP-43 status, indicating substantial heterogeneity in the molecular response to ALS pathology. Despite these differences, both ALS groups exhibited convergent proteomic and transcriptomic features associated with cellular senescence. These findings identify senescence-associated molecular states within vulnerable neuronal populations in ALS and support a model in which persistent stress adaptation may permit neuronal survival while contributing to pr",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747944v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.26.747332",
+        "title": "Substrate Profiling of RNF216 Uncovers a Translation-Linked OTUD4 Regulatory Axis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-08-30",
+        "is_early_access": true,
+        "authors": [
+          "Wei, W.",
+          "Liu, R.",
+          "Zhang, J.",
+          "Liu, S.",
+          "Charles, A. J.",
+          "Asati, D. G.",
+          "Allen, Z. D.",
+          "Wright, D.",
+          "Peng, K.",
+          "Krekeler, E.",
+          "Mosammaparast, N.",
+          "Yin, J.",
+          "Mabb, A. M."
+        ],
+        "abstract": "Mutations in the E3 Ubiquitin (Ub) ligase RNF216 cause Gordon Holmes syndrome (GHS), a neurodegenerative disorder accompanied by neuroendocrine disruption. We developed an orthogonal ubiquitin transfer (OUT) platform to capture RNF216 substrates in neuronal cells and identified OTUD4, a deubiquitinating enzyme (DUB) mutated in GHS, and FMRP, a neuronal-enriched translational repressor. RNF216 predominantly synthesizes K6-linked Ub chains on OTUD4 to induce its degradation, forming donut-shaped structures in neurons. In return, OTUD4 removes the ubiquitination of RNF216 and FMRP. Analysis of RNF216 substrates revealed biological functions regulating protein synthesis, a shared function of the OTUD4-RNF216 substrate interaction network. Indeed, RNF216 expression increased protein synthesis rates in different cell types while Rnf216 deletion decreased dendritic development in neurons. Overall, our findings show that RNF216 and OTUD4 balance rates of protein synthesis and degradation and suggest GHS-related mutations in RNF216 or OTUD4 may offset this balance, triggering neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747332v1",
         "reasons": [
           "关键词『neurodegeneration』(命中abstract)"
         ],
