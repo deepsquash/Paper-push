@@ -1,10 +1,364 @@
 {
-  "date": "2026-09-01",
-  "total": 9,
+  "date": "2026-09-02",
+  "total": 23,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.1101/2025.05.15.653735",
+        "title": "Somatosensory rhythms and cerebellar-basal ganglia beta-band dynamics in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Pando-Naude, V.",
+          "Andersen, L."
+        ],
+        "abstract": "Rhythmic cognition relies on the interplay between endogenous and exogenous temporal structures, allowing organisms to anticipate and adapt to events in time. Neural oscillations, particularly in the beta-band (14-30 Hz), have been implicated in this predictive capacity, coordinating sensorimotor networks that support timing and rhythm perception. Parkinson's disease (PD), a movement disorder characterized by disrupted basal ganglia function, offers a unique framework to probe the neural mechanisms underlying rhythmic cognition. We estimated beta-band source activity and connectivity across the cerebellum, basal ganglia, thalamus, and motor cortex during a rhythmic somatosensory timing task to compare brain activity between participants with PD (n=24) and age-matched controls (n=25). Using magnetoencephalography, participants received tactile stimuli in regular (non-jittered) and irregular (jittered) sequences, with the final stimulus omitted to probe prediction before and evaluation after the omission. We found prediction-related differences between participants with PD and controls in the cerebellum and basal ganglia before the omissions, while replicating earlier findings in controls, consistent with cerebellar evaluation responses after the omissions. In PD, basal ganglia activity showed greater activity for jittered over non-jittered somatosensory rhythms, opposite to controls. Altered cerebellar beta-band responses correlated with PD symptom severity. Connectivity analyzes showed group-by-regularity interactions in a sensory-integration network. These findings suggest that temporal prediction and evaluation in rhythmic cognition rely on coordinated beta-band dynamics across the cerebello-striatal-thalamo-cortical network. In PD, disrupted basal ganglia function may be associated with increased cerebellar engagement and altered network dynamics under irregular temporal conditions, potentially reflecting differences in the processing of rhythmic structure.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.05.15.653735v5",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.26.747247",
+        "title": "Characterization and pharmacological modulation of Alzheimers disease-associated human microglial states",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Garcia-Diaz Barriga, G.",
+          "Rosebrock, D.",
+          "Renner, H.",
+          "Meyer, I.",
+          "Penalosa-Ruiz, G.",
+          "Firulyova, M. M.",
+          "Simon, M.",
+          "Yang, T.",
+          "Serratto, G. M.",
+          "Zoppetti, F.",
+          "Müller, W.",
+          "Illarionova, A.",
+          "Heise, K.",
+          "Kuhn, R.",
+          "von der Kammer, H.",
+          "Zimmer, B.",
+          "Gruber-Schoffnegger, D."
+        ],
+        "abstract": "Microglia are central mediators of Alzheimers disease (AD) pathogenesis, yet the mechanisms driving disease-associated microglial states and their therapeutic modulation remain poorly understood. Here, we integrated single-nucleus transcriptomic datasets across the AD spectrum and identified disease- and lipid-associated microglia (DLaM) as a major AD-enriched population linked to genetic risk, neuropathology and cognitive decline. To model this state experimentally, we screened AD-relevant perturbations in human induced pluripotent stem cell (hiPSC)-derived microglia and found that ferric ammonium citrate (FAC) reproducibly induced a DLaM-like state characterized by lipid accumulation, lysosomal dysfunction and impaired A{beta} phagocytosis. Using a transcriptomics-based state-reversion screen, we identified LY2090314 as a potent modulator that restored microglial function and induced a distinct lysosomal-metabolic state. These findings establish a framework for transcriptomic disease-state-guided therapeutic discovery in AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747247v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.24.746808",
+        "title": "A reproducibility-audit framework for generalizable versus dataset-specific molecular transition boundaries in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Kim, Y.",
+          "Heo, W.",
+          "Park, S. J.",
+          "Kim, Y.",
+          "Cho, Y. E."
+        ],
+        "abstract": "Molecular staging of Alzheimer's disease (AD) increasingly defines transition boundaries along single-cell pseudo-progression trajectories, yet whether such boundaries reproduce across brain regions, cohorts and molecular modalities is rarely tested. We present a permutation-controlled audit that combines nine boundary-detection algorithms with a fixed marker panel and four orthogonal reproducibility axes-algorithmic consensus, region, cohort and modality. On synthetic data with planted ground-truth boundaries the audit reaches 100% sensitivity and 94% specificity, rejecting four distinct artefact classes each by a different axis. Applied to the Seattle Alzheimer's Disease Brain Cell Atlas middle temporal gyrus, it localizes a transition that is robust across algorithms and recovered in most cell types but does not generalize: its leading marker is attenuated or absent in prefrontal cortex, entorhinal cortex and cerebrospinal fluid, and an apparent cross-region conservation of glial metabolic genes proves to be a global-expression offset rather than a shared program. The same audit nonetheless certifies an externally validated marker (astrocytic PTGDS) as reproducible across regions and modalities, showing that it separates generalizable anchors from dataset-specific ones rather than rejecting all signals. We provide this four-axis audit as a transferable, code-available standard to apply before a trajectory boundary is read as a biological stage, in AD and other progressive proteinopathies.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746808v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.05.15.725133",
+        "title": "Dopamine Depletion Drives Whole-Brain Oscillatory Disruptions via Cortico-Subcortical Resonance: A Multiscale Model of Parkinson's Disease in Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Gambosi, B.",
+          "Perdikis, D.",
+          "Meier, J.",
+          "Geminiani, A.",
+          "Antonietti, A.",
+          "Mazzoni, A.",
+          "Ferrigno, G.",
+          "Ritter, P.",
+          "Pedrocchi, A."
+        ],
+        "abstract": "Parkinson's disease is defined by dopaminergic neuron loss in the substantia nigra, yet its hallmark, exaggerated beta-band synchrony, pervades motor cortex, thalamus, and cerebellum, implicating network dynamics far beyond any single circuit. How focal subcortical dopamine depletion translates into brain-wide oscillatory pathology remains unresolved. We use a connectome-constrained multiscale model of the mouse brain, embedding biophysically detailed spiking networks of basal ganglia and cerebellum within whole-brain corticothalamic dynamics grounded in the Allen Mouse Brain Connectivity Atlas. We show that confining dopamine depletion exclusively to subcortical circuits is sufficient to produce widespread beta hypersynchrony (10-30 Hz), accompanied by heterogeneous theta and gamma dysregulation. Virtual loop ablations reveal that cortical and cerebellar beta amplification strictly requires intact cortico-basal ganglia-thalamic feedback; severing this loop confines beta to subcortical generators. These results support resonance within closed large-scale loops, rather than local rhythmogenesis, as the mechanism underlying distributed Parkinsonian beta pathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725133v2",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.25.744599",
+        "title": "The circadian system is affected by Alzheimers disease independently from amyloid beta deposits",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Calligaro, H.",
+          "Khov, B.",
+          "Noel, K.",
+          "Glina, A.",
+          "van Rosmalen, L.",
+          "Ramasamy, R.",
+          "Li, Y.",
+          "Lam, M. T. Y.",
+          "Le, H.",
+          "Kim, K.-Y.",
+          "Ju, W.-K.",
+          "Ellisman, M.",
+          "Panda, S."
+        ],
+        "abstract": "Circadian disruption, notably sleep disturbances, serves as an early indicator of Alzheimers disease (AD), preceding cognitive symptoms like memory loss. The suprachiasmatic nucleus (SCN) governs biological rhythms and receives direct retinal input via melanopsin-expressing retinal ganglion cells (mRGCs) to synchronize with environmental light cycles. The anatomical and functional basis for circadian disruption in AD remains unclear. Here, we explored the multi-level relationships between gene expression, the SCN connectome, and regulations of sleep and circadian rhythms in the APP/PS1 mouse model.\n\nThe sleep architecture of APP/PS1 mice displayed significantly reduced rapid eye movement sleep (REM), associated with a reduced daily core body temperature amplitude and locomotor hyperactivity. Lastly, APP/PS1 mice showed an impaired response to acute light pulse stimulation and present hyperactivity of mRGCs at a young age and hypoactivity of these cells at older ages. These physiological functions are known to be, at least in part, regulated by the SCN, the main target of mRGCs.\n\nWe noted several modifications in SCN connectomics using serial blockface electron microscopy (SBEM), including a reduction of the dendro-dendritic chemical synapse (DDCS) network that receives a large part of the retinal input and is thought to be crucial for synchronicity between SCN neurons. In addition, we observed multiple signs of dystrophy, including modifications of the shape of dendrites and cell soma, accumulation of aggregated lysosomes, and swelling of axons. At the same time, we investigated the changes in gene expression using spatial transcriptomics. The SCN presents changes in the expression of genes associated with synapse formation, cell adhesion, and neurite growth.\n\nThese results suggest that, despite the absence of amyloid plaques in the ventral hypothalamus, the SCN of APP/PS1 mice still undergo profound gene expression changes, impacting connectomics and physiological ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.744599v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.27.747662",
+        "title": "MAPT regulates autophagic-lysosomal function and phagocytosis in human microglia",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Schache, K. J.",
+          "Zhang, R.",
+          "Street, A. E.",
+          "Starr, E.",
+          "Marsh, J. A.",
+          "Kast, D. J.",
+          "Temple, S.",
+          "Iyer, A. K.",
+          "Karch, C. M."
+        ],
+        "abstract": "Tauopathies are characterized by the accumulation and spread of pathogenic tau aggregates throughout the brain, a process that is increasingly recognized to involve not only neurons but also microglia. However, whether pathogenic MAPT directly alters microglial degradative capacity remains poorly understood. Here, using isogenic human induced pluripotent stem cell-derived microglia carrying the pathogenic MAPT IVS10+16 mutation, we identify tau as a regulator of microglial lysosomal function. MAPT IVS10+16 microglia exhibited coordinated suppression of lysosomal and autophagic pathways, reduced lysosomal protease abundance and activity, and impaired autophagosome-lysosome fusion. Mutant microglia also showed reduced uptake of extracellular tau aggregates, reduced tau accumulation in acidic compartments, and a blunted lysosomal response to proteopathic stress. Conversely, genetic loss of MAPT increased lysosomal degradative capacity and accumulation of extracellular tau aggregates within acidic compartments, supporting a cell-intrinsic role for endogenous tau in regulating microglial degradative function. Pharmacologic enhancement of the autophagy lysosome pathway in MAPT IVS10+16 microglia increased proteolytic activity and improved tau handling. Together, these findings reveal a reciprocal relationship between tau and microglial lysosome function and identify degradative capacity as a modifiable component of the microglial response to tau pathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747662v1",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.06.11.731672",
+        "title": "Altered Striatal Acetylcholine Dynamics in a Model of Parkinson Disease and L-DOPA-induced Dyskinesia",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Gregoretti, S. C.",
+          "Jaunarajs, K.",
+          "Scarduzio, M."
+        ],
+        "abstract": "LDOPA remains the most effective therapy for Parkinson's disease (PD), yet its chronic use often induces involuntary movements known as L-DOPA-induced dyskinesia (LID). While abnormal cholinergic interneuron (ChI) activity is a hallmark of both PD and LID, emerging evidence suggests that the temporal organization of acetylcholine (ACh) signaling, rather than its overall magnitude, may determine its functional impact. Under physiological conditions, ChIs exhibit intrinsic delta-frequency activity reflected in coordinated, slow oscillations of extracellular ACh, which are thought to organize striatal network function and movement pattering. To determine how dopamine (DA) depletion and L-DOPA treatment reshape these ACh dynamics, we used in vivo GRAB-ACh fiber photometry in the unilateral 6-OHDA mouse model. DA depletion disrupted slow ACh rhythmicity, reducing delta-band regularity while increasing higher-frequency phasic activity. Acute L-DOPA broadly suppressed ACh activity across frequencies, partially normalizing this imbalance, but without restoring slow temporal structure. In addition, chronic L-DOPA treatment, associated with established dyskinesia, further impaired delta-band coordination in the DA-depleted striatum during the ON state, while OFF-state activity retained lesion-associated features. The anti-dyskinetic agent amantadine restored low-frequency temporal structure both before and after L-DOPA exposure. Together, these findings reveal a state-dependent reorganization of striatal ACh dynamics, characterized by a shift from coordinated slow oscillations to irregular phasic activity following DA loss, and a further breakdown of slow temporal organization during dyskinetic states. These results highlight the temporal structure of cholinergic signaling as a critical and underappreciated dimension of striatal function in PD and LID.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731672v2",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2023.10.12.562041",
+        "title": "Defective lysosomal acidification contributes to TNFR1 mediated neuronal necroptosis in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Zeng, J.",
+          "Abd-Elraouf, K.",
+          "Loi, G. W. Z.",
+          "Saipuljumri, E. N.",
+          "O'Connor, L. M.",
+          "Indajang, J.",
+          "Reynolds, R.",
+          "Barron, A. M.",
+          "Lo, C. H."
+        ],
+        "abstract": "Background: Tumor necrosis factor (TNF) receptor 1 (TNFR1) signaling mediates neuronal necroptosis in Alzheimer's disease (AD). Interaction of TNFR1 signaling axis with autolysosomal pathway and the accumulation of necrosome molecules in impaired lysosomes have been shown to lead to necroptotic neuronal death. This has been attributed to the terminal failure of the autophagic process, primarily due to lysosomal degradation dysfunction. Being the final and determining step of the autolysosomal pathway, lysosomes with sufficient acidification as maintained by functional vacuolar (H+)-ATPase (V-ATPase) are required to achieve complete autophagic degradation of toxic cellular components. Here, we aim to investigate the role of defective lysosomal acidification in mediating TNFR1 induced neuronal necroptosis in AD. Methods: Neuropathological analysis of human post-mortem AD brains was performed to examine the correlation between TNFR1 induced neuronal necroptosis and autolysosomal dysfunction. Specifically, we probed for the level of V-ATPase subunits in AD brains to determine the extent of lysosomal acidification and function. Cell-based assays were conducted to understand the effect of TNFR1 activation in driving lysosomal acidification defect, proteolytic function, membrane integrity, autophagic impairment, mitochondrial dysfunction, and neuronal death in SH-SY5Y neuroblastoma cells. Furthermore, we applied lysosome-acidifying nanoparticles (AcNPs) to determine whether restoration of lysosomal acidification can rescue neuronal necroptosis in both TNF-treated SH-SY5Y cells and APPNL-G-F knock-in mouse model of AD. Results: We found that TNFR1 activated neuronal necroptosis correlated with autolysosomal dysfunction as characterized by downregulation of V-ATPase subunits and accumulation of autophagy receptor p62 in human AD brains. In cell culture, we showed for the first time that lysosomal acidification is only impaired in cells treated with TNF and not with other cyt",
+        "url": "https://www.biorxiv.org/content/10.1101/2023.10.12.562041v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.27.747668",
+        "title": "Excessive cholesterol accumulation in microglia increases neuronal synaptic vulnerability to amyloid-beta",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Ding, S.",
+          "Nazarenkov, N.",
+          "Kim, J.",
+          "Dore, K.",
+          "Choi, S.-H.",
+          "Miller, Y. I."
+        ],
+        "abstract": "Cholesterol efflux is an important determinant of cellular lipid homeostasis. However, how microglial excessive cholesterol accumulation affects neuronal synaptic integrity remains poorly understood, particularly in the context of Alzheimer's disease. Here, we utilized a conditional knockout mouse model targeting the cholesterol transporters ABCA1 and ABCG1 in microglia. The microglia-specific ABCA1/ABCG1 deficiency triggered marked cholesterol accumulation, microglial hypertrophy, downregulation of the homeostatic marker P2ry12, and upregulation of the reactivity-associated marker CD11b, indicating shift toward a reactive phenotype. This phenotype was accompanied by increased reactive oxygen species, consistent with enhanced oxidative stress in ABCA1/ABCG1-deficient microglia compared with control. Using organotypic hippocampal slice cultures, we investigated the downstream neuronal outcomes of microglial ABCA1/ABCG1 deficiency. Under basal conditions, microglial ABCA1/ABCG1 knockdown did not significantly alter dendritic spine density in CA1 pyramidal neurons. However, upon exposure to amyloid-beta (A{beta}) stress, microglial ABCA1/ABCG1 deficiency markedly exacerbated dendritic spine loss in CA1 pyramidal neurons. Taken together, our findings highlight an important role for ABCA1/ABCG1-dependent cholesterol efflux in maintaining microglial homeostasis and limiting neuronal synaptic vulnerability to A{beta}-associated stress. These results support further investigation of microglial cholesterol transport as a potential target for preserving synaptic resilience in Alzheimer's disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747668v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.26.747192",
+        "title": "Entorhinal grid coding as a functional link between tau accumulation and episodic memory in human aging",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Segen, V.",
+          "Belge Bernard, T.",
+          "Callau Navarro, G.",
+          "Bahrd, P.",
+          "Behrenbruch, N.",
+          "Schumann-Werner, B.",
+          "Schwarck, S.",
+          "Garcia-Garcia, B.",
+          "Barthel, H.",
+          "Sabri, O.",
+          "Kreissl, M. C.",
+          "Duzel, E.",
+          "Maass, A.",
+          "Wolbers, T."
+        ],
+        "abstract": "Episodic memory decline is a common feature of cognitively normal aging, but its extent varies markedly across individuals. Although entorhinal tau pathology is thought to be a key contributor to episodic memory impairment, the neural mechanisms linking early tau accumulation to memory differences remain unclear. Grid-cell computations in the entorhinal cortex, which provide scaffolds for organizing experiences into episodic memories, offer one candidate mechanism. Here, we combined virtual-reality functional MRI, multivariate analysis, tau PET, and delayed word-list recall in cognitively normal older adults to test whether tau-related alterations in entorhinal coding are associated with worse episodic memory. Weaker left entorhinal grid-cell-like signal was associated with poorer memory performance, and individuals with higher left entorhinal tau burden showed weaker grid-cell-like signal. This association was specific to the canonical six-fold signal and was not explained by entorhinal volume, mean diffusivity, or intracortical myelination. A cross-sectional Bayesian mediation analysis further demonstrated that bilateral medial temporal tau burden is related to memory indirectly through left entorhinal grid-cell-like signal. Together, these findings provide evidence that entorhinal grid codes may constitute a functional pathway linking tau accumulation to memory variability in normal aging.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747192v1",
+        "reasons": [
+          "关键词『tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.25.744491",
+        "title": "Pallidal beta oscillations underlying locomotor adaptation in Parkinsons disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Choi, J. T.",
+          "Gurrala, A.",
+          "Wang, D. D.",
+          "de Hemptinne, C.",
+          "Wong, J. K."
+        ],
+        "abstract": "BackgroundLocomotor adaptation is essential for adjusting walking patterns to complex environments. This study investigated locomotor adaptation deficits in people with Parkinsons disease (PD) and examined oscillatory activity in the globus pallidus internus (GPi) during walking adaptation. We hypothesized that elevated beta-band activity in the GPi is associated with reduced locomotor adaptability in PD.\n\nMethodsTwelve PD patients with GPi deep brain stimulation (DBS) (eleven bilateral and one unilateral) were included. Local field potentials (LFPs) were recorded from DBS electrodes during split-belt treadmill walking. Patients were tested in the medication-off, DBS-off state. Locomotor adaptation was measured as the change in step length asymmetry during split-belt walking, with smaller changes indicating greater adaptation deficits.\n\nResultsWe found that GPi high beta (20-30 Hz) and low gamma (30-60 Hz) oscillations were modulated during split-belt walking. Compared to adapters, non-adapters showed decreased movement-related beta suppression during walking. Across participants, beta activity in the GPi contralateral to the fast leg was negatively associated with adaptation magnitude (Spearmans {rho} = -0.65 to -0.75).\n\nConclusionsGPi oscillations are dynamically modulated during locomotor adaptation in PD. Increased beta activity may underlie impaired sensorimotor adaptation during walking. These findings provide novel insight into basal ganglia mechanisms of gait adaptation in PD and suggest that elevated GPi beta activity may serve as a marker of locomotor adaptation deficits.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.744491v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.20.746036",
+        "title": "Chronic trazodone treatment consolidates sleep, improves memory, and reduces amyloid pathology in a mouse model of Alzheimers disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Arai, M.",
+          "Yue, J.",
+          "Shams, E.",
+          "Stevens, C. J.",
+          "Han, H.",
+          "Gibson, R.",
+          "Yildirim, T.",
+          "Feldman, H. H.",
+          "Wellington, C. L.",
+          "Kent, B. A."
+        ],
+        "abstract": "Sleep disturbance in Alzheimers disease (AD), particularly the reduction of slow wave sleep (SWS), has been proposed as a novel therapeutic target, with disease-modifying potential. Trazodone, an antidepressant with robust SWS-promoting properties, is currently the most prescribed sleep-promoting medication in the United States. Here, we demonstrate that chronic trazodone administration consolidates sleep in the APPNL-F knock-in mouse model of AD, increasing NREM sleep duration and slow wave power during the rest phase while promoting wake during the active phase. These sleep consolidating effects were accompanied by lower regional glial activation and amyloid burden, particularly in male mice. Most notably, hippocampal amyloid plaque burden was 45% lower in mice treated from 14 to 16 months of age than in vehicle-treated controls. Chronic trazodone treatment was also associated with better short-term and long-term recognition memory. Together, these findings support the potential of repurposing trazodone as a well-tolerated, disease-modifying therapeutic for AD, capable of enhancing sleep quality, improving cognition, and lowering AD-relevant neuropathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746036v2",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.03.25.714147",
+        "title": "Genetic and epigenetic convergence at MOBP links ALS and PSP",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Fodder, K.",
+          "Murthy, M.",
+          "Harvey, J.",
+          "Pishva, E.",
+          "Lunnon, K.",
+          "Raj, T.",
+          "Farrell, K. W.",
+          "de Silva, R.",
+          "Humphrey, J.",
+          "Bettencourt, C."
+        ],
+        "abstract": "BackgroundMyelin associated oligodendrocyte basic protein (MOBP) is an abundantly expressed oligodendrocyte gene. Genetic variation at the MOBP locus has been associated with risk for multiple neurodegenerative disorders, including progressive supranuclear palsy (PSP), amyotrophic lateral sclerosis (ALS), and frontotemporal dementia (FTD). Epigenetically, MOBP promoter hypermethylation and reduced expression have been reported in multiple system atrophy (MSA). Although MOBP is thought to play a role in oligodendrocyte morphology and myelin structure, how genetic and epigenetic variation at this locus influences gene regulation and contributes to disease risk remains poorly understood across neurodegenerative disorders.\n\nMethodsWe assessed genetic overlap and colocalisation at the MOBP locus across multiple neurodegenerative diseases. Disease-associated signals were fine-mapped to prioritise putative causal variants, and the strongest signals were subsequently investigated using molecular quantitative trait loci and post-mortem brain tissue datasets.\n\nResultsALS and PSP showed strong genetic association at MOBP, with highly overlapping associated variants and strong evidence that both diseases share the same causal signal. Overlap with frontotemporal dementia was weaker. Methylation quantitative trait locus colocalisation identified cg15069948, located near an exon junction within MOBP, as strongly colocalising with the ALS and PSP genetic risk signals. In PSP brain tissue, carriers of the rs1768208-T risk allele showed lower methylation at cg15069948. We additionally identified evidence for an interaction between rs1768208 genotype and cg15069948 methylation associated with altered MOBP 3' untranslated region architecture.\n\nConclusionsThese findings identify a shared ALS/PSP genetic-epigenetic mechanism at MOBP that is distinct from promoter-associated dysregulation in MSA. Together, they position MOBP as a key oligodendrocyte regulatory locus with both shared and d",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.03.25.714147v2",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.26.747377",
+        "title": "Multidimensional diffusion MRI reveals heterogeneous microstructural remodeling associated with amyloid pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Or, P. S. K.",
+          "Yon, M.",
+          "Narvaez, O.",
+          "Sitnikova, V.",
+          "Malm, T.",
+          "Bouhrara, M.",
+          "Sierra, A.",
+          "Topgaard, D.",
+          "Benjamini, D."
+        ],
+        "abstract": "Alzheimer's disease (AD) pathology involves amyloid deposition, reactive gliosis, and localized tissue alterations that coexist within the same brain regions, creating heterogeneous microstructural environments within individual imaging voxels. Conventional diffusion MRI averages these environments into aggregate measures, potentially obscuring their distinct contributions. Frequency-dependent multidimensional MRI ({omega}MD-MRI) resolves distributions of water components with different diffusion length scales, anisotropies, and relaxation properties, providing sensitivity to microstructural restriction, heterogeneity, and shape-size correlations within a voxel. Whether these measurements reveal microstructural complexity associated with AD pathology remains unclear. Here, we performed {omega}MD-MRI on ex vivo brain specimens from approximately 8-month-old 5xFAD and wild-type mice and interpreted the imaging findings alongside complementary histology. {omega}MD-MRI revealed widespread but spatially nonuniform differences between 5xFAD and wild-type brains. Measurements sensitive to microstructural restriction, heterogeneity, and shape-size correlations consistently indicated greater microstructural heterogeneity in 5xFAD brains, with the most prominent differences in the hippocampal formation and major cerebral white matter tracts. Complementary qualitative histology demonstrated extensive amyloid deposition and glial activation in affected regions, while overall cytoarchitecture and myelin organization remained largely preserved. Thus, the {omega}MD-MRI abnormalities occurred in tissue characterized by multiple coexisting pathological and relatively preserved microstructural environments rather than widespread structural degeneration. These findings demonstrate that {omega}MD-MRI can reveal the spatial and microstructural heterogeneity associated with amyloid pathology and provide a more comprehensive characterization of AD-related tissue alterations.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747377v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.27.745197",
+        "title": "Dysregulated splenic glucocorticoid sensitivity in aging and an α-synuclein transgenic mouse model of Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-01",
+        "is_early_access": true,
+        "authors": [
+          "Rombach, D.",
+          "Bopp, V.",
+          "Langgartner, D.",
+          "Grozdanov, V.",
+          "Kassubek, J.",
+          "Touma, C.",
+          "Reber, S. O.",
+          "Danzer, K. M."
+        ],
+        "abstract": "Introduction: Parkinson's disease (PD) and aging both disrupt hypothalamic-pituitary-adrenal (HPA) axis function and peripheral immune homeostasis. Whether aging or -synuclein (-syn) pathology alters glucocorticoid (GC) sensitivity of peripheral immune cells has not been investigated. Methods: Using an ex vivo GC sensitivity assay, we assessed the responsiveness of isolated and lipopolysaccharide (LPS)-stimulated splenocytes to the anti-inflammatory effects of increasing doses of corticosterone (CORT) in a wild-type (WT) aging cohort and in a PD -syn transgenic mouse model and respective age-matched controls. Results: Compared with splenocytes from 6-month-old WT mice, splenocytes from 20-month-old WT mice were less sensitive to 0.1 and 0.5 M CORT. Isolated splenocytes from PD vs. control mice were less sensitive to 0.05, 0.1, and 0.5 M CORT specifically at 16 months of age, but not at 6 or 20 months of age. As peripheral immune phenotyping revealed neither differences in HPA axis-related parameters nor in splenic GC receptor expression between PD and age-matched control mice at 6, 16, and 20 months, splenic GC resistance in PD mice at 16 months of age seems to be mediated by downstream GR signaling dysfunction. Conclusion: Together, our results support the hypothesis that -syn pathology accelerates an aging-associated decline in the peripheral sensitivity to anti-inflammatory GCs and may thereby sustain systemic and neuroinflammatory processes in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.745197v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.08.23.746508",
         "title": "Hyperactivation of the AXL-ICD/SIRT2 axis by Amyloid-β impairs astrocytic autophagic flux and exacerbates neuroinflammation",
@@ -197,72 +551,68 @@
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.08.25.747129",
-        "title": "Structural generalization and continual learning enabled by factorized entorhinal-hippocampal memory and entorhinal-parietal action circuits",
+        "doi": "10.64898/2026.08.26.747343",
+        "title": "Early MATR3 loss and distinct neurodegenerative molecular signatures precede the onset of neuropathology in motor neurons and Purkinje cells of MATR3 S85C knock-in mouse model of ALS",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-30",
+        "published_online": "2026-08-31",
         "is_early_access": true,
         "authors": [
-          "Hwang, J.",
-          "Neupane, S.",
-          "Jazayeri, M.",
-          "Fiete, I."
+          "Maksimovic, K.",
+          "Majji, R.",
+          "Santos, J. R.",
+          "Chan, C.",
+          "Zelaya, A.",
+          "Lee, J.",
+          "Dias, M.",
+          "Gluscencova, O. B.",
+          "Youssef, M. M. M.",
+          "Kim, S.",
+          "Noronha, T.",
+          "Lai, C.",
+          "Fan, Y.",
+          "Metri, M. N.",
+          "You, J.",
+          "Kao, C. S.",
+          "Wang, L.-Y.",
+          "Lefebvre, J. L.",
+          "Wilson, M. D.",
+          "Yalamanchili, H. K.",
+          "Park, J."
         ],
-        "abstract": "Flexible behavior requires generalizable memory and learning. For example, we rapidly learn to commute in new cities by reusing our knowledge of Euclidean two-dimensional space and structures like roundabouts and subway systems without forgetting how to get to a favorite restaurant back home. Yet we lack a detailed understanding of how the brain uses existing knowledge to generalize while retaining the memory of specific past experiences. To address this gap, we combine behavioral measurements, neural recordings, and computational modeling in an abstract sequential image navigation task to study three forms of generalization: mnemonic generalization, from visual to mental navigation; transitive generalization, from trained to novel routes; and structural generalization, from familiar to new environments. In contrast to monkeys and humans, recurrent neural networks failed at all generalizations. We found that a structured entorhinal-hippocampal memory model, which provides a content-independent metric scaffold based on grid cells for storing experience, coupled to a policy recurrent network, succeeds at all three. The content-independent scaffold enables mnemonic and transitive generalization through path integration and facilitates structural generalization by allowing reuse of a previously learned action policy network. Moreover, the scaffold's high combinatorial capacity permits continual learning without catastrophic forgetting. We recorded neural activity from the entorhinal cortex and posterior parietal cortex of two monkeys performing the task and found two distinct computations across the neural population. Modularizing an entorhinal and parietal action policy network to separately track distance and initiate actions captured the distinct population dynamics and improved model performance. Finally, we added a reinforcement learning module to the network that enabled it to learn an appropriate scale factor to align the grid periodicity with the environmental t",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747129v1",
+        "abstract": "Amyotrophic lateral sclerosis (ALS) is a motor neuron disease, leading to progressive muscle weakness and motor impairment. Growing evidence indicates that cerebellar Purkinje cells, which play a central role in motor coordination, are also affected in ALS. However, it is unclear whether the molecular events that initiate neurodegeneration in these ALS-relevant motor-controlling neurons are shared or distinct. Here, we used a MATR3 S85C knock-in (KI) mouse model of early-stage ALS with stage-specific motor phenotypes and selective vulnerability of motor neurons and Purkinje cells to decipher the molecular events underlying neurodegeneration in these two neuronal populations. We found that a profound reduction in detectable MATR3 S85C immunoreactivity (hereafter referred to as MATR3 loss) in both motor neurons and Purkinje cells precedes the onset of motor dysfunction and neuropathology, implicating MATR3 loss as the earliest detectable molecular event. Our bulk cerebellar RNA profiling and motor neuron-specific RNA profiling data at the onset of MATR3 loss revealed distinct molecular signatures. In the cerebellum, Ngfr expression emerged in Purkinje cells before the onset of neuronal loss and remained elevated throughout the disease course. This increase was accompanied by activation of the JNK-mediated cell death pathway. In the motor neurons, elevated Fgf21 and integrated stress response (ISR) gene expression were the first to be observed and persisted throughout disease progression, consistent with previous findings in SOD1 mouse models. Our findings provide mechanistic insights into the initiation of neurodegeneration in ALS-relevant motor-controlling neurons and implicate potential neuron type-specific targets for future therapeutics.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747343v1",
         "reasons": [
-          "关键词『tau』(命中abstract)"
+          "关键词『amyotrophic lateral sclerosis、neurodegeneration』(命中abstract)"
         ],
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.08.28.747944",
-        "title": "Characterizing shared and distinctive molecular phenotypes across motor regions in ALS with and without TDP-43 pathology in a veteran cohort",
+        "doi": "10.64898/2026.08.26.747232",
+        "title": "Simvastatin attenuates disease phenotypes in human induced pluripotent stem cell models of familial Parkinson's disease through RhoA inhibition",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-30",
+        "published_online": "2026-08-31",
         "is_early_access": true,
         "authors": [
-          "Doyle, P. H.",
-          "Kazempour Dehkordi, S.",
-          "Orr, T. C.",
-          "Sun, X.",
-          "Pater, M. S.",
-          "Arnold, F. J.",
-          "Ly, C. V.",
-          "Orr, M."
+          "Schmidt, S. I.",
+          "Okarmus, J.",
+          "Ryding, M.",
+          "Skousen, I. K.",
+          "Broner Jensen, N. F.",
+          "Christensen, E. B.",
+          "Winkelmann, L. S.",
+          "Juhl, A. D.",
+          "Klaebel, M.",
+          "Blaabjerg, M.",
+          "Freude, K.",
+          "Wustner, D.",
+          "Wade-Martins, R.",
+          "Ryan, B.",
+          "Meyer, M."
         ],
-        "abstract": "Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease characterized by progressive dysfunction and loss of upper and lower motor neurons. Although motor neuron degeneration ultimately drives paralysis, neuronal dysfunction may precede cell death by a prolonged interval, suggesting that vulnerable neurons engage stress-adaptive programs that permit survival despite impaired function. Cellular senescence represents one such persistent stress response and has increasingly been implicated in neurodegenerative disease, including disorders associated with TDP-43 pathology. Here, we investigated whether senescence-associated molecular states are present in vulnerable motor neurons in ALS and whether they differ according to anatomical region and phosphorylated TDP-43 (pTDP-43) pathology. Postmortem primary motor cortex, cervical spinal cord, and lumbar spinal cord were obtained from the Department of Veterans Affairs Biorepository Brain Bank from individuals with ALS classified as pTDP-43-positive or pTDP-43-negative, together with non-ALS controls. Targeted bulk transcriptomic profiling was combined with GeoMx Digital Spatial Profiling of individual motor neurons to characterize disease-, region-, and pathology-associated molecular phenotypes while preserving anatomical context. Across ALS cases, we identified alterations in pathways related to cell-cycle regulation, RNA processing, mitochondrial function, proteostasis, inflammation, and synaptic signaling. These signatures varied by anatomical region and pTDP-43 status, indicating substantial heterogeneity in the molecular response to ALS pathology. Despite these differences, both ALS groups exhibited convergent proteomic and transcriptomic features associated with cellular senescence. These findings identify senescence-associated molecular states within vulnerable neuronal populations in ALS and support a model in which persistent stress adaptation may permit neuronal survival while contributing to pr",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747944v1",
+        "abstract": "Background: Statins have gained increasing interest for their potential therapeutic effect in Parkinson's disease (PD). Beyond their cholesterol-lowering effect, statins decrease synthesis of isoprenoids, which is believed to account for their pleiotropic effects. Isoprenylation is important for proper membrane localization and function of the Rho GTPases, including RhoA. RhoA signalling has emerged as a possible underlying signalling pathway involved in the pathogenesis of PD and other neurodegenerative diseases. Methods: In the present study, we investigated the effects of simvastatin on neurodegeneration-associated phenotypes using human induced pluripotent stem cell-derived dopaminergic (DA) neurons from both PD patients and isogenic PARK2-/- cell lines. The dependence on RhoA was confirmed using direct RhoA inhibition using rhosin. Assessed phenotypes included structural integrity, mitochondrial and lysosomal characteristics, cytokine secretion, and cell viability. To understand the relevance of RhoA in PD, RhoA activity was measured in 32 PD patient iPSC-derived lines with different familial PD-related mutations and in healthy controls. Results: Simvastatin rescued multiple PD-associated phenotypes, including impaired DA neurite outgrowth, mitochondrial and lysosomal alterations, cytokine release, and cell death. RhoA inhibition was associated with changes in mitophagy- and autophagy-related markers, suggesting improved autophagic and mitophagic turnover. Furthermore, we performed the first systematic screen of RhoA activity across 32 iPSC-derived DA neuron lines representing multiple genetic forms of PD (PINK1 loss of function, parkin loss of function, LRRK2 (G2019S), LRRK2 (R1441C), GBA (L44P), GBA (N370S), A53T, and SNCA triplication) and healthy controls. RhoA activity was perturbated across several genetic forms of PD subtypes and was significantly increased in many, although not all, patient lines compared with healthy controls, highlighting disease hete",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747232v1",
         "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.26.747332",
-        "title": "Substrate Profiling of RNF216 Uncovers a Translation-Linked OTUD4 Regulatory Axis",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-08-30",
-        "is_early_access": true,
-        "authors": [
-          "Wei, W.",
-          "Liu, R.",
-          "Zhang, J.",
-          "Liu, S.",
-          "Charles, A. J.",
-          "Asati, D. G.",
-          "Allen, Z. D.",
-          "Wright, D.",
-          "Peng, K.",
-          "Krekeler, E.",
-          "Mosammaparast, N.",
-          "Yin, J.",
-          "Mabb, A. M."
-        ],
-        "abstract": "Mutations in the E3 Ubiquitin (Ub) ligase RNF216 cause Gordon Holmes syndrome (GHS), a neurodegenerative disorder accompanied by neuroendocrine disruption. We developed an orthogonal ubiquitin transfer (OUT) platform to capture RNF216 substrates in neuronal cells and identified OTUD4, a deubiquitinating enzyme (DUB) mutated in GHS, and FMRP, a neuronal-enriched translational repressor. RNF216 predominantly synthesizes K6-linked Ub chains on OTUD4 to induce its degradation, forming donut-shaped structures in neurons. In return, OTUD4 removes the ubiquitination of RNF216 and FMRP. Analysis of RNF216 substrates revealed biological functions regulating protein synthesis, a shared function of the OTUD4-RNF216 substrate interaction network. Indeed, RNF216 expression increased protein synthesis rates in different cell types while Rnf216 deletion decreased dendritic development in neurons. Overall, our findings show that RNF216 and OTUD4 balance rates of protein synthesis and degradation and suggest GHS-related mutations in RNF216 or OTUD4 may offset this balance, triggering neurodegeneration.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747332v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
         ],
         "is_new": true
       }
