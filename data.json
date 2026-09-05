@@ -1,10 +1,238 @@
 {
-  "date": "2026-09-04",
-  "total": 9,
+  "date": "2026-09-05",
+  "total": 21,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.05.15.725427",
+        "title": "A Comparative Evaluation of Structural MRI Foundation Models for Age, Sex, and Body-Mass Index Predictions",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Encin, A.",
+          "Gilmore, A.",
+          "Rokem, A.",
+          "Dickie, E.",
+          "Glatard, T."
+        ],
+        "abstract": "Foundation models pre-trained on large neuroimaging datasets offer a promising approach to overcome the limited sample sizes typical of clinical imaging studies, yet their generalization across diverse populations remains unclear. We present the first systematic benchmark of four publicly available structural MRI foundation models: AnatCL, BrainIAC, 3D-Neuro-SimCLR, and SwinBrain. Using T1-weighted MRIs from the Parkinson's Progression Markers Initiative (PPMI), Healthy Brain Network (HBN), and Nathan Kline Institute (NKI) datasets, we evaluate these models on sex classification, brain age prediction, and body mass index prediction, comparing against models trained from FreeSurfer-derived cortical thickness and cortical surface area features. Submitted models are evaluated using a standardized frozen feature probing framework. The evaluation methods are available in BrainFMBench, a living benchmark for structural brain MRI foundation models hosted on GitHub, where new models can be added through pull requests. Although some foundation models outperformed FreeSurfer on particular tasks and datasets, 3D-Neuro-SimCLR and AnatCL outperformed the baselines overall, with 3D-Neuro-SimCLR demonstrating the most consistent performance (with the notable exception of HBN sex classification). The remaining models did not consistently outperform the baselines, indicating that the advantage of learned representations over morphometric features was not consistent across datasets and tasks for these models. In addition, cross-model feature correlation analysis reveals that foundation model representations correlate differently with traditional cortical measurements. These findings position structural MRI foundation models, particularly 3D-Neuro-SimCLR and AnatCL, as promising avenues to boost the performance of predictive models in neuroimaging.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725427v4",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.31.748388",
+        "title": "Sex and APOE Genotype Differentially Shape Microglial Transcriptomic Profiles Across the Hippocampus and Cortex",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Ledesma-Corvi, S.",
+          "Blankers, S.",
+          "McGovern, A.",
+          "Towriss, M.",
+          "Kim, J.",
+          "Ciernia, A. V.",
+          "Galea, L."
+        ],
+        "abstract": "Female sex and the APOEe4 allele are top risk factors for Alzheimers disease (AD). Microglia play a role in the pathogenesis of AD, yet how sex and APOE genotype affect microglia remain poorly understood. Here, we characterized the transcriptomic and morphological profiles in the hippocampus and cortex of microglia from humanized APOEe3 and APOEe4 mice of males and females. The hAPOEe4 genotype was associated with sex-dependent effects on microglia co-expression modules in both brain regions, involving cellular stress and immunometabolism processes. In females, a hippocampal cell cycle module was supported by reduced microglial proliferation. Cortical modules were enriched for lipid metabolism and immune-related processes whose expression decreased in females but increased in male hAPOEe4. Male, but not female, hAPOEe4 microglia shifted toward an ameboid state in both regions. Together, these findings reveal sex-dependent microglial responses to APOEe4 across brain regions and highlight the need to incorporate sex-specific approaches into AD research.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748388v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.03.747935",
+        "title": "An Integrated Single-Nucleus Atlas Resolves Cell-Type-Specific Programs and Molecular Subtypes in Alzheimer's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Rahimzadeh, N.",
+          "Morabito, S.",
+          "Khullar, S.",
+          "Shi, Z.",
+          "Cao, Z.",
+          "Swarup, V."
+        ],
+        "abstract": "Interindividual heterogeneity in Alzheimer's disease (AD) remains poorly understood, as disparate single-cell studies leave it unclear whether findings reflect shared architecture or dataset-specific idiosyncrasies. Here, we present panAD, a transcriptomic atlas of >3 million nuclei from 791 individuals across 13 studies, spanning AD, mild cognitive impairment, and cognitively normal aging. AD converges on a reproducible, cell-type-specific molecular architecture: co-expression modules track neuropathology and cognitive decline; GWAS risk genes act predominantly as downstream targets of transcription factor hubs such as microglial SPI1; intercellular communication is remodeled with disease stage; and sex differences concentrate in microglial immune-activation programs. To model patient-level transcriptomic heterogeneity, we developed the Multi-seed Optimization of Neural Embeddings for subTyping (MONET) framework, in which a masked variational autoencoder applied to covariate-adjusted, multi-cell-type profiles resolves four subtypes (Metal-Ion Stress, Neuroinflammatory, Synaptic Integrity, and Tissue Remodeling) that dissociate neuropathological burden from cognitive impairment and nominate predominantly non-overlapping candidate therapeutics. Finally, Stellar Atlas provides an AI-native conversational interface to the atlas.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.747935v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.10.02.679969",
+        "title": "Patient-specific functional brain architecture explains cortical patterns of tau PET in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Behjat, H. H.",
+          "Vogel, J. W.",
+          "Strandberg, O.",
+          "Spotorno, N.",
+          "Franzmeier, N.",
+          "Chauveau, L.",
+          "Rittmo, J.",
+          "Stampacchia, S.",
+          "Collij, L. E.",
+          "Pichet Binette, A.",
+          "Xiao, Y.",
+          "Chaggar, P.",
+          "Zhu, Z.",
+          "the Alzheimer's Disease Neuroimaging Initiative,",
+          "van Westen, D.",
+          "Stomrud, E.",
+          "Palmqvist, S.",
+          "Van De Ville, D.",
+          "Smith, R.",
+          "Mattsson-Carlgren, N.",
+          "Hansson, O.",
+          "Ossenkoppele, R."
+        ],
+        "abstract": "The spatial distribution of tau pathology, a key correlate of neurodegeneration and cognitive decline in Alzheimer's disease (AD), varies markedly across individuals. While tau is thought to spread along brain networks, the role of inter-individual variability in accounting for these patterns remains underexplored. Using resting-state fMRI and tau-PET from 805 BioFINDER participants across the AD continuum, with replication in ADNI (n=361) and A4 (n=336), we studied whether subject-specific functional connectivity (FC) profiles enhance the characterization of tau deposition patterns. A hybrid approach integrating individual and group-average FC explained individual tau-PET topographies better than either FC representation alone, particularly in symptomatic individuals and at finer spatial resolutions. Hybrid FC also better captured individual tau topographies than canonical tau-PET maps derived from cohort-level data. These effects were specific to tau and not similarly observed for {beta}-amyloid, and the explanatory advantage of FC-based models increased with spatial granularity. Furthermore, baseline hybrid FC explained follow-up tau-PET topography better than template FC, suggesting that individualized baseline connectivity contains information about future tau-PET progression. The main FC model-comparison findings replicated in ADNI and A4. Collectively, these findings show that individual functional brain architecture is associated with heterogeneity in tau-PET topography. While not establishing a causal propagation mechanism, our findings are consistent with network-spread models. This work advances the methodological characterization of tau-PET heterogeneity in AD and highlights functional connectivity as a potentially informative marker of individual tau-PET trajectories.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.10.02.679969v3",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.31.748359",
+        "title": "Frontal stimulation reshapes SCAN connectivity and improves motor function in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Panda, R.",
+          "Brissenden, J. A.",
+          "Scerbak, T.",
+          "Proctor, E.",
+          "Li, Y.",
+          "Vesia, M.",
+          "Albin, R.",
+          "Lee, T."
+        ],
+        "abstract": "Parkinson's disease is a neurodegenerative disorder with characteristic motor deficits of bradykinesia and impaired coordination, and non-motor deficits affecting cognitive abilities such as attention and executive functions. Recent evidence suggests that some canonical motor deficits in Parkinson's disease (e.g., freezing of gait) are associated with abnormalities in frontal cortical processing typically thought to underlie executive functions such as cognitive control. The evidence from human research linking frontal cognitive disruption and motor deficits in people with Parkinson's disease is correlational. Individuals with cognitive impairments often also display gait and balance deficits, but causal evidence remains lacking. We combined non-invasive brain stimulation with functional MRI (fMRI) to ascertain whether dorsolateral prefrontal cortex (DLPFC) exerts a causal influence modulating motor function and to test the hypothesis that an excitatory stimulation protocol applied to a cognitive control network can improve motor performance in Parkinson disease. Participants with Parkinson's disease performed a precision force-tracking task shown to track with gait impairment while undergoing functional neuroimaging scans. On half of trials, participants were required to simultaneously perform a cognitively demanding 2-back working memory task to tax attentional systems. Following the initial baseline scan, participants returned for three separate counterbalanced sessions that combined transcranial magnetic stimulation (TMS) in the form of theta burst stimulation (TBS) with fMRI. Just prior to task performance, participants received either excitatory (intermittent TBS) or inhibitory (continuous TBS) stimulation protocols over right DLPFC. In the third session, participants received stimulation to a control site outside the cognitive and motor areas implicated in our task. Our within-subjects experimental design allowed us to examine the effects of stimulation on mo",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748359v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.31.748393",
+        "title": "Rapid Mechanistic Bridging of an Alzheimer's Disease Plasma Protein Staging Panel Across Brain Proteomics Cohorts",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Kim, C. C.",
+          "Campbell, M. K.",
+          "Burq, M.",
+          "Potocnik, A.",
+          "Stepec, D.",
+          "Cuoco, C. M.",
+          "Bronevetsky, Y.",
+          "Zafred, D.",
+          "Leung, J. M.",
+          "Cimermancic, P."
+        ],
+        "abstract": "Background: Blood-based biomarkers are transforming Alzheimer's Disease (AD) diagnosis and staging. Recent multi-protein plasma panels accurately identify individuals with advanced Braak pathology, but whether these circulating biomarkers truly reflect the molecular remodeling underlying AD neuropathology remains unclear. Pre-existing datasets could answer such questions, but their reuse requires harmonized protein expression data, standardized sample annotations, and consistent study metadata. Methods: A recently reported seven-protein plasma staging panel was evaluated across multiple post-mortem proteomics brain cohorts using pre-structured datasets on the Tesorai platform. Five datasets with Braak stage data were identified and re-analyzed. A linear model was used to distinguish late (V-VI) from early Braak stage (0-IV). Because phosphorylated tau 217 (p-tau217) and amyloid beta 1-40 (A{beta}40) were not reported for any studies, raw spectra were reprocessed to quantify these proteoforms. Results: Across the cohorts, the plasma-derived biomarker panel consistently discriminated early from late disease despite heterogeneous protein coverage. Reprocessing of raw spectra recovered tau phosphopeptides absent from the original protein summaries, enabling inclusion of p-tau217, while A{beta}40 remained undetected. Together, these findings show that proteins comprising a recently proposed blood-based staging panel are associated with proteomic remodeling in the AD brain across independent cohorts. Conclusions: These findings provide biological validation for a recently proposed blood-based seven-protein staging panel by demonstrating that its constituent biomarkers are associated with disease-stage proteomic changes in AD brain tissue. More broadly, re-mining legacy mass spectrometry data for disease-relevant proteoforms, combined with pre-structured datasets, can accelerate evaluation of emerging blood-based biomarkers against neuropathological and molecular features ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748393v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.01.748568",
+        "title": "Defective synapto-nuclear signaling contributes to motoneuron vulnerability in SOD1-ALS",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Grycz, K.",
+          "Jan, C.",
+          "Zawistowski, P.",
+          "Wasicki, B.",
+          "Ozkan, B.",
+          "Aousji, O.",
+          "Sirtori, R.",
+          "Fallini, C.",
+          "Caron, G.",
+          "Danner, S. M.",
+          "Roselli, F.",
+          "Zytnicki, D.",
+          "Baczyk, M."
+        ],
+        "abstract": "Glutamatergic excitatory synapses not only shape spiking activity and neuronal communication but also initiate activity-dependent signaling pathways that trigger transcriptional programs. Since glutamatergic excitatory synapses onto spinal motoneurons (MNs) are impaired presymptomatically in Amyotrophic Lateral Sclerosis, we investigated whether synapto-nuclear coupling is disrupted in MNs from mSOD1 mice and whether restoring it mitigates pathology. We developed an in vivo approach to selectively investigate the coupling between synaptic excitation and nuclear CREB phosphorylation in spinal MNs. Specific activation of Ia-MN synapses induces CREB phosphorylation in wild-type MNs but not in mSOD1 MNs at P50, indicating presymptomatic synapto-nuclear uncoupling. Enhancing cAMP/PKA signaling by pharmacological inhibition of cAMP degradation restored synapto-nuclear coupling, reduced misfolded SOD1, and slowed neuromuscular-junction denervation. Thus, activity-dependent synapto-nuclear signaling is impaired yet pharmacologically rescuable in mSOD1 MNs, supporting synapto-nuclear signaling as a determinant of MN resilience.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748568v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.01.748585",
+        "title": "ApoE4 impairs astrocyte lipid droplet formation via endolysosomal dysfunction",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Ralhan, I.",
+          "Bae, J.-Y.",
+          "Lee, N. Y.",
+          "Cai, W.",
+          "Chang, J.",
+          "Jarad, S.",
+          "Gu, H.",
+          "Zhang, D.",
+          "Ioannou, M. S."
+        ],
+        "abstract": "An important component of neuron-glia coupling is the transport and delivery of neuron-derived lipids to glial lipid droplets. This pathway is important as failure to store incoming lipids in glial lipid droplets exacerbates neurodegeneration. ApoE4, a risk factor for Alzheimer's disease, impairs this transport pathway. But how ApoE4 affects lipid trafficking in glia and whether these alterations can be restored is poorly understood. Here, we demonstrate that ApoE4 particles impair endolysosomal function and promote lipofuscin formation in cultured primary astrocytes, thereby disrupting the trafficking of lipids for storage into lipid droplets. Lipid droplets, however, can be recovered by preventing lysosomal impairment with PCSK9, a secreted protein that prevents LDLR recycling and reduces ApoE4 internalization. Lipid droplets are similarly recovered in the presence of ApoE4 by repairing endolysosomal function. Our findings reveal new insight into how ApoE4 dysregulates lipid storage while uncovering new mechanisms to correct these defects.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748585v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.01.748473",
+        "title": "Transthyretin Contributes to Hippocampal Blood-Brain Barrier Recovery Following Intestinal Inflammation, with Reduced Expression in Alzheimer's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-04",
+        "is_early_access": true,
+        "authors": [
+          "Xu, Z.",
+          "Chen, J.",
+          "Yu, J.",
+          "Duan, J.",
+          "Xie, Y.",
+          "Gong, Y.",
+          "Wang, P.",
+          "Lei, X.",
+          "Zhang, C.",
+          "Zhao, X.",
+          "Fan, Z.",
+          "Xu, B.",
+          "Zhang, J."
+        ],
+        "abstract": "Background: The blood-brain barrier (BBB) is increasingly recognized as an active immunoregulatory interface that responds dynamically to systemic inflammation. As intestinal inflammation can influence brain homeostasis through the gut-brain axis, the endogenous mechanisms that preserve BBB integrity during gut-derived inflammatory stress remain poorly understood. Methods and Results: We combined dextran sulfate sodium-induced colitis, fecal microbiota transplantation, aged mice, APP/PS1 mice, human Alzheimer's disease (AD) brain tissue, single-cell RNA sequencing, in vivo BBB permeability assays, and gain- and loss-of-function approaches to investigate adaptive neurovascular responses to gut inflammation and their mechanism in maintaining BBB integrity. Intestinal inflammation induced a region-specific adaptive response characterized by increased hippocampal vascular remodeling and partial restoration of BBB integrity following the initial inflammatory insult. Single-cell transcriptomic analysis identified a transthyretin (TTR)-enriched vascular-associated microglial state accompanying these neurovascular changes. Functional studies demonstrated that TTR contributes to maintaining BBB integrity by promoting endothelial homeostasis and limiting endothelial endocytosis, consistent with modulation of FcRn-associated transport pathways. This adaptive neurovascular response was progressively attenuated in aged mice and APP/PS1 mice and was accompanied by reduced vascular TTR expression in human AD brains. Conclusion: These findings identify TTR as a contributor of adaptive neurovascular homeostasis during gut-derived neuroinflammation. Impairment of this homeostatic response with aging and AD may contribute to persistent BBB dysfunction and chronic neuroinflammation, highlighting neurovascular resilience as a potential therapeutic target.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748473v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.08.27.747679",
         "title": "Aberrant accumulation of α-synuclein might be linked with the progressive motor deficits in a mouse model of Angelman syndrome",
@@ -208,6 +436,73 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.08.29.746901v1",
         "reasons": [
           "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.31.747771",
+        "title": "Pharmacological BET Protein Inhibition Reverts Niemann-Pick Type C Disease-Associated Changes in Human iPSC-Derived Cortical Neurons",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-03",
+        "is_early_access": true,
+        "authors": [
+          "Benigni, F.",
+          "Parente, M.",
+          "Marioli, C.",
+          "Borghi, R.",
+          "Cicolani, N.",
+          "Barthelemy, A.",
+          "Petrini, S.",
+          "Tartaglia, M.",
+          "Pfrieger, F.",
+          "Pallottini, V.",
+          "Compagnucci, C."
+        ],
+        "abstract": "Niemann-Pick type C1 (NPC1) disease is a fatal lysosomal disorder caused by impaired intracellular cholesterol trafficking, leading to progressive neurodegeneration and premature death. Despite advances in disease modelling, therapeutic development remains limited, partly due to the lack of human neuronal systems that accurately recapitulate disease-relevant phenotypes. Here, we generated a patient-specific neuronal model by differentiating induced pluripotent stem cells (iPSCs) carrying the most common NPC1 p.I1061T variant into cortical neurons. These cells exhibit hallmarks of neuronal pathology associated with NPC1 disease, providing a platform to investigate pathological mechanisms and to validate therapeutic candidates in a human context. Using this experimental model, we explored the effects of pharmacological inhibition of bromodomain and extraterminal (BET) proteins. Treatment with the BET inhibitor JQ1 attenuated disease-associated phenotypes, improving neuronal viability and modulating intracellular cholesterol accumulation. Overall, our findings identify BET inhibition as a novel strategy to ameliorate NPC1-associated neuronal pathology and uncover a previously underexplored link between epigenetic regulation and cholesterol homeostasis, highlighting iPSC-derived neurons as a powerful platform for therapeutic discovery.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.747771v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.28.744416",
+        "title": "Tunable neuronal microenvironments drive distinct functional phenotypes in human iPSCs-derived dopaminergic neurons",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-03",
+        "is_early_access": true,
+        "authors": [
+          "Daou, B.",
+          "Rodriguez Sanchez, L.",
+          "Sartori, P.",
+          "Carina Luque, G.",
+          "Prato, M.",
+          "Alegret, N.",
+          "Alonso-Martin, S."
+        ],
+        "abstract": "Neuronal heterogeneity is a defining feature of complex neural circuits, where local differences in firing patterns, activity levels, and temporal dynamics shape information processing and emergent network activity. In adult neurons, this heterogeneity arises from a variety of known and unknown factors including the extracellular environment. Although neurons have been cultured on three-dimensional substrates, the effect of the microenvironments on their firing activity remains poorly understood. Here, we have synthesized two chitosan hydrogel systems seeded with human iPSCs-derived dopaminergic neurons as tunable platforms to control neuronal microenvironments. Both systems were formulated with the ability to incorporate carbon nanotubes (CNT), thus promoting neural interfacing. Calcium imaging combined with computational single-cell analysis demonstrated that supramolecular organization, hydration state, and general physicochemical properties differentially bias neuronal firing dynamics and synchrony leading to the emergence of distinct activity phenotypes despite identical cellular origin. These activity profiles were clustered through K-means and assigned to specific phenotypes including bursting irregular neurons, regular network contributors, or less active/quiescent neurons. Furthermore, CNTs incorporation enhanced local hydrogel compaction, resulting in unique active neuronal phenotypes, highlighting the potential of CNTs to modulate local cellular microenvironments. These findings establish tunable biomaterials as microenvironment contenders for controlling neuronal network state while giving insights on the interplay of different cues in promoting neuronal heterogeneity and functional phenotype relevant to neurodevelopment, neurodegeneration, and disease modelling.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.744416v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.06.03.729455",
+        "title": "Multi-site Cleavage of Amyloid-β by a Minimal 5-mer Catalytic Peptide: Mimicking Serine Protease Activity via Hydrophobic Anchoring",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-03",
+        "is_early_access": true,
+        "authors": [
+          "Ito, F.",
+          "Konishi, M.",
+          "Nakamura, R.",
+          "Akizawa, T."
+        ],
+        "abstract": "The development of small synthetic catalytic peptides, or catalytides, offers a promising therapeutic strategy for the targeted degradation of amyloid-beta (Abeta). Among these, the pentapeptide SKGQA mimics the proteolytic activity of serine proteases despite its minimal size. However, the molecular mechanism enabling such a short, highly flexible peptide to execute cleavage across multiple sites remains unclear. In this study, we combined HADDOCK docking and extended molecular dynamics (MD) simulations to investigate the dynamic interaction between SKGQA and the central hydrophobic cluster (CHC, residues 17-21) of Abeta. Our MD simulations reveal a cooperative mechanism underlying this activity. The hydrophobic C-terminal Ala5 residue anchors SKGQA within the Abeta CHC region, stabilizing the bound complex while potentially interfering with Abeta self-assembly through steric hindrance. Simultaneously, while the C-terminus remains anchored, the hydrophilic N-terminal Ser1 residue is positioned in spatial proximity to multiple adjacent backbone carbonyl carbons, including Glu22 and Asp23. Within this anchored conformational ensemble, thermal fluctuations allow Ser1 to stochastically attack these neighboring carbonyl targets. This combination of site-specific hydrophobic anchoring and probabilistic catalytic targeting provides a clear structural rationale for the peptide's multi-site cleavage capability.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729455v2",
+        "reasons": [
+          "关键词『amyloid』(命中title)"
         ],
         "is_new": true
       }
