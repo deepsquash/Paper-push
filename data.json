@@ -1,10 +1,87 @@
 {
-  "date": "2026-09-05",
-  "total": 21,
+  "date": "2026-09-06",
+  "total": 13,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.03.749143",
+        "title": "Dysregulation of LINGO1 expression in the SOD1(G93A) mutant mice during symptomatic stages of the disease and early postnatal oligodendrogenesis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-05",
+        "is_early_access": true,
+        "authors": [
+          "Zahaf, A.",
+          "Bourseguin, J.",
+          "cobret, L.",
+          "Kassoussi, A.",
+          "Moussaed, M.",
+          "Raoul, C.",
+          "Traiffort, E.",
+          "Morisset-Lopez, S."
+        ],
+        "abstract": "Oligodendrocytes play an essential role in axonal metabolic support and myelination, and their dysfunction is associated with amyotrophic lateral sclerosis (ALS). LINGO1 is a major inhibitor of oligodendrocyte differentiation and axonal regeneration, identified as a promising therapeutic targeted for inflammatory demyelinating diseases. Here, we investigated the expression pattern of LINGO1 in the well-established SOD1(G93A) transgenic mouse model of ALS. We show that LINGO1 protein expression is significantly elevated in both grey and white matter of the mutant spinal cord during both the symptomatic and end stages of the disease. LINGO1 is also notably co-expressed with astroglial and neuronal markers. However, neither the levels of LINGO1 transcripts, nor levels of microRNAs predicted to regulate its expression were altered in the mutant spinal cord, suggesting the involvement of alternative regulatory mechanisms. Our analysis of microRNAs revealed in the mutant a significant downregulation of miR-138, a microRNA known to promote myelination. The differential expression of LINGO1 and miR-138 in ALS mice thus may drive deleterious processes during disease progression in adulthood. Moreover, our data show that white-matter pathology arises earlier than initially thought, as evidenced by significant alterations of oligodendrogenesis that manifest as early as postnatal day 5. Study of the molecular determinants of this developmental defect shows increased miR-138 expression, which may promote oligodendrocyte progenitor cell maturation and involve compensatory mechanisms. Overall, our work identifies disrupted expression of LINGO1 and/or miR-138 in brain during early oligodendrogenesis and at symptomatic disease stages. These findings open the way to further investigations that may consider miR-138 as a potential presymptomatic biomarker and LINGO1 as a therapeutic target to promote remyelination in the context of ALS.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749143v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.02.745749",
+        "title": "A Human Neuronal Cell Model of Endogenous TDP-43 A315T Reveals Altered Protein Dynamics and Disease-Relevant Cellular Dysfunction",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-05",
+        "is_early_access": true,
+        "authors": [
+          "Cicardi, M. E.",
+          "Antonini, S.",
+          "Martorell Serra, I.",
+          "Muench, M.",
+          "Kinney, N.",
+          "Girdhar, A.",
+          "Cristofani, R.",
+          "Poletti, A.",
+          "Sterneckert, J.",
+          "Crippa, V.",
+          "Bordi, M.",
+          "Pasinelli, P.",
+          "Guo, L.",
+          "Tigano, M.",
+          "Trotti, D."
+        ],
+        "abstract": "TAR DNA-binding protein 43 (TDP-43) aggregation is the defining pathological hallmark of nearly all cases of amyotrophic lateral sclerosis (ALS), yet physiologically relevant human models that faithfully recapitulate disease-associated TDP-43 proteinopathy and dysfunction remain limited. To cover this gap, we generated a novel human-based model of cortical neurons carrying the endogenous ALS-linked TDP-43 A315T mutation together with an in-frame Dendra2 fluorescent reporter, enabling temporal and spatial monitoring of the protein. Neurons expressing TDP-43 A315T exhibited progressive neurite degeneration, altered neuronal activity, and impaired mitochondrial respiration, recapitulating several ALS-associated phenotypes. Our model also displays autophagy-dependent accumulation of cytoplasmic aggregates of mutant TDP-43 without overt loss of nuclear function, maintaining normal processing of canonical cryptic exon targets. In contrast, experimental induction of TDP-43 nuclear exclusion readily triggered cryptic exon incorporation, demonstrating that the model faithfully reproduces loss-of-function phenotypes under stress conditions. In line with perturbed protein solubility, mutant TDP-43 neurons show increased stress granule (SG) formation at baseline and under oxidative stress condition. Finally, treatment with the RNA chaperone Clip34 significantly reduced TDP-43 aggregation under both basal and oxidative stress conditions as well as its localization to SGs. Taken together, these findings establish a physiologically relevant human model that separates early TDP-43 toxic gain-of-function from basal loss-of-function while providing a robust platform for investigating TDP-43 biology and accelerating therapeutic discovery in ALS.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.745749v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.01.748583",
+        "title": "The sphingosine-1-phosphate receptor functional antagonist fingolimod exacerbates neuroinflammation and tau pathology in a mouse model of tauopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-05",
+        "is_early_access": true,
+        "authors": [
+          "Rudman, M. D.",
+          "Litvinchuk, A.",
+          "Smith, C.",
+          "Remolina Serrano, J.",
+          "Manis, M.",
+          "Bao, X.",
+          "Yuede, C. M.",
+          "Ulrich, J. D.",
+          "Holtzman, D. M."
+        ],
+        "abstract": "Objective: T cells are increased in the brain in Alzheimer's disease (AD) and primary tauopathies where they correlate with tau pathology. In mouse models, T cells exacerbate tau-related neuroinflammation and neurodegeneration, and depletion of T cells is neuroprotective. Here, we investigate whether the multiple sclerosis drug fingolimod may inhibit infiltration of T cells into the brain in the setting of tau pathology and thereby attenuate tau-mediated neurodegeneration. Methods: P301S-tau transgenic mice expressing human APOE4 (TE4), which develop tau pathology, neurodegeneration, and neuroinflammation with T cell accumulation, were randomly assigned to receive 1 mg/kg/d fingolimod in drinking water or standard mouse drinking water beginning just prior to the accumulation of neurofibrillary tangle pathology at 6 months of age. Mice were then assessed with a battery of cognitive behavioral assays at 9 months of age and euthanized at 9.5 months of age to analyze the blood and brain using flow cytometry, single molecule array (SIMOA) technology, stereotactic brain measurements, and immunohistochemistry. Results: Fingolimod produced the expected lymphopenia in peripheral blood but unexpectedly exacerbated brain T cell accumulation, microgliosis, astrogliosis, and tau pathology, with no significant effect on neurodegeneration or behavioral impairment in TE4 mice. Interpretation: These results indicate fundamental differences in the nature of the adaptive immune response to tau pathology versus other neuroinflammatory diseases such as multiple sclerosis and underscores the importance of understanding the impact of immune modulating therapies on all aspects of AD-related pathology in preclinical models prior to consideration and initiation of clinical trials.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748583v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.05.15.725427",
         "title": "A Comparative Evaluation of Structural MRI Foundation Models for Age, Sex, and Body-Mass Index Predictions",
@@ -234,275 +311,32 @@
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.08.27.747679",
-        "title": "Aberrant accumulation of α-synuclein might be linked with the progressive motor deficits in a mouse model of Angelman syndrome",
+        "doi": "10.1101/2024.10.22.619411",
+        "title": "Network analysis of α-synuclein pathology progression reveals p21-activated kinases as regulators of vulnerability",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
+        "published_online": "2026-09-04",
         "is_early_access": true,
         "authors": [
-          "Das, S.",
-          "Giri, B.",
-          "Jana, N. R."
+          "Vatsa, N.",
+          "Brynildsen, J. K.",
+          "Goralski, T. M.",
+          "Kurgat, K.",
+          "Meyerdirk, L.",
+          "Breton, L.",
+          "DeWeerd, D.",
+          "Brasseur, L.",
+          "Turner, L.",
+          "Becker, K.",
+          "Gallik, K. L.",
+          "Isaguirre, C.",
+          "Sheldon, R. D.",
+          "Bassett, D. S.",
+          "Henderson, M. X."
         ],
-        "abstract": "Dysfunction of maternal UBE3A leads to Angelman syndrome (AS), which is characterized by significant intellectual and motor debilities. However, the molecular underpinnings of the behavioral deficits associated with UBE3A dysfunction remain obscure. In this study, we utilized a model mouse of AS and report, for the first time, that the aberrant accumulation of -synuclein may be linked to the development of AS. Firstly, we demonstrated a progressive deterioration of various motor functions in AS mice beginning from the early adolescent phase. Subsequently, we observed an age-dependent increase in the accumulation of both soluble and insoluble -synuclein, including its pathological variant (pSer129), in the striatum and substantia nigra dopaminergic neurons of AS mice. We also found that Ube3a interacts with -synuclein and promotes its proteasome-mediated degradation, as evidenced by decreased levels of K48-linked polyubiquitinated -synuclein in the brain samples of AS mice in comparison to wild-type animals. Finally, using an RT2 Profiler PCR Array that analysed 84 genes specifically related to dopamine and serotonin pathways, we identified altered transcript level of various genes in the striatal tissues of AS mice that are commonly associated with nigrostriatal dysfunctions in Parkinson's disease. These findings highlight -synuclein as a novel target of Ube3a and suggest that -synuclein pathology may contribute to the progressive motor and other behavioral abnormalities witnessed in AS mice.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747679v1",
+        "abstract": "-Synuclein misfolding and progressive accumulation drive a pathogenic process in Parkinson's disease, yet many brain regions develop more or less pathology than would be predicted by connectivity alone, indicating that intrinsic biological factors influence regional vulnerability. Here, we combined whole brain mapping of -synuclein pathology in wildtype mice 3 days to 9 months after seeding with network diffusion modeling based on anatomical connectivity to derive quantitative measures of regional vulnerability. To identify molecular drivers of this vulnerability, we generated a brain-wide sPAtial Neuron Gene Expression Atlas (PANGEA) and compared regional transcriptional profiles with model-derived vulnerability scores. Vulnerable regions were enriched for specific cellular programs. Specific kinases were also enriched in vulnerable regions, leading to the identification of group II p21-activated kinases (PAKs) as candidate regulators of -synucleinopathy. Pharmacological inhibition of group II PAKs reduced -synuclein aggregation and protected against neuron loss in primary neurons, remained effective when administered after pathology initiation, and suppressed pathology in vivo. Consistent with these findings, genetic depletion of PAK5/6 also suppressed -synuclein aggregation. Together, these results establish a framework linking network-level measures to cellular mechanisms of selective vulnerability and nominate group II PAKs as promising disease-modifying therapeutic targets for Parkinson's disease.",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.10.22.619411v3",
         "reasons": [
           "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.27.746928",
-        "title": "Proteomic signatures of APOE ε4 across human tissues and cell types in Alzheimers disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Li, X. C.",
-          "Finney, C. A.",
-          "Shvetcov, A."
-        ],
-        "abstract": "The apolipoprotein E {varepsilon}4 (APOE {varepsilon}4) allele is the strongest genetic risk factor for late-onset Alzheimers disease (AD). However, the underlying molecular mechanisms remain unclear. This study included 1691 participants from the Religious Orders Study and Rush Memory and Aging Project (ROSMAP), 1226 participants from the Accelerating Medicines Partnership - Alzheimers Disease (AMP-AD) Diverse Cohorts Study, and 735 participants from the Alzheimers Disease Neuroimaging Initiative (ADNI). To characterise APOE {varepsilon}4 molecular effects, we analysed proteomic data from plasma, cerebrospinal fluid (CSF), and induced pluripotent stem cell (iPSC)-derived astrocytes and neurons, as well as transcriptomic and proteomic data from multiple brain regions. The association of APOE {varepsilon}4 with AD neuropathology was also examined. APOE {varepsilon}4 carriers shared a plasma proteomic signature enriched for immune processes, irrespective of AD diagnosis. A machine learning classifier trained on this signature discriminated APOE {varepsilon}4 carriers from non-carriers in an independent cohort using CSF proteomics. APOE {varepsilon}4 carriage was associated with higher Braak stages and Consortium to Establish a Registry for Alzheimers Disease (CERAD) score. However, only limited APOE {varepsilon}4-associated transcriptomic and proteomic changes were observed in bulk brain tissue, with poor cross-layer concordance. Proteomic analyses of iPSC-derived astrocytes and neurons further revealed cell-type-specific APOE {varepsilon}4-associated changes. APOE {varepsilon}4 is associated with a consistent proteomic signature across plasma and CSF. Its molecular effects in the brain differ across cell types, brain regions and molecular layers. These findings support the need for cell-type-resolved multi-omic studies to elucidate how APOE {varepsilon}4 confers AD risk.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.746928v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.28.747879",
-        "title": "Aberrant neuronal cell cycle re-entry induces late-onset Alzheimer's disease relevant neuropathological and gene expression changes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Stangis, K. A.",
-          "Pandey, R. S.",
-          "Wang, A.",
-          "Beck, J. S.",
-          "Counts, S. E.",
-          "Carter, G. W.",
-          "Park, K. H."
-        ],
-        "abstract": "Aberrant neuronal cell cycle re-entry (NCCR) is an alternative pathogenic mechanism in Alzheimer disease (AD) that has gained substantial support in the literature. The pathogenic role of ectopic NCCR is supported by our past work demonstrating that SV40T-mediated NCCR in adult mice can induce numerous pathologies associated with AD. Since NCCR is chronically induced for an extended period in the mouse model which gives rise to numerous pathologies including neuroinflammation, many of these neuropathological changes could simultaneously participate in driving disease progression. We hypothesized that the NCCR is a primary pathogenic driver and that halting this disease process at a later age could be sufficient for preventing the progression of AD-related pathologies. Here we show that modulation of NCCR at a later age prevents the progression of AD pathologies, including Abeta; and tau pathologies. Furthermore, functional genomics analysis demonstrates the late-onset AD (LOAD)-relevance of NCCR. Our findings suggest that our NCCR mouse model could help identify novel therapeutic targets that could aid in preventing AD progression.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747879v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.29.747923",
-        "title": "Single nucleus RNA sequencing and spatial transcriptomics reveal unique functionalities of gray matter versus white matter oligodendrocytes in aging and Alzheimer's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Voth, J. P.",
-          "Ramos Benitez, J. A.",
-          "Wilson, A. M.",
-          "Kennedy, S. R.",
-          "Damodarasamy, M.",
-          "Kirkland, A.",
-          "Miller, J. A.",
-          "Latimer, C. S.",
-          "Ragaglia, E.",
-          "Nolan, A.",
-          "Child, D. D.",
-          "Keene, L.",
-          "Reichel, C. L.",
-          "Kohrn, B. F.",
-          "Sherman, L. S.",
-          "Back, S. A.",
-          "Keene, C. D."
-        ],
-        "abstract": "Oligodendrocyte (OL) dysfunction and white-matter (WM) vulnerability are increasingly recognized as important aspects of aging and Alzheimer's Disease (AD), yet human WM-focused, cellular-resolution transcriptomic data remain limited. Here, we profiled prefrontal WM from 48 brain donors spanning young adulthood and late-life with low versus high AD Neuropathologic Change (ADNC) using single-nucleus RNA sequencing followed by spatial transcriptomics (CosMx) in a subset of matched donors. We integrated aged WM OLs with a reference dorsolateral prefrontal cortex grey-matter (GM) OL dataset (SEA-AD) to define region- and pathology-associated OL programs. Across modalities, GM OLs exhibited a robust synapse/neurotransmitter-associated transcriptional signature relative to WM OLs, whereas this program was reduced with aging and attenuated in high ADNC GM. In contrast, WM OLs showed stronger immune-associated programs with aging and further enhancement in high ADNC, including cytokine/chemokine signaling and antigen presentation-related pathways. High ADNC WM OLs also displayed amplified proteostasis and stress-adaptation signatures, including selective upregulation of chaperone/heat shock genes and ferritin subunits, consistent with increased protein-folding demand and altered iron handling. To resolve OL state organization beyond static differential expression, we annotated OL sub-states using marker panels and inferred pseudotime-guided directional state-to-state flows within each tissue/condition stratum. This analysis identified a conserved newly formed differentiating (NFOL)/differentiating [-&gt;] lipid remodeling (APOE/ABCA1/LPL+) [-&gt;] Stress/ISR-reactive architecture, with a pronounced expansion of the Stress/ISR-reactive compartment and altered transition-associated pathway enrichment in high ADNC WM. Together, these data define WM-specific OL programs linked to aging and ADNC and nominate a stress/immune-enriched OL state landscape consistent with a putative ",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.29.747923v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.06.17.733013",
-        "title": "NEK1 autophosphorylation is disrupted by amyotrophic lateral sclerosis-associated missense variants: activity biomarkers and structural insights",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Agarwal, S.",
-          "Abdul Rehman, S. A.",
-          "Munoz, I. M.",
-          "Knebel, A.",
-          "Hop, P. J.",
-          "Gourlay, R.",
-          "Brown, F.",
-          "Macartney, T.",
-          "Squires, I.",
-          "Veldink, J. H.",
-          "Kenna, K. P.",
-          "Rouse, J.",
-          "Mehta, A. R."
-        ],
-        "abstract": "Rare variants in NEK1, encoding a serine/threonine kinase, are amongst the most consistently implicated genetic contributors to amyotrophic lateral sclerosis (ALS), reported in approximately 2-3% of cases. Yet, whilst recent studies have characterised the cell biological consequences of NEK1 loss-of-function, the biochemical effects of ALS-associated missense variants on kinase activity have not been directly investigated. This distinction is mechanistically important, because missense alleles encode mutant proteins rather than simply reducing protein dosage. Here, we provide the most comprehensive cell-based phosphoproteomic map of NEK1 phosphorylation to date, identifying ten recurrent phosphorylation sites across independent expression and acquisition conditions. We experimentally assign pSer14, pThr156 and pSer418 as NEK1 autophosphorylation sites using kinase-dead controls, targeted extracted ion chromatogram analysis, phosphosite mutagenesis and phosphospecific antibodies. Leveraging activation-loop pThr156 as a readout of NEK1 activity, we assessed nine ALS-associated missense variants spanning the major functional regions of the protein. Amongst catalytic-domain variants, R261C produced the most robust reduction in pThr156 autophosphorylation, R232C produced a smaller reduction, and R232H increased pThr156; the basic-region variant, A313T, also showed a smaller reduction. Structural modelling provides a mechanistic framework for understanding these variant-specific effects. Our study establishes the first activity-based framework for functional classification of NEK1 missense variants, and provides direct evidence that ALS-associated missense variants can alter NEK1 autophosphorylation through a mechanism distinct from simple haploinsufficiency. The phosphospecific antibodies, isogenic cell lines and curated phosphoproteomic datasets generated here provide a community resource for future studies of NEK1 regulation, variant interpretation and therapeutic targ",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.733013v2",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.03.30.715339",
-        "title": "Coupled beta and high-frequency oscillations emerge from synchronized bursting in a minimal model of the parkinsonian subthalamic nucleus",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Sheheitli, H.",
-          "Johnson, L. A.",
-          "Wang, J.",
-          "Aman, J. E.",
-          "Vitek, J. L."
-        ],
-        "abstract": "Local field potentials recorded from the subthalamic nucleus (STN) in Parkinson's disease (PD) exhibit a distinctive multiscale spectral signature: exaggerated beta-band oscillations (13-30 Hz) coupled to high-frequency oscillations (HFOs, 200-400 Hz), with HFO amplitude being phase-locked to the beta cycle. This phase-amplitude coupling (PAC) has been identified as a promising biomarker of the parkinsonian state, yet no biophysical model has explained how it emerges, what determines the HFO frequency, or how HFOs can exist without beta modulation in the medicated STN. Here we show that a heterogeneous population of excitatory Izhikevich neurons with recurrent coupling produces three dynamical regimes: (i) asynchronous tonic firing, (ii) asynchronous bursting, in which neurons burst individually producing broadband HFO power but without coherent population-level PAC, and (iii) synchronous bursting, which gives rise to beta-HFO PAC. The regimes are governed by two biophysically interpretable parameters that capture complementary effects of dopamine depletion: one reflecting changes in intrinsic neuronal excitability, the other reflecting changes in synaptic coupling strength. The transition from asynchronous to synchronous bursting in this model captures the emergence of pathological STN neuronal activity in the parkinsonian state. HFO peak frequency varies continuously across the two-parameter landscape, suggesting a possible mechanism of the clinically observed shift from slow (200-300 Hz) to fast (300-400 Hz) HFOs between medication states. The character of the synchronization transition depends on baseline excitability, ranging from a sharp co-emergence of bursting and synchrony at low excitability to a decoupled transition at intermediate excitability, where the bursting fraction saturates while the population synchronization continues to increase with coupling. We also extend the model to include reciprocal coupling to an inhibitory population of globus pallidu",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715339v2",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.03.09.710482",
-        "title": "Vps35 p.D620N causes Lrrk2 kinase hyperactivity, chronic microglial activation and inflammation",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Deng, I. B.",
-          "Bu, M.",
-          "Follett, J.",
-          "Sharp, R. C.",
-          "Mamais, A.",
-          "Xoi, L.",
-          "Yu, F.",
-          "Rabil, G.",
-          "Wall, S.",
-          "Farrer, M. J."
-        ],
-        "abstract": "Pathogenic variants in leucine-rich repeat kinase 2 (LRRK2), RAB32, and vacuolar protein sorting 35 (VPS35) cause dominantly inherited, late-onset Parkinson's disease (PD). Mutations in all three genes constitutively activate LRRK2 kinase activity, enhancing innate immune defense against pathogens; however, chronic activation is linked to dopaminergic neuronal degeneration. LRRK2 and RAB32 are highly expressed in all myeloid cells including brain microglia, whereas VPS35, a core component of the retromer, is ubiquitously expressed. Nevertheless, the VPS35 p.D620N substitution induces the greatest constitutive increase in endogenous LRRK2 kinase activity, and its consequences for immune function remain unclear. We therefore examined the transcriptomic and functional effects of wild type (WT) and Vps35 p.D620N knock-in mice (VKI) from microglia, isolated from brains of naive animals at six-month of age, and initially analyzed by single-cell RNA sequencing (scRNAseq). Despite the absence of overt behavioral differences, differential gene expression revealed genotype-dependent changes in antimicrobial humoral immunity, lysosomal stress sensing, and phagocytosis. S100 family genes and lipocalin 2 were markedly upregulated, a finding subsequently validated by gene expression and immunohistochemistry. Downregulation was also observed in pathways governing microglial regulation of synaptic transmission, neuronal development and homeostatic immune signaling. Peripherally-administered lipopolysaccharide (LPS) stimulated microglial activation and phagocytic markers in WT brain, and further increased morphological activation and synaptic engulfment in VKI animals. Compared to WT, Vps35 p.D620N drives a chronic pro-inflammatory microglial state characterized by elevated innate immune signaling, lysosomal stress and enhanced phagocytic activity. Hence, heightened microglial sensitivity, further exacerbated by a peripheral immune challenge, offers a parsimonious, if multicellular,",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.710482v2",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.06.20.733541",
-        "title": "JNJ-42153605, a mGluR2 PAM, potentiates Levetiracetam treatments of TBI to mitigate subsequent tau aggregation in a larval zebrafish model",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Locskai, L. F.",
-          "Ghassemi, S.",
-          "Tan, S. A. W.",
-          "Kinley, M. J.",
-          "Allison, W. T."
-        ],
-        "abstract": "Traumatic brain injury (TBI) has long-term consequences that include chronic traumatic encephalopathy (CTE) and an elevated risk for Alzheimer Disease (AD). These dementias ultimately manifest as tauopathies but may begin with acute neuronal dysfunction including post-traumatic seizures. Provocative evidence suggests that these prodromal seizures are a viable target to mitigate the later onset of dementias, and anti-epileptic drugs (AED) that increase the threshold of action potentials have indeed been shown to mitigate later tauopathies[1, 2]. Here, we test whether AEDs and other compounds that modulate synaptic transmission, applied immediately after TBI, can also act as prophylactics that acutely block subsequent CTE-like tau aggregation and neurodegeneration in a larval zebrafish model expressing a Tau-GFP fusion protein in the CNS. Levetiracetam (LEV) is an AED that modulates synaptic vesicle release. Application of LEV immediately following TBI abrogated TBI-induced tau aggregation (IC50 = 3.168 x10-3 mM) and cell death in the larval zebrafish TBI model. We next considered a polypharmacy approach involving metabotropic glutamate receptor 2 (mGluR2), because mGluR2 positively allosteric modulators (PAMs) such as JNJ-42153605 have previously been able to improve LEV's action in reducing some recalcitrant forms of seizure in a mouse model. We found that JNJ-42153605 was itself effective at blocking TBI-induced tau aggregation (IC50 = 8.691 x10-5 mM). Moreover, a subeffective dose of JNJ-42153605 (10-5 mM) was able to substantially improve the efficacy of LEV (~16-fold) in its prophylactic actions. Thus, LEV and JNJ-42153605 applied briefly after TBI offer a potent polypharmacy approach, at least in our preclinical animal model, to tackle the later tau aggregation and neurodegeneration that follows from TBI neurotrauma. These results warrant further investigation, including testing in mammalian TBI models with longer disease course and more conventional markers of",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.06.20.733541v2",
-        "reasons": [
-          "关键词『Alzheimer、tau、neurodegeneration』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.29.746901",
-        "title": "Stroke and Alzheimer's disease have distinct consequences on neurovascular function but synergize to increase amyloid deposition",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Ismail, O.",
-          "Woodruff, S. S.",
-          "Zimmerman, B.",
-          "Zhang, W.",
-          "Stackhouse, T. L.",
-          "Pike, M. M.",
-          "Woltjer, R. L.",
-          "Mishra, A."
-        ],
-        "abstract": "INTRODUCTION: We examined whether stroke induces chronic cerebrovascular dysfunction and thereby exacerbates A{beta} pathology. METHODS: We exposed Tg2576 mice to a transient mild subcortical ischemia and examined cerebrovascular function at chronic timepoints as well as reactive astrocytes and A{beta} deposition post-mortem. RESULTS: Baseline cerebral blood flow and cerebrovascular reactivity (CVR) are both influenced by anesthesia regimen. A{beta} strongly impairs CVR at earlier ages, while mild ischemia impairs CVR at later ages. Mild ischemia reduces neurovascular coupling more strongly than A{beta} and synergistically increases A{beta} deposition in Tg2576 mice. DISCUSSION: Stroke-induced cerebrovascular dysfunction and astrocyte reactivity persist for long periods after the injury. Although there is variability in the spatiotemporal progression of ischemia- and A{beta}-induced vascular impairments, they generally follow the pattern of Thal staging. Surprisingly, the ischemia+A{beta} group showed the least cerebrovascular dysfunction yet an exacerbation of A{beta} deposition, suggesting that these pathologies are connected but not tightly coupled.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.29.746901v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.31.747771",
-        "title": "Pharmacological BET Protein Inhibition Reverts Niemann-Pick Type C Disease-Associated Changes in Human iPSC-Derived Cortical Neurons",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Benigni, F.",
-          "Parente, M.",
-          "Marioli, C.",
-          "Borghi, R.",
-          "Cicolani, N.",
-          "Barthelemy, A.",
-          "Petrini, S.",
-          "Tartaglia, M.",
-          "Pfrieger, F.",
-          "Pallottini, V.",
-          "Compagnucci, C."
-        ],
-        "abstract": "Niemann-Pick type C1 (NPC1) disease is a fatal lysosomal disorder caused by impaired intracellular cholesterol trafficking, leading to progressive neurodegeneration and premature death. Despite advances in disease modelling, therapeutic development remains limited, partly due to the lack of human neuronal systems that accurately recapitulate disease-relevant phenotypes. Here, we generated a patient-specific neuronal model by differentiating induced pluripotent stem cells (iPSCs) carrying the most common NPC1 p.I1061T variant into cortical neurons. These cells exhibit hallmarks of neuronal pathology associated with NPC1 disease, providing a platform to investigate pathological mechanisms and to validate therapeutic candidates in a human context. Using this experimental model, we explored the effects of pharmacological inhibition of bromodomain and extraterminal (BET) proteins. Treatment with the BET inhibitor JQ1 attenuated disease-associated phenotypes, improving neuronal viability and modulating intracellular cholesterol accumulation. Overall, our findings identify BET inhibition as a novel strategy to ameliorate NPC1-associated neuronal pathology and uncover a previously underexplored link between epigenetic regulation and cholesterol homeostasis, highlighting iPSC-derived neurons as a powerful platform for therapeutic discovery.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.747771v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.08.28.744416",
-        "title": "Tunable neuronal microenvironments drive distinct functional phenotypes in human iPSCs-derived dopaminergic neurons",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Daou, B.",
-          "Rodriguez Sanchez, L.",
-          "Sartori, P.",
-          "Carina Luque, G.",
-          "Prato, M.",
-          "Alegret, N.",
-          "Alonso-Martin, S."
-        ],
-        "abstract": "Neuronal heterogeneity is a defining feature of complex neural circuits, where local differences in firing patterns, activity levels, and temporal dynamics shape information processing and emergent network activity. In adult neurons, this heterogeneity arises from a variety of known and unknown factors including the extracellular environment. Although neurons have been cultured on three-dimensional substrates, the effect of the microenvironments on their firing activity remains poorly understood. Here, we have synthesized two chitosan hydrogel systems seeded with human iPSCs-derived dopaminergic neurons as tunable platforms to control neuronal microenvironments. Both systems were formulated with the ability to incorporate carbon nanotubes (CNT), thus promoting neural interfacing. Calcium imaging combined with computational single-cell analysis demonstrated that supramolecular organization, hydration state, and general physicochemical properties differentially bias neuronal firing dynamics and synchrony leading to the emergence of distinct activity phenotypes despite identical cellular origin. These activity profiles were clustered through K-means and assigned to specific phenotypes including bursting irregular neurons, regular network contributors, or less active/quiescent neurons. Furthermore, CNTs incorporation enhanced local hydrogel compaction, resulting in unique active neuronal phenotypes, highlighting the potential of CNTs to modulate local cellular microenvironments. These findings establish tunable biomaterials as microenvironment contenders for controlling neuronal network state while giving insights on the interplay of different cues in promoting neuronal heterogeneity and functional phenotype relevant to neurodevelopment, neurodegeneration, and disease modelling.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.744416v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.06.03.729455",
-        "title": "Multi-site Cleavage of Amyloid-β by a Minimal 5-mer Catalytic Peptide: Mimicking Serine Protease Activity via Hydrophobic Anchoring",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-03",
-        "is_early_access": true,
-        "authors": [
-          "Ito, F.",
-          "Konishi, M.",
-          "Nakamura, R.",
-          "Akizawa, T."
-        ],
-        "abstract": "The development of small synthetic catalytic peptides, or catalytides, offers a promising therapeutic strategy for the targeted degradation of amyloid-beta (Abeta). Among these, the pentapeptide SKGQA mimics the proteolytic activity of serine proteases despite its minimal size. However, the molecular mechanism enabling such a short, highly flexible peptide to execute cleavage across multiple sites remains unclear. In this study, we combined HADDOCK docking and extended molecular dynamics (MD) simulations to investigate the dynamic interaction between SKGQA and the central hydrophobic cluster (CHC, residues 17-21) of Abeta. Our MD simulations reveal a cooperative mechanism underlying this activity. The hydrophobic C-terminal Ala5 residue anchors SKGQA within the Abeta CHC region, stabilizing the bound complex while potentially interfering with Abeta self-assembly through steric hindrance. Simultaneously, while the C-terminus remains anchored, the hydrophilic N-terminal Ser1 residue is positioned in spatial proximity to multiple adjacent backbone carbonyl carbons, including Glu22 and Asp23. Within this anchored conformational ensemble, thermal fluctuations allow Ser1 to stochastically attack these neighboring carbonyl targets. This combination of site-specific hydrophobic anchoring and probabilistic catalytic targeting provides a clear structural rationale for the peptide's multi-site cleavage capability.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729455v2",
-        "reasons": [
-          "关键词『amyloid』(命中title)"
         ],
         "is_new": true
       }
