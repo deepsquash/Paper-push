@@ -1,10 +1,60 @@
 {
-  "date": "2026-09-07",
-  "total": 0,
+  "date": "2026-09-08",
+  "total": 2,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
-    "神经退行性疾病": [],
+    "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.06.23.733858",
+        "title": "mTOR drives cerebrovascular dysfunction and blood-brain barrier breakdown in a model of Alzheimers disease with cerebral amyloid angiopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-07",
+        "is_early_access": true,
+        "authors": [
+          "Van Skike, C. E.",
+          "Miller, L. R.",
+          "Hernandez, S. F.",
+          "Hussong, S. A.",
+          "Makhlouf, H.",
+          "Muppala, A.",
+          "DeRosa, N.",
+          "Jahrling, J. B.",
+          "Dineley, K. T.",
+          "Galvan, V."
+        ],
+        "abstract": "Cerebral amyloid angiopathy (CAA) is characterized by the deposition of amyloid {beta} fibrils (A{beta}) within walls of the cerebrovasculature and contributes to intracerebral hemorrhage, ischemic stroke, and cognitive dysfunction in patients with Alzheimers disease (AD) and in non-pathological aging. Previous studies have shown that mTOR drives cerebrovascular dysfunction and cognitive impairment observed in AD, vascular cognitive impairment, and normative aging. However, the mechanisms by which mTOR contributes to CAA are unknown. Here, we show that mTOR drives the accumulation of fibrillar vascular A{beta} lesions in the Tg2576 Model of AD with CAA (using equal numbers of female and male mice), which directly impair endothelium-dependent cerebrovascular reactivity. Additionally, we found that blood-brain barrier (BBB) breakdown and remodeling of tight junction proteins, dependent on mTOR, are associated with increased cerebral microhemorrhages. Finally, we show that mTOR contributes to neurovascular uncoupling in Tg2576 AD mice through nNOS dysfunction and inhibition of non-nitric oxide synthase-dependent contributions to neurovascular coupling (NVC). Contextual memory impairments were ameliorated by the mTOR inhibitor rapamycin. Improvements in memory were associated with reduced cerebrovascular A{beta} fibril accumulation, enhanced endothelium-dependent vasodilation, reduced fibrillar A{beta} load, restoration of BBB integrity, attenuation of intracerebral microhemorrhage, and restoration of NVC. These data indicate that mTOR drives vascular accumulation of fibrillar A{beta}, including those associated with brain vasculature, and mediates cerebrovascular dysfunction in a model of AD with CAA. Thus, mTOR inhibitors represent a promising treatment option for patients with CAA and AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733858v2",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.01.747412",
+        "title": "Reduced EEG Complexity and Its Association with Social Communication in Adults with Autism Spectrum Disorder: A Multiscale Entropy Study",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-06",
+        "is_early_access": true,
+        "authors": [
+          "Naoe, T.",
+          "Shikauchi, Y.",
+          "Itahashi, T.",
+          "Tanaka, K.",
+          "Okimura, T.",
+          "Hashimoto, R.-i.",
+          "Ohta, H.",
+          "Sato, Y.",
+          "Nakamura, M."
+        ],
+        "abstract": "Background: Brain functions emerge from temporally organized neural dynamics, and an appropriate level of neural complexity may support flexible information processing. Electroencephalographic (EEG) studies using multiscale entropy (MSE), which quantifies signal complexity across multiple temporal scales, have reported reduced MSE at longer scales in individuals with autism spectrum disorder (ASD). However, most evidence comes from studies of infant and child samples, leaving adult data scarce, and the associations between reduced MSE, clinical symptoms, and social information processing are insufficiently understood. Methods: We recorded and analyzed EEG data from adults with ASD (n = 47) and typically developing (TD) controls (n = 40) during eyes-closed rest and two movie viewing conditions: Inscapes, comprising dynamically changing abstract visual patterns, and Partly Cloudy, an emotionally engaging animated social narrative. Group and condition effects were assessed using cluster-based permutation tests, and associations between MSE and Social Affect (SA) scores from the Autism Diagnostic Observation Schedule, Second Edition (ADOS-2), as well as group differences in event-related MSE changes, were examined using linear mixed-effects models. Results: Across conditions, adults with ASD showed lower MSE at longer scales ({tau} = 16-30), corresponding to effective sampling rates of 12.50-6.67 Hz in the coarse-grained time series, than TD adults. Longer-scale MSE within the ASD-TD difference cluster was negatively associated with ADOS-2 SA scores across diagnostic groups. The difference in event-related MSE change between Social and Non-Social conditions, comparing empathic-pain and mentalizing events in Partly Cloudy with temporally matched non-social windows in Inscapes, was smaller in ASD participants than in TD participants. No significant difference between Social and Non-Social windows was observed among ASD participants, whereas TD participants showed signific",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.747412v1",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      }
+    ],
     "特定课题组": [],
     "通讯作者订阅": []
   }
