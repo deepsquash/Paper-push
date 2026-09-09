@@ -1,10 +1,133 @@
 {
-  "date": "2026-09-08",
-  "total": 2,
+  "date": "2026-09-09",
+  "total": 7,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.01.747412",
+        "title": "Reduced EEG Complexity and Its Association with Social Communication in Adults with Autism Spectrum Disorder: A Multiscale Entropy Study",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-08",
+        "is_early_access": true,
+        "authors": [
+          "Naoe, T.",
+          "Shikauchi, Y.",
+          "Itahashi, T.",
+          "Tanaka, K.",
+          "Okimura, T.",
+          "Hashimoto, R.-i.",
+          "Ohta, H.",
+          "Sato, Y.",
+          "Nakamura, M."
+        ],
+        "abstract": "Background: Brain functions emerge from temporally organized neural dynamics, and an appropriate level of neural complexity may support flexible information processing. Electroencephalographic (EEG) studies using multiscale entropy (MSE), which quantifies signal complexity across multiple temporal scales, have reported reduced MSE at longer scales in individuals with autism spectrum disorder (ASD). However, most evidence comes from studies of infant and child samples, leaving adult data scarce, and the associations between reduced MSE, clinical symptoms, and social information processing are insufficiently understood. Methods: We recorded and analyzed EEG data from adults with ASD (n = 47) and typically developing (TD) controls (n = 40) during eyes-closed rest and two movie viewing conditions: Inscapes, comprising dynamically changing abstract visual patterns, and Partly Cloudy, an emotionally engaging animated social narrative. Group and condition effects were assessed using cluster-based permutation tests, and associations between MSE and Social Affect (SA) scores from the Autism Diagnostic Observation Schedule, Second Edition (ADOS-2), as well as group differences in event-related MSE changes, were examined using linear mixed-effects models. Results: Across conditions, adults with ASD showed lower MSE at longer scales ({tau} = 16-30), corresponding to effective sampling rates of 12.50-6.67 Hz in the coarse-grained time series, than TD adults. Longer-scale MSE within the ASD-TD difference cluster was negatively associated with ADOS-2 SA scores across diagnostic groups. The difference in event-related MSE change between Social and Non-Social conditions, comparing empathic-pain and mentalizing events in Partly Cloudy with temporally matched non-social windows in Inscapes, was smaller in ASD participants than in TD participants. No significant difference between Social and Non-Social windows was observed among ASD participants, whereas TD participants showed signific",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.747412v2",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.03.749099",
+        "title": "Hippocampal/medial temporal sclerosis is associated with clinical severity, regional TDP-43, and hippocampal atrophy in Alzheimer disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-08",
+        "is_early_access": true,
+        "authors": [
+          "Sharma, P.",
+          "Devappa, R.",
+          "Ramamoorthy, S."
+        ],
+        "abstract": "Alzheimer disease neuropathologic change (ADNC) does not fully explain clinical severity, suggesting important contributions from coexisting pathologies. We examined major co-pathologies in a multicenter autopsy cohort, focusing on hippocampal/medial temporal sclerosis (HS/MTL sclerosis), clinical severity, regional TDP43 topography, clinical status near death, and gross hippocampal atrophy. We analyzed longitudinal clinical and neuropathology data from the National Alzheimers Coordinating Center autopsy cohort. Form specific definitions harmonized AD pathology, major co-pathologies, HS/MTL sclerosis, and regional TDP43 findings across neuropathology versions 8 to10. HS/MTL sclerosis was present in 13.0% of assessed AD cases and was associated with greater CDR Dementia Staging Instrument sum-of-boxes severity in non AD (odds ratio [OR], 4.93; 95% confidence interval [CI], 3.66 to 6.63) and AD strata (OR, 2.56; 95% CI, 2.15 to 3.04). In version 10, HS/MTL sclerosis was associated with higher regional TDP43 topography (OR, 6.54; 95% CI, 3.88 to11.02) and greater gross hippocampal atrophy (OR, 6.43; 95% CI, 4.97 to 8.32). Among AD cases assessed within 2 years of death, HS negative participants had greater odds of non-dementia status than HS positive participants (OR, 5.81; 95% CI, 2.80 to 12.06). HS/MTL sclerosis marked greater clinical severity in both AD and non-AD strata and co-occurred with regional TDP43 involvement and hippocampal atrophy. Its absence identified a subset with intermediate/high AD pathology but no dementia near death. Clinical severity therefore cannot be inferred from ADNC alone.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749099v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.02.748558",
+        "title": "Higher cortical beta oscillatory power before balance perturbations is associated with worse balance in older adults with Parkinson's Disease, but not in age-matched older adults",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-08",
+        "is_early_access": true,
+        "authors": [
+          "Monaghan, A. S.",
+          "Mirdamadi, J. L.",
+          "Protzak, J.",
+          "Payne, A.",
+          "Borich, M. R.",
+          "Ting, L. H."
+        ],
+        "abstract": "Elevated beta activity is hypothesized to reflect reduced flexibility in updating motor and sensory states, which may impair the rapid integration of sensory information required for balance. Therefore, we predicted that higher cortical beta power immediately before balance perturbations would be associated with poorer clinical balance performance, particularly in individuals with Parkinson's Disease (PD). Seventeen individuals with PD (median Hoehn & Yahr = 2) and eighteen neurotypical older adults stood on a translating platform while 32-channel electroencephalography was recorded. For each participant, the cortical component contributing most strongly to the perturbation-evoked N1 response, a balance-related cortical response localized to the supplementary motor area, was identified. Oscillatory beta power (13-30 Hz) during the one-second period immediately preceding perturbation onset was extracted from this N1-related cortical source and parameterized using Fitting Oscillations and One-Over-F (FOOOF). Balance ability was assessed using the Mini-Balance Evaluation Systems Test (Mini-BESTest). Beta power derived from this N1-related source did not differ between groups; however, within individuals with PD, higher pre-perturbation beta power was associated with lower Mini-BESTest scores, a relationship not observed in neurotypical older adults. A subset of older adults exhibited an additional, higher-frequency beta peak absent in PD, suggesting heterogeneity in cortical beta dynamics with aging. These findings suggest that elevated cortical beta oscillations immediately preceding balance perturbations are linked to clinically meaningful balance impairment in PD, supporting beta activity as a potential cortical biomarker of balance dysfunction in this population.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748558v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.02.748476",
+        "title": "Striatal Dopaminergic Dysfunction Constrains Motor Invigoration in Parkinson's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-08",
+        "is_early_access": true,
+        "authors": [
+          "Thomsen, B. L. C.",
+          "Labanauskas, V.",
+          "Raaf, N.",
+          "Thomsen, S. G.",
+          "Vinding, M. C.",
+          "Marner, L.",
+          "Loekkegaard, A.",
+          "Meder, D.",
+          "Siebner, H. R."
+        ],
+        "abstract": "Bradykinesia is a cardinal motor feature of Parkinson's disease and is characterised by a reduced ability to generate movements with normal speed and force. Although nigrostriatal dopamine loss is regarded as the primary cause, direct human evidence linking dopaminergic degeneration to striatal dysfunction and impaired motor output and vigour remains limited. To investigate this relationship, we developed a grip-force paradigm that quantified movement vigour as the ability to rapidly generate force. Fifty-three individuals with Parkinson's disease, 30 with levodopa-induced dyskinesia and 23 without, and 25 age-matched healthy controls performed the task during 3T functional MRI. Thirty-five patients additionally underwent dopamine transporter PET imaging to assess associations among nigrostriatal dopaminergic integrity, striatal activity and motor performance. Patients with Parkinson's disease showed marked reductions in initial movement vigour accompanied by reduced bilateral putaminal activation during force generation. Lower putaminal dopamine transporter binding was associated with both poorer movement vigour and weaker grip-related putaminal activation during functional MRI, establishing a direct link between nigrostriatal degeneration, impaired striatal recruitment and motor slowing. Functional MRI further revealed reduced reward-related responses in the nucleus accumbens. Across participants, stronger reward-related ventral striatal activity was associated with greater movement vigour, suggesting that motivational processes contribute independently to motor performance. Patients with levodopa-induced dyskinesia exhibited more severe putaminal dopaminergic denervation than patients without dyskinesia but showed no additional impairment of movement vigour or striatal task responses. These findings provide direct in vivo evidence that dorsal nigrostriatal dopaminergic degeneration constrains movement vigour in Parkinson's disease through reduced striatal recruit",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748476v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.03.744191",
+        "title": "Reperfusion reshapes the temporal evolution of neurovascular injury after ischemic stroke",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-08",
+        "is_early_access": true,
+        "authors": [
+          "Ardaya, M.",
+          "Soria, F. N.",
+          "Garcia-Etxarri, A.",
+          "Martin, A."
+        ],
+        "abstract": "Reperfusion is the cornerstone of acute ischemic stroke treatment, yet how it reshapes the temporal trajectory of neurovascular injury beyond the acute phase remains unclear. Here, we developed permanent (pStroke) and transient (tStroke) cortical ischemia mouse models compatible with longitudinal in vivo two-photon imaging to investigate the evolution of neurovascular injury following ischemia and reperfusion. Although reperfusion markedly reduced acute infarct development and neuronal loss, it failed to restore neurovascular homeostasis. Longitudinal two-photon imaging of ischemic mice revealed neuronal hyperexcitability and aberrant network synchronization, concomitant with impaired vascular remodeling and sustained vascular leakage following reperfusion. Histological analyses further demonstrated progressive neurodegeneration, chronic microglial activation and persistent alterations in the neurovascular unit despite improved preservation of brain tissue during the acute phase. Analysis of dextran permeability revealed size-selective BBB dysfunction, indicating that reperfusion induces prolonged impairment of vascular barrier properties rather than complete vascular recovery. Together, our findings demonstrate that reperfusion might reshape the temporal evolution of ischemic brain injury by limiting acute tissue damage while also promoting chronic neurovascular dysfunction, identifying persistent vascular instability as a potential therapeutic target for improving long-term recovery after ischemic stroke.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.744191v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.03.749187",
+        "title": "Specification dependence of EEG theta/alpha ratio associations with cognitive impairment: a multiverse analysis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-08",
+        "is_early_access": true,
+        "authors": [
+          "Chang, J.",
+          "Song, S. H."
+        ],
+        "abstract": "Objective: The theta/alpha ratio, an index of electroencephalographic slowing, has been proposed as a marker of cognitive impairment, but estimates may depend on preprocessing, spectral, spatial, and statistical decisions. We used multiverse analysis to evaluate its robustness across plausible pipelines. Methods: Two resting-state EEG datasets were analyzed. Dataset 1 included 49 controls and 100 participants with Parkinson's disease spanning normal cognition to dementia. Dataset 2 included 29 controls, 36 patients with Alzheimer's disease, and 23 with frontotemporal dementia. Eight decisions were varied: filtering, artifact correction, independent component analysis (ICA), referencing, spatial summary, alpha-band definition, spectral method, and covariate adjustment, yielding 1,280 specifications (universes). Results: Findings varied across the unrestricted multiverse. In Dataset 1, all universes in the exploratory family combining ICA with absolute fast Fourier transform (FFT) or Welch power yielded p < 0.05 for comparisons of controls and cognitively normal Parkinson's disease with Parkinson's disease dementia and produced significant associations with Montreal Cognitive Assessment scores in more than 95% of universes. In Dataset 2, absolute FFT or Welch power supported control versus Alzheimer's disease differences in more than 95% of universes, while ICA with absolute power yielded significant Mini-Mental State Examination associations in all specifications. Higher theta/alpha ratios were consistently associated with greater cognitive impairment. Conclusions: The theta/alpha ratio is a promising but specification-dependent marker of cognitive impairment, contingent particularly on ICA and spectral power quantification. Significance: Identifying the analytic conditions under which theta/alpha findings remain stable supports standardized, reproducible evaluation of quantitative EEG markers of cognitive impairment.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749187v1",
+        "reasons": [
+          "关键词『Alzheimer、Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.06.23.733858",
         "title": "mTOR drives cerebrovascular dysfunction and blood-brain barrier breakdown in a model of Alzheimers disease with cerebral amyloid angiopathy",
@@ -27,30 +150,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733858v2",
         "reasons": [
           "关键词『Alzheimer、amyloid』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.01.747412",
-        "title": "Reduced EEG Complexity and Its Association with Social Communication in Adults with Autism Spectrum Disorder: A Multiscale Entropy Study",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-06",
-        "is_early_access": true,
-        "authors": [
-          "Naoe, T.",
-          "Shikauchi, Y.",
-          "Itahashi, T.",
-          "Tanaka, K.",
-          "Okimura, T.",
-          "Hashimoto, R.-i.",
-          "Ohta, H.",
-          "Sato, Y.",
-          "Nakamura, M."
-        ],
-        "abstract": "Background: Brain functions emerge from temporally organized neural dynamics, and an appropriate level of neural complexity may support flexible information processing. Electroencephalographic (EEG) studies using multiscale entropy (MSE), which quantifies signal complexity across multiple temporal scales, have reported reduced MSE at longer scales in individuals with autism spectrum disorder (ASD). However, most evidence comes from studies of infant and child samples, leaving adult data scarce, and the associations between reduced MSE, clinical symptoms, and social information processing are insufficiently understood. Methods: We recorded and analyzed EEG data from adults with ASD (n = 47) and typically developing (TD) controls (n = 40) during eyes-closed rest and two movie viewing conditions: Inscapes, comprising dynamically changing abstract visual patterns, and Partly Cloudy, an emotionally engaging animated social narrative. Group and condition effects were assessed using cluster-based permutation tests, and associations between MSE and Social Affect (SA) scores from the Autism Diagnostic Observation Schedule, Second Edition (ADOS-2), as well as group differences in event-related MSE changes, were examined using linear mixed-effects models. Results: Across conditions, adults with ASD showed lower MSE at longer scales ({tau} = 16-30), corresponding to effective sampling rates of 12.50-6.67 Hz in the coarse-grained time series, than TD adults. Longer-scale MSE within the ASD-TD difference cluster was negatively associated with ADOS-2 SA scores across diagnostic groups. The difference in event-related MSE change between Social and Non-Social conditions, comparing empathic-pain and mentalizing events in Partly Cloudy with temporally matched non-social windows in Inscapes, was smaller in ASD participants than in TD participants. No significant difference between Social and Non-Social windows was observed among ASD participants, whereas TD participants showed signific",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.747412v1",
-        "reasons": [
-          "关键词『tau』(命中abstract)"
         ],
         "is_new": true
       }
