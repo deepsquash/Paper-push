@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-09",
-  "total": 7,
+  "date": "2026-09-10",
+  "total": 12,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
@@ -9,7 +9,7 @@
         "doi": "10.64898/2026.09.01.747412",
         "title": "Reduced EEG Complexity and Its Association with Social Communication in Adults with Autism Spectrum Disorder: A Multiscale Entropy Study",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-08",
+        "published_online": "2026-09-09",
         "is_early_access": true,
         "authors": [
           "Naoe, T.",
@@ -23,9 +23,159 @@
           "Nakamura, M."
         ],
         "abstract": "Background: Brain functions emerge from temporally organized neural dynamics, and an appropriate level of neural complexity may support flexible information processing. Electroencephalographic (EEG) studies using multiscale entropy (MSE), which quantifies signal complexity across multiple temporal scales, have reported reduced MSE at longer scales in individuals with autism spectrum disorder (ASD). However, most evidence comes from studies of infant and child samples, leaving adult data scarce, and the associations between reduced MSE, clinical symptoms, and social information processing are insufficiently understood. Methods: We recorded and analyzed EEG data from adults with ASD (n = 47) and typically developing (TD) controls (n = 40) during eyes-closed rest and two movie viewing conditions: Inscapes, comprising dynamically changing abstract visual patterns, and Partly Cloudy, an emotionally engaging animated social narrative. Group and condition effects were assessed using cluster-based permutation tests, and associations between MSE and Social Affect (SA) scores from the Autism Diagnostic Observation Schedule, Second Edition (ADOS-2), as well as group differences in event-related MSE changes, were examined using linear mixed-effects models. Results: Across conditions, adults with ASD showed lower MSE at longer scales ({tau} = 16-30), corresponding to effective sampling rates of 12.50-6.67 Hz in the coarse-grained time series, than TD adults. Longer-scale MSE within the ASD-TD difference cluster was negatively associated with ADOS-2 SA scores across diagnostic groups. The difference in event-related MSE change between Social and Non-Social conditions, comparing empathic-pain and mentalizing events in Partly Cloudy with temporally matched non-social windows in Inscapes, was smaller in ASD participants than in TD participants. No significant difference between Social and Non-Social windows was observed among ASD participants, whereas TD participants showed signific",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.747412v2",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.747412v3",
         "reasons": [
           "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.08.13.665777",
+        "title": "Polyanionic peptibody ameliorates tau pathology and promotes neuronal proteostasis in a tau transgenic mouse model",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-09",
+        "is_early_access": true,
+        "authors": [
+          "Caruso, A. C.",
+          "Kavanagh, T.",
+          "van Waardenberg, A. J.",
+          "Graham, M. E.",
+          "Drummond, E.",
+          "Nisbet, R. M."
+        ],
+        "abstract": "The intraneuronal aggregation of tau is a key driver of pathogenesis in Alzheimer's disease and other tauopathies. The positively charged proline-rich region and microtubule-binding domain of tau are important for tubulin binding which enables axonal transport in physiological conditions. In disease, however, the positively charged repeat domains of such regions become exposed, facilitating tau-tau aggregation and other pathogenic tau-protein interactions which leads to neuronal dysfunction. Here, we generated a polyanionic peptide to electrostatically interact with tau and fused it to an inert single-chain variable fragment (scFv) antibody for improved peptide half-life and downstream intraneuronal expression. The resultant polyanionic peptibody, ACR12, was investigated in vitro and in tau transgenic mice for ability to prevent tau aggregation and associated disease phenotypes. In human neuroblastoma cells, ACR12 was stably expressed within the cytoplasm where it successfully engaged intracellular tau. DNA encoding ACR12 was then packaged into a brain-penetrant Adeno-associated virus, AAV-PHP.eB, for intravenous delivery into K3 tau transgenic mice. Such treatment facilitated long-term intraneuronal expression of ACR12 and reduced total and phosphorylated tau in the brain. ACR12 treatment in female K3 mice also restored deregulated neuronal proteins to wild-type levels. This study highlights the role of positively charged domains in tau pathogenesis and demonstrates the therapeutic utility of electrostatic tau interactors.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.08.13.665777v2",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.06.16.732640",
+        "title": "Analysis of the off-target interaction of amyloid PET tracers with human brain sulfotransferases",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-09",
+        "is_early_access": true,
+        "authors": [
+          "Miccoli, L.",
+          "Fullone, R.",
+          "Delli Pizzi, S.",
+          "Tomaiuolo, F.",
+          "Sensi, S. L.",
+          "Floresta, G.",
+          "Granzotto, A."
+        ],
+        "abstract": "Positron emission tomography (PET) tracers targeting amyloid-{beta} (A{beta}) are central to the diagnosis and staging of Alzheimer's disease (AD). However, growing evidence indicates that these tracers can engage off-target molecules, complicating signal interpretation. Sulfotransferases (SULTs) have been experimentally identified as binding partners of 11C-Pittsburgh Compound-B (PiB). However, whether the clinically used fluorinated PiB derivatives flutemetamol and flutafuranol interact with brain-expressed SULTs is yet unexplored. Here, we combined multi-omic transcriptomic profiling with molecular docking and molecular dynamics (MD) simulations to assess the structural interactions of SULT-tracer complexes. Analysis of the Genotype-Tissue Expression project and the Human Protein Atlas identified SULT1A1, SULT1A3, and SULT4A1 as the SULT isoforms predominantly expressed in the human brain. Docking and MD simulations showed that all three tracers form energetically comparable complexes within the catalytic pockets of these isoforms, yet their dynamic stability varied in an enzyme- and tracer-specific manner. PiB and flutemetamol were stably accommodated in SULT1A1, but PiB lost its initial pose in SULT4A1. Flutafuranol showed weaker binding in SULT1A1, yet formed stable complexes in SULT1A3 and SULT4A1. Notably, SULT1A1, SULT1A3, and SULT4A1 are all expressed in the cerebellum, the brain region used as a reference for A{beta} PET signal normalization. These findings provide a structural framework for off-target tracer interaction with brain SULTs and suggest that the intracellular enzymatic environment may contribute to variability in A{beta} PET signals beyond fibrillar A{beta} deposition.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732640v2",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.07.749934",
+        "title": "Integrated morphological, multi-omics, and functional profiling reveals microglial plasticity driven by AD risk genes",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-09",
+        "is_early_access": true,
+        "authors": [
+          "Zhang, Y.",
+          "Zhang, A.",
+          "Seo, S.",
+          "Fredrickson, C.",
+          "Jung, M.",
+          "Shan, X.",
+          "Phu, L.",
+          "Cramer, A.",
+          "Sanchez-Priego, C.",
+          "Kulkarni, V. V.",
+          "Rose, C. M.",
+          "Hoogenraad, C. C.",
+          "Jeong, C. G."
+        ],
+        "abstract": "Microglia, the resident macrophages of the central nervous system, are highly dynamic cells essential for brain homeostasis. While genome-wide association studies (GWAS) strongly implicate microglial dysfunction in Alzheimer's disease (AD), the mechanistic links coordinating their diverse transcriptional, morphological, and functional states remain poorly understood. Using human induced pluripotent stem cell-derived microglia (iMicroglia) and single-cell RNA sequencing, we identified six distinct transcriptional profiles and mapped them to specific morphological phenotypes via targeted immunofluorescence, establishing a link between microglial morphology and molecular identity. Transcriptomic and morphological profiling further demonstrated profound microglial plasticity, revealing distinct, stimulus-specific responses to AD-relevant pathologies, including Tau PFF, amyloid-beta, and apoptotic neurons. To assess how AD risk variants perturb these states, we performed high-efficiency CRISPR-Cas9 ribonucleoprotein (RNP) knockouts of specific AD GWAS genes. Bulk RNA-seq profiling revealed extensive transcriptional remodeling following genetic perturbation. Crucially, we show that depletion of these AD risk genes disrupts baseline morpho-transcriptomic coupling and fundamentally alters microglial phagocytic capacity. Together, this study reveals how AD GWAS genes may drive microglia into dysfunctional states characterized by altered morphology, distinct multi-omic signatures, and impaired functions.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749934v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.04.749425",
+        "title": "Diffusion MR Microscopy of the Human Hippocampus at 50 μm Resolution at 14.1 T for 3D Virtual Histology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-09",
+        "is_early_access": true,
+        "authors": [
+          "Shen, Y.",
+          "Yu, Z.",
+          "Zhu, Q.",
+          "Zhao, Z.",
+          "Wang, P.",
+          "Yin, Y.",
+          "Jiang, P.",
+          "Wang, C.",
+          "Kong, X.",
+          "Zhang, J.",
+          "Wu, D."
+        ],
+        "abstract": "Bridging the gap between macroscopic neuroimaging and microscopic histology remains a challenge in neuroscience. Here, we present a technical feasibility study of diffusion MR microscopy (dMRM) in the ex vivo human hippocampus using a 14.1 T ultrahigh-field MRI system. Mid-hippocampal blocks from control and Alzheimers disease (AD) patients were acquired at 50 x 50 x 100 {micro}m3, representing, to our knowledge, the highest resolution reported for human brain diffusion MRI. At a spatial scale approaching cellular dimensions, dMRM maps and tractography showed close correspondence with immunohistological markers of axons and dendrites. The acquired data delineated six hippocampal laminae, distinguished the inner and outer molecular layers, and preserved short, lamina-specific trajectories that became attenuated or blurred at 100 {micro}m resolution. Tractography further depicted the major components of the hippocampal tri-synaptic circuit--the perforant path, mossy fibers, and Schaffer collaterals in 3D. In the AD specimen, dMRM revealed reduced laminar contrast, local discontinuities, and altered radial and tangential fibers that were paralleled by pathological staining. With the 3D nondestructive characterization of human brain microstructure and circuitry, ex vivo dMRM showed its potential toward the goal of 3D virtual histology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749425v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.04.748639",
+        "title": "Dendrimer Delivered shRNA Targeting the CCL20-CCR6 Axis Suppresses Complement-Mediated Microglial Synaptic Pruning and Ameliorates Chronic Neuroinflammation After Repetitive Traumatic Brain Injury",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-09",
+        "is_early_access": true,
+        "authors": [
+          "Mayilsamy, K.",
+          "Patel, P. B.",
+          "Green, R.",
+          "Bikkasani, S.",
+          "Tosi, K.",
+          "Majumdar, S.",
+          "Prajapati, S.",
+          "Markoutsa, E.",
+          "Wolf, T.",
+          "Guergues, J.",
+          "Stevens, S. M.",
+          "Willing, A.",
+          "Mohapatra, S.",
+          "Mohapatra, S."
+        ],
+        "abstract": "Repetitive traumatic brain injury (rTBI) induces persistent microglial activation and chronic neuroinflammation, yet the upstream signals driving long-term synaptic injury remain unclear. In this study, we identify the CCL20-CCR6 chemokine axis as a critical regulator of sustained microglial activation and complement-dependent synaptic loss after rTBI. Proteomic profiling at 30 days post-injury (dpi) showed broad normalization of complement-linked inflammatory and synaptic pathways in the cortex and hippocampus, underscoring a mechanistic link between chemokine signaling, microglial activation, and synaptic vulnerability. To therapeutically target this axis, we developed a dendrimer-based shRNA platform (shCombo-DPX) that simultaneously silences CCL20 and CCR6. Intranasal and intravenous delivery in rTBI mice effectively reduced CCL20-CCR6 expression, attenuated chronic microgliosis and astrogliosis, and suppressed complement activation. Treatment limited microglial synaptic engulfment, preserved synaptic proteins, restored BDNF levels, and improved motor, anxiety-related, and cognitive outcomes. In microglia-neuron coculture systems, CCL20 silencing reduced LPS-induced complement signaling and prevented synaptic loss, neuronal apoptosis, and BDNF depletion. Conversely, exposure to recombinant CCL20 induced dendritic degeneration, caspase-3 activation, microglial reactivity, complement dysregulation, and synaptic injury both in vitro and in vivo. Collectively, these findings establish CCL20-CCR6 as a key upstream driver of chronic complement-mediated synaptic degeneration after rTBI and support dendrimer-delivered shRNA therapy as a targeted strategy to mitigate long-term neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.748639v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.750179",
+        "title": "Characterization of the knock-in AppSAA mouse model as a powerful tool for Alzheimer's disease preclinical research.",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-09",
+        "is_early_access": true,
+        "authors": [
+          "Garceau, D. T.",
+          "Ryan, N. J.",
+          "Pomeroy-Tuck, J.",
+          "Chidambaram, R.",
+          "Ragan, T.",
+          "PANDEY, R. S.",
+          "Carter, G. W.",
+          "Oblak, A. L.",
+          "Sasner, M."
+        ],
+        "abstract": "BACKGROUND: Preclinical Alzheimer's disease (AD) research requires models with age-dependent, physiologically relevant amyloid pathology, unlike overexpression in transgenic lines. We characterized the humanized AppSAA knock-in model to define translationally relevant therapeutic windows. METHODS: Homozygous AppSAA and control mice were evaluated from 4 to 19 months using whole-brain 3D plaque imaging, cerebral amyloid angiopathy (CAA) quantification, multiplex neuropathology, brain transcriptomics, and plasma biomarkers. Hippocampal synaptic analysis and context-dependent memory was performed at 12 months. RESULTS: Plaques, CAA, plaque-associated neuroinflammation, and dystrophic neurites accumulated with age. By 12 months, brain transcriptomes aligned with human AMP-AD co-expression modules, and plasma pTau-217, GFAP, and SNAP25 rose with age. AppSAA mice retained associative memory but showed memory interference and CA1 dendritic-spine loss that was exacerbated in proximity to plaques. CONCLUSIONS: AppSAA mice recapitulate age-dependent, human-relevant AD phenotypes with defined therapeutic windows for preclinical research. The model is available without restriction from The Jackson Laboratory.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750179v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
         ],
         "is_new": true
       },
@@ -125,31 +275,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749187v1",
         "reasons": [
           "关键词『Alzheimer、Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.06.23.733858",
-        "title": "mTOR drives cerebrovascular dysfunction and blood-brain barrier breakdown in a model of Alzheimers disease with cerebral amyloid angiopathy",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-07",
-        "is_early_access": true,
-        "authors": [
-          "Van Skike, C. E.",
-          "Miller, L. R.",
-          "Hernandez, S. F.",
-          "Hussong, S. A.",
-          "Makhlouf, H.",
-          "Muppala, A.",
-          "DeRosa, N.",
-          "Jahrling, J. B.",
-          "Dineley, K. T.",
-          "Galvan, V."
-        ],
-        "abstract": "Cerebral amyloid angiopathy (CAA) is characterized by the deposition of amyloid {beta} fibrils (A{beta}) within walls of the cerebrovasculature and contributes to intracerebral hemorrhage, ischemic stroke, and cognitive dysfunction in patients with Alzheimers disease (AD) and in non-pathological aging. Previous studies have shown that mTOR drives cerebrovascular dysfunction and cognitive impairment observed in AD, vascular cognitive impairment, and normative aging. However, the mechanisms by which mTOR contributes to CAA are unknown. Here, we show that mTOR drives the accumulation of fibrillar vascular A{beta} lesions in the Tg2576 Model of AD with CAA (using equal numbers of female and male mice), which directly impair endothelium-dependent cerebrovascular reactivity. Additionally, we found that blood-brain barrier (BBB) breakdown and remodeling of tight junction proteins, dependent on mTOR, are associated with increased cerebral microhemorrhages. Finally, we show that mTOR contributes to neurovascular uncoupling in Tg2576 AD mice through nNOS dysfunction and inhibition of non-nitric oxide synthase-dependent contributions to neurovascular coupling (NVC). Contextual memory impairments were ameliorated by the mTOR inhibitor rapamycin. Improvements in memory were associated with reduced cerebrovascular A{beta} fibril accumulation, enhanced endothelium-dependent vasodilation, reduced fibrillar A{beta} load, restoration of BBB integrity, attenuation of intracerebral microhemorrhage, and restoration of NVC. These data indicate that mTOR drives vascular accumulation of fibrillar A{beta}, including those associated with brain vasculature, and mediates cerebrovascular dysfunction in a model of AD with CAA. Thus, mTOR inhibitors represent a promising treatment option for patients with CAA and AD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733858v2",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title)"
         ],
         "is_new": true
       }
