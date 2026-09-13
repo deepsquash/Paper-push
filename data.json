@@ -1,10 +1,103 @@
 {
-  "date": "2026-09-12",
-  "total": 17,
+  "date": "2026-09-13",
+  "total": 11,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.05.749595",
+        "title": "USP15 REGULATES NEUROINFLAMMATION AND DRIVES PATHOGENESIS IN SYNUCLEINOPATHIES",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-12",
+        "is_early_access": true,
+        "authors": [
+          "Fodil, N.",
+          "Del Cid-Pellitero, E.",
+          "Piscopo, V. E.-C.",
+          "Xiao Xuan Luo, J.",
+          "Wong, M.",
+          "Olivier, J. F.",
+          "Alluli, A.",
+          "Shlaifer, I.",
+          "You, Z.",
+          "Chen, C. X.-Q.",
+          "Aprahamian, N.",
+          "Cha, Y.",
+          "Colette, E.",
+          "Mayo, J.",
+          "Annett, A.",
+          "Jabado, N.",
+          "Kleinman, C. L.",
+          "Kagalwala, M. N.",
+          "Ross, J.",
+          "Lathrop, M.",
+          "Langlais, D.",
+          "Durcan, T. M.",
+          "Fon, E. A.",
+          "Gros, P."
+        ],
+        "abstract": "Neuroinflammation strongly contributes to the pathogenesis of neurological and neurodegenerative diseases, including Parkinson's disease. We show that ablation of Usp15 in astrocytes and in microglia protects against lethal neuroinflammation in vivo. In a mouse model of synucleinopathy, Usp15 deletion diminishes alpha-syn deposits in the brain, slows disease progression, and increases survival time. The neuroprotective effect of Usp15 is associated with differential expression of inflammatory pathways in situ including interferon stimulated genes. These USP15-dependent effects in vivo are recapitulated in vitro in primary human microglia and astrocytes. We detect high USP15 expression in microglia from Parkinson's patients with strong co-expression with LRRK2 and SNCA. In humans, we detect a strong cis-acting eQTL directing high USP15 expression in CD14+ myeloid cells. The allele driving this eQTL is itself associated with increased disease risk, linking myeloid USP15 expression, elevated USP15 plasma levels in Parkinson's patients, to genetic susceptibility.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749595v2",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.750215",
+        "title": "Soluble pathogenic tau transmission to astrocytes drives acute oxidative damage, cellular senescence, and neurovascular uncoupling in a model of Alzheimers tauopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-12",
+        "is_early_access": true,
+        "authors": [
+          "Galvan, V.",
+          "makhlouf, H.",
+          "Miller, l.",
+          "logan, s.",
+          "Dorigatti, A.",
+          "Hernandez, S.",
+          "de Rosa, N.",
+          "Hussong, S.",
+          "Kayed, R.",
+          "Holstein, D.",
+          "Lechleiter, J."
+        ],
+        "abstract": "We previously found that soluble pathogenic tau aggregates (tau oligomers) enter brain microvascular endothelial cells and induce cellular senescence and microvascular dysfunction in a tauopathy mouse model. This study shows that soluble pathogenic tau is also transmitted to astrocytes, where it induces mitochondrial dysfunction, mediates senescence, and impairs neurovascular coupling responses. Single-cell RNA sequencing of hTau mouse cortex revealed astrocytes as one of the most transcriptionally altered cell type, showing coordinated downregulation of electron transport chain genes and upregulation of stress-induced and inflammatory markers, also elevated in hTau mouse brain and astrocyte-enriched fractions. Similar to neuron-to-neuron transmission, soluble tau aggregates entered primary human astrocytes via a heparin-sensitive process, causing microtubule destabilization, ATP depletion, and mitochondrial ROS accumulation before induction of cell-cycle-arrest-associated markers. Mitochondrial ROS scavenging with Mito TEMPO reduced tau-induced SASP cytokine activation in astrocytes in vitro and in vivo. Coculturing neurons with astrocytes undergoing tau induced senescence decreased dendritic spine density, branch level, and dendritic area in a non-cell-autonomous manner. Tau and the SASP-associated cytokines IL-1{beta} and IL-6 contributed to distinct aspects of the neuronal structural phenotype. Astrocyte-targeted SOD2 overexpression attenuated the hTau-related deficit in evoked cerebral blood flow responses; however, this partial improvement in response magnitude and duration did not achieve statistical significance compared to hTau mice expressing GFP. These results identify astrocyte senescence as a potential mechanism connecting astrocyte tau uptake, mitochondrial stress, and neuronal structural impairment. The findings motivate further study of mitochondrial antioxidant defense in tau-associated astrocyte dysfunction.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750215v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.05.748022",
+        "title": "Dopamine Agonists in Parkinson's Disease Decouple Risk-Taking from Reward-Paired Cues by Enhancing Risky Choice in Their Absence",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-12",
+        "is_early_access": true,
+        "authors": [
+          "Muksuris, K.",
+          "Flynn, E.",
+          "Feng, T. L.",
+          "Surathi, P.",
+          "Yeung, S. C.",
+          "Mortazavi, L.",
+          "Isberg, A.",
+          "McKeown, M.",
+          "Appel-Cresswell, S.",
+          "Winstanley, C. A.",
+          "Stoessl, A. J.",
+          "Barton, J.",
+          "Cherkasova, M. V."
+        ],
+        "abstract": "Background: Common side effects of dopamine replacement therapy (DRT) for Parkinson's Disease (PD) are addiction-like impulse control disorders, including compulsive gambling. Gambling products such as slot machines prominently feature reward-paired audiovisual stimuli, which can promote riskier choices on laboratory gambling tasks in both humans and rodents. In rats, risky decision making in the presence of reward-paired cues is dependent on dopamine D3 receptor activity and is increased by ropinirole, a D2/3 receptor agonist with a higher affinity for D3 receptors. In humans, it remains uncertain whether cue-induced risky choice is amplified by dopamine agonism. Methods: We tested effects of DRT on cue-induced risky choice in 62 patients with PD (34 on levodopa monotherapy, 27 on levodopa and dopamine agonists). Patients performed two versions of a risky decision-making task: one with and one without reward-paired sensory cues, both ON and OFF DRT. A group of 36 age-matched controls completed the same task versions without DRT. Results: Across all groups, participants made riskier choices when the task included reward-paired sensory cues. Levodopa monotherapy did not affect risky decision-making. However, a combination of levodopa and dopamine agonists increased risky choices specifically in the uncued version of the task, making performance indistinguishable from that on the cued task. Conclusions: Dopamine agonists combined with levodopa promote risk-taking even in the absence of reward-paired cues. This could translate into risky reward-seeking behaviors that are decoupled from contextual factors.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.748022v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.09.02.748476",
         "title": "Striatal Dopaminergic Dysfunction Constrains Motor Invigoration in Parkinson's Disease",
@@ -59,45 +152,6 @@
         "url": "https://www.biorxiv.org/content/10.1101/2025.03.16.643481v6",
         "reasons": [
           "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.05.749595",
-        "title": "USP15 REGULATES NEUROINFLAMMATION AND DRIVES PATHOGENESIS IN SYNUCLEINOPATHIES",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Fodil, N.",
-          "Del Cid-Pellitero, E.",
-          "Piscopo, V. E.-C.",
-          "Xiao Xuan Luo, J.",
-          "Wong, M.",
-          "Olivier, J. F.",
-          "Alluli, A.",
-          "Shlaifer, I.",
-          "You, Z.",
-          "Chen, C. X.-Q.",
-          "Aprahamian, N.",
-          "Cha, Y.",
-          "Colette, E.",
-          "Mayo, J.",
-          "Annett, A.",
-          "Jabado, N.",
-          "Kleinman, C. L.",
-          "Kagalwala, M. N.",
-          "Ross, J.",
-          "Lathrop, M.",
-          "Langlais, D.",
-          "Durcan, T. M.",
-          "Fon, E. A.",
-          "Gros, P."
-        ],
-        "abstract": "Neuroinflammation strongly contributes to the pathogenesis of neurological and neurodegenerative diseases, including Parkinson's disease. We show that ablation of Usp15 in astrocytes and in microglia protects against lethal neuroinflammation in vivo. In a mouse model of synucleinopathy, Usp15 deletion diminishes alpha-syn deposits in the brain, slows disease progression, and increases survival time. The neuroprotective effect of Usp15 is associated with differential expression of inflammatory pathways in situ including interferon stimulated genes. These USP15-dependent effects in vivo are recapitulated in vitro in primary human microglia and astrocytes. We detect high USP15 expression in microglia from Parkinson's patients with strong co-expression with LRRK2 and SNCA. In humans, we detect a strong cis-acting eQTL directing high USP15 expression in CD14+ myeloid cells. The allele driving this eQTL is itself associated with increased disease risk, linking myeloid USP15 expression, elevated USP15 plasma levels in Parkinson's patients, to genetic susceptibility.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749595v1",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
         ],
         "is_new": true
       },
@@ -248,215 +302,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749596v1",
         "reasons": [
           "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2022.08.16.504074",
-        "title": "L-type calcium channels link oxidative stress to calcium signaling pathway and membrane excitability: Insights from computational modeling of dopaminergic neurons",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Andres, M. A.",
-          "Karratti-Abordo, S.",
-          "Bryan, C.",
-          "Shoji, A.",
-          "Zaporteza, M.",
-          "Castelfranco, A. M."
-        ],
-        "abstract": "Dopamine neurons, which are critical in movement, cognition, and reward learning, are vulnerable to oxidative stress during aging, drugs of abuse, and viral infection and can lead to neurodegeneration. Previous work used computational modeling to study dopamine neuron function based on experimental findings from rodent brain slices containing dopamine neurons. Here we show for the first time the feasibility and utility of applying such computational models of DA neurons to the analysis of experimental findings from in-vitro cultured cells. We used DCFH-DA (and DHE) and time-lapse, Fura-2 ratiometric imaging to measure changes in ROS levels and changes in intracellular calcium (Ca2+) levels, respectively, in two dopaminergic cell models: differentiated SH-SY5Y and differentiated human neural progenitor cells. We investigated how peroxide-dependent changes in the behavior of the L-type channel might alter the excitability of the dopaminergic cell. We found that L-type channels mediated clusters of calcium spikes (or oscillations) and that our model suggested that such increased excitability could be explained by changes in the voltage-dependence of activation of the L-type channels in response to exogenous peroxide. Our findings suggested that L-type channels link oxidative stress responses to modulation of excitability. We conclude that the Ca2+ channel blocker nicardipine may help disrupt this link by reducing oxidative stress and preventing channel activation at more hyperpolarized potentials, thus reducing plasma membrane excitability.",
-        "url": "https://www.biorxiv.org/content/10.1101/2022.08.16.504074v2",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.06.24.733515",
-        "title": "Dystrophic changes of nigrostriatal axons harboring a Synj1 Parkinson mutation suggest catastrophic failure of endocytic mechanisms",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Wu, Y.",
-          "Xu, P.",
-          "Moran, J.",
-          "Xu, C. S.",
-          "Hayworth, K.",
-          "Cao, M.",
-          "Shao, L.",
-          "Surmeier, D. J.",
-          "Hess, H.",
-          "De Camilli, P."
-        ],
-        "abstract": "Synaptojanin 1 is a brain enriched phosphoinositide phosphatase implicated in endocytosis at the synapse. A mutation (R258Q) that selectively impairs its Sac1 phosphatase domain causes early onset familial Parkinsonism. Neurons of mice with this mutation display synaptic vesicle traffic defects across the brain, but selective dystrophic changes in a subset of dopaminergic axons in the dorsolateral striatum. Using correlative light microscopy-FIB-SEM of mutant mouse striata to visualize in 3D these abnormal structures we show that they represent clusters of focal axonal dilations harboring massive, onion-like DAT enriched plasma membrane infoldings, generally localized next to cell bodies of neighboring cells, often engulfing evaginations of such cells. This dysmorphia was associated with a deficit in dopamine release in the same striatal region. Given the involvement of Synj1 in endocytic mechanisms, these structures may reflect an imbalance between exocytosis and endocytosis. Their occurrence only in a subset of axons suggest a vulnerability threshold of these axons beyond which the expansion of the plasma membrane is not counteracted by compensatory mechanisms.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.06.24.733515v2",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.04.749463",
-        "title": "APOE 4/4 promotes dysfunctional and inflammatory phenotypes concomitant with impaired maturation of hiPSC-derived astrocytes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Vecino, R.",
-          "Diaz-Guerra, E.",
-          "Arribas-Gonzalez, E.",
-          "Sanz Gil, D.",
-          "Fernandez Acosta, F. J.",
-          "Serra, I.",
-          "Moreno-Jimenez, E. P.",
-          "Moratalla, R.",
-          "Navarrete, M.",
-          "Vicario, C."
-        ],
-        "abstract": "Alzheimer's disease (AD) is the leading cause of dementia in the aging population, with the {varepsilon}4 allele of apolipoprotein E (APOE) being the strongest genetic risk factor. Although astrocytes are a major source of APOE, how APOE alleles affect astrocyte maturation and function remains unclear. We generated human induced pluripotent stem cell (hiPSC)-derived astrocytes from AD patients carrying {varepsilon}3/{varepsilon}3 and {varepsilon}4/{varepsilon}4 alleles and from healthy controls (HC). We also used isogenic gene-edited hiPSC lines homozygous for each APOE allele and an APOE knock-out line to identify allele-specific phenotypes and distinguish gain- from loss-of-function mechanisms. APOE 4/4 astrocyte cultures showed significant reductions in GFAP- and S100{beta}-positive cell percentages compared to APOE 2/2 and APOE 3/3, with no changes in GLT-1- and AQP4-positive cells. Astrocytes of all genotypes responded to IL-1{beta} + TNF by increasing proinflammatory cytokine expression and release, and to both IL-1{beta} + TNF and A{beta}1-42 by changing morphology, with APOE 4/4 astrocytes showing increased IL6 mRNA and morphological branching upon IL-1{beta} + TNF stimulation. Notably, under basal conditions, APOE 4/4 astrocytes showed significant reductions in glutamate uptake capacity and cell size alongside increased IL-6 release and CXCL3 mRNA expression. In A{beta}1-42 uptake experiments, the proportion of A{beta}+ astrocytes was higher in APOE 4/4 than in APOE KO cultures. Most phenotypes were absent in APOE KO astrocytes, suggesting that the effects of APOE 4/4 were predominantly mediated through gain-of-function mechanisms. Our results indicate that APOE 4/4 alters astrocyte morphological and molecular maturation while promoting inflammation, disturbing glutamate and A{beta} handling under basal conditions. It suggests that APOE {varepsilon}4/{varepsilon}4 genotype disrupts astrocyte development and key processes of cellular homeostasis early in Alz",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749463v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.07.749934",
-        "title": "Integrated morphological, multi-omics, and functional profiling reveals microglial plasticity driven by AD risk genes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Zhang, Y.",
-          "Zhang, A.",
-          "Seo, S.",
-          "Fredrickson, C.",
-          "Jung, M.",
-          "Shan, X.",
-          "Phu, L.",
-          "Cramer, A.",
-          "Sanchez-Priego, C.",
-          "Kulkarni, V. V.",
-          "Rose, C. M.",
-          "Hoogenraad, C. C.",
-          "Jeong, C. G."
-        ],
-        "abstract": "Microglia, the resident macrophages of the central nervous system, are highly dynamic cells essential for brain homeostasis. While genome-wide association studies (GWAS) strongly implicate microglial dysfunction in Alzheimer's disease (AD), the mechanistic links coordinating their diverse transcriptional, morphological, and functional states remain poorly understood. Using human induced pluripotent stem cell-derived microglia (iMicroglia) and single-cell RNA sequencing, we identified six distinct transcriptional profiles and mapped them to specific morphological phenotypes via targeted immunofluorescence, establishing a link between microglial morphology and molecular identity. Transcriptomic and morphological profiling further demonstrated profound microglial plasticity, revealing distinct, stimulus-specific responses to AD-relevant pathologies, including Tau PFF, amyloid-beta, and apoptotic neurons. To assess how AD risk variants perturb these states, we performed high-efficiency CRISPR-Cas9 ribonucleoprotein (RNP) knockouts of specific AD GWAS genes. Bulk RNA-seq profiling revealed extensive transcriptional remodeling following genetic perturbation. Crucially, we show that depletion of these AD risk genes disrupts baseline morpho-transcriptomic coupling and fundamentally alters microglial phagocytic capacity. Together, this study reveals how AD GWAS genes may drive microglia into dysfunctional states characterized by altered morphology, distinct multi-omic signatures, and impaired functions.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749934v2",
-        "reasons": [
-          "关键词『Alzheimer、tau、amyloid』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.09.750304",
-        "title": "Network-specific metabolic cost of functional connectivity in the human brain",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Tüchler, S. M.",
-          "Falb, P.",
-          "Milz, C.",
-          "Murgas, M.",
-          "Reed, M. B.",
-          "Graf, S.",
-          "Schlosser, G.",
-          "Schmidt, C.",
-          "Mayerweg, A.",
-          "Klug, S.",
-          "Pörnbacher, I.",
-          "Artmeier, L.",
-          "Harouak, A.",
-          "Sahl, A.",
-          "Grohmann, M.",
-          "Nics, L.",
-          "Godbersen, G. M.",
-          "Rasul, S.",
-          "Rujescu, D.",
-          "Hacker, M.",
-          "Lanzenberger, R.",
-          "Hahn, A.",
-          "For the Alzheimer's Disease Neuroimaging Initiative,"
-        ],
-        "abstract": "Despite decades of extensive research, the complex architecture underlying human brain signaling remains incompletely understood. Previous work investigating the relationship between brain glucose metabolism and functional connectivity (FC) employed whole-brain analysis, without accounting for network interactions, dependencies or hierarchies. Here, we assess network-specific differences in the relationship between FC and metabolic demand, using [18F]FDG PET/MR data from three independent datasets. The metabolic cost of FC, i.e., the change in glucose demand associated with corresponding changes in FC, was modeled at rest, during cognitive task performance and in Alzheimer's disease (AD). Our findings reveal network-specific differences in metabolic cost, with the default mode (DM), somatomotor (SM) and fronto-temporal networks accounting for highest, intermediate and lowest metabolic demands, respectively. Similarly, time-resolved variability of FC demonstrated highest costs for states with DM network involvement and lowest for SM network participation. This relationship was reversed in participants with AD, who exhibited decreased demands in the DM network and increased costs in the SM network. Cognitive performance consistently revealed cost reductions in the DM and SM networks, as well as increases in task relevant networks. Together, these results highlight the flexibility of functional network architecture associated with cognitive demands and neuropathology, and shed light on the complex interplay between glucose metabolism and network interactions.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750304v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.07.749738",
-        "title": "Embodied Emergence of Temporal Complexity in Finger Tapping: Synaptic and Dopaminergic Control in Cortico-Basal Ganglia Loops",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Tigrini, A.",
-          "Shimokado, H.",
-          "Matsui, K.",
-          "Mengarelli, A.",
-          "Mobarak, R.",
-          "Scattolini, M.",
-          "Verdini, F.",
-          "Burattini, L.",
-          "Nomura, T."
-        ],
-        "abstract": "Finger tapping is a crucial clinical window into the brain's motor integrity, particularly in Parkinson's disease (PD). Beyond mere rhythmicity, healthy motor output exhibits long-range correlations (LRCs)--a hallmark of temporal complexity and physiological adaptability. However, how this fractal structure emerges from the interplay between neural circuits and physical body dynamics, and why it collapses under dopamine depletion, remains elusive. Here, we present an embodied computational model integrating the cortico-basal ganglia-thalamocortical (CBGT) loop with a physical finger model under intermittent control. We demonstrate that LRC is not stochastic noise, but emerges from the interaction between physical finger dynamics and intermittent, sensory-driven action selection. Our simulations reveal that while unbiased action selection yields random variability, a sensory-driven striatal bias generates robust LRC, demonstrating that motor complexity can be actively driven by neural \"synaptic bias\" rather than passive body mechanics. Crucially, simulating PD pathology via dopamine reduction disrupts this bias, leading to a loss of complexity and white-noise transitions that recapitulate a key qualitative feature of the fractal breakdown observed in PD. By bridging neuromodulation, biomechanical execution, and macroscopic behavior, this work provides a mechanistic framework for embodied neural information processing and offers a potential digital-twin platform for objective biomonitoring in neurodegenerative disorders.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749738v1",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.09.750237",
-        "title": "Complement component C4 regulates amyloid pathology and glial reactivity in mouse model of Alzheimer's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Nadarajah, C. J.",
-          "Li, M. Y.",
-          "Park, S.",
-          "Lawrence, J. H.",
-          "Sharma, A.",
-          "Danhash, E. P.",
-          "Karch, C. M.",
-          "Musiek, E. S."
-        ],
-        "abstract": "The complement system, a proteolytic cascade crucial for innate immune system function, is dysregulated in brain aging and neurodegenerative diseases, including Alzheimer Disease (AD). In models of AD, complement proteins, including C1q and C3, are upregulated and mediate microglial clearance of amyloid plaques and pruning of synapses. Among complement genes, C4b, which in mice encodes complement protein C4, is the most highly upregulated in astrocytes in the setting of aging and amyloid pathology. While C4 plays a key role in the complement cascade, there have been no investigations of the direct role of C4 in regulating AD pathology. To probe the function of C4 in amyloid plaque-related pathology, we crossed a germ line C4b knockout mouse (C4 KO) to the 5XFAD mouse model of AD-related amyloidosis. To our surprise, we observed striking reductions in amyloid plaque pathology across multiple brain regions in 5XFAD-C4 KO mice relative to standard 5XFAD controls. This reduction in plaque burden stands in sharp contrast to previous reports of C3 deletion in AD models, which increases plaques. Additionally, we observed a reduction in neuroinflammation and peri-plaque glial clustering in 5XFAD-C4 KO mice, suggestive of a role for C4 in regulating overall neuroinflammatory tone in AD. Finally, we observed a phenotypic shift of the peri-plaque microglia to a more reactive disease-associated microglia (DAM) phenotype, indicating that C4 could be an important factor in regulating microglial reactivity in AD. Altogether, our results demonstrate that C4 may have functions beyond the classical complement cascade and may serve as a key facilitator of AD-related glial function and pathology and a possible target for therapeutic modification.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750237v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.08.750179",
-        "title": "Characterization of the knock-in AppSAA mouse model as a powerful tool for Alzheimer's disease preclinical research.",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-10",
-        "is_early_access": true,
-        "authors": [
-          "Sloan, L. J.",
-          "Garceau, D. T.",
-          "Ryan, N. J.",
-          "Pomeroy-Tuck, J.",
-          "Chidambaram, R.",
-          "Ragan, T.",
-          "Pandey, R. S.",
-          "Carter, G. W.",
-          "Oblak, A. L.",
-          "Sasner, M."
-        ],
-        "abstract": "BACKGROUND: Preclinical Alzheimer's disease (AD) research requires models with age-dependent, physiologically relevant amyloid pathology, unlike overexpression in transgenic lines. We characterized the humanized AppSAA knock-in model to define translationally relevant therapeutic windows. METHODS: Homozygous AppSAA and control mice were evaluated from 4 to 19 months using whole-brain 3D plaque imaging, cerebral amyloid angiopathy (CAA) quantification, multiplex neuropathology, brain transcriptomics, and plasma biomarkers. Hippocampal synaptic analysis and context-dependent memory was performed at 12 months. RESULTS: Plaques, CAA, plaque-associated neuroinflammation, and dystrophic neurites accumulated with age. By 12 months, brain transcriptomes aligned with human AMP-AD co-expression modules, and plasma pTau-217, GFAP, and SNAP25 rose with age. AppSAA mice retained associative memory but showed memory interference and CA1 dendritic-spine loss that was exacerbated in proximity to plaques. CONCLUSIONS: AppSAA mice recapitulate age-dependent, human-relevant AD phenotypes with defined therapeutic windows for preclinical research. The model is available without restriction from The Jackson Laboratory.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750179v2",
-        "reasons": [
-          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
         ],
         "is_new": true
       }
