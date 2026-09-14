@@ -1,10 +1,100 @@
 {
-  "date": "2026-09-13",
-  "total": 11,
+  "date": "2026-09-14",
+  "total": 6,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.06.749740",
+        "title": "Longitudinal changes in control energy of brain networks in older adults at familial risk for Alzheimers disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-13",
+        "is_early_access": true,
+        "authors": [
+          "Skolasinska, P.",
+          "Wearn, A.",
+          "O'Sullivan, D.",
+          "Stallworthy, I.",
+          "Brynildsen, J. K.",
+          "Leppert, I. R.",
+          "Tardif, C. L.",
+          "Turner, G. R.",
+          "Bassett, D. S.",
+          "Spreng, R. N.",
+          "for the PREVENT-AD Research Group,"
+        ],
+        "abstract": "The ability of structural brain networks to control neural dynamics is affected by healthy and pathological aging, including Alzheimers disease (AD). According to network control theory, transitions between functional brain states incur energetic costs. How these costs change longitudinally with aging remains unknown. Here, in 279 older adults at familial risk for AD, control energy increased longitudinally for state maintenance and transitions between sensorimotor and attentional networks, while decreasing for another sensorimotor--attentional transition. Changes in transition costs between higher-order networks were associated with cognitive performance: greater DorsAttn--Executive cost was associated with poorer immediate memory, while lower Executive--Def+Lim cost was associated with poorer attention. Higher plasma p-tau181 was associated with lower DorsAttn--Def+Lim transition cost. These findings reveal transition-specific alterations in the energetic landscape of aging and distinct relationships with cognition and AD pathology. Together, they highlight energetic constraints on brain network reconfiguration as a complementary perspective on neurocognitive aging.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.06.749740v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.07.748279",
+        "title": "HIPPOCAMPAL TAU RELATED SIGNAL INDEXES HYPEREXCITABILITY AND NREM SLEEP MEMORY DYSFUNCTION IN TEMPORAL LOBE EPILEPSY",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-13",
+        "is_early_access": true,
+        "authors": [
+          "Arafat, T.",
+          "Schiller, K.",
+          "Lam, J.",
+          "Von Ellenrieder, N.",
+          "Cai, Z.",
+          "DeKraker, J.",
+          "Fadaie, F.",
+          "Sziklas, V.",
+          "Crane, J.",
+          "Cruces, R. R.",
+          "Hopewell, R.",
+          "Hsiao, C.",
+          "Massarweh, G.",
+          "Soucy, J.-P.",
+          "Erlandsson, K.",
+          "Hosseini, S. A.",
+          "Chan, T.",
+          "Kobayashi, E.",
+          "Rosa-Neto, P.",
+          "Bernasconi, A.",
+          "Bernasconi, N.",
+          "Koepp, M.",
+          "Gotman, J.",
+          "Bernhardt, B."
+        ],
+        "abstract": "Background Sleep and memory disturbances are common in temporal lobe epilepsy (TLE), yet their relationship with tau-targeted neuroimaging measures remains unclear. We investigated whether in-vivo temporal 18F-MK6240 tracer retention relates to seizure burden, non-rapid eye movement (NREM) sleep microstructure, and memory performance in TLE. Methods This cross-sectional study was conducted from 2019 to 2024 at the Montreal Neurological Institute-Hospital. Eligible patients had unilateral TLE diagnosed according to International League Against Epilepsy criteria and underwent overnight electroencephalography (EEG) recordings, research-protocol 3T magnetic resonance imaging, and 18F-MK6240 positron emission tomography. Regional 18F-MK6240 standardized uptake value ratios (SUVRs), using the cerebellum as the reference region, were quantified in the ipsilateral hippocampus (defined a priori as the primary region of interest), as well as in peri-hippocampal and lateral temporal regions. Electroclinical and neuropsychological measures, including seizure burden (high vs low), N2 interictal epileptiform discharge frequency (frequent vs non-frequent), and memory performance (impaired vs intact), were classified according to predefined clinical criteria. N2 spindle rate and N3 slow-wave rate were quantified from overnight EEG recordings. Findings Of 70 eligible patients, 25 were included (eight [32%] females; mean age 35.2 years [SD 12.1]). Higher ipsilateral hippocampal 18F-MK6240 uptake was observed in participants with greater focal seizure burden (median [IQR] 0.70 [0.67-0.78] vs 0.64 [0.58-0.65], rank-biserial correlation=-0.58, 95% CI -0.82 to -0.19; p=0.02), was associated with lower N2 spindle rate (r=-0.42, 95% CI -0.70 to -0.03; p=0.04) and higher N3 slow-wave rate (r=0.47; 95% CI 0.09 to 0.73; p=0.02), and was also higher in participants with impaired than intact memory performance (n=21; mean [SD] 0.80 [0.12] vs 0.68 [0.10], Cohen's d=1.15, 95% CI 0.07 to 2.21; p=0",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.748279v1",
+        "reasons": [
+          "关键词『tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.07.749800",
+        "title": "Targeted dephosphorylation of Tau at the endogenous level promotes its association with microtubules.",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-13",
+        "is_early_access": true,
+        "authors": [
+          "Sathe, G.",
+          "Berterame, F.",
+          "Cartwright, T.",
+          "Spallek, R.",
+          "Zhao, J.-F.",
+          "Bagale, A. R.",
+          "Gourlay, R.",
+          "Wood, N. T.",
+          "Macartney, T. J.",
+          "Sapkota, G. P."
+        ],
+        "abstract": "Hyperphosphorylation of Tau is a contributory factor for Tauopathies, which constitute a spectrum of neurodegenerative disorders including Alzheimer's disease (AD). Inhibitors of Tau kinases or activators of the Tau phosphatase PP2A to reverse Tau hyperphosphorylation have shown limited therapeutic promise, due primarily to a lack of Tau selectivity. An innovative strategy to potentially circumvent these limitations would be to selectively target the dephosphorylation of phospho-residues on Tau. In this study, we provide evidence for targeted dephosphorylation of phospho-Tau at the endogenous level, including those known to promote Tau aggregation. By recruiting PPP1CA and PPP2CA Affinity-directed (Ad)-Phosphatases to Tau, we demonstrate highly selective targeted dephosphorylation of multiple phospho-residues on Tau in SK-N-MC neuroblastoma cells, leading to its stabilization in microtubules. Moreover, by using a heterobifunctional molecule termed BDPIC (bromoTAG-dTAG proximity-inducing chimera) in cells harbouring bromoTAG and dTAG knockins on Tau and PPP2CA, respectively, we demonstrate highly selective dephosphorylation phospho-residues on Tau.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749800v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.09.05.749595",
         "title": "USP15 REGULATES NEUROINFLAMMATION AND DRIVES PATHOGENESIS IN SYNUCLEINOPATHIES",
@@ -93,213 +183,6 @@
         ],
         "abstract": "Background: Common side effects of dopamine replacement therapy (DRT) for Parkinson's Disease (PD) are addiction-like impulse control disorders, including compulsive gambling. Gambling products such as slot machines prominently feature reward-paired audiovisual stimuli, which can promote riskier choices on laboratory gambling tasks in both humans and rodents. In rats, risky decision making in the presence of reward-paired cues is dependent on dopamine D3 receptor activity and is increased by ropinirole, a D2/3 receptor agonist with a higher affinity for D3 receptors. In humans, it remains uncertain whether cue-induced risky choice is amplified by dopamine agonism. Methods: We tested effects of DRT on cue-induced risky choice in 62 patients with PD (34 on levodopa monotherapy, 27 on levodopa and dopamine agonists). Patients performed two versions of a risky decision-making task: one with and one without reward-paired sensory cues, both ON and OFF DRT. A group of 36 age-matched controls completed the same task versions without DRT. Results: Across all groups, participants made riskier choices when the task included reward-paired sensory cues. Levodopa monotherapy did not affect risky decision-making. However, a combination of levodopa and dopamine agonists increased risky choices specifically in the uncued version of the task, making performance indistinguishable from that on the cued task. Conclusions: Dopamine agonists combined with levodopa promote risk-taking even in the absence of reward-paired cues. This could translate into risky reward-seeking behaviors that are decoupled from contextual factors.",
         "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.748022v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.02.748476",
-        "title": "Striatal Dopaminergic Dysfunction Constrains Motor Invigoration in Parkinson's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Thomsen, B. L. C.",
-          "Labanauskas, V.",
-          "Raaf, N.",
-          "Thomsen, S. G.",
-          "Vinding, M. C.",
-          "Marner, L.",
-          "Lokkegaard, A.",
-          "Meder, D.",
-          "Siebner, H. R."
-        ],
-        "abstract": "Bradykinesia is a cardinal motor feature of Parkinson's disease and is characterised by a reduced ability to generate movements with normal speed and force. Although nigrostriatal dopamine loss is regarded as the primary cause, direct human evidence linking dopaminergic degeneration to striatal dysfunction and impaired motor output and vigour remains limited. To investigate this relationship, we developed a grip-force paradigm that quantified movement vigour as the ability to rapidly generate force. Fifty-three individuals with Parkinson's disease, 30 with levodopa-induced dyskinesia and 23 without, and 25 age-matched healthy controls performed the task during 3T functional MRI. Thirty-five patients additionally underwent dopamine transporter PET imaging to assess associations among nigrostriatal dopaminergic integrity, striatal activity and motor performance. Patients with Parkinson's disease showed marked reductions in initial movement vigour accompanied by reduced bilateral putaminal activation during force generation. Lower putaminal dopamine transporter binding was associated with both poorer movement vigour and weaker grip-related putaminal activation during functional MRI, establishing a direct link between nigrostriatal degeneration, impaired striatal recruitment and motor slowing. Functional MRI further revealed reduced reward-related responses in the nucleus accumbens. Across participants, stronger reward-related ventral striatal activity was associated with greater movement vigour, suggesting that motivational processes contribute independently to motor performance. Patients with levodopa-induced dyskinesia exhibited more severe putaminal dopaminergic denervation than patients without dyskinesia but showed no additional impairment of movement vigour or striatal task responses. These findings provide direct in vivo evidence that dorsal nigrostriatal dopaminergic degeneration constrains movement vigour in Parkinson's disease through reduced striatal recruit",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748476v2",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.03.16.643481",
-        "title": "Genetic risk implicating endolysosomal network genes correlates with endolysosomal dysfunction across neural cell types in Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Mamde, S.",
-          "Rose, S.",
-          "Prater, K. E.",
-          "Cochoit, A.",
-          "Lin, Y. F.",
-          "Smith, I.",
-          "Johnson, C. S. C.",
-          "Reid, A.",
-          "Qiu, W.",
-          "Strohbehn, S.",
-          "Keene, C. D.",
-          "Rolf, B.",
-          "Lin, K.",
-          "Lee, S.-I.",
-          "Garden, G.",
-          "Blue, E.",
-          "Young, J. E.",
-          "Jayadev, S."
-        ],
-        "abstract": "Late-onset Alzheimer disease (LOAD) has a complex genomic architecture. LOAD risk variants suggest multiple pathways, including the endolysosomal network (ELN), contribute to the pathobiology of Alzheimer disease (AD). Whether genetic risk in specific pathways correlates with corresponding biological dysfunction remains largely unknown. We developed an endolysosomal pathway-specific polygenic risk score (ePRS) using 14 well-established AD risk alleles implicating ELN genes. We investigated the association between ePRS and AD neuropathology, then examined cell-specific endolysosomal morphology and transcriptomic profiles in post-mortem dorsolateral prefrontal cortex samples from donors stratified by ePRS burden. We found that the ePRS was significantly associated with AD diagnosis and neuropathological measures, comparable to a pathway-agnostic PRS despite representing far fewer loci. High ePRS correlated with increased neuronal endosome volume, number and perinuclear aggregation independent of AD pathology. Single-nucleus RNA sequencing revealed cell type-specific transcriptomic changes associated with ePRS status, influencing glutamatergic signaling, protein homeostasis, responses to DNA damage and immune function. Neurons, astrocytes, oligodendrocytes, and microglia each showed varied gene expression patterns associated with ePRS burden. Together, these results provide evidence that AD genetic risk variants harboring ELN genes correlate with endolysosomal dysfunction in human brain tissue. These findings suggest that pathway-specific genetic risk contributes to corresponding cellular pathology in AD and nominates candidate mechanisms by which ELN AD variants contribute to pathogenesis.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.03.16.643481v6",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.07.749864",
-        "title": "MFF SUMOylation regulates neuronal mitochondrial morphology and facilitates AMPK-induced mitochondrial fragmentation",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Seager, R.",
-          "Franchini, D.",
-          "Henley, J.",
-          "Wilkinson, K."
-        ],
-        "abstract": "Mitochondrial dysfunction and fragmentation in neurons are characteristics of many neurodegenerative conditions. AMP-activated protein kinase (AMPK) is a cellular energy sensor which is hyperactivated in Alzheimers disease. Under stress conditions, AMPK-mediates phosphorylation of the outer mitochondrial membrane protein mitochondrial fission factor (MFF), leading to SUMOylation at Lys151. MFF SUMOylation promotes fission and subsequent mitochondrial fragmentation. Here, using primary neuronal culture, we investigate the role of MFF SUMOylation in mitochondrial morphology and function. We show that MFF SUMOylation is required to maintain neuronal mitochondrial length under basal conditions in axons and dendrites. Using the AMPK activator (AICAR) to induce mitochondrial fission, show that preventing MFF SUMOylation reduces AICAR-induced fragmentation of dendritic mitochondria. These findings reconcile observations of AMPK hyperactivation and mitochondrial fragmentation by revealing the AMPK-MFF-SUMO pathway to be crucial in neuronal mitochondrial fission.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749864v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.04.749232",
-        "title": "Differential Effects of Neutral Sphingomyelinase and Serine Palmitoyltransferase Inhibitors on Alzheimer's-Like Neuropathology.",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Bellotto, M.",
-          "Gonzalez Perez, N.",
-          "Bentivegna, M.",
-          "Carrera, M.",
-          "Presa, J.",
-          "Vinuesa, A.",
-          "Pomilio, C.",
-          "Saravia, F.",
-          "Beauquis, J."
-        ],
-        "abstract": "Alzheimer's disease (AD) involves progressive neurodegeneration, amyloid-{beta} (A{beta}) pathology and chronic neuroinflammation. Elevated ceramides, generated via neutral sphingomyelinase (nSMase)-mediated sphingomyelin hydrolysis or serine palmitoyltransferase (SPT)-driven de novo synthesis, amplify these processes. Here, we performed a direct comparison of pharmacological inhibition of these pathways in the PDAPP-J20 transgenic mouse model and in fibrillized A{beta}1-42-challenged BV-2 murine microglial cell line. Eight-month-old PDAPP-J20 female mice received intraperitoneal GW4869 (nSMase inhibitor, 1.25 mg/kg) or myriocin (SPT inhibitor, 0.3 mg/kg) three times weekly for 3 weeks. Neutral SMase inhibition restored spatial learning in the Barnes maze, reduced hippocampal neuronal loss and layer atrophy, decreased amyloid plaque burden, and attenuated microglial activation (Iba1 morphology and peri-plaque reactivity). In contrast, SPT inhibition worsened thigmotaxis, failed to improve cognition, and increased plaque load. In vitro, nSMase blockade (GW4869 and cambinol) suppressed A{beta}-induced NF{kappa}B p65 nuclear translocation, blunted TNF- expression, and reduced intracellular A{beta} accumulation in microglia, suggesting enhanced endolysosomal degradation. SPT inhibition lacked these anti-inflammatory and clearance-promoting effects. These results identify nSMase as a critical node linking ceramide metabolism, microglial dysfunction, and amyloid progression in AD. Targeted nSMase inhibition offers a promising molecular strategy to interrupt neuroinflammation and restore neuronal homeostasis, while broad SPT blockade appears counterproductive. Pathway-selective modulation of ceramide signaling may open new therapeutic avenues for AD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749232v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.04.749497",
-        "title": "High frame rate in vivo two-photon microscopy to quantify murine cerebrospinal fluid flow heterogeneity",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Gray, C.",
-          "Hu, K.",
-          "Tse, D. H.",
-          "Dieterle, K.",
-          "Simpson, S.",
-          "Ruhl, T.",
-          "Duff, K.",
-          "Kim, D.",
-          "Mirzaee, M.",
-          "Volker, A.",
-          "Alturki, T. S.",
-          "Tithof, J."
-        ],
-        "abstract": "Cerebrospinal fluid (CSF) flows through perivascular spaces (PVSs) surrounding brain vasculature, and impaired flow has been linked to neurodegenerative diseases such as Alzheimer's. However, the mechanisms driving CSF flow and its oscillatory dynamics remain poorly understood. Using high frame rate two-photon imaging (up to 113 Hz), we show that CSF flow is spatially heterogeneous and highly pulsatile, quantified using a regional CSF pulsatility index (PI). Reduced-order simulations with realistic domain length and Windkessel boundary conditions show that arterial pulsations generate peak CSF velocities but contribute negligibly to net transport. PI varies non-monotonically in space and substantially with downstream hydraulic resistance and compliance, indicating that CSF pulsatility is an emergent property of the hydraulic network rather than simply a consequence of local arterial wall motion. Measurements and simulations of the phase between arterial wall motion and CSF velocity further constrain proposed CSF driving mechanisms. Finally, we perform mouse-specific simulations to estimate average and peak wall shear stresses which support the potential role of pulsatile CSF flow in perivascular mechanotransduction. Together, these results establish CSF pulsatility as a measurable signature of network-scale CSF dynamics.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749497v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.04.749518",
-        "title": "Cryo-ET and Sub-Volume Analysis of Fibrillar Pathology in the Neurodegenerative Human Brain",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "van den Heuvel, L.",
-          "Staehli, D. A.",
-          "Radecke, J.",
-          "Daraspe, J.",
-          "Shafiei, N.",
-          "Lewis, A. J.",
-          "van de Berg, W. D. J.",
-          "Genoud, C.",
-          "Mahul-Melier, A.-L.",
-          "Stahlberg, H.",
-          "Chung, W.-L."
-        ],
-        "abstract": "Structural studies of amyloid fibrils extracted from brain tissue have identified disease-specific fibril polymorphs. However, the mechanisms driving distinct polymorphs remain unclear because no method currently links the cellular context, composition and ultrastructure of individual aggregates to their constituent fibril polymorphs. Here, we present a workflow for in situ cryo-electron tomography (cryo-ET) to study amyloids within individual aggregates in the human neurodegenerative postmortem brain. Using chemically fixed tissue, we studied in situ tau fibrils in the hippocampus of an Alzheimer's disease (AD) donor and -synuclein fibrils within a glial nuclear inclusion in the cingulate gyrus of a multiple systems atrophy (MSA) donor. Subtomogram averaging and helical reconstruction of fibril subvolumes yielded low-resolution (~30-35A) density maps, which were compared to existing ex vivo structures. Preserved ultrastructure enabled detailed observations of pathology, including an alpha-synuclein fibril penetrating the nuclear envelope, providing mechanistic insight into intranuclear aggregate formation. Combined with existing high-resolution fibril structures lacking spatial context, cryo-ET offers a powerful approach to understanding amyloid polymorphism in neurodegenerative diseases, advancing anti-amyloid therapies and diagnostic tools.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749518v1",
-        "reasons": [
-          "关键词『Alzheimer、tau、alpha-synuclein、amyloid』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.07.749938",
-        "title": "Brain-resident myeloid cells promote rapid leukocyte adhesion in leptomeningeal vessels after anti-Aβ immunotherapy",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Algamal, M.",
-          "Yokomizo, S.",
-          "Ndambakuwa, W.",
-          "Abdallah, S.",
-          "Sanchez-Mico, M. V.",
-          "Gillani, R.",
-          "da Silva, P.",
-          "Rajput, A.",
-          "Palanivelu, L.",
-          "Lee, Y.",
-          "Walsh, K. R.",
-          "Kumar, S.",
-          "Kilic, K.",
-          "El Khoury, J.",
-          "Izzy, S.",
-          "Kozberg, M. G.",
-          "Bacskai, B. J."
-        ],
-        "abstract": "Anti-amyloid {beta} (A{beta}) immunotherapy improves cognitive outcomes in Alzheimer's disease (AD) but is associated with amyloid-related imaging abnormalities (ARIA), through poorly understood mechanisms. To define how anti-A{beta} antibodies acutely engage brain immune and vascular compartments, we developed a longitudinal in vivo two-photon imaging platform to track microglial dynamics, peripheral immune cell recruitment, and vascular responses in APP/PS1 mice. Anti-A{beta} antibodies, including aducanumab and lecanemab, rapidly initiated microglial activation and spatial reorganization within 24 hours of dosing, with recruitment to plaque-associated regions, stabilizing plaque growth. Aducanumab and lecanemab also triggered a rapid and transient cerebrovascular immune response characterized by rolling and adhesion of peripheral immune cells along leptomeningeal vessels, accompanied by endothelial activation. Immune cell characterization revealed recruitment of innate immune cells (Iba1Ki67 monocytes and Ly6G neutrophils) and proliferative CD3 T cells into the vascular compartment following treatment. Prophylactic treatment with high-dose dexamethasone reduced the number of adherent cells without affecting microglial activation. Depletion of brain-resident immune cells similarly reduced peripheral immune cell recruitment, supporting their contribution to leukocyte recruitment. Postmortem brain tissue from an AD patient treated with lecanemab showed higher proliferation-associated monocyte signature scores, suggesting translational relevance to the proliferative myeloid response observed in our mouse models. These findings demonstrate that anti-A{beta} immunotherapy rapidly initiates a coordinated central and peripheral immune response at the leptomeningeal interface. These early immune-vascular interactions represent a plausible initiating mechanism for ARIA and provide a mechanistic framework to guide strategies for mitigating ARIA risk",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749938v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.05.749596",
-        "title": "GBAviewer: a structural database of GBA1 variants in Parkinson's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-11",
-        "is_early_access": true,
-        "authors": [
-          "Bayne, A. N.",
-          "Parlar, S. C.",
-          "Shahkhali, M. G.",
-          "Chebon-Bore, L.",
-          "Halder, P.",
-          "Gan-Or, Z.",
-          "Trempe, J.-F."
-        ],
-        "abstract": "Background: GBA1 variants are common risk factors for Parkinson's disease (PD), yet the structural consequences of most variants remain uncharacterized. No centralized resource currently integrates the growing number of GCase structures, compounds, and PD-associated variants. Objectives: To develop an interactive tool mapping GBA1-PD missense variants onto GCase structures, alongside interactors and therapeutic compounds. Methods: We built GBAviewer, an R/Shiny web server integrating GBA1-PD Browser variants with crystal structures, cryo-EM complexes, AlphaFold3 models, and AlphaMissense scores. We also modelled a putative GCase-Saposin C-glucosylceramide ternary complex using AlphaFold3. Results: GBAviewer maps variants in 3D across the GCase active site, LIMP-2 and SapC surfaces, chaperone pockets, and dimerization interface. Our ternary model corroborates SapC binding to the GCase active site entrance, where several variants of unknown significance cluster. Conclusions: GBAviewer is a freely accessible platform for structural analysis of GBA1 variants, supporting mechanistic studies and therapeutic development. Available at: https://g-can.shinyapps.io/GBAviewer/",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749596v1",
         "reasons": [
           "关键词『Parkinson』(命中title)"
         ],
