@@ -1,10 +1,388 @@
 {
-  "date": "2026-09-15",
-  "total": 0,
+  "date": "2026-09-16",
+  "total": 16,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
-    "神经退行性疾病": [],
+    "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.09.750353",
+        "title": "Exosomal miR-23a release coincides with astrocytic calcineurin activation, protects neurons from apoptosis by regulating NOXA in Parkinson's disease models and is enriched in the plasma of patients with Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-15",
+        "is_early_access": true,
+        "authors": [
+          "Bhattacharyya, P.",
+          "Gharami, K.",
+          "Biswas, A.",
+          "Biswas, S. C."
+        ],
+        "abstract": "Parkinson's disease (PD) is characterized by a progressive loss of dopaminergic (DA) neurons in the substantia nigra pars compacta and degeneration of their projections in the striatum (STR) of the brain. Astrocytes are recognized as active contributors to PD pathogenesis, yet the role of calcineurin (CN), a Ca/calmodulin-dependent phosphatase which is well characterized in neurons, remains unexplored in astrocytes in the context of PD. Here, we show that CN protein expression is upregulated in the STR of MPTP-treated mice, coinciding with DA neurodegeneration and astrogliosis. In human astrocytoma cells and primary rat astrocytes, the neurotoxin Rotenone induced rapid intracellular Calcium elevation and CN activation. Unexpectedly, this was accompanied by a decrease in intracellular levels of miR-23a, an astrocyte-enriched microRNA previously linked to CN signalling in cardiomyocytes. We found that this decrease reflected active exosomal export: Rotenone increased both exosomal miR-23a levels and total exosome number, while blocking exosome biogenesis with GW4869 restored intracellular miR-23a levels. Functionally, both astrocyte-derived exosomes and miR-23a overexpression protected neuronal cells (SH-SY5Y, PC12) against Rotenone-, 6-OHDA-, and MPP+-induced toxicity. Mechanistically, miR-23a showed direct binding to the 3'UTR of the pro-apoptotic BH3-only protein NOXA, thereby suppressing its expression, subsequently attenuating caspase-3 activation. Finally, exosomal miR-23a levels were significantly elevated in plasma from PD patients compared with age-matched controls, supporting clinical relevance. Together, these findings identify a previously unrecognized astrocyte-to-neuron communication axis during PD pathogenesis, in which astrocytic CN activation accompanied by exosomal miR-23a release represents a neuroprotective stress-responsive pathway with potential biomarker and therapeutic relevance in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750353v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.09.750343",
+        "title": "SNCA triplication shapes neuronal extracellular vesicle biology and promotes microglial activation in patient-derived iPSC-based models of Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-15",
+        "is_early_access": true,
+        "authors": [
+          "Boumpoureka, I.",
+          "Heider, J.",
+          "Delcambre, S.",
+          "Kleine Borgmann, F. B.",
+          "Poret, A.",
+          "Boussaad, I.",
+          "Wilbertz, J. H.",
+          "Sommer, P.",
+          "Mittelbronn, M.",
+          "Gruenewald, A.",
+          "Gorgogietas, V.",
+          "Krueger, R."
+        ],
+        "abstract": "Extracellular vesicles (EVs) are emerging as key mediators of intercellular communication and potential biomarkers in Parkinson's disease (PD), yet how disease-causing genetic alterations shape neuronal EV biology remains incompletely understood. Here, we used PD-patient iPSC-derived midbrain dopaminergic neurons (mDANs) harboring SNCA triplication (SNCA-4x), gene-corrected controls (SNCA-GC), and SNCA knockout (SNCA-KO) to investigate the impact of -synuclein overexpression on neuronal-enriched EV (nEV) biology and neuron to microglia communication. SNCA-4x mDANs exhibited marked transcriptional alterations in pathways related to vesicle trafficking and extracellular matrix organization. Using an optimized isolation workflow, SNCA-4x neurons released significantly more and smaller nEVs enriched in -synuclein, mitochondrial DNA (mtDNA), and PARK7/DJ-1 mRNA, while displaying reduced acetylcholinesterase activity. Functionally, SNCA-4x-derived nEVs were taken up more efficiently by isogenic control iPSC-derived microglia than SNCA-GC nEVs and induced stronger pro-inflammatory activation than both SNCA-GC nEVs and untreated microglia, characterized by altered microglial morphology and increased TNF- and IL-1{beta}, consistent with damage-associated molecular pattern (DAMP)-mediated signaling. Together, these findings demonstrate that SNCA-4x reshapes the properties and molecular cargo of nEVs, enhancing their capacity to trigger microglial activation, and identify EV-associated -synuclein, mtDNA, and PARK7 mRNA as candidate mechanistic and biomarker features in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750343v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.09.749919",
+        "title": "Acute Temporal Dynamics of Brain Injury Plasma Biomarkers following Controlled Football Heading",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-15",
+        "is_early_access": true,
+        "authors": [
+          "Muqtadir, S. A.",
+          "Aston, T.",
+          "Reid, K. R.",
+          "Lember, L.-M.",
+          "Di Virgilio, T. G.",
+          "Keith, G.",
+          "Hunt, D.",
+          "Teixeira-Dias, F.",
+          "Binkofski, F.",
+          "Moran, C. N.",
+          "Ietswaart, M."
+        ],
+        "abstract": "Footballers are routinely exposed to repeated non-concussive head impacts with (soccer) heading, the acute neurobiological consequences of which remain poorly characterised. Current evidence for acute changes in biofluid markers following heading is tempered by design limitations including inadequate impact exposure monitoring, uncontrolled confounders (e.g. exercise), the lack of a control group and heterogeneity in sampling times. This study attempts to address these limitations with a novel combination of serial sampling measuring biomarkers across five timepoints (pre and 0.5, 2, 4 and 24 h post heading), a within-subject, time-matched resting control condition and participant-level finite element modelling used for impact quantification. In a counter-balanced crossover design, twelve male football players aged 18-31 completed a heading session with 10 verified rotational headers delivered from a ball launcher at 10 m and a control condition. Impact kinematics were captured with instrumented mouthguards and modelled using the Edinburgh finite element head model (EdiFEHM). Additional monitoring measures included near point convergence (NPC) at each timepoint and the sport concussion assessment tool (SCAT6) at the pre, 0.5 and 24 h timepoints. The Quanterix Simoa N4PD Advantage Plus assay was used to quantify plasma concentration of neurofilament light (NfL), glial fibrillary acidic protein (GFAP), ubiquitin carboxy-terminal hydrolase L1 (UCH-L1) and brain-derived tau (BD-tau) measured for the first time in this context. GFAP and BD-tau showed significant main effects of time (both P < 0.005) but no effect of heading. UCH-L1 was excluded and NfL restricted to descriptive analysis as both fell near or below the minimum assay quantification level. NPC alongside SCAT6 symptom and cognitive scores remained unaffected by heading. Tissue strain modelling showed a mean peak MPS95 of 0.099 (range: 0.074-0.144) consistent with low magnitude non-concussive impact exposure a",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.749919v1",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.09.750420",
+        "title": "Down syndrome postmortem brains exhibit reduction in nifene binding to α4β2* nicotinic acetylcholinergic receptors",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-15",
+        "is_early_access": true,
+        "authors": [
+          "Karim, F.",
+          "Chavez-Jacobo, N. P.",
+          "Liang, C.",
+          "Head, E.",
+          "Mukherjee, J."
+        ],
+        "abstract": "Alzheimer's disease (AD) pathology including amyloid beta (A{beta}) plaques and tau tangles accumulate with age in Down Syndrome (DS). Cholinergic abnormalities such as expression of nicotinic acetylcholine receptors (nAChRs) adversely contribute to cognitive decline and neurodegeneration in AD with similar features possible in DSAD. As a radiotracer for 4{beta}2* nAChRs, [18F]nifene was quantitatively evaluated in the frontal cortex (FCX) and temporal cortex (TCX) of DSAD, AD, and cognitively normal (CN) brain tissue using autoradiography. Anti-tau and anti-A{beta} immunostaining in adjacent sections confirmed the presence of tau tangles and A{beta} plaques. [18F]Nifene binding in brain sections demonstrated significantly more binding in gray matter (GM) than white matter (WM), with FCX exhibiting more binding than TCX (OptiQuant). Nicotine substantially displaced [18F]nifene binding in adjacent sections, resulting in average GM/nicotine ratios (DSAD=9.74, AD=10.5, CN=17; suggesting a 38% decrease in AD and a 43% decrease in DSAD) and WM/nicotine ratios (DSAD=2.73, AD=3.31, CN=5.62; suggesting a 41% decrease in AD and a 51% decrease in DSAD). [18F]Nifene was correlated with [125I]IBETA (A{beta}), showing a strong positive relationship between 4{beta}2* nAChRs and A{beta} in DSAD. [18F]Nifene GM/nicotine and WM/nicotine ratios were positively correlated with age in TCX and FCX. The findings of this study suggest that [18F]nifene has potential use in diagnostic investigations of the cholinergic system in DSAD using positron emission tomography. The study also points to a possible need for earlier therapeutic interventions to address the 4{beta}2* nAChRs deficit in DSAD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750420v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.09.750469",
+        "title": "NaV1.7-dependent peripheral sensitization drives chronic pain in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-15",
+        "is_early_access": true,
+        "authors": [
+          "Nelson, T. S.",
+          "Grabus, N. K.",
+          "Allen, H. N.",
+          "Calderon-Rivera, A.",
+          "Loya-Lopez, S.",
+          "Rodriguez-Palma, E. J.",
+          "Waters, A. L.",
+          "Elhanafy, E.",
+          "Shiers, S.",
+          "Sankaranarayanan, I.",
+          "Gomez, K.",
+          "Price, T. J.",
+          "Khanna, R. J."
+        ],
+        "abstract": "Pain is among the most prevalent and disabling nonmotor symptoms of Parkinson's disease (PD), yet its mechanisms remain poorly defined and effective treatments are limited. Safinamide is one of the few drugs reported to improve pain in PD, but the mechanism underlying this effect is unknown. Here, we show that nigrostriatal neurodegeneration produces persistent hyperexcitability of primary sensory neurons associated with dysregulation of the voltage-gated sodium channel NaV1.7. In a brain-restricted 6-hydroxydopamine (6-OHDA) model, small-diameter dorsal root ganglion (DRG) neurons exhibited increased sodium current density and altered voltage-dependent inactivation, with the excess current eliminated by selective NaV1.7 blockade. Safinamide directly inhibited a NaV1.7-dependent component of sensory neuron sodium current and reversed established pain-like behaviors. Pharmacological disruption of NaV1.7 regulation by collapsin response mediator protein 2 (CRMP2) normalized DRG hyperexcitability and reversed mechanical and thermal hypersensitivity, whereas genetic disruption of the NaV1.7 CRMP2 regulatory sequence prevented the development of 6-OHDA-induced pain-like behaviors for up to 30 weeks despite preservation of the Parkinsonian motor phenotype. Transcriptomic profiling of human PD DRGs revealed limited global transcriptional remodeling with selective alterations in genes associated with sensory neuron excitability. Together, these findings demonstrate that dopaminergic neurodegeneration initiated within the brain is sufficient to drive persistent peripheral sensory neuron dysfunction and identify CRMP2-dependent regulation of NaV1.7 as a therapeutic target for Parkinsonian pain.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750469v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.07.749813",
+        "title": "Cross-omics profiling reveals cortical neuronal dysfunction following neonatal intraventricular haemorrhage that is attenuated by decorin treatment",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Hewitt, B. J.",
+          "Garcia-Bonilla, M.",
+          "McAllister, J. P.",
+          "Pahuja, S.",
+          "Pellowe, G. A.",
+          "Newman, M.",
+          "Roberts, L.",
+          "Roberts, J. A.",
+          "Kitchen, P.",
+          "Bill, R. M.",
+          "Hill, L. J.",
+          "Botfield, H. F."
+        ],
+        "abstract": "Neonatal intraventricular haemorrhage (IVH) is a form of haemorrhagic stroke which is most common in premature infants and can cause mortality and lifelong disability. The reaction of brain tissue to extraneous blood is known to trigger several complications including post-haemorrhagic hydrocephalus (PHH), furthering the likelihood of neurological disability and death. The molecular response of the neuron-rich cortex to blood within the first 24 hours of injury, and how this may precipitate secondary brain injury or neurodegeneration, remains poorly defined. This lack of understanding may reduce the development of novel therapeutics aiming to limit the injury caused by neonatal IVH. Here, we utilised a proteome and transcriptome cross-omics approach to characterise cortical responses to blood in a neonatal mouse model of IVH to improve understanding of the effects and drivers of IVH-induced brain injury. The pleiotropic proteoglycan decorin, a well-characterised modulator of the inflammatory cytokine transforming growth factor beta 1, was also studied to identify if it can have any beneficial effects in the cortex. Cross-omics analysis between the transcriptome and proteome highlighted ferroptosis-associated signatures as a key post-IVH cortical injury mechanism. IVH caused a marked depletion of cortical neurons, neurofilaments, and synaptic vesicle proteins, observed through transcriptomics, immunostaining, and proteomics, which were attenuated by decorin treatment. Decorin also produced an enhanced phagocytic response potentially through activation of microglia. These findings highlight the vulnerability of cortical neurons to early injury following IVH in neonates and support decorin as a potential neuroprotective agent. They also suggest that ferroptosis-associated pathways may contribute to early cortical injury and represent a potential therapeutic target in this context.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749813v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.04.749497",
+        "title": "High frame rate in vivo two-photon microscopy to quantify murine cerebrospinal fluid flow heterogeneity",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Gray, C.",
+          "Hu, K.",
+          "Tse, D. H.",
+          "Dieterle, K.",
+          "Simpson, S.",
+          "Ruhl, T.",
+          "Duff, K.",
+          "Kim, D.",
+          "Mirzaee, M.",
+          "Volker, A.",
+          "Alturki, T. S.",
+          "Tithof, J."
+        ],
+        "abstract": "Cerebrospinal fluid (CSF) flows through perivascular spaces (PVSs) surrounding brain vasculature, and impaired flow has been linked to neurodegenerative diseases such as Alzheimer's. However, the mechanisms driving CSF flow and its oscillatory dynamics remain poorly understood. Using high frame rate two-photon imaging (up to 113 Hz), we show that CSF flow is spatially heterogeneous and highly pulsatile, quantified using a regional CSF pulsatility index (PI). Reduced-order simulations with realistic domain length and Windkessel boundary conditions show that arterial pulsations generate peak CSF velocities but contribute negligibly to net transport. PI varies non-monotonically in space and substantially with downstream hydraulic resistance and compliance, indicating that CSF pulsatility is an emergent property of the hydraulic network rather than simply a consequence of local arterial wall motion. Measurements and simulations of the phase between arterial wall motion and CSF velocity further constrain proposed CSF driving mechanisms. Finally, we perform mouse-specific simulations to estimate average and peak wall shear stresses which support the potential role of pulsatile CSF flow in perivascular mechanotransduction. Together, these results establish CSF pulsatility as a measurable signature of network-scale CSF dynamics.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749497v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.07.749850",
+        "title": "The protein and lipid compositions of brain apolipoprotein E particles are cell type-specific",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Voloviceva, E.",
+          "Goetze, S.",
+          "Hausler, S.",
+          "Abukar, S. H.",
+          "Jagels, A.",
+          "Othman, A.",
+          "von Eckardstein, A.",
+          "Robert, J."
+        ],
+        "abstract": "Genetic variation in APOE, which encodes a lipid transporter apolipoprotein E (apoE), is the strongest risk factor for late-onset Alzheimer's disease (AD). Although central nervous system (CNS) apoE is produced by various cell types, including astrocytes, microglia, and pericytes, it is unclear whether apoE lipoproteins are a homogeneous population or if their molecular composition varies depending on their cellular origin. Emerging evidence suggests that CNS apoE lipoproteins contribute to AD-related processes, including amyloid deposition, neuroinflammation, synaptic maintenance, and blood-brain barrier function in a cell type-specific manner. We hypothesized that the compositions of CNS apoE lipoproteins depend on their cellular origin and investigated the lipid and protein profiles of apoE particles secreted by induced pluripotent stem cell (iPSC)-derived brain cells and derived from human cerebrospinal fluid (CSF) using liquid chromatography-mass spectrometry (LC-MS/MS). Our results demonstrate that astrocytes, pericytes, and microglia secrete apoE lipoproteins with distinct, cell type-specific lipid and protein profiles. Astrocyte-secreted particles were enriched in sphingomyelins and proteins linked to lipid metabolism, whereas pericyte-secreted particles contained ether-linked phospholipids and proteins associated with antioxidant activity. The lipidation of microglial apoE was markedly lower, but these particles had higher levels of transferrin, apoC-II, and cathepsin D. Notably, one-third of identified features were cell type-specific, highlighting the substantial molecular specialization across cell types. Most lipids and proteins identified in cell-secreted apoE were also detected in CSF-derived particles. Our findings advance the understanding of apoE biology by shifting the focus from apoE as a single, homogeneous entity to a diverse population of complex particles, the composition of which might be linked to functions in health and neurodegenerative d",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749850v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.07.749991",
+        "title": "Quantitative Modelling of Amyloid-β Dynamics in Brain, CSF, and Plasma During Sleep and Wakefulness",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Sangeet, S.",
+          "Phillips, C. L.",
+          "Hoyos, C. M.",
+          "D'Rozario, A. L.",
+          "Lucey, B. P.",
+          "Postnova, S."
+        ],
+        "abstract": "Amyloid-beta (A{beta}) accumulation in the brain is linked to Alzheimer's disease. In healthy individuals, A{beta} rises during wakefulness and is cleared during sleep, yet the effects of sleep disturbances on the A{beta} dynamics are unclear. We developed a model, incorporating brain, cerebrospinal fluid (CSF), and plasma, to investigate the A{beta} dynamics along the sleep-wake cycles. The model reproduces the experimentally observed 24-hour A{beta}42 oscillations in CSF (660-760 pg/mL) and plasma (15-19 pg/mL) and predicts brain A{beta} dynamics. Indwelling lumbar catheter data show elevated CSF A{beta}42 levels on the second morning after a full night of sleep compared to first morning. The model predicts this increased level is due to repeated CSF sampling, which affects A{beta} levels through pressure-mediated changes in CSF, impaired sleep associated clearance, or their synergistic effect. These findings provide a framework for understanding A{beta} regulation, highlighting sleep's protective role and the need for non-invasive measurement approaches.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749991v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.750089",
+        "title": "Ion modulation restores local synaptic function in APOE4 neuronal networks despite persistent impairments in global network organization",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Groenlie, M. B.",
+          "Mikalsen Kollstroem, A.",
+          "Sandvig, A.",
+          "Sandvig, I."
+        ],
+        "abstract": "The apolipoprotein E epsilon 4 (APOE4) allele is the strongest genetic risk factor for developing sporadic Alzheimer's disease (AD), which accounts for the vast majority of AD cases. Ion dysfunction has emerged as a central mechanism involved in APOE4-related pathology, reflecting the importance of ion homeostasis for cell membrane excitability, synaptic transmission, and plasticity. We have previously demonstrated that ion dysfunction contributes to early AD-related network vulnerability, and that engaging synaptic plasticity mechanisms via ion modulation can restore network balance in neurodegenerative disease. Here, we investigated whether synaptic mobilization by ion modulation could ameliorate APOE4-associated dysfunction in human neuronal networks compared with isogenic APOE3 controls. APOE4 networks exhibited progressive structural and functional deterioration, manifesting as increased neurite length, reduced neurite branching, and reduced firing rate and number of active recording electrodes. This was accompanied by compensatory hypersynchronization, rendering networks vulnerable to pathological spread, and reduced synaptic AMPAR levels compared with isogenic APOE3 control networks. Modulating ion homeostasis restored the local firing dynamics and stabilized synaptic AMPAR levels. However, the elevated synchronization and aberrant morphology of APOE4 networks were not alleviated by engaging synaptic plasticity mechanisms, demonstrating that APOE4 networks retain a capacity for adaptive plasticity enabling restoration of local neuronal function, but that this recovery does not extend to higher-order network organization.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750089v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.750091",
+        "title": "ARPP21 defines a TDP-43-independent aggregation pathway in amyotrophic lateral sclerosis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Campos-Melo, D.",
+          "Dilliott, A. A.",
+          "Farhan, S. M. K.",
+          "Strong, M. J.",
+          "Droppelmann, C. A."
+        ],
+        "abstract": "Currently, pathological inclusions of ubiquitinated TDP-43 are considered central to the pathogenesis of amyotrophic lateral sclerosis (ALS). However, this view has yielded sparse attention to covert alternative pathways of aggregation in the disease. Here, we identified a pathological axis independent of TDP-43 led by ARPP21, a SUZ domain-containing RNA-binding protein encoded by a gene recently described in strong association with ALS. ARPP21 showed large fibrillar non-ubiquitinated aggregates in all the non-SOD1 ALS cases studied, consistently segregating from TDP-43 pathology. Biophysically, ARPP21 undergoes spontaneous phase separation, with a higher propensity for condensate formation than TDP-43 but without co-aggregating with it. ARPP21 also exhibited very slow soluble behavior and lower condensate dynamics compared to TDP-43, an effect that was more pronounced for the ARPP21-P529L disease-related variant. In human iPSC-derived motor neurons, expression of ARPP21 variants was sufficient to drive condensate formation and reduce cell viability. Mechanistically, ARPP21 promoted intercellular propagation by inducing tunnelling nanotube formation, enabling efficient cell-to-cell spreading of aggregates. Genetic analyses further identified multiple ARPP21 variants in ALS, supporting its clinical relevance. Together, our findings uncover ARPP21 as a previously unrecognized TDP-43-independent aggregation pathway in ALS, with implications for disease heterogeneity and therapeutic targeting.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750091v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.749528",
+        "title": "Dopaminergic tone predicts rhythmic temporal attention in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Yosef, B.",
+          "Balamurugan, B.",
+          "Miura, M.",
+          "Cross, K."
+        ],
+        "abstract": "Beat perception, the ability to perceive and anticipate a regular pulse in music, is thought to depend on the basal ganglia. Dopaminergic signaling is a candidate mechanism given its prominence in basal ganglia circuitry and established function in encoding temporal predictions. Parkinson's disease (PD) provides a model for studying dopaminergic contributions to beat perception. To test the hypothesis that higher dopaminergic tone is associated with better beat perception, we conducted a study in PD patients (n=55) and matched controls (n=53). Participants performed a musical beat perception task, the Beat Drop Alignment Test (BDAT). They also completed a non-timing control task measuring musical pitch perception, the Mistuning Perception Test (MPT). We identified a double dissociation in PD patients: daily dopamine dose was associated with beat perception (r=.37, p=.005) but not pitch perception (r=.12, p=.397), while musical background was associated with pitch perception (r=.55, p<.001) but not beat perception (r=.16, p=.236). Results remained consistent when controlling for disease duration and age. This dissociation suggests the effect of dopamine is specific to beat perception and not reflective of a general improvement in auditory processing. High-dopamine patients outperformed both low-dopamine patients and age-matched controls, and this difference was driven by better detection of on-beat than off-beat events. Together, these results suggest that dopamine is associated with enhanced beat perception, potentially through modulation of temporal attention to expected beat times.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.749528v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.749915",
+        "title": "Paired RNA profiling of circulating small extracellular vesicles links survival in ALS to reactive glial - vascular programs",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Weerakkody, J. S.",
+          "Bokstaller, F.",
+          "Sthanu, U.",
+          "Pitt, D. S."
+        ],
+        "abstract": "Circulating RNA can capture molecular variation associated with amyotrophic lateral sclerosis (ALS) progression, but biofluid heterogeneity makes biologically organized signals difficult to recover. Here, we paired microRNA (miRNA) and messenger RNA (mRNA) profiles from glutamate-aspartate transporter (GLAST)-positive small extracellular-vesicles (sEVs) to estimate survival time and identify survival-associated programs. In 45 participants with ALS and 15 controls, biologically constrained multi-omic factor analysis identified a program in which reciprocal miRNA-mRNA states among target-supported pairs tracked survival. The miRNA arm was then evaluated in an independent total-plasma cohort of 248 participants with ALS, refining a five-miRNA panel that added prognostic information beyond functional decline and neurofilament light chain, particularly over longer survival horizons. The mRNA arm was evaluated across 586 cortical profiles from 308 donors and 527,261 nuclei from 69 donors, identifying a five-gene core associated with glial reactivity, vascular programs and reduced myelinating identity. Together, these findings establish a framework for integrating regulatory RNA layers in circulation to identify clinically relevant programs and relate them to disease-relevant cellular states.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.749915v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.748727",
+        "title": "Divergent amyloid trajectories distinguish normal aging from Alzheimer's disease progression",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Tong, M.",
+          "Gao, T.",
+          "Upadhyaya, Y.",
+          "Nho, K.",
+          "Fang, S.",
+          "Saykin, A.",
+          "Yan, J.",
+          "for the Alzheimer's Disease Neuroimaging Initiative,"
+        ],
+        "abstract": "Aging is the greatest risk factor for Alzheimer's disease (AD), yet how and when AD-related pathological progression diverges from aging remains poorly understood. This distinction is particularly difficult at early stages, when clinically and biomarker-defined populations contain individuals following fundamentally different trajectories. Here, we model AD progression as a deviation from aging using longitudinal amyloid PET and a self-supervised trajectory-learning framework. In ADNI, the learned trajectory revealed a shared early path that bifurcated into an aging branch and an AD-related branch. The two branches showed distinct profiles in amyloid burden, cognitive decline, risk of progression to AD dementia, and genetic risk. Unseen participants from the independent NACC cohort were projected onto the trajectory without retraining, further reproducing key branch-specific biological and genetic patterns. Together, the bifurcating trajectory provides a biologically grounded framework for resolving early-stage heterogeneity and enabling risk stratification beyond binary amyloid status.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.748727v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.09.750356",
+        "title": "Cell type-specific histone acetylation landscape in Alzheimer's disease reveals a putative role of MITF in microglia",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "Gergian, C.",
+          "Urbanaviciute, P.",
+          "Wells, P. M.",
+          "Transfeld, J. L.",
+          "Askarova, A.",
+          "Yaa, R. M.",
+          "Wu, Y.",
+          "Ziegler, K. C.",
+          "Nickl, C. K.",
+          "Pasillas, M. P.",
+          "Schlachetzki, J. C. M.",
+          "Holtman, I. R.",
+          "Nelson, P. T.",
+          "Rissman, R. A.",
+          "Brewer, J. B.",
+          "Marzi, S. J.",
+          "Glass, C. K.",
+          "Nott, A."
+        ],
+        "abstract": "Alzheimer's disease (AD) is characterised by aberrant amyloid beta and tau aggregation, neuroinflammation, demyelination and neurodegeneration, which have been linked to changes in cell-specific gene expression signatures. Among the mechanisms driving cell-type-specific transcriptional changes, histone acetylation plays a central role in regulating gene activity. While global alterations in histone acetylation have been implicated in AD, the contribution of individual cell types to these epigenetic changes remains poorly understood. To decode cell-type-specific changes in gene regulation in AD pathogenesis, we profiled histone H3 lysine 27 acetylation (H3K27ac) in microglia, oligodendrocytes and neurons from the prefrontal cortex of individuals with late-stage AD and non-dementia controls. Oligodendrocytes had the highest number of differential H3K27ac regions in AD, followed by microglia. Genes nearest to differential H3K27ac in purified microglia were enriched for phagocytosis, lipid processing, inflammatory and disease-associated cell state signature genes. Gene network analysis revealed downregulation of homeostatic genes in AD microglia and upregulation of immune activation, including signatures of lipid-handling and monocyte-derived macrophages. Oligodendrocyte co-regulated regions were indicative of increased MHC class I antigen presentation and altered neuron-oligodendrocyte interactions in AD. We identified H3K27ac allele-specific variants (ASVs) enriched near endolysosomal and ubiquitin-proteasome-associated genes in microglia and neurons. ASVs coincided with AD genome-wide association study (GWAS) risk loci, including CLU in oligodendrocytes and HLA-DRB1 in microglia. DNA motif analysis identified putative transcription factor drivers of AD glial dysregulation, including the lysosomal-associated MITF, Cap'n'collar (CNC) family (BACH1 and NFE2) and AP-1 activation in microglia. DNA binding of the MITF protein in human microglia was localised to lysosomal-a",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750356v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.08.750215",
+        "title": "Soluble pathogenic tau transmission to astrocytes drives acute oxidative damage, cellular senescence, and neurovascular uncoupling in a model of Alzheimers tauopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-14",
+        "is_early_access": true,
+        "authors": [
+          "makhlouf, H.",
+          "Dorigatti, A.",
+          "Hernandez, S.",
+          "de Rosa, N.",
+          "Miller, L.",
+          "Hussong, S.",
+          "Holstein, D.",
+          "Lechleiter, J.",
+          "logan, S.",
+          "Kayed, R.",
+          "Galvan, V."
+        ],
+        "abstract": "We previously found that soluble pathogenic tau aggregates (tau oligomers) enter brain microvascular endothelial cells and induce cellular senescence and microvascular dysfunction in a tauopathy mouse model. This study shows that soluble pathogenic tau is also transmitted to astrocytes, where it induces mitochondrial dysfunction, mediates senescence, and impairs neurovascular coupling responses. Single-cell RNA sequencing of hTau mouse cortex revealed astrocytes as one of the most transcriptionally altered cell type, showing coordinated downregulation of electron transport chain genes and upregulation of stress-induced and inflammatory markers, also elevated in hTau mouse brain and astrocyte-enriched fractions. Similar to neuron-to-neuron transmission, soluble tau aggregates entered primary human astrocytes via a heparin-sensitive process, causing microtubule destabilization, ATP depletion, and mitochondrial ROS accumulation before induction of cell-cycle-arrest-associated markers. Mitochondrial ROS scavenging with Mito TEMPO reduced tau-induced SASP cytokine activation in astrocytes in vitro and in vivo. Coculturing neurons with astrocytes undergoing tau induced senescence decreased dendritic spine density, branch level, and dendritic area in a non-cell-autonomous manner. Tau and the SASP-associated cytokines IL-1{beta} and IL-6 contributed to distinct aspects of the neuronal structural phenotype. Astrocyte-targeted SOD2 overexpression attenuated the hTau-related deficit in evoked cerebral blood flow responses; however, this partial improvement in response magnitude and duration did not achieve statistical significance compared to hTau mice expressing GFP. These results identify astrocyte senescence as a potential mechanism connecting astrocyte tau uptake, mitochondrial stress, and neuronal structural impairment. The findings motivate further study of mitochondrial antioxidant defense in tau-associated astrocyte dysfunction.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750215v2",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中title)"
+        ],
+        "is_new": true
+      }
+    ],
     "特定课题组": [],
     "通讯作者订阅": []
   }
