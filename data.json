@@ -1,10 +1,152 @@
 {
-  "date": "2026-09-20",
-  "total": 6,
+  "date": "2026-09-21",
+  "total": 7,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.18.752796",
+        "title": "A lifespan single-cell atlas of the human developing hippocampus benchmarks familial Alzheimer's disease brain organoids.",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-20",
+        "is_early_access": true,
+        "authors": [
+          "Ivleva, E.",
+          "Kruikov, E.",
+          "Arboleda-Velasquez, J. F.",
+          "Baranov, P."
+        ],
+        "abstract": "Familial Alzheimer's disease (fAD) is an early-onset form of AD caused by autosomal-dominant variants in APP, PSEN1, or PSEN2, with PSEN1 accounting for most genetically defined cases [1]. The hippocampus is among the earliest and most severely affected brain regions in AD [2,3]. Human induced pluripotent stem cell (iPSC)-derived brain organoids recapitulate key features of early human brain development and provide a tractable model for studying how fAD mutations perturb neurodevelopmental processes [4]. However, their interpretation is complicated by heterogeneous regional identity, variable maturation state, and cell-type composition across protocols [5,6]. Existing single-cell studies of human hippocampus cover prenatal [7] and postnatal [8-10] stages but do not provide a continuous developmental reference. By elevating the atlas approach in utilizing single-cell RNA-sequencing data, we obtain standardized information on the organoid cell class and type composition and maturation states. Here, we constructed the Human Developing Hippocampus Atlas (HuDeHA), an integrated single-cell reference comprising 658,059 cells spanning post-conceptional week 3 to 15.3 years, and used it to benchmark iPSC-derived brain organoids carrying PSEN1 E280A which is associated with fAD in a large Colombian population. Reference-based mapping revealed altered cellular composition in PSEN1 E280A organoids, including reduced radial glia and increased neural crest-derived neurons. These changes were accompanied by cross-lineage transcriptional alterations, including broad upregulation of the ventral patterning factor MEIS2 and reduced expression of the {beta}-binding protein transthyretin (TTR) in choroid-plexus and ependymal-associated populations. Reconstructed neuronal-lineage trajectories showed a shift toward mature states in PSEN1 E280A organoids. Together, these findings establish HuDeHA as a resource for developmental benchmarking of hippocampus-relevant organoid systems and des",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752796v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.17.752342",
+        "title": "TDP-43 dysfunction induces cryptic circular RNAs in ALS/FTD",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-20",
+        "is_early_access": true,
+        "authors": [
+          "Dattilo, D.",
+          "Pellegrini, F.",
+          "Barattucci, S.",
+          "Brown, A.-L.",
+          "Vargas, J. N. S.",
+          "Gatt, A.",
+          "Morrie, R.",
+          "Miller, G.",
+          "Bachmutsky, I.",
+          "McEachin, Z.",
+          "Chung, M.",
+          "Keuss, M. J.",
+          "Ryadnov, E.",
+          "Zanovello, M.",
+          "Mehta, P. R.",
+          "Mattedi, F.",
+          "Barioglio, M.",
+          "Kamath, S.",
+          "Kargbo-Hill, S. E.",
+          "Palade, J.",
+          "Kowal, I.",
+          "Glass, J.",
+          "Gearing, M.",
+          "Lee, E. B.",
+          "Murray, M. E.",
+          "Dickson, D. W.",
+          "NYGC ALS Consortium,",
+          "Green, E. M.",
+          "Seyfried, N. T.",
+          "Chandriani, S.",
+          "Ward, M.",
+          "Fratta, P."
+        ],
+        "abstract": "Nuclear depletion of TDP-43 is a defining pathological feature of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), leading to widespread RNA misprocessing, including the formation of cryptic exons. Here, we identified TDP-43 as a regulator of circular RNA (circRNA) biogenesis in multiple human neuronal cell models, and showed that its dysfunction induces the de novo formation of cryptic circular RNAs (c-circRNAs). Analysis of post-mortem brain transcriptomic data identified a subset of c-circRNAs which are specific for ALS and FTD cases with TDP-43 pathology. Further, we developed highly sensitive rolling-circle amplification-based circRNA detection assays that allow to distinguish TDP-43 pathology in human CNS tissues with a 0.99 AUC. We found that c-circRNAs can co-occur with cryptic linear splicing events, uncovering complex RNA misprocessing hotspots that induce loss of disease-relevant proteins, including RPTOR and EHMT1. Notably, one of these c-circRNAs originates from UNC13A, a gene whose cryptic exon has previously been linked to one of the major GWAS hits in ALS/FTD and that is being pursued as a therapeutic target through splice-switching ASOs. We showed that c-circUNC13A is co-regulated with the linear cryptic transcript and suppression of UNC13A cryptic exon results in c-circUNC13A reduction in cultured neurons and in vivo, highlighting its potential as a target engagement biomarker for emerging UNC13A-directed therapies. Overall, this work identifies a novel molecular mechanism for TDP-43 dysfunction, opening novel avenues for understanding disease pathogenesis and developing much needed pathology biomarkers.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752342v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.17.752169",
+        "title": "Loss of TDP-43 function drives cryptic circular RNAs in neurodegenerative diseases",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-20",
+        "is_early_access": true,
+        "authors": [
+          "Zhu, C.",
+          "Zhao, Z.",
+          "Song, B.",
+          "Chen, Y.-M.",
+          "Xiao, Y.",
+          "Zhang, Z.",
+          "Ye, Y.",
+          "Xu, N.",
+          "Zhang, R.",
+          "Huang, Y.",
+          "Troncoso, J. C.",
+          "He, C.",
+          "Sun, S."
+        ],
+        "abstract": "TAR DNA-binding protein 43 (TDP-43) is a key pathological hallmark of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) and a critical regulator of RNA splicing. While loss of TDP-43 induces aberrant splicing in linear transcripts, its impact on circular RNA (circRNA) biogenesis remains unexplored. Here, we show that TDP-43 depletion in human neurons induces widespread circRNA changes, especially upregulation of a distinct class of cryptic circRNAs that arise specifically upon loss of TDP-43. Some of these cryptic circRNAs incorporate cryptic exons derived from intronic sequences. Notably, these cryptic circRNAs exhibit greater stability than their corresponding linear RNA isoforms and accumulate progressively in neurons. Moreover, cryptic circRNAs are elevated in postmortem brain tissues from ALS, FTD and Alzheimer's disease (AD) patients. These findings reveal a previously unrecognized role for TDP-43 in repressing cryptic circRNA formation and establish these circRNAs as stable molecular signatures of TDP-43 dysfunction.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752169v1",
+        "reasons": [
+          "关键词『Alzheimer、amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.16.752098",
+        "title": "A self-limiting, TREM2-dependent anabolic program confers microglial resilience in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-20",
+        "is_early_access": true,
+        "authors": [
+          "Lin, D.",
+          "Atkinson, J. R.",
+          "Wu, W.",
+          "Chen, M.",
+          "Jayasekara, S.",
+          "Segal, B. M.",
+          "Ma, A.",
+          "Gao, J."
+        ],
+        "abstract": "Microglia are key drivers of Alzheimer's disease (AD), and TREM2, one of the strongest genetic risk factors, enables the disease-associated microglia (DAM) state required for plaque engagement. How TREM2 sustains this protection, and why it falters as disease advances, remain unclear. Using proteomics, single-cell transcriptomics, and in vivo metabolic labeling, we show that plaque-associated microglia mount a TREM2-dependent anabolic program coupling nascent protein synthesis to mitochondrial biogenesis. This program, not the DAM signature, marks phagocytically competent microglia; its loss is associated with proteostatic overload and mitochondrial dysfunction. Unexpectedly, this anabolic program is self-limiting, peaking at low amyloid burden and declining as burden rises. This decline is conserved in humans: across 523 donors, anabolic capacity tracks TREM2 but falls at advanced Braak stage even as DAM signature keeps rising. Thus, anabolic capacity, rather than activation state, marks microglial resilience in AD, and sustained stimulation of phagocytosis by anti-amyloid antibodies risks biosynthetic exhaustion and self-limiting efficacy.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.16.752098v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.17.752336",
+        "title": "Rab11-exosome biogenesis regulators mediate Aβ-induced intercellular propagation of endolysosomal trafficking defects and neurodegeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-20",
+        "is_early_access": true,
+        "authors": [
+          "Cording, A.",
+          "Verma, B.",
+          "Arous, A.",
+          "Rice, S.",
+          "Vine, H.",
+          "Blincowe, L.",
+          "Wainwright, S. M.",
+          "Singh, P. J.",
+          "Goberdhan, D. C. I.",
+          "Wilson, C."
+        ],
+        "abstract": "Alzheimer's Disease (AD) is characterised by two histopathological hallmarks, intracellular tau-containing neurofibrillary tangles and extracellular amyloid plaques containing {beta}-amyloid (A{beta}), a specific cleavage product of Amyloid Precursor Protein (APP). Initiation of A{beta}-induced neuronal pathology, however, has been postulated to involve intracellular events affecting endolysosomal trafficking that can propagate between cells. Recent studies in non-neuronal Drosophila secondary cells (SCs) have revealed that A{beta} interferes with APP-regulated protein aggregation events, which package signalling molecules into insoluble dense-core granules (DCGs) during normal regulated secretion, inducing endolysosomal defects that are transferred to other cells. Here, using SCs, we show that knockdown of the gene encoding accessory ESCRT-III protein Chmp5, which selectively regulates the formation of intraluminal vesicles (ILVs) inside SC DCG compartments that are subsequently released as Rab11-exosomes, inhibits propagation of A{beta}-induced endolysosomal trafficking defects. Furthermore, knocking down Chmp5 or other accessory ESCRT-III genes also suppresses A{beta}-induced, neurodegeneration-dependent morphological defects in the Drosophila eye. We conclude that genes controlling the Rab11-exosome biogenesis pathway play a key role in both A{beta}-induced endolysosomal trafficking defects associated with aberrant regulated secretion and cellular events leading to neurodegeneration. Our findings indicate these processes are linked and may suggest new target pathways for future development of AD therapeutics.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752336v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.1101/2025.07.31.667659",
         "title": "Elevated phosphorylated α-synuclein and phosphorylated tau in Lrrk2 p.G2019S-mutant mice following influenza A pneumonitis",
@@ -45,90 +187,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751333v1",
         "reasons": [
           "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.11.751082",
-        "title": "Restoring multiple TDP-43 cryptic targets, but not solely Unc13a, rescues motor neuron disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-18",
-        "is_early_access": true,
-        "authors": [
-          "Peethambaran Mallika, A.",
-          "Baghel, M. S.",
-          "Sitzman, O.",
-          "Yu, J.",
-          "Cao, T.",
-          "Renganathan, S.",
-          "Sinha, I.",
-          "Melnikova, T.",
-          "Ling, J. P.",
-          "Wong, P. C."
-        ],
-        "abstract": "Dysfunction of TAR DNA-binding protein 43kDa (TDP-43) underlies amyotrophic lateral sclerosis (ALS), a neurodegenerative disorder with limited therapeutic options. While current therapeutic approaches are designed to individually target unique cryptic exons of TDP-43 such as UNC13A, the sufficiency of such a strategy to mitigate motor neuron disease remains unclear. Using a mouse model lacking TDP-43 in spinal motor neurons which mimics early stages of ALS, we show that the exclusion of Unc13a cryptic exon fails to mitigate motor neuron disease. In contrast, the restoration of multiple TDP-43 cryptic targets, including Unc13a, attenuated motor neuron loss, and rescued motor neuron disease. Additionally, compared to brain neurons, spinal motor neurons accumulate markedly lower amounts of Unc13a cryptic exons in mice and humans, suggesting that the contribution of this TDP-43 cryptic target to spinal motor neuron loss may be limited. Together, these results strongly support ALS therapeutic strategies designed to simultaneously restore multiple TDP-43 cryptic targets to attenuate spinal motor neuron loss.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.11.751082v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.12.751104",
-        "title": "An Interpretable EEG Machine Learning Prototype for Alzheimers Disease Classification",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-18",
-        "is_early_access": true,
-        "authors": [
-          "DAS, A.",
-          "Chakravarty, A."
-        ],
-        "abstract": "Resting-state electroencephalography (EEG) can capture the slowing of neural oscillations associated with Alzheimers disease (AD), but many machine-learning studies remain difficult to inspect, reproduce, or test. This study developed an interpretable, subject-level AD versus healthy-control classifier from the dataset OpenNeuro ds004504 and deployed it as a public research prototype. Preprocessed eyes-closed EEG recordings from 36 people with AD and 29 healthy controls were analysed. Welch power spectral density estimates were used to generate absolute and relative bandpower summaries, theta/alpha and delta/alpha ratios, a slow/fast ratio, and signal-level descriptors. Five-fold stratified cross-validation compared two Random Forest configurations, EEG Logistic Regression, an age-only baseline, and an EEG-plus-age model. EEG Logistic Regression gave the strongest mean fold-wise performance: accuracy 0.846, balanced accuracy 0.848, F1 score 0.849, and ROC-AUC 0.948. Age alone was near chance, while adding age did not improve the EEG-only model. The feature pattern was consistent with AD-related EEG slowing, including higher slow-wave-related ratios and lower relative alpha power. The trained pipeline was deployed as a Gradio application on Hugging Face Spaces. The result is a reproducible research and educational prototype, not a clinical diagnostic device, and requires external validation before any clinical interpretation.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.12.751104v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.13.751056",
-        "title": "Striatal cholinergic interneuron pathology and muscarinic signaling independently shape motor dysfunction in a DYT-TOR1A dystonia model",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-18",
-        "is_early_access": true,
-        "authors": [
-          "Leedy, C. E.",
-          "Li, J.",
-          "Pappas, S. S.",
-          "Dauer, W. T."
-        ],
-        "abstract": "Antimuscarinic drugs are among the most effective pharmacological treatments for dystonia, yet the neural substrates underlying their therapeutic effects remain poorly understood. Striatal cholinergic interneurons (ChI) are strongly implicated in dystonia pathophysiology. In a symptomatic mouse model of DYT-TOR1A dystonia, torsinA loss from all striatal neurons causes selective ChI degeneration during juvenile maturation; surviving ChI exhibit persistent morphological, physiological, and connectivity abnormalities. Whether motor dysfunction arises from ChI degeneration, dysfunction of surviving ChI, or altered cholinergic signaling elsewhere in the striatal circuit remains unknown. Here, we distinguish these mechanisms using complementary genetic, pharmacological, and cell-ablation approaches. Surviving ChI became hyperactive coincident with the emergence of neurodegeneration and abnormal movements. Selective prenatal restoration of torsinA in ChI prevented their degeneration and reduced abnormal movements, identifying ChI as an important cellular locus of torsinA-dependent motor dysfunction. Systemic antimuscarinic treatment during juvenile striatal maturation produced persistent behavioral improvement outlasting treatment without preventing ChI degeneration. Direct intrastriatal antimuscarinic administration nearly abolished abnormal movements, identifying the striatum as a critical site of therapeutic action. Surprisingly, extensive ablation of the remaining dorsal striatal ChI neither prevented nor ameliorated abnormal movements and did not diminish the efficacy of systemic or intrastriatal antimuscarinic treatment. Thus, torsinA-dependent ChI pathology contributes causally to motor dysfunction, yet the continued presence of dorsal striatal ChI is not required for either expression of the motor phenotype or its suppression by muscarinic antagonists. These findings dissociate a developmental contribution of ChI pathology from the striatal mechanisms through which",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751056v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.13.751236",
-        "title": "MERIT: A No-Code Platform for Unifying High-Precision Cognitive Assessment Across Laboratory and Real-World Settings",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-18",
-        "is_early_access": true,
-        "authors": [
-          "Colcombe, S. J.",
-          "Milham, M.",
-          "Brookover, J.",
-          "Ay, C. T.",
-          "Xiao, M.",
-          "Palmatier, C.",
-          "Salum, G.",
-          "Klein, A."
-        ],
-        "abstract": "Cognitive tasks are moving from the laboratory onto participants' own devices. Browser runtimes make that move easy. Their stimulus timing, however, can vary by tens of milliseconds across devices. We asked how much timing error cognitive and neural measures can tolerate. We injected per-trial stimulus-timing jitter into a public EEG dataset (ERP CORE, N = 40) and re-measured three event-related potential components. Under a prespecified criterion of half the between-participant SD, the N170 tolerated jitter up to 15.8 ms, limited by peak-latency bias. The slower MMN and P3 tolerated more than 20 ms. The full jitter distribution predicted the loss. Heavy-tailed jitter cost less than Gaussian jitter of the same RMS. In simulated reaction-time data, the same tail shape determined whether platform error raised or lowered the ex-Gaussian {tau}, a candidate attentional biomarker. A single RMS timing figure therefore cannot tell whether a platform is adequate for these measures. We built the Mobile Experimental Research Investigative Toolkit (MERIT) to meet these requirements without code. Researchers design tasks in a visual builder that supports reaction-time, continuous-control, drawing, and sequential task families. A Unity engine embedded natively in the Curious iOS and Android apps runs the tasks. Measured with an optical sensor, inter-stimulus-interval SD was 0.71 to 0.96 ms on three current phones and tablets. It was 3.73 ms on a 2019 budget Android phone. Every device measured at least four times below the N170 ceiling. In the laboratory, the same task definition streams event markers to Lab Streaming Layer (LSL) for synchronized EEG and physiological recording. In the field, it runs on ecological momentary assessment schedules. Native mobile players, no-code builders, and EMA platforms each exist as separate systems. MERIT combines them, so the task characterized against brain and body recordings in the laboratory is the same task participants complete at home.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751236v1",
-        "reasons": [
-          "关键词『tau』(命中abstract)"
         ],
         "is_new": true
       }
