@@ -1,10 +1,123 @@
 {
-  "date": "2026-09-21",
-  "total": 7,
+  "date": "2026-09-22",
+  "total": 10,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.14.750669",
+        "title": "MALDI-TOF imaging mass spectrometry demonstrates sex- and age-dependent spatial changes in brain energy metabolism in response to amyloid stress using a mouse model of Alzheimers Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-21",
+        "is_early_access": true,
+        "authors": [
+          "Grahovac-Nemeth, S.",
+          "Jurcic, K.",
+          "Courchesne, M.",
+          "Nygard, K.",
+          "Callahan, G.",
+          "Frame, A. K.",
+          "Khazaee, R.",
+          "Wang, W.",
+          "Ganeshalingam, M.",
+          "Thomas, R.",
+          "Whitehead, S. N.",
+          "Cumming, R. C."
+        ],
+        "abstract": "Alzheimer's disease (AD) is the most common form of dementia, and no therapies currently exist that prevent or slow its progression. Lactate has recently emerged as both an energy substrate and a signaling molecule required for memory formation, acting in part through a novel epigenetic mechanism termed histone lactylation. Here, we used matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF) imaging mass spectrometry and immunofluorescence microscopy to spatially map lactate, glutamate, pyruvate, and citrate levels, alongside histone lactylation, in the brains of wild type and AD transgenic mice at 6 and 18 months of age. Lactate and glutamate were highest in young animals and declined with age, while pyruvate showed the inverse pattern. These shifts were most pronounced in females, and pyruvate-to-lactate and pyruvate-to-citrate ratios suggested a progressive, region-specific shift from glycolytic to oxidative metabolism. Sex was a dominant determinant of cerebral metabolite distribution: females maintained consistently higher lactate and glutamate than males at both ages, indicating a sex-specific metabolic phenotype that persists across physiological aging. Elevated lactate levels were paralleled by increased histone lactylation in aged females, particularly within the cortex and CA2/CA3 hippocampal subregion, and in transgenic females lactylation was enriched in putative microglia near amyloid plaques. Lactate and histone lactylation were positively correlated in wild type mice, consistent with a lactate-driven epigenetic mechanism possibly in microglia, but this relationship was weakened or absent in transgenic mice despite elevated plaque-adjacent lactylation, suggesting amyloid pathology decouples metabolic state from epigenetic regulation. These findings identify sex as a major, underappreciated variable shaping brain metabolic-epigenetic coupling during aging and amyloid stress. Together, these results implicate sex-specific lactate metaboli",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.750669v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.14.751492",
+        "title": "Region-dependent regulatioin of Tau phosphorylation in a mouse model of tauopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-21",
+        "is_early_access": true,
+        "authors": [
+          "Jimenez-Ornelas, C.",
+          "Sockanathan, S."
+        ],
+        "abstract": "Hyperphosphorylation of Tau promotes its aggregation and neurofibrillary tangle (NFT) formation, contributing to neuronal dysfunction and neurodegeneration in diseases such as Alzheimer's Disease (AD) and AD-related dementias (ADRDs). However, the mechanisms underlying dysregulated Tau phosphorylation under pathological contexts remain unclear. Glycerophosphodiester phosphodiesterase 2 (GDE2) is a six-transmembrane enzyme that acts at the cell surface to cleave the glycosylphosphatidylinositol (GPI)-anchor that tethers a subclass of proteins to the membrane. Here, we show that in the PS19 tauopathy mouse model, GDE2 disruption modulates Tau phosphorylation, decreasing Tau's propensity for aggregation by regulating local kinase environments in a region-specific manner. In the cortex, GDE2 ablation in PS19 mice (PS19;Gde2KO) transiently delays Tau phosphorylation at pro-aggregation sites (Serine (S)202/Threonine (T)205, T212, and S396) and accelerates phosphorylation at the anti-aggregation site S262, with a marked reduction in S202/T205 and T212 phosphorylation at 6 months. While Tau phosphorylation at S202/T205 is similarly delayed in the hippocampus, PS19;Gde2KO animals show increased phosphorylation at S262 at 6 months. Consistent with these changes, AKT and Glycogen Synthase Kinase-3  / {beta} (GSK3  / {beta}) activities are decreased in the cortex, while AKT activity is increased in the hippocampus, with no changes in protein phosphatase 1 (PP1) and protein phosphatase 2A (PP2A) activity. Primary cortical neurons from PS19;Gde2KO animals showed reduced Tau phosphorylation at S202/T205, implying cell-autonomous roles for neuronal GDE2 in this process. GDE2 overexpression in heterologous SH-SY5Y cells increased Tau phosphorylation at S202/T205, while a catalytically inactive form of GDE2 did not, suggesting that GDE2 regulation of target GPI-anchored protein surface activity is required to modulate Tau phosphorylation. Taken together, our study identifies GDE2 as ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751492v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.15.751842",
+        "title": "The impact of alpha synuclein overexpression on nigrostriatal transmission",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-21",
+        "is_early_access": true,
+        "authors": [
+          "Bergum, N.",
+          "Yee, A.",
+          "Edwards, R.",
+          "Ford, C. P."
+        ],
+        "abstract": "Accumulation of wild type synuclein in dopamine neurons of the Substantia Nigra pars compacta is a pathological hallmark of Parkinson's disease (PD), which commonly precedes neurodegeneration. Yet how synuclein accumulation affects nigrostriatal neurotransmission early in the progression of PD remains poorly understood. In addition to axonal dopamine release, SNc neurons also co-release GABA and glutamate from striatal axon terminals and release dopamine from their somatodendritic region. However, the selective vulnerability of these distinct functions to increased synuclein remains largely unexplored. Here, we selectively overexpressed wild type human synuclein in SNc dopamine neurons to examine impacts on nigrostriatal and somatodendritic transmission and correlated these changes to impairments in locomotion. We found that dopamine release in the dorsolateral striatum was robustly reduced, while transmission to postsynaptic medium spiny neurons remained intact. Glutamate co-release from dopamine terminals onto both medium spiny neurons and cholinergic interneurons was selectively impaired, while GABA co-release was unaffected. Conversely, somatodendritic dopamine release within the SNc was completely abolished by synuclein overexpression. Together, these findings identify selective deficits in nigrostriatal neurotransmission associated with wild type synuclein accumulation prior to overt degeneration and raise the possibility of compensatory adaptations shaping the early functional consequences of synuclein pathology in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751842v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.15.751847",
+        "title": "Machine learning on subcortical brain features: A study of sample size efficiency for neurodegenerative disease classification",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-21",
+        "is_early_access": true,
+        "authors": [
+          "Im, Y.",
+          "Kang, M. J. Y.",
+          "Gutman, B. A.",
+          "Thomopoulos, S. I.",
+          "Thompson, P. M.",
+          "Ching, C. R. K.",
+          "for the Alzheimers Disease Neuroimaging Initiative,"
+        ],
+        "abstract": "Subcortical brain alterations are a key feature of dementia disease progression. Machine learning (ML) has been applied widely to MRI-based brain features in dementia, where performance depends on the model choice, training data size, and input feature characteristics. Most studies compare ML models using a single training sample size. Here, we evaluate the sample-size efficiency of ML models based on subcortical gross volume and vertex-wise shape features for dementia stage classification using 2,511 samples in the Alzheimer's Disease Neuroimaging Initiative (ADNI). Learning curves were generated for dementia vs. cognitively normal controls (CN), dementia vs. mild cognitive impairment (MCI), and MCI vs. CN across increasing training sample sizes. Classification performance improved when increasing sample size for all models, with late- fusion models consistently achieving the highest performance, and Logit-TVL1 outperforming the other shape-based models. Learning curve analysis showed that classification performance was driven by the training sample size and the magnitude of anatomical group differences, and can be used to optimize future model selection tasks in dementia and other brain disorders.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751847v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.26.747332",
+        "title": "Substrate Profiling of RNF216 Uncovers a Translation-Linked OTUD4 Regulatory Axis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-21",
+        "is_early_access": true,
+        "authors": [
+          "Wei, W.",
+          "Liu, R.",
+          "Zhang, J.",
+          "Liu, S.",
+          "Charles, A. J.",
+          "Asati, D. G.",
+          "Allen, Z. D.",
+          "Wright, D.",
+          "Peng, K.",
+          "Krekeler, E.",
+          "Mosammaparast, N.",
+          "Yin, J.",
+          "Mabb, A. M."
+        ],
+        "abstract": "Mutations in the E3 Ubiquitin (Ub) ligase RNF216 cause Gordon Holmes syndrome (GHS), a neurodegenerative disorder accompanied by neuroendocrine disruption. We developed an orthogonal ubiquitin transfer (OUT) platform to capture RNF216 substrates in neuronal cells and identified OTUD4, a deubiquitinating enzyme (DUB) mutated in GHS, and FMRP, a neuronal-enriched translational repressor. RNF216 predominantly synthesizes K6-linked Ub chains on OTUD4 to induce its degradation, forming donut-shaped structures in neurons. In return, OTUD4 removes the ubiquitination of RNF216 and FMRP. Analysis of RNF216 substrates revealed biological functions regulating protein synthesis, a shared function of the OTUD4-RNF216 substrate interaction network. Indeed, RNF216 expression increased protein synthesis rates while Rnf216 deletion decreased dendritic development in neurons. Overall, our findings show that RNF216 and OTUD4 balance rates of protein synthesis and degradation and suggest GHS-related mutations in RNF216 or OTUD4 may offset this balance, triggering neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747332v2",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.09.18.752796",
         "title": "A lifespan single-cell atlas of the human developing hippocampus benchmarks familial Alzheimer's disease brain organoids.",
@@ -144,49 +257,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752336v1",
         "reasons": [
           "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.07.31.667659",
-        "title": "Elevated phosphorylated α-synuclein and phosphorylated tau in Lrrk2 p.G2019S-mutant mice following influenza A pneumonitis",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-19",
-        "is_early_access": true,
-        "authors": [
-          "Lunn, M. O.",
-          "Thakur, K.",
-          "Lengacher, N. A.",
-          "Hake-Volling, Q.",
-          "aSCENT-PD Investigators,",
-          "Tomlinson, J. J.",
-          "Sad, S.",
-          "Brown, E. G.",
-          "Schlossmacher, M. G."
-        ],
-        "abstract": "Background: Influenza virus exposure elevates the incidence of parkinsonism. We and others previously discovered that allelic variants at the Parkinson's-linked LRRK2 locus modulate host responses to virulent microbes. Objective: We asked whether Lrrk2 mutations modify disease outcomes in adult animals following a nasally acquired lung infection. Methods: We inoculated C57BL/6J mice of mutant knock-in Lrrk2 genotypes with influenza A virus, H1N1-serotype (1 x LD 50  = 2,000 plaque-forming units). Results: During H1N1-induced pneumonitis neither homozygous nor heterozygous mutations of kinase activity-increasing Lrrk2G2019S or kinase-dead Lrrk2D1994S altered the course of sickness in mice when compared to wild-type littermates, as determined by survival rates, viral titres and weight changes in both sexes. However, six weeks after inoculation brains of H1N1-exposed, homozygous Lrrk2 p.G2019S animals showed higher pSer129 -synuclein and pSer199 tau levels than mock-treated, mutant mice (P<0.01). The ratios of phosphorylated tau-to-total tau and phosphorylated -synuclein-to-total -synuclein also rose in H1N1-exposed Lrrk2 p.G2019S mice (P<0.05). Further, we found that nitrotyrosination of the brain proteome was significantly increased in Lrrk2G2019S survivors vs. mock-exposed littermates (P<0.05). Brain H2O2 concentrations were elevated in male, H1N1-inoculated wild-type animals (with a trend seen in females and Lrrk2G2019S mice), an effect that was abrogated in kinase-dead Lrrk2D1994S mice. Conclusion: Homozygous Lrrk2G2019S-mutant mice that survived infection by a life-threatening, pneumotropic RNA virus show changes in brain levels of oxidative stress, pSer199 tau and pSer129 -synuclein. These results could be of relevance to the initiation of neurodegeneration-linked changes in humans and may help explain differences in the penetrance rate and expressivity of LRRK2 mutants.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667659v2",
-        "reasons": [
-          "关键词『Parkinson、tau、neurodegeneration』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.13.751333",
-        "title": "Ile35 residue of SOD1 plays a key role in aggregate formation and eye degeneration in a Drosophila model of ALS",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-19",
-        "is_early_access": true,
-        "authors": [
-          "Yano, K.",
-          "Fujino, Y.",
-          "Nagai, Y.",
-          "Fujiwara, N."
-        ],
-        "abstract": "{middle dot}The pathophysiology of ALS caused by mutant SOD1 remains unclear. {middle dot}We previously demonstrated, using the BioID2-EGFP sandwich expression system in cultured cells, that the Ile35 residue of ALS-linked mutant SOD1 promotes its aggregate formation. {middle dot}However, the precise role of the SOD1 Ile35 residue in aggregate formation and neurodegeneration in vivo remained unclear. {middle dot}Drosophila expressing BioID2-G93A-EGFP demonstrated aggregate formation and eye degeneration with reduced eye size, whereas those expressing BioID2-G93A/I35S-EGFP showed less of these phenotypes. {middle dot}These findings highlight the crucial role of the Ile35 residue of ALS-linked SOD1 in aggregate formation and neurodegeneration in vivo.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751333v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
         ],
         "is_new": true
       }
