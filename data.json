@@ -1,10 +1,153 @@
 {
-  "date": "2026-09-27",
-  "total": 0,
+  "date": "2026-09-28",
+  "total": 6,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
-    "神经退行性疾病": [],
+    "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.25.754536",
+        "title": "Breaking the link between demyelination and axon loss: SARM1 inhibition as a neuroprotective strategy for multiple sclerosis",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-27",
+        "is_early_access": true,
+        "authors": [
+          "Feri, M.",
+          "Peterson, S.",
+          "Rezanejad, M.",
+          "Cardenas, F.",
+          "Anderson, A.",
+          "Poole, B.",
+          "Ajayi, M.",
+          "Kim, S. H.",
+          "Katzenellenbogen, J.",
+          "Tiwari-Woodruff, S. K."
+        ],
+        "abstract": "Axonal degeneration is a principal driver of irreversible neurological disability in multiple sclerosis (MS), yet current treatments fail to target this neurodegenerative phase directly. Sterile alpha and TIR domain-containing protein 1 (SARM1) has emerged as an executioner of programmed axon destruction and is overexpressed in grey and white matter MS tissue, making its inhibition a promising therapeutic strategy. However, the effects of SARM1 inhibition on localized neurodegeneration versus systemic and central inflammation remain poorly understood in complex autoimmune environments like MS. Here, we investigated SARM1 pathology using global SARM1-/- knockout (SARM1-/-) mice, AAV-mediated CRISPR knockdown and overexpression of SARM1 in retinal ganglion cells (RGCs), and the small-molecule SARM1 inhibitor 5-iodoisoquinoline (5IIQ), across optic nerve crush (ONC) and experimental autoimmune encephalomyelitis (EAE) models. While global SARM1-/- did not alter the overall clinical course of EAE, it revealed a complex phenotype characterized by an altered peripheral inflammatory cytokine profile and persistent CNS immune infiltration, alongside preserved axonal and myelin integrity. RGC-restricted SARM1 knockdown partially preserved RGCs and axons during EAE, whereas SARM1 overexpression worsened both retinal function and axonal injury. Pharmacological inhibition with 5IIQ preserved axonal integrity and restored visual function in both the ONC and EAE models, as confirmed by electrophysiology, and reduced serum neurofilament light chain (NfL) in EAE, without affecting demyelination. Together, these findings demonstrate that SARM1 inhibition uncouples axonal self-destruction from demyelination and gross neuroinflammation while providing robust structural and functional neuroprotection. This study establishes SARM1 as a viable target for neuroprotective co-therapies designed to complement existing immunomodulatory and remyelinating regimens in MS and related neurodegenera",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754536v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.22.753479",
+        "title": "Cofilin Suppresses Tau-Induced Defects in Dense-Core Granule Formation and Aβ-Induced Neurodegeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-27",
+        "is_early_access": true,
+        "authors": [
+          "Verma, B.",
+          "Cording, A.",
+          "Blincowe, L.",
+          "Rice, S.",
+          "Vine, H.",
+          "Wainwright, S. M.",
+          "Goberdhan, D. C. I.",
+          "Wilson, C."
+        ],
+        "abstract": "Intracellular neurofibrillary tangles formed from hyperphosphorylated tau and extracellular amyloid plaques containing aggregated A{beta}-peptides, specific cleavage products of the Amyloid Precursor Protein (APP), are the primary histopathological hallmarks of Alzheimers Disease (AD), the leading cause of dementia in humans. However, the initiating steps that lead to these pathologies and early neurodegeneration, and the mechanisms by which tau- and A{beta}-induced effects might be linked remain unclear. Using the prostate-like secondary cell (SC) in Drosophila, we recently showed that A{beta} modulates normal APP- and membrane-associated protein aggregation in the dense-core granule (DCG) compartments of the regulated secretory pathway by interfering with subsequent membrane:DCG dissociation. This disrupts endolysosomal trafficking and propagates the resulting endolysosomal defects to other cells that endocytose the secreted abnormal DCG proteins. Here we show that overexpressing human tau also disrupts DCG aggregation and membrane:DCG dissociation inside SC secretory compartments, leading to increased endolysosomal targeting of these compartments. In a genetic screen, we find that knockdown of cofilin, which encodes an actin-severing protein required for dynamic remodelling of microfilaments, generates a similar phenotype. Consistent with this, overexpression of Cofilin, which is known to suppress tau-induced neurodegeneration in flies, reduces tau-induced DCG defects in SCs. Indeed, we find that Cofilin overexpression also suppresses A{beta}-induced degeneration in the fly eye. We conclude that membrane:DCG aggregate dissociation in DCG compartments is disrupted by both tau- and A{beta}-induced genetic changes that are relevant to AD, and this partially involves inhibition of actin cytoskeleton dynamics. Increasing actin remodelling activity can suppress neurodegeneration induced by both tau and A{beta}, suggesting that this process provides an important functio",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753479v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.21.752863",
+        "title": "Neurodegeneration-inducing macromolecules exit the brain via nanovascular conduits formed by reticular fibroblasts",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-27",
+        "is_early_access": true,
+        "authors": [
+          "Nortley, R.",
+          "Anderle, S.",
+          "Sideris-Lampretsas, G.",
+          "Davis, H.",
+          "Sethi, H.",
+          "Alasaadi, D.",
+          "Acton, S. E.",
+          "Attwell, D."
+        ],
+        "abstract": "Accumulation of proteins such as amyloid beta (Abeta), hyperphosphorylated tau and alpha-synuclein within the brain alters neural information processing and causes neurodegeneration(1-3), but how toxic solutes are cleared from the brain remains highly controversial(4,5). Proposed exit routes include efflux across endothelial cells into the blood(6,7), and movement to the pial surface via vasomotion-induced pumping along spaces within arteriolar smooth muscle(8) or via outflow along the perivascular space of ascending venules promoted by water flux through astrocytes (the glymphatic system(9)). From the pial surface of the brain, drainage may continue to dural lymphatics, along the outer sheaths of exiting cranial nerves and across the cribriform plate(10-14). We now report the presence, in mice and humans, of 2 micron diameter conduits that remove fluorescently labelled tau and Abeta from the brain. These conduits form a spatially-organised mesh within the walls of penetrating arterioles and pial arteries, and around the surface of ascending venules and deep cerebral and pial veins. They course through the pial and arachnoid layers to span the CSF space, wrapping the brain and cranial nerves. They are formed of reticular fibroblasts, which label for VE-cadherin(15) and PDGFRalpha(16), the lymphatic markers(17) podoplanin, VEGFR3 and Prox1, and reticular fibroblast extracellular matrix components collagen I and VI(16,18-20). Parenchymal tau drains from the brain at a similar rate via arteriolar conduits and via conduits around venules, arguing against preferential removal by a glymphatic mechanism. In Alzheimer's disease model mice, Abeta is seen traversing these lymph node-like conduits. Modulation of molecular transfer via this route may accelerate or delay cognitive decline, and slowed transfer from arteriolar to pial-arachnoid conduits may initiate cerebral amyloid angiopathy.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.752863v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、alpha-synuclein、neurodegeneration、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.21.753012",
+        "title": "Seizures and tauopathy following neurotrauma are mediated by prion protein and metabotropic glutamate receptor 5",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-27",
+        "is_early_access": true,
+        "authors": [
+          "Locskai, L. F.",
+          "Gill, T.",
+          "Nordin, J.",
+          "Kinley, M. J.",
+          "Alyenbaawi, H.",
+          "Allison, W. T."
+        ],
+        "abstract": "Traumatic brain injury (TBI) is one of the world's leading causes of death and disability and a major risk factor for dementias. The primary dementia associated with TBI is chronic traumatic encephalopathy (CTE), a neurodegenerative disease classified as a tauopathy, in which toxic tau molecules lead to disease pathologies and degeneration. The processes that lead to tauopathy and subsequent dementia after TBI remain unclear. Here, we built upon the finding that seizures after TBI may be a mechanism leading to tauopathy, by dissecting the functions of the metabotropic glutamate receptor 5 - cellular prion protein (mGluR5-PrPC) pathway. We delivered TBI to larval in a blast paradigm, and quantified aggregation of Tau via a genetically-encoded Tau-GFP fusion reporter. Zebrafish larvae lacking prp2 (homolog of mammalian cellular Prion Protein, PrPC) displayed a 168% increase in post-traumatic seizures activity after TBI. An mGluR5 agonist (CHPG) reduced post-traumatic seizures, whereas an mGluR5 antagonist (MPEP) increased post-traumatic seizures. Moreover, agonizing mGluR5 reduced tau aggregation and antagonizing mGluR5 increased tau burden. Larvae seizing from convulsants, rather than TBI, were treated with CHPG/MPEP and provided a similar pattern of outcomes, suggesting seizures may be a factor needed for mGluR5 activity to influence tau aggregation. The PrPC-mGluR5 pathway is proposed as one candidate pathomechanism linking TBI to subsequent seizures and tauopathy, and thus it warrants investigation as a target for prophylactic interventions.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753012v1",
+        "reasons": [
+          "关键词『tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2024.12.20.628852",
+        "title": "Uncovering sex differences in Parkinson's Disease through metaanalysis of single cell transcriptomic studies",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-27",
+        "is_early_access": true,
+        "authors": [
+          "Gordillo-Gonzalez, F.",
+          "Soler-Saez, I.",
+          "Galiana-Rosello, C.",
+          "Burmeister, T.-S.",
+          "Gomez-Cabanes, B.",
+          "Grillo-Risco, R.",
+          "Hidalgo, M. R.",
+          "Dolader-Rabinad, B.",
+          "Yanguas-Casas, N.",
+          "Ramirez-Hernandez, R. A.",
+          "Casanova-Ferrer, F.",
+          "Salvador-Guerrero, S.",
+          "Romero-Ramos, M.",
+          "Garcia-Garcia, F."
+        ],
+        "abstract": "Abundant evidence supports the significant impact of biological sex on various aspects of Parkinson Disease (PD), including incidence, progression, symptoms or response to treatment. The incidence and prevalence of the disease is higher in males, while its age of onset is earlier than in females. There are also sex differences in the symptomatology, both motor and non-motor. In female PD, tremor, pain, depression and dysphagia are predominant, whereas in male PD, freezing of gait, camptocormia, cognitive impairment and urinary dysfunction are more common. Likewise, there are sex differences in the pathophysiology of the disease, related to most of the pathological processes of PD, as is the case of the greater activation of microglia in males or the lower oxidative stress in females. All these findings support the idea that different molecular mechanisms may be involved in PD depending on the sex of the patient. Some explanations for these events are related to biological, genetic, hormonal or environmental factors, such as the possible anti-inflammatory and neuroprotective effect of estrogens. However, the underlying molecular mechanisms have not yet been fully described. Our results show sex differences in gene expression, cell-cell communication and pathway activation in all major brain cell types, highlighting the presence of greater neuroinflammation in men and greater neurodegeneration in the SNpc in men, with the latter appearing to be inverted between sexes when observed in the cortical zone. Finally, we have made all the results available in a publicly accessible webtool, in order to allow the exploration of results to other researchers and to broaden the molecular-level understanding of PD sex differences.",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.12.20.628852v4",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.21.753183",
+        "title": "Cell Type-Specific Structural and Functional Signatures of APOE4, Age and Sex in the Mouse Anterior Olfactory Nucleus",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-26",
+        "is_early_access": true,
+        "authors": [
+          "Hu, M.",
+          "Kershaw, A.",
+          "Brunson, S.",
+          "Li, Y.",
+          "Zhao, D.",
+          "Liu, S."
+        ],
+        "abstract": "As the strongest genetic risk factor for late-onset Alzheimer's disease (AD), the human APOE {varepsilon}4 allele alters neuronal physiology before overt pathology. However, how aging and sex modify these effects in the anterior olfactory nucleus (AON), an early AD-affected brain region, remains unclear. Here, we performed whole-cell recordings and post hoc morphological reconstructions of pyramidal cells (PCs) and interneurons (INs) in acute AON slices from adult and aged humanized APOE3 (E3) and APOE4 (E4) knock-in mice of both sexes with identification of context-dependent remodeling across structural, intrinsic, and synaptic domains. In PCs, morphology was broadly susceptible to APOE genotype x age x sex and their interactions. Functionally, aged E4 PCs exhibited a more depolarized resting membrane potential than aged E3 PCs. Additionally, afterhyperpolarization amplitude displayed a marked age x genotype interaction, reversing the direction of the E4 - E3 difference from adulthood to aging. Excitatory synaptic event frequency showed a complex genotype and age and sex interaction, whereas inhibitory synaptic event amplitude was elevated in E4 mice. In contrast, INs displayed far more restricted alterations. Morphological changes were limited to dendritic length, which was modulated by age and sex specifically in E4 mice. Physiologically, genotype effects were confined to action potential amplitude, while aging primarily altered membrane properties and excitatory synaptic inputs. Together, these findings demonstrate that APOE genotype cell-specifically shapes AON neuronal properties through interactions with age and sex, suggesting that APOE4 establishes altered cellular states that influence how this circuit responds to subsequent disease-related stress.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753183v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      }
+    ],
     "特定课题组": [],
     "通讯作者订阅": []
   }
