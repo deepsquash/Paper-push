@@ -1,10 +1,118 @@
 {
-  "date": "2026-09-30",
-  "total": 18,
+  "date": "2026-10-01",
+  "total": 13,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.22.753408",
+        "title": "Therapeutic Potential of iPSC-Derived TH+FOXA2+ Neuronal Extracellular Vesicles in Parkinson's Disease Revealed by Organoid and Rodent Models",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-30",
+        "is_early_access": true,
+        "authors": [
+          "Qi, Z.",
+          "Li, X.",
+          "Jin, X.",
+          "Shen, C.",
+          "Yang, L.",
+          "Liu, Y.",
+          "Huang, M.",
+          "Xing, L.",
+          "Chen, Y.",
+          "Liu, Z."
+        ],
+        "abstract": "Background: Parkinson's disease (PD) is characterized by the progressive loss of midbrain dopaminergic (DA) neurons and aberrant alpha-synuclein (alpha-syn) aggregation, yet disease-modifying therapies that simultaneously retard neurodegeneration and foster regeneration remain lacking. Methods: In this study, we isolated extracellular vesicles (TH and FOXA2 double-positive cell-derived EVs) from TH and FOXA2 double-positive differentiated neural cells, a distinct midbrain floor-plate-derived neural cell population that co-expresses the floor-plate transcription factor FOXA2 together with TH and should therefore not be equated with conventional mature midbrain dopaminergic neurons, and systematically evaluated their therapeutic potential across three complementary models: A53T transgenic mice, 6-OHDA-lesioned rats, and 6-OHDA-treated human midbrain organoids. Integrative transcriptomic and single-cell sequencing analyses, together with toxicological evaluations in rodents and non-human primates, were performed to investigate the underlying mechanisms and safety profile. These TH and FOXA2 double-positive cells were generated using a fully suspension-based, matrix-free, and chemically defined differentiation system devoid of N2/B27 supplements and fetal bovine serum (FBS). This approach offers a simple, controllable, low-cost, and scalable platform with high batch-to-batch consistency for EV manufacturing. Throughout this study, the term \"TH and FOXA2 double-positive cells\" refers to this distinct TH and FOXA2 double-positive cell population and should not be interpreted as conventional terminally differentiated dopaminergic neurons. Results: Intranasal administration of TH and FOXA2 double-positive cell-derived EVs in A53T mice and 6-OHDA-lesioned rats significantly ameliorated motor deficits, increased nigral tyrosine hydroxylase (TH)-positive neuron counts, reduced alpha-syn aggregation, and suppressed gliosis. In human midbrain organoids, TH and FOXA2 double-posit",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753408v2",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.24.754183",
+        "title": "Spontaneous eye behavior is an objective marker of parkinsonian severity",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-30",
+        "is_early_access": true,
+        "authors": [
+          "Verma, A. K.",
+          "Nandakumar, B.",
+          "Feragen, Q. V.",
+          "Acedillo, K.",
+          "Hjelle, N.",
+          "Hendrix, C. M.",
+          "Duffy, K.",
+          "Fiecas, M.",
+          "Yu, Y.",
+          "Mohanty, B.",
+          "Wang, J.",
+          "Vitek, J. L.",
+          "Johnson, L. A."
+        ],
+        "abstract": "Eye behavior disruption is reported in Parkinson's disease (PD), but its correlation with disease severity has not been well examined. Here, in a nonhuman primate model of PD, we show that spontaneous eye behavior is impaired in parkinsonism and correlates with clinical rating scores and subthalamic beta oscillatory activity. These findings suggest that spontaneous eye behavior could serve as an objective, non-invasive biomarker of parkinsonian severity.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754183v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.24.754224",
+        "title": "Selective nigrosome vulnerability in Parkinson's disease revealed by histology-anchored ultra-high-field quantitative MRI",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-30",
+        "is_early_access": true,
+        "authors": [
+          "Li, R.",
+          "Kirilina, E.",
+          "Bazin, P.-L.",
+          "Stige, K. E.",
+          "Unsgard, R.",
+          "Brammerloh, M.",
+          "Gylterud Kvalsgard, I.",
+          "Kristoffersen, A. L.",
+          "Berntsen, E. M.",
+          "Goa, P. E.",
+          "Damier, P.",
+          "Tzoulis, C.",
+          "Doan, T. P."
+        ],
+        "abstract": "Selective vulnerability is a hallmark of Parkinson's disease (PD): post-mortem, dopamine-containing cell loss in the substantia nigra first and most severely affects calbindin-poor compartments termed nigrosomes. Testing this in vivo has been limited by circularity, as MRI studies have delineated nigrosomes from the same disease-related contrast they then measure. Here, we warp histology-derived, calbindin-validated probabilistic masks of nigrosomes 1-5 into a cohort-specific multimodal 7 Tesla quantitative MRI template, providing a degeneration-independent anatomical scaffold, in 28 patients with PD and 28 age- and sex-matched controls. In controls, nigrosomes differ from the surrounding nigral matrix in magnetic susceptibility and R1. PD shifts nigrosomal values upward relative to the matrix in susceptibility, R2*, and R1, concentrated in nigrosomes 1, 2, and 4, whereas whole-nigra analysis shows no group difference. Within the matrix, disease effects are largest caudally and emerge dorsally from the ventral tier, and susceptibility alterations in nigrosomes 1 and 4 track contralateral motor symptoms asymmetry. The multimodal pattern suggests that the detectable signal reflects predominantly secondary, iron-associated glial processes rather than neuronal loss itself. These findings recover the post-mortem spatial pattern of nigral vulnerability in vivo and establish a degeneration-independent framework for subregional nigral imaging in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754224v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.25.754307",
+        "title": "Saccadic network dysfunction underlies eye-movement variability in early Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-09-30",
+        "is_early_access": true,
+        "authors": [
+          "Vasudevan, V.",
+          "Mournet, S.",
+          "Beranger, B.",
+          "Rogers, C. P.",
+          "Mangone, G.",
+          "ARNULF, I.",
+          "Corvol, J.-C.",
+          "Vidailhet, M.",
+          "Lehericy, S.",
+          "Pouget, P.",
+          "Thirugnanasambandam, N.",
+          "Gallea, C."
+        ],
+        "abstract": "Parkinsons disease is a neurodegenerative disorder characterized by altered subcortical-cortical connectivity, leading to motor and cognitive deficits. Saccadic eye movement abnormalities are among the earliest and most persistent markers of the disease, serving as sensitive indicators of disrupted oculomotor and cognitive control. While changes in average saccadic behavioral measures are widely reported in Parkinson's disease, intra-individual variability in saccadic performance and the underlying network dysfunction remain poorly understood. Here, we quantified intra-individual saccadic variability in early-stage Parkinsons disease and identified its functional correlates within the resting-state saccadic network. We analyzed data from 91 patients with early-stage Parkinsons disease and 46 healthy controls who underwent oculomotor testing and resting-state functional magnetic resonance imaging. First, at the behavioral level, we assessed intra-individual variability in saccadic performance within each group using the coefficient of variation of reaction time and normalized peak velocity across trials. Second, at the brain level, we assessed group differences in static and dynamic functional connectivity across 39 regions comprising the saccadic network. We examined the relationship between network connectivity and saccadic variability using partial least squares analysis. We also quantified network organization using graph-theory measures of global efficiency and clustering coefficient. Finally, we tested the relevance of intra-individual saccadic variability and network features in distinguishing patients from healthy controls using a multivariate Mahalanobis classifier. Our results showed that, compared to HC, patients had higher intra-individual variability in saccadic behavioral measures of reaction time (pHolm = 0.012) and normalized peak velocity (pHolm = 0.012). Interestingly, patients had (i) reduced static and dynamic connectivity within the saccadic netw",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754307v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.09.27.754764",
         "title": "Regional similarity to male-typical brain architecture links childhood ADHD to neurophysiological aging in later adulthood",
@@ -187,232 +295,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.753820v1",
         "reasons": [
           "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.23.752284",
-        "title": "Endosomal pH Triggers Amyloid β Oligomerization and Maladaptive Phenotypic Plasticity in Alzheimers Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Meena, R. K.",
-          "Duddu, A. S.",
-          "Jolly, M. K.",
-          "Prasad, H."
-        ],
-        "abstract": "Endosomal dysfunction is a presymptomatic hallmark of neurodegeneration. Recent evidence highlights dysregulation of endosomal pH as a central pathogenic hub in Alzheimer's disease (AD); however, the mechanisms linking pH shifts to neurodegeneration remain incompletely defined. Here, we use a quantitative model of endosomal acidification driven by proton pumping via the vacuolar ATPase, proton leak via the endosomal Na/H exchanger NHE6, and other ion-regulating elements. The model recapitulates how downregulation of NHE6 in AD promotes endosomal hyperacidification, potentially triggering maladaptive phenotypic plasticity, an initially adaptive response that becomes pathological. Analysis of human brain datasets reveals reciprocal enrichment of NHE6 in neurons and the related NHE9 in glia, with NHE6 co-expression networks enriched for synaptic signalling. Systematic curation of NHE6 patient variants indicates that loss-of-function is associated with late regression, consistent with progressive endosomal hyperacidification, supporting a conceptual framework where early compensation transitions to neurodegeneration. Mathematical analyses calibrated for neuronal endosomes reveal a saturable relationship between luminal pH and NHE6 dosage, with threshold-like behaviour below ~50% expression that hyperacidifies endosomes, correlating with AD severity. Our model suggests this pH shift may exponentially accelerate A{beta} oligomerization and enhance {beta}-secretase activity. Furthermore, A{beta} oligomerization estimates correlate with dysregulation of calcium signalling and synaptic dysfunction. Model findings are compared with experimental results from NHE6-null mice and a cell culture model of AD. Drawing parallels to cancer, we propose that endosomal pH serves as a conserved regulator of adaptive-to-maladaptive transitions. Restoring physiological endosomal pH may offer a therapeutic window to prevent irreversible neurodegeneration in AD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.752284v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.22.751740",
-        "title": "α-Synuclein Seeding in Dopaminergic Neurons Transplanted into the Putamen of Parkinson's Disease Patients",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Duvernay, J. B.",
-          "Killinger, B. A.",
-          "Choi, S. G.",
-          "Tittle, T.",
-          "Bahrami, A.",
-          "Tharp, M. E.",
-          "Mercado, G.",
-          "Chu, Y.",
-          "Brundin, P.",
-          "Kordower, J. H."
-        ],
-        "abstract": "Healthy embryonic neurons grafted into the putamen of Parkinson's disease (PD) patients start to develop Lewy pathology 10 years after transplantation. It remains unclear whether this pathology is initiated by the spread of host-derived -synuclein (syn) aggregates which seed aggregation in the grafted cells or arises independently from a hostile PD environment (e.g., chronic inflammation). To distinguish these possibilities, we identified syn seeding sites in the human brain using a multiplex in situ seed immunodetection (isSID) assay. In PD and dementia with Lewy bodies (DLB), isSID labeled a subset of Lewy pathology (LP) as puncta along neurites and within inclusions. In multiple system atrophy (MSA), isSID labeled Papp-Lantos bodies and microglia. In progressive supranuclear palsy (PSP), isSID labeled tufted astrocytes. isSID labeled neuromelanin in the substantia nigra independent of diagnosis. In 16- and 27-year intraputamenal neuronal grafts, isSID labeled within and proximal to Lewy pathology, as well as outside the grafted tissue. Younger grafts (18 months and 4 years) lacked Lewy pathology. In the 18-month graft, isSID labeled grafted neurons; at 4 years, isSID was confined to amorphous deposits in the graft and was absent from tyrosine hydroxylase-positive grafted neurons. In conclusion, syn seeding is detectable in grafted neurons before and during LP formation. Because seeding accompanies melanization, but is not explained by melanization alone, these findings support host-derived seeds as a contributor to graft pathology.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.751740v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.22.753133",
-        "title": "Discovery of the Honeycomb Synapse in Spinal Motor Circuits",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Broadhead, M. J.",
-          "Löer, C.",
-          "Malseed, J.",
-          "Parascandolo, K.",
-          "Ayvazian-Hancock, A.",
-          "Bak, A. N.",
-          "Butler, E.",
-          "Roberts, M.",
-          "Sharples, S. A.",
-          "Lemgruber, L.",
-          "Dornan, A.",
-          "Valli, J.",
-          "Wasicki, B.",
-          "Baczyk, M.",
-          "Bulovaite, E.",
-          "Varga, G.",
-          "Komiyama, N. H.",
-          "Grant, S. G. N.",
-          "Hughes, D. I.",
-          "Meehan, C. F.",
-          "Miles, G. B."
-        ],
-        "abstract": "The structural and molecular diversity of synapses in the nervous system contributes to the specialisation of neural circuits underlying diverse behaviours. We have discovered a morphologically distinct postsynaptic specialisation in the mammalian spinal cord. We have named this the Honeycomb Synapse based on its elaborate postsynaptic nanostructure, comprising rings formed of ~6 scaffolding protein domains that create multiple perforations throughout the large postsynaptic domain. Analysis of the organisation of other synaptic proteins reveals that Honeycomb Synapses harbour mixed signalling properties structurally facilitated by a postsynaptic scaffold matrix supporting chemical transmission, with gap junction proteins occupying some of the perforations. We reveal anatomical diversity in the presence of Honeycomb Synapses on populations of -motoneurons across the lumbar spinal cord in mice from approximately 2 weeks of age through to adulthood. The Honeycomb Synapse was found to be a subtype of synapse within the Ia afferent monosynaptic stretch reflex circuit. Finally, we have identified that Honeycomb Synapses are highly vulnerable to degeneration in two different genetically engineered mouse models of Amyotrophic Lateral Sclerosis (ALS), contributing to monosynaptic stretch reflex circuit dysfunction. These findings suggest that synaptic diversity within circuits may confer selective vulnerability to distinct synaptic subclasses.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753133v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.22.753408",
-        "title": "Therapeutic Potential of iPSC-Derived TH+FOXA2+ Neuronal Extracellular Vesicles in Parkinson's Disease Revealed by Organoid and Rodent Models",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Liu, Z.",
-          "Qi, Z.",
-          "Li, X.",
-          "Jin, X.",
-          "Shen, C.",
-          "Yang, L.",
-          "Liu, Y.",
-          "Huang, M.",
-          "Xing, L.",
-          "Chen, Y."
-        ],
-        "abstract": "Background: Parkinson's disease (PD) is characterized by the progressive loss of midbrain dopaminergic (DA) neurons and aberrant alpha-synuclein (alpha-syn) aggregation, yet disease-modifying therapies that simultaneously retard neurodegeneration and foster regeneration remain lacking. Methods: In this study, we isolated extracellular vesicles (TH and FOXA2 double-positive cell-derived EVs) from TH and FOXA2 double-positive differentiated neural cells, a distinct midbrain floor-plate-derived neural cell population that co-expresses the floor-plate transcription factor FOXA2 together with TH and should therefore not be equated with conventional mature midbrain dopaminergic neurons, and systematically evaluated their therapeutic potential across three complementary models: A53T transgenic mice, 6-OHDA-lesioned rats, and 6-OHDA-treated human midbrain organoids. Integrative transcriptomic and single-cell sequencing analyses, together with toxicological evaluations in rodents and non-human primates, were performed to investigate the underlying mechanisms and safety profile. These TH and FOXA2 double-positive cells were generated using a fully suspension-based, matrix-free, and chemically defined differentiation system devoid of N2/B27 supplements and fetal bovine serum (FBS). This approach offers a simple, controllable, low-cost, and scalable platform with high batch-to-batch consistency for EV manufacturing. Throughout this study, the term \"TH and FOXA2 double-positive cells\" refers to this distinct TH and FOXA2 double-positive cell population and should not be interpreted as conventional terminally differentiated dopaminergic neurons. Results: Intranasal administration of TH and FOXA2 double-positive cell-derived EVs in A53T mice and 6-OHDA-lesioned rats significantly ameliorated motor deficits, increased nigral tyrosine hydroxylase (TH)-positive neuron counts, reduced alpha-syn aggregation, and suppressed gliosis. In human midbrain organoids, TH and FOXA2 double-posit",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753408v1",
-        "reasons": [
-          "关键词『Parkinson、alpha-synuclein、neurodegeneration』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.25.754317",
-        "title": "Plasma Extracellular Vesicle Lipidomics Reveals an SMPD1-Driven Sphingomyelin Salvage Pathway Collapse in Parkinson's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Rai, S.",
-          "Chaubey, A.",
-          "Paul, S.",
-          "Zehra, S.",
-          "Ananya,",
-          "Rajan, R.",
-          "Shekhar, S.",
-          "Reddy T, J.",
-          "Jain, S.",
-          "Gupta, S.",
-          "Inampudi, K. K.",
-          "Rani, N.",
-          "Mahadevan, A.",
-          "Modi, G. P.",
-          "Kumar, S."
-        ],
-        "abstract": "While lysosomal lipid dysregulation is implicated in Parkinsons disease (PD), identifying the precise enzymatic drivers remains limited by the lack of subcellularly resolved metabolic mapping. Leveraging endosome-origin plasma extracellular vesicle (PsEV) lipidomics, we identified a profound bidirectional disruption of the ceramide-sphingomyelin (SM) axis in PD, driven by asymmetric upregulation of sphingomyelin phosphodiesterase 1 (SMPD1) and sphingomyelin synthase 1 (SGMS1). BODIPY-C5 SM tracking revealed that SMPD1 perturbation severely impairs lysosomal SM turnover. Crucially, this SMPD1-driven hydrolysis forces a salvage pathway collapse, bottlenecked by SPHK1/SGPL1 downregulation, which precipitates oxidative membrane damage and PINK1/Parkin-dependent mitophagy failure. We robustly validated this multi-pathway dysfunction across orthogonal in vitro, in vivo mouse, and postmortem human brain models. Furthermore, SMPD1/SGMS1 expression distinctly stratifies clinical phenotypes, marking the aggressive Postural Instability/Gait Difficulty (PIGD) subtype. Our findings establish SMPD1-mediated lysosomal impairment and ceramide-SM imbalance as a core biochemical axis in PD pathophysiology.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754317v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.22.753626",
-        "title": "Phosphorylation and lipid droplets drive the irreversible phase transition of α-Synuclein in living cells",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Idi, W.",
-          "Sheta, R.",
-          "Teixeira, M.",
-          "Oueslati, A."
-        ],
-        "abstract": "Aberrant phase transitions of -synuclein (-Syn) condensates, the pathological hallmark of Parkinson disease (PD) and related synucleinopathies, are difficult to dissect in living cells due to limited tools for spatiotemporal control of intracellular phase behavior. Here, we use an optogenetic-based light-inducible protein aggregation (LIPA) system to drive -Syn liquid-liquid phase separation (LLPS) in mammalian HEK-293T cells and human iPSC-derived neurons (iNeurons). Blue-light stimulation of LIPA--Syn induces dynamic, liquid like biomolecular condensates that initially remain fully reversible, but gradually undergo condensate maturation into an irreversible, solid like state upon prolonged stimulation, consistent with a liquid to solid phase transition. This transition is accompanied by a robust accumulation of phosphatase-resistant Ser129-phosphorylated -synuclein (pS129), a hallmark biochemical feature of Lewy pathology in PD and related synucleinopathies. Mechanistically, PLK2-mediated phosphorylation at Ser129 promotes condensate stabilization and irreversibility, identifying the PLK2-pS129 axis as a key regulator of the conversion of dynamic -Syn condensates into persistent assemblies. Importantly, transient liquid-like -Syn condensates are efficiently cleared, primarily through the proteasomal degradation pathway. In contrast, mature solid-like condensates become refractory to degradation, resulting in proteostasis impairment and progressive intracellular -Syn accumulation. A major finding of this study is the identification of a strong link between -Syn condensate maturation and lipid droplet (LD) biology. The formation of irreversible -Syn condensates is associated with a marked increase in both LD abundance and size. Moreover, mature LIPA--Syn condensates exhibit extensive interactions with LDs, disrupting lipid homeostasis and increasing cellular vulnerability. These findings suggest that LDs are not merely passive bystanders but active participants in t",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753626v1",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.22.753365",
-        "title": "Repeated exposure to viral and bacterial danger signals in Parkin deficient mice induces inflammation but fails to trigger parkinsonism",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Even, A.",
-          "Mukherjee, S.",
-          "Giguere, N.",
-          "Brouillard-Galipeau, M.",
-          "Oliveira, N. L.",
-          "Halder, P.",
-          "Beaulieu, C.",
-          "Cayrol, R.",
-          "Van Den Berge, N.",
-          "Gruenheid, S.",
-          "Trudeau, L.-E."
-        ],
-        "abstract": "Experimental models of Parkinson's disease (PD) traditionally involve direct perturbations of the functioning of dopamine (DA) neurons. However, PD is increasingly recognized as multifactorial in origin and involving both cell-autonomous vulnerability factors and non-cell-autonomous triggers including inflammatory signals deriving from bacterial or viral infections. Notably, genes associated with early-onset familial PD as PRKN (Parkin) and PINK1, are ubiquitously expressed and have been implicated in immune regulation, further supporting a role for inflammation in disease etiology. In the present study, we tested the hypothesis that alternate Polyinosinic:polycytidylic acid (Poly(I:C)), mimicking viral infection, and lipopolysaccharides (LPS), mimicking bacterial infection, may induce sufficient brain inflammation to impair the DA system in Parkin-deficient mice and recapitulate some of the systemic features of PD. We developed a protocol with alternating Poly(I:C) and LPS, inducing acute peripheral inflammation in both genotypes, with consistent body weight loss and an increase of fecal lipocalin-2. Modest levels of neuroinflammation were present six months after the treatment, with higher levels of the microglial marker Iba1 in the dorsal striatum and reduced levels of the astrocyte marker GFAP in the mesencephalon, potentially indicating reduced neuronal support in the longer term. Finally, we find that this alternating Poly(I:C)/LPS treatment does not induce dopaminergic denervation or motor dysfunctions, even in Parkin KO mice. Taken together, our findings suggest that repeated short-term exposure to pathogen-derived signals is insufficient to induce DA system impairment in young adult Parkin deficient mice. Instead, induction of PD-like pathology may require a convergence of factors, including a prolonged or recurrent inflammatory burden, aging, genetic susceptibility, and potentially additional environmental or cellular stressors, that together create a path",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753365v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.22.753642",
-        "title": "Discrete Morse Graph Construction for High-Dimensional Transcriptomic Data",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Magee, L. J.",
-          "Gala, R.",
-          "Travaglini, K. J.",
-          "Sumbul, U.",
-          "Haynor, D. R.",
-          "Chen, S.",
-          "Brugere, T.",
-          "Wang, Y.",
-          "Mitra, P. P.",
-          "Hawrylycz, M. J."
-        ],
-        "abstract": "Single-cell transcriptomic atlases resolve thousands of putative brain cell types, yet common analytical workflows often rely on low-dimensional embeddings that can distort neighborhood relationships and obscure continuous variation between closely related populations. We introduce single-cell Discrete Morse Graph Construction (scDMGC), a deterministic framework based on topological data analysis and discrete Morse theory that extracts a compact graph from neighborhood structure in high-dimensional gene-expression space. Because graph edges are derived from the original k-nearest-neighbor complex, scDMGC provides an interpretable multiscale representation of transcriptomic organization without requiring a low-dimensional embedding. Local maxima represent coherent transcriptional states, saddles quantify their separation, and gradient paths capture intermediate states and continuous transitions. Applied to cortical and hippocampal datasets, scDMGC recovers established inhibitory-neuron classes and elucidates transcriptional gradients. In mouse whole-cortex data, Morse graph structure evaluates cell-type hierarchy and type robustness. Persistence across scales provides a quantitative measure of cell-type identity and discrete versus continuous relationships. Finally, in Alzheimers disease single-nucleus data, scDMGC distinguishes changes in cell-type abundance from disease-associated shifts in transcriptional state. scDMGC therefore provides a multiscale framework for quantifying whether transcriptional populations form persistent cell types, how strongly external annotations are supported by intrinsic data structure, how cell types relate to one another, and where discrete organization transitions into continuous variation.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753642v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.23.753732",
-        "title": "Early life social isolation primes flies for more rapid TDP-43 dependent neurodegeneration later in life.",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-28",
-        "is_early_access": true,
-        "authors": [
-          "Murthygowda, S.",
-          "Huyghue, K.",
-          "Castillo, B.",
-          "Gugala, F.",
-          "Li, W.",
-          "dubnau, j."
-        ],
-        "abstract": "A key pathophysiological hallmark of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) is loss of nuclear localization and abnormal cytoplasmic aggregation of TAR DNA-binding protein 43 (TDP-43). Upstream factors that trigger the onset and progression of such neurodegenerative diseases are largely unknown. Aging and environmental factors contribute as potential risk factors. But epidemiological evidence suggests psychological stressors such as social isolation and loneliness are also associated with increased risks of neurodegenerative disease [1-8]. We examined the impacts of social isolation on TDP-43 related neurodegeneration. To investigate the potential for causative impact on neurodegeneration, we compared the effects of social isolation versus social enrichment in Drosophila. We utilized an established social isolation paradigm in which flies were either housed alone or in groups as young adults. We found that early-life social isolation acts as a primer to exacerbate the rate of neurodegeneration in response to subsequent induction of pathological levels of TDP-43. Social isolation stress drives more rapid activation of mdg4, an endogenous retrovirus that functionally mediates TDP-43 effects and more aggressive propagation of TDP-43 protein pathology from surface glial cells to nearby neurons. Shortened life span also ensues. We demonstrate that providing isolated flies with visual, olfactory and tactile social cues from conspecifics living behind a divider was insufficient to alleviate these effects of social isolation on neurodegeneration. Our findings have implications for the association between psychological stressors such as loneliness and risk of neurodegenerative diseases in humans and provide a platform to investigate mechanistic underpinnings in animal models.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753732v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis、neurodegeneration』(命中abstract/title)"
         ],
         "is_new": true
       }
