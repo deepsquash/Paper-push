@@ -1,10 +1,99 @@
 {
-  "date": "2026-10-02",
-  "total": 11,
+  "date": "2026-10-03",
+  "total": 10,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.27.751872",
+        "title": "Angiopoietin-like protein 7 (ANGPTL7)-mediated effects on resident immune cells contribute to neurodegeneration in glaucomatous optic nerve head",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-02",
+        "is_early_access": true,
+        "authors": [
+          "Vollmer, T. R.",
+          "Dolan, K.",
+          "Xiang, C.",
+          "Banks, A.",
+          "Cooney, E. M.",
+          "Heyder, J.",
+          "King, C. C.",
+          "Vrouvlianis, J.",
+          "Gujar, A. N.",
+          "Kirkpatrick, N. D.",
+          "Wu, X.",
+          "Jones, C.",
+          "Miraglia, L. J.",
+          "Orth, A. P.",
+          "Qiu, Y.",
+          "Prentiss, M.",
+          "Hassan, I. S.",
+          "Kwan, J.",
+          "Garcia Caro, R.",
+          "Fan, L.",
+          "Wang, Y.",
+          "Niu, S.-Y.",
+          "Huang, C.-L.",
+          "Raghunathan, V.",
+          "Chen, A.",
+          "Vo, N.",
+          "Chui, A.",
+          "Esterberg, R.",
+          "Prasanna, G.",
+          "Wilson, C. W."
+        ],
+        "abstract": "Glaucoma is an optic neuropathy characterized by progressive retinal degeneration. Population genetic analyses describe an association of variants in angiopoietin-like protein 7 (ANGPTL7) with lower intraocular pressure (IOP) and decreased glaucoma susceptibility. In addition to its reported role in the trabecular meshwork (TM), we demonstrate that ANGPTL7 is also expressed within disease-relevant cell types of the human posterior eye, specifically prelaminar optic nerve head astrocytes (ONHA). Contrasting with previously published findings, we observe no difference in IOP between Angptl7-/- mice and wild-type littermates. Despite absence of an IOP phenotype, loss of ANGPTL7 protects from IOPinduced retinal ganglion cell (RGC) damage in a rodent glaucoma neurodegeneration model. ANGPTL7 may signal through LAIR1-positive immune cells, potentially contributing to pro-inflammatory signaling and phenotypic modulation of resident immune cells, with evidence suggesting that oligomerization of ANGPTL7 is necessary for its activity. Comprehensively, our data highlight an unappreciated role of ANGPTL7 in modulating neuroinflammation in the posterior eye, contributing to glaucoma progression.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.751872v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.755069",
+        "title": "ALS/FTD-linked TDP-43 alterations prevent HSV-1 infection by disrupting cell-adhesion pathways",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-02",
+        "is_early_access": true,
+        "authors": [
+          "Jackvony Infurna, S.",
+          "Ijaz, L.",
+          "Hardin, E. J.",
+          "Aikedan, A.",
+          "Zhou, C.",
+          "Yadavalli, T.",
+          "Jang, M. W.",
+          "Mahoney, M.",
+          "Gan, L.",
+          "Shukla, D.",
+          "Orr, A. L.",
+          "Orr, A. G."
+        ],
+        "abstract": "TAR DNA-binding protein-43 (TDP-43) alterations are a key hallmark of amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and other neurodegenerative disorders. Increasing evidence links these conditions to viral infections, but it is not known if and how viral pathogens may be affected by disease-associated TDP-43. We found that ALS/FTD-linked forms of human TDP-43 prevent infection by herpes simplex virus type-1 (HSV-1), a common neurotropic virus. This cell-autonomous protective effect was conserved across different TDP-43 mutations, sporadic ALS, and C9ORF72-ALS, in neural and non-neural cell types, and in patient-derived cells and animal models. In addition to restricting infection, TDP-43 mutation prevented inflammatory and cell stress-related responses to HSV-1 exposure. TDP-43 knockdown but not overexpression was sufficient to protect cells from HSV-1 infection, implicating a loss-of-function mechanism. Neurons with TDP-43 mutation had disruptions in adhesion-related pathways and, accordingly, had reduced early-stage viral binding and entry. Further analyses revealed alternative RNA splicing and impairment of focal adhesion kinase (FAK/PTK2), a key mediator of cell-adhesion pathways. Inhibition of FAK was sufficient to decrease HSV-1 infection, and genetic enhancement of functional but not inactive FAK promoted infectivity in cells with TDP-43 mutation. Together, these data indicate that TDP-43 affects virus-host interactions by influencing adhesion pathways required for viral infection.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755069v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.27.754773",
+        "title": "Alignment with sex-typical brain architecture: Links to mood pathology, sex hormones and transcriptomics of neurodegenerative conditions",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-02",
+        "is_early_access": true,
+        "authors": [
+          "Petrican, R.",
+          "Fornito, A."
+        ],
+        "abstract": "Understanding the mechanisms that underpin the pervasive sex bias in risk for specific psychiatric and neurodegenerative conditions could substantially advance efforts promoting personalized medicine. As a first step towards addressing this issue, we applied imaging transcriptomics and multivariate analysis techniques to data from an adolescent sample enriched in anxiety/depression cases, a child sample enriched in attention deficit hyperactivity disorder (ADHD) cases, and adult patients with treatment resistant major depressive disorder (MDD). We tested whether, across sexes, alignment with female-typical, rather than male-typical, patterns of neural functional connectivity (FC) would relate to a diagnosis (adolescent sample) or severity of symptoms (adult sample) associated with internalizing disorders, which tend to be more often diagnosed in females. To provide preliminary evidence on its functional specificity, we compared the sex-aligned FC profile that distinguished neurotypical adolescents from those diagnosed with depression/anxiety against the sex-aligned FC patterns that distinguished neurotypical children from those diagnosed with ADHD. All the analyses controlled for age within each sample and sex. Finally, we examined the spatial overlap between the sex-aligned FC profile linked to an internalizing diagnosis in adolescence and the transcriptomic maps of genes that show sex-dependent dysregulation in neurodegenerative conditions. Across sexes, increasing alignment with female-typical FC patterns, from sensory-perceptual to default mode regions, discriminated between typically developing and anxious/depressed teens and tracked longitudinal fluctuations in depressive symptoms within adult MDD patients. The identified internalizing-related gradient showed a negative correlation with risk for ADHD in the child sample. The brain regions most strongly aligned with female-, rather than male-, typical FC in depression/anxiety overlapped the spatial expression p",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754773v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.09.30.755853",
         "title": "An age-preserving neuronal iSpheroid platform for modeling human aging and Alzheimer disease",
@@ -182,114 +271,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754678v1",
         "reasons": [
           "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.22.753408",
-        "title": "Therapeutic Potential of iPSC-Derived TH+FOXA2+ Neuronal Extracellular Vesicles in Parkinson's Disease Revealed by Organoid and Rodent Models",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-30",
-        "is_early_access": true,
-        "authors": [
-          "Qi, Z.",
-          "Li, X.",
-          "Jin, X.",
-          "Shen, C.",
-          "Yang, L.",
-          "Liu, Y.",
-          "Huang, M.",
-          "Xing, L.",
-          "Chen, Y.",
-          "Liu, Z."
-        ],
-        "abstract": "Background: Parkinson's disease (PD) is characterized by the progressive loss of midbrain dopaminergic (DA) neurons and aberrant alpha-synuclein (alpha-syn) aggregation, yet disease-modifying therapies that simultaneously retard neurodegeneration and foster regeneration remain lacking. Methods: In this study, we isolated extracellular vesicles (TH and FOXA2 double-positive cell-derived EVs) from TH and FOXA2 double-positive differentiated neural cells, a distinct midbrain floor-plate-derived neural cell population that co-expresses the floor-plate transcription factor FOXA2 together with TH and should therefore not be equated with conventional mature midbrain dopaminergic neurons, and systematically evaluated their therapeutic potential across three complementary models: A53T transgenic mice, 6-OHDA-lesioned rats, and 6-OHDA-treated human midbrain organoids. Integrative transcriptomic and single-cell sequencing analyses, together with toxicological evaluations in rodents and non-human primates, were performed to investigate the underlying mechanisms and safety profile. These TH and FOXA2 double-positive cells were generated using a fully suspension-based, matrix-free, and chemically defined differentiation system devoid of N2/B27 supplements and fetal bovine serum (FBS). This approach offers a simple, controllable, low-cost, and scalable platform with high batch-to-batch consistency for EV manufacturing. Throughout this study, the term \"TH and FOXA2 double-positive cells\" refers to this distinct TH and FOXA2 double-positive cell population and should not be interpreted as conventional terminally differentiated dopaminergic neurons. Results: Intranasal administration of TH and FOXA2 double-positive cell-derived EVs in A53T mice and 6-OHDA-lesioned rats significantly ameliorated motor deficits, increased nigral tyrosine hydroxylase (TH)-positive neuron counts, reduced alpha-syn aggregation, and suppressed gliosis. In human midbrain organoids, TH and FOXA2 double-posit",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753408v2",
-        "reasons": [
-          "关键词『Parkinson、alpha-synuclein、neurodegeneration』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.24.754183",
-        "title": "Spontaneous eye behavior is an objective marker of parkinsonian severity",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-30",
-        "is_early_access": true,
-        "authors": [
-          "Verma, A. K.",
-          "Nandakumar, B.",
-          "Feragen, Q. V.",
-          "Acedillo, K.",
-          "Hjelle, N.",
-          "Hendrix, C. M.",
-          "Duffy, K.",
-          "Fiecas, M.",
-          "Yu, Y.",
-          "Mohanty, B.",
-          "Wang, J.",
-          "Vitek, J. L.",
-          "Johnson, L. A."
-        ],
-        "abstract": "Eye behavior disruption is reported in Parkinson's disease (PD), but its correlation with disease severity has not been well examined. Here, in a nonhuman primate model of PD, we show that spontaneous eye behavior is impaired in parkinsonism and correlates with clinical rating scores and subthalamic beta oscillatory activity. These findings suggest that spontaneous eye behavior could serve as an objective, non-invasive biomarker of parkinsonian severity.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754183v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.24.754224",
-        "title": "Selective nigrosome vulnerability in Parkinson's disease revealed by histology-anchored ultra-high-field quantitative MRI",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-30",
-        "is_early_access": true,
-        "authors": [
-          "Li, R.",
-          "Kirilina, E.",
-          "Bazin, P.-L.",
-          "Stige, K. E.",
-          "Unsgard, R.",
-          "Brammerloh, M.",
-          "Gylterud Kvalsgard, I.",
-          "Kristoffersen, A. L.",
-          "Berntsen, E. M.",
-          "Goa, P. E.",
-          "Damier, P.",
-          "Tzoulis, C.",
-          "Doan, T. P."
-        ],
-        "abstract": "Selective vulnerability is a hallmark of Parkinson's disease (PD): post-mortem, dopamine-containing cell loss in the substantia nigra first and most severely affects calbindin-poor compartments termed nigrosomes. Testing this in vivo has been limited by circularity, as MRI studies have delineated nigrosomes from the same disease-related contrast they then measure. Here, we warp histology-derived, calbindin-validated probabilistic masks of nigrosomes 1-5 into a cohort-specific multimodal 7 Tesla quantitative MRI template, providing a degeneration-independent anatomical scaffold, in 28 patients with PD and 28 age- and sex-matched controls. In controls, nigrosomes differ from the surrounding nigral matrix in magnetic susceptibility and R1. PD shifts nigrosomal values upward relative to the matrix in susceptibility, R2*, and R1, concentrated in nigrosomes 1, 2, and 4, whereas whole-nigra analysis shows no group difference. Within the matrix, disease effects are largest caudally and emerge dorsally from the ventral tier, and susceptibility alterations in nigrosomes 1 and 4 track contralateral motor symptoms asymmetry. The multimodal pattern suggests that the detectable signal reflects predominantly secondary, iron-associated glial processes rather than neuronal loss itself. These findings recover the post-mortem spatial pattern of nigral vulnerability in vivo and establish a degeneration-independent framework for subregional nigral imaging in PD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754224v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.25.754307",
-        "title": "Saccadic network dysfunction underlies eye-movement variability in early Parkinson's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-09-30",
-        "is_early_access": true,
-        "authors": [
-          "Vasudevan, V.",
-          "Mournet, S.",
-          "Beranger, B.",
-          "Rogers, C. P.",
-          "Mangone, G.",
-          "ARNULF, I.",
-          "Corvol, J.-C.",
-          "Vidailhet, M.",
-          "Lehericy, S.",
-          "Pouget, P.",
-          "Thirugnanasambandam, N.",
-          "Gallea, C."
-        ],
-        "abstract": "Parkinsons disease is a neurodegenerative disorder characterized by altered subcortical-cortical connectivity, leading to motor and cognitive deficits. Saccadic eye movement abnormalities are among the earliest and most persistent markers of the disease, serving as sensitive indicators of disrupted oculomotor and cognitive control. While changes in average saccadic behavioral measures are widely reported in Parkinson's disease, intra-individual variability in saccadic performance and the underlying network dysfunction remain poorly understood. Here, we quantified intra-individual saccadic variability in early-stage Parkinsons disease and identified its functional correlates within the resting-state saccadic network. We analyzed data from 91 patients with early-stage Parkinsons disease and 46 healthy controls who underwent oculomotor testing and resting-state functional magnetic resonance imaging. First, at the behavioral level, we assessed intra-individual variability in saccadic performance within each group using the coefficient of variation of reaction time and normalized peak velocity across trials. Second, at the brain level, we assessed group differences in static and dynamic functional connectivity across 39 regions comprising the saccadic network. We examined the relationship between network connectivity and saccadic variability using partial least squares analysis. We also quantified network organization using graph-theory measures of global efficiency and clustering coefficient. Finally, we tested the relevance of intra-individual saccadic variability and network features in distinguishing patients from healthy controls using a multivariate Mahalanobis classifier. Our results showed that, compared to HC, patients had higher intra-individual variability in saccadic behavioral measures of reaction time (pHolm = 0.012) and normalized peak velocity (pHolm = 0.012). Interestingly, patients had (i) reduced static and dynamic connectivity within the saccadic netw",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754307v1",
-        "reasons": [
-          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
         ],
         "is_new": true
       }
