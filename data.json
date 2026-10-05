@@ -1,100 +1,10 @@
 {
-  "date": "2026-10-04",
-  "total": 3,
+  "date": "2026-10-05",
+  "total": 0,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
-    "神经退行性疾病": [
-      {
-        "doi": "10.64898/2026.09.27.751872",
-        "title": "Angiopoietin-like protein 7 (ANGPTL7)-mediated effects on resident immune cells contribute to neurodegeneration in glaucomatous optic nerve head",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-02",
-        "is_early_access": true,
-        "authors": [
-          "Vollmer, T. R.",
-          "Dolan, K.",
-          "Xiang, C.",
-          "Banks, A.",
-          "Cooney, E. M.",
-          "Heyder, J.",
-          "King, C. C.",
-          "Vrouvlianis, J.",
-          "Gujar, A. N.",
-          "Kirkpatrick, N. D.",
-          "Wu, X.",
-          "Jones, C.",
-          "Miraglia, L. J.",
-          "Orth, A. P.",
-          "Qiu, Y.",
-          "Prentiss, M.",
-          "Hassan, I. S.",
-          "Kwan, J.",
-          "Garcia Caro, R.",
-          "Fan, L.",
-          "Wang, Y.",
-          "Niu, S.-Y.",
-          "Huang, C.-L.",
-          "Raghunathan, V.",
-          "Chen, A.",
-          "Vo, N.",
-          "Chui, A.",
-          "Esterberg, R.",
-          "Prasanna, G.",
-          "Wilson, C. W."
-        ],
-        "abstract": "Glaucoma is an optic neuropathy characterized by progressive retinal degeneration. Population genetic analyses describe an association of variants in angiopoietin-like protein 7 (ANGPTL7) with lower intraocular pressure (IOP) and decreased glaucoma susceptibility. In addition to its reported role in the trabecular meshwork (TM), we demonstrate that ANGPTL7 is also expressed within disease-relevant cell types of the human posterior eye, specifically prelaminar optic nerve head astrocytes (ONHA). Contrasting with previously published findings, we observe no difference in IOP between Angptl7-/- mice and wild-type littermates. Despite absence of an IOP phenotype, loss of ANGPTL7 protects from IOPinduced retinal ganglion cell (RGC) damage in a rodent glaucoma neurodegeneration model. ANGPTL7 may signal through LAIR1-positive immune cells, potentially contributing to pro-inflammatory signaling and phenotypic modulation of resident immune cells, with evidence suggesting that oligomerization of ANGPTL7 is necessary for its activity. Comprehensively, our data highlight an unappreciated role of ANGPTL7 in modulating neuroinflammation in the posterior eye, contributing to glaucoma progression.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.751872v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.28.755069",
-        "title": "ALS/FTD-linked TDP-43 alterations prevent HSV-1 infection by disrupting cell-adhesion pathways",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-02",
-        "is_early_access": true,
-        "authors": [
-          "Jackvony Infurna, S.",
-          "Ijaz, L.",
-          "Hardin, E. J.",
-          "Aikedan, A.",
-          "Zhou, C.",
-          "Yadavalli, T.",
-          "Jang, M. W.",
-          "Mahoney, M.",
-          "Gan, L.",
-          "Shukla, D.",
-          "Orr, A. L.",
-          "Orr, A. G."
-        ],
-        "abstract": "TAR DNA-binding protein-43 (TDP-43) alterations are a key hallmark of amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and other neurodegenerative disorders. Increasing evidence links these conditions to viral infections, but it is not known if and how viral pathogens may be affected by disease-associated TDP-43. We found that ALS/FTD-linked forms of human TDP-43 prevent infection by herpes simplex virus type-1 (HSV-1), a common neurotropic virus. This cell-autonomous protective effect was conserved across different TDP-43 mutations, sporadic ALS, and C9ORF72-ALS, in neural and non-neural cell types, and in patient-derived cells and animal models. In addition to restricting infection, TDP-43 mutation prevented inflammatory and cell stress-related responses to HSV-1 exposure. TDP-43 knockdown but not overexpression was sufficient to protect cells from HSV-1 infection, implicating a loss-of-function mechanism. Neurons with TDP-43 mutation had disruptions in adhesion-related pathways and, accordingly, had reduced early-stage viral binding and entry. Further analyses revealed alternative RNA splicing and impairment of focal adhesion kinase (FAK/PTK2), a key mediator of cell-adhesion pathways. Inhibition of FAK was sufficient to decrease HSV-1 infection, and genetic enhancement of functional but not inactive FAK promoted infectivity in cells with TDP-43 mutation. Together, these data indicate that TDP-43 affects virus-host interactions by influencing adhesion pathways required for viral infection.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755069v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.09.27.754773",
-        "title": "Alignment with sex-typical brain architecture: Links to mood pathology, sex hormones and transcriptomics of neurodegenerative conditions",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-02",
-        "is_early_access": true,
-        "authors": [
-          "Petrican, R.",
-          "Fornito, A."
-        ],
-        "abstract": "Understanding the mechanisms that underpin the pervasive sex bias in risk for specific psychiatric and neurodegenerative conditions could substantially advance efforts promoting personalized medicine. As a first step towards addressing this issue, we applied imaging transcriptomics and multivariate analysis techniques to data from an adolescent sample enriched in anxiety/depression cases, a child sample enriched in attention deficit hyperactivity disorder (ADHD) cases, and adult patients with treatment resistant major depressive disorder (MDD). We tested whether, across sexes, alignment with female-typical, rather than male-typical, patterns of neural functional connectivity (FC) would relate to a diagnosis (adolescent sample) or severity of symptoms (adult sample) associated with internalizing disorders, which tend to be more often diagnosed in females. To provide preliminary evidence on its functional specificity, we compared the sex-aligned FC profile that distinguished neurotypical adolescents from those diagnosed with depression/anxiety against the sex-aligned FC patterns that distinguished neurotypical children from those diagnosed with ADHD. All the analyses controlled for age within each sample and sex. Finally, we examined the spatial overlap between the sex-aligned FC profile linked to an internalizing diagnosis in adolescence and the transcriptomic maps of genes that show sex-dependent dysregulation in neurodegenerative conditions. Across sexes, increasing alignment with female-typical FC patterns, from sensory-perceptual to default mode regions, discriminated between typically developing and anxious/depressed teens and tracked longitudinal fluctuations in depressive symptoms within adult MDD patients. The identified internalizing-related gradient showed a negative correlation with risk for ADHD in the child sample. The brain regions most strongly aligned with female-, rather than male-, typical FC in depression/anxiety overlapped the spatial expression p",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754773v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      }
-    ],
+    "神经退行性疾病": [],
     "特定课题组": [],
     "通讯作者订阅": []
   }
