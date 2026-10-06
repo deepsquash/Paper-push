@@ -1,10 +1,147 @@
 {
-  "date": "2026-10-05",
-  "total": 0,
+  "date": "2026-10-06",
+  "total": 6,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
-    "神经退行性疾病": [],
+    "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.30.755295",
+        "title": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-05",
+        "is_early_access": true,
+        "authors": [
+          "Bacioglu, M.",
+          "Katsinelos, T.",
+          "Schweighauser, M.",
+          "Gallo, F.",
+          "Mueller, K.",
+          "Christou, R.",
+          "Brandes, J.",
+          "Lovestam, S.",
+          "Cowley, S. A.",
+          "McEwan, W. A.",
+          "Scheres, S.",
+          "Goedert, M.",
+          "Spillantini, M. G."
+        ],
+        "abstract": "The prion concept postulates that seeded aggregation results in the recruitment of soluble protein monomers and their assembly into amyloid filaments with the same structures as those of the seeds. Here we show that this concept applies to tau filaments formed in cortical organoids obtained from human iPSCs of control subjects. Tau seeds were extracted from the frontal cortex of individuals with Alzheimer disease. When added to human cortical organoids expressing endogenous levels of three-repeat tau, they gave rise to filaments of three-repeat tau whose formation required endogenous tau expression. By cryo-EM, these seeded tau filaments were identical to the paired helical filaments of the seeds. This novel finding demonstrates the faithful templated seeding of tau in human nerve cells expressing endogenous levels of tau and opens the way to studying the mechanisms of paired helical filament formation and their downstream effects in a human system amenable to genetic modification.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755295v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.30.755038",
+        "title": "Templated paired helical filament formation and tau fold-dependent inclusion morphologies in primary neurons",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-05",
+        "is_early_access": true,
+        "authors": [
+          "Huang, M.",
+          "Lövestam, S.",
+          "Cheam, K. A. X.",
+          "Ghetti, B.",
+          "McEwan, W. A.",
+          "Scheres, S. H. W.",
+          "Goedert, M."
+        ],
+        "abstract": "Neurodegenerative tauopathies are characterized by the abnormal assembly of tau into amyloid filaments with distinct, disease-specific folds. These filaments are proposed to spread in a prion-like manner, thus underlying the progression of pathology in diseased brains. A prediction of this hypothesis is that tau filaments will induce progeny filaments identical to the input seed material, yet cellular models of templated tau assembly have failed to fully recapitulate brain-derived filament structures. Here, we show that mixed primary mouse cortical neurons overexpressing full-length human tau via adeno-associated virus transduction propagate Alzheimer's disease paired helical filaments upon exposure to human brain-derived seeds. Using minimal tags and core mutations, we were able to unambiguously differentiate induced aggregates from the original seeds. Super-resolution microscopy and live-cell imaging revealed progressive inclusion formation in neurons. Moreover, seeding primary neurons with brain extracts from individuals with Pick's disease, corticobasal degeneration and progressive supranuclear palsy induced the formation of morphologically distinct inclusions. Together, these findings establish that primary neurons provide an environment for the faithful propagation of paired helical filaments and show that tau filament folds dictate higher-order inclusion morphologies within neurons.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755038v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.754926",
+        "title": "Restoration of (nor)adrenergic-like Ca2+ signalling counteracts age-related motor decline",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-05",
+        "is_early_access": true,
+        "authors": [
+          "Horvat, A.",
+          "Cerne, U.",
+          "Dahse, A.-K.",
+          "Brodmerkel, L.-S.",
+          "Bratanic, A.",
+          "Matz-Soja, M.",
+          "Schirmeier, S.",
+          "Zorec, R.",
+          "Scholz, N.",
+          "Vardjan, N."
+        ],
+        "abstract": "Aging disrupts neural function, but whether impaired noradrenergic control of brain metabolism contributes to functional decline remains unclear. Using genetically encoded fluorescent sensors we measured metabolic and signaling responses in neurons and glia of living Drosophila brains following stimulation with octopamine, the invertebrate analogue of noradrenaline. Aging was accompanied by neurodegeneration, reduced locomotion and enhanced oxidative whole-brain metabolism. Octopamine increased D-glucose uptake selectively in astrocytes and elevated L-lactate in both astrocytes and neurons, consistent with astrocytic glycolysis coupled to neuronal L-lactate uptake; monocarboxylate transporter inhibition caused selective astrocytic L-lactate accumulation. In aged animals octopamine-evoked metabolic responses in astrocytes and neural Ca2+ transients were markedly reduced. This impairment was associated with lower expression of adrenoceptor-like tyramine 1 receptor (Tyr1R). Selective Tyr1R overexpression in (nor)adrenergic-like Tdc2 neurons prolonged lifespan, restored Ca2+ signalling and improved locomotor performance. These findings identify Tyr1R-dependent Ca2+ signalling as an age-sensitive regulator of brain metabolism and motor function.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754926v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.755051",
+        "title": "Magnetic Field Enhanced Docosahexaenoic Acid Delivery for Acetylcholine Restoration in Alzheimers Disease an In Silico Study",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-05",
+        "is_early_access": true,
+        "authors": [
+          "Dasgupta, M.",
+          "Konar, A.",
+          "Nagar, A. K."
+        ],
+        "abstract": "Alzheimers Disease (AD) is characterised by the progressive depletion of Acetylcholine (ACh), a neurotransmitter essential for cognition and synaptic communication. Docosahexaenoic acid (DHA), the predominant omega 3 polyunsaturated fatty acid in neuronal membranes, raises cerebral ACh and supports cholinergic transmission, but its therapeutic efficacy is limited by poor blood brain barrier permeability and slow passive diffusion. This work addresses these limitations through a closed form mathematical model coupling the spatiotemporal dynamics of DHA diffusion and ACh synthesis under an externally applied static magnetic field. Because DHA is diamagnetically anisotropic, it aligns along the field axis through diamagnetic torque while body cells form field aligned linear arrays; together these effects raise the effective diffusion coefficient of DHA. At a representative observation point, 0.5cm, magnetic field assisted transport reduces the time for ACh to reach a therapeutic threshold by 83.3%, from 10.55 s to 1.76 s. This reduction is spatially uniform across the modelled range of 0 to 3.0 cm from the source, with the absolute saving growing from 6.71 s at the source to 19.21 s at 3.0 cm. Co-evolution analysis reveals the mechanism: by the end of a 2.0 s window the field elevates DHA 7.39 fold relative to baseline, driving ACh to 133.7% of threshold versus only 18.1% without the field. A Brain Computer Interface (BCI)-based closed loop dosing framework is additionally proposed for future clinical validation. These findings establish a quantitatively grounded theoretical basis for magnetically enhanced DHA therapy as an approach to cholinergic restoration in AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755051v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.755204",
+        "title": "Imputation-Based Harmonization Mitigates Site Effects Without Data Leakage in Machine Learning Studies",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-05",
+        "is_early_access": true,
+        "authors": [
+          "Hillman, N.",
+          "Chen, A.",
+          "Hu, F.",
+          "Vandekar, S.",
+          "Melhem, R.",
+          "Beason-Held, L.",
+          "Satterthwaite, T.",
+          "Davatzikos, C.",
+          "Shou, H.",
+          "Shinohara, R."
+        ],
+        "abstract": "Neuroimaging studies that pool data across clinical sites often suffer from site effects --- variability in imaging measures that arises from technical heterogeneity across sites as opposed to true biological signal. While numerous harmonization methods have been proposed to remove site effects from imaging features, less attention has been placed on how to incorporate harmonization models into common machine-learning pipelines. We demonstrate that current approaches for integration either suffer from data leakage, fail to fully remove site effects from the target data, or attenuate true biological associations during the harmonization process. To address these issues, we propose Multiple Imputation for Removing Technical Heterogeneity (MIRTH), which uses imputed outcomes to harmonize the test data. We benchmark MIRTH's performance using both simulated and real-world volumetric data from the Alzheimer's Disease Neuroimaging Initiative and the Baltimore Longitudinal Study of Aging, demonstrating that MIRTH can achieve high predictive accuracy while avoiding inflated performance when the outcome is imbalanced across clinical sites.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755204v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.29.755142",
+        "title": "Hyperexcitable primary somatosensory cortex in the MitoPark mouse model of Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-05",
+        "is_early_access": true,
+        "authors": [
+          "Zhang, R.",
+          "Qi, R.",
+          "Emanuel, A. J."
+        ],
+        "abstract": "The majority of Parkinson's disease patients suffer from decreased tactile acuity or neuropathic pain, both of which contribute to low quality of life and likely exacerbate motor dysfunction. How Parkinson's disease pathology relates to altered somatosensation remains unclear. One potential contributor is the progressive degeneration of dopamine neurons. To assess the extent to which gradual dopamine neuron loss contributes to altered somatosensation, we recorded spontaneous and stimulus-evoked activity in the primary somatosensory cortex of the MitoPark mouse model of Parkinson's disease. MitoPark mice experience progressive dopamine neuron degeneration that is independent of -synuclein. We found that MitoPark layer V regular-spiking (largely pyramidal) neurons, but not fast-spiking (largely parvalbumin-expressing inhibitory) neurons, had elevated spontaneous firing rates relative to littermate controls at late stages of symptom progression. Regular-spiking neurons also became hyperresponsive to tactile stimuli -- more neurons were recruited by stimuli across a wide range of intensities, and these neurons responded with higher firing rates. Fast-spiking neurons, but not regular-spiking neurons, became desynchronized at late stages of symptom progression. These physiological changes coincided with pronounced degeneration of dopamine neurons and axons, which we measured with tyrosine hydroxylase immunostaining in the midbrain, striatum, and primary somatosensory cortex. Altogether, this characterization revealed cell-type-specific changes in the primary somatosensory cortex that are consistent with both decreased tactile acuity and hyperalgesia in Parkinson's disease patients. This suggests that the loss of dopamine neurons, potentially including those that innervate primary somatosensory cortex, contributes to somatosensory impairments associated with Parkinson's disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755142v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      }
+    ],
     "特定课题组": [],
     "通讯作者订阅": []
   }
