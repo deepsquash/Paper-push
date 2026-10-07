@@ -1,10 +1,191 @@
 {
-  "date": "2026-10-06",
-  "total": 6,
+  "date": "2026-10-07",
+  "total": 14,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.01.756095",
+        "title": "The microbial soy metabolite S-equol mitigates cadmium neurotoxicity in mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Suh, Y.",
+          "Wang, H.",
+          "Li, L.",
+          "Gu, H.",
+          "Johnson-Martinez, J.",
+          "Magis, A.",
+          "Gibbons, S.",
+          "Cui, J. Y."
+        ],
+        "abstract": "Environmental exposures are major but understudied determinants of chronic disease. Cadmium is a pervasive toxic metal encountered through diet and tobacco smoke that has been associated with cognitive impairment and Alzheimer's disease mortality, yet strategies to mitigate its neurotoxicity remain limited. S-equol is a gut microbial metabolite of soy daidzein that crosses the blood brain barrier and preferentially activates estrogen receptor beta. Here, we show that cadmium disrupts an axis linking the equol producing gut bacterium Adlercreutzia equolifaciens to circulating S-equol and hippocampal estrogen receptor expression in mice, that S-equol attenuates cadmium-induced cytotoxicity and restores neuronal, glutamatergic and synaptic transcriptional programs in mouse neural progenitor cells, and that circulating S-equol in older humans is lower in apolipoprotein E4 carriers and covaries with body mass index, identifying S-equol as a microbiome-derived, host-modulated candidate countermeasure against cadmium neurotoxicity.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756095v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.05.27.728228",
+        "title": "Hindmarsh-Rose neuronal network with spike-timing-dependent plasticity demonstrates coordinated reset neuromodulation for Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Sharafi, S.",
+          "Gilmer, J.",
+          "Al Borno, M.",
+          "Uchida, T. K."
+        ],
+        "abstract": "Computational models of brain structures impacted by Parkinson's disease are useful for studying pathological synchronization and exploring potential therapies. We use the Hindmarsh-Rose neuronal model to simulate synchronized activity in the subthalamic nucleus, capturing key features of the pathological rhythms associated with parkinsonian tremor. Our model incorporates chemical synapses whose strengths evolve according to a spike-timing-dependent plasticity (STDP) rule. We apply coordinated reset stimulation with rapidly varying sequences (RVS CR) and examine its ability to weaken synaptic weights, thereby reducing neuronal synchrony. This stimulation technique delivers phase-shifted stimuli to distinct sites in a random sequence. We explore how stimulation frequency and the number of stimulation sites affect the efficacy of RVS CR at desynchronizing the network and observe good agreement with previous studies. We demonstrate that RVS CR efficacy is sensitive to the depression-to-potentiation ratio in the STDP rule, which may be an important parameter to tune when reconciling simulations with experimental data. Numerical simulation of neuronal networks is constrained by computational resources when models demand large networks. This work proposes a model that demonstrates similar utility with a relatively small network, enabling researchers to study pathological neuronal activity and treatments more efficiently.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728228v3",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.29.755449",
+        "title": "SARS-CoV-2 Nucleocapsid Protein forms biomolecular condensates and interacts with ALS-associated RNA binding proteins in vitro",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Clarke, J.-P. W. E.",
+          "Keating, A.",
+          "Noches, V.",
+          "McLellan, C.",
+          "Dulcis, D.",
+          "Ravits, J.",
+          "Strong, M. J."
+        ],
+        "abstract": "As we have entered the endemic phase of COVID-19, there is a need to assess the long-term effects of SARS-CoV-2 infection on the trajectory of neurodegenerative disorders. Herein, we investigate whether the SARS-CoV-2 RNA-binding nucleocapsid protein (NCP; N-protein) may influence molecular processes relevant to motor neuron degeneration in amyotrophic lateral sclerosis (ALS). We detected N-protein immunoreactivity in ALS spinal cord motor neurons, including cytoplasmic N-protein-positive puncta that colocalized with cytoplasmic TAR DNA-binding protein 43 (TDP-43). In vitro, optogenetically induced N-protein biomolecular condensates (BMCs) showed reversible, liquid-like behavior and recovered after photobleaching. Using this model, we found that these condensates colocalized with TDP-43 and the RNA-binding proteins G3BP1/2, PABPC1 and TIA1. Condensate formation was associated with TDP-43 cytoplasmic mislocalization, altered TARDBP expression, and altered exon 3 splicing of POLDIP3. The N-terminal portion of N-protein influenced BMC formation, whereas truncated C-terminal proteoforms did not form detectable BMCs or show detectable TDP-43 colocalization in this assay. Extending these observations to a human cell model, we show that optogenetically induced N-protein BMCs colocalize with TDP-43 in human iPSC-derived motor neurons. Collectively, these findings support further investigation into potential molecular links between SARS-CoV-2 exposure and the trajectory of neurodegenerative disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755449v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.29.755486",
+        "title": "Axonal dysfunction precedes axonal degeneration in a mouse model of progressive parkinsonism",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Lipkin, A. M.",
+          "Boronat-Garcia, A.",
+          "O'Prey, N. L.",
+          "Zhang, R.",
+          "Khaliq, Z. M."
+        ],
+        "abstract": "Axons of substantia nigra dopaminergic neurons \"die back\" in Parkinson's disease (PD), exhibiting early degeneration relative to cell bodies, a key feature also observed in PD models. A critical step towards understanding the process of axonal neurodegeneration is to determine the physiological properties of dopaminergic axons that are altered during the early stages of cellular dysfunction. Here, we compared the electrophysiology and calcium dynamics of dopaminergic axons in the MitoPark model of PD with age-matched controls. Our experiments show a pronounced reduction in action potential (AP)-evoked calcium signals in MitoPark axons that emerges well before the onset of dopaminergic fiber loss and motor deficits. In addition, calcium imaging and direct axon recording revealed deficits in AP propagation accompanied by alterations in the axonal AP waveform. Therefore, our experimental findings identify the progression of axon-specific physiological deficits that occur long before neurodegeneration, more precisely defining the period that precedes axonal loss.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755486v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.05.756807",
+        "title": "Pathological tau leads to network hyperexcitability through neuronal-subtype-specific functional impairment",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Ji, C.",
+          "Zhu, Y.",
+          "Erdjument-Bromage, H.",
+          "Song, S. C.",
+          "Chang, N.",
+          "Liu, A. R.",
+          "Lee, A. R.",
+          "DeGulis, O.",
+          "Schoppik, D.",
+          "Neubert, T. A.",
+          "Ryoo, H. D.",
+          "Sigurdsson, E."
+        ],
+        "abstract": "Pathological tau disrupts neuronal activity and brain function in Alzheimer s disease and other tauopathies. However, the underlying mechanisms for neuronal network dysfunction remain largely unknown. Using human inducible pluripotent stem cell (iPSC) - derived neurons, we show that the familial MAPT P301L mutation leads to neuronal network hyperexcitability. Imbalanced excitation and inhibition were attributable to neuronal subtype-specific tau pathology that was associated with different alterations of tau interactomes in excitatory versus inhibitory neurons. Suppressing enhanced excitatory synaptic transmission or blocking Ca2+ influx resulting from enhanced P301L tau/AHNAK interaction in inhibitory neurons rescued the neuronal network hyperexcitability. This study expands our understanding on how disease-causing tau mutations alter the excitatory/inhibitory balance, leading to network dysfunction in human neurons.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756807v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.29.755475",
+        "title": "Closed-head injury produces a delayed, region-specific defect in glucose-carbon routing at the pyruvate branchpoint in APP/PS1 KI mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Moallem, E. Z.",
+          "Bruntz, R. C.",
+          "Cox, M. F.",
+          "Bytyqi, L.",
+          "Roberts, T. K.",
+          "Patel, S. P.",
+          "Macheda, T.",
+          "Roberts, K. N.",
+          "Higgins, E. K.",
+          "Sun, R. C.",
+          "Gentry, M. S.",
+          "Sullivan, P. G.",
+          "Johnson, L. A.",
+          "Bachstetter, A. D."
+        ],
+        "abstract": "Traumatic brain injury (TBI) is a risk factor for Alzheimer's disease (AD), and both conditions are associated with impaired glucose metabolism and mitochondrial dysfunction. We previously reported time-dependent mitochondrial dysfunction following closed-head injury (CHI) in amyloid precursor protein/presenilin 1 (APP/PS1) knock-in (KI) mice, but whether glucose-derived carbon labeling showed a corresponding temporal pattern remained unknown. We hypothesized that early deficits would involve tricarboxylic acid (TCA)-cycle metabolites, whereas chronic changes persisted upstream at the pyruvate-lactate branchpoint. Here, oral uniformly 13C-labeled glucose ([U-13C]-glucose) tracing and gas chromatography-mass spectrometry (GC-MS)-based isotopologue analysis were used to quantify first-turn glucose-derived carbon fate in cortex and hippocampus. To distinguish the effects of age at injury from those of post-injury interval, mice were analyzed 1 month after injury either at 7 or 12 months of age or 8 months after injury at 12 months of age. The most pronounced alterations occurred 8 months after CHI, when KI mice exhibited increased pyruvate and lactate labeling in the cortex and broader increases in glycolytic labeling in the hippocampus. These findings suggest that in APP/PS1 KI mice, chronic closed-head injury produced a delayed shift in glucose-derived carbon labeling centered on glycolytic and pyruvate/lactate nodes, with loss of hippocampal precursor-product coupling but without broad reduction of first-turn TCA-linked labeling.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755475v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.01.22.701195",
+        "title": "Probing the Glymphatic System Using Optical Imaging and Mathematical Modeling",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Hesketh, M.",
+          "Xiao, H.",
+          "Shrestha, B.",
+          "Porter, T.",
+          "Lea, C.",
+          "Rizal, B.",
+          "Hinow, P.",
+          "Aryal, M."
+        ],
+        "abstract": "The glymphatic system is a macroscopic waste clearance pathway in the central nervous system (CNS), crucial to maintaining neural homeostasis through the exchange of cerebrospinal fluid (CSF) and interstitial fluid (ISF). Impairments in this system have been associated with neurodegenerative diseases such as Alzheimer's and Parkinson's, emphasizing the need to understand and potentially improve glymphatic clearance. We investigate tracer diffusion and transport in the glymphatic system by combining optical imaging in rats and mathematical modeling using a partial differential equation of advection-diffusion type. The experimental conditions differ in the levels of isoflurane-induced anesthesia (1.5, 2 and 3%) and the molecular weight of the tracer compounds (1 and 160 kDa). The optimal parameters show a close clustering of the diffusion coefficients and a wider spread of the flow velocities of the cerebrospinal fluid. Our work contributes to a better understanding of flow processes in the brain parenchyma during sleep.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.22.701195v2",
+        "reasons": [
+          "关键词『Alzheimer、Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.04.756560",
+        "title": "Regional Similarity to Sex-Typical Young Adult Brain Architecture is a Longitudinal Correlate of Neuroinflammation and Depression in Later Adulthood",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-06",
+        "is_early_access": true,
+        "authors": [
+          "Petrican, R.",
+          "Michael, B. D.",
+          "Mulderig, E."
+        ],
+        "abstract": "Lifespan trajectories of psychiatric and neurodegenerative risk show robust overlap and marked sex differences. Nonetheless, their neurobiological underpinnings are still poorly understood. One potential culprit is the predominant categorical definition of sex, which overlooks the tapestry of sex-dependent and sex-independent features recently shown to typify each human brain. Shifting from a holistic, dichotomous approach to regionally specific, continuous assessments of sex differences in brain function could help identify individualized therapeutic targets for both psychiatric and neurological conditions. To probe the psychiatric and neurological relevance of functional alignment with sex-typical brain architecture, we analyzed longitudinal neuroimaging and clinical data from a healthy aging cohort (N = 353, aged 36-87 years). We identified complementary patterns of deviance from sex-typical brain architecture along the canonical sensorimotor-to-association axis, which overlapped areas enriched in microglial genes and genes regulating sex steroid metabolism. The two connectivity patterns differentiated longitudinally between psychiatric symptoms and neurodegeneration as a function sex and age: one connectivity pattern related to more severe future depression in younger women, whereas the second related to later neurodegeneration (higher GFAP and pT217 blood concentration) and poorer fluid cognition (inhibition, episodic memory, processing speed, working memory) in older men. The aforementioned effects showed some context-specificity, as they involved connectivity patterns characterized during awake rest and cognitive control, but not associative memory performance. Taken together, our findings attest to the value of integrating regionally specific, continuous assessments of sex differences in brain function with inflammation-relevant biomarkers in order to support precision medicine approaches across the life course.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756560v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.09.30.755295",
         "title": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
