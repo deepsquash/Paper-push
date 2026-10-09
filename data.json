@@ -1,10 +1,672 @@
 {
-  "date": "2026-10-08",
-  "total": 0,
+  "date": "2026-10-09",
+  "total": 23,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
-    "神经退行性疾病": [],
+    "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.30.755800",
+        "title": "Biophysical modeling of excitation/inhibition imbalance in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Deng, Q.",
+          "Chen, C.",
+          "Zikopoulos, B.",
+          "Yazdanbakhsh, A."
+        ],
+        "abstract": "INTRODUCTION: Alzheimer's disease (AD) involves early sensory and perceptual changes that can precede memory decline. We developed a two-layer rate-based neural model of early and higher visual areas with feedforward, feedback, and recurrent connections to examine how excitatory/inhibitory (E/I) balance shapes visual motion perception in AD. METHODS: Using Motion-Induced Position Shift and Altered Motion Repulsion stimuli, we factorially manipulated excitatory (E) and inhibitory (I) subfield power and connectivity to examine their effects on illusion representation across visual layers. RESULTS: Increased E, decreased I, and increased E/I reduced illusion representation, consistent with reduced illusion susceptibility in AD, whereas the converse increased illusion representation, reflecting neurotypical processing. Higher-level layer 2 representations were more resistant to E/I perturbations than lower-level layer 1. Illusion representation was less affected by E/I increases in intra-areal (recurrent) connectivity than in inter-areal (feedforward/feedback) connectivity. DISCUSSION: This mechanistic framework links E/I balance and connectivity to altered visual motion illusion representations in AD and suggests that E/I and connectivity measures may provide probes of early AD neurobiology. The framework may also generalize beyond vision.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755800v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.07.751107",
+        "title": "Cross-Tissue Inflammatory Convergence Supports a Putative Muscle-Brain Axis in Alzheimer's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Zhang, A.",
+          "Shen, W.",
+          "Yan, S.",
+          "Chen, J.",
+          "Liu, X.",
+          "Zou, J.",
+          "Li, S.",
+          "Hu, S.",
+          "Liu, Y.",
+          "Pan, C.",
+          "Lan, Z.",
+          "Peng, G.",
+          "Zhang, Q.",
+          "Peng, W.",
+          "Ahmadizar, F.",
+          "Zhang, J."
+        ],
+        "abstract": "Background Reduced muscle strength is associated with cognitive decline and Alzheimer's disease (AD), suggesting that skeletal-muscle aging and AD-related neurodegeneration may share biological mechanisms. Vascular dysfunction, immune activation, and extracellular-matrix remodeling have been implicated in both tissues, but the extent of shared cellular and molecular programs remains unclear. We investigated cross-tissue transcriptional programs in aging skeletal muscle and AD-related brain tissue and evaluated whether related signals are detectable in peripheral blood. Methods We analyzed independent, unpaired human transcriptomic datasets from skeletal muscle (23 donors), the SEA-AD middle temporal gyrus atlas (84 donors), and peripheral blood. Donor-aware models identified age-associated changes in muscle and transcriptomic changes across continuous pseudoprogression score (CPS) in brain. Cross-tissue comparisons focused on 30 brain donors within an early CPS window. Shared tissue-derived programs were assessed in peripheral blood mononuclear cells and independently tested in frailty bulk-blood and Alzheimer's Disease Neuroimaging Initiative (ADNI) whole-blood datasets. CellOracle simulations were used to prioritize candidate transcriptional regulators. Results Aging muscle showed increased inflammatory, extracellular-matrix, and stromal communication programs. During early AD-related brain progression, vascular and immune populations showed increasing inflammatory and matrix-associated activity together with shifts in intercellular communication. Cross-tissue analysis identified six concordantly enriched pathways comprising 109 leading-edge genes in endothelial populations and four pathways comprising 51 genes in myeloid populations. Related peripheral-blood signatures varied across cohorts and cell types. However, in independent frailty and ADNI mild cognitive impairment and AD datasets, 23 of 30 predefined tissue-derived pathway-subset tests showed significant ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.751107v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.04.20.648873",
+        "title": "TDP-43 toxic gain of function links ALS, FTD and Alzheimers Disease through splicing dysregulation",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "van Zuiden, W.",
+          "Meimoun, T.",
+          "Bar, C.",
+          "Siany, A.",
+          "Abarbanel, B.",
+          "Moshe, L.",
+          "Yacovzada, N. S.",
+          "Amzallag, E.",
+          "Rajkovic, A.",
+          "Alyagor, L.",
+          "Weizman, E.",
+          "Neumann, M.",
+          "Smith, C.",
+          "McDade, K.",
+          "Strange, A.",
+          "Siqueira Kazu, R.",
+          "Weinreich, M.",
+          "Buchman, A. S.",
+          "Wang, Y.",
+          "Bennett, D. A.",
+          "Zhao, B.",
+          "Jiang, L.",
+          "Bi, J.",
+          "Snyder, M. P.",
+          "Morderer, D.",
+          "Garcia Morato, J.",
+          "Rossoll, W.",
+          "Reeves, M. M.",
+          "Dickson, D. W.",
+          "Prudencio, M.",
+          "Nelson, P. T.",
+          "Glass, J. D.",
+          "Trautwig, A. N.",
+          "Chung, M.",
+          "McEachin, Z. T.",
+          "Seyfried, N. T.",
+          "Cooper-Knock, J.",
+          "Hornstein, E."
+        ],
+        "abstract": "TDP-43 proteinopathy is a hallmark of amyotrophic lateral sclerosis (ALS) and frontotemporal lobar degeneration (FTLD). It is also common in Alzheimers disease (AD), but its functional consequences are unclear. Here, we show that TDP-43 pathology in AD is broadly associated with splicing abnormalities. We define a conserved TDP-43-dependent splicing signature in AD and identify AD-relevant TDP-43-dependent mis-spliced mRNAs, including amyloid precursor protein (APP). TDP-43 drives the formation of elongated APP isoforms, disrupting alternative splicing across ALS, FTLD-TDP and AD, thus providing a compelling mechanism for a long-standing observation of APP isoform dysregulation. APP isoform imbalance correlates with and partially mediates the association between TDP-43 pathology and A{beta} burden pathology and is depicted spatially with pTDP-43 and malspliced STMN2 in LATE hippocampus. Contrary to a pure nuclear loss-of-function model, mis-splicing is driven by cytoplasmic TDP-43 gain-of-function that co-sequesters RNA-binding proteins involved in the regulation of splicing. Knockdown of TDP-43-associated RNA-binding proteins recapitulates disease-relevant splicing changes in AD and ALS/FTLD-TDP; furthermore, at least some of these proteins colocalize with cytoplasmic pTDP-43 in neuropathological samples. Together, our findings establish cytoplasmic TDP-43-driven splicing dysfunction as a key component of neurodegeneration, define sets of disease-relevant mis-spliced RNA across AD, and unite AD with ALS/FTLD-TDP through a shared mechanism of splicing factor sequestration.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.04.20.648873v3",
+        "reasons": [
+          "关键词『Alzheimer、amyotrophic lateral sclerosis、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.30.755839",
+        "title": "Disease stage-sensitive MFSD2A-caveolae axis insigates hippocampal blood-brain barrier disruption in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "zhu, y.",
+          "Yang, D.",
+          "chen, j.",
+          "wang, q.",
+          "xiong, w.",
+          "wang, j.",
+          "chen, h.",
+          "Verkhratsky, A.",
+          "yi, c."
+        ],
+        "abstract": "Blood-brain barrier (BBB) malfunction contributes to pathophysiology of Alzheimer's disease (AD), yet the mechanisms that confer hippocampal endotheliocytes vulnerability remain unclear. Here we identify loss of endothelial major facilitator superfamily domain-containing protein 2A (MFSD2A), a suppressor of caveolae-mediated transcytosis, as an early and hippocampus-specific feature of AD-associated vascular impairment. In post-mortem human AD brains, reduction in hippocampal MFSD2A was accompanied with increased levels of caveolin-1 and perivascular albumin extravasation. Analysis of human single-nucleus transcriptomic data further demonstrated that vascular expression of MFSD2A declined during transition from mild cognitive impairment to established AD. In APP/PS1 mice, MFSD2A loss occurred early in hippocampal microvessels and coincided with disproportionately high hippocampal BBB leakage and reductions in GLUT1 and claudin-5, despite broader amyloid deposition throughout other brain regions. Restoration of endothelial MFSD2A using an AAV-BR1-based vascular vector during early stage of amyloid pathology, reduced albumin extravasation and preserved GLUT1 and claudin-5. Early intervention also reduced amyloid plaque burden and plaque-associated neuritic dystrophy, whereas this treatment during established amyloid pathology, although modifying selected endothelial markers, failed to reverse BBB leakage, amyloid pathology, or cognitive impairment. Sustained MFSD2A restoration from the early disease stage provided the greatest protection, preserving hippocampal BBB integrity, reducing amyloid and neuritic pathology, improving long-term potentiation and ameliorating spatial learning and memory deficits. These findings define endothelial MFSD2A loss as a disease stage-sensitive mechanism of hippocampal BBB vulnerability and highlight the MFSD2A-caveolae axis as a therapeutic target for early-stage AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755839v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.02.756181",
+        "title": "Targeting microglial P2Y12-receptor signalling attenuates neurodegeneration in experimental Parkinsons disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Iring, A.",
+          "Kiss, D. J.",
+          "Baranyi, M.",
+          "Gal, Z. T.",
+          "Herczku, E.",
+          "Tod, P.",
+          "Egyed, A.",
+          "Demeter, K.",
+          "von Kuegelgen, I.",
+          "Wu, L.-J.",
+          "Keseru, G. M.",
+          "Sperlagh, B."
+        ],
+        "abstract": "Neuroinflammation is increasingly recognized as a determinant of dopaminergic neuron vulnerability in Parkinson's disease, yet the receptor-level mechanisms linking microglia to disease progression remain incompletely defined. We investigated whether microglial P2Y12 receptor (P2Y12R) signalling drives neurodegeneration in experimental Parkinsonism and assessed its pharmacological tractability. Tamoxifen-inducible microglia-specific P2ry12 deletion was examined in acute and subchronic MPTP models, with receptor deletion induced before or during disease progression. Neurodegeneration, neuroinflammation, neurochemistry, and motor function were evaluated, and novel P2Y12R antagonists identified by structure-based virtual screening were characterized in vitro and following central administration in vivo. Inducible microglia-specific P2Y12R deletion reduced nigrostriatal dopaminergic neuron loss, preserved dopamine synthesis, attenuated acute and sustained neuroinflammatory responses, and improved parkinsonian motor deficits without affecting survival. Importantly, delayed receptor deletion during ongoing neurodegeneration remained protective, indicating that P2Y12R contributes to disease progression. Two novel antagonists exhibited functional P2Y12R inhibition in vitro, and central administration of the most promising candidate recapitulated the neuroprotective phenotype observed following genetic receptor deletion. These findings identify microglial P2Y12R as a therapeutically relevant regulator of neuroinflammation and dopaminergic vulnerability and provide complementary genetic and pharmacological proof-of-concept for targeting central P2Y12R in Parkinsonism.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756181v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.05.27.728207",
+        "title": "Multi-Trajectory Pseudotime Inference via Permutation Factorizations",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Farina, R.",
+          "Wang, Y.",
+          "Gabitto, M. I.",
+          "Agrawal, A.",
+          "Mena, G."
+        ],
+        "abstract": "Inferring disease progression from cross-sectional data typically relies on placing individuals along a single latent pseudotemporal axis. However, diseases often exhibit different biomarkers that evolve with different dynamics, making a single shared trajectory insufficient and often leading to biased or inconsistent orderings. We propose a probabilistic framework that maintains a shared global ordering of individuals while allowing clusters of features to follow distinct monotone trajectories along this ordering. Rather than assigning individuals to separate progressions, our approach captures heterogeneity through cluster-specific temporal responses defined with respect to a common latent sequence of individuals. Our key observation is that monotone transformations of a common progression preserve the ordering of individuals, so multiple pseudotimes factorize into a single latent permutation over individuals and cluster-specific monotonic functions, enabling flexible yet comparable representations of biomarker dynamics. We jointly infer donor ordering, biomarker clusters, and trajectories within a unified Bayesian framework, using stochastic variational inference over permutations. Across two major neuropathological datasets in Alzheimer's disease, our method recovers biologically meaningful feature clusters and improves overall alignment with established staging measures compared to single-trajectory baselines. These results show that modeling heterogeneous dynamics relative to a shared progression yields more accurate and interpretable reconstructions of disease progression from cross-sectional data.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728207v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.755025",
+        "title": "Exacerbation of neurodegeneration by a metabolically engineered bacterium in a mouse model of tauopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Self, W. K.",
+          "Sharma, P.",
+          "Gent, G.",
+          "Bosch, M. E.",
+          "Zhu, Y.",
+          "Powell, N.",
+          "Agca, C.",
+          "Ulrich, J. D.",
+          "Song, J.",
+          "de Figueiredo, P.",
+          "Holtzman, D. M."
+        ],
+        "abstract": "BackgroundTherapeutics that modulate peripheral and central immune responses are emerging as promising approaches for neurodegenerative disease. However, the biological context in which these interventions are deployed may critically influence therapeutic outcomes. An attenuated Brucella melitensis 16M strain and a similar strain engineered to express the metabolite indole have previously demonstrated therapeutic efficacy in preclinical models of cancer and autoimmunity through immune system modulation. Here, we tested whether repeated administration of these bacterial strains could modify pathological outcomes in a mouse model of tauopathy.\n\nMethodsAttenuated Brucella strains were administered to transgenic mice overexpressing mutant tau protein on a human APOE4 knock-in background via intraperitoneal injection every 5 weeks starting at 6 months of age. Mice were analyzed at 9.5 months of age for tau pathology, neurodegeneration, and changes in innate and adaptive immune responses.\n\nResultsBrucella strains distributed predominantly in the periphery following repeated intraperitoneal treatment in transgenic mice, with minimal detection in the brain and no detection in the dural meninges. Repeated administration of either bacterial strain was well tolerated, with no evidence of adverse safety events. Surprisingly, repeated treatment with the engineered Brucella strain exacerbated neurodegenerative pathology, resulting in reduced hippocampal volume and increased phosphorylated tau pathology compared with control- and non-engineered Brucella strain -treated animals. Immunohistochemical analyses revealed increased numbers of hippocampal CD4+ T cells following treatment with either Brucella strain relative to PBS controls. However, only treatment with the engineered Brucella increased microglial reactivity within the hippocampus.\n\nConclusionThese findings demonstrate that peripheral administration of an engineered bacterial therapeutic can differentially influence neuroi",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755025v1",
+        "reasons": [
+          "关键词『tau、neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.01.756094",
+        "title": "DNA polymerase kappa supports repair-associated DNA synthesis and neuronal genome resilience",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Goyal, G.",
+          "Palanisamy, P.",
+          "Paul, A.",
+          "Paul, A.",
+          "Paul, S."
+        ],
+        "abstract": "Postmitotic neurons must preserve genome integrity for decades despite continuous oxidative, transcription-associated, and environmental DNA damage. Although recent studies have established ongoing repair-associated DNA synthesis in mature neurons, the polymerases that execute this synthesis remain incompletely defined. DNA polymerase kappa (POLK), a Y-family translesion synthesis polymerase, is highly expressed in neurons and undergoes an age-associated redistribution from the nucleus to the cytoplasm, suggesting that loss of nuclear POLK may compromise neuronal genome maintenance. Here, we investigated the consequences of POLK loss and augmentation in primary mouse cortical neurons and human induced pluripotent stem cell-derived forebrain neurons, including APOE e4/e4 backgrounds.\n\nPartial POLK depletion reduced neuronal arbor complexity, enlarged neuronal nuclei, increased LAMIN A/C and nuclear-envelope abnormalities, and induced a multidimensional senescence-like stress phenotype characterized by increased senescence-associated {beta}-galactosidase, p21, nuclear p38 MAPK, inflammatory signaling, lysosomal remodeling, and reduced mitochondrial-associated staining. POLK localized in proximity to EdU-labeled DNA in mature neurons, and POLK depletion reproducibly reduced EdU incorporation across independent human neuronal backgrounds and maturation stages. Exploratory nuclear POLK immunoprecipitation-mass spectrometry, together with proximity ligation assays, placed POLK near proteins involved in nucleotide excision repair, base-excision/single-strand break repair, DNA-end repair, checkpoint signaling, and specialized polymerase regulation, including PCNA-Ub and RAD18.\n\nPOLK loss also produced Alzheimer disease-relevant cellular phenotypes. In wild-type neurons, POLK depletion increased 6E10 immunoreactivity and was accompanied by remodeling of APP/endosomal, lipid/cholesterol, and lysosomal pathways. In APOE e4/e4 neurons, POLK depletion increased cytoplasmic dsDNA",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756094v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.04.30.721667",
+        "title": "\"Plasma Membrane Calcium ATPase Downregulation in Dopaminergic Neurons Induces Presynaptic Dysfunction and Neuronal Vulnerability In Vivo and In Vitro\"",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Erhardt, B.",
+          "Koltyk, V.",
+          "Farias, M. I.",
+          "Bruno Dellepiane, M. R.",
+          "Pitossi, F. J.",
+          "Leal, M. C."
+        ],
+        "abstract": "Plasma Membrane Calcium ATPase (PMCA) is essential for maintaining intracellular calcium homeostasis. Previously, we used constitutive PMCA downregulation in Drosophila melanogaster dopaminergic neurons as a model to increase intracellular calcium and mimic early neuronal alterations associated with Parkinsons disease. Here, we examined the mechanisms underlying the effects mediated by the conditional, adult-specific downregulation of PMCA in dopaminergic neurons in Drosophila melanogaster, both in vivo and in primary neuronal cultures. Adult-specific conditional silencing of PMCA in dopaminergic neurons reduced lifespan but to a lesser extent than the constitutive model and impaired locomotor performance. At the cellular level, PMCA-downregulated dopaminergic neurons exhibited elevated basal calcium, indicating disrupted calcium regulation. This was associated with a progressive increase in presynaptic vesicles and extracellular dopamine levels, suggesting enhanced neurotransmitter release. Notably, the synaptic active zone structure was preserved, indicating primarily functional rather than structural alterations. In primary neuronal cultures, PMCA downregulation reduced dopaminergic neuron survival and induced transient increases in neurite branching. Together, these findings show that PMCA downregulation leads to calcium dysregulation and presynaptic dysfunction without overt neurodegeneration in vivo, while promoting premature neuronal death in culture, indicating increased vulnerability and supporting a pre-degenerative state in which synaptic alterations precede neuronal loss.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.04.30.721667v2",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.04.23.720377",
+        "title": "Connections across regional glymphatic clearance, neural activity and amyloid-β deposition in cortex",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Li, Y.",
+          "Zhu, X.",
+          "Zhou, Y.",
+          "Zhang, X.",
+          "Zhou, Z.",
+          "Wei, K.",
+          "Sun, J.",
+          "Lou, M."
+        ],
+        "abstract": "Neural activity inevitably produces waste, which promotes neurodegeneration with topographic features. The glymphatic system is important for waste clearance. However, the spatial characteristics of glymphatic clearance across cortex, the pattern it coupled with neural activity, and whether those mismatch regions overlap with known amyloid-prone cortical regions in human remain unexplored. Here, by intrathecal administration of gadolinium-based contrast agents, glymphatic influx and clearance patterns across cortex in 96 participants are depicted via Glymphatic MRI. Analyses integrating public post-mortem transcriptomic profiles from Allen Human Brain Atlas indirectly indicate that, genes related with excitatory and inhibitory neurons, and pathways engaging in synaptic function were spatially enriched in regions with faster glymphatic clearance. Fractional amplitude of low frequency fluctuation was calculated from resting-state fMRI to represent neural activity. At the regional level, based on a subgroup with rs-fMRI (N = 15), regional glymphatic clearance was positively coupled with spontaneous neural activity. The mismatch index, reflecting decoupling between spontaneous neural activity and glymphatic clearance function, showed positive spatial associations with an external group-average {superscript 1}{superscript 1}C-PiB SUVR map. Together, this study for the first time demonstrates that neural activity is associated with glymphatic dynamics from transcriptional to physiological level. The mismatch magnitude between these two processes may potentiate regional vulnerability to proteopathy and subsequent neurodegeneration in cortex.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720377v2",
+        "reasons": [
+          "关键词『neurodegeneration、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.01.755971",
+        "title": "Brain-wide Cerebrospinal Fluid Recirculation Collapse in Alzheimers Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Choi, M.",
+          "Kim, K.-S.",
+          "Kim, I.-w.",
+          "Jung, M. K.",
+          "Kim, D.-G."
+        ],
+        "abstract": "Cerebrospinal fluid (CSF) flow and the glymphatic system are essential for maintaining brain homeostasis, yet the precise mechanisms driving their profound failure in Alzheimers disease (AD) remain largely elusive. Here, we reveal that macroscopic CSF propagates dorsally via the perivascular spaces (PAS) of major ventral arteries--the Circle of Willis (CW), middle cerebral artery (MCA), and olfactory artery (OlfA)--which undergo severe structural degradation in an AD mouse model. High-resolution imaging of the dorsal cortex demonstrates that this structural collapse induces a severe influx blockade; in AD, CSF tracers form massive aggregates within the PAS, physically decoupling the gliovascular interface, while tracers entering the parenchyma are pathologically sequestered by amyloid plaques. Furthermore, we identify an active, cholesterol-mediated clearance mechanism responding to exogenous CSF tracer infiltration. While healthy brains rapidly synthesize and efficiently clear this cholesterol via vascular efflux within 120 minutes, the AD model exhibits blunted cholesterol mobilization and a complete failure of capillary efflux. This terminal bottleneck forces uncleared cholesterol to retrogradely accumulate into pathological aggregates within perivascular pericytes and neuronal somata. Collectively, our findings demonstrate that AD dismantles the entire CSF recirculation loop--from macroscopic ventral entry to terminal microvascular efflux--highlighting pericytic and neuronal lipidosis as fundamental drivers of brain fluid stagnation.\n\nO_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=114 SRC=\"FIGDIR/small/755971v1_ufig1.gif\" ALT=\"Figure 1\">\nView larger version (48K):\norg.highwire.dtl.DTLVardef@1c62a5eorg.highwire.dtl.DTLVardef@107919eorg.highwire.dtl.DTLVardef@1e921baorg.highwire.dtl.DTLVardef@a549ad_HPS_FORMAT_FIGEXP  M_FIG C_FIG",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755971v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.02.755976",
+        "title": "Stage-specific proteomic signatures of synaptopathy in Alzheimers disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Georgiades, T.",
+          "Griffiths, J.",
+          "Gibbs, F.",
+          "Chandra, E.",
+          "Papageorgopoulou, M.",
+          "Liang, D.",
+          "Whitwell, H. J.",
+          "Matthews, P. M.",
+          "Barnes, S. J.",
+          "Grant, S. G. N.",
+          "Jackson, J. S."
+        ],
+        "abstract": "Synapse loss is the strongest pathological correlate of cognitive decline in Alzheimers disease, yet the molecular basis of synaptic vulnerability across disease progression remains poorly understood.\n\nWe performed proteomic profiling of isolated synaptoneurosomes from post-mortem middle temporal gyrus tissue from 67 individuals, comprising 40 individuals spanning all Alzheimers disease Braak stages and 27 non-diseased controls. Differential abundance and weighted gene co-expression network analyses were combined with pathway, cell-type and gene set variation analyses to characterise stage-associated changes in the synaptic proteome. Brain-derived candidate proteins were subsequently evaluated using receiver operating characteristic and regression analyses against cognitive examination scores in two independent plasma proteomics datasets.\n\nWe identified six distinct stage-associated synaptic proteomic signatures. Mitochondrial function and synaptic signalling declined by mid-stage Alzheimers disease, while clathrin-mediated endocytosis increased at mid-stage without further change at later stages. By contrast, proteostasis and perisynaptic astrocytic processes increased progressively throughout the disease course. Global excitatory and inhibitory protein signals also showed a progressive shift in their relative balance (P = 7.80 x 10-3; adjusted R{superscript 2} = 0.072). These findings guided targeted investigation of candidate plasma markers linked to distinct synaptic processes in two independent proteomic datasets. We nominated 42 plasma proteins mapping to synaptic signatures of progression, which showed associations with disease stage and cognitive measures including Mini-Mental State Examination, Montreal Cognitive Assessment and Clinical Dementia Rating. PHGDH was prioritised across analyses through associations with cognitive impairment from early disease stages (Clinical Dementia Rating transition 0 to 0.5, false discovery rate = 8.87 x 10-18), neuropathol",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755976v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.01.23.701345",
+        "title": "Spatial transcriptome-metabolome integration reveals region-specific glial lipid dysregulation linked to Alzheimer's pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Xu, L.",
+          "Yang, H.",
+          "Leon, J.",
+          "Li, X.",
+          "Oehler, A.",
+          "Modavi, C.",
+          "Abate, A. R.",
+          "Condello, C."
+        ],
+        "abstract": "Alzheimer's disease (AD) is associated with disrupted lipid metabolism, but how these abnormalities are organized across brain regions remains unclear. We developed iMIST, a spatial multi-omic approach that integrates metabolomic imaging, histology, and spatial transcriptomics within the same tissue section, and applied it to a mouse model combining progressive amyloid deposition and metabolic vulnerability. In plaque-rich gray matter, microglial activation was associated with Pld4 expression and glycerophospholipid remodeling. In contrast, plaque-sparse white matter showed oligodendrocyte-associated loss of Ugt8a expression and altered galactosylceramide metabolism. Both abnormalities intensified with age, indicating distinct but convergent forms of glial lipid dysregulation across anatomical compartments. These findings show that AD-associated metabolic dysfunction extends beyond plaque microenvironments and demonstrate how spatially integrated transcriptomic, metabolic, and histological measurements can reveal region specific mechanisms of glial vulnerability in neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.23.701345v2",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.755047",
+        "title": "Engineered Chimeric Proteins Functionally Replace ALS-causing Endogenous FUS and TDP-43 to Improve Neuronal Health",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Hayashi, M.",
+          "Jensen, B. K.",
+          "Girdhar, A.",
+          "Markandaiah, S. S.",
+          "Ko, Y.-H.",
+          "Arunprakash, N.",
+          "DePierro, J. A.",
+          "Ni, T.",
+          "Li, W.",
+          "Zhao, W.",
+          "Cingolani, G.",
+          "Pasinelli, P.",
+          "Guo, L."
+        ],
+        "abstract": "Mislocalization and aggregation of the RNA-binding proteins (RBPs) FUS and TDP-43 are pathological hallmarks of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), contributing to combined loss- and gain-of-function toxicity. Here, we present a protein engineering strategy that appends optimized anti-aggregation motifs to FUS and TDP-43, thereby enhancing their nuclear localization and solubility, and enabling functional replacement of disease-associated proteins. We show that these engineered chimeric RBPs reduce levels of aggregation-prone endogenous proteins through autoregulatory mechanisms. In addition, chimeric FUS and TDP-43 recapitulate key nuclear functions, including DNA repair and mRNA processing. Notably, chimeric FUS restores neurite outgrowth in diseased iPSC-derived neurons, while chimeric TDP-43 suppresses cryptic exon inclusion in patient-derived fibroblasts. Collectively, these results demonstrate that engineered chimeric RBPs can rebalance RBP homeostasis by simultaneously addressing protein aggregation and mislocalization, thus mitigating RBP-associated loss- and gain-of-function toxicity, highlighting a generalizable strategy for therapeutic protein replacement in neurodegenerative disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755047v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.07.756069",
+        "title": "Vibrotactile transcutaneous auricular vagus nerve stimulation (taVNS) during working memory: convergent electrophysiological evidence for cortical efficiency",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Tan, G.",
+          "Demarest, P.",
+          "Kardashina, T.",
+          "Adams, J.",
+          "Willie, J. T.",
+          "Roland, J.",
+          "Gorlewicz, J. L.",
+          "Brunner, P.",
+          "Leuthardt, E. C."
+        ],
+        "abstract": "Background: Working memory, the cognitive ability to maintain and manipulate a finite amount of information, is fundamental in reasoning, learning, and decision-making. Working memory erodes in conditions from Alzheimer's disease to stroke to healthy aging. Transcutaneous auricular vagus nerve stimulation (taVNS) is a promising neuromodulation method for improving working memory. By stimulating the auricular branch of the vagus nerve, taVNS is thought to engage ascending arousal systems such as the locus coeruleus-norepinephrine (LC-NE) system. However, the physiological link between LC-NE system modulation via taVNS and improved working memory remains largely unknown. This mechanistic gap limits the rational optimization of the stimulation protocol and the identification of the cognitive functions and patient populations that are likely to benefit. Objective: We test two competing hypotheses for how taVNS may improve working memory: sensory amplification or enhancement of cortical efficiency. The sensory-amplification hypothesis predicts increased cortical responses to stimuli, whereas the cortical-efficiency hypothesis predicts reduced cortical responses. Methods: Twenty healthy adults completed N-back working memory tasks during three counterbalanced sessions: baseline, active vibrotactile taVNS (vtaVNS), and sham stimulation, while we simultaneously recorded electroencephalography, electrocardiography, eye-tracking, and behavioral responses. To study the effect of vtaVNS on neuronal activity, we also recruited 20 patients with epilepsy undergoing invasive monitoring. Of these, 19 fully completed the spatial working-memory task. We quantified cortical responses to visual stimuli using event-related potentials (ERPs) in scalp EEG and high-gamma activity in intracranial local field potentials. To examine prediction of the cortical-efficiency hypothesis, we further explored the effect of vtaVNS on distance to criticality and heartbeat-evoked potentials. Results: Act",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756069v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.06.03.729823",
+        "title": "Charting Cervical Spinal Cord Morphometry Across the Lifespan",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Schilling, K. G.",
+          "Kim, M. E.",
+          "Amandola, M.",
+          "Gao, C.",
+          "Ramadass, K.",
+          "Kanakaraj, P.",
+          "Bogdanov, S.",
+          "Rudravaram, G.",
+          "Newlin, N. R.",
+          "Archer, D.",
+          "Hohman, T. J.",
+          "Jefferson, A. L.",
+          "Morgan, V. L.",
+          "Roche, A.",
+          "Englot, D. J.",
+          "Bilgel, M.",
+          "Beason Held, L. L.",
+          "Ferrucci, L.",
+          "Cutting, L.",
+          "Barquero, L. A.",
+          "Darchangel, M. A.",
+          "Nguyen, T. Q.",
+          "Humphreys, K. L.",
+          "Niu, Y.",
+          "Vinci-Booher, S.",
+          "Cascio, C. J.",
+          "The HABS-HD Study Team,",
+          "Alzheimers Disease Neuroimaging Initiative,",
+          "The BIOCARD Study Team,",
+          "Li, Z.",
+          "Moyer, D.",
+          "Vandekar, S. N.",
+          "Zhang, P.",
+          "St-Onge, S.",
+          "Bedard, S.",
+          "Valosek, J.",
+          "De Leener, B.",
+          "Cohen-Adad, J."
+        ],
+        "abstract": "Spinal cord morphometry provides essential biomarkers of neurological health, but clinical interpretations are confounded by inter-subject variability and a lack of normative references across the full human lifespan. We address this gap by generating the first comprehensive lifespan charts for cervical spinal cord morphometry. From 78,269 T1-weighted brain MRI sessions, we identified a final cross-sectional cohort of 24,251 healthy or cognitively normal controls from 33 datasets (ages 0-100 years) with cervical cord coverage. To overcome contrast variability, we employed a state-of-the-art contrast-agnostic deep learning segmentation method, extracting cross-sectional area (CSA), anteroposterior (AP) and right-left (RL/transverse), and shape indices (AP/RL ratio, eccentricity, and solidity) from C1 to C7. Normative trajectories were modeled using Generalized Additive Models for Location, Scale, and Shape (GAMLSS). The resulting charts reveal distinct non-linear lifespan changes: rapid growth through childhood and adolescence, peak maturation occurring in early-to-mid adulthood (e.g., mid-30s for CSA), followed by gradual decreases. Significant regional variations along the cervical cord and consistent sex differences (males > females for size metrics) were quantified. Spinal cord trajectories showed strong temporal coupling with brain white matter and brainstem volumes, suggesting integrated CNS development and aging. These lifespan charts provide a robust normative framework, enabling age- and sex-specific centile scoring of individual spinal cord morphometry. This resource offers a critical tool for differentiating typical variation from pathological changes, enhancing the clinical utility of spinal cord MRI in studies of development and neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729823v2",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.753000",
+        "title": "Genetically distinct neurodegenerative proteinopathies engage overlapping proteostasis components",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Yarlagadda, B.",
+          "Kumar, V."
+        ],
+        "abstract": "Neurodegenerative proteinopathies are defined by distinct proteins whose folding, trafficking and clearance depend on shared proteostasis machinery. Whether these disorders engage common components or only common processes has been unresolved. We mapped 16 disease proteins from 12 disorders onto a fixed 990-protein proteostasis network. Across the 12 disorders, the neighborhoods of these proteins shared specific proteins beyond expectations from process composition and connectivity. The same held for the two disorders defined by more than one protein. Nine proteins contributed disproportionately, and only autophagys removal significantly reduced similarity. Removing PRKN, HSPA8 or UBQLN2 in silico reduced path efficiency, marking them candidate shared network vulnerabilities. In human brain proteomes, Alzheimers disease-zone proteins showed greater abundance remodeling in the insoluble fraction; recurrence across disorders showed no such association. The result is a component-level architecture prioritizing network-derived candidates for cross-disease functional testing.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.753000v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.29.755483",
+        "title": "Large-scale cerebrospinal fluid proteomics identifies diagnostic biomarker candidates across the clinico-pathological continuum of frontotemporal lobar degeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Saloner, R.",
+          "Cornelis, L.",
+          "Downer, J.",
+          "Dietz, C.",
+          "Chan, B.",
+          "Hughes, M.",
+          "Olzinski, M.",
+          "Cobigo, Y.",
+          "Lario-Lago, A.",
+          "Heuer, H.",
+          "Cody, K.",
+          "Wood, M.",
+          "Cousins, K. A. Q.",
+          "Wolk, D.",
+          "Lee, E. B.",
+          "Irwin, D.",
+          "Abdelhak, A.",
+          "Boeve, B. F.",
+          "Rabinovici, G. D.",
+          "La Joie, R.",
+          "Grinberg, L. T.",
+          "Spina, S.",
+          "Paolillo, E. W.",
+          "Staffaroni, A.",
+          "VandeVrede, L.",
+          "Ljubenkov, P. A.",
+          "Gorno-Tempini, M. L.",
+          "Rosen, H. J.",
+          "Yokoyama, J. S.",
+          "Kramer, J. H.",
+          "Casaletto, K. B.",
+          "Miller, B.",
+          "Seeley, W. W.",
+          "Rojas, J. C.",
+          "Boxer, A. L."
+        ],
+        "abstract": "Frontotemporal lobar degeneration (FTLD), predominantly comprised of tau and TDP-43 proteinopathies, is a common cause of early-onset dementia. Biomarkers that reliably classify FTLD subtypes are limited, thereby hindering in-vivo diagnosis and clinical trial stratification. We conducted large-scale, multi-platform cerebrospinal fluid proteomics in 566 individuals, including 274 FTLD-spectrum (48 autopsy-confirmed FTLD-TDP, 90 autopsy-confirmed FTLD-tau), 171 Alzheimers disease, and 95 controls. In neuropathological subtype contrasts, elevated matrix metalloproteinase MMP10 classified Picks disease (PiD) versus other subtypes with near-perfect accuracy across proteomic platforms. We further validated CSF MMP10 as a potential PiD diagnostic biomarker via a targeted immunoassay in an independent, autopsy-confirmed FTLD cohort. Post-synaptic proteins HOMER1 and DLG4 exhibited elevations across FTLD-TDP subtypes (A, B, and C) versus FTLD-tau. Network analysis identified RNA metabolism and pro-inflammatory signatures in FTLD-TDP, and cytoskeletal and heat shock signatures in progressive supranuclear palsy. These findings reveal candidate diagnostic biomarkers and proteomic pathways underlying FTLD clinico-pathological heterogeneity.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755483v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.02.756327",
+        "title": "APOE4 reduction in vascular-associated fibroblasts decreases cerebral amyloid angiopathy and associated vascular dysfunction",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Saadi, F.",
+          "Cho, Y.",
+          "Katritch, I. V.",
+          "Lugo, B.",
+          "Wu, Y.",
+          "Smyth, L. C. D.",
+          "Bosch, M.",
+          "Telfer, K. A.",
+          "Hyrc, K.",
+          "Parhizkar, S.",
+          "Bao, X.",
+          "Nambiar, A.",
+          "Zinselmeye, B. H.",
+          "Hu, S.",
+          "Kipnis, J.",
+          "Randolph, G. J.",
+          "Ulrich, J. D.",
+          "Holtzman, D. M."
+        ],
+        "abstract": "Cerebral amyloid angiopathy (CAA), characterized by cerebrovascular amyloid deposition, is strongly associated with Alzheimers disease, ischemic injury, and lobar hemorrhages. APOE4 is the strongest known genetic risk factor for CAA, yet the cellular sources of APOE4 that drive pathogenic vascular amyloid deposition remain poorly defined. Here, we identify vascular-associated fibroblasts (VAFs) as a key source of APOE4 that mediates CAA and cerebrovascular dysfunction. In post-mortem brain tissue from APOE4/E4 patients with confirmed CAA, APOE colocalizes with COL6 VAFs around A{beta}-laden vessels. Therefore, to study the contribution of APOE4 derived from VAFs in CAA, independently of parenchymal sources, we used 5xFAD mice in which the endogenous mouse Apoe coding exons are replaced with floxed human APOE4 sequences. This enables selective suppression of APOE4 expression in VAFs upon tamoxifen induction of Col1a2-CreERT+. APOE4 reduction in VAFs markedly reduced CAA, with the strongest effects observed in leptomeningeal vessels. Additionally, A{beta}40, which preferentially associates with vascular amyloid, was significantly reduced in the vascular fraction. VAF APOE4 depletion resulted in fewer small microbleeds and an approximately 50% reduction in parenchymal border macrophages within the leptomeningeal compartment, whereas astrocytic reactivity remained unchanged. Functional assessment using in vivo multi-parametric photoacoustic microscopy revealed improved arterial dilation and blood flow in amyloid-laden leptomeningeal arteries. Together, these findings establish VAF-derived APOE4 as a compartment-specific driver of CAA and cerebrovascular dysfunction.\n\nOne Sentence SummaryVascular-associated fibroblasts are a major source of pathogenic APOE4 that drives vascular dysfunction in cerebral amyloid angiopathy.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756327v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.01.755546",
+        "title": "Impaired value estimation over space explains turn-induced freezing of gait in Parkinson's disease: A cortico-basal ganglia-inspired reinforcement learning model",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-08",
+        "is_early_access": true,
+        "authors": [
+          "Bhattacharya, N.",
+          "Nair, S. S.",
+          "Chakravarthy, V. S.",
+          "Muralidharan, V."
+        ],
+        "abstract": "Parkinson's disease (PD) gait is characterized by reduced walking speed, short shuffling steps, increased double stance time, and increased step time variability. The most debilitating symptom in PD is freezing of gait (FOG), a context-dependent locomotion arrest, mostly occurring while encountering turns, obstacles, and narrow pathways. FOG is more pronounced during turning, a complex task that challenges motor planning and execution. Here, we simulate this phenomenon using a computational model inspired by the cortico-basal ganglia circuitry, based on reinforcement learning (RL) principles. In the model, the agent was trained to learn a value profile while navigating a path that involved turning. To simulate PD conditions, we clamped the temporal difference (TD) error, typically associated with dopaminergic signaling. Our model results show that compared to healthy controls (HC), PD non-freezers and PD freezers exhibit a reduction in turning velocity and step length, alongside an attenuated compensatory step-width widening at the sharpest turn, more pronounced in PD freezers, who additionally show increased step time variability. These kinematic impairments worsen during tighter turns. Ultimately, this model implicates FOG as a problem of impaired estimation of value over space and could potentially represent a generalized deficit in gait impairments in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755546v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.755178",
+        "title": "Hypothalamic tauP301L pathology disrupts pair bonding in monogamous prairie voles",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-07",
+        "is_early_access": true,
+        "authors": [
+          "Kelberman, M. A.",
+          "Winther, K. E.",
+          "Ibrahiem, R. E.",
+          "Albregts, E. G.",
+          "Pardasani, M.",
+          "Watanabe, Y. L.",
+          "Donaldson, Z. R."
+        ],
+        "abstract": "Although dementias primarily affect memory, they also disrupt our closest social relationships, resulting in elevated caregiver burden and worse patient outcomes. However, the mechanistic study of how pathology affects social attachments is limited by the use of laboratory rodents that do not form selective, long-term bonds. Here, in monogamous prairie voles, we expressed dementia-causing tauP301L in the paraventricular hypothalamus of 12- and 18-month-old animals, and separately, from birth through 18-months, across hippocampocortical regions. Hippocampocortical expression of tauP301L did not yield deficits in social or non-social dementia-related phenotypes. In contrast, tauP301L expressed in the hypothalamus yielded sex- and age-dependent social bonding deficits. 18-month males with hypothalamic tau pathology failed to form bonds and displayed blunted sociability, effects that converged across bonding assays. In addition, healthy 18-month males paired with a hypothalamic tau-expressing female also showed reduced partner preference, suggesting that pathology exerts vicarious effects on partners. Social behavior of both healthy females and those expressing tauP301L were unaffected. 18-month tauP301L males also showed elevated oxytocin fluorescence. These findings establish direct and vicarious disruptions to pair bonding induced by hypothalamic tau pathology in male prairie voles, potentially via altered oxytocin signaling.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755178v1",
+        "reasons": [
+          "关键词『tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.05.02.651974",
+        "title": "Loss of age-associated increase in m6A-modified RNA contributes to GABAergic dysregulation in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-07",
+        "is_early_access": true,
+        "authors": [
+          "Libera, J. L.",
+          "Aw, J. T. M.",
+          "Hu, J.",
+          "Nguyen, T.-A.",
+          "Wang, Z.",
+          "van der Spek, S. J. F.",
+          "Schult, K.",
+          "Dorrian, L.",
+          "Majka, J.",
+          "Tobunluepop, K.",
+          "Puri, S.",
+          "Knyshov, A.",
+          "Rosa, J.-G.",
+          "Ma, Y.",
+          "Kanaan, N. M.",
+          "Nelson, P. T.",
+          "Meyer, K.",
+          "Hou, L.",
+          "TCW, J.",
+          "Zhang, X.",
+          "Wolozin, B."
+        ],
+        "abstract": "INTRODUCTION: Dysregulated RNA metabolism is a significant feature of Alzheimers disease (AD), yet how post-transcriptional RNA modifications like N6-methyladenosine (m6A) are altered in AD is unknown. METHODS: Here, we performed deamination adjacent to RNA modification targets (DART-seq) on human dorsolateral prefrontal cortices to assess changes in m6A with nucleotide resolution. RESULTS: In non-AD brains, m6A sites increased with age, predominantly within the 3UTR of transcripts encoding tripartite synapse proteins. In contrast, AD brains lost the age-associated m6A site increase and exhibited hypomethylation of transcripts overall, including MAPT. Hypomethylated genes were involved with GABAergic signaling, glutamate transport, and ubiquitin-mediated proteolysis exhibited reduced expression, connecting m6A to synaptic excitotoxicity and disrupted proteostasis in AD. Site-specific m6A levels were linked with GABRA1 expression and protein levels, but this relationship was abolished in AD. DISCUSSION: Our findings provide insight into post-transcriptional features of dysregulated RNA metabolism in AD that are related to aging and GABAergic regulation.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.05.02.651974v4",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.09.28.748989",
+        "title": "High-throughput serial two-photon tomography with BakingTray and BrainSaw",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-07",
+        "is_early_access": true,
+        "authors": [
+          "Campbell, R. A.",
+          "Anderson, K. I.",
+          "Ayaz, A.",
+          "Beaurepaire, E.",
+          "Blanc, H.",
+          "Blot, A.",
+          "Boffi, J. C.",
+          "Bonin, V.",
+          "Chan, H. H.",
+          "Clark, B.",
+          "Foustoukos, G.",
+          "Gordon, P.",
+          "Halpin, D.",
+          "Han, Y.",
+          "Häusser, M.",
+          "Hofer, S. B.",
+          "Johenning, F. W.",
+          "Junek, S.",
+          "Katsouri, L.",
+          "Krumin, M.",
+          "Mahou, P.",
+          "Margrie, T. W.",
+          "Philippon, A.",
+          "Plattner, V. M.",
+          "Polisseni, C.",
+          "Prudhomme, S.",
+          "Rajendran, R.",
+          "Townsend, S.",
+          "Vissers, N.",
+          "Vollrath, F.",
+          "Weiler, S."
+        ],
+        "abstract": "Volumetric imaging is increasingly important in fields such as neuroscience, where quantifying structure and mapping features are inherently three-dimensional problems. Block-face serial two-photon tomography (STPT) has emerged as a powerful approach for high-resolution, whole-organ volumetric imaging. STPT avoids complex sample preparation and balances image quality, speed, and scalability. However, STPT remains niche, in part because of the absence of flexible, general-purpose control software. Here we present BakingTray, an open-source software platform for STPT that extends ScanImage. BakingTrays modular framework accommodates diverse hardware configurations and allows users to build systems customised to their needs. Twelve such systems, which we call  BrainSaws, have been constructed worldwide since 2016, with more under construction, and have so far contributed to 35 research papers. The three systems at the Sainsbury Wellcome Centre alone have acquired over 7,000 samples in a busy multi-user facility. We demonstrate the platform across its core neuroscience applications: electrode track localisation, brain-wide cell counting, and bulk projection mapping. Beyond these, we map the cell-type-specific synaptic output of inhibitory neurons in the ventral lateral geniculate nucleus and, with whole-mount staining, amyloid plaques brain-wide in a mouse model of Alzheimers disease. BakingTray is a mature platform for groups or facilities needing a customised volumetric imaging solution, whether built new or converted cheaply from an existing two-photon microscope.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.748989v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      }
+    ],
     "特定课题组": [],
     "通讯作者订阅": []
   }
