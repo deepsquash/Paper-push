@@ -1,10 +1,124 @@
 {
-  "date": "2026-10-11",
-  "total": 3,
+  "date": "2026-10-12",
+  "total": 6,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.09.758065",
+        "title": "Cortical projection neurons exhibit early maturation defects and selective degeneration in a mouse model of spinal muscular atrophy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-11",
+        "is_early_access": true,
+        "authors": [
+          "Schellino, R.",
+          "La Rocca, F.",
+          "Iezzi, G.",
+          "Caretto, A.",
+          "Boido, M.",
+          "Vercelli, A."
+        ],
+        "abstract": "Spinal muscular atrophy (SMA) is usually considered a lower motor neuron disease; however, growing evidence from both experimental models and clinical studies indicates that SMN deficiency affects the whole CNS, beyond the spinal and brainstem motor system. Here, we investigated the temporal progression and selective vulnerability of cortical projection neurons in the SMN{Delta}7 mouse model at early (P5) and late (P11) symptomatic stages. Combining subtype-specific immunohistochemistry, DiI tracing associated with morphometric reconstruction, and dendritic spine analysis, we identified stage- and subtype-dependent cortical alterations. At P11, corticospinal and infragranular callosal projection neurons were selectively reduced in number and showed marked dendritic remodeling and altered excitatory synaptic organization, whereas corticothalamic neurons and supragranular SATB2-positive populations were comparatively preserved. Notably, cortical abnormalities were already detectable at P5, before overt neuronal loss: indeed, corticospinal neurons exhibited reduced soma size and dendritic complexity, while dendritic spine density remained preserved, but spine morphology was shifted toward immature phenotypes. These early maturation defects persisted during disease progression and preceded the reduction in spine density observed at P11. Together, our findings identify cortical projection neurons as selectively vulnerable to constitutive SMN deficiency and suggest that impaired neuronal and synaptic maturation represents an early feature of cortical pathology preceding subtype-specific neurodegeneration. These results expand the pathophysiological spectrum of SMA beyond lower motor neurons and highlight early brain alterations as a potential component of disease progression.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758065v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.08.757728",
+        "title": "A large, comprehensive labeled MRI dataset of the human lateral ventricle choroid plexus",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-11",
+        "is_early_access": true,
+        "authors": [
+          "Huang, L.-Y.",
+          "Zeng, V.",
+          "Raymond, N.",
+          "Stiltner, B.",
+          "Molho, W.",
+          "Cao, Y.",
+          "Bannai, D.",
+          "Ying, D.",
+          "Oss, E.",
+          "Dhunna, D. P.",
+          "Patel, P.",
+          "Adesokan, A.",
+          "Hricay, M.",
+          "Lyons, V.",
+          "Tolentino, N.",
+          "Keshavan, M. S.",
+          "Fried, P.",
+          "Jammoul, M.",
+          "Kuegler, D.",
+          "Estrada, S.",
+          "Reuter, M.",
+          "Lizano, P."
+        ],
+        "abstract": "The choroid plexus (ChP) is a highly vascularized structure located in the brain ventricles that plays important roles in multiple central nervous system functions. ChP enlargement has been implicated in many neuropsychiatric conditions such as multiple sclerosis, depression, schizophrenia, and Alzheimer's disease. However, limitation in the accuracy of the current segmentation tools highlight the need for more reliable methods to quantify ChP volume in healthy and clinical human populations. The shape and size of the ChP vary drastically from person to person, and currently there are no large ChP datasets which allow comprehensive training of segmentation models. Here we introduce DataPlex, a collection of 700 structural MRI brain images where the lateral ventricle ChP has been manually labeled and checked by expert human raters. DataPlex is balanced and representative across a wide range of scanning parameters, demographics, and clinical profiles, and subject-level information will be available for each labeled image. DataPlex will be open source to support the creation of reliable segmentation tools for the human lateral ventricle ChP.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757728v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.03.756367",
+        "title": "Continuous amyloid staging complements global amyloid burden in early Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-11",
+        "is_early_access": true,
+        "authors": [
+          "Liu, H.",
+          "Tong, M.",
+          "Fang, S.",
+          "Mormino, E. C.",
+          "Sperling, R. A.",
+          "Aisen, P.",
+          "Buckley, R.",
+          "Crane, P.",
+          "Hohman, T. J.",
+          "Saykin, A. J.",
+          "Yan, J.",
+          "For the Alzheimers Disease Neuroimaging Initiative,"
+        ],
+        "abstract": "Introduction: Early Alzheimer's disease (AD) staging remains challenging because clinical categories and global amyloid PET measures provide only coarse characterization of disease progression. We developed a continuous amyloid staging score from regional amyloid PET to complement global amyloid burden. Methods: Using longitudinal florbetapir PET from the Alzheimer's Disease Neuroimaging Initiative (ADNI), we trained an end-to-end deep learning model to directly estimate a continuous amyloid staging score. We evaluated longitudinal consistency, its relationship with global amyloid burden, regional contributors to early-stage variation, and whether the staging score stratified subsequent memory decline among participants matched for baseline global amyloid burden. Cognitive analyses were replicated in A4+LEARN. Results: The staging score better preserved longitudinal visit order than existing amyloid staging approaches. During early disease stages, it captured regional amyloid variation despite relatively stable global amyloid burden. Among participants with similar baseline global amyloid burden, higher staging scores were associated with faster subsequent memory decline in both ADNI and A4+LEARN. Discussion: A continuous amyloid staging score complements global amyloid burden for early AD staging and cognitive risk stratification. Keywords: Alzheimer's disease; amyloid PET; disease staging; cognitive decline",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756367v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.06.757136",
+        "title": "Autonomic neurons are intrinsically hyperexcitable in a Friedreich ataxia iPSC model",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-11",
+        "is_early_access": true,
+        "authors": [
+          "(Max), S. L.",
+          "Lees, J.",
+          "Zhang, H.",
+          "Li, L.",
+          "Dottori, M.",
+          "Pebay, A.",
+          "Corben, L.",
+          "Delatycki, M.",
+          "Wilcox, S.",
+          "Pullin, J.",
+          "Choi, J.",
+          "McCarthy, D.",
+          "Napierala, J.",
+          "Napierala, M."
+        ],
+        "abstract": "Friedreich ataxia (FRDA) is an inherited multisystem disorder caused by a GAA repeat expansion in the FXN gene and consequent frataxin deficiency, causing progressive neurodegeneration and heart disease. Clinical studies have documented autonomic dysfunction in FRDA, including elevated resting heart rate, raised plasma catecholamines and a high burden of urinary, bowel and sexual symptoms. Consistent with this, autopsy studies show degeneration of the cardiac conduction system and its associated ganglia in FRDA. Whether these features are intrinsic to FRDA autonomic neurons has been untestable without a human cellular model. Here, a human model of FRDA autonomic neurons was established by differentiating induced pluripotent stem cells (iPSCs) from individuals with FRDA and from their CRISPR/Cas9-corrected isogenic controls. FRDA autonomic neurons expressed canonical autonomic lineage markers and retained reduced FXN mRNA and frataxin protein levels. Electrophysiological analysis revealed pronounced hyperexcitability, with an approximately five-fold increase in spike number, shortened interspike intervals, and longer bursts. FRDA autonomic neurons also exhibited increased cell death, elevated mitochondrial reactive oxygen species, and a shift from networked to tubular mitochondrial morphology. Bulk RNA sequencing of all three isogenic pairs revealed loss of extracellular matrix programs and activation of stress response pathways. The top differentially expressed gene was MEG3, a maternally imprinted long noncoding RNA, which was consistently upregulated across all three isogenic pairs. MEG3 sits within the imprinted 14q32 DLK1-DIO3 locus, whose maternally expressed noncoding transcripts were co-ordinately de-repressed in FRDA autonomic neurons. Competitive gene-set testing of 43 imprinted genes across 20 domains showed this to be specific to 14q32: no other imprinted domain was co-ordinately altered. Together, these findings establish hyperexcitability of autonomic n",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757136v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.02.756339",
         "title": "ASC specks and α-synuclein amplify microglial NLRP3 inflammasome activation and co-localize with Lewy body pathology",
@@ -46,36 +160,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756349v1",
         "reasons": [
           "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.08.755254",
-        "title": "Encephalitic alphavirus infection reduces neurite outgrowth and downregulates Rho GTPase pathways in human iPSC-derived neurospheres",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-09",
-        "is_early_access": true,
-        "authors": [
-          "Cirksena, K.",
-          "Haiber, L. M.",
-          "Kuehne, B. A.",
-          "Hupfeld, J.",
-          "Duven, M.",
-          "Fischer, A.",
-          "Schenke, M.",
-          "Richter, F.",
-          "Weiss, S.",
-          "Altenbuchinger, M. C.",
-          "Seifert, N.",
-          "Zacharias, H. U.",
-          "Konzok, S.",
-          "Seeger, B.",
-          "Gerold, G."
-        ],
-        "abstract": "Venezuelan equine encephalitis virus (VEEV) is a re-emerging neurotropic arbovirus, which affects the developing human brain, potentially leading to miscarriage, stillbirth, or long-term neurological sequelae. Currently, the mechanisms underlying these sequelae remain largely elusive. Using human induced pluripotent stem cell (iPSC)-derived neurospheres as a model for brain development, we show that both human neurons and glial cells are susceptible to VEEV infection. Microscopy-based quantification reveals that VEEV impairs neurite outgrowth in the human neurospheres. To mechanistically assess these observations, we performed multi-omics analyses of VEEV-infected neurospheres and demonstrate translational shutoff including downregulation of Rho GTPase pathways. The transcriptional and proteome profile is indicative of reduced actin cytoskeleton dynamics and consequently migratory defects of cells in the neurospheres. Shotgun secretomics moreover revealed downmodulation of neurite outgrowth associated proteins including midkine (MDK), amyloid-beta precursor protein (APP) and microtubule-associated protein 1B (MAP1B). Our findings reveal mechanistic insights into how VEEV infection impairs neuronal development and demonstrate that neurospheres are a powerful platform for assessing teratogenic effects of viruses on brain development.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.755254v1",
-        "reasons": [
-          "关键词『amyloid』(命中abstract)"
         ],
         "is_new": true
       }
