@@ -1,10 +1,99 @@
 {
-  "date": "2026-10-12",
-  "total": 6,
+  "date": "2026-10-13",
+  "total": 8,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.06.757209",
+        "title": "Astrocyte-Specific dsRNA-ADAR1 Signalling Links Innate Immunity to Complement Activation in Parkinson Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-12",
+        "is_early_access": true,
+        "authors": [
+          "Liu, Y.",
+          "Halliday, G.",
+          "Fu, Y."
+        ],
+        "abstract": "Background: Dysregulated innate immune activation is a key feature of Parkinson disease (PD), but the upstream triggers and cell-type-specific mechanisms remain unclear. Double-stranded RNA (dsRNA) has emerged as a potential driver of innate immune responses. Adenosine deaminase acting on RNA 1 (ADAR1), particularly its interferon-inducible p150 isoform, edits dsRNA to limit aberrant immune activation. Whether this dsRNA-ADAR1 axis contributes to neuroinflammation in PD in a cell-type-specific manner is unknown. Methods: We performed immunofluorescence on post-mortem cingulate cortex tissue from PD cases and controls to localise dsRNA, ADAR1 p150 and pathological alpha-synuclein protein. We integrated these findings with single-nucleus RNA sequencing data from three independent human brain datasets. An eight-module gene scoring framework was applied to assess dsRNA processing, sensing, and downstream innate immune pathways in neurons and astrocytes. Results: In PD cortex, the proportion of dsRNA-positive astrocytes was higher than in controls, whereas neuronal dsRNA positivity did not differ between groups. ADAR1 p150 positivity increased in both astrocytes and neurons, and the proportion of ADAR1 p150 positive astrocytes correlated with astrocytic -synuclein burden. Transcriptomic analyses showed that neurons were enriched for dsRNA editing and processing machinery, whereas astrocytes exhibited higher expression of dsRNA sensing pathways, innate immune responses, and transposable element control. While overall pathway activity did not differ between PD and controls after covariate adjustment, network analyses revealed cell-type-specific coupling patterns. Notably, complement gene expression showed a strong and selective association with dsRNA-related pathways in astrocytes, whereas interferon and NF-{kappa}B signalling were shared across cell types. In both cell types, ADAR1-associated gene programmes were enriched for oxidative phosphorylation and PD-related pathw",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757209v1",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.05.756178",
+        "title": "Single Cell Proteomics reveals partial uncoupling of the Glycerol-3-Phosphate shuttle to compensate for Electron Transport Chain dysfunction in Alexander Disease GFAP mutations",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-12",
+        "is_early_access": true,
+        "authors": [
+          "van Gelder, C. A.",
+          "Daoutsali, E.",
+          "Attour, Y.",
+          "El Baghdadi, S.",
+          "Sobrevals Alcaraz, P.",
+          "van Es, R. M.",
+          "Gulersonmez, C.",
+          "Stigter, E. C.",
+          "Vos, H. R.",
+          "Hol, E. M.",
+          "Burgering, B. M."
+        ],
+        "abstract": "Alexander disease (AxD) is a rare genetic leukodystrophy caused by dominant mutations in the gene coding for the astrocytic intermediate filament protein Glial Fibrillary Acidic Protein (GFAP). Understanding disease mechanisms is complicated by the fact that mutant GFAP promotes further GFAP accumulation, making it difficult to distinguish mutation-specific effects from those caused by elevated GFAP levels. Here, we performed mass spectrometry-based single cell proteomics to investigate proteomic alterations associated with increasing levels of wildtype GFAP and a common AxD-causing mutant GFAP R239C. By analyzing individual cells spanning a broad range of GFAP expression levels, we separated dosage-dependent effects from mutation-specific responses. Cells expressing high levels of wildtype GFAP increasingly resembled R239C-expressing cells at the proteomic level, supporting a role for GFAP accumulation in disease pathogenesis. In contrast, mutant GFAP specifically correlated with increased mitochondrial antioxidant enzymes and remodeling of the proteasome tailored toward ATP- and ubiquitin-independent degradation of oxidized proteins. Integration with proteomics data from patient-derived cortical organoids revealed increased abundance of nuclear-encoded mitochondrial proteins and respiratory chain assembly factors without corresponding changes in mitochondrially encoded proteins, suggesting impaired electron transport chain (ETC) assembly. Consistent with this, AxD cells displayed reduced oxygen consumption, increased glycolytic activity, enhanced utilization of the cytosolic part of the glycerol-3-phosphate (G3P) shuttle, and accumulation of triacylglycerides and lipid droplets. We propose that ETC dysfunction promotes partial uncoupling of the G3P shuttle, allowing sustained regeneration of cytosolic NAD to support glycolysis while diverting G3P toward lipid synthesis and storage. By regenerating NAD through the G3P shuttle rather than lactate fermentation, AxD a",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756178v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.11.758371",
+        "title": "5-HT1A Antagonist WAY-100635 Prevents Chronic Neurodegeneration and Immune Activation After TBI",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-12",
+        "is_early_access": true,
+        "authors": [
+          "Das, A.",
+          "Dutta, S.",
+          "Pradhan, L. K.",
+          "Chen, J.",
+          "Wang, N.",
+          "Gao, X."
+        ],
+        "abstract": "Traumatic brain injury (TBI) initiates secondary neurodegeneration that compromises interconnected neural circuits and contributes to persistent visual and neurobehavioral impairment. Pharmacological strategies that preserve vulnerable neurons and synapses while limiting chronic neuroinflammation remain an unmet therapeutic need. We previously identified the serotonin 1A receptor (5-HT1A) antagonist WAY-100635 through screening human stem cell-derived retinal ganglion cells (RGCs) and demonstrated that it promotes neuroprotection through cyclic adenosine monophosphate-dependent mitochondrial biogenesis. Here, we investigated whether post-injury treatment extends this neuroprotective efficacy to cerebral and visual circuitry following TBI. Male C57BL/6J mice aged 2-3 months underwent unilateral controlled cortical impact (CCI) involving the left visual cortex. Mice were randomly assigned to sham, untreated injury or treated injury groups, with 3-10 sham controls and 5-8 mice per injury group across experiments. WAY-100635 was administered intraperitoneally at 5 mg/kg daily, beginning 1 hour after injury and continuing for 6 weeks. Therapeutic efficacy was assessed using motor and psychological-health-relevant risk-taking/behavioral disinhibition by elevated-plus-maze assessment, visual electrophysiology, optokinetic responses, diffusion magnetic resonance imaging, and retinal and cortical histopathology. Unilateral cortical injury produced bilateral RGC dysfunction and loss, with greater degeneration in the eye contralateral to the injured hemisphere, consistent with predominantly crossed murine visual projections. WAY-100635 significantly preserved RGC survival and function, improved visual acuity and contrast sensitivity, and preserved visually evoked cortical responses to contralateral eye stimulation. Diffusion MRI revealed bilateral visual pathway abnormalities, with treatment selectively normalizing fractional anisotropy and radial kurtosis in the optic tract i",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758371v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.08.757653",
+        "title": "A rapid, genetically-tractable human iPSC-derived model for studying tissue-resident macrophage biology in Alzheimer's and other diseases",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-12",
+        "is_early_access": true,
+        "authors": [
+          "Lee, H.",
+          "Peppler, G. B.",
+          "Sewell, M.",
+          "Münch, A.",
+          "Podlesny-Drabiniok, A.",
+          "Kim, J. J.",
+          "Orrick, J.",
+          "Marcora, E.",
+          "Goate, A. M."
+        ],
+        "abstract": "Large-scale genetic and preclinical studies strongly implicate myeloid cells, particularly brain-resident macrophages, in the pathogenesis of Alzheimer's disease (AD). Efferocytic clearance of apoptotic cells and other cholesterol-rich cellular debris is a core macrophage function and represents an active area of AD research. However, human tissue-resident macrophages remain difficult to model in vitro as they acquire their transcriptional and functional identities in response to signals from their host tissue microenvironment. Many existing differentiation protocols mimic human brain macrophage developmental trajectories, but these protocols rely either on multi-step cytokine cocktails and lengthy differentiation or transduction of multiple transcription factors, both of which introduce variability and complicate genetic manipulation. To address these limitations, we developed a simplified protocol that generates high-purity (>90% CD45+CD11b+) human iPSC-derived macrophage-like cells (iMacs) from cryopreservable erythro-myeloid progenitor (EMP)-like intermediates in 19 days, including a final 7-day maturation step driven by macrophage colony-stimulating factor (M-CSF) alone. Transcriptomic profiling reveals that iMacs show enrichment for phagocytic and lysosomal programs, processes integral to efferocytosis. At both the transcriptional and protein level, iMacs have higher expression of scavenger receptors such as CD36, CD163 and MRC1, and of AD risk genes such as TREM2. Functionally, iMacs show enhanced phagocytic uptake of diverse substrates relative to iPSC-derived microglia, including carboxylated latex beads, zymosan, amyloid-{beta} 1-42, and amyloid-{beta} 1-40, and exhibit expanded lysosomal mass. Robust TREM2 expression and signaling make iMacs a sensitive platform for interrogating TREM2 biology, with markedly higher phosphorylation of SYK and PLC{gamma}2 in response to TREM2 engagement compared to iPSC-derived microglia. iMacs also tolerate lipid-mediated ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757653v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.09.758065",
         "title": "Cortical projection neurons exhibit early maturation defects and selective degeneration in a mouse model of spinal muscular atrophy",
@@ -116,50 +205,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757136v1",
         "reasons": [
           "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.02.756339",
-        "title": "ASC specks and α-synuclein amplify microglial NLRP3 inflammasome activation and co-localize with Lewy body pathology",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-10",
-        "is_early_access": true,
-        "authors": [
-          "Thakur, K.",
-          "Peladeau, C.",
-          "Hewitt, M.",
-          "Baumann, K.",
-          "Cai, D.",
-          "Woulfe, J. M.",
-          "Tomlinson, J. T.",
-          "Schlossmacher, M. G.",
-          "Sandhu, J. K."
-        ],
-        "abstract": "Neuroinflammation is a hallmark of several chronic neurodegenerative disorders, including Parkinson's disease (PD) and other synucleinopathies, and is closely associated with microglial activation. The inflammasome adaptor protein apoptosis-associated speck-like protein containing a caspase activation and recruitment domain (ASC) undergoes oligomerization upon inflammasome activation, resulting in the formation of ASC specks. These structures are recognized by microglia as damage-associated molecular patterns (DAMPs), thereby promoting inflammatory signaling. Recent studies have demonstrated that extracellular ASC specks associate with amyloid-{beta} (A{beta}), and that uptake of ASC-A{beta} composites by microglia amplifies pro-inflammatory responses. Although ASC specks have also been shown to potentiate -synuclein (Syn) preformed fibril-induced pathology, their interaction with monomeric Syn and their effects on inflammasome activation remain poorly understood. Here, we co-stimulated murine SIM-A9 microglia with ASC-Syn assemblies and evaluated their effects on NLRP3 inflammasome activation. Electron microscopy revealed a close association between ASC fibrils and Syn monomers. Exposure of microglia to ASC-Syn enhanced NLRP3 inflammasome activation, as evidenced by increased ASC speck formation, caspase-1 activation, and secretion of IL-1{beta} and IL-18, when compared to ASC or Syn alone. In addition, immunohistochemical analyses of post mortem brain tissue from patients with dementia with Lewy bodies demonstrated ASC expression in regions exhibiting Syn pathology and showed ASC co-localization with Syn within Lewy bodies. Collectively, these findings identify ASC-Syn assemblies as potent amplifiers of NLRP3 inflammasome signaling and suggest a mechanism through which they may contribute to sustained neuroinflammation in synucleinopathies.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756339v1",
-        "reasons": [
-          "关键词『Parkinson、amyloid』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.02.756349",
-        "title": "A Bayesian approach to volumetric analysis in rare neurodegenerative disorders",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-10",
-        "is_early_access": true,
-        "authors": [
-          "Ho, S. Y. S.",
-          "Schmidt, T. V.",
-          "Ghosh, B.",
-          "Rowe, J.",
-          "Rittman, T."
-        ],
-        "abstract": "Identifying regional brain atrophy is critical for understanding neurodegenerative disorders. Traditionally, group comparisons rely on frequentist statistics, utilising $p$-values and point estimates that offer limited characterization of uncertainty. Bayesian methods provide an alternative by estimating effect sizes and credible intervals while incorporating prior knowledge and uncertainty. This study evaluated the feasibility of Bayesian hierarchical modelling to assess regional brain atrophy in Progressive Supranuclear Palsy (PSP) and Corticobasal Syndrome (CBS) compared to healthy controls. Participants meeting diagnostic criteria for CBS or PSP, together with healthy controls, were recruited from the Cambridge Centre for Parkinson-plus. Grey matter volume, cortical thickness, and subcortical volumes were derived using FreeSurfer for 210 cortical and 36 subcortical regions defined by the Human Brainnetome Atlas. Participants with PSP were classified into Richardson syndrome (PSP-RS), corticobasal syndrome variant (PSP-CBS), frontal variant (PSP-F), and other presentations (PSP-Other). Bayesian hierarchical ANOVA models with appropriate priors were used to estimate group differences. Regions of practical equivalence (ROPE) were calculated to assess evidence of meaningful group effects. A total of 428 people were included (113 PSP-RS, 30 PSP-CBS, 23 PSP-Other, 19 PSP-F, 81 CBS, and 162 healthy controls). For grey matter volume, there was evidence of whole brain volume loss compared to controls for all disease groups except PSP-Other, which showed evidence of no difference. For cortical thickness, there was evidence of global cortical thinning in CBS compared to controls, but for no other group. For subcortical volume all groups showed evidence of volume loss compared to controls. Patterns of regional atrophy were identified in keeping with previous literature, with the largest effect observed in the left pre-motor thalamus (30\\% reduction in CBS). There was greate",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756349v1",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
         ],
         "is_new": true
       }
