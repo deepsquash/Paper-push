@@ -1,10 +1,134 @@
 {
-  "date": "2026-10-16",
-  "total": 14,
+  "date": "2026-10-17",
+  "total": 11,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.14.759167",
+        "title": "Sex- and age-dependent control of dopamine function by LRRK2, and rapid reversal of dopamine release deficits in the LRRK2-G2019S knock-in mouse model of Parkinson's Disease.",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-16",
+        "is_early_access": true,
+        "authors": [
+          "Gentle, C.",
+          "Kamesh, A.",
+          "Madranges, J. F.",
+          "Coady, S.",
+          "Vieira, B. F. J.",
+          "Ribeiro, C. T.",
+          "McClean, S.",
+          "Kuhlmann, N.",
+          "Khayachi, A.",
+          "Pietrantonio, A.",
+          "Moulanier, L.",
+          "Cohen, E.",
+          "Farrer, M. J.",
+          "Parsons, M.",
+          "Milnerwood, A."
+        ],
+        "abstract": "No disease-modifying therapy exists for Parkinson's disease (PD). At diagnosis (~65y), ~70% of nigrostriatal dopamine (DA) axons may have degenerated, so identifying when and how striatal axon function declines is critical. LRRK2 hyperactivity is observed in LRRK2 and VPS35 familial cases, and also idiopathic PD. Thus suggests LRRK2 hyperfunction is a common pathophysiological feature of PD. LRRK2 inhibitors are currently in human trials, yet their effects on brain circuit function are poorly characterized. By optical imaging of iGluSnFR and dLight we measured striatal glutamate and DA release in WT, LRRK2 G2019S (LKI) and VPS35 D620N (VKI) knock-in mice, across adult ages and sexes, with and without LRRK2 inhibition. In WT mice, ongoing LRRK2 activity regulated DA release in an age- and sex-dependent manner. Acute inhibition reversed basal sex differences in striatal glutamate and DA release in aged mice, and potentiated DA release more in middle-aged females than males. In LKI mice, DA release declined progressively, first in males, then females, after maturation to full adulthood, and remained impaired in very old LKI and VKI mice. Release deficits in aged LKI and VKI mice were resistant to acute LRRK2 inhibition, but 2h inhibition rapidly reversed deficits in middle-aged LKI males and females. We conclude that LRRK2 activity, and inhibition effects, depend on age, sex, and genotype, with direct implications for the design and timing of current LRRK2 inhibitor clinical trials for PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759167v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.15.759510",
+        "title": "Understanding Performance Plateaus and Representation Collapse in 3D MRI Transformers Trained to Classify Brain Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-16",
+        "is_early_access": true,
+        "authors": [
+          "Chattopadhyay, T.",
+          "Shelar, K.",
+          "Thomopoulos, S. I.",
+          "Thompson, P. M."
+        ],
+        "abstract": "In medical imaging AI, we commonly assume that diagnostic classifiers will increase in accuracy if they are trained on more data, but in reality, their performance often plateaus. To understand this behavior, we ran a spectral analysis of 3D vision transformers, a common supervised deep learning model that can be trained to classify disease based on 3D brain MRI. For simpler classification methods such as linear discriminant analysis, the classifier performance AUC(N), when trained on a sample of size N, is known to depend on the encoder's eigenspectrum. Each class-discriminative direction in the latent space contributes only after the sample size N reaches a threshold, so the spectrum influences how performance scales with training data. Building on this theory, we show that supervised transformers compress almost all of their discriminative signal into one principal component (EVR@1 = 0.90--0.96): after this representation collapse happens, no further directions cross the threshold as training data increases, and accuracy plateaus. In principle, this plateau in performance could be due to either the encoder's learned feature space or the difficulty of the task. To distinguish these cases, we trained three types of supervised 3D transformers (ViT3D, MINiT, NIT) and, as a non-collapsing alternative, a frozen self-supervised encoder (DINO), to classify people with dementia or mild cognitive impairment (MCI) versus cognitively normal (CN) individuals from 3D brain MRI, using data from the Alzheimer's Disease Neuroimaging Initiative (ADNI). We froze each encoder and applied it to a new task, so that only the task difficulty varied. An easy task encoder (Dementia vs CN), transferred to the harder task (MCI vs CN), did not reproduce the plateau (MINiT threshold 9.2), but full retraining did (2758.5). The plateau is therefore due to the learned encoder, rather than task difficulty. Ranking the feature directions by the proportion of the disease signal they contain, we wer",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759510v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.09.757981",
+        "title": "Depth-Dependent Alterations in Cerebral Blood and Tissue Oxygenation Associated with Tau in Alzheimer's Disease Models",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-16",
+        "is_early_access": true,
+        "authors": [
+          "Ruiz-Uribe, N. E.",
+          "Alfadhel, M.",
+          "Wolf, N.",
+          "Murray, S. E.",
+          "Gross, E.",
+          "Devine, A.",
+          "Shaby, D. G.",
+          "Belali, S.",
+          "Vinogradov, S. A.",
+          "Zwang, T. J.",
+          "Thunemann, M.",
+          "Sakadzic, S.",
+          "Bennett, R. E."
+        ],
+        "abstract": "Vascular dysfunction is an increasingly recognized feature of Alzheimer's disease, and inadequate oxygen delivery may contribute to neuronal death. However, how cerebral oxygenation relates to neuronal pathology remains unclear. Here, we used two-photon phosphorescence lifetime microscopy with Oxyphor2P to measure intravascular and tissue partial pressure of oxygen (pO2) at 0, 100 and 200 um cortical depth in awake rTg4510 and THY-Tau22 mice. Relative to WT, capillary and venular pO2 in rTg4510 mice were elevated at 6 months but reduced at 9 months, mainly in deeper layers, with increased oxygen extraction fraction. Suppressing the tau transgene with doxycycline for three months did not restore vascular pO2. THY-Tau22 mice, despite limited tangle pathology, showed even greater reductions in capillary pO2 at every depth. In 6-month-old rTg4510 mice, tissue pO2 trended lower than in WT, and the fraction of low pO2 values (< 18 mmHg) increased with depth, reaching 33% at 200 um versus 4% in WT. Labeling neurofibrillary tangles with the tau-binding dye HS84 revealed significantly lower tissue pO2 in tangle-positive areas at 100 and 200 um. Longitudinal imaging of 2,282 neurons showed that disappearing neurons were not located in relatively hypoxic tissue within an animal. Finally, ex vivo immunostaining revealed neuronal loss and increased astrogliosis in rTg4510 mice, with unchanged vascular architecture. These results indicate that tau disrupts cerebrovascular and tissue oxygenation in a depth- and age-dependent manner, and that neuronal loss is not explained by a neuron's local oxygen microenvironment but may reflect a global reduction in cortical oxygenation.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757981v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.13.759023",
+        "title": "When longevity becomes chemistry: Why rodent brains lack neuromelanin",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-16",
+        "is_early_access": true,
+        "authors": [
+          "Canales, C.",
+          "Ilarduya, M. M.",
+          "Chocarro, J.",
+          "Rico, A. J.",
+          "Gariznabarreta, G.",
+          "Lorenzo-Ramos, E.",
+          "Carbonell, D.",
+          "Sumbera, R.",
+          "Okrouhlik, J.",
+          "Ruiz-Molina, D.",
+          "Lanciego, J. L."
+        ],
+        "abstract": "Background: The biology of neuromelanin (NMel) is linked to Parkinson's disease, in which pigment accumulation and release contribute to dopaminergic cell loss. Rodent brains lack detectable levels of NMel, despite possessing the molecular machinery required for its synthesis. The basis for this absence remains unknown. Objectives: To determine whether long-living rodents accumulate NMel and to test whether lifespan constraints explain the lack of pigmentation in mice and rats. Methods: Histological stains were conducted in brain samples of mole rats of different ages to disclose the potential pigmentation of catecholaminergic centers and to determine the chemical phenotype of pigmented neurons. Results: Mole rats exhibited clear age-dependent NMel accumulation beginning after two years of age, with the highest pigmentation levels observed in neurons of the locus coeruleus. Conclusions: Accumulation of NMel is a slow kinetic process that requires extended longevity. Common laboratory rodents lack pigmented brains simply because they do not live long enough to reach detectable NMel levels.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.759023v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.12.758491",
+        "title": "Progressive neurodegeneration of the locus coeruleus drives rapid eye movement sleep fragmentation",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-16",
+        "is_early_access": true,
+        "authors": [
+          "Zelinger, N.",
+          "Regev, N.",
+          "Burian, E.",
+          "Kimchy, U.",
+          "Gabay, N.",
+          "Nir, Y."
+        ],
+        "abstract": "Sleep disturbances are common early features of neurodegenerative disorders such as Alzheimer's disease (AD) and Parkinson's disease (PD). AD progression is also characterized by early and substantial degeneration of the noradrenergic locus coeruleus (LC), beginning with tau pathology and progressing to major neuronal loss. Although LC degeneration and sleep disruption progress in parallel, whether LC degeneration causally contributes to sleep abnormalities, and which sleep changes are associated with this process, remain unresolved. Human studies are largely correlative, while existing rodent models poorly reproduce progressive LC degeneration. Here, we employed progressive Caspase-3 (Casp3)-mediated LC ablation, with longitudinal sleep and calcium fiber photometry to monitor LC activity across defined stages of degeneration in adult female DBH-Cre mice. Histological analysis demonstrated graded, time-dependent LC degeneration, yielding mild degeneration (~25% neuronal loss) by day 8 post Casp3 injection and moderate degeneration (~50% loss) by day 18. Relative to baseline and to control mice, LC degeneration led to REM sleep fragmentation, emerging already at the mild degeneration stage. By the moderate stage, total REM sleep during light hours had significantly increased, while EEG theta power during REM sleep progressively declined across all stages of degeneration. Degeneration also blunted state-dependent LC calcium activity, significantly reducing the contrast between wakefulness and REM signal. Together, these results establish Casp3-mediated ablation as a model of progressive LC neurodegeneration and identify REM fragmentation and blunted state-dependent LC activity as its early functional signatures, providing a platform for studying how degeneration of neuromodulatory systems shapes sleep in a neurodegenerative disease-like state.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758491v1",
+        "reasons": [
+          "关键词『Alzheimer、Parkinson、tau、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.07.757306",
         "title": "Decoupling of spontaneous and evoked activity in locus coeruleus neurons: early synaptic and ion-channel remodeling in a mouse model of Alzheimer's disease",
@@ -177,205 +301,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757683v1",
         "reasons": [
           "关键词『Parkinson、alpha-synuclein』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.13.755334",
-        "title": "Temporal RNA splicing dysregulation in a human multicellular model of C9orf72 ALS",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Aliya, B.",
-          "Liu, S.",
-          "Mansfield, A.",
-          "Yao, S. X.",
-          "Mouhi, S.",
-          "Wariyar, S. S.",
-          "Tenkorang, J. S.",
-          "Smith, N. E.",
-          "Chung, M.",
-          "Yu, A. J. R.",
-          "Pio, T.",
-          "Smith, N. E. J.",
-          "Zhu, S. H.",
-          "Trautwig, A. N.",
-          "Parameswaran, J.",
-          "Yin, L.",
-          "Watson, C. M.",
-          "Brain Organoid Hub,",
-          "Jiang, J.",
-          "Seyfried, N. T.",
-          "McEachin, Z. T.",
-          "Yao, B.",
-          "Andersen, J."
-        ],
-        "abstract": "Amyotrophic lateral sclerosis (ALS) is a complex and heterogenous disease, comprising of familial and sporadic forms, numerous genetic mutations, and a wide range of affected cell types and proposed dysregulated processes. While the usage of in vitro cell cultures, mouse models, and postmortem patient tissue have advanced our understanding of ALS disease mechanisms, the temporal progression of the disease and how early molecular changes evolve remain poorly understood. Here, we establish human spinal cord organoids (hSpO) derived from C9orf72 patient induced pluripotent stem cells (C9-ALS hiPSCs) as a platform to model longitudinal changes across the disease trajectory. We show that C9-ALS hSpO recapitulate hallmark C9orf72-related pathologies, increased cell death, and progressive neuronal dysfunction. We further identify RNA splicing dysregulation as an early and persistent feature of C9-ALS, with splicing signatures in hSpO closely mirroring those observed in postmortem patient tissue. Finally, prediction of RNA binding proteins (RBPs) that induce early splicing changes in C9-ALS reveals signatures consistent with a broad RBP network dysfunction. Together, this work establishes hSpO as an in vitro system for investigating early disease mechanisms of ALS in a human multicellular context and highlights dysregulated events that precede cell death.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.755334v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.13.758947",
-        "title": "Endothelial CD36 links arteriolar remodeling to metabolic and immune alterations in Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Kumar, A.",
-          "Zhang, J.",
-          "Harvey, J.",
-          "Guenter, R.",
-          "Chkheidze, R.",
-          "Sethu, P.",
-          "Beck, A. W.",
-          "Ren, B."
-        ],
-        "abstract": "Alzheimer's disease (AD) is accompanied by profound cerebrovascular dysfunction, yet it remains unclear whether endothelial abnormalities reflect only vascular injury or altered regulatory states connecting vascular remodeling with metabolic and immune function. We integrated human brain transcriptomic and histopathological data with complementary mouse genetic and human iPSC-derived endothelial models to examine a CD36-centered endothelial-state framework in AD. Analysis of the Seattle Alzheimer's Disease Brain Cell Atlas identified three CD36-expressing endothelial populations; intermediate-CD36 Endo 2 predominated in both reference and AD samples, although the relative subset distributions differed. In hippocampal and cortical tissue from six AD patients, endothelial CD36 expression was observed in structurally abnormal arterioles with disrupted mural organization. In complementary mouse studies, endothelial PKD1 deficiency was accompanied by increased vascular CD36 and cerebrovascular abnormalities, whereas endothelial CD36 deletion altered lipid-metabolic and innate-immune-associated transcriptional programs, including AD-relevant genes and pathways, under metabolic-inflammatory stress. To assess whether distinct human endothelial backgrounds remained pharmacologically responsive, we treated control and CRISPR-engineered PSEN1 E276A iPSC-derived ECs with GS4898, a small molecule previously linked to arterial specification. Both maintained endothelial identity but displayed different baseline transcriptional profiles and shared as well as cell-line-dependent responses to GS4898. Together, our study identifies a CD36-associated vascular phenotype in human AD, demonstrates CD36-dependent regulation of brain endothelial metabolic-immune transcriptional programs in vivo, and reveals endothelial transcriptional responsiveness to pharmacologic perturbation. The observed endothelial transcriptional plasticity may provide a basis for developing state-selective therapeut",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758947v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.06.757182",
-        "title": "The modulatory effects of Hericium erinaceus and donepezil on amyloid accumulation and autophagy-associated clearance in Aβ1-42-induced N2a cells",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Moselakgomo, N.",
-          "Mthethwa, W. S.",
-          "Kemp, G.",
-          "Gryzenhout, M.",
-          "Van Zyl, S.",
-          "Ntsapi-Combrink, C."
-        ],
-        "abstract": "Background and objective: Alzheimers disease involves imbalanced amyloid-{beta} (A {beta}) production and clearance, supporting investigation of adjuncts to symptomatic treatment. This study evaluated whether methanolic Hericium erinaceus extract could support recovery after A{beta}1-42-induced injury, alone and with donepezil, through modulation of {beta}-secretase (BACE1) activity or autophagy-associated clearance. Methods: Extract composition and BACE1 inhibition were assessed using liquid chromatography-mass spectrometry (LC-MS) and a fluorescence resonance energy transfer assay, respectively. Neuro-2a cells exposed to A{beta}1-42 (2.42 M) for 6 hours received individual or combined treatments for 24 hours. Cell viability was assessed using WST-1, combination interactions using Bliss independence and protein responses using Western blotting with paired bafilomycin A1 conditions across three independent experiments. Results: LC-MS identified ergothioneine and trace hericenone D. The extract produced an apparent concentration-dependent BACE1-inhibitory response (IC50, 69.97 {+/-} 36.10 g/mL) and significantly increased post-injury viability at 40g/mL (150.2 {+/-} 12.11% of the A {beta} induced control; p = 0.0070). Although the full combination matrix was predominantly additive (Bliss score, 1.95), 51.1 M donepezil with 24.9 g/mL extract produced local synergy (score, 34.29) and the highest observed viability. This pair showed the most coordinated directional protein pattern, with lower mean levels of amyloid precursor protein, A{beta}, and BACE1, and p62/A {beta} accumulation following lysosomal blockade. Western blot differences were not statistically significant. Conclusion: These integrated findings support H. erinaceus as a candidate adjunct to donepezil, with possible complementary effects on amyloidogenic processing and intracellular clearance. Further validation of autophagic flux is needed to confirm the proposed dual response. Keywords: Hericium erinaceu",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757182v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.02.756327",
-        "title": "APOE4 reduction in vascular-associated fibroblasts decreases cerebral amyloid angiopathy and associated vascular dysfunction",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Saadi, F.",
-          "Cho, Y.",
-          "Katritch, I. V.",
-          "Lugo, B.",
-          "Wu, Y.",
-          "Smyth, L.",
-          "Bosch, M. E.",
-          "Telfer, K. A.",
-          "Hyrc, K.",
-          "Parhizkar, S.",
-          "Bao, X.",
-          "Nambiar, A.",
-          "Zinselmeyer, B.",
-          "Hu, S.",
-          "Kipnis, J.",
-          "Randolph, G.",
-          "Ulrich, J. D.",
-          "Holtzman, D. M."
-        ],
-        "abstract": "Cerebral amyloid angiopathy (CAA), characterized by cerebrovascular amyloid deposition, is strongly associated with Alzheimer's disease, ischemic injury, and lobar hemorrhages. APOE4 is the strongest known genetic risk factor for CAA, yet the cellular sources of APOE4 that drive pathogenic vascular amyloid deposition remain poorly defined. Here, we identify vascular-associated fibroblasts (VAFs) as a key source of APOE4 that mediates CAA and cerebrovascular dysfunction. In post-mortem brain tissue from APOE4/E4 patients with confirmed CAA, APOE colocalizes with COL6+ VAFs around A{beta}-laden vessels. Therefore, to study the contribution of APOE4 derived from VAFs in CAA, independently of parenchymal sources, we used 5xFAD mice in which the endogenous mouse Apoe coding exons are replaced with floxed human APOE4 sequences. This enables selective suppression of APOE4 expression in VAFs upon tamoxifen induction of Col1a2-CreERT+. APOE4 reduction in VAFs markedly reduced CAA, with the strongest effects observed in leptomeningeal vessels. Additionally, A{beta}40, which preferentially associates with vascular amyloid, was significantly reduced in the vascular fraction. VAF APOE4 depletion resulted in fewer small microbleeds and an approximately 50% reduction in parenchymal border macrophages within the leptomeningeal compartment, whereas astrocytic reactivity remained unchanged. Functional assessment using in vivo multi-parametric photoacoustic microscopy revealed improved arterial dilation and blood flow in amyloid-laden leptomeningeal arteries. Together, these findings establish VAF-derived APOE4 as a compartment-specific driver of CAA and cerebrovascular dysfunction.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756327v2",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.10.17.682996",
-        "title": "Preemptive SOD1 Silencing via Neonatal Intramuscular AAV Therapy Modifies Disease Trajectory in an ALS Mouse Model",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Gong, X.",
-          "Xie, Y.",
-          "Wang, W.",
-          "Xu, T."
-        ],
-        "abstract": "Amyotrophic lateral sclerosis (ALS) is a progressive and fatal neurodegenerative disorder with limited therapeutic options. Mutations in the gene encoding superoxide dismutase 1 (SOD1) represent a major genetic cause of familial ALS, driving motor neuron degeneration through toxic gain-of-function mechanisms. Although gene silencing approaches targeting SOD1 show substantial therapeutic potential, their clinical translation remains restricted by suboptimal delivery to the spinal motor neurons and safety concerns linked to conventional viral vectors. This study presents a minimally invasive gene therapy strategy that combines the retrograde transport capability of rAAV2-retro with the safety of an artificial microRNA (miRNA) to achieve pan-spinal SOD1 silencing. A single intramuscular injection of rAAV2-retro-miRNA into neonatal SOD1G93A mice resulted in widespread transduction of spinal motor neurons, significant reduction of mutant SOD1 protein, and multifaceted therapeutic benefits. Treated mice exhibited delayed disease onset, extended lifespan, preserved motor function, reduced neuroinflammation, and protection of neuromuscular junctions and spinal motor neurons. Importantly, the artificial miRNA construct demonstrated a superior safety profile relative to short hairpin RNA (shRNA)-based constructs, which induced marked toxicity and lethality in wild-type mice. These findings establish neonatal intramuscular delivery of rAAV2-retro-miRNA as a safe, efficient, and clinically translatable strategy for preemptive intervention in SOD1-mediated ALS, offering broader applicability to other motor neuron diseases.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.10.17.682996v5",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.07.757328",
-        "title": "A motor endurance assay for zebrafish larvae: proof of principle in chemical and genetic models of neurological disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Oliveira, N. A. S.",
-          "Pereira Lima, L.",
-          "Duque, M.",
-          "Pinho, B. R.",
-          "Bessa, J.",
-          "Oliveira, J. M. A."
-        ],
-        "abstract": "Motor fatigability is an early feature of neurological disease, including amyotrophic lateral sclerosis (ALS), but motor endurance assays for zebrafish are largely restricted to juvenile or adult animals. Here, we developed a gravity-fed counter-current swimming assay to quantify motor endurance in 5-7 days post-fertilisation (dpf) zebrafish larvae, which supports the parallel testing of multiple larvae. We detected an increase in motor endurance induced by exposure to caffeine, and a reduction induced by the dopaminergic toxin 1-methyl-4-phenylpyridinium (MPP+). In these tests, motor endurance showed a greater dynamic range than spontaneous locomotion. Further, we generated and tested transgenic zebrafish larvae with neuron-restricted overexpression of human TDP43 (hTDP43), the major pathological protein in ALS patients. Zebrafish with neuronal hTDP43 expression showed ALS-relevant hTDP43 mislocalisation and significantly reduced motor endurance at 5 dpf. This method for motor endurance assessment in 5-7 dpf zebrafish is simple, sensitive, and enables the characterisation of motor fatigability in models of human neurological disease (TDP43-linked ALS and MPP+-induced parkinsonism).",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757328v1",
-        "reasons": [
-          "关键词『Parkinson、amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.07.756185",
-        "title": "Reference-Gene Stability for RT-qPCR in the Medial Prefrontal Cortex and Hippocampal Subregions of the 5xFAD Mouse Brain",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Ilina, A. R.",
-          "Nikitina, V. A.",
-          "Trofimov, A. N.",
-          "Abdurasulova, I. N.",
-          "Ryzhak, G. A.",
-          "Shamova, O. V."
-        ],
-        "abstract": "Reverse transcription quantitative real-time PCR (RT-qPCR) requires normalization of the data to stably expressed reference genes, whose suitability must be validated for each experimental model and tissue. The present work aimed to assess the expression stability of seven candidate reference genes (Ppia, Ywhaz, Rpl27, Pgk1, Sdha, Gapdh, Actb) in three brain structures, the medial prefrontal cortex, the dorsal and ventral hippocampus, in 5xFAD mice, a model of Alzheimer's disease, and their wild-type controls. In addition to the selection of stable reference genes, we also propose combining reference genes into multiplex assays, which reduces the number of individual reactions while preserving normalization accuracy. mRNA levels were measured by RT-qPCR using hydrolysis probes, and expression stability was analyzed separately for each brain structure using the online tool RefFinder, which combines four algorithms (comparative Delta-Ct, BestKeeper, NormFinder and geNorm) to compute a comprehensive ranking. Reference gene stability proved to be region-specific. The most stable pairs were Ywhaz and Actb for the medial prefrontal cortex, Gapdh and Actb for the dorsal hippocampus, and Rpl27 and Pgk1 for the ventral hippocampus. Actb ranked among the most stable genes in the cortex and dorsal hippocampus but among the least stable in the ventral hippocampus, whereas Ppia was the least stable throughout. Expression of most candidate genes did not differ between wild-type and 5xFAD mice. The exception was Ywhaz, which was reduced in the ventral hippocampus of 5xFAD mice, consistent with its low stability ranking there. These results demonstrate the region-specific nature of reference gene selection in the 5xFAD mouse and allow us to recommend specific gene sets for RT-qPCR normalization in the medial prefrontal cortex and the dorsal and ventral hippocampus.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756185v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.06.03.657596",
-        "title": "One night of sleep deprivation reduces spatially patterned human brain clearance: implications for simulated tau propagation",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-14",
-        "is_early_access": true,
-        "authors": [
-          "Brennan, G. S.",
-          "Thompson, T. B.",
-          "Oliveri, H.",
-          "Vinje, V.",
-          "Ringstad, G.",
-          "Eide, P. K.",
-          "Goriely, A.",
-          "Rognes, M. E."
-        ],
-        "abstract": "Neurotoxic protein fragments such as amyloid-beta and tau accumulate in characteristic staging patterns in Alzheimer's disease. The brain clears such substances via multiple systems, including the extracellular-extravascular route known as glymphatic clearance, but how such clearance is distributed across the brain, how this distribution is affected by sleep, and its implications for neurodegenerative disease progression remain unclear. Using Bayesian inference to fit a kinetic model of enhancement and clearance to longitudinal CSF tracer-enhanced MRI, we estimate CSF tracer clearance rates for every connectome region in 21 subjects. We find that clearance is spatially patterned across the living human brain and consistent between subjects. Clearance rates are amongst the highest in the entorhinal cortex and decrease across regions in Braak stage order. One night of sleep deprivation reduces mean clearance levels while leaving the spatial pattern largely unchanged. To study how mean clearance level and spatial pattern affect tau propagation in silico, we use the CSF tracer clearance rates as a proxy for regional tau clearance in a computational model of protein accumulation, spread, and regional damage. Across subject-specific simulations, clearance level and spatial pattern have distinct effects on tau propagation. The clearance level determines the timescale of simulated pathology, while the spatial pattern shapes its accumulation and onset. These results identify CSF tracer clearance as a spatially organised property of the human brain that is reduced by sleep deprivation, and suggest that its overall level and regional organisation may independently shape the timing and spatial progression of neurodegenerative proteinopathy.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657596v2",
-        "reasons": [
-          "关键词『Alzheimer、tau、amyloid』(命中abstract/title)"
         ],
         "is_new": true
       }
