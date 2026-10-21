@@ -1,10 +1,104 @@
 {
-  "date": "2026-10-20",
-  "total": 9,
+  "date": "2026-10-21",
+  "total": 11,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.16.759679",
+        "title": "Astrocytic sEH-EET signaling regulates microglial lysosomal function and suppresses the STING-Type I interferon pathway in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-20",
+        "is_early_access": true,
+        "authors": [
+          "Ghosh, B.",
+          "Wang, S.",
+          "Qi, C.",
+          "Ghosh, A.",
+          "Comerota, M.",
+          "Rajpurohit, C. S.",
+          "Zeldin, D. C.",
+          "Zheng, H."
+        ],
+        "abstract": "Background: The development of {beta}-amyloid (A{beta}) pathology in Alzheimer's disease (AD) is accompanied by profound changes in astrocytes and microglia and associated neuroinflammation. Soluble epoxide hydrolase (sEH), which degrades anti-inflammatory epoxyeicosatrienoic acids (EETs), is elevated in the AD brain, yet how EETs restrain inflammation remains poorly understood. Methods: We performed single-nucleus RNA sequencing (snRNA-seq) on brains from wild-type, sEH knockout, 5xFAD, and 5xFAD; sEH knockout mice, and used primary mouse microglia and human induced pluripotent stem cell (iPSC)-derived microglia to define the underlying mechanism. To test cell-type-specific contributions, we generated astrocyte- and endothelial-specific she knockout mice and crossed them with 5xFAD mice. Results: Genetic disruption of sEH in 5xFAD mice markedly reduced the abundance of a type I interferon (IFN)-responsive microglial subcluster and lowered phospho-STING (pSTING) levels. In primary microglia, supplementation with 11,12-EET attenuated STING activation and IFN target gene expression; blocking lysosomal acidification abolished this effect and caused pSTING to accumulate, identifying lysosomal degradation as a critical route for terminating STING signaling. 11,12-EET also enhanced microglial lysosomal acidification and A{beta} phagocytosis. Astrocytic, but not endothelial, disruption of sEH recapitulated the reductions in A{beta} pathology and microglial STING activation seen in global sEH-deficient mice, identifying astrocytes as the major cellular source of EETs regulating this pathway. Conclusion: We define an astrocyte-microglia axis in which astrocytic sEH limits EET availability and thereby sustains microglial STING signaling. By promoting lysosomal clearance of pSTING, EETs suppress type I IFN signaling and enhance microglial A{beta} clearance, highlighting sEH inhibition as a therapeutic strategy targeting both neuroinflammation and lysosomal dysfunction in AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759679v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.13.759017",
+        "title": "Beyond Mean Pooling: Statistical Meta-Aggregation for Subject-Level EEG Classification in Parkinson's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-20",
+        "is_early_access": true,
+        "authors": [
+          "Taghipour Langrodi, P.",
+          "Khodadadi, A.",
+          "Rezaei, F.",
+          "Anvarian, Z.",
+          "Sotero, R. C.",
+          "Madadi, S."
+        ],
+        "abstract": "Electroencephalography (EEG) provides a non-invasive, temporally precise tool for studying neural alterations associated with Parkinson's disease (PD). When labels are defined at the subject level but inputs are epoch level, a key design choice is how epoch-wise predictions are aggregated to a single subject-level decision. Most prior work uses mean pooling, which assumes all epochs contribute equally and independently. This study proposes a statistical meta-aggregation strategy that represents each subject by 14 descriptors of the epoch-wise prediction distribution, including measures of central tendency, dispersion, shape, and high-confidence concentration. Using a self-supervised contrastive encoder trained on task-evoked EEG from the Simon conflict task, and a sample of 90 subjects including 57 PD and 33 control, this work evaluates the proposed framework under subject-wise five-fold cross-validation. Replacing mean pooling with statistical meta-aggregation lifts subject-level ROC-AUC from 0.655 to 0.872 for logistic regression and from 0.724 to 0.840 for support vector machines, without modifying the encoder or the classifier family. Averaging predictions across three independent self-supervised pretraining seeds yields competitive performance and improved balanced accuracy. These results suggest that, in this dataset, the way epoch-level predictions are summarized at the subject level has a substantial effect on final PD classification performance.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.759017v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.14.759149",
+        "title": "Stimulating microglial neuroinflammation with amyloid-beta oligomers compatible with solid-state NMR structural characterization",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-20",
+        "is_early_access": true,
+        "authors": [
+          "Dinakarapandian, D. M.",
+          "Rao Sudarshan, T.",
+          "Griffin, M. N.",
+          "Ramaswamy, P.",
+          "Nguyen, P. H.",
+          "Chiu, T.-Y.",
+          "Li, C.",
+          "Kamalaldinezabadi, S. S.",
+          "Watzlawik, J. O.",
+          "Rosenberry, T. L.",
+          "Stagg, S. M.",
+          "Wen, Z.",
+          "Wood, L. B.",
+          "Paravastu, A. K."
+        ],
+        "abstract": "Soluble amyloid-{beta} (A{beta}) oligomers are considered the primary neurotoxic species in Alzheimer's disease, yet the relationship between oligomer structure and biological activity remains poorly understood. Oligomer sample preparations amenable to high-resolution structural characterization have not been tested in cell-based assays, mostly because detergents used to drive oligomer formation are toxic to cells. Here, we describe a detergent-free protocol in which size-exclusion chromatography-isolated A{beta}42 monomers spontaneously oligomerize at 37 {degrees}C in a concentration- and temperature-dependent manner. Biophysical characterization shows a {beta}-sheet structure by circular dichroism, a self-associating population above 100 kDa by silver-stained SDS-PAGE, and bead-like strings by negative-stain TEM resembling the previously characterized SDS-induced 150 kDa oligomer. Solid-state NMR spectroscopy of selectively 13C/15N-labeled 37 {degrees}C oligomers yields well-resolved spectra with {beta}-strand chemical shifts, and two-dimensional 13C-13C DARR and CHHC experiments provide initial inter-residue distance constraints that reveal both similarities to and differences from the 150 kDa oligomer. Treatment of mouse microglial cells (MMCs) with 50 nM 37 {degrees}C oligomers elicited a robust pro-inflammatory cytokine response that exceeded that of monomeric A{beta}42, as demonstrated by Luminex multiplex profiling and principal component analysis. hiPSC-derived microglia (iMGs) treated with 1 {micro}M oligomers also separated from vehicle, establishing activity in a human cellular model. Monomeric A{beta}42 was inactive in both systems, indicating that inflammatory activity depends on the assembly state of A{beta}42 rather than on the presence of peptide alone. These results establish a detergent-free A{beta}42 oligomer preparation that is simultaneously compatible with solid-state NMR structural characterization and biologically active in neuroinflammation",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759149v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.14.756427",
+        "title": "Longitudinal single-cell transcriptional profiling identifies dynamic neurodegenerative mechanisms in Christianson Syndrome rat",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-20",
+        "is_early_access": true,
+        "authors": [
+          "Riaz, H. A.",
+          "Soman, S. K.",
+          "Devlin, J. F.",
+          "Kumar, G.",
+          "Lee, Y.",
+          "Morrow, E. M."
+        ],
+        "abstract": "Endolysosomal dysfunction is a central feature of many neurodegenerative disorders. Loss-of-function mutations in the endosomal Na+/H+ exchanger NHE6 cause lysosomal dysfunction and the early-onset neurodegenerative disorder Christianson syndrome (CS). CS shares pathological features with more common neurodegenerative diseases; however, the extent of mechanistic overlap remains unclear. Using single-nucleus RNA sequencing across the lifespan in a CS rat model, we define the temporal progression of disease at single-cell resolution in the hippocampus. Neurons exhibit early transcriptional signatures of mitochondrial dysfunction. We investigated mitochondrial function in vitro and ex vivo and discover progressive defects in mitochondrial quality control and bioenergetics in NHE6-null tissue. Furthermore, both transcriptomic and proteomic analyses reveal robust activation of innate immunity, including cGAS-STING signaling which localizes to microglia. Therefore, in CS rat brain, early neuronal endosomal and mitochondrial impairments are followed by pronounced microglial and astrocytic activation, as well as age-dependent decline in oligodendrocyte myelinating capacity. Cross species comparison reveals substantial overlap between single-cell analyses in CS rat and in human postmortem Alzheimers disease hippocampus. Together, our findings define the cellular trajectories of neurodegeneration in CS, and identify convergent endolysosomal, mitochondrial, and inflammatory mechanisms that support a broader role for endolysosomal dysfunction in Alzheimers disease pathogenesis.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.756427v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.16.759681",
         "title": "The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health",
@@ -180,50 +274,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758640v1",
         "reasons": [
           "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.15.759313",
-        "title": "Multi-parametric spectral modeling disentangles synaptic kinetics and neural excitability from non-invasive electrophysiological recordings",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-18",
-        "is_early_access": true,
-        "authors": [
-          "Philippe, V.",
-          "Tombroff, L.",
-          "Akbarian, F.",
-          "De Witte, S.",
-          "Trotta, N.",
-          "Van Schependom, J.",
-          "Engelborghs, S.",
-          "Bier, J.-C.",
-          "Strauss, M.",
-          "De Tiege, X.",
-          "Wens, V."
-        ],
-        "abstract": "Spectral modeling of electrophysiological recordings enables non-invasive characterization of neural excitability. However, current approaches rely on a single spectral index, limiting insight into the multiple biophysical processes underlying excitation-inhibition balance. Here, we introduce a biologically informed, multi-parametric spectral analysis that disentangles neural excitability and synaptic kinetics from recordings. As a proof of concept, we demonstrate that this approach captures signatures of hyperexcitability and glutamate reuptake dysfunction characteristic of Alzheimer's disease.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759313v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.17.759861",
-        "title": "Spatiotemporal transcriptomic dynamic across the auditory pathway from young to old age in 5xFAD Alzheimer disease mice",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-18",
-        "is_early_access": true,
-        "authors": [
-          "Kong, Y.",
-          "Zhai, T.-Y.",
-          "Zhao, H.-B."
-        ],
-        "abstract": "Auditory dysfunction can precede clinical dementia, but the molecular progression of Alzheimer disease (AD) pathology from the sensory periphery to auditory cortex remains poorly resolved. We performed bulk RNA sequencing of auditory cortex (AC), inferior colliculus (IC), cochlear nucleus (CN), and cochlea from 5xFAD and wild-type mice at postnatal day 50 (P50), 8 months, 11 months, and 16 months. Age-specific genotype effects and Genotype x Age interactions were evaluated using DESeq2, followed by Hallmark, KEGG, and Gene Ontology gene-set enrichment analyses and a cross-region synthesis of interaction trajectories. At P50, AC, IC, and cochlea showed coordinated suppression of mitochondrial metabolism, translation, RNA processing, and proteostasis, whereas CN displayed the opposite metabolic and biosynthetic profile together with reduced synaptic and adhesion programs. At 8 months, inflammatory interactions converged across all four regions, including interferon, complement, IL6-JAK-STAT3, and broader immune-response pathways. This coordination fractured at 11 months: AC and IC retained inflammatory and negative synaptic shifts, whereas CN and cochlea frequently changed in the opposite direction, including transient positive shifts in synaptic programs. By 16 months, immune interactions converged again, while metabolic, proteostatic, and synaptic trajectories remained region dependent; CN opposed AC, IC, and cochlea in several major metabolic programs. These findings define a distributed, asynchronous response rather than a monotonic bottom-up or top-down progression. The resulting spatiotemporal map links early metabolic stress, intermediate central-peripheral decoupling, and late inflammatory convergence, providing a molecular framework for evaluating peripheral to central auditory gain and temporal-processing measures as candidate indicators of AD progression.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759861v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
         ],
         "is_new": true
       }
