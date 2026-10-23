@@ -1,10 +1,112 @@
 {
-  "date": "2026-10-22",
-  "total": 8,
+  "date": "2026-10-23",
+  "total": 10,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.21.760461",
+        "title": "Sex-Dependent Effects of Creatine Hydrochloride on Neuroinflammation, Neuronal Survival, and Inhibitory Synaptic Remodeling Following Traumatic Brain Injury in Mice.",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-22",
+        "is_early_access": true,
+        "authors": [
+          "Zigmond, J. W.",
+          "Lamberty, B. G.",
+          "Simon, G. J.",
+          "Wood, J. M.",
+          "Elliott, N. M.",
+          "Miller, D. W.",
+          "Stauch, K. L."
+        ],
+        "abstract": "Despite traumatic brain injury (TBI) being a leading cause of death and disability in the United States, there is currently no FDA-approved medication that can prevent, heal, or reverse brain damage caused by TBI. TBI is caused by primary and secondary brain damage resulting in loss of neurons, astrocytic gliosis, and microglial activation which culminate in complex neurological disorders. The goal of the current study was to investigate the neuroprotective potential for Creatine Hydrochloride (C-HCl) supplementation following TBI in wild-type mice. Four C-HCl supplementation paradigms were examined including both 7 day pre-injury and 14-day post-injury treatments consisting of the following: 1) water/water, 2) water/C-HCl (100 mg/kg), 3) C-HCl (100 mg/kg)/C-HCl (100 mg/kg), 4) C-HCl (100 mg/kg)/C-HCl (450 mg/kg). Following controlled cortical impact (CCI) injury at a parietal location, measures of tissue and cellular (neuronal and glial) damage were assessed at 14 days post-injury (dpi). At 14 dpi, there were no significant effects on gross anatomical cavitation, tissue loss, third ventricle expansion, or systemic fluid biomarkers with any treatment group, though female mice exhibited larger baseline lesion boundaries overall compared to male mice. However, microstructural evaluation revealed a profound and sex-dependent effect of C-HCl supplementation in the hippocampus with female mice showing reduced neuroinflammation and male mice displaying reduced neurodegeneration (Fluoro-Jade C staining of neurons) across the CA1 and dentate gyrus (DG) compared to placebo control. Furthermore, mice receiving C-HCl pre-injury followed by high-dose C-HCl post-injury demonstrated distinct remodeling of inhibitory circuits to restore network balance with males significantly modifying presynaptic machinery via vesicular GABA transport (VGAT puncta) in the DG, whereas females reinforced postsynaptic architectural framing through scaffolding elements (gephyrin puncta) in both the ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760461v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2024.12.17.628978",
+        "title": "Neuronal expression of E2F4DN restores adult neurogenesis in homozygous 5xFAD mice via TrkB signaling",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-22",
+        "is_early_access": true,
+        "authors": [
+          "Lozano-Urena, A.",
+          "Llabres-Mas, A. M.",
+          "Ramon-Landreau, M.",
+          "Fraj-Cebrian, A.",
+          "Sanchez-Puelles, C.",
+          "Garrido-Garcia, A.",
+          "Cano-Daganzo, V.",
+          "Valdes-Lora, L.",
+          "Frade, J. M."
+        ],
+        "abstract": "Background: Alzheimer's disease (AD) is increasingly recognized as a disorder that disrupts brain plasticity long before extensive neuronal loss occurs, including early impairment of adult neurogenesis. However, the molecular mechanisms underlying these alterations remain poorly understood. Methods: Neuronal expression of E2F4 carrying the Thr249Ala/Thr251Ala mutation (E2F4DN) was achieved using an AAV.PHP.eB vector in the 5xFAD mouse model of AD. Neurogenic potential was assessed by immunohistochemistry and quantitative PCR (qPCR) targeting neurogenesis-associated markers. For in vitro experiments, neural stem cells (NSCs) isolated from the subventricular zone (SVZ) were exposed to conditioned media from primary cortical neurons expressing E2F4DN, with or without pharmacological inhibitors. NSC proliferation and differentiation were evaluated by immunocytochemistry and qPCR. Results: Neuronal expression of E2F4DN restored the proliferative and differentiation capacity of NSCs in 5xFAD mice both in vivo and in vitro. Pharmacological inhibition of TrkB signaling abolished the pro-neurogenic effects of E2F4DN-conditioned medium, whereas direct activation of TrkB in NSCs recapitulated these effects. Conclusions: These findings identify a mechanism by which neuronal dysfunction in AD compromises neurogenesis through impaired TrkB-mediated signaling. The results uncover a previously underappreciated paracrine communication between neurons and NSCs and highlight neuronal E2F4DN expression and TrkB modulation as promising therapeutic strategies to counteract early neurogenic deficits in AD.",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.12.17.628978v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.16.759692",
+        "title": "Early Insulin Signaling Defects and Oxidative Stress Kinase Activation Precede Tau Pathology in PS19 Tau Transgenic Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-22",
+        "is_early_access": true,
+        "authors": [
+          "Elahi, M.",
+          "Burd, I.",
+          "Yang, P.",
+          "Shen, W.-B."
+        ],
+        "abstract": "Pathological tau accumulation is a hallmark of Alzheimers disease (AD), yet its relationship with impaired insulin signaling remains unclear. Previously, we reported altered IRS1 phosphorylation reduced p IR beta, and GLUT3 expression in young AD transgenic mice prior to overt pathology. Here, we investigated insulin signaling and oxidative stress pathways in the Tau P301S (PS19) mouse model. We found that alterations in phospho IRS1, phospho IR beta, and the glucose transporters GLUT3 and GLUT4 occur before pathogenic tau deposition. In stable tau expressing human neuronal cell lines, tau expression was similarly associated with impaired insulin signaling. Concurrent dysregulation of insulin signaling and activation of oxidative stress responsive kinases, accompanied by increased microglial abundance, were evident in 2 month old PS19 mice and persisted into adulthood. Together, these findings demonstrate that insulin signaling abnormalities and oxidative stress kinase activation are early and sustained features of PS19 tauopathy, preceding the onset of overt neuropathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759692v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.16.758033",
+        "title": "Dopaminergic Medication Improves Force Control and Modifies Motor Unit Activity During the Steadiest and Least Steady Periods in Parkinsons Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-22",
+        "is_early_access": true,
+        "authors": [
+          "Alaei, P.",
+          "Holobar, A.",
+          "Wile, D. J.",
+          "Jakobi, J. M."
+        ],
+        "abstract": "Parkinsons disease (PD) impairs steady force production, but how dopaminergic medication alters force control and the motor unit (MU) activity is unclear. This study examined force steadiness and biceps brachii MU behavior in 16 people with PD ON and OFF dopaminergic medication. Participants performed sustained isometric elbow flexion contractions at 5%, 10%, 15%, and 25% of maximum voluntary contraction (MVC). High density surface electromyography was decomposed into MU spike trains. Force steadiness and MU discharge properties were quantified during nonoverlapping 7-s steadiest and least steady contraction periods, whereas MU coherence was assessed across the force plateau. In the ON state, force steadiness improved by 17_19% during both contraction periods at 5_15% MVC. MU interspike interval variability decreased by [~]12% across all forces during the least steady contraction period and by 17% at 15% MVC during the steadiest contraction period, whereas mean MU discharge rate was unchanged. Recruitment thresholds were higher at 10% and 25% MVC in the ON state, whereas derecruitment thresholds did not differ. Across the entire plateau, alpha- and tremor-band MU coherence decreased by 14% and 18%, respectively, whereas delta-band coherence was unchanged. These findings demonstrate that dopaminergic medication improves both the steadiest and least steady periods of low-force control, accompanied by reduced MU discharge variability and frequency-specific changes in plateau-wide MU coherence rather than changes in mean discharge rate. Resolving within-contraction variation reveals medication-sensitive features of force control that are obscured by conventional plateau-wide analyses, providing a new approach for evaluating motor output in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758033v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.16.759776",
+        "title": "Frequency-Resolved Connectivity Graphs for EEG-Based Classification of Alzheimer and Frontotemporal Dementia",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-22",
+        "is_early_access": true,
+        "authors": [
+          "Radwan, M.",
+          "yazidi, A.",
+          "lind, P. G."
+        ],
+        "abstract": "In this study, we build EEG based graph model that uses frequency-resolved connectivity features, with Coherence, phase locking value (PLV) and phase lag index (PLI) in five frequency bands as multi-dimensional edge features. The model is used to classify Alzheimer disease (AD) and frontotemporal dementia (FTD) against healthy controls (CN). This paper extends our earlier work on FTD with AD vs CN as the main new task, a feature ablation for it, and a joint analysis of both tasks. With leave-one-subject-out (LOSO) validation, the model reaches an accuracy of 81.13\\% for AD vs CN and 76.06\\% for FTD vs CN, which is competitive with the baselines reported with the dataset with far fewer parameters (159 and 282 thousand versus 170.5 million). Under the random cross-validation setting used for the DICE-net model, our model has a comparable accuracy for FTD and a lower accuracy for AD. Node and edge saliency maps highlight occipital and temporal electrodes, the Alpha band for node features and the Theta band for edge features, which is consistent with earlier EEG studies. In an ablation on the AD task, using all 15 edge features performed better than using a single connectivity measure or edge features averaged over the bands.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759776v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.14.759278",
         "title": "Function-oriented microglial transcriptional scores in Alz-heimer's disease: resolving terminal functions beyond activa-tion states",
@@ -102,96 +204,24 @@
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.10.16.759679",
-        "title": "Astrocytic sEH-EET signaling regulates microglial lysosomal function and suppresses the STING-Type I interferon pathway in Alzheimer's disease",
+        "doi": "10.64898/2026.10.21.760450",
+        "title": "A brain immune phenotype independent of Alzheimer's Disease associates with amyloid susceptibility and systemic inflammation",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-20",
+        "published_online": "2026-10-21",
         "is_early_access": true,
         "authors": [
-          "Ghosh, B.",
-          "Wang, S.",
-          "Qi, C.",
-          "Ghosh, A.",
-          "Comerota, M.",
-          "Rajpurohit, C. S.",
-          "Zeldin, D. C.",
-          "Zheng, H."
+          "Serratto, G. M.",
+          "Garcia-Diaz Barriga, G.",
+          "Rosebrock, D.",
+          "Simon, M.",
+          "Kuhn, R.",
+          "von der Kammer, H.",
+          "Gruber-Schoffnegger, D."
         ],
-        "abstract": "Background: The development of {beta}-amyloid (A{beta}) pathology in Alzheimer's disease (AD) is accompanied by profound changes in astrocytes and microglia and associated neuroinflammation. Soluble epoxide hydrolase (sEH), which degrades anti-inflammatory epoxyeicosatrienoic acids (EETs), is elevated in the AD brain, yet how EETs restrain inflammation remains poorly understood. Methods: We performed single-nucleus RNA sequencing (snRNA-seq) on brains from wild-type, sEH knockout, 5xFAD, and 5xFAD; sEH knockout mice, and used primary mouse microglia and human induced pluripotent stem cell (iPSC)-derived microglia to define the underlying mechanism. To test cell-type-specific contributions, we generated astrocyte- and endothelial-specific she knockout mice and crossed them with 5xFAD mice. Results: Genetic disruption of sEH in 5xFAD mice markedly reduced the abundance of a type I interferon (IFN)-responsive microglial subcluster and lowered phospho-STING (pSTING) levels. In primary microglia, supplementation with 11,12-EET attenuated STING activation and IFN target gene expression; blocking lysosomal acidification abolished this effect and caused pSTING to accumulate, identifying lysosomal degradation as a critical route for terminating STING signaling. 11,12-EET also enhanced microglial lysosomal acidification and A{beta} phagocytosis. Astrocytic, but not endothelial, disruption of sEH recapitulated the reductions in A{beta} pathology and microglial STING activation seen in global sEH-deficient mice, identifying astrocytes as the major cellular source of EETs regulating this pathway. Conclusion: We define an astrocyte-microglia axis in which astrocytic sEH limits EET availability and thereby sustains microglial STING signaling. By promoting lysosomal clearance of pSTING, EETs suppress type I IFN signaling and enhance microglial A{beta} clearance, highlighting sEH inhibition as a therapeutic strategy targeting both neuroinflammation and lysosomal dysfunction in AD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759679v1",
+        "abstract": "Transcriptomic and proteomic studies have consistently demonstrated substantial molecular heterogeneity across patients with Alzheimer's disease (AD) and other neurodegenerative disorders, leading to the proposal of multiple disease subtypes. However, almost all previous studies have focused on heterogeneity within diseased cohorts, whereas comparatively little attention has been paid to the molecular diversity of neurologically healthy individuals. In the present study, we demonstrate that one of the most prominent transcriptomic programs characterized by a strong immune component previously interpreted as an AD-specific immune subtype is in fact a brain phenotype that exists independently of AD yet interacts with AD susceptibility and is selectively associated with amyloid pathology. The transcriptional effect of the immune phenotype exceeds that of AD pathology-induced changes and is accompanied by alterations of brain cellular compositions and a distinct systemic inflammation. Our findings suggest that part of the molecular heterogeneity observed in neurological diseases might arise from pre-existing brain phenotypes rather than representing disease-specific subtypes. These insights support a precision medicine approach for Alzheimer's disease, whereby individuals with an immune phenotype of the brain could be prospectively identified and monitored, enabling the application of targeted preventive strategies before substantial neuropathology and cognitive decline emerge.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760450v1",
         "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.13.759017",
-        "title": "Beyond Mean Pooling: Statistical Meta-Aggregation for Subject-Level EEG Classification in Parkinson's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-20",
-        "is_early_access": true,
-        "authors": [
-          "Taghipour Langrodi, P.",
-          "Khodadadi, A.",
-          "Rezaei, F.",
-          "Anvarian, Z.",
-          "Sotero, R. C.",
-          "Madadi, S."
-        ],
-        "abstract": "Electroencephalography (EEG) provides a non-invasive, temporally precise tool for studying neural alterations associated with Parkinson's disease (PD). When labels are defined at the subject level but inputs are epoch level, a key design choice is how epoch-wise predictions are aggregated to a single subject-level decision. Most prior work uses mean pooling, which assumes all epochs contribute equally and independently. This study proposes a statistical meta-aggregation strategy that represents each subject by 14 descriptors of the epoch-wise prediction distribution, including measures of central tendency, dispersion, shape, and high-confidence concentration. Using a self-supervised contrastive encoder trained on task-evoked EEG from the Simon conflict task, and a sample of 90 subjects including 57 PD and 33 control, this work evaluates the proposed framework under subject-wise five-fold cross-validation. Replacing mean pooling with statistical meta-aggregation lifts subject-level ROC-AUC from 0.655 to 0.872 for logistic regression and from 0.724 to 0.840 for support vector machines, without modifying the encoder or the classifier family. Averaging predictions across three independent self-supervised pretraining seeds yields competitive performance and improved balanced accuracy. These results suggest that, in this dataset, the way epoch-level predictions are summarized at the subject level has a substantial effect on final PD classification performance.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.759017v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.14.759149",
-        "title": "Stimulating microglial neuroinflammation with amyloid-beta oligomers compatible with solid-state NMR structural characterization",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-20",
-        "is_early_access": true,
-        "authors": [
-          "Dinakarapandian, D. M.",
-          "Rao Sudarshan, T.",
-          "Griffin, M. N.",
-          "Ramaswamy, P.",
-          "Nguyen, P. H.",
-          "Chiu, T.-Y.",
-          "Li, C.",
-          "Kamalaldinezabadi, S. S.",
-          "Watzlawik, J. O.",
-          "Rosenberry, T. L.",
-          "Stagg, S. M.",
-          "Wen, Z.",
-          "Wood, L. B.",
-          "Paravastu, A. K."
-        ],
-        "abstract": "Soluble amyloid-{beta} (A{beta}) oligomers are considered the primary neurotoxic species in Alzheimer's disease, yet the relationship between oligomer structure and biological activity remains poorly understood. Oligomer sample preparations amenable to high-resolution structural characterization have not been tested in cell-based assays, mostly because detergents used to drive oligomer formation are toxic to cells. Here, we describe a detergent-free protocol in which size-exclusion chromatography-isolated A{beta}42 monomers spontaneously oligomerize at 37 {degrees}C in a concentration- and temperature-dependent manner. Biophysical characterization shows a {beta}-sheet structure by circular dichroism, a self-associating population above 100 kDa by silver-stained SDS-PAGE, and bead-like strings by negative-stain TEM resembling the previously characterized SDS-induced 150 kDa oligomer. Solid-state NMR spectroscopy of selectively 13C/15N-labeled 37 {degrees}C oligomers yields well-resolved spectra with {beta}-strand chemical shifts, and two-dimensional 13C-13C DARR and CHHC experiments provide initial inter-residue distance constraints that reveal both similarities to and differences from the 150 kDa oligomer. Treatment of mouse microglial cells (MMCs) with 50 nM 37 {degrees}C oligomers elicited a robust pro-inflammatory cytokine response that exceeded that of monomeric A{beta}42, as demonstrated by Luminex multiplex profiling and principal component analysis. hiPSC-derived microglia (iMGs) treated with 1 {micro}M oligomers also separated from vehicle, establishing activity in a human cellular model. Monomeric A{beta}42 was inactive in both systems, indicating that inflammatory activity depends on the assembly state of A{beta}42 rather than on the presence of peptide alone. These results establish a detergent-free A{beta}42 oligomer preparation that is simultaneously compatible with solid-state NMR structural characterization and biologically active in neuroinflammation",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759149v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.14.756427",
-        "title": "Longitudinal single-cell transcriptional profiling identifies dynamic neurodegenerative mechanisms in Christianson Syndrome rat",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-20",
-        "is_early_access": true,
-        "authors": [
-          "Riaz, H. A.",
-          "Soman, S. K.",
-          "Devlin, J. F.",
-          "Kumar, G.",
-          "Lee, Y.",
-          "Morrow, E. M."
-        ],
-        "abstract": "Endolysosomal dysfunction is a central feature of many neurodegenerative disorders. Loss-of-function mutations in the endosomal Na+/H+ exchanger NHE6 cause lysosomal dysfunction and the early-onset neurodegenerative disorder Christianson syndrome (CS). CS shares pathological features with more common neurodegenerative diseases; however, the extent of mechanistic overlap remains unclear. Using single-nucleus RNA sequencing across the lifespan in a CS rat model, we define the temporal progression of disease at single-cell resolution in the hippocampus. Neurons exhibit early transcriptional signatures of mitochondrial dysfunction. We investigated mitochondrial function in vitro and ex vivo and discover progressive defects in mitochondrial quality control and bioenergetics in NHE6-null tissue. Furthermore, both transcriptomic and proteomic analyses reveal robust activation of innate immunity, including cGAS-STING signaling which localizes to microglia. Therefore, in CS rat brain, early neuronal endosomal and mitochondrial impairments are followed by pronounced microglial and astrocytic activation, as well as age-dependent decline in oligodendrocyte myelinating capacity. Cross species comparison reveals substantial overlap between single-cell analyses in CS rat and in human postmortem Alzheimers disease hippocampus. Together, our findings define the cellular trajectories of neurodegeneration in CS, and identify convergent endolysosomal, mitochondrial, and inflammatory mechanisms that support a broader role for endolysosomal dysfunction in Alzheimers disease pathogenesis.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.756427v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
+          "关键词『Alzheimer、amyloid』(命中title)"
         ],
         "is_new": true
       }
