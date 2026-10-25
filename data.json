@@ -1,10 +1,336 @@
 {
-  "date": "2026-10-24",
-  "total": 9,
+  "date": "2026-10-25",
+  "total": 18,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.19.760151",
+        "title": "Alpha-synuclein and neuromelanin converge to promote Parkinsons disease pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Nicolau-Vera, A.",
+          "Gonzalez-Sepulveda, M.",
+          "Cladera-Sastre, J. M.",
+          "Cuadros, T.",
+          "Parent, A.",
+          "Roch, G.",
+          "Marongiu, J.",
+          "Huynh, B.",
+          "Mahabadian, A. A.",
+          "Su, F.",
+          "Chatterton, Z.",
+          "Hoyo, J.",
+          "Laguna, A.",
+          "Fu, Y.",
+          "Halliday, G.",
+          "Vila, M."
+        ],
+        "abstract": "Parkinsons disease (PD) is defined by the preferential degeneration of neuromelanin (NM)-containing dopamine-producing neurons in the substantia nigra (SN), accompanied by intraneuronal inclusions rich in alpha-synuclein (aSYN). However, the mechanistic relationship between NM accumulation and aSYN pathology remains unclear. Here, we reveal a bidirectional pathogenic relationship between aSYN and NM. In human post-mortem midbrain tissue, ventral nigral neurons with high NM content display increased aSYN mRNA expression and are preferentially lost in PD. In a rat model that recapitulates age-dependent, human-like NM accumulation via targeted tyrosinase (TYR) expression, co-expression of aSYN accelerates NM buildup, enhances aSYN oligomerization, and aggravates nigrostriatal degeneration. Mechanistically, aSYN oligomerization in NM-producing rats decreases vesicular dopamine storage and impairs vesicle fusion with the plasma membrane, increasing cytosolic dopamine availability for oxidation into NM. Together, these findings support a pathogenic feedback loop in which elevated aSYN accelerates NM synthesis through disrupted dopamine compartmentalization, while NM accumulation further promotes aSYN aggregation and neuronal loss. This aSYN-NM axis may underlie the preferential vulnerability of pigmented nigral neurons in PD and provide a mechanistic framework for the development of future targeted therapeutics.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760151v1",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2024.05.28.596192",
+        "title": "Transiently-elevated dopamine triggers plasticity that preserves motor function, striatal neuron morphology, and thalamostriatal input in a mouse model of Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Brague, J. C.",
+          "Sinha, G. P.",
+          "Henry, D. A.",
+          "Headrick, D. J.",
+          "Hooks, B. M.",
+          "Seal, R. P."
+        ],
+        "abstract": "Loss of nigrostriatal dopamine (DA) neurons in Parkinson's disease (PD) produces motor symptoms by disrupting the normal circuitry of striatal projection neurons. Here, we report that the Transient Elevation of Dopamine (TED) within a defined window of 6-OHDA-induced DA depletion preserves normal motor behaviorfor months. We also observed a preservation of mature spines specifically on direct pathway striatal projection neurons (dSPNs) and not indirect pathway striatal projection neurons (iSPNs). Preservation of motor behavior and dSPN spines required enhanced activation of striatal D1 receptors. Circuit mapping showed input from primary motor cortex was reduced, while input from parafascicular thalamus was unchanged in both TED mice and controls of both sexes, suggesting rewiring of excitatory inputs to dSPNs from other cortical or thalamic areas in TED mice. Lastly, thalamostriatal paired pulse facilitation, normally depressed following DA depletion, is preserved in TED mice. Although the causal basis of motor preservation remains unresolved, our findings reveal that a schedule of transiently increasing striatal DA surrounding the depletion of dopamine can engage a long-lasting plasticity that markedly delays the onset of motor impairment",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.05.28.596192v2",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.23.761386",
+        "title": "Modelling prodromal Parkinson's disease- gastrointestinal pathology and early motor deficits in mice after transient rotenone exposure",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Selvaraji, S.",
+          "Mosberger, J.",
+          "Pang, K. K. L.",
+          "Eberly, G. L.",
+          "Kim, Y. J.",
+          "Mondal, R.",
+          "Leomi, R.",
+          "Anikeeva, P."
+        ],
+        "abstract": "Early gastrointestinal (GI) dysfunction is a hallmark feature of Parkinson's disease (PD), yet models capturing prodromal gut and brain pathology in PD remain limited. Motivated by the increased PD risk associated with pesticide exposure, we monitored motor behavior, brain pathology, and GI structure and function over 9 months following 5 daily doses of rotenone in mice. Transient rotenone exposure induced significant nigrostriatal pathology, including {approx}48% loss of dopaminergic neurons and increased -synuclein aggregation in the substantia nigra, without significant changes in gross motor function. Notably, we identified pronounced GI dysfunction including reduced colonic transit velocity, altered motility dynamics, and delayed whole-gut transit. These functional changes were accompanied by enteric dopaminergic neurodegeneration, increased colonic -synuclein accumulation, increased colonic crypt depth, goblet cell hyperplasia with elevated mucin content per goblet cell. The findings are consistent with prodromal PD, suggesting the utility of this model for investigating early disease mechanisms and intervention strategies.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761386v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.19.760270",
+        "title": "Alzheimer's Disease-Associated Proteomic Changes in Olfactory Stem Cells Show Pathway-Level Transcriptomic Overlap",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Rantanen, L. M.",
+          "Robinson, H.",
+          "DutraVoigt, D.",
+          "Diaz, X.",
+          "Lampinen, R.",
+          "Mykkanen, S.",
+          "Kalapudas, J.",
+          "Koivisto, A. M.",
+          "Penttila, E.",
+          "Oikari, L. E.",
+          "Quek, H.",
+          "Kanninen, K. M.",
+          "White, A. R."
+        ],
+        "abstract": "Alzheimer's disease (AD) is a progressive, neurodegenerative disorder and the leading cause of dementia worldwide. Although recent therapeutic advances have provided some disease-modifying potential, there is currently no curative treatment for AD, highlighting the need for improved disease models and early biomarkers. Olfactory mucosal stem cells, which can be expanded in vitro as olfactory neurosphere-derived (ONS) cells, represent a promising source for biomarker discovery because olfactory tissue is more accessible than central nervous system tissue and has been reported to exhibit AD-related pathological changes. In this study, we used subcellular fractionation-based proteomics, reconstructed bulk proteomics and integrated transcriptomic-proteomic analyses to characterise alterations in ONS cells derived from healthy control, mild cognitive impairment (MCI) and AD individuals. Fraction-specific proteomics identified cytoplasmic and nuclear-enriched protein abundance changes, including alterations in proteins and pathways associated with cytoskeletal organisation, RNA processing, intracellular trafficking, autophagy and mitochondrial/metabolic processes. Reduced LC3B abundance in cytoplasmic AD ONS cells was supported by western blot analysis, although LC3B abundance alone does not indicate altered autophagic flux. Reconstructed bulk proteomics identified 40 FDR-significant proteins in AD compared with HC, defining an AD-associated protein signature enriched for extracellular matrix, cytoskeletal, organelle-associated and RNA-processing pathways. Despite proteomic enrichment of mitochondrial and metabolic pathways, Seahorse Mito Stress Test analysis did not identify significant group-level differences in mitochondrial respiration. Integrated transcriptomic-proteomic analysis revealed partial RNA-protein concordance and pathway-level overlap across disease-associated processes. Together, these findings support the use of patient-derived ONS cells as a model for i",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760270v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.16.759692",
+        "title": "Early Insulin Signaling Defects and Oxidative Stress Kinase Activation Precede Tau Pathology in PS19 Tau Transgenic Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Elahi, M.",
+          "Burd, I.",
+          "Yang, P.",
+          "Shen, W.-B."
+        ],
+        "abstract": "Pathological tau accumulation is a hallmark of Alzheimers disease (AD), yet its relationship with impaired insulin signaling remains unclear. Previously, we reported altered IRS1 phosphorylation reduced p IR beta, and GLUT3 expression in young AD transgenic mice prior to overt pathology. Here, we investigated insulin signaling and oxidative stress pathways in the Tau P301S (PS19) mouse model. We found that alterations in phospho IRS1, phospho IR beta, and the glucose transporters GLUT3 and GLUT4 occur before pathogenic tau deposition. In stable tau expressing human neuronal cell lines, tau expression was similarly associated with impaired insulin signaling. Concurrent dysregulation of insulin signaling and activation of oxidative stress responsive kinases, accompanied by increased microglial abundance, were evident in 2 month old PS19 mice and persisted into adulthood. Together, these findings demonstrate that insulin signaling abnormalities and oxidative stress kinase activation are early and sustained features of PS19 tauopathy, preceding the onset of overt neuropathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759692v2",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.19.760199",
+        "title": "Brain pericytes are an oxidative stress-sensitive cell population damaged through ROS-1 dependent TRPA1 activation.",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Groten, C. J.",
+          "Kwan, J.",
+          "Groening, J.",
+          "Belleville, M.",
+          "Weilinger, N.",
+          "Bai, Y.",
+          "Wendt, S.",
+          "Kortje, Z.",
+          "Olarinde, F.",
+          "Chung, I.",
+          "Choi, H. B.",
+          "Bernier, L.-P.",
+          "Rungta, R.",
+          "MacVicar, B. A."
+        ],
+        "abstract": "Oxidative stress is a pathological process driven by an imbalance between the production and clearance of reactive oxygen species (ROS). It is a hallmark of numerous brain disorders, driving neuroinflammation, blood-brain barrier (BBB) disruption, and neurodegeneration. Here, we used two-photon microscopy in rodent brain slices to evaluate cell-type vulnerability to oxidative stress. We identified a microvascular cell population displaying pronounced sensitivity to H2O2 and thiol oxidation. These Pdgfr-{beta} expressing cells were identified as pericytes and perivascular fibroblasts. Because pericytes regulate capillary perfusion and BBB integrity, we examined mechanisms driving their injury. Pericyte damage was independent of apoptosis or necroptosis, but required Ca2+ influx. While blocking voltage-gated Ca2+, TRPC, Orai channels was ineffective, inhibitors of TRPA1 channels reduced pericyte damage. Immunostaining and western blotting showed TRPA1 associated with brain capillaries and pericytes. Functionally, TRPA1 regulated uptake of the pericyte-selective marker NeuroTrace, whereas pericyte GCaMP6f imaging demonstrated that TRPA1 was not the primary driver of cytosolic Ca2+ elevations during oxidative stress. These findings establish pericytes as vulnerable targets of oxidative stress and implicate TRPA1 as a mediator of pericyte structural degeneration. This sensitivity to oxidative stress, mediated by ROS-TRPA1 coupling, could contribute to the pericyte stress and degeneration observed in brain pathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760199v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.21.760838",
+        "title": "Dysregulation of miR-103a-3p/AGFG1 axis links endocytic trafficking dysfunction to ER stress in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Zhang, Z. W.",
+          "Chia, S.-Y.",
+          "Wong, L. J.",
+          "Li, Z.",
+          "Tu, H.",
+          "Tan, E.-K.",
+          "Zhou, Z.",
+          "Cao, M.",
+          "Zeng, L."
+        ],
+        "abstract": "Background: Parkinson's disease is defined by progressive dopaminergic neurodegeneration and -synuclein pathology. Endoplasmic reticulum (ER) stress and clathrin-mediated endocytosis dysfunction are implicated in disease pathogenesis, but the molecular mechanisms connecting these processes remain poorly understood. Here, we investigate a miR-103a-3p/AGFG1 axis as a regulator link between endocytic trafficking and ER stress in Parkinson's disease. Methods: MiR-103a-3p and AGFG1 were examined in plasma and postmortem substantia nigra from patients with Parkinson's disease and controls. Gain- and loss-of-function studies, target validation and live-cell imaging were used to define the role of the miR-103a-3p/AGFG1 axis in ER stress and endocytic trafficking. The pathway was further investigated in SNCA A53T and LRRK2 G2019S hiPSC-derived neurons. Therapeutic targeting of AGFG1 was evaluated using antisense oligonucleotides (ASOs) in vitro and in a 6-hydroxydopamine mouse model. Results: MiR-103a-3p was significantly reduced in Parkinson's disease plasma and substantia nigra, whereas AGFG1 was increased in nigral tissue. MiR-103a-3p directly repressed AGFG1 and attenuated thapsigargin-induced ER stress, while miR-103a-3p inhibition or AGFG1 overexpression exacerbated stress signalling. AGFG1 knockdown reversed the effects of miR-103a-3p inhibition, establishing AGFG1 as a functional downstream effector. Mechanistically, AGFG1 associated and co-trafficked with clathrin-positive vesicles, whereas ER stress progressively disrupted AGFG1-clathrin vesicle dynamics, revealing an association between endocytic trafficking and stress signalling. In genetic Parkinson's disease models, SNCA A53T and LRRK2 G2019S neurons showed mutation-dependent differences in AGFG1 expression and stress regulation. eIF2 phosphorylation increased in both SNCA A53T and LRRK2 G2019S neurons, whereas AGFG1 and GADD34 upregulation was selective to SNCA A53T neurons. Importantly, ASO-mediated AGFG1 sup",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760838v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.21.760809",
+        "title": "TMEM55B downregulation promotes neurodegeneration in Alzheimer disease models.",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Roy, B."
+        ],
+        "abstract": "Lysosomal distribution is critical for numerous biological functions within the cell, including protein degradation in autophagosomes, cholesterol homeostasis, and cell invasion. Changes in the positioning of lysosomes and dysregulation of lysosomal trafficking are known to contribute to different human pathologies, such as lysosomal storage disease, neurodegeneration, and cancer. Here we report the critical role of the lysosomal Transmembrane Protein 55B (TMEM55B) in mediating neurodegeneration. Using human clinical-pathological datasets, transgenic flies and iPSC-derived neurons, we demonstrate that loss of function of dTMEM55 potentiates neuronal degeneration. We found that TMEM55B levels are lowered in severe Alzheimer Disease (AD) cases, validated from microarray, single neuron and total RNA Seq datasets from brain sections of the ROSMAP cohort. Our results demonstrates that loss of function of dTMEM55 results in accumulation of lysosomes in the fly larval neuronal axons, enhances Tau mediated retinal degeneration, locomotory dysfunction, lethality, and cell death in the fly AD model. The iPSC-derived AD neurons exhibit reduced TMEM55B levels, autophagic flux defects and increased accumulation of phosphorylated Tau in the lysosomes, confirming the observations in the fly. Overall, our findings indicate that TMEM55B downregulation could contribute to neurodegeneration through defects in lysosomal transport, potentially hindering autophagic clearance of Tau. Our findings have significant relevance in validating the role of lysosomal proteins in normal lysosomal function and maintaining healthy neurons. This work supports continued research into lysosome-mediated neurodegeneration and may provide a basis for exploring potential therapeutic approaches for lysosome-associated neuronal disorders.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760809v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.19.760239",
+        "title": "Tumbly: An Open-Source Home-Cage Device for Time-Restricted Feeding in Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Barrett, M.",
+          "Chen, C.",
+          "Li, W.",
+          "Gaidica, M.",
+          "Wagner, A.",
+          "Wu, J.",
+          "Musiek, E. S.",
+          "Kravitz, A."
+        ],
+        "abstract": "Time-restricted feeding (TRF) is a common tool for studying metabolism, circadian rhythms, aging, and neurodegeneration. Here, we describe a new device called Tumbly, an automated device for performing TRF studies in mouse home-cages. Tumbly controls access to rodent diets at user-set times via a programmable servo-driven food hopper. Tumbly is also battery powered and compatible with multiple types of vivarium home-cages, due to a removable faceplate that can be customized to fit different cage dimensions without modification. Finally, Tumbly is open-source and affordable, with all design files available online, allowing researchers to build and customize it. As a validation test, we deployed Tumbly in two labs at separate institutions, one with singly housed mice (n = 6, within-subject) and one with group-housed mice (n = 22, between-group). We measured daily body weight and food intake. In both labs, mice on an 8-hour TRF schedule maintained their body weight and ate similar amounts of food compared to ad libitum feeding. Our quantified error rates were also low, with no device failures over >1000 hours of operation. We conclude that Tumbly provides a reliable, low-cost option for running TRF studies in mice.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760239v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.21.759261",
+        "title": "METTL3-mediated m6A modification alleviates skeletal muscle atrophy in ALS by regulating ACSL1-dependent triglyceride metabolism",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Yan, Q.",
+          "Zhang, L.",
+          "Bai, X.",
+          "Guan, Y.",
+          "Zhang, H.",
+          "Liu, J.",
+          "Zhuang, B.",
+          "Li, M.",
+          "Zhang, X.",
+          "Chen, X.",
+          "Ma, X.",
+          "Xu, C.",
+          "Yang, H.",
+          "Huang, X.",
+          "Zhou, F.",
+          "Chen, Y."
+        ],
+        "abstract": "Skeletal muscle-intrinsic defects are increasingly recognized as critical contributors to the pathogenesis of amyotrophic lateral sclerosis (ALS), yet the underlying molecular mechanisms remain poorly understood. N6-methyladenosine (m6A) is the most abundant post-transcriptional RNA modification in mammalian mRNAs that plays important regulatory roles in diverse physiological and pathological processes, however its role in ALS-associated skeletal muscle atrophy remains unknown. Here we found that global m6A methylation and the expression of its methyltransferase METTL3 are reduced in the skeletal muscle of hSOD1G93A transgenic ALS mice. Multi-omics analyses reveal that m6A dysregulation is closely associated with impaired triglyceride metabolism. Functionally, METTL3 promotes triglyceride accumulation in ALS skeletal muscle in an m6A-dependent manner; overexpression of METTL3 in ALS myotubes improves energy supply and alleviates muscle atrophy by promoting triglyceride accumulation. In vivo overexpression of Mettl3 in skeletal muscle attenuates muscle atrophy, improves motor performance, and prolongs survival of ALS mice. Mechanistically, we identify the fatty acid activation enzyme ACSL1 as a key downstream effector of METTL3-mediated regulation of triglyceride metabolism. METTL3-mediated m6A modification promotes the expression of Acsl1 by enhancing its mRNA stability. Further investigation revealed that the regulatory effect of m6A on Acsl1 expression depends on the m6A reader protein IGF2BP2. Collectively, our findings establish m6A modification as a critical regulator of skeletal muscle atrophy in ALS by maintaining triglyceride metabolic homeostasis, highlighting a promising therapeutic target for ALS.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.759261v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.20.760505",
+        "title": "Temporal Proteomics Links the APP London Mutation to Early Cholesterol Remodeling Cell Programs in Human Neurons",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Munoz-Estrada, J.",
+          "Jiang, Y.",
+          "Meyer, J. G."
+        ],
+        "abstract": "Familial Alzheimer's disease (AD) mutations in amyloid precursor protein (APP) alter amyloid-beta secretion profiles, but their effects on neuronal protein and lipid homeostasis remain incompletely understood. To identify early, cell-autonomous phenotypes associated with AD, we used isogenic KOLF2.1J iPSC-derived NGN2 neurons (iNeurons) carrying a heterozygous or homozygous APP-London mutation (V717I) and conducted a longitudinal proteomic study. Results revealed that maturation was the dominant source of proteomic variation, while genotype-dependent effects were pronounced in homozygous APP-London iNeurons. At four weeks, homozygous APP-London iNeurons showed increased APP abundance by proteomics and immunoblot, and increased alpha-CTF signal by immunoblotting. However, alpha-CTF/FL-APP and alpha-CTF/FL-APP ratios from immunoblot did not differ significantly from revertant controls, leaving preferential CTF accumulation unresolved and instead indicating increased steady-state abundance of APP-derived species. Proteomics remodeling in APP-London mutants converged on synaptic, endosomal, and calcium signaling pathways. Notably, homozygous APP-London iNeurons showed a distinct accumulation of cholesterol-biosynthetic enzymes and altered abundance of cholesterol transporters, an increased free/total cellular cholesterol without corresponding induction of SREBP2 target transcripts Pharmacological perturbation of cholesterol metabolism altered A beta 40 and Abeta 42 secretion in a compound-specific manner and produced minimal changes in bulk cellular cholesterol, indicating that A beta secretion was not simply determined by total cholesterol abundance. Finally, we identified SYT4 as a potential gamma-secretase target or associated factor that warrants further validation. These findings identify cholesterol dyshomeostasis as an early metabolic phenotype of iNeurons carrying the APP-London mutation, extending the molecular phenotype beyond altered A beta secretion.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760505v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.19.759840",
+        "title": "Serpin A3 is Increased in Cerebral Amyloid Angiopathy and ARIA",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Ventura-Antunes, L.",
+          "Janve, V. A.",
+          "Womble, N.",
+          "Weasler, C. J.",
+          "Hai, S. A.",
+          "Brula, H.",
+          "Mobley, B. C.",
+          "Hohman, T. J.",
+          "Romero-Fernandez, W.",
+          "Schrag, M. S."
+        ],
+        "abstract": "Vascular pathology is an important contributor to dementia, and astrocyte dysfunction is increasingly recognized as a key mediator of cerebrovascular injury. Serpin A3 is a well-known marker of reactive astrocytes, yet its role in vascular degeneration in cerebral amyloid angiopathy and Alzheimers disease remains poorly defined. We combined analyses of single-nucleus transcriptomic datasets with western blotting and quantitative two- and three-dimensional microscopy of human brain tissue to characterize Serpin A3 expression, distribution, cellular sources, and neuropathological correlates in the human brain. Serpin A3 protein abundance was increased in cases with cerebral amyloid angiopathy and Alzheimers disease compared to neurological controls, both by western blot and quantitative microscopy. The tissue distribution of Serpin A3 was heterogeneous and was predominantly within astrocytes associated with degenerating arterioles. Serpin A3 was also detected around parenchymal beta-amyloid plaques. In a postmortem case of active and severe lecanemab-associated amyloid-related imaging abnormalities, light sheet microscopy revealed prominent Serpin A3 immunoreactivity around inflamed, dilated vessels and microhemorrhages, with Serpin A3 levels higher than those found in the Cerebral Amyloid Angiopathy cases. These findings identify Serpin A3 as a marker of cerebrovascular injury and astrocyte-driven inflammatory responses in cerebral amyloid angiopathy.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.759840v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.07.06.736718",
+        "title": "Dissociation between impaired explicit spatial remapping and preserved implicit neural dynamics in Alzheimers disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Wang, X.",
+          "Wang, Y.",
+          "Pang, K.",
+          "Zheng, C."
+        ],
+        "abstract": "The hippocampus supports spatial memory by dynamically integrating external sensory inputs with intrinsic neural circuit dynamics during novel experience. In Alzheimer's disease (AD), despite impaired hippocampal spatial remapping, learning and memory-related hippocampal representations can remain partially preserved, a phenomenon consistent with cognitive resilience (Gomez-Isla and Frosch 2022, Jia, Xu et al. 2025). However, the hippocampal ensemble coding patterns associated with these preserved memory abilities remain remains unclear. We hypothesize that intrinsic temporal structures of neuronal firing continue to facilitate the encoding of new spatial information. Using the AppNL-G-F rat model, we recorded hippocampal CA1 activity across multiple days during a familiar-novel context alternating task. We found a dissociation between impaired explicit spatial coding and preserved implicit temporal coding in the AD hippocampal network. Explicit spatial coding was impaired, as place cells showed weak discrimination between distinct contexts and failed to exhibit improvement across days. In contrast, implicit temporal coding exhibited experience-dependent refinement, with cofiring dynamic becoming increasingly context-specific across long-term experience. Further analysis suggested that the enhancement of implicit cofiring may be associated with the increased consistency of neural ensemble reactivation during sharp wave ripples in awake rest. Taken together, these findings reveal an explicit-implicit dissociation in the AD hippocampal network, suggesting that the experience-dependent refinement of implicit temporal coding may support preserved learning-related hippocampal network dynamics despite impaired spatial remapping.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736718v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.20.760443",
+        "title": "Astrocytic ablation of truncated TrkB receptors reduces amyloid plaques and prevents synaptic loss in 5xFAD mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-24",
+        "is_early_access": true,
+        "authors": [
+          "Bass, R.",
+          "Masterson, H.",
+          "Chen, Y.",
+          "Xu, B."
+        ],
+        "abstract": "Brain-derived neurotrophic factor (BDNF) is essential for nervous system development and function and exerts its effects primarily through the tropomyosin receptor kinase B (TrkB). The Ntrk2 gene encodes a full-length receptor (TrkB.FL) and two truncated isoforms (TrkB.T1 and TrkB.T2, collectively TrkB.T) that lack the intracellular tyrosine kinase domain. TrkB.T is expressed predominantly in astrocytes and is thought to inhibit BDNF-TrkB.FL signaling by sequestering BDNF and forming signaling-deficient heterodimers with TrkB.FL. Here, we investigated whether selective ablation of astrocytic TrkB.T could ameliorate Alzheimer's disease (AD) pathology by enhancing endogenous BDNF-TrkB.FL signaling. Astrocyte-specific deletion of the Ntrk2 gene at 5 weeks of age reduced cortical TrkB.T expression by more than 80% without affecting TrkB.FL levels. TrkB.T ablation increased the size of Bassoon-positive presynaptic active zones, consistent with enhanced BDNF-TrkB.FL signaling. Remarkably, astrocytic TrkB.T ablation reduced {beta}-amyloid plaque burden by more than 60% in the cortex, hippocampus, and subiculum of 6-month-old 5xFAD mice, despite having no detectable effect on microgliosis or astrogliosis. Furthermore, TrkB.T ablation prevented reductions in the density and size of PSD-95-positive postsynaptic sites in the cortex and hippocampus of 5xFAD mice at 1 year old. Together, these findings identify astrocytic TrkB.T as an important regulator of amyloid pathology and synaptic integrity in an AD mouse model. Our results suggest that selectively reducing TrkB.T expression represents a promising therapeutic strategy to enhance endogenous neuroprotective BDNF-TrkB.FL signaling, reduce amyloid pathology, and preserve synaptic integrity in AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760443v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.19.760193",
         "title": "LRRC8A/D-containing anion channels mediate swelling-activated taurine release in the mouse brain",
@@ -93,108 +419,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760032v1",
         "reasons": [
           "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.21.760461",
-        "title": "Sex-Dependent Effects of Creatine Hydrochloride on Neuroinflammation, Neuronal Survival, and Inhibitory Synaptic Remodeling Following Traumatic Brain Injury in Mice.",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-22",
-        "is_early_access": true,
-        "authors": [
-          "Zigmond, J. W.",
-          "Lamberty, B. G.",
-          "Simon, G. J.",
-          "Wood, J. M.",
-          "Elliott, N. M.",
-          "Miller, D. W.",
-          "Stauch, K. L."
-        ],
-        "abstract": "Despite traumatic brain injury (TBI) being a leading cause of death and disability in the United States, there is currently no FDA-approved medication that can prevent, heal, or reverse brain damage caused by TBI. TBI is caused by primary and secondary brain damage resulting in loss of neurons, astrocytic gliosis, and microglial activation which culminate in complex neurological disorders. The goal of the current study was to investigate the neuroprotective potential for Creatine Hydrochloride (C-HCl) supplementation following TBI in wild-type mice. Four C-HCl supplementation paradigms were examined including both 7 day pre-injury and 14-day post-injury treatments consisting of the following: 1) water/water, 2) water/C-HCl (100 mg/kg), 3) C-HCl (100 mg/kg)/C-HCl (100 mg/kg), 4) C-HCl (100 mg/kg)/C-HCl (450 mg/kg). Following controlled cortical impact (CCI) injury at a parietal location, measures of tissue and cellular (neuronal and glial) damage were assessed at 14 days post-injury (dpi). At 14 dpi, there were no significant effects on gross anatomical cavitation, tissue loss, third ventricle expansion, or systemic fluid biomarkers with any treatment group, though female mice exhibited larger baseline lesion boundaries overall compared to male mice. However, microstructural evaluation revealed a profound and sex-dependent effect of C-HCl supplementation in the hippocampus with female mice showing reduced neuroinflammation and male mice displaying reduced neurodegeneration (Fluoro-Jade C staining of neurons) across the CA1 and dentate gyrus (DG) compared to placebo control. Furthermore, mice receiving C-HCl pre-injury followed by high-dose C-HCl post-injury demonstrated distinct remodeling of inhibitory circuits to restore network balance with males significantly modifying presynaptic machinery via vesicular GABA transport (VGAT puncta) in the DG, whereas females reinforced postsynaptic architectural framing through scaffolding elements (gephyrin puncta) in both the ",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760461v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2024.12.17.628978",
-        "title": "Neuronal expression of E2F4DN restores adult neurogenesis in homozygous 5xFAD mice via TrkB signaling",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-22",
-        "is_early_access": true,
-        "authors": [
-          "Lozano-Urena, A.",
-          "Llabres-Mas, A. M.",
-          "Ramon-Landreau, M.",
-          "Fraj-Cebrian, A.",
-          "Sanchez-Puelles, C.",
-          "Garrido-Garcia, A.",
-          "Cano-Daganzo, V.",
-          "Valdes-Lora, L.",
-          "Frade, J. M."
-        ],
-        "abstract": "Background: Alzheimer's disease (AD) is increasingly recognized as a disorder that disrupts brain plasticity long before extensive neuronal loss occurs, including early impairment of adult neurogenesis. However, the molecular mechanisms underlying these alterations remain poorly understood. Methods: Neuronal expression of E2F4 carrying the Thr249Ala/Thr251Ala mutation (E2F4DN) was achieved using an AAV.PHP.eB vector in the 5xFAD mouse model of AD. Neurogenic potential was assessed by immunohistochemistry and quantitative PCR (qPCR) targeting neurogenesis-associated markers. For in vitro experiments, neural stem cells (NSCs) isolated from the subventricular zone (SVZ) were exposed to conditioned media from primary cortical neurons expressing E2F4DN, with or without pharmacological inhibitors. NSC proliferation and differentiation were evaluated by immunocytochemistry and qPCR. Results: Neuronal expression of E2F4DN restored the proliferative and differentiation capacity of NSCs in 5xFAD mice both in vivo and in vitro. Pharmacological inhibition of TrkB signaling abolished the pro-neurogenic effects of E2F4DN-conditioned medium, whereas direct activation of TrkB in NSCs recapitulated these effects. Conclusions: These findings identify a mechanism by which neuronal dysfunction in AD compromises neurogenesis through impaired TrkB-mediated signaling. The results uncover a previously underappreciated paracrine communication between neurons and NSCs and highlight neuronal E2F4DN expression and TrkB modulation as promising therapeutic strategies to counteract early neurogenic deficits in AD.",
-        "url": "https://www.biorxiv.org/content/10.1101/2024.12.17.628978v2",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.16.759692",
-        "title": "Early Insulin Signaling Defects and Oxidative Stress Kinase Activation Precede Tau Pathology in PS19 Tau Transgenic Mice",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-22",
-        "is_early_access": true,
-        "authors": [
-          "Elahi, M.",
-          "Burd, I.",
-          "Yang, P.",
-          "Shen, W.-B."
-        ],
-        "abstract": "Pathological tau accumulation is a hallmark of Alzheimers disease (AD), yet its relationship with impaired insulin signaling remains unclear. Previously, we reported altered IRS1 phosphorylation reduced p IR beta, and GLUT3 expression in young AD transgenic mice prior to overt pathology. Here, we investigated insulin signaling and oxidative stress pathways in the Tau P301S (PS19) mouse model. We found that alterations in phospho IRS1, phospho IR beta, and the glucose transporters GLUT3 and GLUT4 occur before pathogenic tau deposition. In stable tau expressing human neuronal cell lines, tau expression was similarly associated with impaired insulin signaling. Concurrent dysregulation of insulin signaling and activation of oxidative stress responsive kinases, accompanied by increased microglial abundance, were evident in 2 month old PS19 mice and persisted into adulthood. Together, these findings demonstrate that insulin signaling abnormalities and oxidative stress kinase activation are early and sustained features of PS19 tauopathy, preceding the onset of overt neuropathology.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759692v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.16.758033",
-        "title": "Dopaminergic Medication Improves Force Control and Modifies Motor Unit Activity During the Steadiest and Least Steady Periods in Parkinsons Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-22",
-        "is_early_access": true,
-        "authors": [
-          "Alaei, P.",
-          "Holobar, A.",
-          "Wile, D. J.",
-          "Jakobi, J. M."
-        ],
-        "abstract": "Parkinsons disease (PD) impairs steady force production, but how dopaminergic medication alters force control and the motor unit (MU) activity is unclear. This study examined force steadiness and biceps brachii MU behavior in 16 people with PD ON and OFF dopaminergic medication. Participants performed sustained isometric elbow flexion contractions at 5%, 10%, 15%, and 25% of maximum voluntary contraction (MVC). High density surface electromyography was decomposed into MU spike trains. Force steadiness and MU discharge properties were quantified during nonoverlapping 7-s steadiest and least steady contraction periods, whereas MU coherence was assessed across the force plateau. In the ON state, force steadiness improved by 17_19% during both contraction periods at 5_15% MVC. MU interspike interval variability decreased by [~]12% across all forces during the least steady contraction period and by 17% at 15% MVC during the steadiest contraction period, whereas mean MU discharge rate was unchanged. Recruitment thresholds were higher at 10% and 25% MVC in the ON state, whereas derecruitment thresholds did not differ. Across the entire plateau, alpha- and tremor-band MU coherence decreased by 14% and 18%, respectively, whereas delta-band coherence was unchanged. These findings demonstrate that dopaminergic medication improves both the steadiest and least steady periods of low-force control, accompanied by reduced MU discharge variability and frequency-specific changes in plateau-wide MU coherence rather than changes in mean discharge rate. Resolving within-contraction variation reveals medication-sensitive features of force control that are obscured by conventional plateau-wide analyses, providing a new approach for evaluating motor output in PD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758033v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.16.759776",
-        "title": "Frequency-Resolved Connectivity Graphs for EEG-Based Classification of Alzheimer and Frontotemporal Dementia",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-22",
-        "is_early_access": true,
-        "authors": [
-          "Radwan, M.",
-          "yazidi, A.",
-          "lind, P. G."
-        ],
-        "abstract": "In this study, we build EEG based graph model that uses frequency-resolved connectivity features, with Coherence, phase locking value (PLV) and phase lag index (PLI) in five frequency bands as multi-dimensional edge features. The model is used to classify Alzheimer disease (AD) and frontotemporal dementia (FTD) against healthy controls (CN). This paper extends our earlier work on FTD with AD vs CN as the main new task, a feature ablation for it, and a joint analysis of both tasks. With leave-one-subject-out (LOSO) validation, the model reaches an accuracy of 81.13\\% for AD vs CN and 76.06\\% for FTD vs CN, which is competitive with the baselines reported with the dataset with far fewer parameters (159 and 282 thousand versus 170.5 million). Under the random cross-validation setting used for the DICE-net model, our model has a comparable accuracy for FTD and a lower accuracy for AD. Node and edge saliency maps highlight occipital and temporal electrodes, the Alpha band for node features and the Theta band for edge features, which is consistent with earlier EEG studies. In an ablation on the AD task, using all 15 edge features performed better than using a single connectivity measure or edge features averaged over the bands.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759776v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
         ],
         "is_new": true
       }
