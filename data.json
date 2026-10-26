@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "total": 18,
+  "date": "2026-10-26",
+  "total": 14,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
@@ -328,97 +328,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760443v1",
         "reasons": [
           "关键词『Alzheimer、amyloid』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.19.760193",
-        "title": "LRRC8A/D-containing anion channels mediate swelling-activated taurine release in the mouse brain",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-23",
-        "is_early_access": true,
-        "authors": [
-          "Chandler, M. L.",
-          "Nalwalk, J. W.",
-          "Dohare, P.",
-          "Sprague, A. D.",
-          "Schober, A. L.",
-          "Mongin, A. A."
-        ],
-        "abstract": "Volume-regulated anion channels (VRACs) are swelling-activated Cl- channels formed by heteromers of LRRC8 proteins (LRRC8A-E). VRACs mediate regulatory volume decrease by releasing Cl- and organic osmolytes, including taurine. In the brain, taurine functions as both an osmolyte and an inhibitory neuromodulator, acting as an agonist at glycine and GABAA receptors. Here, we used RNAi and genetically modified mice to (i) determine the contribution of LRRC8 subunits to swelling-activated taurine release, and (ii) test whether brain VRACs contribute to systemic osmoregulation. In astrocyte cultures lacking the essential VRAC subunit LRRC8A, swelling-activated [3H]taurine release was reduced by ~90%. Similarly, in vivo brain microdialysis revealed a [&ge;]90% reduction in swelling-activated taurine release in brain-wide LRRC8A knockout mice (bLRRC8A KO). RNAi experiments further confirmed LRRC8D as a key determinant of VRAC-mediated taurine release, with Lrrc8d knockdown reducing swelling activated [3H]taurine efflux by >50%. RNA-seq revealed enrichment of Lrrc8d in the hypothalamus, where astrocytic taurine release is proposed to inhibit magnocellular neurons and suppress arginine vasopressin secretion during hypoosmotic conditions. We therefore tested whether disrupting brain VRACs impairs recovery from systemic hypoosmotic stress. bLRRC8A KO mice and mice with gene trap-mediated LRRC8D depletion were challenged with an intraperitoneal injection of sterile water (7.5% body weight, under anesthesia), and serum osmolality was monitored over time. Unexpectedly, neither model showed impaired recovery from hypoosmotic challenge. Overall, this study identifies LRRC8A/D-containing VRACs as the primary conduit for swelling-activated taurine release in the brain, yet indicates that this pathway is not essential for maintaining systemic fluid-electrolyte homeostasis.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760193v1",
-        "reasons": [
-          "关键词『tau』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.19.760019",
-        "title": "Splanchnic-spinal transmission of gut-initiated α-synucleinopathy",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-23",
-        "is_early_access": true,
-        "authors": [
-          "Jung, B.-K.",
-          "Song, M. K.",
-          "Kim, Y.",
-          "Hong, D. K.",
-          "You, M.",
-          "Ahn, E. H.",
-          "Kang, S. S.",
-          "Kam, T.-I.",
-          "Park, H.",
-          "Kim, Y.-S.",
-          "Suh, G. S. B."
-        ],
-        "abstract": "Gut-initiated -synucleinopathy is proposed to spread from the gastrointestinal tract to the CNS, contributing to Parkinson's disease (PD), but whether routes beyond the vagus nerve are involved remains unclear. Using complementary intracolonic rotenone and gastroduodenal -synuclein PFF models, we combined pathway-specific surgical interruption with longitudinal behavioral analysis and anatomical mapping of pathological -synuclein. In the intracolonic rotenone model, interruption of the prevertebral ganglia/splanchnic-spinal axis more strongly attenuated behavioral deficits and -synuclein pathology than vagotomy. In the gastroduodenal PFF model, both vagal and splanchnic-spinal pathways contributed to pathology propagation. Early after PFF inoculation, pathological -synuclein was detected in peripheral neural structures associated with both routes. Consistent with these findings, spinal pathology was evident in human PD. Together, these results identify the splanchnic-spinal pathway as a key component of body-first Parkinson's disease, broadening current models of peripheral-to-central disease progression and informing efforts to target early peripheral disease progression.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760019v1",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.19.759610",
-        "title": "A coordinated and reproducible multicellular response to AD pathology",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-23",
-        "is_early_access": true,
-        "authors": [
-          "Vilkaite, G.",
-          "Volcov, E.",
-          "An, L.",
-          "Xiao, Y.",
-          "Hristovska, I.",
-          "Rosat Consiglio, C.",
-          "Pichet-Binette, A.",
-          "Mattsson-Carlgren, N.",
-          "Gaiteri, C.",
-          "Vogel, J. W."
-        ],
-        "abstract": "While single-cell measurements of the Alzheimer's disease (AD) brain allow investigation of vulnerable cells in unprecedented depth, reported findings are heterogeneous, mostly descriptive and often ignore interdependence of cellular responses. Operationalization of these findings requires a multi-cellular model of AD that is robust and reproducible. Here, we utilize a coordinated multicellular community approach across 2.3 million nuclei from 427 ROSMAP donors to identify robust multicellular axes associated with AD pathology and sex. The AD signature comprised profound alteration to RORB-GABRG excitatory neurons and disrupted oligodendrocyte precursor cell signaling. A separate set of AD-related cell-type specific molecular processes with strong sexual dimorphism also emerged. Importantly, these signatures developed and ROSMAP predicted neuropathology and sex, respectively, in a completely independent dataset (SEA-AD). These findings altogether summarize a highly consistent multi-cellular response to AD pathology in the human brain, creating a baseline cellular model to which perturbation and treatment experiments can be compared.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.759610v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.19.760032",
-        "title": "Differential value processing in the rostral and causal subthalamic nucleus during flexible and habitual decision-making in primates: Implications for cognitive dysfunction in Parkinson's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-23",
-        "is_early_access": true,
-        "authors": [
-          "Lee, K.",
-          "Lee, M.",
-          "Jiang, H.",
-          "Kim, H. F."
-        ],
-        "abstract": "The subthalamic nucleus (STN) is a major target region of deep brain stimulation (DBS) for Parkinson's disease (PD), effectively alleviating motor symptoms. However, STN-DBS can also induce cognitive impairments, suggesting that the STN contributes to cognitive functions beyond simple motor control. Furthermore, anatomical organization supports functional segregation of cognitive processes, as basal ganglia subregions encoding flexible and stable values topographically project to distinct STN subregions. Yet, whether the STN contributes to cognitive functions and, if so, how subregions of the STN differentially process cognitive flexibility and habitual stability remains unknown. Here, we reveal a rostral-caudal functional organization of the STN that differentially supports flexible value updating and long-term value memory, enabling adaptive and habitual decision-making, respectively. Neurons in the rostral STN (rSTN) preferentially encode flexibly updated values, whereas neurons in the caudal STN (cSTN) preferentially encode stable long-term value memories. Notably, inactivation of the STN along the rostral-caudal axis produced dissociable behavioral deficits: rSTN inactivation selectively impaired goal-directed behavior requiring flexible value updating, whereas cSTN inactivation selectively disrupted habitual behavior guided by long-term value memories. Together, these results reveal a rostral-caudal functional segregation of the STN, with the rSTN supporting goal-directed behavior and the cSTN supporting habitual behavior. These findings further provide a framework for understanding how STN dysfunction or STN-DBS in Parkinson's disease may differentially affect cognitive processes beyond motor control.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760032v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
         ],
         "is_new": true
       }
