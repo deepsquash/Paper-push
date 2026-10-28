@@ -1,10 +1,264 @@
 {
-  "date": "2026-10-27",
-  "total": 1,
+  "date": "2026-10-28",
+  "total": 12,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.26.761919",
+        "title": "Genedex: Contextualizing gene signatures across Alzheimer's disease pathology, cell types, and brain regions",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Pegoraro, G.",
+          "Isgoren, M. E.",
+          "Rizzo, L.",
+          "Soto Morales, L.",
+          "Naderi Yeganeh, P.",
+          "Sung, I.",
+          "Gupta, S.",
+          "Kim, D. Y.",
+          "Tanzi, R. E.",
+          "Lunnon, K.",
+          "Castanho, I.",
+          "Hide, W."
+        ],
+        "abstract": "Systematic prioritization of candidate Alzheimer's disease (AD) genes and their target functions for therapeutic intervention requires a consistent understanding of their brain location, cell-type-specific expression, relationships with pathology, and direction of change. Defining the role of a gene in AD requires interrogation of multiple publications, each providing a different context. Often, it is also unclear whether a gene is up- or downregulated across these contexts. However, the narrow diversity of contexts in which they have been assayed and described limits interpretation. We integrated 1,562 gene signatures from 34 studies, annotated for pathological process, cell type, brain region, and direction of change, and showed that Genedex recovers established AD biology. Genedex addresses cellular and regional unexplained directional contradictions from 10,657 discordant genes in the published AD literature. We investigated the role of heat-shock chaperones and neurotrophic signaling in cognitive resilience using Genedex. Heat-shock chaperone genes are broadly upregulated with tau burden; but, in the presence of amyloid pathology, their expression diverges, showing upregulation in excitatory neurons and downregulation in glia and during A{beta} clearance. LINGO1, a regulator of BDNF, is upregulated with neuritic plaque load, tau burden, and selective vulnerability in cortical regions. Notably, in tau-affected RORB excitatory neurons, LINGO1 expression is inversely correlated with neurotrophic genes BDNF and NTRK2. A prioritized interneuronal resilience signature shows correlated pathway co-expression with somatostatin and parvalbumin interneuronal signatures. Vulnerability-associated signatures separate by cellular context: neuronal programs are positively correlated with vulnerable interneurons, while glial and vascular cells are predominantly anti-correlated. By systematically mapping genes across functional, cellular, spatial, and directional axes, Genedex p",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761919v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.03.26.645411",
+        "title": "Spatial mapping of α-synuclein seeding activity and pathology using immunofluorescence-integrated quiescent seed amplification",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Mao, H.",
+          "Kuang, Y.",
+          "Wang, Z.",
+          "Li, J.",
+          "Dai, W.",
+          "Lin, H.",
+          "Gan, T.",
+          "He, Z.",
+          "Zou, W.",
+          "Ma, C.",
+          "Huang, Y.",
+          "Huang, J.",
+          "Xu, P."
+        ],
+        "abstract": "Seed amplification assays sensitively detect misfolded alpha-synuclein (alphaSyn) templating activity in homogenates but erase tissue coordinates, whereas Ser129-phosphorylated alphaSyn (pS129) immunostaining preserves anatomy without measuring functional seeding competence. Here we report multiplexed immunofluorescence-integrated quiescent seed amplification (IF-QSAA), coupling in situ QSAA with multichannel immunolabelling on the same brain section. Combining mouse alphaSyn monomer, high sulfate and 70 degrees C quiescent incubation under an agarose overlay generates localized, fibrillar thioflavin T-positive products with high seed specificity. Across preformed-fibril-inoculated mouse brains and human Parkinson's disease (PD) tissue, QSAA reveals white-matter seeding enrichment, resolves hemispheric asymmetry earlier than pS129, and recovers endogenous seeding signals from archival formalin-fixed PD tissue lacking pS129 immunoreactivity. Using a QSAA-first workflow with 80 degrees C citrate retrieval and spectral unmixing, IF-QSAA identifies selective neuronal and microglial associations and resolves core-halo QSAA-pS129 dual-positive pairs. IF-QSAA thus co-maps functional seeding and molecular histopathology.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.03.26.645411v5",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.26.762038",
+        "title": "Repeated VU0155069 Treatment Is Associated with Region- and Pathological Stage-Specific Dendritic Spine Remodeling in Female 3xTg-AD Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Mohanty, S.",
+          "Bosworth, S.",
+          "Ramaswamy, K.",
+          "Natarajan, C.",
+          "Krishnan, B."
+        ],
+        "abstract": "Background: Alzheimers disease (AD) is increasingly recognized as a disorder of synaptic integrity in which changes in dendritic spine abundance and morphology accompany progressive cognitive dysfunction. Phospholipase D1 (PLD1), a regulator of membrane trafficking and cytoskeletal signaling, is aberrantly elevated in AD-related pathological states (ADRD). Previous studies from our lab demonstrated that repeated VU0155069 treatment promotes functional resilience in female 3xTg-AD mice, including improvements in novel-object recognition, fear-conditioning performance, hippocampal LTP, later-stage LTP and LTD, selected neuropathological outcomes, and most importantly, CA1 spine integrity. Objective: To determine how this previously demonstrated functional resilience is represented structurally across cortical, hippocampal, and amygdalar circuits at earlier and later stages of AD-like pathology. Methods: Female 3xTg-AD mice received vehicle or VU0155069 at 1 mg/kg intraperitoneally every other day for one month beginning at 5 or 11 months of age, with Golgi-Cox analysis at 6 or 12 months, respectively. Age-matched vehicle-treated 3xTg-AD littermates served as the primary comparator for evaluating the structural response to pharmacological attenuation of disease-associated PLD1 signaling. Results: Auditory and visual cortical fields showed selective changes in spine-subtype distribution and morphometry. Hippocampal cornu ammonis (CA)2, CA3, and dentate gyrus (DG) exhibited distinct patterns involving spine abundance, density, and geometry, whereas the central, lateral, and basolateral amygdalar nuclei showed nucleus- and stage-dependent remodeling. Across the multiregional dataset, recurring responses comprised spine-subtype redistribution, changes in spine abundance, and morphometric remodeling rather than uniform structural rescue. Conclusions: VU0155069 engages circuit- and pathological stage-specific forms of dendritic spine remodeling across distributed recognition",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762038v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.11.26.690872",
+        "title": "Proteomic analysis in Alzheimer's disease with psychosis reveals a shared AD proteomic landscape and a separate molecular signature of postsynaptic density disruption",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Ku, T. S.-H.",
+          "Mullet, S. J.",
+          "Sui, Z.",
+          "Zeng, L.",
+          "Ding, Y.",
+          "Yocum, A. K.",
+          "MacDonald, M. L.",
+          "Gelhaus, S. L.",
+          "Kofler, J. K.",
+          "Sweet, R. A."
+        ],
+        "abstract": "Background and Hypothesis: Alzheimer's disease with psychosis (AD+P) is a subgroup of AD patients with more rapid cognitive deterioration. While our previous study showed that AD+P is associated with loss of prefrontal cortex postsynaptic density (PSD) proteins, identifying proteins in the broader cellular environment that influence PSD loss addresses a critical knowledge gap about synaptic dysfunction mechanisms in early disease stages. Study Design: We conducted a proteomic analysis comparing prefrontal grey matter cortex tissue homogenates from elderly normal controls (n=18), individuals with AD+P (n=61), and individuals with AD-P (n=48). Study Results: AD+P showed the most pronounced alterations relative to controls (178 proteins with q<0.05), although alterations in AD-P and AD+P relative to controls were highly similar (R2=0.965, p<0.001). Weighted-gene correlation network analysis (WGCNA) identified four modules significantly associated with disease status comparing AD subjects to controls, but none differed significantly between AD+P and AD-P. We identified 15 proteins significantly correlated with PSD yield across all samples, including ENPP6, linked to AD+P by GWAS. Additionally, PSD yield-associated proteins showed minimal overlap with altered AD proteins (1 of 137). Proteins negatively correlated with PSD yield were enriched for presynaptic endocytosis, whereas the one WGCNA module significantly correlated with PSD yield was enriched for inflammatory terms. Conclusions: Our findings suggest a model in which AD+P arises from the combination of quantitative alterations within a shared AD proteome profile and a superimposed set of protein alterations correlated with PSD yield that confer distinct mechanisms of synaptic vulnerability and psychosis risk.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690872v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.23.761349",
+        "title": "The human-specific lncRNA HD-LINC drives lipid droplet-associated neurodegeneration in Huntington's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Kwon, J.-S.",
+          "Wang, L.",
+          "Ganti, N. R.",
+          "Li, J.",
+          "Xia, S.",
+          "Al-Dalahmah, O.",
+          "Yoo, A. S."
+        ],
+        "abstract": "Huntington's disease (HD) is characterized by degeneration of striatal medium spiny neurons (MSNs), yet the human-specific regulatory mechanisms that contribute to neuronal vulnerability remain poorly understood. Here, we identify HD-LINC (LINC01139), a human-specific long intergenic noncoding RNA selectively induced in symptomatic HD patient-derived MSNs (HD-MSNs) and human HD caudate. Single-cell transcriptomic analysis in HD-MSNs revealed that HD-LINC was enriched in a symptomatic HD neuronal state associated with lipid metabolic and protein clearance regulation, while not observed in non-degenerative reprogrammed MSNs derived from pre-manifest HD individuals. Reducing HD-LINC attenuated mutant HTT aggregation, dystrophic neurites, DNA damage, and neuronal death, whereas HD-LINC overexpression exacerbated these phenotypes. Transcriptomic and lipidomic analyses further implicated HD-LINC in neuronal lipid regulation. We found that HD-MSNs exhibited aberrant accumulation of enlarged, low-mobility lipid droplets (LDs) within neurites, a previously unrecognized phenotype in patient-derived neurons. Critically, increased lipid peroxidation was observed within LD-enriched dystrophic neurites in HD-MSNs. HD-LINC knockdown cleared neuritic LD accumulation, restored soma-enriched LD distribution, and reduced lipid peroxidation. Finally, we developed antisense oligonucleotides that effectively reduced HD-LINC and reversed HD-LINC-associated phenotypes, nominating HD-LINC lowering as a potential therapeutic strategy in HD. These results identify HD-LINC as a human-specific regulator of neuronal LD spatial organization, lipid peroxidation, and neuronal degeneration in HD. They further reveal dysregulated neuritic LD accumulation driven by HD-LINC, and highlight lincRNA-mediated lipid dysregulation as a significant contributor to neuronal vulnerability to degeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761349v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.22.760665",
+        "title": "Computational markers of rhythmic timing in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Pando-Naude, V.",
+          "Kuang, V. H.",
+          "Christensen, K. L.",
+          "Stupacher, J.",
+          "Vuust, P.",
+          "Keller, P. E."
+        ],
+        "abstract": "Sensorimotor synchronization requires the nervous system to predict upcoming events while continuously correcting the timing of ongoing actions. Parkinson's disease (PD) is associated with impaired temporal processing, but it remains unclear which cognitive-computational mechanisms underlie rhythmic timing deficits. Here, we applied the Adaptation and Anticipation Model (ADAM) to synchronized finger-tapping data from participants with PD and controls across four steady tempi. After data screening, analyzes included 35 participants with PD and 28 controls. PD was associated with reduced synchronization accuracy and stability, reflected in larger absolute asynchronies and higher variability of asynchronies. ADAM parameter estimates indicated lower phase correction (coupling strength) and higher central timekeeper noise in the PD group, whereas period correction (tempo matching) and peripheral motor noise showed no robust group differences. Across participants, timekeeper noise predicted synchronization accuracy. Phase correction, timekeeper noise, and motor noise predicted synchronization stability, but their associations differed between groups: phase correction was more closely associated with stability in PD, whereas timekeeper and motor noise were more closely associated with stability in controls. These findings suggest that sensorimotor synchronization deficits in PD reflect reduced use of recent timing errors to guide upcoming movements and less precise internal timekeeping. Error correction and timekeeper noise thus emerge as candidate computational markers of altered rhythmic timing in PD, with potential relevance for understanding individual differences in responses to rhythmic auditory cueing.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760665v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.26.761430",
+        "title": "L-DOPA Rescues Reach Height but Not Trajectory Area in a Bimanual String-Pulling Behavior in Parkinsonian Rats",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Schmit, M. B.",
+          "Aristieta, A.",
+          "Caparu, R.",
+          "Malik, A. J.",
+          "White, A.",
+          "Surtchev, Y.",
+          "Pederson, V.",
+          "Bartlett, M. J.",
+          "Vishwanath, A.",
+          "Falk, T.",
+          "Cowen, S. L."
+        ],
+        "abstract": "While gross motor changes in Parkinson's disease, bradykinesia, hypokinesia, difficulty initiating movement, have been well studied in rodent models of the disease, limb movements, and especially bimanual coordination deficits, are more difficult to study in these animal models. Here we describe a novel bimanual string-pulling task that can be used to generate a rich repertoire of behaviors that require limb and bimanual coordination in rats with unilateral 6-hydroxydopamine (6-OHDA) lesion. We show that 6-OHDA lesion significantly reduces string speed, pulling bout duration, paw speed especially during reaching, and reduces the area of paw trajectories during pulling. However, it does not affect the variability around that movement trajectory. We also show that levodopa (L-DOPA) treatment restores many of these measures but not all. L-DOPA restores paw speed and string-pulling speed and fully restores paw reach height and pulling bout duration, but has no effect on trajectory area. Together, our results demonstrate that dopamine depletion differentially effects features of this bimanual coordination task, that L-DOPA mostly, but not fully, restores string pulling performance, and opens up a new avenue for measuring the effect of Parkinson's disease treatments on motor movement, allowing for better assessment of how effectively treatments restore motor activity.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761430v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.26.760492",
+        "title": "Cerebello-basal ganglia networks and behavior across adulthood and aging",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Delaney, C.",
+          "Herrejon, I.",
+          "Magalhaes, T. N. C.",
+          "Jackson, T. B.",
+          "Hicks, T. H.",
+          "Bernard, J. A."
+        ],
+        "abstract": "The cerebellum contributes to aging, cognition, and reward related processing, but has been relatively understudied in these domains. The cerebello-basal ganglia (CB-BG) circuit may be key to better understanding how the brain ages. Prior work has implicated this circuit in aging in a small sample, though it is also of interest in age-related neurodegenerative disease, particularly Parkinson's Disease. Here, we investigated the CB-BG network, which has been implicated in modulation of cognitive, motor, and reward-related functions. In a sample of 138 participants between the ages of 35 and 86 we looked at network connectivity in cognitive and motor sub-circuits. Participants completed motor and cognitive testing batteries followed by 26 minutes of resting state functional connectivity magnetic resonance imaging (fcMRI). This data was analyzed using the CONN toolbox with an ROI-ROI approach targeting the CB-BG circuit. We replicated the previously mapped cognitive subcircuit and motor subcircuits. When examining connectivity by age group (early and late middle age and older adult hood), we found higher functional connectivity in early middle age compared to older adulthood, with no results related to late middle age. Analysis of connectivity as it relates to performance on the Stroop task showed higher connectivity-behavior associations in early middle-aged adults compared to older adults. We also explored sex differences and found higher functional connectivity in females compared to males. Analysis of steroid hormone levels revealed higher connectivity associated with progesterone in females relative to males. Together, we have replicated motor and cognitive CB-BG subcircuits and further demonstrated that this network has altered connectivity associated with age, sex, progesterone, and cognitive performance. This expanded investigation of CB-BG networks represents an essential new step in increasing our knowledge of age-related cognitive and motor declines and may ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.760492v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.26.762005",
+        "title": "Ms4a4a loss preferentially remodels microglia with limited, compartment-specific effects across central and peripheral immune compartments in 5xFAD mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Danhash, E.",
+          "Verbeck, A.",
+          "Iyer, A.",
+          "Karch, C. M."
+        ],
+        "abstract": "Background: Genome-wide association studies have identified the MS4A locus as a major modifier of Alzheimers disease (AD) risk and resilience. MS4A4A is enriched in microglia, and we previously demonstrated that loss of Ms4a4a reduces amyloid plaque pathology and attenuates amyloid-associated tau spreading. However, MS4A4A is also expressed in peripheral myeloid populations, raising the possibility that its effects extend beyond brain-resident microglia. Here, we sought to define how constitutive Ms4a4a loss alters immune populations across central nervous system (CNS), CNS-border, and peripheral compartments in the context of amyloid pathology. Methods: We performed multicompartment immune profiling by flow cytometry in 5xFAD Ms4a4a wild-type and 5xFAD Ms4a4a-deficient mice. Myeloid and lymphoid populations were characterized in the brain, dural meninges, skull bone marrow, tibial bone marrow, and spleen. Results: Ms4a4a loss produced its strongest immune effects in brain microglia. 5xFAD Ms4a4a-deficient mice exhibited increased microglial abundance, increased frequency and expression of CD86, increased MHC class II expression intensity, and enrichment of CXCR4-high microglia, whereas P2RY12 and TREM2 were unchanged. Brain macrophages showed increased MHC class II expression, whereas conventional dendritic cells (cDCs) in the brain showed reduced MHC class II expression, with limited changes in other infiltrating immune populations. Immune composition in the dura and skull bone marrow was largely preserved, although MHC class II expression was increased in skull bone marrow cDCs. Peripheral immune composition in tibial bone marrow and spleen was similarly preserved, with selective increases in M2-like macrophages in tibial bone marrow and splenic CD8 T-cell frequency. Conclusions: These findings identify microglia as the immune population most strongly remodeled by Ms4a4a loss in the setting of amyloid pathology. Constitutive Ms4a4a deficiency does not produce bro",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762005v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.26.761970",
+        "title": "High-content imaging of live microglia-containing Alzheimer's disease brain organoids",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Quang, D.",
+          "Summers, R.",
+          "Dooling, B. R.",
+          "Esquer, H.",
+          "Zhou, Q.",
+          "LaBarbera, D. V.",
+          "Vergara, M. N.",
+          "Chial, H. J.",
+          "Potter, H.",
+          "Johnson, N. R."
+        ],
+        "abstract": "Alzheimer's disease (AD) is the most common progressive neurodegenerative disease for which there is currently no safe and effective treatment. AD is characterized by the pathological aggregation of amyloid-{beta} (A{beta}) in the brain resulting in neuronal dysfunction/death and cognitive decline. Modeling these processes in vitro remains challenging due to the lack of an immune-competent 3D in vitro human model of AD amenable to high-throughput analyses. Conventional cerebral organoids (COs) lack microglia and are optically dense which precludes real-time longitudinal analyses. Here, we employ the fluorescent amyloid probe PyrPeg to selectively monitor A{beta} aggregation, and calcein AM and propidium iodide to assess cellular viability within microglia-containing COs (MCOs). We identify age-dependent DS-AD-associated phenotypes within T21 MCOs including A{beta} neuropathology, neurodegeneration, and glial cell dysregulation. Our platform supports real-time, multiplexed tracking of disease progression and provides a scalable platform for longitudinal analyses studying disease mechanisms and targeted approaches to treatment.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761970v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2023.02.06.527297",
+        "title": "The remarkable complexity of the brain microbiome in health and disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-27",
+        "is_early_access": true,
+        "authors": [
+          "Hu, Z.",
+          "McKenzie, C.-A.",
+          "Smith, C.",
+          "Haas, J. G.",
+          "Lathe, R."
+        ],
+        "abstract": "Microbes in human brain and their potential contribution to neurodegenerative conditions such as Alzheimer's disease (AD) have long been debated. We recently developed a new method (the electronic tree of life, eToL) based on small subunit ribosomal RNA (rRNA) probes, further confirmed by large subunit rRNA analysis, to comprehensively address the spectrum of microorganisms in control and AD brain. We report a remarkable diversity of brain microbes in control brain. The most abundant are fungi, bacteria, and chloroplastida, and we report detailed identification of representative microbial species. The pattern is substantially conserved across different bilateran species from Drosophila to human. In terms of diversity, the human brain microbiome appears to be a subset (~20%) of the gut microbiome. Adenovirus type C was the major virus found in human brain; other viruses were not well represented. However, the spectrum of brain microbes differed between individuals as well as between brain regions examined from single individuals (amygdala, cingulate cortex, hippocampus, hypothalamus); of these four regions, the highest microbial burden was in cingulate cortex. There was evidence of spreading of pathogens between brain regions in single individuals. Some microbes are over-represented in AD brain according to two measures: (i) absolute number of microbes normalized to endogenous human transcripts, and (ii) the number of brain specimens showing overabundance versus control. Species over-represented in AD brain according to both measures notably include bacteria (Streptococcus, Staphylococcus/Bacillus, Sphingomonas/Ralstonia) and fungi (Acrocalymma/Altenaria/Aureobasidium of the Aspergillus group; Komagataella of the Candida group, Cortinarius of the Schizophyllum group, and Tausonia of the Cryptococcus group), that are all related to known human pathogens. In addition, an uncharacterized chloroplastida (algae-related) species was more abundant in AD brain samples. Altho",
+        "url": "https://www.biorxiv.org/content/10.1101/2023.02.06.527297v2",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.24.761536",
         "title": "Network Localization of Anxiety as an Early Manifestation of Alzheimer's Disease-related Neurodegeneration",
