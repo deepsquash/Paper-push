@@ -1,10 +1,137 @@
 {
-  "date": "2026-10-28",
-  "total": 12,
+  "date": "2026-10-29",
+  "total": 17,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.10.27.758468",
+        "title": "Cortical pyramidal tract neurons constrain pathological dopaminergic motor responses",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-28",
+        "is_early_access": true,
+        "authors": [
+          "Atudorei, M.",
+          "Olsson, G. E. D.",
+          "del Agua Villa, C.",
+          "Corcea, C.",
+          "Gether, U.",
+          "Cenci, M. A.",
+          "Siebner, H.",
+          "Rickhag, M."
+        ],
+        "abstract": "Pyramidal tract (PT) neurons constitute a major cortical output pathway to subcortical structures, yet their contribution to parkinsonian and dyskinetic motor states remains unclear. Here, we show that chemogenetic activation of motor cortical PT neurons selectively confines pathological dopaminergic motor responses. Unilateral PT chemogenetic activation suppressed spontaneous locomotion in healthy mice but did not improve motor deficits following an ipsilateral 6-hydroxydopamine lesion. Instead, it attenuated contraversive rotations provoked by pharmacological D1-receptor stimulation and selectively reduced axial levodopa-induced dyskinesia. Mechanistically, PT stimulation reduced acute D1-mediated c-Fos induction in the dopamine-depleted striatum, without affecting chronic {Delta}FosB accumulation induced by repeated levodopa exposure. These findings identify a functional interaction between cortical PT output and striatal D1-receptor signalling that limits maladaptive motor responses to dopaminergic stimulation. Our results uncover a previously unrecognised cortical mechanism regulating pathological motor behaviour and suggest PT neurons as a potential substrate for circuit-based therapies in Parkinson's disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.758468v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.05.29.656149",
+        "title": "Modelling Audio-Visual Reaction Time with Recurrent Mean-Field Networks",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-28",
+        "is_early_access": true,
+        "authors": [
+          "Brady, R. M.",
+          "Butler, J. S."
+        ],
+        "abstract": "Audio-visual stimuli are typically detected faster and more accurately than unisensory ones, but it remains unclear whether this benefit reflects true integration of evidence or other effects such as independent processing and modality repetition. We address this with three biologically motivated models of audio-visual integration, built on Wong and Wang model, a mean-field recurrent framework originally developed for unisensory decision-making. The OR model takes in independent unisensory processes through winner-take-all competition, and the SUM model implements full linear summation of sensory evidence. These two sit at opposite ends of the integration spectrum. The REPEAT model adds switch and repeat costs, whereby responses are faster when the modality repeats across trials. We simulated 121 participants whose unisensory evidence accumulation rates varied from modality dominance to balanced integration. We fitted the simulated reaction times and accuracy with a drift diffusion model and compared the resulting multisensory drift rates with the optimal prediction from the unisensory rates, as well as with empirical audio-visual detection data. The OR and SUM Models reproduced established unisensory response patterns from behavioural data from in children, children with autism, adults, older adults, and people with Parkinson's disease. Drift diffusion analysis revealed suboptimal integration in the OR Model and optimal integration in the SUM Model. However, the SUM Model also produced supra-optimal responses under certain conditions, inconsistent with behavioural data. The REPEAT Model captured the role of priming in sensory repetition effects, distinguishing it from true multisensory integration. Together, these models highlight how biologically grounded mathematical frameworks can shed light on the mechanisms underlying multisensory integration, particularly the nuanced contributions of modality repetition and integration efficiency.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.05.29.656149v2",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.26.762028",
+        "title": "Neuronal Hyperactivity Induces Tau Phosphorylation Selectively in Excitatory Pyramidal Neurons Which Contributes to GluA2 Regulation",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-28",
+        "is_early_access": true,
+        "authors": [
+          "Sun, M. N.",
+          "Vaughey, K.",
+          "Liu, B.",
+          "Guo, H.",
+          "Huganir, R. L.",
+          "Morris, M."
+        ],
+        "abstract": "While tau plays a role in regulating neuronal network excitability, a process thought to be dysregulated in Alzheimers disease (AD), the molecular mechanisms linking tau and hyperexcitability remain unclear. To investigate interactions between endogenous tau and neuronal activity, we increased neuronal activity using bicuculline or suppressed activity using tetrodotoxin for 24 hours in rat hippocampal neurons. Chronic neuronal hyperactivity increased dendritic tau phosphorylation at S202/T205. This response was observed only in excitatory CA1 and CA3 pyramidal neurons, but not in inhibitory or dentate granule neurons. Dendritic phospho-tau positively correlated with neuronal activation after bicuculline treatment, as measured by cfos expression, and was prevented with inhibition of protein kinase A (PKA). To examine the functional consequences of tau S202/T205 phosphorylation, hippocampal neurons were transfected with wild-type tau or tau containing mutations preventing phosphorylation at these sites. Wildtype tau overexpression increased tau phosphorylation and reduced neuronal surface GluA2, which was prevented by phospho-site mutation. Extending these findings to mice, chronic low-dose picrotoxin treatment increased endogenous S202/T205 tau phosphorylation in CA3 neurons. In picrotoxin-treated mice, cfos expression was associated with increased tau phosphorylation specifically in CA3 and CA1 neurons. Together, these findings identify activity-dependent, endogenous tau phosphorylation as a selective response to hyperexcitation in excitatory hippocampal neurons downstream of PKA activation. The data further link tau phosphorylation to altered GluA2 regulation, suggesting a potential molecular connection between neuronal hyperactivity, tau phosphorylation, and synaptic dysfunction relevant to AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762028v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.05.21.655268",
+        "title": "Comparative molecular mapping reveals molecular gradients and spatially organized populations in the subthalamic and para-subthalamic regions",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-28",
+        "is_early_access": true,
+        "authors": [
+          "Dumas, S.",
+          "Francois, C.",
+          "Biviano Rosenkilde, M.",
+          "Staryk, J.",
+          "Roostalu, U.",
+          "Heuer, A.",
+          "Karachi, C.",
+          "Wallen-Mackenzie, A."
+        ],
+        "abstract": "The subthalamic nucleus (STN) is a major target for deep brain stimulation (DBS) in Parkinson disease (PD), yet its molecular organization and relationship to the adjacent para-subthalamic nucleus (pSTN) remain incompletely defined. Here, we performed comparative molecular mapping of the STN and pSTN in mouse and macaque, complemented by a human tissue sample, three-dimensional imaging, and publicly available spatial transcriptomic datasets. The STN showed a largely conserved molecular framework across species with gradients across rostrocaudal and dorsolateral axes. However, HTR2C was found enriched in the ventral STN of macaque and human tissue samples, while broadly distributed across the mouse STN. HTR2C showed opposite gradient of PVALB. In the mouse STN, Nts expression revealed an additional mediolateral gradient. Publicly available transcriptomic datasets showed concordant expression patterns. In both species, TAC1 characterized the canonical pSTN but also an extended population reaching dorsally along the medial aspect of the STN. TAC1-positive cells were thus found in the region traversed by tyrosine hydroxylase-positive fibers of the medial forebrain bundle (MFB). Together, these findings reveal a spatially heterogeneous, multiaxial molecular organization of the STN and a spatially complex molecular organization of its neighboring brain areas, refining the molecular and anatomical framework of the subthalamic region.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655268v3",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.05.13.724886",
+        "title": "Perception of speech rate and intensity in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-28",
+        "is_early_access": true,
+        "authors": [
+          "DiNino, M.",
+          "Heffner, C. C.",
+          "Tjaden, K."
+        ],
+        "abstract": "Purpose: Parkinson's disease (PD) is a neurodegenerative disease that affects motor control but can also influence sensory perception. Changes in vision and proprioception are well-documented but less is known about how PD alters auditory perception, particularly perception of speech acoustic properties. The current study examined perception of speech rate and intensity in PD and the relationship of auditory perception to disease severity. Method: People with PD were compared to age- and hearing-matched controls using perceptual tasks focused on discrimination and learning of speech rate and intensity. For rate discrimination, speech, non-speech, and visual stimuli were included to determine whether performance differences for PD participants and controls were specific to speech. Disease severity was assessed using the MDS-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) and the relationship to performance on perceptual discrimination and learning tasks was evaluated. Results: People with PD performed significantly worse than controls in the rate discrimination task for all types of stimuli. There were no significant group differences for intensity discrimination. However, participants with greater PD disease severity demonstrated significantly poorer intensity discrimination accuracy. Performance on learning tasks utilizing rate and intensity manipulations did not differ between PD and control participants and was unrelated to PD disease severity. Conclusions: People with PD had difficulty discriminating rate differences across speech, non-speech, and visual stimuli, indicating that challenges with rate perception are not limited to speech. The relationship between intensity discrimination and disease severity may suggest common dopaminergic networks between motor symptoms and auditory perception in PD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.13.724886v2",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.04.10.717365",
+        "title": "An EEG-fMRI Jointly Constrained Digital Twin Brain and Its Application in Alzheime's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-10-28",
+        "is_early_access": true,
+        "authors": [
+          "Yue, X.",
+          "Guo, D.",
+          "Xu, Y.",
+          "Chen, Y.",
+          "Zhang, R.",
+          "Luo, Y.",
+          "Wang, F.",
+          "Zeng, X.",
+          "Guo, Y.",
+          "Yao, D."
+        ],
+        "abstract": "Current digital twin brain (DTB) models are typically optimized using single-modality functional neuroimaging data, which restricts their ability to simulate brain dynamics across multiple spatiotemporal scales. Here, we show that a two-stage DTB (TS-DTB) modeling framework jointly constrained by functional magnetic resonance imaging (fMRI) and electroencephalography (EEG) data. Validation in both the healthy young and Alzheimer's disease (AD) cohorts demonstrates that the TS-DTB model simultaneously captures subject-specific features of multi-scale brain dynamics. In particular, the TS-DTB models of AD patients successfully recapitulate spectral-temporal signatures of cognitive decline, suggesting a model-inferred association between these deficits and simulated excitation-inhibition (E-I) imbalances. By simulating responses to repetitive transcranial magnetic stimulation (rTMS), we further reveal that acute EEG normalization in AD patients is computationally associated with putative E-I rebalancing via model-inferred synaptic reconfiguration and background suppression. Overall, these findings underscore the potential of the TS-DTB to advance the mechanistic understanding of the brain and inform personalized digital therapeutics.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717365v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.26.761919",
         "title": "Genedex: Contextualizing gene signatures across Alzheimer's disease pathology, cell types, and brain regions",
@@ -256,32 +383,6 @@
         "url": "https://www.biorxiv.org/content/10.1101/2023.02.06.527297v2",
         "reasons": [
           "关键词『Alzheimer、tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.24.761536",
-        "title": "Network Localization of Anxiety as an Early Manifestation of Alzheimer's Disease-related Neurodegeneration",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-10-26",
-        "is_early_access": true,
-        "authors": [
-          "Lee, S.",
-          "Ha, J.",
-          "Garimella, A. H.",
-          "Baratono, S. R.",
-          "Burt, G. T.",
-          "Karim, H. T.",
-          "Andreescu, C.",
-          "Sperling, R. A.",
-          "Donovan, N. J.",
-          "Fox, M. D.",
-          "Siddiqi, S. H."
-        ],
-        "abstract": "Objective Anxiety is a prominent neuropsychiatric symptom in preclinical Alzheimer's disease (AD), but the neural circuitry linking anxiety and AD remains uncharacterized. We assessed whether anxiety in preclinical AD is independently associated with AD-related neurodegeneration and localizes to a common anxiety network. Methods In cognitively unimpaired (CU) older adults with 3T MRI and amyloid-beta PET (N=1,775), we examined whether an established AD-related atrophy network is associated with anxiety (STAI-6). Then, using Atrophy Network Mapping (ANM), which maps individual cortical atrophy patterns onto a normative functional connectome (N=1000), we derived an anxiety network. We tested its 1) spatial convergence with the AD network and with a causal anxiety network derived from lesion and neuromodulation data, 2) specificity relative to depression, 3) generalizability in samples from independent cohorts with AD and Parkinson's disease (total n=878), and 4) association with longitudinal outcomes. Results In CU older adults, greater AD-network atrophy was associated with higher anxiety, independent of depression, cognition, cortical atrophy, and amyloid burden. Anxiety localized to a network closely resembling the AD network (r=0.74, p=0.04) and the causal anxiety network (r=0.72, p=0.02). This convergence extended across the AD continuum and to the Parkinson's disease cohort and was specific to anxiety relative to depression. Greater anxiety-network atrophy was associated with cognitive decline over 4.6 years. Conclusion Anxiety localizes to a brain circuit resembling the AD-related atrophy network, is consistent across the AD continuum and may extend beyond AD. These findings support anxiety as an independent marker of early AD-related neurodegeneration.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761536v1",
-        "reasons": [
-          "关键词『Alzheimer、Parkinson、neurodegeneration、amyloid』(命中title/abstract)"
         ],
         "is_new": true
       }
