@@ -1,10 +1,460 @@
 {
-  "date": "2026-11-03",
-  "total": 5,
+  "date": "2026-11-04",
+  "total": 19,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.09.14.751492",
+        "title": "Region-dependent regulation of Tau phosphorylation by Glycerophosphodiester Phosphodiesterase 2 in a mouse model of tauopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Jimenez-Ornelas, C.",
+          "Sockanathan, S."
+        ],
+        "abstract": "Hyperphosphorylation of Tau promotes its aggregation and neurofibrillary tangle (NFT) formation, contributing to neuronal dysfunction and neurodegeneration in diseases such as Alzheimer's Disease (AD) and AD-related dementias (ADRDs). However, the mechanisms underlying dysregulated Tau phosphorylation under pathological contexts remain unclear. Glycerophosphodiester phosphodiesterase 2 (GDE2) is a six-transmembrane enzyme that acts at the cell surface to cleave the glycosylphosphatidylinositol (GPI)-anchor that tethers a subclass of proteins to the membrane. Here, we show that in the PS19 tauopathy mouse model, GDE2 disruption modulates Tau phosphorylation by transiently decreasing Tau's propensity for aggregation through region-specific regulation of local kinase environments. In the cortex, GDE2 ablation in 6-month-old PS19 male mice (PS19;Gde2KO) reduces Tau phosphorylation at Serine (S)202/Threonine (T)205, T212, and S396 but increases S262 phosphorylation in the hippocampus of 6-month-old PS19;Gde2KO male and female mice. Consistent with these changes, in males, Glycogen Synthase Kinase-3  / {beta} (GSK3  / {beta}) activity is decreased in the cortex, while AKT activity is increased in both males and females in the hippocampus, with no changes in protein phosphatase 1 (PP1) and protein phosphatase 2A (PP2A) activity. Primary cortical neurons from PS19;Gde2KO animals showed reduced Tau phosphorylation at S202/T205, implying cell-autonomous roles for neuronal GDE2 in this process. GDE2 overexpression in heterologous SH-SY5Y cells increased Tau phosphorylation at S202/T205, while a catalytically inactive form of GDE2 did not, suggesting that GDE2 regulation of target GPI-anchored protein surface activity is required to modulate Tau phosphorylation. Taken together, our study identifies GDE2 as a component of the complex regulatory network that controls Tau phosphorylation in the context of tauopathy and provides insight into putative pathways relevant to Tau pathol",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751492v2",
+        "reasons": [
+          "关键词『Alzheimer、tau、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.04.04.716423",
+        "title": "Integrated metabolomics and proteomics from voxelated cortical hemispheres of adult rhesus monkeys",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Wu, Q.",
+          "Brigande, A. M.",
+          "Lutz, M. W.",
+          "Shi, P.",
+          "Disney, A."
+        ],
+        "abstract": "The spatial organization of molecular networks across cortex likely contributes to differences in local circuit vulnerability in aging and Alzheimer's disease; yet many existing molecular datasets sacrifice spatial structure, sampling only a handful of regions per brain. Here, we present a framework for generating spatially registered, paired metabolomic and proteomic maps across an entire cortical hemisphere of an adult rhesus monkey, at millimeter resolution. One hemisphere each from two animals was harvested under controlled conditions, approximately flattened, and hand dissected at different sampling resolutions (roughly 2.5 and 4 mm/side) into tissue voxels. Each voxel was split after homogenization and extraction to provide matched aliquots for targeted metabolomics and deep untargeted proteomics. To handle these high dimensional data, we developed PChclust, a principal component guided feature clustering algorithm. For cross omic integration, we developed a spatially regularized sparse canonical correlation analysis (sr-sCCA), which incorporates spatial neighborhood structure via graph Laplacian smoothing. We recover meaningful biology: Molecular similarity between neighboring voxels decayed with distance in both modalities, confirming that voxelation captures spatially organized biological variance. The sr-sCCA identified joint proteome-metabolome components with coherent cortical gradients that were conserved across animals. Pathway enrichment analysis recovered brain relevant ontologies and reconstructed complete metabolic circuits from single voxels.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.04.04.716423v4",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.02.763786",
+        "title": "BundleMorphometry: Spatially Resolved White Matter Bundle Shape Analysis Using Nonlinear Streamline-based Registration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Dasanayake, D.",
+          "Amit, S. N.",
+          "Chandio, B. Q."
+        ],
+        "abstract": "Diffusion MRI tractometry quantifies microstructural properties along white matter (WM) bundles but does not directly measure their geometry, potentially overlooking localized morphological alterations. Here, we introduce BundleMorphometry, a framework for quantifying local WM bundle shape using the analytical Jacobian of nonlinear streamline-based registration. Individual subject bundles are registered to a reference atlas bundle using BundleWarp, a streamline-based nonlinear registration method. We derive the analytical Jacobian of the resulting deformation field and compute its log-determinant (log det J) to quantify local expansion and compression at each streamline point. To enable spatially resolved group comparisons, these measurements are projected onto the two-dimensional grid, capturing variations along and across each bundle. We evaluated BundleMorphometry using two clinical datasets comprising patients with glioma and Parkinson's disease (PD). In the glioma dataset, BundleMorphometry revealed spatially extensive deformation patterns in lesion-affected WM bundles that were not captured by displacement magnitude alone. Additionally, in a group analysis of the PD dataset (32 patients and 32 healthy controls), we identified significant localized morphological differences in the corpus callosum forceps major, mid-body and right spinothalamic tract, with distinct patterns of expansion and compression. These findings demonstrate the potential of BundleMorphometry to advance conventional tractometry by enabling spatially resolved analysis of bundle morphology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763786v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.27.762172",
+        "title": "Donor Aware Reanalysis of Neuronal Nuclei Supports STMN2 Depletion Associated with Nuclear TDP 43 loss in FTD and ALS",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "CHAUDHARY, A.",
+          "Yao, S."
+        ],
+        "abstract": "Background. Nuclear TDP-43 depletion is a central pathological feature of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), but donor-to-donor variation can obscure transcriptomic associations in small postmortem cohorts. We reanalyzed public RNA-seq data from FACS-isolated NeuN-positive frontal-cortex neuronal nuclei to quantify gene-expression changes associated with nuclear TDP-43 loss while explicitly accounting for donor structure. Methods. The supplied GSE126542-derived matrix contained 62,754 genes across 12 libraries from seven donors, including five complete matched pairs. Source labels TDP-43 positive and TDP-43 negative were harmonized as nuclear TDP-43 retained and lost, respectively. After validation against featureCounts-assigned read counts, 44,225 genes with at least 10 total counts were analyzed using PyDESeq2. The primary model was ~ donor + nuclear_status; status-only and diagnosis-adjusted models were sensitivity analyses. The contrast was TDP-43 loss minus retained. Results. The donor-aware model identified 3,442 genes at false discovery rate (FDR) < 0.05: 1,865 lower and 1,577 higher in TDP-43-loss nuclei. STMN2 was consistently depleted (log2 fold change = -1.813, 95% Wald interval -2.229 to -1.396; FDR = 6.22e-15), corresponding to approximately 71.5% lower expression. Normalized STMN2 counts were lower in TDP-43-loss nuclei in all five complete donor pairs. TARDBP expression was also lower (log2 fold change = -0.606; FDR = 4.98e-6). In contrast, UNC13A whole-gene expression was modestly higher in the donor-aware model (log2 fold change = 0.372; FDR = 0.00622) and was not significant in either sensitivity model. Conclusions. Donor-aware analysis supports a robust association between nuclear TDP-43 loss and STMN2 depletion in this neuronal-nuclei cohort, alongside extensive but model-dependent transcriptomic variation. Whole-gene UNC13A expression cannot be used to infer UNC13A cryptic-exon inclusion or functional UNC13A d",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762172v1",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.27.762361",
+        "title": "Dyskinesia induced by a dopamine 2 receptor-like agonist, but not a dopamine 1 receptor-like agonist, is blocked by sub-anesthetic ketamine",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Parmar, R.",
+          "Meredith, J. R.",
+          "Bartlett, M. J.",
+          "Smith, E. G. E.",
+          "Castro, J. M.",
+          "Sherman, S. J.",
+          "Chattree, G.",
+          "Steece-Collier, K.",
+          "Falk, T."
+        ],
+        "abstract": "L-DOPA remains the most effective symptomatic treatment for Parkinson's disease, but chronic administration is frequently complicated by L-DOPA-induced dyskinesia (LID). Our prior work has established that sub-anesthetic ketamine can reduced LID acutely and has a long-lasting neuroplastic effect. This study tested whether low-dose ketamine reduces dyskinesia induced specifically by dopamine D2R-like or D1R-like receptor activation. Male Sprague Dawley rats were primed with daily L-DOPA to establish dyskinesia and then challenged with quinpirole, a D2R-like receptor agonist, or SKF-81297, a D1R-like receptor agonist, to induce abnormal involuntary movements (AIMs). After stable AIM baselines were established, animals received agonist plus vehicle or agonist plus ketamine. Limb, axial, and orolingual AIMs were scored on the acute treatment day (D0) and after washout on D4 and D7. Quinpirole and SKF-81297 reliably produced stable total LAO AIM scores following L-DOPA priming. Ketamine significantly reduced only quinpirole-induced, but not SKF-81297-induced, total AIMs compared with vehicle on D0, demonstrating an acute anti-dyskinetic effect. This reduction persisted after washout, with ketamine-treated animals continuing to show significantly lower AIMs on D4 and D7. Time-course analyses further showed reduced AIMs expression across the post-quinpirole observation period on D0 and at multiple time points on D7. These findings demonstrate that ketamine suppresses quinpirole-induced dyskinesia in L-DOPA-primed male rats and suggest that D2R-like receptor-mediated or indirect pathway-related mechanisms, but not direct pathway-related mechanisms, may contribute to ketamine's anti-dyskinetic effects. Together, these results extend prior work on ketamine by linking its sustained anti-dyskinetic effects to dyskinesia driven by D2R-like receptor stimulation in vivo.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762361v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.27.762342",
+        "title": "The anti-dyskinetic and the anti-parkinsonian effects of sub-anesthetic ketamine are also present in female preclinical models",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Parmar, R.",
+          "Bartlett, M. J.",
+          "Meredith, J. R.",
+          "Singh, S.",
+          "Ragsdale, S.",
+          "Sherman, S. J.",
+          "Falk, T."
+        ],
+        "abstract": "Biological sex is an important determinant of neuropharmacological response, yet females remain underrepresented in preclinical studies of Parkinson's disease (PD) and L-DOPA-induced dyskinesia (LID). We previously demonstrated that sub-anesthetic ketamine reduces established LID, attenuates dyskinesia development, and produces anti-parkinsonian effects in male unilateral 6-hydroxydopamine (6-OHDA) rat models. However, whether these therapeutic effects extend to females remained unknown. Here, we evaluated the anti-dyskinetic and anti-parkinsonian effects of sub-anesthetic ketamine in female Sprague-Dawley rats using the attenuation and established models of LID. In the attenuation paradigm, unilateral 6-OHDA-lesioned females received repeated L-DOPA administration with either ketamine (20 mg/kg, i.p.; 10-h dosing paradigm) or vehicle. Ketamine significantly attenuated the progressive development of dyskinesia, indicating that early intervention modified the trajectory of LID expression. In the established LID paradigm, ketamine produced robust significant acute reductions in abnormal involuntary movements (AIMs) after dyskinesia had fully developed, and these significant effects persisted for up to 49 days following treatment, demonstrating sustained suppression of dyskinesia severity. To determine whether ketamine altered therapeutic motor function, forelimb adjusting steps testing was performed in female unilateral 6-OHDA rats. Ketamine did not impair L-DOPA-mediated motor improvement suggesting compatibility with the gold standard medication. Ketamine was also by itself associated with significantly improved stepping performance during ketamine treatment conditions, indicating acute anti-parkinsonian motor benefit. Together, these findings demonstrate that the anti-dyskinetic and anti-parkinsonian effects of ketamine extend to female preclinical models and strengthen the translational rationale for repurposing sub-anesthetic ketamine as a potential therapeutic s",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762342v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.28.749776",
+        "title": "CD40 ligand and IFN-γ induce proinflammatory activity and microglia-mediated neurodegeneration in human stem cell models",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Hammond, T.",
+          "Wirak, G. S.",
+          "Ryan, S. K.",
+          "Blazier, A.",
+          "Liu, D.",
+          "Nyarko-Danquah, I.",
+          "LaMorte, M.",
+          "Khader, S.",
+          "Vela, J.",
+          "Yang, B.",
+          "Wesseling, H.",
+          "Zhang, B.",
+          "Rapaport, F.",
+          "Gandhi, R.",
+          "Djukic, B.",
+          "Ofengeim, D."
+        ],
+        "abstract": "The cluster of differentiation 40 (CD40)/CD40 ligand (CD40L) co-stimulatory pathway plays a critical role in the activation and regulation of immune networks involving both adaptive and innate immune cells. Dysregulation of this pathway has been implicated in multiple autoimmune diseases, including multiple sclerosis (MS). MS is characterized by progressive neurodegeneration driven by compartmentalized neuroinflammation within the central nervous system (CNS), sustained low-grade T cell infiltration at the blood-brain barrier, and T cell reactivation at CNS border tissues. CD40L-expressing T cells can activate CD40-expressing microglia, which are a critical effector cell that contribute to neurodegeneration in MS. However, the consequence of this functional interaction in the brain remains poorly understood. Here, we demonstrate that the combination of CD40L and interferon-gamma (IFN-{gamma}), a cytokine produced by activated T cells, induces a robust inflammatory response and cell death in human induced pluripotent stem cells (hiPSC)-derived microglia. Stimulation with CD40L elicited microglial clustering, morphological transformation, and robust release of proinflammatory cytokines including interleukin-12 (IL-12), tumor necrosis factor-alpha (TNF-), and IL-6. Anti-CD40L antibody treatment reversed both cell death and inflammatory response and partially normalized the associated transcriptional changes. Furthermore, using an hiPSC-derived tri-culture system comprising neurons, astrocytes, and microglia, we demonstrated that CD40L and IFN-{gamma} trigger microglia-dependent neuronal dysregulation and death. Anti-CD40L treatment substantially attenuated neuronal injury. Finally, transcriptomic enrichment analysis identified CD40L-mediated microglial gene expression signatures that correlated with CD40 expression in primary progressive MS brain tissue but not in the normal-appearing white matter of healthy controls. Collectively, these findings support a role for the",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.749776v1",
+        "reasons": [
+          "关键词『neurodegeneration』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.01.763365",
+        "title": "Apolipoprotein E4 Exacerbates Aβ Oligomer-Induced Synaptotoxicity through Promoting Autophagic Degradation of Glutathione Peroxidase 4",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Zhou, J.",
+          "Liao, H.",
+          "Liang, W.",
+          "Liu, S.",
+          "Cai, J.",
+          "Liu, Y.",
+          "Liu, Y.",
+          "Zhou, Z.",
+          "Wu, S."
+        ],
+        "abstract": "Extensive synaptic loss and progressive neurodegeneration are defining pathological hallmarks of Alzheimer's disease (AD), primarily driven by soluble A{beta} oligomers and neurofibrillary tangles. The apolipoprotein E4 (APOE4) isoform further aggravates these pathological cascades, yet the precise molecular mechanisms underlying AD pathogenesis remain poorly elucidated. Store-operated calcium entry (SOCE) deficiency in neurons has been proven to exert a detrimental effect on dendritic spine integrity and function. Herein, we investigated whether SOCE dysregulation contributes to A{beta}O-induced synaptotoxicity and how APOE4 modulates this pathological process. In primary neuronal cultures, co-treatment with A{beta}O and APOE4 markedly reduced synapse density and impaired dendritic arbor complexity, compared with A{beta}O treatments combined with APOE3 or APOE2 isoforms. Consistently, neurons exposed to A{beta}O plus APOE4 exhibited significantly lower SOCE amplitudes than those treated with A{beta}O and APOE3. In line with SOCE suppression, the A{beta}O/APOE4 combination specifically downregulated stromal interaction molecule 1 (STIM1) protein expression, with no observable change in STIM2 levels. Mechanistically, A{beta}O/APOE4-mediated STIM1 reduction was dependent on p62-selective autophagic degradation. Notably, exogenous STIM1 overexpression effectively rescued the deficits in dendritic arbor complexity. Furthermore, STIM1 downregulation induced by A{beta}O and APOE4 initiated the autophagic degradation of glutathione peroxidase 4 (Gpx4). This autophagy activation was attributed to decreased Bcl2 expression and occurs independently of STING accumulation. Subsequent Gpx4 insufficiency further triggered excessive accumulation of reactive oxygen species and disrupted mitochondrial cristae morphology in neurons. Collectively, our findings uncover a previously unrecognized mechanism whereby APOE4 exacerbates A{beta}O-induced synaptotoxicity. Specifically, the comb",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763365v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.11.18.689161",
+        "title": "Association between white-matter lesion volume and heart-rate variability: A comparison of T1w, T1w+T2w and T1w+FLAIR-based segmentations using FreeSurfer SAMSEG",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Robinson, T. D.",
+          "Cerri, S.",
+          "Zhang, F. E.",
+          "van Leemput, K.",
+          "Chen, J. J."
+        ],
+        "abstract": "Background Heart disease is a crucial risk factor for brain degeneration, but the specific mechanisms of this association are still under investigation. Notably, the development of white-matter lesions, a hallmark of cerebral small-vessel disease with connections to progressive neurodegeneration and cognitive decline, has been linked to cardiovascular disease. As such, measures of cardiovascular function such as heart-rate variability may represent accessible indicators of white-matter lesion burden. Methods This study used data from healthy adults drawn from the Leipzig Study for Mind-Body-Emotion Interactions (LEMON) dataset to examine heart function through measures of heart-rate variability, as well as their relationship to cerebral small-vessel disease as quantified through white-matter lesion volumes, using FreeSurfer SAMSEG. White-matter lesion volumes were segmented using 3-Tesla T1w+FLAIR, T1w+T2w or T1w images alone. Results Unadjusted exploratory results suggested that lower heart-rate variability was associated with higher lesion volume, a cerebral hallmark of hypertension. After controlling for the effect of age on lesion volume, low-frequency heart rate variability specifically was found to interact with age-related lesion volume. Moreover, we showed that the relationship between white-matter lesion volume and heart-rate variability is apparent using T1w+FLAIR or T1w+T2w based lesion estimates could be observed with T1w-based lesion estimation alone, opening new avenues for studying cerebral small-vessel disease. Discussion These results suggest heart rate variability as a factor in the translation between cardiovascular risk and white matter degeneration, as well as an accessible and non-invasive indicator of white-matter lesion burden and associated cognitive impairment in later life. The unique association between reduced low-frequency band heart-rate variability and age-related lesion burden may help to establish the link between autonomic control ",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.11.18.689161v2",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.03.763718",
+        "title": "ADRA2B genetic polymorphism modulates vagus nerve stimulation response",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Riley, E.",
+          "Mabry, S. A.",
+          "MacMillan, M. K.",
+          "Ko, L.",
+          "Middleton, F. A.",
+          "De Rosa, E.",
+          "Anderson, A. K."
+        ],
+        "abstract": "Introduction. Given interest in vagus nerve stimulation (VNS) as a potential therapy for Alzheimer's disease, due to its hypothesized influence on the noradrenergic (NA) system, there is a need to understand the pronounced individual differences in responsiveness to VNS in aging. We tested whether a genetic polymorphism related to NA signaling, the {Delta}301-303 deletion in the ADRA2B receptor, modulates transcutaneous auricular (taVNS) effects on task-related pupillary responses or pupil-linked cortical activity in noradrenergic projection territory. Methods. Forty-one adults (61% deletion carriers; ages 19-79) performed a visual oddball task during a sham-controlled single-blind crossover taVNS trial. Of these people, 25 (68% deletion carriers) also performed the same task with simultaneous fMRI. Results. ADRA2B genotype predicted the taVNS effect on oddball pupillary responses (t(37) = 3.03, p = .004, d = 0.84). Deletion carrier responses were more likely to increase, while non-carrier responses decreased. Carriers showed stronger spatial alignment between pupil-BOLD coupling and cortical norepinephrine transporter (NET) expression (t(22) = 2.82, p = .010, adjusted d = 1.21). This difference was selective to NET among 19 PET maps (all other p > .11). The individual effect of taVNS predicted NET alignment of pupil-BOLD coupling ({rho} = .45, p = .023). Conclusions. ADRA2B {Delta}301-303 deletion status, which is thought to increase NA availability, predicts the direction of the pupillary response to taVNS and how tightly pupil-linked BOLD activity aligns with cortical noradrenergic projection territory.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763718v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.30.763020",
+        "title": "NTAD: A longitudinal neuroimaging dataset of Alzheimer's disease pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "van Es, M. W. J.",
+          "Perquin, M. N.",
+          "Quinn, A. J.",
+          "Pitt, J.",
+          "Krugliak, A.",
+          "Thayanandan, T.",
+          "Lanskey, J.",
+          "Kocagoncu, E.",
+          "Karadag, M.",
+          "Alcock, C.",
+          "Naessens, M.",
+          "Lowe, S.",
+          "Fye, H.",
+          "Raymont, V.",
+          "Singh, K. D.",
+          "Henson, R. N.",
+          "Nobre, A. C.",
+          "Woolrich, M. W.",
+          "Rowe, J.",
+          "the NTAD study group,"
+        ],
+        "abstract": "We introduce the New Therapeutics in Alzheimer's Disease (NTAD) dataset, a multi-modal and longitudinal imaging dataset from 70 biomarker-positive people with early dementia or Mild Cognitive Impairment (MCI) due to Alzheimer's Disease (AD), assessed over 2.5 years, and 35 healthy controls assessed at baseline. The data include simultaneous magneto- and electro-encephalography (M/EEG), 3-Tesla structural and functional magnetic resonance imaging (MRI), Amyloid-beta; positron emission tomography (PET), fluid proteomic biomarkers in cerebrospinal fluid and blood, and a battery of clinical and neuropsychological assessments. 11C UCB-J PET was undertaken for a subset of participants. For people with AD, assessments were repeated at approximately three weeks, 15 months, and 28 months after baseline. The data can be accessed through the Dementias Platform UK (DPUK), including pre-processed M/EEG and T1 MRI in pseudonymised BIDS format. With the pressing need to develop treatments for slowing, reversing, and preventing AD, these data provide an opportunity for identifying and validating novel biomarkers of Alzheimer's disease neurophysiology, as well as understanding its treatable pathology.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763020v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.28.762543",
+        "title": "Caudate nucleus aging and its association with brain disorders",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Guo, S.",
+          "Yang, X.",
+          "Dong, Y.",
+          "Xu, J.",
+          "Sangjizhuoma, A.",
+          "Wichmann, T.",
+          "Galvan, A.",
+          "Smith, Y.",
+          "He, J."
+        ],
+        "abstract": "The caudate nucleus supports cognition and goal-directed behavior, undergoes age-associated changes, and is implicated in substance use, psychiatric, and neurodegenerative disorders. However, how aging alters its diverse cell types and how such changes relate to diseases remains poorly understood. To address these questions, we assembled single nucleus transcriptomic atlases of the caudate tissue, comprising 963,842 nuclei from 178 human donors, including controls and individuals with alcohol use disorder (AUD) or opioid use disorder (OUD), and 83,699 nuclei from six healthy rhesus macaques. We also curated 3,139 bulk RNA-seq profiles from the caudate and other brain regions spanning controls and multiple diagnostic groups, as well as paired RNA and chromatin accessibility profiles from 257,524 caudate nuclei across 161 control and AUD donors. These datasets enabled comparisons across age, species, brain regions, and diagnostic groups. We found shared glial aging features in humans and macaques, whereas neuronal changes were more divergent. Inferred neuron-to-neuron communication declined with age, with greater declines in AUD. Both transcriptional and chromatin accessibility profiles showed nonlinear age-associated patterns, with pronounced changes in later adulthood. In donors with AUD, age-associated changes appeared earlier, with altered trajectories in lipid metabolism, mitochondrial function, and neuronal signaling. Across comparisons involving AUD, OUD, bipolar disorder, schizophrenia, and Alzheimer disease, mitochondrial function and fatty acid metabolism emerged as consensus features linking caudate aging to diseases, although the direction and extent of overlap varied by disorder and brain region. Together, these findings define cellular and regulatory features of primate caudate aging and reveal shared and context-dependent relationships between aging and brain disorders.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762543v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.28.760476",
+        "title": "Topographic reference modelling of white matter hyperintensities across the adult lifespan",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Alshikho, M. J.",
+          "Pyne, J. D.",
+          "Edwards, N. C.",
+          "Hale, C.",
+          "Samuel, D. C.",
+          "Morales, C. D.",
+          "Morel, N.",
+          "Lippert, R. V.",
+          "Archer, D. B.",
+          "Cuccaro, M. L.",
+          "Toga, A. W.",
+          "Saykin, A. J.",
+          "Risacher, S. L.",
+          "Belloy, M. E.",
+          "Kukull, W.",
+          "Biber, S.",
+          "Mez, J.",
+          "Crane, P. K.",
+          "Mukherjee, S.",
+          "Erus, G.",
+          "Sperling, R. A.",
+          "Bennett, D. A.",
+          "Barnes, L. L.",
+          "Schneider, J. A.",
+          "Johnson, S. C.",
+          "Lee, A. J.",
+          "Davatzikos, C.",
+          "O'Bryant,, S.",
+          "Barber, R.",
+          "Cruchaga, C.",
+          "Benzinger, T. L. S.",
+          "Lee, D. Y.",
+          "Yi, D.",
+          "A4 Study team,",
+          "HABS-HD Study Team,",
+          "Alzheimers Disease Neuroimaging Initiative (ADNI),",
+          "Alzheimers Disease Sequencing Project"
+        ],
+        "abstract": "White matter hyperintensities (WMH) are among the most common MRI findings in older adults. They are widely regarded as markers of brain aging and cerebral small-vessel disease, and associated with risk for cognitive decline, Alzheimers disease and related dementias (ADRD), and stroke. White matter hyperintensities (WMH) are typically interpreted by total lesion burden, but lesions with similar volumes can occupy different anatomical locations, potentially reflecting distinct pathological processes. Here we present voxelwise topographic reference modelling (vTRM), a framework for characterizing individual WMH masks against age- and sex-stratified frequency maps derived from cognitively unimpaired individuals. Using 42,469 FLAIR-derived lesion masks from twelve adult cohorts, we mapped population-level WMH spatial vulnerability, characterized age-related changes in its distribution across periventricular, lobar and arterial-territory compartments, and constructed paired percentile charts for lesion burden and spatial typicality. A quadrant-based classification defined by these two percentile dimensions revealed graded relationships with ADRD pathophysiology, neurodegeneration, and cognitive impairment, while identifying WMH patterns differentially associated with ageing-related, vascular and neurodegenerative processes among individuals with similar lesion volumes. These reference charts establish a benchmark for normative WMH ageing, enabling quantification of individual deviations from typical age-, sex- and burden-related patterns and identification of WMH phenotypes associated with vascular, neurodegenerative or mixed etiologies. The framework, together with a deployable 3D U-Net model trained on these data for automated WMH segmentation, is available through the Brain Lesion Analytics platform (https://brainlesionanalytics.org/).",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.760476v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.02.761058",
+        "title": "Paraquat Inhalation Produces Male-Biased Dopaminergic Neuron Loss and Motor Deficits in Mice: Relevance to Parkinsons Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Reina-Gonzalez, P. J.",
+          "Boos, J. R.",
+          "Abu-Salah, A.",
+          "Anchan, A.",
+          "Strazdins, R.",
+          "Ay, M.",
+          "Shah, A.",
+          "Chalupa, D.",
+          "Richardson, J. J.",
+          "Sarkar, S.",
+          "Cory-Slechta, D."
+        ],
+        "abstract": "Long-term exposure to paraquat (PQ), a widely used herbicide, has been linked to increased risk of Parkinsons Disease (PD) in agricultural workers and rural communities in the United States (US), findings further supported by experimental animal studies. Although banned in many countries across the globe, PQ remains widely used in the US. Inhalation of PQ has been known to induce systemic organ failure at acute concentrations. However, prolonged low-dose inhalation from agricultural spraying and pesticide drift has not been readily evaluated for its potential to contribute to neurodegenerative diseases in vivo. Instead, many experimental studies have relied on systemic routes of exposure, which do not effectively replicate the most common route of exposure to PQ in the environment. In the current study, Parkinsonian features were examined in mice that had been exposed via whole-body inhalation to PQ aerosol for either 40 or 60 days. Levels of PQ in brain were highest in olfactory bulb, followed by frontal cortex and then brainstem in both sexes. After 60 days of exposure, male-specific impairments in locomotor activity were observed, in addition to reductions in striatal dopamine, in substantia nigra tyrosine hydroxylase (TH) expression and number of TH+ dopaminergic neurons, the latter being considered the primary basis of PD, along with increased olfactory bulb -synuclein levels. As such, these studies confirm the dopaminergic neurotoxicity of inhaled PQ. These findings raise significant concerns as to the contribution of PQ exposures to the continued increase in the incidence of PD in the US.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.761058v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.28.762584",
+        "title": "Imipramine binds to amyloid-β and extends the survival of Alzheimer's disease patients",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Johnson, N. R.",
+          "Beham, J.",
+          "Sillau, S.",
+          "Read, J.",
+          "Wang, A. C.-J.",
+          "Ahmed, M. M.",
+          "Quang, D.",
+          "Stephenson, D.",
+          "Henen, M.",
+          "Vogeli, B.",
+          "Chial, H. J.",
+          "Welty, R.",
+          "Vugmeyster, L.",
+          "Potter, H."
+        ],
+        "abstract": "Background Apolipoprotein E (apoE) plays numerous roles in the pathogenic pathway to Alzheimer's disease (AD). We previously performed a high-throughput screen and identified the antidepressant imipramine as an inhibitor of the interaction between apoE and amyloid-{beta} (A{beta}). We also found that imipramine use to treat depression in AD patients was associated with better Mini-Mental State Exam (MMSE) scores. Here we studied the mechanisms by which imipramine inhibits the AD pathogenic pathway and investigated its effect on mortality in AD patients. Methods Nuclear magnetic resonance spectroscopy was used to characterize the interaction between imipramine and A{beta} monomers. Human induced pluripotent stem cell (hiPSC)-derived AD cerebral organoids (COs) and transgenic AD rats treated with imipramine underwent neuropathological evaluation, while rat learning and memory were assessed in the Morris Water Maze. AD patient mortality in the National Alzheimer's Coordinating Center's database was analyzed by Kaplan-Meier and Cox proportional hazards models. Results Imipramine inhibits the apoE-A{beta} interaction by binding directly to A{beta} monomers. Imipramine reduces A{beta} accumulation and neuronal cell loss in AD COs. Imipramine-treated female AD rats had enhanced reference memory and increased hippocampal cellularity and cholinergic neurotransmission. AD patients prescribed imipramine had reduced all-cause mortality over 10 years relative to those prescribed other tricyclic antidepressants (TCA), non-TCA antidepressants, or no antidepressants. Conclusions The findings support the conclusions that: a) the mechanism by which apoE confers risk for AD is by catalyzing the polymerization of A{beta} into neurotoxic species, b) targeting apoE is a promising, underappreciated strategy for the prevention of AD, c) imipramine should be used more frequently to treat depression in AD clinical practice, and d) imipramine should be evaluated in prospective trials, particu",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762584v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.29.762925",
+        "title": "Parkinson Disease vs Aging Features Impairments in Formation and Release of a Power Grip in Real and Pantomimed String-Pulling",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Kia, M.",
+          "Singh, S.",
+          "Inayat, S.",
+          "Doan, J.",
+          "Tata, M.",
+          "Luczak, A.",
+          "Whishaw, I."
+        ],
+        "abstract": "Parkinson disease (PD) impairs skilled reaching tasks but less is known about its effects on rhythmic bimanual actions. We used a bimanual hand-over-hand string-pulling task that requires repeated reach, grasp, pull, push and release movements. We predicted that participants with PD would show impairment in making the rotary skilled hand movement of retrieving the string, analogous to impairments observed in single handed target reaching. Nine participants with PD (mean UPDRS-III: 24.6), 16 older adults, and 10 young adults successfully performed a real string-pulling task and then pantomimed the action. Video analyses combined optical-flow estimation of whole-body movement speed, markerless 2D pose estimation of upper-limb kinematics, and expert frame-by-frame scoring of hand and finger shaping. Machine-learning classification then identified the discriminative information carried by these multilevel movement components. Participants with PD showed lower movement speed, a smaller hand workspace, and reduced hand and finger shaping, with older adults showing intermediate values. All participants grasped the real string with a power grip, but participants with PD showed reduced rotary movements of the arm and the wrists and absent of arpeggio-like sequential finger movement during grasp and release. During pantomime, participants with PD moved faster and made larger hand movements, while grasp-related hand opening and finger sequencing was reduced or absent. The findings suggest that PD is expressed across this multicomponent movement manifold, and that the movement organization changes with task demands: real string pulling requires formation and release of a power grip, whereas pantomime does not place demands on grasping ability.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762925v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.30.762534",
+        "title": "Brain mitovesicles undergo stage-specific remodelling during the progression of amyloid-β pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Voorbraeck, L.",
+          "Alarcon-Gil, J.",
+          "Mijalkov, M.",
+          "Passaretti, M.",
+          "Cao, Z.",
+          "Mamand, D. R.",
+          "Garcia-Ptacek, S.",
+          "Kele, J.",
+          "Fowler, S. L.",
+          "Ankarcrona, M.",
+          "Pereira, J. B.",
+          "Naia, L."
+        ],
+        "abstract": "Mitochondrial dysfunction is an early feature of Alzheimer's disease that shows nonlinear changes as the disease progresses. However, how these changes are reflected in the mitochondrial material released by brain cells remains poorly understood. Mitovesicles are a recently described extracellular vesicle subpopulation of mitochondrial origin that provide a unique insight into mitochondrial alterations in the brain and could potentially show how nonlinear changes evolve across disease stages of amyloid-beta pathology. Here, we isolated forebrain-derived small extracellular vesicles and mitovesicles from wild-type and Amyloid precursor protein (App) knock-in (AppKI) mice, carrying familial AD mutations and progressively accumulating amyloid-beta plaques, at presymptomatic (2-month) and symptomatic (12-month) stages using high-resolution density gradient fractionation. Vesicle identity and composition were assessed by morphological, biophysical and quantitative proteomic analyses, and mitovesicle respiratory function was measured by extracellular flux analysis. We show that mitovesicles carry a distinct, predominantly mitochondrial inner membrane proteome that is remodelled by age and disease in a stage-specific manner. Compared with small extracellular vesicles, mitovesicle proteomic profiles captured disease progression more clearly, with symptomatic AppKI mice forming the most molecularly distinct group. At the presymptomatic stage, AppKI mitovesicles showed reduced mitochondrial protein representation, most notably of fatty acid {beta}-oxidation and lipid-metabolism proteins associated with astroglial and vascular signatures, preceding any detectable respiratory impairment. At the symptomatic stage this reversed: AppKI mitovesicles were enriched for oxidative phosphorylation, mitochondrial membrane and transporter proteins, yet showed reduced Complex IV-linked respiration, revealing a dissociation between mitochondrial cargo abundance and respiratory function. Sel",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.762534v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.10.30.763175",
+        "title": "Structure-Based Discovery of GTP-Enhanced Rab10 Modulators and Their Effects on Alzheimer Disease-Relevant Cellular Phenotypes",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-03",
+        "is_early_access": true,
+        "authors": [
+          "Malasala, S.",
+          "Cox, N.",
+          "Sellman, G.",
+          "Chen, Y.-H.",
+          "Lu, Q."
+        ],
+        "abstract": "Rab10-mediated membrane trafficking has been implicated in Alzheimer disease (AD), but pharmacological tools for investigating its function remain limited. Here, we screened more than 80 million compounds using structure-based virtual screening and prioritized five candidate Rab10 modulators (R1-R5). These compounds exhibited favorable docking scores, stable modeled protein-ligand complexes in molecular dynamics (MD) simulations and predicted acceptable ADME/toxicity profiles. Comparative docking against Rab5, Rab8, and Rab11 predicted preferential interactions with GTP-associated Rab10. R1 and R2 yielded the most favorable Rab10 scores, whereas R3 showed the largest differences between GTP-associated, GDP-containing, and nucleotide-free Rab10 models. Surface plasmon resonance (SPR) revealed micromolar apparent affinities of R1-R4 without added GTP and nanomolar apparent affinities under GTP-containing conditions, generally favoring GTP-bound Rab10 over Rab5. In a cell-based GTP quantification assay, R1, R2, R3, and R5 reduced GTP-bound Rab10, whereas R4 increased it. R3 produced dose- and time-dependent reductions in GTP-bound Rab10 and was selected for functional studies. R3 altered endosomal organization and reduced EEA1 and LAMP1 expressions. In amyloid precursor protein (APP)/presenilin-1-expressing CHO cells, R3 redistributed intracellular APP, reduced APP carboxyl-terminal fragments (APP-CTFs), and decreased enlarged endosome-like structures. In neuronal differentiated PC12 cells, R1-R3 attenuated NGF withdrawal-induced cytoskeletal disruption and cell death, accompanied by reduced APP-CTF accumulation and tau phosphorylation. These studies highlight novel Rab10 modulators and support their further validation as candidate pharmacological probes for investigating Rab10-associated trafficking and AD-relevant cellular phenotypes.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763175v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.10.29.762942",
         "title": "In-vivo MRI of noradrenergic and dopaminergic nuclei predicts future cognition and Alzheimers disease progression",
@@ -26,117 +476,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762942v1",
         "reasons": [
           "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.27.761977",
-        "title": "Phenotypic screening in Parkinson's iPSC-dopamine neurons identifies the FASN-SREBP1 axis as a potential therapeutic target",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-01",
-        "is_early_access": true,
-        "authors": [
-          "Caiazza, M. C.",
-          "Brandes, J.",
-          "Barrow, E. R.",
-          "Marquez-Gomez, R.",
-          "Brown, D.",
-          "Jenkins, B.",
-          "Chughtai, U.",
-          "McGuinness, W.",
-          "Humble, S. W.",
-          "Sharifi, P.",
-          "Hoffmann, J. L.",
-          "Trigano, M.",
-          "Koulman, A.",
-          "Gurrell, I.",
-          "Davis, A.",
-          "Smith, D.",
-          "Ryan, B.",
-          "Wade-Martins, R."
-        ],
-        "abstract": "Parkinson's disease (PD) remains highly challenging to model in vitro, particularly when seeking robust functional phenotypes for target discovery. Patient-derived induced pluripotent stem cell dopaminergic neurons (iPSC-DANs) offer a promising platform to address this challenge. Because calcium dyshomeostasis is well-described in PD pathophysiology, it offers a platform for phenotypic screening. We have previously shown that GBA-N370S iPSC-DANs display impaired intracellular calcium release. Here, we used this disease-relevant phenotype to undertake a 4,108-compound phenotypic screen in GBA-N370S (GBA-NS) iPSC-DANs. This screen identified fatty acid synthase (FASN) as the most enriched protein target. The ability of compounds to rescue calcium release correlated with biochemical potency against FASN across multiple chemical series. We confirmed that FASN knockdown increased intracellular calcium release, supporting an on-target effect. Untargeted lipidomics demonstrated broad remodelling of the neuronal lipidome after FASN inhibition, confirming target engagement. FASN inhibition also increased active a-glucocerebrosidase (GCase), reduced extracellular a-synuclein release and ER stress, and altered RASGRF1 expression. Mechanistically, FASN inhibition activated sterol regulatory element-binding protein 1 (SREBP1), and SREBP1 overexpression alone was sufficient to increase intracellular calcium release, identifying a FASN-SREBP1-calcium homeostasis axis in human neurons. Finally, the FASN inhibitor BI 99179 achieved brain exposure and reduced brain fatty acid levels while inducing an SRE-associated transcriptional response in a Parkinson's mouse model, providing evidence of in vivo target engagement. These findings establish patient iPSC-neuron functional screening as a tractable discovery platform to identify targets which can be taken in vivo and nominate the FASN-SREBP1 axis as a candidate therapeutic pathway in PD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761977v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.27.761963",
-        "title": "Molecular MRI of Neuroinflammation in Alzheimer's Disease using a Folate-targeted Nanoprobe",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-01",
-        "is_early_access": true,
-        "authors": [
-          "Badachhape, A. A.",
-          "Bhandari, P.",
-          "Khan, R.",
-          "Bhavane, R.",
-          "Menon, R.",
-          "Parekh, P.",
-          "Admane, P.",
-          "Ngan, E.",
-          "Srivastava, M.",
-          "Tanifum, E. A.",
-          "Annapragada, A. V.",
-          "Ritzel, R. M.",
-          "Ghaghada, K. B."
-        ],
-        "abstract": "Background: Neuroinflammation, driven by activated microglia, plays a central role in the pathogenesis of Alzheimer's disease (AD). Non-invasive imaging of neuroinflammation holds promise for advancing our understanding of disease mechanisms and evaluating anti-inflammatory therapeutic strategies. The folate receptor (FR), specifically its {beta} isoform, has been identified as a marker of pro-inflammatory myeloid cells in peripheral inflammatory diseases; however, its association with AD neuroinflammation remains unknown. In this work, we first determined FR expression in microglia in mouse models of AD and subsequently evaluated molecular MRI (mMRI) using a folate-targeted nanoprobe for in vivo imaging of the folate receptor expression. Methods and results: Microglial activation and FR expression in APP/PS1 and P301S transgenic mouse models of AD was measured using flow cytometry. A FR-targeted nanoprobe for mMRI was prepared by functionalizing high T1-relaxivity liposomal gadolinium nanoparticle with folic acid. Following intravenous injection, localization of the nanoprobe in the brains of aged transgenic and wild-type mice was measured using T1-weighted MRI. Post-mortem microscopy measured nanoprobe localization relative to microglia and amyloid pathology. In both mouse models, FR{beta} was significantly (p < 0.05) upregulated in pro-inflammatory microglia expressing TNF and IL-1{beta}. The folate-targeted nanoprobe demonstrated MR signal enhancement in the cortical and hippocampal regions of transgenic mice but not in wild type mice; non-targeted nanoprobe control did not demonstrate signal enhancement in brain of transgenic mice. Microscopy confirmed colocalization of FR-targeted nanoprobe with IBA1-positive microglia/macrophages and amyloid plaques. Conclusions: Pro-inflammatory microglia exhibit elevated levels of FR, and its measurement by non-invasive mMRI is a promising marker of neuroinflammation in AD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761963v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.27.762234",
-        "title": "Neuronal and glial transcriptional states vary with proximity to tangle-bearing neurons in the human entorhinal cortex",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-01",
-        "is_early_access": true,
-        "authors": [
-          "Boulger, S. L.",
-          "Lambie, N.",
-          "Wos, J.",
-          "Papageorgopoulou, M.",
-          "Mendez Pastor, S.",
-          "Adair, E.",
-          "Thomas, M.",
-          "Caramello, A.",
-          "Fancy, N. N.",
-          "Jackson, J. S.",
-          "Duff, E. P.",
-          "Mallach, A.",
-          "Matthews, P. M."
-        ],
-        "abstract": "More neurons die in Alzheimer's disease than form tangles, and tangle-bearing neurons can persist for decades, so tangles alone cannot explain degeneration. We combined 6,000-plex spatial transcriptomics with PHF1 immunofluorescence (167,176 cells; 9 donors) and imaging mass cytometry (170,195 cells; 62 donors), measuring each cell's distance to the nearest tangle. Tangle-bearing layer 2-3 excitatory neurons were enriched late along a trajectory of increasing microtubule-associated, synaptic and V-ATPase expression, with elevated p62 and K48-ubiquitin. Tangle-free neurons shared more of this state the closer they lay to a tangle, including higher chaperone and autophagy scores, p62 and nuclear size. Nearby glia had higher disease-associated scores, with astrocytes expressing less GFAP. Excitatory, but not inhibitory, neuron loss was greatest in subtypes closest to tangles and cortical depths richest in phosphorylated tau. Selective neuronal vulnerability may reflect not only a neuron's susceptibility to forming a tangle but also where it lies relative to one.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762234v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.01.756094",
-        "title": "DNA polymerase kappa supports repair-associated DNA synthesis and genome maintenance in postmitotic neurons",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-01",
-        "is_early_access": true,
-        "authors": [
-          "Goyal, G.",
-          "Palanisamy, P.",
-          "Paul, A.",
-          "Roy, V. L.",
-          "Cifani, P.",
-          "Paul, A.",
-          "Paul, S."
-        ],
-        "abstract": "Postmitotic neurons depend on continuous DNA repair to preserve genome integrity, yet the polymerases supporting repair-associated DNA synthesis remain poorly defined. Here, we identify DNA polymerase kappa (POLK), a Y-family translesion synthesis polymerase studied predominantly in proliferating cells, as a regulator of DNA synthesis and genome maintenance in postmitotic neurons. Using primary mouse cortical neurons and human induced pluripotent stem cell-derived forebrain neurons, we show that POLK localizes near newly synthesized DNA and repair-associated proteins, including ubiquitinated PCNA. POLK depletion reduces DNA synthesis in both mouse and human neurons and promotes nuclear and organelle remodeling, p21-associated senescence-like stress, inflammatory responses, and increased p38 MAPK immunoreactivity. In an Alzheimer's disease-risk genetic background, POLK depletion also increases cytoplasmic double-stranded DNA and tau phosphorylation. Conversely, POLK overexpression enhances neuronal DNA synthesis while reducing DNA damage-associated signals, p38 MAPK immunoreactivity, cytoplasmic DNA, and Alzheimer's disease-relevant phenotypes. These findings uncover a role for POLK in postmitotic neuronal genome maintenance, linking specialized DNA polymerase function to neuronal stress and vulnerability relevant to aging and neurodegeneration.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756094v2",
-        "reasons": [
-          "关键词『Alzheimer、tau、neurodegeneration』(命中abstract)"
         ],
         "is_new": true
       }
