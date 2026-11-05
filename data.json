@@ -1,10 +1,102 @@
 {
-  "date": "2026-11-04",
-  "total": 19,
+  "date": "2026-11-05",
+  "total": 22,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.03.763730",
+        "title": "Conserved synaptic modifications by humanized tau through diverse isoform- and mutation-specific intracellular interactions",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-04",
+        "is_early_access": true,
+        "authors": [
+          "Nickerson, E.",
+          "Pomeroy-Tuck, J.",
+          "Pratt, S.",
+          "Rodriguez, C.",
+          "Zhao, T.",
+          "Stodola, T.",
+          "Hoffman, B.",
+          "Maser, R.",
+          "Bloss, E."
+        ],
+        "abstract": "Mutations in the microtubule-binding protein tau are considered causal for a diverse group of neurodegenerative diseases collectively referred to as primary tauopathies. Specific tauopathies are associated with different mutations, distinct tau isoforms, manifest in unique cellular and circuit-wide patterns of degeneration, and present with specific clinical symptoms and trajectories. The mechanisms that link variations in the primary tau protein structure to distinct forms of neural circuit dysfunction remain largely unknown. Here, we created an orthogonal viral resource to systematically examine the impact of expressing humanized tau isoforms harboring different disease-relevant mutations in excitatory pyramidal cells from the mouse prelimbic cortex. We used these reagents to show that expression of mutant humanized tau (hTau) as either of two isoforms produced very similar patterns of circuit-specific synaptic disconnection on cortical projection neurons. However, mass spectrometry revealed that the interactomes of these different tau species varied markedly as functions of isoform, mutation, and subcellular location. We validated the functional relevance of increased hTau interactions with mitochondrial proteins in induced neurons differentiated from Ngn2-iPSCs expressing different hTau constructs. These results suggest different disease-relevant hTau proteins likely use distinct mechanisms to drive a highly stereotyped form of synapse loss in cortical neurons.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763730v1",
+        "reasons": [
+          "关键词『tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.03.763923",
+        "title": "Chronic Sleep Disruption Activates the Transcriptional Unfolded Protein Response and Induces Compartment-Specific Proteomic Changes in Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-04",
+        "is_early_access": true,
+        "authors": [
+          "Espinosa-Garcia, C.",
+          "Kour, D.",
+          "Srivastava, U.",
+          "Malepati, S.",
+          "Kumar, P.",
+          "Parhizkar, S.",
+          "Tobin, B.",
+          "Jang, W. E.",
+          "Kumari, R.",
+          "Campbell, B.",
+          "Stagray, J.",
+          "Henley, M.",
+          "Liu, X.",
+          "Wood, L. B.",
+          "Faundez, V.",
+          "Rangaraju, S."
+        ],
+        "abstract": "Sleep disruption (SD) is associated with adverse brain health and increased risk of dementia, including Alzheimer's disease (AD), yet the pathological mechanisms underlying this association are not fully understood. Preclinical studies have shown that acute SD impairs cognition by altering vulnerable synapses (molecular composition, ultrastructure, and function). However, the cumulative effects of chronic SD on the adult brain and its vulnerable synapses, that might contribute to AD risk, remain poorly defined. Here, we investigated the impact of chronic SD on brain transcriptomic signatures and subcellular compartment-specific proteomic profiles to identify genes, proteins, and signaling pathways that might confer AD risk. Chronic SD induced a modest transcriptional stress response globally, whereas alterations were more pronounced in the synaptosomal (synapse-enriched P2 fractions) and whole-brain proteomes. Remarkably, chronic SD elicited unique proteomic alterations at the synaptic compartment were distinct from whole-brain effects, including increased proteins involved in synaptic vesicle endocytosis, regulation of dendritic spine morphogenesis, and regulation of long-term synaptic depression, compared to increased proteins involved in immune/inflammatory, glial responses and neuronal function at the whole-brain level. Consistent with the chronic SD-induced molecular signatures, we observed subtle ultrastructural changes in vulnerable CA1 hippocampal synapses, including reduced pre-synapse size and decreased synaptic vesicle density, which suggest that chronic SD modifies synaptic transmission and plasticity. Together, our findings indicate that chronic SD differentially impacts the brain and the synaptic proteome, nominating candidate therapeutic targets and signaling pathways for future mechanistic studies of chronic SD and how SD contributes to increased AD risk.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763923v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.03.764025",
+        "title": "FGF signaling induces disease-associated oligodendrocyte states and drives myelin pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-04",
+        "is_early_access": true,
+        "authors": [
+          "Weigel, M. K.",
+          "Cooper, M. H.",
+          "Zaghi, M.",
+          "Gopakumar, J.",
+          "Bridges, C. M.",
+          "Ho, P. P.",
+          "Schoof, M.",
+          "Klibaite, U.",
+          "Pedraza, S.",
+          "Agirre, E.",
+          "Tilton-Low, G.",
+          "Bestard-Cuche, N.",
+          "Kukanja, P.",
+          "Rodriguez, V. V.",
+          "Jones, G.",
+          "Perrino, J. J.",
+          "Jorgens, D. M.",
+          "Terasaki, M. R.",
+          "Williams, A.",
+          "Steinman, L.",
+          "Castelo-Branco, G.",
+          "Zuchero, J. B."
+        ],
+        "abstract": "Myelin integrity is essential for normal central nervous system (CNS) function and is disrupted in neuroinflammatory and neurodegenerative disorders, including multiple sclerosis and Alzheimer's disease. In these settings, myelin-forming oligodendrocytes adopt a conserved disease-associated transcriptional state, termed disease-associated oligodendrocytes (DAOs). How DAOs arise, the signals that drive their induction, and whether they actively contribute to pathology remain poorly understood. Here we show that FGF signaling instructs mature oligodendrocytes to enter disease-associated states that are sufficient to trigger myelin pathology. By screening disease-linked secreted factors, we identify FGF1 and FGF2 as potent inducers of a DAO-like state in purified oligodendrocyte cultures, characterized by transcriptional reprogramming and myelin-membrane shedding. In vivo, activating oligodendrocyte FGF signaling is sufficient to elicit DAO programs and myelin disruption, whereas inhibiting FGF signaling suppresses DAO induction in a mouse model of multiple sclerosis. Finally, analysis of post-mortem multiple sclerosis tissue reveals a concordant DAO-like state associated with increased engagement of the FGF/FGFR axis. Collectively, these studies define a regulated mechanism of DAO formation linked to myelin disruption and position mature oligodendrocytes as active contributors to myelin pathology in CNS disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764025v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.09.14.751492",
         "title": "Region-dependent regulation of Tau phosphorylation by Glycerophosphodiester Phosphodiesterase 2 in a mouse model of tauopathy",
@@ -456,26 +548,29 @@
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.10.29.762942",
-        "title": "In-vivo MRI of noradrenergic and dopaminergic nuclei predicts future cognition and Alzheimers disease progression",
+        "doi": "10.64898/2026.11.02.761117",
+        "title": "ROCK inhibitor Ripasudil reduces Alzheimer pathological proteins and enhances cellular bioenergetics",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-02",
+        "published_online": "2026-11-03",
         "is_early_access": true,
         "authors": [
-          "Zhao, W.",
-          "Guzman, S. J.",
-          "Yoo, H. J.",
-          "Ruiz, K.",
-          "Chen, K.",
-          "Moheban, A.",
-          "Nation, D. A.",
-          "Dahl, M. J.",
-          "Mather, M."
+          "Li, Y.",
+          "Liu, Z.",
+          "Cambi, X.",
+          "Peterson, J.",
+          "Benavides, G.",
+          "Ouyang, X.",
+          "Candib, A.",
+          "Zaia, J.",
+          "Darley-Usmar, V.",
+          "Zheng, C.",
+          "Zhang, J.",
+          "Xia, W."
         ],
-        "abstract": "Noradrenergic and dopaminergic nuclei modulate cognition, and post-mortem data indicate they are affected early in the neurodegenerative cascade of Alzheimers disease. We derived in-vivo locus coeruleus (LC) and substantia nigra-ventral tegmental area (SN-VTA) MRI integrity measures from 739 ADNI participants, examined MRI-histology correspondence in individuals with both in-vivo imaging and post-mortem data, and tested whether these measures reflect early MRI-indexed degeneration predicting later cognitive decline. LC and SN-VTA contrast predicted cognitive and behavioral function 10 years later, despite only weak associations with current function. LC- and SN-VTA-associated brain-wide atrophy patterns aligned with PET-derived norepinephrine-transporter and dopamine-receptor maps, respectively. A one-standard-deviation decrease in baseline LC contrast was associated with 84% higher five-year odds of MCI-to-AD progression, and predictive effects of the catecholaminergic nuclei were mediated by their corresponding atrophy patterns. The SN-VTA pattern was associated with less amyloid PET-related memory decline. Together, these findings establish LC and SN-VTA MRI contrast as markers of early neurodegeneration that forecast cognitive decline years before clinical onset.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762942v1",
+        "abstract": "Rho-associated kinase (ROCK) inhibitors have been explored as an Alzheimer Disease (AD) therapeutic agent. In this study, we aim to determine the efficacy of a potent ROCK inhibitor, ripasudil, in impacting AD pathological protein tau in mice. The time-course study showed that ripasudil rapidly penetrated mouse brains, reaching maximal concentration half an hour post-injection. To determine the efficacy of ripasudil, we injected AppNL-G-F knock-in mice with ripasudil at 30 mg/kg and sacrificed them after three hours. We used Tandem Mass Tag labels and compared the proteomic profiles of mouse brains exposed to ripasudil to those exposed to saline. We also treated AD-patient-derived Neural Stem Cells (NSCs) with ripasudil and performed a Seahorse Mito Stress Test to evaluate their impact on mitochondrial activity. Bioinformatics analysis of the proteomic profiles revealed differentially enriched components of chromosome. The Mito Stress Test of NSCs revealed significant increases in basal oxygen consumption, ATP-linked respiration, maximal respiration, and reserve capacity oxygen consumption compared to untreated NSCs. Importantly, we found a significant reduction of Tau and pTau 396 in brains of mice treated with ripasudil. Overall, our findings highlight the feasibility and promise of ROCK inhibitor ripasudil as an AD therapeutic agent.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.761117v1",
         "reasons": [
-          "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
+          "关键词『Alzheimer、tau』(命中title/abstract)"
         ],
         "is_new": true
       }
