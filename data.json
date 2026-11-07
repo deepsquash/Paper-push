@@ -1,10 +1,152 @@
 {
-  "date": "2026-11-06",
-  "total": 13,
+  "date": "2026-11-07",
+  "total": 11,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.04.763874",
+        "title": "Personalized Prediction of Differences in fMRI Connectivity Estimates Across Preprocessing Pipelines",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-06",
+        "is_early_access": true,
+        "authors": [
+          "Maximov, Y.",
+          "Volkov, A.",
+          "Chattopadhyay, T.",
+          "Thompson, P. M.",
+          "Gabitov, I."
+        ],
+        "abstract": "Longitudinal functional MRI of the human brain is valuable for tracking changes in functional connectivity (FC) associated with disease progression or treatment response. Even so, measured FC values depend on preprocessing, and nuisance regression and temporal filtering affect individuals differently. We examined whether we could use earlier scans to predict how preprocessing would affect a later scan. In 69 ADNI (Alzheimers Disease Neuroimaging Initiative) participants scanned three times, we measured how nuisance regression and filtering, alone and in sequence, changed the measured FC. A ridge regression model combined these responses with baseline FC from the third scan to predict the effect of reversing the processing order. Just four coefficients were shared across 79,800 connections. In leave-one-participant-out testing, mean squared error was 0.012, compared with 0.017 for predicting the same average response for everyone. It outperformed the best of seven alternative predictions chosen for each participant (0.013; normalized gain 0.069, 95% bootstrap interval 0.006-0.134), with lower error in 44 of 69 participants. About half the benefit of using each persons earlier responses, rather than the average across participants, came from which connections changed. This advantage persisted after accounting for acquisition variables. The ADNI-trained model reduced mean error in ten Midnight Scan Club participants without refitting. These results support using personal preprocessing history to predict changes in connectivity estimates on newly acquired scans.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763874v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.04.764247",
+        "title": "Dopamine synthesis capacity and tau pathology differentially modulate rest-to-task functional network dynamics",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-06",
+        "is_early_access": true,
+        "authors": [
+          "Morin, T. M.",
+          "Chen, H.-Y.",
+          "Aghasoltan, S.",
+          "Hsu, M. M.",
+          "Jagust, W. J.",
+          "Berry, A. S."
+        ],
+        "abstract": "Optimal cognition relies on large-scale functional brain networks which balance segregation at rest with selective integration during task performance. In aging, these network dynamics are altered. We examined two prominent features of brain aging: dysregulated dopamine function and Alzheimer's disease (AD)-related pathology to examine impacts on brain network dynamics. Young adults and cognitively unimpaired older adults completed resting-state and task-based fMRI and PET imaging of dopamine synthesis capacity ([18F]fluoro-m-L-tyrosine). Older adults were classified as {beta}-amyloid negative/positive using [11C]Pittsburgh Compound-B PET(PiB- or PiB+) and underwent tau-PET scanning ([18F]flortaucipir). Greater rest-to-task network stability and task-related network segregation were associated with better subsequent memory. Compared to young adults, PiB+ older adults showed reduced network stability and both PiB+ and PiB- older adults showed reduced segregation during rest. Higher ventral striatal dopamine synthesis capacity was associated with greater stability within associative networks in young adults, but this relationship was attenuated in older adults and absent in PiB+ participants. In PiB+ older adults, higher tau burden was associated with a task-induced collapse of network segregation across large-scale networks. These findings reveal dissociable influences of dopamine and tau on rest-to-task network organization, highlighting the value of integrating neuromodulatory and pathological markers in aging research.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764247v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.05.764669",
+        "title": "Network analysis of mouse brain proteomes resolves molecular and cellular endophenotypes of aging and Aβ pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-06",
+        "is_early_access": true,
+        "authors": [
+          "Rayaprolu, S.",
+          "Malepati, S.",
+          "Dammer, E. B.",
+          "Langdon, K.",
+          "Kumari, R.",
+          "Brandelli, A. D.",
+          "Espinosa-Garcia, C.",
+          "Duong, D. D.",
+          "Srivastava, U.",
+          "Kumar, P.",
+          "Tfaily, A.",
+          "Chen, J.",
+          "Zhou, X.",
+          "Li, Y.",
+          "Chaudhary, A. F.",
+          "Liang, S.",
+          "Seyfried, N. T.",
+          "Rangaraju, S."
+        ],
+        "abstract": "Aging and Alzheimer's disease (AD) pathology exert both shared and distinct effects on the brain, yet their relative contributions to molecular alterations remain poorly defined. Here we performed tandem mass tag proteomics across the lifespan in wild-type and 5xFAD mice and integrated these data with human brain proteomic networks to resolve aging- and amyloid-beta (A{beta}-associated molecular programs. We quantified 8,535 proteins and identified 51 co-expression modules representing neuronal, mitochondrial, glial, vascular and proteostatic pathways. Aging emerged as the predominant driver of proteomic remodeling, with widespread alterations in RNA metabolism, protein translation, and neuronal pathways occurring independently of A{beta} pathology. In contrast, A{beta} selectively modified a subset of age-dependent processes, including suppression of mitochondrial ATP biosynthetic machinery and amplification of astrocytic and microglial activation states. These key aging and disease-related molecular signatures were highly conserved in human AD brain proteomes. Together, our findings establish aging as the primary determinant of brain proteome organization while revealing specific mechanisms through which A{beta} pathology reshapes age-associated biological processes. Our results also highlight molecular mechanisms of human aging and AD pathology that can be modeled in mouse models.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764669v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.05.764685",
+        "title": "Broad Cognitive and Motivational Enhancement through M4-Selective Muscarinic Modulation",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-06",
+        "is_early_access": true,
+        "authors": [
+          "Wen, X.",
+          "Shereen, S.",
+          "Neumann, A.",
+          "Temple, K.",
+          "Lindsley, C. W.",
+          "Jones, C. K.",
+          "Womelsdorf, T."
+        ],
+        "abstract": "The muscarinic M4 subtype of acetylcholine receptors is part of agonist compounds considered treatment options for Schizophrenia and Alzheimers disease, but how M4-subtype selective modulation affects cognition and motivation is largely unknown due to dose-limiting side effects, a scarcity of receptor-selective compounds, and missing multi-domain assessments of cognition. Here, we surmount these constraints by utilizing a M4-selective positive allosteric modulator (PAM) to assess in nonhuman primates a broad array of endpoints spanning motivational effort control and multiple executive function domains. We found broad dose-dependent performance improvements of set shifting indexing cognitive flexibility, visual search indexing selective attention, antisaccade performance indexing inhibitory control, visuospatial maze learning, and temporal order serial object learning, while working memory span was non-systematically modulated. In addition, the M4 PAM reduced effort avoidance in an effort-based choice task documenting a pro-motivational effect. Task-composite performance scores showed pro-cognitive effects across multiple doses and an effective dose range for individual subjects in the absence of adverse dose-limiting cholinergic side effects. Together, the broad pro-cognitive and pro-motivational multi-task profile of M4 PAM modulation suggests that the M4 receptor is a master regulator of executive cognitive functioning, possibly acting on domain-general neural processes across the prefrontal-striatal circuits.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764685v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.05.764557",
+        "title": "Phase-locked dual-band vibration bursts strengthen anti-kindling by vibrotactile coordinated reset stimulation in a spiking network model",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-06",
+        "is_early_access": true,
+        "authors": [
+          "Patki, S. A.",
+          "SKM, V."
+        ],
+        "abstract": "Parkinsons disease and related movement disorders are accompanied by pathologically synchronized neuronal activity in cortico-basal ganglia circuits. Coordinated reset (CR) stimulation was derived computationally as a means of suppressing such activity at its source, by resetting the phases of the subpopulations of a synchronized network at staggered times. Under spike-timing-dependent plasticity (STDP), the resulting decorrelated firing depresses excitatory coupling and establishes a weakly coupled, desynchronized state that outlasts stimulation, a process termed anti-kindling. Sustained post-stimulation benefit has been demonstrated for electrical CR stimulation in parkinsonian primates and in proof-of-concept patient studies, and vibrotactile CR (vCR) stimulation realizes the same principle non-invasively through bursts of fingertip vibration. The deployed vCR protocol employs a carrier frequency of 250 Hz, which preferentially recruits Pacinian afferents. Because Pacinian receptive fields extend substantially beyond the stimulated digit, inputs originating at adjacent fingertips converge on overlapping regions of the target population, which degrades the spatial separation on which CR depends. Here we examine whether the spectral composition of the individual burst, independent of the stimulation schedule, governs the magnitude of anti-kindling. In a Hodgkin-Huxley network with STDP, driven through a two-channel model of fast-adapting afferents, a dual-band burst superimposing a 30 Hz component on the 250 Hz carrier yielded the lowest post-stimulation coupling among eleven vCR patterns, at one third of the carriers drive power. Recruitment of focal Meissner afferents by the 30 Hz component restricts part of the drive to the stimulated subpopulation, and phase locking of that component to the burst envelope generates post-burst pauses that reset the phase of the stimulated neurons. Spectral composition therefore determines both the spatial selectivity of vCR stim",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764557v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.05.764662",
+        "title": "Seed Amplification Assay-Based Detection of Alpha-Synuclein Aggregates Outperforms Immunohistochemical Analysis in the Intestinal Mucosal Biopsies of Parkinson's Disease and Multiple System Atrophy Participants",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-06",
+        "is_early_access": true,
+        "authors": [
+          "Keshavarzian, A.",
+          "Engen, P. A.",
+          "Soto, C.",
+          "Voigt, R. M.",
+          "Killinger, B.",
+          "Shaikh, M.",
+          "Pinho, M. A.",
+          "Pritzkow, S.",
+          "Duvernay, J. B.",
+          "Barnett, M. K.",
+          "Green, S. J.",
+          "Abdel-Mohsen, M.",
+          "Sharma, A.",
+          "Goetz, C. G."
+        ],
+        "abstract": "Objective: To determine whether an -synuclein (-Syn) seed amplification assay (SAA) detects seeding-competent aggregates in endoscopic mucosal biopsies, differs by gastrointestinal region, registers pathology more frequently than immunohistochemistry (IHC), and associates with Parkinson disease (PD) diagnosis, disease duration or severity. Design: This cross-sectional, proof-of-concept diagnostic accuracy study analyzed duodenum, ileum, and sigmoid biopsies from PD participants, age- and sex-matched healthy controls (HC), plus exploratory multiple system atrophy (MSA) subtypes [parkinsonian (MSA-P) and cerebellar (MSA-C)]. Ileal and sigmoid PD and HC biopsies were assessed using proteinase K-resistant phospho-Ser129 IHC. SAA positivity was evaluated against clinical and biological measures. Results: In PD, SAA detected seeding competent -Syn aggregates with high observed specificity (97.5-100%) and region-dependent sensitivity (18/37, 48.65% in ileum and 36/56, 64.29% in sigmoid). Sigmoid SAA positivity increased significantly with PD disease duration (40.00% at <5 years, 73.33% at 5-10 years, and 93.75% at >10 years), independent of motor severity, whereas ileal positivity remained stable across disease stages. In 37 paired sigmoid biopsies, SAA detected -Syn aggregates 2.8-fold more frequently than IHC. Sigmoid seeding activity was detected in all five MSA-P, but not in two MSA-C. IHC did not detect aggregates in any MSA. Conclusions: In PD, -Syn SAA detected seeding-competent -Syn aggregates in endoscopic mucosal biopsies with high observed specificity, moderate sensitivity, and approximately 2.8-fold higher detection rate than IHC in sigmoid. Positive SAA in MSA patients supports GI involvement across synucleinopathies. SAA detection in PD differed by intestinal region and disease duration, supporting further validation of intestinal SAA as a PD biomarker.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764662v1",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.11.04.757576",
         "title": "40 Hz visual stimulation increases gamma-band functional connectivity between visual, parietal and frontal regions",
@@ -114,210 +256,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764703v1",
         "reasons": [
           "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.03.763730",
-        "title": "Conserved synaptic modifications by humanized tau through diverse isoform- and mutation-specific intracellular interactions",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Nickerson, E.",
-          "Pomeroy-Tuck, J.",
-          "Pratt, S.",
-          "Rodriguez, C.",
-          "Zhao, T.",
-          "Stodola, T.",
-          "Hoffman, B.",
-          "Maser, R.",
-          "Bloss, E."
-        ],
-        "abstract": "Mutations in the microtubule-binding protein tau are considered causal for a diverse group of neurodegenerative diseases collectively referred to as primary tauopathies. Specific tauopathies are associated with different mutations, distinct tau isoforms, manifest in unique cellular and circuit-wide patterns of degeneration, and present with specific clinical symptoms and trajectories. The mechanisms that link variations in the primary tau protein structure to distinct forms of neural circuit dysfunction remain largely unknown. Here, we created an orthogonal viral resource to systematically examine the impact of expressing humanized tau isoforms harboring different disease-relevant mutations in excitatory pyramidal cells from the mouse prelimbic cortex. We used these reagents to show that expression of mutant humanized tau (hTau) as either of two isoforms produced very similar patterns of circuit-specific synaptic disconnection on cortical projection neurons. However, mass spectrometry revealed that the interactomes of these different tau species varied markedly as functions of isoform, mutation, and subcellular location. We validated the functional relevance of increased hTau interactions with mitochondrial proteins in induced neurons differentiated from Ngn2-iPSCs expressing different hTau constructs. These results suggest different disease-relevant hTau proteins likely use distinct mechanisms to drive a highly stereotyped form of synapse loss in cortical neurons.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763730v1",
-        "reasons": [
-          "关键词『tau』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.03.763923",
-        "title": "Chronic Sleep Disruption Activates the Transcriptional Unfolded Protein Response and Induces Compartment-Specific Proteomic Changes in Mice",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Espinosa-Garcia, C.",
-          "Kour, D.",
-          "Srivastava, U.",
-          "Malepati, S.",
-          "Kumar, P.",
-          "Parhizkar, S.",
-          "Tobin, B.",
-          "Jang, W. E.",
-          "Kumari, R.",
-          "Campbell, B.",
-          "Stagray, J.",
-          "Henley, M.",
-          "Liu, X.",
-          "Wood, L. B.",
-          "Faundez, V.",
-          "Rangaraju, S."
-        ],
-        "abstract": "Sleep disruption (SD) is associated with adverse brain health and increased risk of dementia, including Alzheimer's disease (AD), yet the pathological mechanisms underlying this association are not fully understood. Preclinical studies have shown that acute SD impairs cognition by altering vulnerable synapses (molecular composition, ultrastructure, and function). However, the cumulative effects of chronic SD on the adult brain and its vulnerable synapses, that might contribute to AD risk, remain poorly defined. Here, we investigated the impact of chronic SD on brain transcriptomic signatures and subcellular compartment-specific proteomic profiles to identify genes, proteins, and signaling pathways that might confer AD risk. Chronic SD induced a modest transcriptional stress response globally, whereas alterations were more pronounced in the synaptosomal (synapse-enriched P2 fractions) and whole-brain proteomes. Remarkably, chronic SD elicited unique proteomic alterations at the synaptic compartment were distinct from whole-brain effects, including increased proteins involved in synaptic vesicle endocytosis, regulation of dendritic spine morphogenesis, and regulation of long-term synaptic depression, compared to increased proteins involved in immune/inflammatory, glial responses and neuronal function at the whole-brain level. Consistent with the chronic SD-induced molecular signatures, we observed subtle ultrastructural changes in vulnerable CA1 hippocampal synapses, including reduced pre-synapse size and decreased synaptic vesicle density, which suggest that chronic SD modifies synaptic transmission and plasticity. Together, our findings indicate that chronic SD differentially impacts the brain and the synaptic proteome, nominating candidate therapeutic targets and signaling pathways for future mechanistic studies of chronic SD and how SD contributes to increased AD risk.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763923v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.03.764025",
-        "title": "FGF signaling induces disease-associated oligodendrocyte states and drives myelin pathology",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Weigel, M. K.",
-          "Cooper, M. H.",
-          "Zaghi, M.",
-          "Gopakumar, J.",
-          "Bridges, C. M.",
-          "Ho, P. P.",
-          "Schoof, M.",
-          "Klibaite, U.",
-          "Pedraza, S.",
-          "Agirre, E.",
-          "Tilton-Low, G.",
-          "Bestard-Cuche, N.",
-          "Kukanja, P.",
-          "Rodriguez, V. V.",
-          "Jones, G.",
-          "Perrino, J. J.",
-          "Jorgens, D. M.",
-          "Terasaki, M. R.",
-          "Williams, A.",
-          "Steinman, L.",
-          "Castelo-Branco, G.",
-          "Zuchero, J. B."
-        ],
-        "abstract": "Myelin integrity is essential for normal central nervous system (CNS) function and is disrupted in neuroinflammatory and neurodegenerative disorders, including multiple sclerosis and Alzheimer's disease. In these settings, myelin-forming oligodendrocytes adopt a conserved disease-associated transcriptional state, termed disease-associated oligodendrocytes (DAOs). How DAOs arise, the signals that drive their induction, and whether they actively contribute to pathology remain poorly understood. Here we show that FGF signaling instructs mature oligodendrocytes to enter disease-associated states that are sufficient to trigger myelin pathology. By screening disease-linked secreted factors, we identify FGF1 and FGF2 as potent inducers of a DAO-like state in purified oligodendrocyte cultures, characterized by transcriptional reprogramming and myelin-membrane shedding. In vivo, activating oligodendrocyte FGF signaling is sufficient to elicit DAO programs and myelin disruption, whereas inhibiting FGF signaling suppresses DAO induction in a mouse model of multiple sclerosis. Finally, analysis of post-mortem multiple sclerosis tissue reveals a concordant DAO-like state associated with increased engagement of the FGF/FGFR axis. Collectively, these studies define a regulated mechanism of DAO formation linked to myelin disruption and position mature oligodendrocytes as active contributors to myelin pathology in CNS disease.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764025v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.01.763492",
-        "title": "Lipidome of Compact Myelin from Cortical Regions of the Aging Murine Brain",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Liu, V. P.",
-          "Johnson, C. E.",
-          "Lakhani, S.",
-          "Furber, K. L."
-        ],
-        "abstract": "Age-related cognitive decline has been associated with neurodegeneration in cortical white matter tracts. The trajectory of white matter degeneration over the lifespan follows a similar pattern in humans, primates and rodents including the loss of myelin integrity and concomitant loss in myelinated axonal segments. Previous studies suggest that biochemical alterations in myelin begin to occur well prior to myelin loss. To better understand these biochemical determinants underlying white matter degeneration, we investigated the lipid composition of myelin isolated from young adult, middle-aged and aged murine brain. Compact myelin was enriched from cortical regions using a refined density centrifugation protocol and profiled the lipidome using LC-MS/MS. Over 2000 lipid species were identified, with the relative expression of 414 species changing over the age-span. The myelin lipidome from young mice was biochemically distinct compared to the aging cohorts. Aging was characterized by an overall decrease in high abundant species of glycerophospholipid and sphingolipids, including phosphocholine, phosphoethanolamine, sphingomyelin and cerebrosides. Pathway analysis by LipidSig 2.0 and lipid ontology analysis by LION/web highlighted alterations to lipid metabolism and membrane biophysical properties related to bilayer stability and organization. These data support the concept that myelin lipid compositional changes are apparent by middle age which underly structural changes in myelin at later ages. The findings provide greater insight into age-related biochemical alterations in the myelin sheath and may aid in strategies to mitigate white matter degeneration over the lifespan.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763492v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.02.763368",
-        "title": "Interpretable Machine Learning Links Group-Specific Plasma Proteomics to Regional Structural Neuroimaging in Alzheimer's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Laugi, H.",
-          "Hosseinzadehketilateh, M.",
-          "Lee, S.",
-          "Weisberg, S. M.",
-          "Zhu, X."
-        ],
-        "abstract": "Background: Alzheimer's disease (AD) pathology begins years before clinical symptoms, highlighting the need for scalable biomarkers that capture biological changes across the AD continuum. Broader plasma proteomics may capture systemic processes that vary with disease stage, yet their relationship to AD-related brain neurodegeneration remains unclear. We aimed to identify plasma proteomic signatures across cognitively normal (CN), mild cognitive impairment (MCI), and AD and evaluate their neuroanatomical associations. Methods: We analyzed 146 plasma analytes from 565 Alzheimer's Disease Neuroimaging Initiative (ADNI) participants (58 CN, 396 MCI, 111 AD). Group-specific proteomic signatures were identified using pairwise classification models with nested 5*5 cross-validation. SHAP quantified feature importance, with the top 15 proteins per comparison being prioritized for MRI association analysis. We analyzed 103 regional structural MRI volumes harmonized across 57 acquisition sites using ComBat. Separate ordinary least squares regression tested protein-MRI associations, adjusting for age, sex, APOE4, diagnosis, and intracranial volume, followed by Benjamini-Hochberg false discovery rate (FDR) correction. Results: Classification models using proteomic data achieved AUC of 0.956 +- 0.017 for CN vs MCI, 0.963 +- 0.011 for MCI vs. AD, and 0.836 +- 0.085 for CN vs. AD. SHAP identified group-dependent proteomic signatures. No protein-MRI associations survived FDR correction for CN vs. MCI. In MCI vs. AD, higher cortisol was associated with lower left precuneus and superior parietal volumes, while higher osteopontin was associated with lower left paracentral and accumbens volumes. In CN vs. AD, higher vitronectin was associated with lower posterior corpus callosum volume. Conclusion: These findings suggest that plasma proteomics capture group-specific systemic biological signals across the AD continuum. Linking ML-prioritized plasma proteins to regional brain structure pr",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763368v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.03.763624",
-        "title": "Integrative Transcriptomic Meta-Analysis Reveals SIRT1-SNCA Correlation in Parkinson's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Cimen, H.",
-          "Sonmez, E.",
-          "Hotaslier, F."
-        ],
-        "abstract": "Parkinson's disease (PD) is a progressive neurodegenerative disorder that affects midbrain dopaminergic neurons without any approved therapy. Candidate molecular targets identified in one model are not always traceable across the postmortem, induced pluripotent stem cell (iPSC), and cell-based systems used to study PD, which complicates clinical translation. To address this gap, we performed an integrative transcriptomic meta-analysis of 33 publicly available datasets across postmortem human brain, iPSC-derived models, and dopaminergic cell lines of PD. Differential expression and functional enrichment analyses were combined with STRING protein-protein interaction networks, followed by drug-gene interaction screening against a polyphenol panel. Overall, resveratrol was recovered in all 33 comparisons, independent of model system, tissue, and genetic background. We associated resveratrol with 30 distinct target genes, and SIRT1 was itself a recovered target in 6 comparisons spanning all three model systems. Finally, we resolved the SIRT1-SNCA relationship into four directional patterns that differed by model, inverse in postmortem brain and positive in acutely toxin-exposed cells. These findings support a candidate, context-dependent resveratrol-SIRT1 axis in PD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763624v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.10.30.763135",
-        "title": "Disrupted mannosidase enzymes in C9orf72 ALS/FTD",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Ondatje, B. N.",
-          "Gittings, L. M.",
-          "Preller, K. R.",
-          "Alsop, E.",
-          "Garcia-Mansfield, K.",
-          "Hansen, N.",
-          "Lovell, B.",
-          "Sharma, R.",
-          "Piras, I. S.",
-          "Martinez, M.",
-          "Meechoovet, B.",
-          "Bonfitto, A.",
-          "Song, S.",
-          "Levy, J.",
-          "Huentelman, M.",
-          "Pirrotte, P.",
-          "Van Keuren-Jensen, K.",
-          "Sattler, R."
-        ],
-        "abstract": "Amyotrophic lateral sclerosis (ALS) is an age-related neurodegenerative disorder resulting from the loss of motor neurons in the brain and spinal cord. Neuroinflammation, induced by glial cells including microglia (MG) and astrocytes, is an acknowledged aspect of this neurodegeneration. Generating induced pluripotent stem cell (iPSC) neuroinflammatory models of ALS may help elucidate non-neuronal mechanisms of disease. Here, we analyze human postmortem tissue and an iPSC derived glia-crosstalk model identifying a reduction in Golgi enzymes MAN1A1 and MAN1A2 in addition to other glycan enzymes from ALS-associated microglia and astrocytes. Impaired Golgi and glycan metabolism is linked to inflammation and other related ALS disease mechanisms including impaired lysosomal proteostasis, altered extracellular matrix, disrupted secretion, and altered cell-cell signaling.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763135v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.03.764096",
-        "title": "Monoaminergic changes are associated with impaired neurogenesis along the longitudinal axis of the hippocampus in ageing and dementia",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-04",
-        "is_early_access": true,
-        "authors": [
-          "Mathews, K. J.",
-          "Abdeen, A. H.",
-          "Mor, D.",
-          "Cottam, V.",
-          "Dalton, M. A.",
-          "Kwok, J.",
-          "Double, K. L."
-        ],
-        "abstract": "Neurogenesis persists in the adult human hippocampus and is thought to support memory and emotional regulation. Both normal ageing and Parkinson disease dementia (PDD) are associated with reduced hippocampal neurogenesis, but why this occurs and how this might change across the across the hippocampal axis remains unclear. Here, we quantified the expression of genes regulating neurogenesis from stem cell production to neuron maturation and examined their relationship with monoaminergic activity throughout the post-mortem hippocampus in young and aged individuals, as well as in individuals with PDD. DCX and MKI67 expression were markedly reduced in PDD cases throughout the hippocampus, while GFAP and GFAP{delta} were elevated in aged control individuals but not in PDD. Dopamine and serotonin levels were unchanged but reduced levels of the dopamine metabolite DOPAC, and increased levels of the serotonin metabolite 5-HIAA, were present across the hippocampal axis in PDD. Hierarchical regression analysis identified DOPAC and 5-HIAA as significant predictors of DCX and MKI67 expression independent of diagnostic group. Coupling between stem cell markers and proliferative output was preserved in the hippocampus of young controls but was absent in aged controls and in PDD. These data suggest changes in monoaminergic systems are linked to stage-specific deficits in neuronal proliferation and maturation, identifying a potential mechanistic bridge to cognitive decline in PDD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764096v1",
-        "reasons": [
-          "关键词『Parkinson』(命中abstract)"
         ],
         "is_new": true
       }
