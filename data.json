@@ -1,10 +1,36 @@
 {
-  "date": "2026-11-07",
-  "total": 11,
+  "date": "2026-11-08",
+  "total": 8,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.06.764938",
+        "title": "Dual kinase inhibition provides early clues to restoration of neuroimmune homeostasis in an AAV-haSyn model of Parkinsons disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-07",
+        "is_early_access": true,
+        "authors": [
+          "Chiang, W.",
+          "Sandoval, I. M.",
+          "Li, H.",
+          "Bernal-Conde, L. D.",
+          "Squire, R.",
+          "Washburn, M. K.",
+          "Schwartz, J. L.",
+          "Squire, E.",
+          "Wagner, E. J.",
+          "Manfredsson, F. P.",
+          "Gelbard, H. A."
+        ],
+        "abstract": "Background Previous studies of drugs targeting mixed linage kinase type 3 (MLK3) and/or leucine rich repeat kinase type 2 (LRRK2) in sporadic Parkinsons disease (PD) have failed to meet clinical endpoints despite multiple lines of evidence implicating these kinases in pathogenesis. This has reduced enthusiasm for MLK3 and LRRK2 as druggable targets. Largely overlooked is the evidence that these targets remain valid but must be considered in combination to achieve a therapeutic outcome. This provides the rationale for this study. Methods We conducted a pilot study modeling early, pre-symptomatic PD with subsequent evaluation of therapeutic potential of a multi-kinase inhibitor (URMC-099) in alleviating disease pathology. Sprague Dawley rats received unilateral intranigral injections of low dose AAV-haSyn. After a two-week recovery period, all animals were administered either once-daily intraperitoneal (i.p.) injection of URMC-099 or its vehicle control until their terminal endpoint. Induction of early PD, and its alleviation with URMC-099, was evaluated by lateralized motor impairment using the cylinder test and immunohistochemical analysis of neuropathology in the substantia nigra (SN) and striatum. Finally, an in vitro microglial PD model exposed to aSyn pre-formed fibrils and treated with URMC-099 was used to further evaluate the mechanism underlying therapeutic activity. Results A unilateral model of early and progressive AAV-haSyn model for PD was used to demonstrate the therapeutic potential of a targeted multi-kinase inhibitor to attenuate PD-associated neuropathology and prevent the manifestation of lateral motor deficits. Immunohistochemical analysis revealed protection of neuronal cellular integrity along the nigral-striatal pathway with once-daily i.p. URMC-099. The mitigation of degenerative neuropathology was linked to targeted inhibition of MLK3 and LRRK2 and complemented by reduced levels of gliosis in astrocytes and microglia in the SN. Single-microgl",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764938v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.11.04.763874",
         "title": "Personalized Prediction of Differences in fMRI Connectivity Estimates Across Preprocessing Pipelines",
@@ -148,114 +174,52 @@
         "is_new": true
       },
       {
-        "doi": "10.64898/2026.11.04.757576",
-        "title": "40 Hz visual stimulation increases gamma-band functional connectivity between visual, parietal and frontal regions",
+        "doi": "10.1101/2025.11.26.690816",
+        "title": "The G-protein coupled receptor GPR34 maintains the homeostatic state of microglia and restrains the disease-associated microglial response in an Alzheimers disease model",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-05",
+        "published_online": "2026-11-06",
         "is_early_access": true,
         "authors": [
-          "Ma, T.",
-          "Sun, Q.",
-          "Mlinaric, T.",
-          "Van Hulle, M. M."
+          "Geller, A.",
+          "Kwon, M. J.",
+          "Simmons, S. K.",
+          "Xu, Q.",
+          "Martenis, W. E.",
+          "Doman, J.",
+          "Natarajan, S.",
+          "Stalnaker, K. J.",
+          "Zhang, J.",
+          "Adiconis, X.",
+          "Kim, K.",
+          "Nguyen, T.",
+          "Demers, M.",
+          "Batzli, D.",
+          "Valle-Tojeiro, A.",
+          "Biji, C.",
+          "Aryal, S.",
+          "Pribiag, H.",
+          "Depp, C.",
+          "Morshed, N.",
+          "Misri, D.",
+          "Bohannon, D.",
+          "Longhi, E.",
+          "Keshishian, H.",
+          "Carr, S. A.",
+          "McKinney, D.",
+          "Gould, A. E.",
+          "Lebois, E.",
+          "Weiwer, M.",
+          "Stevens, B.",
+          "Johnson, M.",
+          "Levin, J. Z.",
+          "Zhang, Y.-L.",
+          "Sheng, M.",
+          "Kunwar, P. S."
         ],
-        "abstract": "Visual stimulation at 40 Hz is being investigated as a non-invasive intervention for Alzheimer's disease. Its neural responses have been reported in regions beyond the visual cortex, and concurrent cognitive tasks have been shown to increase their spatial extent. However, it is unclear whether these responses reflect increased functional connectivity between regions or a common response to the stimulus, and whether a concurrent task changes this connectivity. We recorded EEG from 29 healthy young adults during Regular 40 Hz flicker and Irregular 30-50 Hz flicker, each with and without a target-counting task (2 x 2 within-participant design). Source-space connectivity between visual, parietal, and frontal regions was estimated with the debiased squared weighted phase-lag index (dWPLI). Regular stimulation increased 38-42 Hz connectivity for all three region pairs, with the largest increase between visual and parietal regions (increase in all 29 participants). The increase was specific to the stimulation frequency and was observed with two source reconstruction methods and in sensor space. The visual-parietal increase remained significant after correction for source leakage (spatial mixing between reconstructed sources) and after removal of the estimated stimulus-locked component, whereas the increases in visual-frontal and parietal-frontal connectivity did not. The concurrent task did not modulate the visual-parietal effect. For visual-frontal and parietal-frontal connectivity, the stimulation-by-ask interaction was not significant. These results show that 40 Hz visual stimulation increases gamma-band connectivity beyond the visual cortex, and much of this increase reflects a common stimulus-locked response, and connectivity beyond this response was observed mainly between visual and parietal regions.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.757576v1",
+        "abstract": "Expression of the G protein coupled receptor GPR34 is highly enriched in microglia and is downregulated in various brain diseases, including Alzheimers disease (AD) and multiple sclerosis (MS). GPR34 function is poorly understood, as is its role in regulation of microglial states. Using RNA-sequencing, we find that microglia from Gpr34 knockout (KO) mouse brains exhibited a transcriptomic shift toward disease-associated microglia (DAM) and inflammatory profiles, partially resembling the microglial phenotype seen in 5xFAD AD model mice. Moreover, when Gpr34 KO mice were crossed with 5xFAD mice, the DAM transcriptional profile of microglia and glial pathology were further exacerbated beyond the already robust DAM signature driven by 5xFAD alone. This occurred without affecting amyloid plaque burden. Human stem cell-derived microglia (iMGLs) lacking GPR34 showed reduced calcium (Ca2+) and phosphorylated ERK (pERK) signaling in response to stimulation with known GPR34 agonists (lyso-phosphatidylserine (lysoPS) and myelin), as well as transcriptomic changes in immune regulation and cell proliferation related pathways. Interestingly, GPR34 KO iMGLs were selectively impaired in phagocytosis of myelin but not amyloid-B; (AB) or E. coli, and showed a diminished transcriptional response elicited by myelin. Together, these findings suggest that GPR34 is important for maintaining microglia in a homeostatic state, promotes phagocytosis of and transcriptional response to myelin, and limits microglial reactivity in neurodegenerative disease conditions.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690816v3",
         "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2023.11.09.566376",
-        "title": "Disrupted sleep-wake regulation in the MCI-Park mouse model of Parkinson's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-05",
-        "is_early_access": true,
-        "authors": [
-          "Summa, K. C.",
-          "Jiang, P.",
-          "Gonzalez-Rodriguez, P.",
-          "Huang, X.",
-          "Lin, X.",
-          "Vitaterna, M. H.",
-          "Dan, Y.",
-          "Surmeier, D. J.",
-          "Turek, F. W."
-        ],
-        "abstract": "Disrupted sleep has a profound adverse impact on lives of Parkinson's Disease (PD) patients and their caregivers. Sleep disturbances are exceedingly common in PD, with substantial heterogeneity in type, timing, and severity. Among the most common sleep-related symptoms reported by PD patients are insomnia, excessive daytime sleepiness, and sleep fragmentation, characterized by interruptions and decreased continuity of sleep. Alterations in brain wave activity, as measured on the electroencephalogram (EEG), also occur in PD, with changes in the pattern and relative contributions of different frequency bands of the EEG spectrum to overall EEG activity in different vigilance states consistently observed. The mechanisms underlying these PD-associated sleep-wake abnormalities are poorly understood, and they are ineffectively treated by conventional PD therapies. To help fill this gap in knowledge, a new progressive model of PD - the MCI-Park mouse- was studied. Near the transition to the parkinsonian state, these mice exhibited significantly altered sleep-wake regulation, including increased wakefulness, decreased non-rapid eye movement (NREM) sleep, increased sleep fragmentation, reduced rapid eye movement (REM) sleep, and altered EEG activity patterns. These sleep-wake abnormalities mirror those identified in PD patients. Thus, this model may help elucidate the circuit mechanisms underlying sleep disruption in PD and identify targets for novel therapeutic approaches.",
-        "url": "https://www.biorxiv.org/content/10.1101/2023.11.09.566376v2",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.04.764393",
-        "title": "Individualized AI-driven Neuromodulation Selectively Enhances and Reorganizes Human Tongue Sensorimotor Networks.",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-05",
-        "is_early_access": true,
-        "authors": [
-          "Papageorgiou, T. D.",
-          "Webb, J.",
-          "Allam, A.",
-          "Reddy, S.",
-          "Noorbakhsh, C.",
-          "Huynh, D.",
-          "Hekmati, R.",
-          "Rohren, E. M.",
-          "Sturgis, E. M.",
-          "Hilsenbeck, S. G.",
-          "Hutcheson, K. A.",
-          "Heilbronner, S. R.",
-          "Thompson, A. M.",
-          "Neblett, C. R.",
-          "Froudarakis, E."
-        ],
-        "abstract": "Precise modulation of brain networks for tongue motor and sensory control (TMSC) is critical for neruorehabilitation. Existing neuromodulation approaches use fixed targets, ignoring individual network architecture. We present an AI-driven, individualized fMRI neuromodulation (iNM) platform adaptively targeting subject-specific TMSC networks in real-time. Using a neurofunctional twin built from each participant's anatomy and function, iNM reinforces targeted activity and suppresses competing states. Unsupervised machine learning and hidden Markov modeling showed iNM increased TMSC-state occupancy from 82% to 97% and suppressed swallow-state interference by 83%. The inferior parietal lobule emerged as a sensorimotor integration hub, with increased magnitude (d' 90.4 right, 84 left) and spatial expansion (134.8% right, 81.8% left). Cortico-subcortical connectivity strengthened 53% to 74% across motor, sensory, and attention networks and persisted into non-iNM blocks. Thus, iNM may offer precision neurorehabilitation for CNS or PNS disorders, such as amyotrophic lateral sclerosis, and treatment-induced cranial neuropathy in head-and-neck-cancer survivors, respectively.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764393v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.04.764396",
-        "title": "Sex-specific gene and isoform expression characterizes hippocampal aging in rhesus macaques",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-05",
-        "is_early_access": true,
-        "authors": [
-          "Harper-Alexander, V.",
-          "Peterson, S.",
-          "Sadikova, S.",
-          "Kohama, S. G.",
-          "Ram, D. R."
-        ],
-        "abstract": "Aging produces widespread transcriptomic alterations that extend beyond changes in gene expression to include changes at the isoform level. Declining splicing fidelity, including increased intron retention and aberrant isoform expression, has been proposed to contribute to cellular dysfunction; however, the extent and biological significance of isoform-specific changes in the aging brain remain poorly understood. Age-related cognitive decline has also been associated with neuroinflammation and the development of a chronic inflammatory state, or ''inflammaging,'' within the brain. Here, we used short- and long-read RNA sequencing to characterize gene- and isoform-level changes associated with hippocampal aging across sex in 24 rhesus macaques. We identified 594 age-associated differential isoform expression events, comprising both shared and sex-specific changes. Inflammatory pathways, including TNF- -- NF-{kappa}B signaling, interferon responses, and complement pathways, were enriched across both sexes. Weighted gene co-expression network analysis (WGCNA) further identified sex-specific modules associated with inflammatory, glial, mitochondrial, and hormone-responsive processes. Notably, several age-associated changes were detected at the isoform level despite limited or absent corresponding gene-level differences, highlighting transcript-level regulation as an additional dimension of brain aging that may be overlooked by gene-level analyses. To investigate the relationship between aging and Alzheimer's disease (AD), we independently performed WGCNA on the rhesus macaque cohort and a publicly available human hippocampal AD single-nucleus RNA-sequencing dataset (GSE268609). Cross-species module preservation and gene overlap analyses identified shared genes between age-associated and AD-associated networks, with pathway enrichment implicating glial function, inflammation, and mitochondrial biology. Together, these findings highlight sex-associated differences in hippo",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764396v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.05.764703",
-        "title": "Use of Integrative Proteomic Analysis to Uncover Shared Molecular Signatures Across Distinct Forms of Hydrocephalus",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-05",
-        "is_early_access": true,
-        "authors": [
-          "Mahendran, G.",
-          "Kirupaharan, P.",
-          "Audu, D.",
-          "Blazer-Yost, B. L."
-        ],
-        "abstract": "Hydrocephalus is a heterogeneous disease characterized by disruption of cerebrospinal fluid (CSF) dynamics and can arise from diverse etiologies, including post-hemorrhagic hydrocephalus (PHH), hydrocephalus following subarachnoid hemorrhage (SAH), post-infectious hydrocephalus (PIH), and idiopathic normal pressure hydrocephalus (iNPH). Hydrocephalus has high disease burden in pediatric and older populations and a marked increase in prevalence with advancing age. Despite this high incidence, the underpinning molecular and signaling pathway alterations remain incompletely understood. Hence CSF proteomic profiling would enable a robust and high-resolution approach for exploring disease-specific biomarkers and to discover shared molecular mechanisms underlying hydrocephalus. In this study, we performed a cross-study proteomic analysis to evaluate biomarker proteins reported across PHH, SAH, PIH, and iNPH groups. Using published proteomic datasets, we comparatively analyzed CSF proteins to investigate the differentially expressed proteins (DEPs), their common molecular signatures, and enriched biological pathways across hydrocephalus groups. Across etiologies, recurrently altered proteins were predominantly associated with inflammatory signaling (cytokine, chemokine, interleukin-(IL-17), tumor necrosis factor (TNF)), toll-like receptor (TLR) signaling, blood-brain-barrier (BBB) disruption leading to coagulation cascades, and neuronal injury responses. Hemorrhage-associated forms of hydrocephalus (PHH and SAH) demonstrated enriched coagulation and hemoglobin-related pathways, whereas infection associated forms (PIH) showed enhanced immune and inflammatory responses. iNPH exhibited alterations in proteins linked to neurodegeneration, synaptic function, and impaired CSF clearance. Interestingly, our cross-study analyses identified recurrently dysregulated proteins across hydrocephalus subtypes. Collectively, our cross-study proteomic analyses define shared and etiology-spe",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764703v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
         ],
         "is_new": true
       }
