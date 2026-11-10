@@ -1,33 +1,108 @@
 {
-  "date": "2026-11-09",
-  "total": 1,
+  "date": "2026-11-10",
+  "total": 4,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
       {
-        "doi": "10.64898/2026.11.06.764938",
-        "title": "Dual kinase inhibition provides early clues to restoration of neuroimmune homeostasis in an AAV-haSyn model of Parkinsons disease",
+        "doi": "10.64898/2026.11.04.764196",
+        "title": "Novel Tau Interaction Partners as Potential Biomarkers and Therapeutic Targets in Neurodegenerative Diseases",
         "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-07",
+        "published_online": "2026-11-09",
         "is_early_access": true,
         "authors": [
-          "Chiang, W.",
-          "Sandoval, I. M.",
-          "Li, H.",
-          "Bernal-Conde, L. D.",
-          "Squire, R.",
-          "Washburn, M. K.",
-          "Schwartz, J. L.",
-          "Squire, E.",
-          "Wagner, E. J.",
-          "Manfredsson, F. P.",
-          "Gelbard, H. A."
+          "Pichlerova, K.",
+          "Sinsky, J.",
+          "Njemoga, S.",
+          "Skrabana, R.",
+          "Polak, A.",
+          "Kotasek, M.",
+          "Majerova, P.",
+          "Cente, M.",
+          "Matyasova, K.",
+          "Hanes, J."
         ],
-        "abstract": "Background Previous studies of drugs targeting mixed linage kinase type 3 (MLK3) and/or leucine rich repeat kinase type 2 (LRRK2) in sporadic Parkinsons disease (PD) have failed to meet clinical endpoints despite multiple lines of evidence implicating these kinases in pathogenesis. This has reduced enthusiasm for MLK3 and LRRK2 as druggable targets. Largely overlooked is the evidence that these targets remain valid but must be considered in combination to achieve a therapeutic outcome. This provides the rationale for this study. Methods We conducted a pilot study modeling early, pre-symptomatic PD with subsequent evaluation of therapeutic potential of a multi-kinase inhibitor (URMC-099) in alleviating disease pathology. Sprague Dawley rats received unilateral intranigral injections of low dose AAV-haSyn. After a two-week recovery period, all animals were administered either once-daily intraperitoneal (i.p.) injection of URMC-099 or its vehicle control until their terminal endpoint. Induction of early PD, and its alleviation with URMC-099, was evaluated by lateralized motor impairment using the cylinder test and immunohistochemical analysis of neuropathology in the substantia nigra (SN) and striatum. Finally, an in vitro microglial PD model exposed to aSyn pre-formed fibrils and treated with URMC-099 was used to further evaluate the mechanism underlying therapeutic activity. Results A unilateral model of early and progressive AAV-haSyn model for PD was used to demonstrate the therapeutic potential of a targeted multi-kinase inhibitor to attenuate PD-associated neuropathology and prevent the manifestation of lateral motor deficits. Immunohistochemical analysis revealed protection of neuronal cellular integrity along the nigral-striatal pathway with once-daily i.p. URMC-099. The mitigation of degenerative neuropathology was linked to targeted inhibition of MLK3 and LRRK2 and complemented by reduced levels of gliosis in astrocytes and microglia in the SN. Single-microgl",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764938v1",
+        "abstract": "Alzheimers disease is a progressive neurodegenerative disorder leading to cognitive decline and ultimately death. One of the main hallmarks of this disease is the accumulation of pathological tau protein into neurofibrillary tangles. To better understand these pathological mechanisms, it is essential to characterize the tau protein interactome in health and disease. In this study, we performed a yeast two-hybrid screening using a human brain cDNA library, from which we identified 15 novel tau-interacting proteins that bind to full-length human tau, or its fragments: the N-terminus, microtubule-binding domain, or C-terminus. We subsequently validated these novel interactions using in vitro co-immunoprecipitation and colocalization assays with both physiological and pathological tau isoforms. Furthermore, their interactions with the human tau protein were analyzed using surface plasmon resonance. Finally, an in silico interactome analysis of these newly discovered tau-binding partners revealed several additional interactors that can link them to downstream processes critical to neurodegenerative pathways Our findings offer fresh insights into tau biology and highlight novel targets for therapeutic intervention and biomarker development.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764196v1",
         "reasons": [
-          "关键词『Parkinson』(命中title)"
+          "关键词『Alzheimer、tau』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.06.764857",
+        "title": "Ogg1 regulates context-dependent glial states in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-09",
+        "is_early_access": true,
+        "authors": [
+          "Abentung, A.",
+          "Sakshaug, T.",
+          "Schnur, P.",
+          "Egiazarian, M.",
+          "Damiao, C.",
+          "Aakre, K.",
+          "Obermann, T.",
+          "Sousa, M.",
+          "Kunath, N.",
+          "Bjoras, M.",
+          "Scheffler, K."
+        ],
+        "abstract": "Oxidative DNA damage is an early hallmark of Alzheimer's disease (AD), but whether Ogg1, a key enzyme in oxidative DNA repair, contributes to disease pathogenesis remains unclear. Here, we show that Ogg1 exerts opposing effects under physiological and disease conditions. Ogg1 deficiency impaired memory and induced glial transcriptional alterations under physiological conditions, whereas in APP/PS1 mice it improved memory, reduced amyloid burden and attenuated AD-associated glial remodeling. These effects occurred without changes in global 8-oxo-dG levels and were accompanied by changes in chromatin accessibility and gene expression, supporting a non-canonical role for Ogg1 in transcriptional regulation. Single-nucleus transcriptomics revealed strong transcriptional responses to Ogg1 deficiency across all major glial cell types and showed that Ogg1-dependent glial transcriptional programs are strongly conserved in human AD. These findings identify Ogg1 as a context-dependent regulator of glial cell states and reveal an unexpected role in AD-associated glial remodeling.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764857v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.06.764940",
+        "title": "First-in-class -PET radiotracers for GPR39: A platform for noninvasive target engagement imaging  in vivo",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-09",
+        "is_early_access": true,
+        "authors": [
+          "Bhoopal, B.",
+          "Fitzgerald, R. W.",
+          "Gollapelli, K.",
+          "Miller, M.",
+          "Damuka, N.",
+          "Baity, C.",
+          "Roy, P.",
+          "Myburgh, P.",
+          "Zhou, D.",
+          "Jadiya, P.",
+          "Cerevera-Juanes, R.",
+          "Solingapuram Sai, K. K."
+        ],
+        "abstract": "Disrupted zinc homeostasis is a hallmark of Alzheimer's disease. As a key zinc-sensing receptor, GPR39, a G protein-coupled receptor implicated in neurodegeneration, vascular regulation, and neuropsychiatric disorders, represents an emerging target for molecular imaging. However, the lack of suitable positron emission tomography (PET) radiotracers has limited the in vivo characterization of GPR39. Quantitative assessment of GPR39 in vivo could improve our understanding of its role in physiology and disease and facilitate the development and evaluation of targeted therapeutics. Here, we introduce [18F]GPR39 2.1 as a PET radiotracer for specific imaging of GPR39. [18F]GPR39 2.1 exhibited excellent serum stability with negligible radiometabolite formation. In vitro cell uptake studies demonstrated a 55-70% reduction in tracer uptake following pharmacological blockade. PET imaging showed rapid brain uptake, efficient blood-brain barrier penetration, and gradual washout. Blockade studies in rats demonstrated significant reductions in brain uptake of up to approximately 90% (p<0.0001) across multiple brain regions. GPR39 specificity was further validated in GPR39 knockout mice, which showed 76% (p<0.002) and 90% (p<0.0002) reductions in brain uptake by PET imaging and biodistribution, respectively. Moreover, 5xFAD transgenic mice exhibited significantly lower brain uptake by PET imaging (40%, p<0.0002) and biodistribution (77%, p<0.002), indicating sensitivity of [18F]GPR39 2.1 to disease-associated alterations in GPR39. Biodistribution studies demonstrated favorable pharmacokinetics, while autoradiography further confirmed GPR39-specific binding, consistent with the PET and biodistribution findings. Collectively, these results establish [18F]GPR39 2.1 as a stable, brain-penetrant, and highly specific PET radiotracer for noninvasive imaging of GPR39 in vivo. This work provides a translational framework for investigating GPR39 biology and supports the development of GPR39 ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764940v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.10.17.682996",
+        "title": "Preemptive SOD1 Silencing via Neonatal Intramuscular AAV Therapy Modifies Disease Trajectory in an ALS Mouse Model",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-09",
+        "is_early_access": true,
+        "authors": [
+          "Gong, X.",
+          "Xie, Y.",
+          "Wei, H.",
+          "Wang, Q.",
+          "Wu, J.",
+          "Bian, Z.",
+          "Wang, W.",
+          "Xu, T."
+        ],
+        "abstract": "Amyotrophic lateral sclerosis (ALS) is a progressive and fatal neurodegenerative disorder with limited therapeutic options. A major challenge for developing effective therapies is the safe and efficient delivery of genetic cargo to the spinal motor neurons that degenerate in the disease. This is particularly pertinent for SOD1-linked familial ALS, where gene silencing approaches are promising but remain constrained by suboptimal delivery. Here, we establish a gene delivery platform that overcomes this barrier by combining the retrograde transport of rAAV2-retro with an artificial miRNA to achieve pan-spinal SOD1 silencing. A single intramuscular injection of rAAV2-retro-miRNA into neonatal SOD1G93A mice achieved widespread transduction of spinal motor neurons, significant reduction of mutant SOD1 protein, and conferred multifaceted therapeutic benefits. Treated mice exhibited delayed disease onset, extended lifespan, preserved motor function, reduced neuroinflammation, and protection of neuromuscular junctions and spinal motor neurons. These findings establish the rAAV2-retro-miRNA platform as a versatile and efficient tool for spinal motor neuron-targeted gene silencing, addressing the delivery challenge and providing a foundation for further development in motor neuron diseases.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.10.17.682996v6",
+        "reasons": [
+          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
         ],
         "is_new": true
       }
