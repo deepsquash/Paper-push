@@ -1,10 +1,126 @@
 {
-  "date": "2026-11-11",
-  "total": 9,
+  "date": "2026-11-12",
+  "total": 10,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.09.764237",
+        "title": "A shared slowing axis and phenotype-specific rhythms link clinical EEG to FDG-PET dementia phenotypes",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-11",
+        "is_early_access": true,
+        "authors": [
+          "Satyadev, N.",
+          "Gogineni, V.",
+          "Corriveau-Lecavalier, N.",
+          "Zhang, G.",
+          "Brinkmann, B.",
+          "Varatharajah, Y.",
+          "Day, G. S.",
+          "Whitwell, J. L.",
+          "Josephs, K. A.",
+          "Kantarci, K.",
+          "Boeve, B. F.",
+          "Petersen, R. C.",
+          "Breakspear, M.",
+          "Lowe, V. J.",
+          "Jones, D. T."
+        ],
+        "abstract": "Early and accurate identification of neurodegenerative disorders has notable implications for treatment and quality of life. Whereas neuroimaging-based biomarkers can accurately identify neurodegenerative subtypes, EEG represents a low-cost alternative that could expand access to dementia care. Here, we investigated whether six data-driven EEG latent factors, derived by nonnegative tensor decomposition of clinical EEGs, differ systematically across FDG-PET-defined neurodegenerative phenotypes. In 455 patients with EEG and FDG-PET acquired within one year of each other, factor expression was compared across 14 diagnostic classes assigned by StateViewer, a validated artificial intelligence framework for FDG-PET interpretation. To separate disease-general severity from phenotype-specific topography, each factor was also regressed on a subject-level slowing index. Finally, we related the factors to regional FDG uptake and to neuropsychological performance (n = 98) and assessed their potential utility for single-subject classification. Four factors reflecting neurophysiological oscillations (posterior alpha, Rolandic beta, frontotemporal delta-theta and posterior theta-slow alpha) varied significantly across phenotypes, with attenuation of faster and augmentation of slower rhythms most pronounced in dementia with Lewy bodies (DLB), dysexecutive Alzheimer disease (AD) and posterior cortical atrophy, whereas factors dominated by eye-movement and muscle artifact showed no robust phenotypic association. Alpha and beta effects were largely attributable to overall slowing, whereas posterior theta-slow alpha became more phenotype-specific after adjustment (eta-squared 0.082 to 0.147), dissociating the Alzheimer disease spectrum from frontotemporal syndromes. The slowing index tracked with an FDG-PET pattern highly associated with DLB across the cohort, irrespective of assigned phenotype (r = 0.51, P < 0.001). Consistent with a model in which dementia phenotypes reflect altered ",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.764237v1",
+        "reasons": [
+          "关键词『Alzheimer、tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.09.765478",
+        "title": "Chronic FMNL2 overexpression is associated with changes in brain histology and exploratory behavior in adult zebrafish",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-11",
+        "is_early_access": true,
+        "authors": [
+          "Lyu, C.",
+          "Tayran, H.",
+          "Bhattarai, P.",
+          "Yilmaz, E.",
+          "Kizil, C."
+        ],
+        "abstract": "Formin-like protein 2 (FMNL2) has been associated with Alzheimer`s disease and cerebrovascular pathology and regulates gliovascular remodeling following amyloid exposure. However, the consequences of sustained FMNL2 elevation remain unclear. We generated a transgenic zebrafish line expressing human FMNL2 under the her4.1 promoter and examined adult brain histology and behavior under baseline conditions and following acute amyloid-{beta}42 (A{beta}42) exposure. Histological analyses assessed FMNL2 immunoreactivity, overlap between the glial marker BLBP and endothelial tight-junction marker ZO1, synaptic vesicle protein SV2 labeling, and microglial counts. Exploratory behavior was evaluated using the novel tank test and free-movement pattern Y-maze. Compared with uninjected wild-type controls, uninjected FMNL2-overexpressing fish showed higher FMNL2 immunoreactivity, lower BLBP-ZO1 overlap, fewer normalized SV2 puncta, and higher counts of total and morphologically activated microglia. Acute A{beta}42 exposure in wild-type animals produced changes in the same direction across these histological endpoints. No significant additional histological changes were detected following A{beta}42 exposure in the overexpression background. In the novel tank test, uninjected FMNL2-overexpressing fish had a higher composite boldness index than uninjected wild-type controls. These findings indicate that sustained FMNL2 overexpression is associated with histological changes resembling several responses to acute A{beta}42 exposure, together with altered exploratory behavior. They support further investigation of persistent FMNL2 elevation as a contributor to altered glial-vascular organization and cellular responses relevant to Alzheimer`s disease.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765478v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.06.11.731622",
+        "title": "Prenatal Alcohol Exposure Disrupts γ-Secretase Activity and Impairs Learning and Memory in Wild-Type and 3xTg-AD Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-11",
+        "is_early_access": true,
+        "authors": [
+          "Montenegro, P. C.",
+          "Kim, R.",
+          "Zedek, M.",
+          "Chicas, M.",
+          "Yeh, P. W. L.",
+          "Yeh, H. H."
+        ],
+        "abstract": "Although prenatal alcohol exposure (PAE) has been proposed as an early- life risk factor for Alzheimer's disease and related dementias (AD/ADRD), the mechanistic underpinnings are underexplored. Mutations in the Presenilin genes contribute to AD/ADRD, with Presenilin 1 acting as the catalytic subunit of the gamma-secretase complex responsible for cleaving Notch and amyloid precursor protein (APP). We hypothesized that PAE disrupts gamma-secretase activity during brain development, which persists and is associated with behavioral deficits later in life. Pregnant wild-type B6129 and 3xTg-AD mice were fed an ethanol-containing liquid diet during gestational days 13-15. From birth to adulthood, PAE increased APP C-terminal fragments and Notch intracellular domain (NICD) levels in cortical lysates. These changes were accompanied by impaired hippocampal-dependent learning and memory in wild-type mice at 3 and 6 months of age and exacerbated behavioral deficits in 4-month-old 3xTg-AD mice. Our findings provide the first mechanistic insight linking PAE to AD/ADRD vulnerability.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731622v2",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.07.04.736179",
+        "title": "Toward pathology-guided illumination optimization for neuromodulation with a foundation-model-encoded light transport surrogate",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-11",
+        "is_early_access": true,
+        "authors": [
+          "Dong, S.",
+          "Guan, M.",
+          "Yang, L.",
+          "Liu, G.",
+          "Rominger, A.",
+          "Yuan, Y.",
+          "Ren, W.",
+          "Ni, R.",
+          "Wei, X."
+        ],
+        "abstract": "Clinical treatment planning for near-infrared (NIR) light neuromodulation requires patient-specific dosimetry to optimize light fluence (LF) delivery to cortical targets. The gold-standard Monte Carlo photon-transport forward solver is accurate but computationally expensive and non-differentiable for personalized inverse design across subjects. Here, we present PhomiNeuro, a foundation-model-encoded differentiable surrogate for time-resolved LF modeling and pathology-guided inverse design. A pretrained 3D medical imaging foundation model (VISTA3D) was domain-adapted to 285 training head models annotated with optical properties, and then coupled to an implicit neural representation (INR) that predicts LF at arbitrary spatiotemporal coordinates. Regularized by a time-dependent diffusion-equation residual, it demonstrated superior fidelity in 84 held-out participants, and ablations identified VISTA3D-derived anatomical priors as dominant and physics regularization as complementary. PhomiNeuro enables fast and robust queries of LF and its gradients with respect to illumination parameters for targets guided by individual structural magnetic resonance imaging and amyloid positron emission tomography, achieving 466-fold per-iteration speedup and 167-fold end-to-end optimization speedup. Explanatory analyses of LF delivery variability, including sex differences and amyloid status, identified structural variations as the primary drivers. These results position PhomiNeuro as a highly extensible translational framework toward personalized treatment planning and digital twin development in precision neuromodulation.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736179v3",
+        "reasons": [
+          "关键词『amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.09.765492",
+        "title": "Neuropathological assessment of cerebrovascular integrity in Chronic Traumatic Encephalopathy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-11",
+        "is_early_access": true,
+        "authors": [
+          "Martinac, A. E.",
+          "DeLorenzo, A.",
+          "Dik, D.",
+          "Pasas, L.",
+          "Bilston, L. E.",
+          "Shepherd, C. E."
+        ],
+        "abstract": "Chronic traumatic encephalopathy neuropathological change (CTE-NC) is defined by perivascular deposits of phosphorylated tau, with lesions preferentially located at sulcal depths. We investigated whether CTE-NC is associated with structural changes to perivascular spaces (PVSs) or microvascular degeneration. Post-mortem middle frontal gyrus tissue from 11 CTE-NC cases and 11 age-matched controls was examined using immunohistochemistry. All CTE-NC cases exhibited pathognomonic lesions in this region. We quantified PVS width along with vessel lumen and PVS area, string vessel burden, pericyte density, and aquaporin-4 (AQP4) polarisation to the astrocytic endfoot. Total PVS width did not differ significantly between the groups in grey matter (P = 0.543) nor white matter (P = 0.468). Neither PVS area (sulcal depth, P = 0.097; gyral crest, P = 0.645) nor PVS-to-lumen area ratio (sulcal depth, P = 0.454; gyral crest, P = 0.307) differed significantly. Similarly, there were no significant differences in total microvascular length (p = 0.693), string vessel burden (p = 0.128), pericyte density (p = 0.589), or AQP4 endfoot enrichment (p = 0.538). We therefore found no evidence of large-scale PVS enlargement, lumen narrowing, capillary degeneration, pericyte loss, or altered AQP4 endfoot enrichment in CTE-NC at the locations and spatial scales investigated. Taken together, these findings suggest that the pathognomonic perivascular tau lesion is not associated with a classical small vessel degenerative phenotype in CTE-NC. However, that does not exclude more subtle molecular, functional, or ultrastructural changes at the interface between vessels, the perivascular space, and surrounding brain tissue.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765492v1",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.01.30.702902",
         "title": "Sex differences in astrocytic reactivity and its association with cognitive decline in cognitively unimpaired older adults",
@@ -130,107 +246,6 @@
         ],
         "abstract": "Spatial proteomics can reveal how disease reshapes cells and their local environments, but extending these measurements across replicated tissue cohorts requires validated antibodies, consistent sample processing and integrated analysis. These requirements are particularly pressing in studies of amyotrophic lateral sclerosis (ALS), where pathology evolves unevenly across spinal-cord regions and disease stages. Here, we established an end-to-end spatial proteomics workflow linking a validated 28-antibody panel to automated fluorescence decoding and imaging on repurposed high-throughput sequencers, followed by multicycle image processing, cellular profiling and probabilistic spatial-neighborhood analysis. We applied it to 70 lumbar spinal-cord sections from nine SOD1-G93A and nine wild-type mice at presymptomatic, disease-onset and symptomatic stages. Spatial neighborhood analysis revealed that the environments surrounding motor neurons were already remodeled at disease onset. GFAP-high neighborhoods expanded in the ventral gray matter, with 43% of motor neurons embedded in these environments in SOD1-G93A mice, compared with 15% in wild-type mice. This early expansion preceded the later decline of non-reactive gray matter and detectable motor-neuron loss. The regional organization of the protein-defined changes shared features with neuronal and astrocytic patterns mapped by spatial transcriptomics in mouse and human ALS. This work enables spatial proteomics across replicated tissue cohorts and identifies localized remodeling of the environments around surviving motor neurons as an early feature of disease in the SOD1-G93A model.",
         "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765207v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.04.764196",
-        "title": "Novel Tau Interaction Partners as Potential Biomarkers and Therapeutic Targets in Neurodegenerative Diseases",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-09",
-        "is_early_access": true,
-        "authors": [
-          "Pichlerova, K.",
-          "Sinsky, J.",
-          "Njemoga, S.",
-          "Skrabana, R.",
-          "Polak, A.",
-          "Kotasek, M.",
-          "Majerova, P.",
-          "Cente, M.",
-          "Matyasova, K.",
-          "Hanes, J."
-        ],
-        "abstract": "Alzheimers disease is a progressive neurodegenerative disorder leading to cognitive decline and ultimately death. One of the main hallmarks of this disease is the accumulation of pathological tau protein into neurofibrillary tangles. To better understand these pathological mechanisms, it is essential to characterize the tau protein interactome in health and disease. In this study, we performed a yeast two-hybrid screening using a human brain cDNA library, from which we identified 15 novel tau-interacting proteins that bind to full-length human tau, or its fragments: the N-terminus, microtubule-binding domain, or C-terminus. We subsequently validated these novel interactions using in vitro co-immunoprecipitation and colocalization assays with both physiological and pathological tau isoforms. Furthermore, their interactions with the human tau protein were analyzed using surface plasmon resonance. Finally, an in silico interactome analysis of these newly discovered tau-binding partners revealed several additional interactors that can link them to downstream processes critical to neurodegenerative pathways Our findings offer fresh insights into tau biology and highlight novel targets for therapeutic intervention and biomarker development.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764196v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.06.764857",
-        "title": "Ogg1 regulates context-dependent glial states in Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-09",
-        "is_early_access": true,
-        "authors": [
-          "Abentung, A.",
-          "Sakshaug, T.",
-          "Schnur, P.",
-          "Egiazarian, M.",
-          "Damiao, C.",
-          "Aakre, K.",
-          "Obermann, T.",
-          "Sousa, M.",
-          "Kunath, N.",
-          "Bjoras, M.",
-          "Scheffler, K."
-        ],
-        "abstract": "Oxidative DNA damage is an early hallmark of Alzheimer's disease (AD), but whether Ogg1, a key enzyme in oxidative DNA repair, contributes to disease pathogenesis remains unclear. Here, we show that Ogg1 exerts opposing effects under physiological and disease conditions. Ogg1 deficiency impaired memory and induced glial transcriptional alterations under physiological conditions, whereas in APP/PS1 mice it improved memory, reduced amyloid burden and attenuated AD-associated glial remodeling. These effects occurred without changes in global 8-oxo-dG levels and were accompanied by changes in chromatin accessibility and gene expression, supporting a non-canonical role for Ogg1 in transcriptional regulation. Single-nucleus transcriptomics revealed strong transcriptional responses to Ogg1 deficiency across all major glial cell types and showed that Ogg1-dependent glial transcriptional programs are strongly conserved in human AD. These findings identify Ogg1 as a context-dependent regulator of glial cell states and reveal an unexpected role in AD-associated glial remodeling.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764857v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.06.764940",
-        "title": "First-in-class -PET radiotracers for GPR39: A platform for noninvasive target engagement imaging  in vivo",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-09",
-        "is_early_access": true,
-        "authors": [
-          "Bhoopal, B.",
-          "Fitzgerald, R. W.",
-          "Gollapelli, K.",
-          "Miller, M.",
-          "Damuka, N.",
-          "Baity, C.",
-          "Roy, P.",
-          "Myburgh, P.",
-          "Zhou, D.",
-          "Jadiya, P.",
-          "Cerevera-Juanes, R.",
-          "Solingapuram Sai, K. K."
-        ],
-        "abstract": "Disrupted zinc homeostasis is a hallmark of Alzheimer's disease. As a key zinc-sensing receptor, GPR39, a G protein-coupled receptor implicated in neurodegeneration, vascular regulation, and neuropsychiatric disorders, represents an emerging target for molecular imaging. However, the lack of suitable positron emission tomography (PET) radiotracers has limited the in vivo characterization of GPR39. Quantitative assessment of GPR39 in vivo could improve our understanding of its role in physiology and disease and facilitate the development and evaluation of targeted therapeutics. Here, we introduce [18F]GPR39 2.1 as a PET radiotracer for specific imaging of GPR39. [18F]GPR39 2.1 exhibited excellent serum stability with negligible radiometabolite formation. In vitro cell uptake studies demonstrated a 55-70% reduction in tracer uptake following pharmacological blockade. PET imaging showed rapid brain uptake, efficient blood-brain barrier penetration, and gradual washout. Blockade studies in rats demonstrated significant reductions in brain uptake of up to approximately 90% (p<0.0001) across multiple brain regions. GPR39 specificity was further validated in GPR39 knockout mice, which showed 76% (p<0.002) and 90% (p<0.0002) reductions in brain uptake by PET imaging and biodistribution, respectively. Moreover, 5xFAD transgenic mice exhibited significantly lower brain uptake by PET imaging (40%, p<0.0002) and biodistribution (77%, p<0.002), indicating sensitivity of [18F]GPR39 2.1 to disease-associated alterations in GPR39. Biodistribution studies demonstrated favorable pharmacokinetics, while autoradiography further confirmed GPR39-specific binding, consistent with the PET and biodistribution findings. Collectively, these results establish [18F]GPR39 2.1 as a stable, brain-penetrant, and highly specific PET radiotracer for noninvasive imaging of GPR39 in vivo. This work provides a translational framework for investigating GPR39 biology and supports the development of GPR39 ",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764940v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.10.17.682996",
-        "title": "Preemptive SOD1 Silencing via Neonatal Intramuscular AAV Therapy Modifies Disease Trajectory in an ALS Mouse Model",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-09",
-        "is_early_access": true,
-        "authors": [
-          "Gong, X.",
-          "Xie, Y.",
-          "Wei, H.",
-          "Wang, Q.",
-          "Wu, J.",
-          "Bian, Z.",
-          "Wang, W.",
-          "Xu, T."
-        ],
-        "abstract": "Amyotrophic lateral sclerosis (ALS) is a progressive and fatal neurodegenerative disorder with limited therapeutic options. A major challenge for developing effective therapies is the safe and efficient delivery of genetic cargo to the spinal motor neurons that degenerate in the disease. This is particularly pertinent for SOD1-linked familial ALS, where gene silencing approaches are promising but remain constrained by suboptimal delivery. Here, we establish a gene delivery platform that overcomes this barrier by combining the retrograde transport of rAAV2-retro with an artificial miRNA to achieve pan-spinal SOD1 silencing. A single intramuscular injection of rAAV2-retro-miRNA into neonatal SOD1G93A mice achieved widespread transduction of spinal motor neurons, significant reduction of mutant SOD1 protein, and conferred multifaceted therapeutic benefits. Treated mice exhibited delayed disease onset, extended lifespan, preserved motor function, reduced neuroinflammation, and protection of neuromuscular junctions and spinal motor neurons. These findings establish the rAAV2-retro-miRNA platform as a versatile and efficient tool for spinal motor neuron-targeted gene silencing, addressing the delivery challenge and providing a foundation for further development in motor neuron diseases.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.10.17.682996v6",
         "reasons": [
           "关键词『amyotrophic lateral sclerosis』(命中abstract)"
         ],
