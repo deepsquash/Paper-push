@@ -1,10 +1,80 @@
 {
-  "date": "2026-11-16",
-  "total": 1,
+  "date": "2026-11-17",
+  "total": 4,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.12.766217",
+        "title": "Selective Gut-Related Biomarker Profiles Define Parkinson Disease Trait and State",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-16",
+        "is_early_access": true,
+        "authors": [
+          "Keshavarzian, A.",
+          "Alam, M. S.",
+          "Engen, P. A.",
+          "Voigt, R. M.",
+          "Shaikh, M.",
+          "Naqib, A.",
+          "Villanueva, M.",
+          "Bonfanti, A. P.",
+          "Giron, L. B.",
+          "Joshi, N.",
+          "Green, S. J.",
+          "Abdel-Mohsen, M.",
+          "Luo, S.",
+          "Goetz, C. G."
+        ],
+        "abstract": "Objective: Gut-brain-axis abnormalities are increasingly implicated in Parkinson disease (PD), but most studies examine individual biological compartments of this axis. We asked whether readily accessible stool and plasma-based biomarker profiles show broad or selective gut abnormalities in PD and whether the profiles associated with PD diagnosis (Trait) are the same as those associated with clinical severity (State). Methods: This cross-sectional study included 211 participants with PD and 204 healthy controls. Twenty-four stool and plasma biomarkers were organized into an overall profile, three parent domains (microbiome/dysbiosis, gut barrier/inflammation, systemic inflammation/immune activation), and eight more focused mechanistic profiles. Rank-based Global Statistical Tests (GSTs) compared PD Trait and State. Results: The overall profile showed no evidence of a PD vs. control difference (GST P=0.607; permutation P=0.521), whereas the domain of microbiome/dysbiosis differed (GST P=0.017; permutation P=0.013). Four of eight focused profiles differed nominally: microbial functional-groups, microbial functional-ratios, epithelial injury/bacterial translocation, and myeloid activation. Across PD clinical severity, overall-profile results differed (GST P=0.053; permutation P=0.037); both categories of microbiome/dysbiosis (GST P=0.023; permutation P=0.016) and microbial alpha-diversity (GST P=0.027; permutation P=0.031) differed. Interpretation: The analyses detected differences associated with PD Trait and State in selected gut-related profiles rather than a detectable overall PD-control difference. Microbiome-related profiles showed the most consistent domain findings across PD Trait and State, but they are sufficiently different to suggest that causation and progression of PD follow distinctly different gut processes. These findings refine the concept of the Parkinson gut and prioritize the microbiome for mechanistic and interventional studies.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766217v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.13.766461",
+        "title": "The ANKLE2-VRK1 pathway promotes neuronal resilience by preserving proteostasis during aging",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-16",
+        "is_early_access": true,
+        "authors": [
+          "Link, N. L.",
+          "Dietze, M.",
+          "Mambou, E.",
+          "Primavera, S.",
+          "Newlin, H."
+        ],
+        "abstract": "ANKLE2 is a key regulator of neural stem cell division through inhibition of the kinase VRK1, and mutations in either ANKLE2 or VRK1 cause rare neurodevelopmental disorders that impact brain growth and development. Recent evidence showing that reduced ANKLE2 activity promotes Tau aggregation in vitro suggests that ANKLE2 may also contribute to age-related neurodegenerative processes; however, its role post-development remains unknown. Using Drosophila, we show a novel role for the Ankle2-ballchen (VRK1) pathway in maintaining neuronal resilience and proteostasis. Pan-neuronal and motor neuron reduction of Ankle2 in adult animals shortens lifespan, impairs motor function and accelerates neuronal loss. Lifelong reduction produces more severe phenotypes including an upright wing posture reminiscent of Drosophila Parkinsons disease models. Mechanistically, loss of Ankle2 causes the accumulation of ubiquitinated proteins throughout the central nervous system, indicating impaired protein clearance. Ankle2 mutants have reduced proteasome activity with activation of compensatory degradative pathways, supporting this hypothesis. Loss of Ankle2 behavioral and protein accumulation phenotypes are rescued by expression of human ANKLE2, indicating neuronal ANKLE2 function is conserved between flies and humans. Importantly, VRK1/Ballchen reduction also rescues ubiquitin accumulation and behavior phenotypes caused by loss of Ankle2, demonstrating that the developmental Ankle2-VRK1 pathway is preserved and remains functionally important in aged neurons. More broadly, our findings reveal that a conserved developmental ANKLE2- VRK1 pathway is repurposed in aged neurons to maintain proteostasis and neuronal resilience, providing a mechanistic framework linking neurodevelopmental disease genes to age-associated neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766461v1",
+        "reasons": [
+          "关键词『Parkinson、tau、neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.10.765694",
+        "title": "Harmonizing amyloid PET tracers at the local level: evaluation of regional Centiloid equations",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-16",
+        "is_early_access": true,
+        "authors": [
+          "Silvestri, E.",
+          "Chaggar, P.",
+          "Gobbi, S.",
+          "Aldea, R.",
+          "Klein, G.",
+          "Tonietto, M."
+        ],
+        "abstract": "INTRODUCTION: The Centiloid (CL) framework standardizes global amyloid-PET across radiotracers. While global scaling remains essential for participant selection, amyloid-targeting therapies require quantifying localized plaque removal. However, applying global equations regionally introduces systematic bias, particularly in subcortical structures where off-target binding alters non-specific background. METHODS: We extended the Centiloid framework regionally and voxel-wise using GAAIN datasets: Level-1 ([11C]PiB) and Level-2 paired [11C]PiB and fluorinated head-to-head cohorts ([18F]florbetaben, [18F]florbetapir, [18F]flutemetamol, and [18F]NAV4694). Level-1 defines the regional Centiloid scale using region-specific intercepts while fixing the global slope. Level-2 calibrates fluorinated tracer uptake to reference [11C]PiB SUVR using linear equations. We compared three slope-intercept models (Global, Regional-Intercept, and Regional) using information criteria and Mean Absolute Error (MAE). RESULTS: Regional-Intercept model was identified as optimal across all four radiotracers. In neocortical regions, Global and Regional-Intercept models showed high agreement across canonical lobes. In deep gray matter, global equations introduced large systematic offsets, with mean absolute conversion errors in the pallidum reaching 27.7 to 45.6 CL. The Regional-Intercept model eliminated this bias, reducing subcortical MAE on average below 15 CL while preserving a unified biological scale. DISCUSSION: Applying global Centiloid equations directly to regions introduces substantial bias in subcortical regions. With the Regional-Intercept model, the same Centiloid value corresponds to the same amyloid concentration across brain regions and radiotracers. This provides a reliable basis for cross- sectional regional evaluation, multi-tracer cohort pooling, tracking regional clearance, and mapping regional progression in clinical research.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765694v1",
+        "reasons": [
+          "关键词『amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.11.13.766444",
         "title": "E2F4 gene therapy reverses established synaptic and cognitive deficits and remodels learning-associated signaling in Alzheimer's disease mice",
