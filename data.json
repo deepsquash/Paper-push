@@ -1,10 +1,163 @@
 {
-  "date": "2026-11-19",
-  "total": 19,
+  "date": "2026-11-20",
+  "total": 15,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.18.767679",
+        "title": "AAV-Mediated Astrogliosis Recapitulates Early Neuroinflammatory and Bioenergetic Features of Alzheimer''s Disease in Mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-19",
+        "is_early_access": true,
+        "authors": [
+          "Ramesh, A.",
+          "Soni, N. D.",
+          "Roy, D.",
+          "Swain, A.",
+          "Khokhar, S. K.",
+          "Jacobs, P.",
+          "Mathur, A.",
+          "Juul, H.",
+          "Kumar, D.",
+          "Nanga, R.",
+          "Wolk, D.",
+          "Lee, V.",
+          "Detre, J.",
+          "Reddy, R.",
+          "Haris, M."
+        ],
+        "abstract": "Neuroinflammation and altered neuron-astrocyte metabolic interactions are increasingly recognized as early features of Alzheimer's disease (AD). However, the underlying metabolic adaptations remain incompletely understood. This study employed deuterium magnetic resonance spectroscopy (DMRS) following administration of deuterium labeled glucose and acetate to investigate neuronal and astroglial substrate utilization and metabolic fluxes, respectively, in adenovirus-induced neuroinflammation and early-stage APPNL-F/NL-F mice. In adenovirus-induced astrogliosis, increased acetate derived [4,4'-2H2]Glx (d2-Glx) production suggested enhanced astrocytic acetate utilization and TCA cycle activity. Conversely, reduced glucose derived d2-Glx despite comparable glucose uptake suggested a diminished neuronal activity due to potentially impaired neuronal oxidative metabolism. However, the glucose-derived lactate labeling remained unchanged, suggesting differential effects on oxidative and non-oxidative pathways of glucose metabolism. Similarly, 3-month-old APPNL-F/NL-F mice exhibited significantly increased [2,2',2''-2H3]acetate (d3-Ace) influx compared with wild-type controls, suggesting early alterations in astrocytic substrate utilization. While glucose uptake remained unchanged, glucose derived Glx and lactate showed modest, non-significant decreases, potentially reflecting early alterations in glucose metabolism. Overall, both models exhibited a metabolic pattern characterized by increased astrocytic acetate utilization with trends towards reduced glucose associated metabolism, with more pronounced changes in adenovirus-induced astrogliosis. These findings highlight the utility of DMRS for investigating dynamic metabolic adaptations during neuroinflammation and early AD pathogenesis. Importantly, the adenovirus-induced astrogliosis model recapitulates key metabolic alterations associated with the neuroinflammatory aspects of AD. As such, it provides a valuable complementar",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767679v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.06.763877",
+        "title": "Preprocessing Determines Whether Fractal Biomarkers Detect Neurodegeneration: A Systematic Evaluation Across Five fMRI Pipelines",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-19",
+        "is_early_access": true,
+        "authors": [
+          "Chattopadhyay, T.",
+          "Cen, H. S.",
+          "Thomopoulos, S. I.",
+          "Volkov, A.",
+          "Maximov, Y.",
+          "Motter, A. D.",
+          "Tankesly, H.",
+          "Ruekgauer, A. H.",
+          "Khopade, A.",
+          "Gabitov, I.",
+          "Thompson, P."
+        ],
+        "abstract": "Fractal analysis of resting-state functional MRI (rs-fMRI) has been proposed for detecting altered neural dynamics in Alzheimers disease (AD), but the effect of preprocessing on these measurements is poorly constrained. We evaluated 229 ADNI3 participants (156 cognitively normal [CN], 60 mild cognitive impairment [MCI], and 13 AD) processed with five ENIGMA HALFpipe variants. Each scan contained 197 volumes (TR = 3.0 s) and 434 regional time series. The reported CN-AD effect varied 4.5-fold for the detrended fluctuation analysis (DFA) Hurst exponent and 13.1-fold for Sample Entropy; both measures met p < 0.05 only after aCompCor. Under aCompCor, mean H was 0.812 in CN, 0.827 in MCI, and 0.872 in AD (d = -1.40, p = 0.0003), whereas the other four DFA effects were approximately d = -0.31 to -0.40. A variance decomposition attributed 41.5% of total H variance to pipeline, 44.5% to participant, and 0.3% to diagnosis. Whole-brain analysis found higher H in AD across 16 of 18 networks, with 36 cortical regions surviving false-discovery-rate correction. Synthetic fractional Gaussian noise experiments confirmed monotonic DFA estimation at the available scan length. The small AD group makes all disease-effect estimates exploratory. These results show that preprocessing choice can determine whether fractal group differences are detectable and should therefore be treated as part of the biomarker definition.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.763877v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.18.767715",
+        "title": "Prolonged loss of D1 receptor signaling promotes maladaptive plasticity of direct pathway striatal projection neurons",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-19",
+        "is_early_access": true,
+        "authors": [
+          "Martin, J. R.",
+          "Power, S. K.",
+          "Cavanagh, A. E.",
+          "Maltese, M.",
+          "Melani, R.",
+          "Sippy, T.",
+          "Dasen, J. S.",
+          "Kang, U. J.",
+          "Tritsch, N. X."
+        ],
+        "abstract": "As Parkinson's disease (PD) progresses and nigrostriatal dopamine (DA) neuron degeneration worsens, DA replacement therapies shift from restoring motor function to evoking dyskinesia. How disease progression mediates this transition remains poorly understood. Here, we optimized a 6-hydroxydopamine (6OHDA) model that reliably generates multiple severities of DA axon denervation within the striatum of individual mice. We identify a critical denervation threshold at which direct-pathway striatal projection neurons (dSPNs), which are key drivers of dyskinesia become pathologically hyperresponsive to DA. Using slice electrophysiology, we establish that denervation-induced increase in intrinsic excitability is insufficient to explain the aberrant response of dSPNs to DA. We further demonstrate using genetic and chemogenetic manipulations that prolonged loss of D1 receptor signaling drives the pathological transformation of dSPNs cell-autonomously, and that sustained Gs-coupled metabotropic receptor signaling in dSPNs is sufficient to both prevent and reverse it. These findings provide a mechanistic framework for understanding how PD progression renders striatal circuits vulnerable to DA-evoked motor complications and identify sustained signaling by Gs-coupled receptors as a potential avenue for preventing or reversing denervation-induced maladaptive striatal plasticity.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767715v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.24.746652",
+        "title": "Probabilistic mouse-human brain map translation through multimodal optimal transport",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-19",
+        "is_early_access": true,
+        "authors": [
+          "Koch, S. P.",
+          "Perales, M.",
+          "Sil, T.",
+          "Hiew, S.",
+          "Hartig, J.",
+          "Weigl, B.",
+          "Muthuraman, M.",
+          "Lange, F.",
+          "Li, N.",
+          "Kuhn, A.",
+          "Breininger, K.",
+          "Tovote, P.",
+          "Ip, C. W.",
+          "Volkmann, J.",
+          "Reich, M.",
+          "Boehm-Sturm, P.",
+          "Peach, R. L."
+        ],
+        "abstract": "Cross-species differences in brain organisation complicate the interpretation of mouse experiments and the selection of mouse regions from human imaging findings. Here we present OTTER, which combines functional and structural connectivity, spatial position and comparative anatomy through optimal transport to estimate probabilistic mouse-human brain correspondence. The mapping recovers established regional relationships and supports bidirectional translation of experimental, functional and molecular maps. Assessment of the connectomes used to fit OTTER shows lower mouse-based reconstruction accuracy for human functional connectivity in the expanded association cortex compared to sensory and motor regions. Cross-sectional human Parkinson disease maps yield translated cortical thinning scores that increase across stages in the mouse visceral, gustatory and agranular-insular regions relative to the motor cortex. The corresponding anatomical contrast increases over time in a separate longitudinal MRI analysis following alpha-synuclein fibril injection in mice. OTTER predicts human maps from mouse experiments and candidate mouse targets from human imaging.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746652v2",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.01.763492",
+        "title": "Lipidome of Compact Myelin from Cortical Regions of the Aging Murine Brain",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-19",
+        "is_early_access": true,
+        "authors": [
+          "Liu, V. P.",
+          "Johnson, C. E.",
+          "Lakhani, S.",
+          "Furber, K. L."
+        ],
+        "abstract": "Age-related cognitive decline has been associated with neurodegeneration in cortical white matter tracts. The trajectory of white matter degeneration over the lifespan follows a similar pattern in humans, primates and rodents including the loss of myelin integrity and concomitant loss in myelinated axonal segments. Previous studies suggest that biochemical alterations in myelin begin to occur well prior to myelin loss. To better understand these biochemical determinants underlying white matter degeneration, we investigated the lipid composition of myelin isolated from young adult, middle-aged and aged murine brain. Compact myelin was enriched from cortical regions using a refined density centrifugation protocol and profiled the lipidome using LC-MS/MS. Over 2000 lipid species were identified, with the relative expression of 414 species changing over the age-span. The myelin lipidome from young mice was biochemically distinct compared to the aging cohorts. Aging was characterized by an overall decrease in high abundant species of glycerophospholipid and sphingolipids, including phosphocholine, phosphoethanolamine, sphingomyelin and cerebrosides. Pathway analysis by LipidSig 2.0 and lipid ontology analysis by LION/web highlighted alterations to lipid metabolism and membrane biophysical properties related to bilayer stability and organization. These data support the concept that myelin lipid compositional changes are apparent by middle age which underly structural changes in myelin at later ages. The findings provide greater insight into age-related biochemical alterations in the myelin sheath and may aid in strategies to mitigate white matter degeneration over the lifespan.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763492v2",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.14.766631",
+        "title": "Evolutionarily conserved coupling of lysosomal response sensing and disease-associated microglial reprogramming scales with pathological timescales",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-19",
+        "is_early_access": true,
+        "authors": [
+          "Liang, Y.",
+          "Yuan, H.",
+          "Zhao, Y.",
+          "Guo, L.",
+          "Wang, J.",
+          "Liyi, L.",
+          "Zhang, Y."
+        ],
+        "abstract": "Background Microglia transition into disease-associated microglia (DAM) during central nervous system (CNS) injury and neurodegeneration, yet the upstream intracellular logic driving this state conversion in vivo remains unclear. The lysosome acts as a signaling hub, but whether physiological phagocytic load universally initiates and quantitatively couples to DAM reprogramming across different pathological timescales is unknown. Methods We established a rigorous, unit-corrected analytical framework to overcome pseudo-replication in public single-cell data, anchoring statistical inferences at the level of independent biological units (animals, sequencing plates, or donors). We integrated six transcriptomic datasets spanning three murine injury/amyloidosis models and three large-scale human neurodegenerative cohorts (>320,000 microglial nuclei), alongside human Alzheimer's disease (AD) GWAS summary statistics. Results We demonstrate that the MiT/TFE-regulated lysosomal biogenesis program temporally precedes DAM reprogramming and maintains an evolutionarily conserved baseline coupling even in uninjured homeostatic tissue. In human microglia, MITF and TFE3 transcripts closely track DAM activation, whereas post-translationally regulated TFEB mRNA does not. Genetic enrichment analysis (MAGMA) reveals that common AD risk does not act upon the upstream lysosomal program, but is strongly anchored downstream at APOE. Furthermore, Trem2-knockout models demonstrate that disease-induced coupling amplification retains roughly half its magnitude even when the mature DAM subpopulation collapses. Cross-system comparisons reveal a state-transition synchrony model: disease-driven amplification of lysosomal-DAM coupling ({Delta}) scales with pathological timescales, showing strong amplification in acute murine injury and aggressive amyloidosis (5xFAD {Delta} = +0.252), but manifesting primarily as steady baseline maintenance across decades-long asynchronous human AD progression (SEA-AD",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766631v1",
+        "reasons": [
+          "关键词『Alzheimer、neurodegeneration、amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.11.16.767071",
         "title": "Transcriptomic and Lipidomic Profiling of Human iPSC-Derived Microglia Reveals TREM2-Dependent and -Independent Processes",
@@ -251,281 +404,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766461v2",
         "reasons": [
           "关键词『Parkinson、tau、neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.08.01.668095",
-        "title": "Human tau compromises neuronal structural integrity in C. elegans independently of disease-associated modifications",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Joshi, M.",
-          "van Schijndel, V.",
-          "Tiggelaar, J.",
-          "van Falier, S. J. A.",
-          "Sinnige, T."
-        ],
-        "abstract": "Tauopathies are a group of progressive neurodegenerative diseases amongst which Alzheimer's disease is the most prevalent. They typically have a late age of onset and lead to cognitive decline. Tau is a highly soluble, intrinsically disordered microtubule binding protein that aggregates in these diseases. The mechanisms by which age-associated changes alter tau functionality and compromise neuronal structural integrity remain poorly understood. Here, we show with the use of single-copy gene insertion Caenorhabditis elegans models that human tau preferentially localises to neuronal processes in the nematode, consistent with its function of binding to microtubules. The expression of tau in the nervous system led to age-associated changes in the structural integrity of the ventral nerve cord, in agreement with previous reports in touch receptor neurons. However, expressing either the disease-related P301L mutant, phosphomimic tau or co-expressing human kinases did not worsen the observed buckling phenotype. On the other hand, kinase expression was associated with the formation of tau inclusions in a small proportion of animals at old age. These results suggest that human tau induces structural alterations in C. elegans neurons independently of pathological phosphorylation or aggregation. At the same time, the late-onset formation of tau inclusions upon kinase overexpression make this new model suitable to study the sequence of events leading to tau pathology.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.08.01.668095v2",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.15.766742",
-        "title": "Loss of metabolic resilience underlies maladaptive responses to lipid overload in TDP-43 proteinopathy",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Godoy Corchuelo, J. M.",
-          "Garcia-Toledo, I.",
-          "Lopez-Carbonero, J. I.",
-          "Larrad-Sanz, A.",
-          "Gil-Moreno, M. J.",
-          "Fernandez-Hernandez, L.",
-          "Fernandez-Beltran, L. C.",
-          "Pena-de-Diego, L.",
-          "Jimenez-Coca, I.",
-          "Jimenez-Rodriguez, J.",
-          "Fernandez-de-la-Rosa, R.",
-          "Fernandez-Bernal, A.",
-          "Portero-Otin, M.",
-          "Casarejos-Fernandez, M. J.",
-          "Mansillo-Aparicio, A.",
-          "Baleriola, J.",
-          "Fisher, E.",
-          "Matias-Guiu, J. A.",
-          "Bascunana, P.",
-          "Cunningham, T. J.",
-          "Corrochano, S."
-        ],
-        "abstract": "INTRODUCTION Altered eating behaviour is a hallmark feature of behavioural variant frontotemporal dementia (bvFTD). These changes may represent a compensatory response to an underlying metabolic disturbance. However, whether increased lipid availability restores metabolic homeostasis or instead accelerates disease progression remains unknown. TDP-43 proteinopathies, which account for approximately half of FTD cases, are associated with alterations in lipid metabolism, providing a mechanistic framework to investigate the cerebral response to lipid overload. METHODS We combined clinical observations in patients with bvFTD with mechanistic studies in the physiological TardbpM323K/M323K knock-in mouse model to determine how TDP-43 dysfunction modifies the response to chronic lipid excess. RESULTS In the bvFTD cohort, elevated cholesterol and triglycerides were associated with poorer cognitive performance, while mutant mice fed a lifelong high-fat diet showed worse cognitive impairment. Multi-omics analyses of the frontal cortex revealed maladaptive metabolic rewiring characterized by impaired mitochondrial and cholesterol metabolism, lipid accumulation, and widespread remodelling of TDP-43-dependent RNA processing. These alterations affected synaptic function and neuronal communication and were accompanied by reduced cerebral glucose utilization measured by 18F-FDG PET, neurotransmitter imbalance and enhanced neuroinflammation. DISCUSSION Increased lipid availability fails to compensate for TDP-43-associated metabolic dysfunction and instead promotes maladaptive molecular and functional responses. These findings identify impaired metabolic resilience as feature of TDP-43-mediated neurodegeneration and suggest that altered eating behaviour in bvFTD may represent an unsuccessful attempt to counteract an underlying metabolic deficit rather than a purely behavioural symptom. Thus, the biological context may determine whether increased energy intake is beneficial or detrimen",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766742v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.14.766704",
-        "title": "Drug Repurposing of Rapamycin Mitigates Amyloid-β-Associated Proteotoxicity in Caenorhabditis elegans Models of Alzheimer's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Alkhudaydi, S.",
-          "Alsulami, A.",
-          "Linfoot, M.",
-          "Terlouw, M.",
-          "Holzer, A.",
-          "Albalawi, F.",
-          "McGrath, S.",
-          "Moreno, J."
-        ],
-        "abstract": "Background: Alzheimers disease (AD) is the leading cause of dementia worldwide, affecting an estimated 55 million people and projected to exceed 130 million by 2050. AD is defined pathologically by extracellular accumulation of amyloid-beta (A{beta}) and intracellular neurofibrillary tangles. Currently no therapy halts the underlying neurodegeneration in AD patients. Proteotoxic accumulation of A{beta} is a central pathogenic event therefore, strategies that enhance its clearance represent a compelling therapeutic avenue. Rapamycin (sirolimus), an FDA-approved allosteric inhibitor of the mechanistic target of rapamycin complex 1 (mTORC1) that relieves mTORC1-mediated suppression of autophagy, positioning it as an attractive drug-repurposing candidate for AD. However, it remains unclear whether rapamycins neuroprotection depends on directly reducing A{beta} burden or acts through A{beta}-independent mechanisms. This question, along with whether rapamycin alters specific A{beta} species, has not been systematically examined in a single, genetically tractable model. Methods/Results: Using two transgenic C. elegans models of human A{beta} expression a temperature-inducible, muscle-specific strain CL4176 and the pan-neuronal strain CL2355. We exposed C. elegans to 20 M rapamycin the lowest, nontoxic concentration to produce a protective effect. Rapamycin treatment delayed A{beta} induced paralysis in log-rank p = 0.0001) and improved crawling and swimming locomotion parameters. In the pan-neuronal CL2355 strain, rapamycin rescued the A{beta} induced chemotaxis deficit (one-way ANOVA, p = 0.008) without altering chemotaxis in the non-transgenic CL2122 control. Rapamycin also extended Kaplan Meier survival in CL2355 and preserved locomotor health span, delaying the trajectory of age related motor decline. At the molecular level, rapamycin did not significantly affect A{beta} burden. Conclusion: Rapamycin provides broad-spectrum and A{beta}-selective neuroprotection across ",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766704v1",
-        "reasons": [
-          "关键词『Alzheimer、neurodegeneration、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.14.766688",
-        "title": "In silico designed small molecule targets misfolded TDP-43 to rescue function and ALS pathology",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Kokes, M.",
-          "Korumilli, D. S.",
-          "Seawright, V.",
-          "Arya, S.",
-          "van Hummel, A.",
-          "Sabale, M.",
-          "Haque, M. A.",
-          "Moreno, N.",
-          "Limon, A.",
-          "Ganguly, P.",
-          "Shao, E.",
-          "Ke, Y. D.",
-          "Kayed, R.",
-          "Shea, J.-E.",
-          "Singh, A.",
-          "Whitehead, L.",
-          "Planey, C.",
-          "Mathur, V."
-        ],
-        "abstract": "The DNA/RNA binding protein TARDBP or TDP-43 is a key driver of pathology in Amyotrophic Lateral Sclerosis (ALS), a motor neuron disease with no known cure. In >97% of sporadic ALS patients, nuclear TDP-43 in motor neurons mislocalizes and aggregates in the cellular cytoplasm (gain-of-function). A parallel reduction in nuclear TDP-43 in ALS patients leads to a loss-of-function in mRNA binding and splicing regulation. Using our machine learning platform, we discovered ACE-339, a novel, orally bioavailable small molecule that disrupts insoluble TDP-43 aggregates. Using in vitro, in vivo and in silico models, we show that ACE-339 directly targets aggregated forms of TDP-43. ACE-339 interacts directly with TDP-43 hexamers, disaggregates recombinant TDP-43 and rescues both gain- and loss-of-function phenotypes of TDP-43 in cells. ACE-339 functionally rescues TDP-43 dependent mis-splicing and synaptic activity. Lastly, ACE-339 rescues disease associated phenotypes in two independent mouse models of TDP-43 pathology. In addition, we now have a catalog of TDP-43 disaggregating compounds that are being developed further to be tested in clinical trials in patients with ALS and other TDP-43 proteinopathies.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766688v1",
-        "reasons": [
-          "关键词『amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.15.766852",
-        "title": "Age-associated skeletal muscle dysfunction with spinal cord pathology in an App knock-in model of Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Nakai, T.",
-          "Urano, Y.",
-          "Sobue, A.",
-          "Henmi, M.",
-          "Asai, S.",
-          "Hitachi, K.",
-          "Nagai, T.",
-          "Watanabe, H.",
-          "Yamanaka, K.",
-          "Tsuchida, K.",
-          "Yamada, K.",
-          "Saito, T.",
-          "Saido, T. C.",
-          "Yamada, S.",
-          "Enomoto, A.",
-          "Mizoguchi, H."
-        ],
-        "abstract": "Skeletal muscle dysfunction is increasingly recognized in Alzheimer's disease (AD), but its pathological basis remains poorly understood. We examined age-associated muscle dysfunction together with skeletal muscle and spinal motor system alterations in male AppNL-G-F/NL-G-F knock-in (App-KI) mice, which develop age-dependent amyloid-{beta} (A{beta}) pathology without amyloid precursor protein (APP) overexpression. Middle-aged, but not adult, App-KI mice showed lower strength-related performance than age-matched wild-type mice, whereas skeletal muscle mass and myofiber cross-sectional area were preserved. General motor performance was also preserved, suggesting that the strength-related impairment did not simply reflect generalized motor dysfunction. Middle-aged App-KI mice had higher percentages of centrally nucleated fibers in the gastrocnemius and quadriceps femoris muscles. Transcriptomic and targeted expression analyses further revealed alterations in molecular profiles related to muscle development and myosin, including reduced expression of factors involved in myoblast fusion and selected myosin proteins. Despite evident cerebral A{beta} pathology, no apparent A{beta} immunoreactivity was detected in skeletal muscle. In the lumbar ventral horn, App-KI mice had fewer choline acetyltransferase-positive motor neurons, greater A{beta} deposition, and increased immunoreactivity for glial fibrillary acidic protein and ionized calcium-binding adapter molecule 1; serum interleukin-6 levels were also selectively elevated in middle-aged App-KI mice. Together, these findings indicate that age-associated reductions in strength-related performance in App-KI mice occur without overt muscle atrophy and are accompanied by histological and molecular abnormalities in skeletal muscle and pathological changes in the lumbar spinal cord. Thus, AD-related physical dysfunction may involve abnormalities in both peripheral skeletal muscle and the spinal motor system.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766852v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.15.766816",
-        "title": "MK-6240",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Biju, A. P.",
-          "Herrera, J. M.",
-          "McNamara, C. C.",
-          "Hipolito, E. L. M.",
-          "Liang, C.",
-          "Mukherjee, J."
-        ],
-        "abstract": "Flortaucipir and MK-6240 are two tau imaging agents currently in use for measuring neurofibrillary tangle (NFT) progression in Alzheimers disease (AD). The aims of this study were to use postmortem AD and Down syndrome (DS) brain sections to study three issues: (1) Measure binding affinity of flortaucipir and MK-6240 in AD brain sections by using [125I]IPPI; (2) Evaluate the binding characteristics of [18F]flortaucipir in AD, DS and cognitively normal (CN) brains sections and compare them with [18F]MK-6240, and (3) Assess the binding of [18F]flortaucipir in CN and Parkinsons disease (PD) brain sections to identify any off-target binding. The half-maximal inhibition (IC50) of [125I]IPPI bound to anterior cingulate (AC) in AD brain sections for flortaucipir was 2.91 nM and MK-6240 was 5.99 nM. Using frontal cortex (FCX) and temporal cortex (TCX) of AD, DS and CN brain sections, [18F]flortaucipir displayed high levels of binding in the gray matter (GM) of AD and DS. The average ratio of DSAD GM to CN GM was 15.7 in FCX, while DSAD GM to CN GM was 15.2 for the TCX. In the case of AD, average ratio of AD GM to CN GM was 12.4 in FCX, while AD GM to CN GM was 9.5 for the TCX. Binding of [18F]flortaucipir in brain section of AC from CN and PD cases did not exhibit any off-target binding to monoamine oxidase-A (MAO-A). In summary, both flortaucipir and MK-6240 exhibit similar high affinity to tau and [18F]flortaucipir exhibits higher binding compared to [18F]MK-6240 in DSAD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766816v1",
-        "reasons": [
-          "关键词『Alzheimer、Parkinson、tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.14.766661",
-        "title": "Integrating multiple imputation with harmonization in multisite neuroimaging data: implications for site effects and biological inference",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Ren, Y.",
-          "Dong, Y.",
-          "Minhas, D.",
-          "Cohen, A. D.",
-          "Wu, Q.",
-          "Tudorascu, D. L."
-        ],
-        "abstract": "Multisite neuroimaging harmonization in Alzheimer's disease research with missing data has received limited attention in the literature. Here, we evaluated the performance of several harmonization methods in conjunction with multiple imputation (MI) to address missing data, using baseline [18F]flortaucipir tau positron emission tomography (PET) data from the Alzheimer's Disease Neuroimaging Initiative (ADNI). We compared complete case and MICE-imputed datasets (m = 5) across the original ADNI-preprocessed data and four statistical harmonization approaches: ComBat with and without covariates, quantile normalization, and quantile regression. Weighted average standardized uptake value ratios (SUVRs) across six Braak regions were analyzed for each dataset-method combination. We assessed harmonization effectiveness using covariate-adjusted intraclass correlation coefficients and site-level pairwise differences, and evaluated biological effect preservation using Hedges' g, regression coefficients, and statistical significance for comparisons between cognitively impaired and unimpaired participants. For imputed analyses, effect sizes and regression coefficients were pooled using Rubin's rules, with statistical inference based on the pooled estimates. Post-processing harmonization reduced site-level variability compared to the original data, with method performance varying across evaluation metrics, while overall harmonization quality remained comparable after MI. Disease group differences remained statistically significant across all combinations, exhibiting a consistent regional pattern, strongest in Braak I and weakest in Braak VI. MI modestly increased effect size and coefficient estimates, with improved precision reflected by median standard error ratios below 1 (0.89 for effect sizes and 0.93 for coefficients). These findings indicate that integrating MI with harmonization preserves disease group differences and improves statistical efficiency without compromising har",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766661v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.14.766652",
-        "title": "Partial microglial depletion attenuates Purkinje cell degeneration and reshapes both glial and inflammatory responses in a mouse model of selective neurodegeneration",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Perez-Boyero, D.",
-          "Perez-Arevalo, J.",
-          "Valero, J.",
-          "Weruaga, E.",
-          "Diaz, D."
-        ],
-        "abstract": "Background The microglial population contributes to the inflammatory environment during neurodegeneration. Its role in neuronal loss remains hard to distinguish from its response to injury. We investigated how early pharmacological reduction of this population affects Purkinje cell preservation, behaviour and the cerebellar glial response. Methods We administered PLX5622 to Purkinje cell degeneration (PCD) and wild-type (WT) mice from postnatal day (P) 15 to P24 and compared them with their respective untreated controls. We assessed motor coordination, spontaneous behaviours and novel-object recognition at P17, P21 and P25. At P25, we quantified regional Purkinje cell preservation, glial immunoreactivity and microglial abundance and morphology. We assessed selected transcripts in whole-cerebellum samples by reverse transcription quantitative polymerase chain reaction (RT-qPCR). Results At P25, treated PCD mice showed better motor coordination, improvements in selected spontaneous behaviours and greater novel-object discrimination. Greater Purkinje cell preservation coincided with lower glial fibrillary acidic protein (GFAP) immunoreactivity in lobes IV-V and VIII. Microglial density decreased in all four PCD regions analysed. The territory encompassed by the processes of residual microglia expanded in both genotypes. In PCD mice, CD68-positive tissue area decreased in lobes I-II and IV-V, and the proportion of Iba1-positive area occupied by CD68 decreased in IV-V. CD45, CD16/32 and CD206 immunoreactivity decreased alongside selective reductions in immune, inflammatory and phagocytosis-associated transcripts. Treated WT mice showed early behavioural changes, including reduced novel-object discrimination. Conclusions Early PLX5622 treatment can modify the outcome of genetically driven cerebellar degeneration in PCD mice. The benefits achieved with partial microglial depletion provide a preclinical rationale for testing how the timing and extent of glial modulation inf",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766652v1",
-        "reasons": [
-          "关键词『neurodegeneration』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.16.767080",
-        "title": "Human Endogenous Retrovirus K RNA triggers cytoplasmic TDP-43 aggregation by initiating pathological nuclear condensates",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Chang, Y.-H.",
-          "dubnau, j."
-        ],
-        "abstract": "Cytoplasmic aggregation of the nuclear RNA-binding protein TDP-43 is a defining pathology of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) and is seen in many cases of Alzheimer's disease (AD), yet what initiates this process remains unknown. Here we identify an unexpected trigger: RNA from human endogenous retrovirus-K (HERV-K), an ancient retroviral element embedded in the human genome. Using CRISPR-engineered cells expressing Halo-tagged TDP-43 at endogenous levels, we show that HERV-K activation drives formation of cytoplasmic TDP-43 aggregates and functional loss of nuclear TDP-43, measured by aberrant cryptic exon inclusion. Surprisingly, cytoplasmic aggregation is preceded by the appearance of phosphorylated TDP-43 condensates in the nucleus, structures we term Pathological ERV-TDP-43-Associated Nuclear Spheres (PETANS). Live-cell imaging reveals that cytoplasmic inclusions originate directly from these nuclear bodies. This inverts the conventional model to suggest that pathological TDP-43 condensation begins in the nucleus, not the cytoplasm. Super-resolution imaging and structure-function mapping show that HERV-K RNA localizes within PETANS and drives their formation, with a minimal UG-rich non-coding element sufficient to induce the full cascade of nuclear and cytoplasmic pathology. Our findings establish an endogenous retroviral RNA as a direct molecular nucleator of TDP-43 proteinopathy.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767080v1",
-        "reasons": [
-          "关键词『Alzheimer、amyotrophic lateral sclerosis』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2025.04.20.648873",
-        "title": "TDP-43 toxic gain of function links ALS, FTD and Alzheimer's disease via mis-splicing",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-17",
-        "is_early_access": true,
-        "authors": [
-          "Van Zuiden, W.",
-          "Meimoun, T.",
-          "Bar, C.",
-          "Siany, A.",
-          "Abarbanel, B.",
-          "Moshe, L.",
-          "Yacovzada, N. S.",
-          "Amzallag, E.",
-          "Rajkovic, A.",
-          "Alyagor, L.",
-          "Weizman, E.",
-          "Neumann, M.",
-          "Smith, C.",
-          "McDade, K.",
-          "Strange, A.",
-          "Siqueira Kazu, R.",
-          "Weinreich, M.",
-          "Buchman, A. S.",
-          "Wang, Y.",
-          "Bennett, D. A.",
-          "Zhao, B.",
-          "Jiang, L.",
-          "Bi, J.",
-          "Snyder, M. P.",
-          "Morderer, D.",
-          "Garcia Morato, J.",
-          "Rossoll, W.",
-          "Reeves, M. M.",
-          "Dickson, D. W.",
-          "Prudencio, M.",
-          "Nelson, P. T.",
-          "Glass, J. D.",
-          "Trautwig, A. N.",
-          "Chung, M.",
-          "McEachin, Z. T.",
-          "Seyfried, N. T.",
-          "Cooper-Knock, J.",
-          "Hornstein, E."
-        ],
-        "abstract": "TDP-43 proteinopathy is a hallmark of amyotrophic lateral sclerosis (ALS) and frontotemporal lobar degeneration (FTLD). It is also common in Alzheimer's disease (AD) and limbic-predominant age-related TDP-43 encephalopathy (LATE), but its functional consequences are unclear. Here, we show that TDP-43 pathology in AD is broadly associated with splicing abnormalities. We define a conserved TDP-43-dependent splicing signature in AD that includes AD-relevant mis-spliced mRNAs such as amyloid precursor protein (APP). TDP-43 drives the formation of elongated APP isoforms across ALS, FTLD-TDP and AD, providing a mechanism for the long-standing observation of APP isoform dysregulation. APP isoform imbalance correlates with and partially mediates the association between TDP-43 pathology and A{beta} burden and is spatially associated with pTDP-43 and mis-spliced STMN2 in LATE hippocampus. Contrary to a pure nuclear loss-of-function model, mis-splicing is driven by cytoplasmic TDP-43 gain-of-function that co-sequesters splicing-regulatory RNA-binding proteins. Knockdown of TDP-43-associated RNA-binding proteins recapitulates disease-relevant splicing changes in AD and ALS/FTLD-TDP, and some of these proteins colocalize with cytoplasmic pTDP-43 in neuropathological samples. Our findings establish cytoplasmic TDP-43-driven splicing dysfunction as a key component of neurodegeneration, define disease-relevant mis-spliced mRNAs in AD and unite AD with ALS/FTLD-TDP through a shared mechanism of splicing factor sequestration.",
-        "url": "https://www.biorxiv.org/content/10.1101/2025.04.20.648873v4",
-        "reasons": [
-          "关键词『Alzheimer、amyotrophic lateral sclerosis、neurodegeneration、amyloid』(命中title/abstract)"
         ],
         "is_new": true
       }
