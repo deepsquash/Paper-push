@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "total": 4,
+  "date": "2026-11-24",
+  "total": 9,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
@@ -47,6 +47,145 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.766782v1",
         "reasons": [
           "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.20.767914",
+        "title": "Modulation of genetic- and toxicant-induced Parkinson's disease outcomes by SV2C in C. elegans",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-23",
+        "is_early_access": true,
+        "authors": [
+          "Knickerbocker, A. C.",
+          "Chung, H.",
+          "Miller, G. W.",
+          "Bucher, M. L."
+        ],
+        "abstract": "Several proteins involved in dopaminergic neurotransmission have been implicated in Parkinson's disease (PD), including synaptic vesicle glycoprotein 2C (SV2C). At least seven SNPs in SV2C are associated with PD, including variants that modify: PD risk, PD risk in GBA carriers, PD severity, contribution of environmental factors (e.g., nicotine) to PD, and PD patient response to L-DOPA and dopamine therapies. Although the specific function of SV2C remains unknown, there is significant evidence supporting a role of SV2C in mediating vesicular dopamine content, vesicular trafficking, and neurotransmitter release. Furthermore, SV2C directly associates with -synuclein and mediates the content of neurotoxicants within synaptic vesicles. Taken together, these data suggest that SV2C plays a critical role in mediating PD risk and pathogenesis. To investigate whether SV2C mediates PD outcomes, transgenic Caenorhabditis elegans (C. elegans) expressing human SV2C, human -synuclein, or both, were exposed to the PD-associated neurotoxicants 1-methyl-4-phenylpyridinium (MPP+), rotenone, and paraquat, and evaluated for PD outcomes including lethality and dopamine-mediated motor behavior. Although SV2C-expressing C. elegans showed a shorter lifespan at baseline, SV2C expression conferred organism-level protection against MPP+ and paraquat-induced lethality. While -synuclein expression exacerbated lethality following MPP+ and paraquat exposure, SV2C provided partial rescue of lethality in -synuclein-expressing C. elegans. However, no differences in lethality were observed based on genotype following rotenone exposure. Interestingly, sublethal toxicant exposure did not reveal a protective effect of SV2C expression on motor behavior for any of the toxicants. To determine whether SV2C's modulation of vesicular uptake mediated the protection against lethality from PD-associated neurotoxicants observed in C. elegans, in vitro assays of vesicular dopamine uptake dynamics were performed. SV",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767914v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.20.768184",
+        "title": "Glial involvement in mitochondrial metabolic alterations in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-23",
+        "is_early_access": true,
+        "authors": [
+          "Hirata, K.",
+          "Ono, M.",
+          "Maeda, Y.",
+          "Abe, Y.",
+          "Kono, R.",
+          "Uematsu, A.",
+          "Kobayashi, G.",
+          "Erdogan, H.",
+          "BP, K.",
+          "Dewa, K.-i.",
+          "Motoyoshi, M.",
+          "Nagai, J.",
+          "Shimizu, H.",
+          "Kakita, A.",
+          "Raj, T.",
+          "Uchida, Y.",
+          "Takado, Y."
+        ],
+        "abstract": "Metabolic alterations in the posterior cingulate cortex (PCC) emerge early in Alzheimer's disease (AD), but their molecular and cellular basis remains unclear. We hypothesized that impaired glial energy metabolism, particularly mitochondrial oxidative metabolism in astrocytes, underlies the metabolic vulnerability of the PCC in AD. To test this hypothesis, we integrated human PCC proteomics and transcriptomics with magnetic resonance spectroscopy in AppNL-G-F knock-in (APP-KI) mice. Human proteomic and transcriptomic analyses converged on reduced mitochondrial oxidative-metabolism signatures associated with AD pathology and cognition. APP-KI hippocampus showed proteomic and 1H-MRS alterations resembling those in the human AD PCC. Spatial transcriptomics identified widespread metabolic transcriptional changes and reduced mitochondrial pathway signatures in glia-enriched hippocampal clusters. Hyperpolarized [1-13C]pyruvate spectroscopy showed reduced bicarbonate labelling in APP-KI mice, consistent with impaired oxidative pyruvate metabolism. These findings reveal convergent mitochondrial alterations in human AD and APP-KI mice, implicating glial cells, particularly astrocytes, in the associated dysfunction.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768184v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.21.768278",
+        "title": "Lipidomic Profiling of L1CAM+ Extracellular Vesicles in Parkinson's Disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-23",
+        "is_early_access": true,
+        "authors": [
+          "Abdulsalam, M. A.",
+          "Eylem, C. C.",
+          "Avci, I.",
+          "Yazgi, H.",
+          "Akkulak, M.",
+          "Beyret, C.",
+          "Gonul, H.",
+          "Eskizengin, H.",
+          "Atalar, K.",
+          "Atakay, M.",
+          "Nemutlu, E.",
+          "Salih, B.",
+          "Caglayan, M. G.",
+          "Yilmaz, R.",
+          "Derkus, B."
+        ],
+        "abstract": "Parkinson's disease (PD) lacks minimally invasive biomarkers that reflect neuron-derived molecular alterations. Here, we performed a pilot study for untargeted Liquid Chromatography-Mass Spectrometry (LC-MS)-based lipidomics on serum total extracellular vesicles (tEVs) and L1CAM-enriched EVs (L1CAM+EVs) in patients with PD and healthy controls (n=10 per group; N=40). Partial least squares-discriminant analysis (PLS-DA) separated PD from control samples in both fractions L1CAM+EVs: R2Y = 0.998, Q2 = 0.879; tEVs: R2Y = 0.998, Q2 = 0.876), and distinguished L1CAM+EVs from tEVs within PD samples (R2Y = 0.999, Q2 = 0.925). In PD tEVs, triacylglycerols, fatty acids, phosphatidylcholines, sphingomyelins and phosphatidylserines were increased, and pathway analysis indicated enhanced conversion of phosphatidylcholine (PC) and phosphatidylethanolamine (PE) to phosphatidylserine (PS). In contrast, PD L1CAM+EVs showed increased DG, LPA and PS with reduced LPC; pathway reconstruction indicated enhanced PE-PC-DG and LPC-PC flux with reduced de novo PC and SM synthesis. Within PD, L1CAM+EVs were depleted of multiple sphingomyelin species (e.g., SM 41:2;O3, SM 35:2;O3, SM 41:3;O3) and glycerophospholipids relative to tEVs, whereas SPB 18:0;O2 and FA 16:4 were relatively enriched. These findings indicate that L1CAM-enriched EVs carry a PD-associated lipid signature that is qualitatively distinct from that of controls, supporting their evaluation as a complementary source of neuron-related lipid biomarkers.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.21.768278v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.12.766141",
+        "title": "The adaptor protein DAB2 cell-autonomously links APOE with disease-associated microglia (DAM)/TREM2 state dysregulation associated with Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-23",
+        "is_early_access": true,
+        "authors": [
+          "Salih, D. A.",
+          "Barber, M.",
+          "Andrews, W. D.",
+          "Kubelka, A.",
+          "Singer, H.",
+          "Gavriouchkina, D.",
+          "Blunskyte-Hendley, M.",
+          "Becalick, A.",
+          "Hao, X.",
+          "Birkle, T. J.",
+          "Northeast, R.",
+          "Yaman, U.",
+          "Magusali, N.",
+          "La Penna, S.",
+          "Shazad, Z.",
+          "Chapman, L.",
+          "Siow, R. C.",
+          "Aarsland, D.",
+          "Pocock, J. M.",
+          "Howell, B. W.",
+          "Parnavelas, J.",
+          "Hardy, J."
+        ],
+        "abstract": "The neuron-secreted Reelin (RELN) protein and its adaptor DAB1 modify Alzheimer's disease (AD) risk through genetic interaction with APOE4. While RELN and APOE4 exert antagonistic effects on amyloid and Tau pathology in mice, how risk is conferred in the human brain remains unclear. The related adaptor DAB2 endocytoses RELN/APOE receptors and, via LRP8, modulates non-canonical pro-inflammatory signalling in non-neuronal cells. We hypothesised that RELN and APOE signalling directly influence microglial function to modify AD risk. Integrating human brain transcriptomics, a Reln-deficient mouse, and DAB1/DAB2 knock-down in APOE isogenic iPSC-microglia, we found that microglial DAB1/DAB2 pathways were dynamically regulated across the lifespan, with DAB2 dysregulated with increasing amyloid pathology. DAB2 transcriptional networks correlated with disease- and lipid- associated microglial states (DAM/LDAM) linked to networks expressing dementia-risk loci (TREM2, GRN, ACE, SORL1) and associated with endolysosomal and lipid-handling pathways. DAB2- knockdown cell-autonomously shifted microglia away from gene networks enriched in DAM/TREM2 states and towards pro-inflammatory cytokine-responsive states and TNFNF{kappa}B pathways. APOE4/E4 microglia showed elevated APOE and reduced DAB1pY232 under inflammatory stress, and blunted DAB2-knockdown transcriptomic responses, consistent with pathway-level genetic interaction. In vivo, RELN-deficiency reduced microglial ramification and increased CD68. These findings identify DAB2 as a regulator of microglial state transitions and a modifier of dementia-risk networks linking APOE genotype to inflammatory, phagocytic and amyloid-beta clearance pathways relevant to AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766141v2",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.15.766816",
+        "title": "MK-6240",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-23",
+        "is_early_access": true,
+        "authors": [
+          "Biju, A. P.",
+          "Herrera, J. M.",
+          "McNamara, C. C.",
+          "Hipolito, E. L. M.",
+          "Liang, C.",
+          "Mukherjee, J."
+        ],
+        "abstract": "Flortaucipir and MK-6240 are two tau imaging agents currently in use for measuring neurofibrillary tangle (NFT) progression in Alzheimers disease (AD). The aims of this study were to use postmortem AD and Down syndrome (DS) brain sections to study three issues: (1) Measure binding affinity of flortaucipir and MK-6240 in AD brain sections by using [125I]IPPI; (2) Evaluate the binding characteristics of [18F]flortaucipir in AD, DS and cognitively normal (CN) brains sections and compare them with [18F]MK-6240, and (3) Assess the binding of [18F]flortaucipir in CN and Parkinsons disease (PD) brain sections to identify any off-target binding. The half-maximal inhibition (IC50) of [125I]IPPI bound to anterior cingulate (AC) in AD brain sections for flortaucipir was 2.91 nM and MK-6240 was 5.99 nM. Using frontal cortex (FCX) and temporal cortex (TCX) of AD, DS and CN brain sections, [18F]flortaucipir displayed high levels of binding in the gray matter (GM) of AD and DS. The average ratio of DSAD GM to CN GM was 15.7 in FCX, while DSAD GM to CN GM was 15.2 for the TCX. In the case of AD, average ratio of AD GM to CN GM was 12.4 in FCX, while AD GM to CN GM was 9.5 for the TCX. Binding of [18F]flortaucipir in brain section of AC from CN and PD cases did not exhibit any off-target binding to monoamine oxidase-A (MAO-A). In summary, both flortaucipir and MK-6240 exhibit similar high affinity to tau and [18F]flortaucipir exhibits higher binding compared to [18F]MK-6240 in DSAD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766816v2",
+        "reasons": [
+          "关键词『Alzheimer、Parkinson、tau』(命中abstract)"
         ],
         "is_new": true
       },
