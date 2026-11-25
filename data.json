@@ -1,10 +1,28 @@
 {
-  "date": "2026-11-24",
-  "total": 9,
+  "date": "2026-11-25",
+  "total": 8,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.07.13.738145",
+        "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-24",
+        "is_early_access": true,
+        "authors": [
+          "Ghafari, T.",
+          "Quinn, A. J.",
+          "Jensen, O."
+        ],
+        "abstract": "Subcortical structures contribute to neocortical activity through extensive circuits supporting cognition and behaviour. Although these anatomical connections are well established, how subcortical structure relates to neocortical oscillations remains poorly understood. Previous studies have linked subcortical volume asymmetries to cortical alpha modulation during attention tasks, but whether these relationships extend to spontaneous brain activity remains unclear. Here, we investigated whether hemispheric asymmetries in subcortical volume are associated with lateralised resting-state oscillatory power. We analysed structural MRI and resting-state magnetoencephalography (MEG) data from 532 healthy adults in the Cambridge Centre for Ageing and Neuroscience (CamCAN) cohort, correlating volume asymmetries of seven subcortical structures with MEG power asymmetries across four frequency bands. We found that globus pallidus asymmetry was positively associated with alpha-band power lateralisation, extending previous task-based findings to the resting state. Within the striatum, putamen asymmetry was positively associated with frontal beta-band lateralisation, whereas caudate asymmetry was negatively associated with posterior beta- and delta-band lateralisation. Hippocampal asymmetry was negatively associated with frontal delta-band lateralisation. Despite the complexity of cortico-subcortical connectivity, these findings reveal distinct frequency-specific relationships between subcortical anatomy and spontaneous neocortical activity that align with the established functional roles of these structures. Our results demonstrate that these relationships can be detected non-invasively in resting state without requiring direct recording of deep brain regions, providing a foundation for investigating whether resting-state MEG can identify early functional changes associated with subcortical neurodegeneration.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738145v3",
+        "reasons": [
+          "关键词『neurodegeneration』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.11.20.768142",
         "title": "Chronic evoked seizures differentially worsen cognitive function and long-term neuropsychiatric comorbidities in Alzheimer's disease-related genotypes",
@@ -186,69 +204,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766816v2",
         "reasons": [
           "关键词『Alzheimer、Parkinson、tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.16.766884",
-        "title": "A latent tau amplifier in the neuronal proteome lowers the seeding threshold for Alzheimers disease pathology",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-22",
-        "is_early_access": true,
-        "authors": [
-          "Tsaka, G.",
-          "Kolla, R.",
-          "Wiedmer, A. E.",
-          "Georgilis, A.",
-          "Kenis, S.",
-          "Van der Hoeven, G.",
-          "Claes, F.",
-          "Khodaparast, L.",
-          "Khodaparast, L.",
-          "Lahaije, B.",
-          "Tome, S. O.",
-          "Muwonge, K.",
-          "Duran, R.",
-          "Vandenberghe, R.",
-          "von Arnim, C. A. F.",
-          "Louros, N.",
-          "Thal, D. R.",
-          "Rousseau, F.",
-          "Schymkowitz, J."
-        ],
-        "abstract": "The stereotyped spread of tau pathology through connected brain regions is accompanied by striking differences in the vulnerability of individual neuronal populations, pointing to cell-intrinsic determinants of susceptibility. Using a combination of computational APR analysis, in vitro and cellular aggregation assays, and quantitative proteomics of human postmortem brain, we identify the splicing factor TRA2B as an endogenous modifier of this susceptibility. TRA2B enhances the activity of patient-derived tau seeds, promotes tau pathology in vivo, and progressively redistributes from the nucleus into insoluble tau-associated material in Alzheimers disease brain. Mechanistically, TRA2B contains two aggregation-prone regions (APRs) homologous to tau nucleation sites that are required for tau interaction and seeding enhancement. Yet this activity is not constitutive: isolated TRA2B APRs promote aggregation, whereas the full-length protein can inhibit, amplify or have little effect on tau aggregation depending on protein state and seeding context. Perturbation of the regulatory RS2 region switches TRA2B away from its amplifying state, revealing that its sequence-encoded aggregation potential is regulatable. Thus, TRA2B acts as a latent tau amplifier, providing a mechanism by which the neuronal proteome can tune cellular susceptibility to the propagation of pathological tau.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766884v1",
-        "reasons": [
-          "关键词『Alzheimer、tau』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.04.14.717551",
-        "title": "The exocyst is an insulin-sensitive regulator of amyloid precursor protein trafficking and amyloid-beta generation in neurons",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-22",
-        "is_early_access": true,
-        "authors": [
-          "Balaan, C.",
-          "Patwardhan, G. Y.",
-          "Sachs, R. K.",
-          "Kumasaka, H.",
-          "Sadagopan, S.",
-          "Aou, S.",
-          "Lee, A. J.",
-          "Nelson, L. T.",
-          "Hew, B. E.",
-          "Owens, J. B.",
-          "Polgar, N.",
-          "Ortega, M. A.",
-          "Nichols, R. A.",
-          "Fogelgren, B."
-        ],
-        "abstract": "Intracellular trafficking of amyloid precursor protein (APP) critically influences amyloidogenic processing, yet the mechanisms regulating this pathway remain incompletely defined. The exocyst is a highly conserved, insulin-responsive, eight-protein Rab effector complex that directs intracellular transport vesicle targeting and docking. We identified APP in a proteomics screen of neuronal cell surface proteins altered following chemical inhibition of exocyst activity. In SH-SY5Y cells expressing an APP mutant that enhances amyloidogenic processing, RNAi-mediated silencing of exocyst subunits significantly decreased sAPP and A{beta} secretion, accompanied by intracellular APP accumulation. High-resolution microscopy revealed APP colocalization with exocyst subunits in the soma and neurites of differentiated SH-SY5Y neurons and primary mouse hippocampal neurons. Live-cell TIRF microscopy demonstrated coordinated movement of fluorescently tagged exocyst and APP proteins. Proximity ligation assays (PLAs) confirmed close (<40nm) APP-EXOC5 association in differentiated SH-SY5Y neurons, primary mouse hippocampal neurons, and histological sections of mouse brain. To examine whether insulin regulates neuronal exocyst activity, as in adipocytes and muscle, we generated SH-SY5Y cells expressing pHluorin-tagged GLUT4. Using this model, we found that chemical inhibition of exocyst activity prevented insulin-stimulated GLUT4 exocytosis to the plasma membrane. Furthermore, PLAs in both primary hippocampal and SH-SY5Y neurons revealed that insulin increased GLUT4-EXOC5 associations while markedly reducing APP-EXOC5 associations. These findings suggest that insulin signaling redirects the exocyst away from APP-positive vesicles towards GLUT-positive vesicles. Together, our data identify the exocyst as a novel insulin-regulated mediator of neuronal APP trafficking and A{beta} secretion.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.717551v2",
-        "reasons": [
-          "关键词『amyloid』(命中title)"
         ],
         "is_new": true
       }
