@@ -1,10 +1,80 @@
 {
-  "date": "2026-11-25",
-  "total": 8,
+  "date": "2026-11-26",
+  "total": 4,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.24.768969",
+        "title": "Linking Molecular Changes in the Hypothalamus to Alzheimer's Disease Phenotypes",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-25",
+        "is_early_access": true,
+        "authors": [
+          "Algoo, J.",
+          "Kaczorowski, C. C.",
+          "Dunn, A. R.",
+          "Menon, V.",
+          "O'Connell, K. M. S."
+        ],
+        "abstract": "In many individuals with Alzheimer's disease (AD), sleep disruption and weight loss emerge years before the onset of memory decline and dementia. However, the cellular and molecular bases of these early events are not well understood. The hypothalamus is a critical brain region for the regulation of these behaviors, but its response to amyloid has not been systematically characterized. We performed single-nucleus RNA sequencing to generate transcriptomic profiles of 1.1 million nuclei across the hypothalamus from 10 genetic backgrounds of the AD-BXD genetic reference panel spanning two ages and both sexes, including age-matched controls. Amyloid was associated with widespread, sex-biased molecular changes across diverse cell classes, including elevated neuroinflammatory signatures in microglia and astrocytes, upregulated ion transport pathways across barrier-associated cell types, and sex- and age-dependent changes to primary ciliary pathways in Glp1r+/Lepr+, Histaminergic, and Hcrt+ neuronal populations. Two metabolism-related populations showed differential expression exclusively in one sex: Glp1r+/Lepr+ neurons in females and Gpr50+ neurons in males. Several findings were conserved in analysis of human hypothalamus snRNAseq data, including reduced expression of TGF-{beta} pathway genes in medial mammillary body neurons and increased relative abundance of reactive Serpina3n+/YKL-40 astrocytes. This atlas provides a cellular framework for understanding the early, non-cognitive symptoms of AD and identifies several hypothalamic cell-type specific pathways that represent potential targets for therapeutic intervention.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768969v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.24.769018",
+        "title": "An Open, Evolving Brain and Cognitive Aging Simulator Enabled by Agentic Artificial Intelligence",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-25",
+        "is_early_access": true,
+        "authors": [
+          "Buckner, R. L.",
+          "Walhovd, K. B.",
+          "Fjell, A. M.",
+          "Sperling, R. A.",
+          "Blacker, D.",
+          "Rogalski, E. J.",
+          "Hyman, B.",
+          "Nyberg, L."
+        ],
+        "abstract": "An agentic AI simulator was built to advance our understanding about how the human brain and cognition change with age. The simulator generates worlds based on hypothesized age-linked cascades and then simulates studies across varied experimental designs and selection criteria. Each simulated world begins with 120,000 individual lives initiated by baseline parameters (e.g., genetic risk, birth year) and then changed by age-dependent cascades (e.g., amyloid-dependent, cardiovascular). Examples illustrate how the simulator predicts distinct data patterns in cross-sectional versus longitudinal designs, how alternative participant selection strategies emphasize baseline differences versus age-related decline, and how variable levels of association emerge between brain and cognition dependent upon design choices. Simulations of clinical trials provide information about design, power, and outcome considerations. Experiments on alternative simulated worlds evaluate how well hypothesized cascades accommodate real-world data patterns, capturing the insights and open puzzles inside the application. Most critically, the application is built to evolve. Its code contains a complete description of how to construct and update itself so that any person or AI agent can explore a new finding, recalibrate to emerging data, or build and simulate a novel future study. The simulator is offered as a tool for understanding data patterns, teaching, and generation of hypotheses to be tested in future studies using real-world data collection.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.769018v1",
+        "reasons": [
+          "关键词『amyloid』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2021.09.06.459209",
+        "title": "Neural mechanisms by which spaced learning promotes understanding",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-25",
+        "is_early_access": true,
+        "authors": [
+          "Liang, Y.",
+          "He, Y.",
+          "Cheng, Z.",
+          "Li, Y.",
+          "Liu, L.",
+          "Wu, Y.",
+          "Sun, Y.",
+          "Ren, F.",
+          "Shuai, M.",
+          "Luo, W.",
+          "Yang, X.",
+          "Zhang, L."
+        ],
+        "abstract": "Spaced learning reliably improves memory. A few studies suggest it also benefits understanding and problem solving, but none has examined the neural mechanism. We hypothesised that this benefit arises because spacing changes the memory trace rather than merely strengthening it. To test this, we taught participants how unfamiliar words meanings could be derived from familiar parts: meaningful rather than rote learning. Each participant learned words in one session, or in two sessions about 2 h (massed) or 48 h (spaced) apart, to the same criterion; one-session words served as the reference. A common interval separated the last session from a delayed test with electroencephalography (EEG). Immediately after learning, self-rated understanding did not differ between schedules, yet under spacing participants revised more of their written test responses between sessions (35% versus 25%). At the delayed test, the spacing effect appeared: recognition was higher and self-rated explanatory retrieval more fluent after spaced than after massed learning. At the neural level, late-retrieval EEG patterns for remembered words were less similar to the reference after spaced than after massed learning, over right frontocentral and temporal sensors. In partly overlapping sensors and windows, lower similarity was statistically associated with a larger fluency advantage, suggesting that the change is directed rather than random. Behavioural evidence hinted at convergence across learners: between sessions, revisions under spacing were smaller and moved responses toward those of others. Together, these findings suggest that spacing changes the memory trace rather than merely strengthening it, in a direction linked to self-rated understanding.\n\nSignificance StatementSpacing out study helps memory, but any benefit for understanding may not show when study ends. Each learner studied how familiar parts explained unfamiliar words meanings, revisiting some after about two hours and others after",
+        "url": "https://www.biorxiv.org/content/10.1101/2021.09.06.459209v6",
+        "reasons": [
+          "关键词『tau』(命中abstract)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.07.13.738145",
         "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
@@ -20,190 +90,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738145v3",
         "reasons": [
           "关键词『neurodegeneration』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.20.768142",
-        "title": "Chronic evoked seizures differentially worsen cognitive function and long-term neuropsychiatric comorbidities in Alzheimer's disease-related genotypes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-23",
-        "is_early_access": true,
-        "authors": [
-          "Knox, K.",
-          "Fang, J.",
-          "Davidson, S.",
-          "Barker-Haliski, M."
-        ],
-        "abstract": "Variants in one of three deterministic risk genes - amyloid precursor protein (APP), presenilin 1 (PSEN1), or presenilin 2 (PSEN2) - lead to early-onset Alzheimer's disease (EOAD), which also carries a high risk of spontaneous seizures. Seizures may worsen AD-related behavioral comorbidities, including depression, anxiety, and cognitive impairment. Using the corneal kindling model of secondarily generalized focal seizures in two distinct aged male and female EOAD-associated mouse models, we assessed the interaction between investigator-initiated chronic seizures and EOAD genotype on AD-related behavioral comorbidities. Genotypes were selected to model amyloid-b; independent and dependent AD risk factors and included: PSEN2-N141I (amyloid-b; independent model) versus wild-type (PSEN2 control) mice, and APP/PS1 (amyloid-b dependent model) versus wild-type littermates (Tg-). Sham and fully kindled mice then underwent behavioral assessment in the saccharin preference test of anhedonia-like behavior, the Barnes maze test of spatial learning and memory, and a 67-hour home cage monitoring of circadian activity. EOAD genotype only significantly affected kindling acquisition of aged APP/PS1 females. However, there was no significant genotype or kindling effect on saccharin preference, suggesting no adverse impact on anhedonia-like behavior. Cognitive performance in the Barnes maze was significantly worsened by seizures exclusively in APP/PS1 female mice. However, seizures generally worsened Barnes maze performance of male PSEN2-N141I and PSEN2 control mice. Finally, chronic seizures consistently worsened exploratory behavior patterns during home cage circadian activity monitoring exclusively in APP/PS1 male and female mice. This study reveals the AD-related heterogeneity of seizure-evoked behavioral consequences on spatial working memory and circadian behaviors.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768142v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.20.766782",
-        "title": "Identification of a human Anxa1-associated dopaminergic population linked to Parkinson's disease vulnerability and sensorimotor putaminal networks",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-23",
-        "is_early_access": true,
-        "authors": [
-          "Schonfeld, E.",
-          "Baliki, M. N.",
-          "Monje, M. H. G.",
-          "Yaghmaeian Salmani, B.",
-          "Perlmann, T.",
-          "Hnasko, T. S.",
-          "Poulin, J.-F.",
-          "Apkarian, A. V.",
-          "Surmeier, D. J.",
-          "Dombeck, D. A.",
-          "Awatramani, R."
-        ],
-        "abstract": "The selective loss of dopaminergic (DA) neurons drives motor symptoms of Parkinson's disease (PD). In mice, Anxa1+ SNc DA neurons are highly vulnerable in PD models, project to the dorsolateral striatum, and display movement-correlated activity, yet they lack clearly defined human counterparts. We transfer the mouse taxonomy to human using a hierarchical mixture-of-experts model, recovering a human Anxa1-associated population. We find that this was the most depleted subtype in PD brains. A ligand-receptor algorithm, validated against mouse tracing, infers that these neurons preferentially innervate the caudal putamen. There, DaT-SPECT shows the earliest and most severe DA axon loss in PD. Functional connectivity positions this region as a critical node within the somato-cognitive action network, linking DA neuron vulnerability to circuit dysfunction. To translate these insights, we present an interactive portal unifying human datasets with a cross-species FDA Drug Atlas, nominating CACNA1G as a candidate neuroprotective target for the Anxa1-associated population.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.766782v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.20.767914",
-        "title": "Modulation of genetic- and toxicant-induced Parkinson's disease outcomes by SV2C in C. elegans",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-23",
-        "is_early_access": true,
-        "authors": [
-          "Knickerbocker, A. C.",
-          "Chung, H.",
-          "Miller, G. W.",
-          "Bucher, M. L."
-        ],
-        "abstract": "Several proteins involved in dopaminergic neurotransmission have been implicated in Parkinson's disease (PD), including synaptic vesicle glycoprotein 2C (SV2C). At least seven SNPs in SV2C are associated with PD, including variants that modify: PD risk, PD risk in GBA carriers, PD severity, contribution of environmental factors (e.g., nicotine) to PD, and PD patient response to L-DOPA and dopamine therapies. Although the specific function of SV2C remains unknown, there is significant evidence supporting a role of SV2C in mediating vesicular dopamine content, vesicular trafficking, and neurotransmitter release. Furthermore, SV2C directly associates with -synuclein and mediates the content of neurotoxicants within synaptic vesicles. Taken together, these data suggest that SV2C plays a critical role in mediating PD risk and pathogenesis. To investigate whether SV2C mediates PD outcomes, transgenic Caenorhabditis elegans (C. elegans) expressing human SV2C, human -synuclein, or both, were exposed to the PD-associated neurotoxicants 1-methyl-4-phenylpyridinium (MPP+), rotenone, and paraquat, and evaluated for PD outcomes including lethality and dopamine-mediated motor behavior. Although SV2C-expressing C. elegans showed a shorter lifespan at baseline, SV2C expression conferred organism-level protection against MPP+ and paraquat-induced lethality. While -synuclein expression exacerbated lethality following MPP+ and paraquat exposure, SV2C provided partial rescue of lethality in -synuclein-expressing C. elegans. However, no differences in lethality were observed based on genotype following rotenone exposure. Interestingly, sublethal toxicant exposure did not reveal a protective effect of SV2C expression on motor behavior for any of the toxicants. To determine whether SV2C's modulation of vesicular uptake mediated the protection against lethality from PD-associated neurotoxicants observed in C. elegans, in vitro assays of vesicular dopamine uptake dynamics were performed. SV",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767914v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.20.768184",
-        "title": "Glial involvement in mitochondrial metabolic alterations in Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-23",
-        "is_early_access": true,
-        "authors": [
-          "Hirata, K.",
-          "Ono, M.",
-          "Maeda, Y.",
-          "Abe, Y.",
-          "Kono, R.",
-          "Uematsu, A.",
-          "Kobayashi, G.",
-          "Erdogan, H.",
-          "BP, K.",
-          "Dewa, K.-i.",
-          "Motoyoshi, M.",
-          "Nagai, J.",
-          "Shimizu, H.",
-          "Kakita, A.",
-          "Raj, T.",
-          "Uchida, Y.",
-          "Takado, Y."
-        ],
-        "abstract": "Metabolic alterations in the posterior cingulate cortex (PCC) emerge early in Alzheimer's disease (AD), but their molecular and cellular basis remains unclear. We hypothesized that impaired glial energy metabolism, particularly mitochondrial oxidative metabolism in astrocytes, underlies the metabolic vulnerability of the PCC in AD. To test this hypothesis, we integrated human PCC proteomics and transcriptomics with magnetic resonance spectroscopy in AppNL-G-F knock-in (APP-KI) mice. Human proteomic and transcriptomic analyses converged on reduced mitochondrial oxidative-metabolism signatures associated with AD pathology and cognition. APP-KI hippocampus showed proteomic and 1H-MRS alterations resembling those in the human AD PCC. Spatial transcriptomics identified widespread metabolic transcriptional changes and reduced mitochondrial pathway signatures in glia-enriched hippocampal clusters. Hyperpolarized [1-13C]pyruvate spectroscopy showed reduced bicarbonate labelling in APP-KI mice, consistent with impaired oxidative pyruvate metabolism. These findings reveal convergent mitochondrial alterations in human AD and APP-KI mice, implicating glial cells, particularly astrocytes, in the associated dysfunction.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768184v1",
-        "reasons": [
-          "关键词『Alzheimer』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.21.768278",
-        "title": "Lipidomic Profiling of L1CAM+ Extracellular Vesicles in Parkinson's Disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-23",
-        "is_early_access": true,
-        "authors": [
-          "Abdulsalam, M. A.",
-          "Eylem, C. C.",
-          "Avci, I.",
-          "Yazgi, H.",
-          "Akkulak, M.",
-          "Beyret, C.",
-          "Gonul, H.",
-          "Eskizengin, H.",
-          "Atalar, K.",
-          "Atakay, M.",
-          "Nemutlu, E.",
-          "Salih, B.",
-          "Caglayan, M. G.",
-          "Yilmaz, R.",
-          "Derkus, B."
-        ],
-        "abstract": "Parkinson's disease (PD) lacks minimally invasive biomarkers that reflect neuron-derived molecular alterations. Here, we performed a pilot study for untargeted Liquid Chromatography-Mass Spectrometry (LC-MS)-based lipidomics on serum total extracellular vesicles (tEVs) and L1CAM-enriched EVs (L1CAM+EVs) in patients with PD and healthy controls (n=10 per group; N=40). Partial least squares-discriminant analysis (PLS-DA) separated PD from control samples in both fractions L1CAM+EVs: R2Y = 0.998, Q2 = 0.879; tEVs: R2Y = 0.998, Q2 = 0.876), and distinguished L1CAM+EVs from tEVs within PD samples (R2Y = 0.999, Q2 = 0.925). In PD tEVs, triacylglycerols, fatty acids, phosphatidylcholines, sphingomyelins and phosphatidylserines were increased, and pathway analysis indicated enhanced conversion of phosphatidylcholine (PC) and phosphatidylethanolamine (PE) to phosphatidylserine (PS). In contrast, PD L1CAM+EVs showed increased DG, LPA and PS with reduced LPC; pathway reconstruction indicated enhanced PE-PC-DG and LPC-PC flux with reduced de novo PC and SM synthesis. Within PD, L1CAM+EVs were depleted of multiple sphingomyelin species (e.g., SM 41:2;O3, SM 35:2;O3, SM 41:3;O3) and glycerophospholipids relative to tEVs, whereas SPB 18:0;O2 and FA 16:4 were relatively enriched. These findings indicate that L1CAM-enriched EVs carry a PD-associated lipid signature that is qualitatively distinct from that of controls, supporting their evaluation as a complementary source of neuron-related lipid biomarkers.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.21.768278v1",
-        "reasons": [
-          "关键词『Parkinson』(命中title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.12.766141",
-        "title": "The adaptor protein DAB2 cell-autonomously links APOE with disease-associated microglia (DAM)/TREM2 state dysregulation associated with Alzheimer's disease",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-23",
-        "is_early_access": true,
-        "authors": [
-          "Salih, D. A.",
-          "Barber, M.",
-          "Andrews, W. D.",
-          "Kubelka, A.",
-          "Singer, H.",
-          "Gavriouchkina, D.",
-          "Blunskyte-Hendley, M.",
-          "Becalick, A.",
-          "Hao, X.",
-          "Birkle, T. J.",
-          "Northeast, R.",
-          "Yaman, U.",
-          "Magusali, N.",
-          "La Penna, S.",
-          "Shazad, Z.",
-          "Chapman, L.",
-          "Siow, R. C.",
-          "Aarsland, D.",
-          "Pocock, J. M.",
-          "Howell, B. W.",
-          "Parnavelas, J.",
-          "Hardy, J."
-        ],
-        "abstract": "The neuron-secreted Reelin (RELN) protein and its adaptor DAB1 modify Alzheimer's disease (AD) risk through genetic interaction with APOE4. While RELN and APOE4 exert antagonistic effects on amyloid and Tau pathology in mice, how risk is conferred in the human brain remains unclear. The related adaptor DAB2 endocytoses RELN/APOE receptors and, via LRP8, modulates non-canonical pro-inflammatory signalling in non-neuronal cells. We hypothesised that RELN and APOE signalling directly influence microglial function to modify AD risk. Integrating human brain transcriptomics, a Reln-deficient mouse, and DAB1/DAB2 knock-down in APOE isogenic iPSC-microglia, we found that microglial DAB1/DAB2 pathways were dynamically regulated across the lifespan, with DAB2 dysregulated with increasing amyloid pathology. DAB2 transcriptional networks correlated with disease- and lipid- associated microglial states (DAM/LDAM) linked to networks expressing dementia-risk loci (TREM2, GRN, ACE, SORL1) and associated with endolysosomal and lipid-handling pathways. DAB2- knockdown cell-autonomously shifted microglia away from gene networks enriched in DAM/TREM2 states and towards pro-inflammatory cytokine-responsive states and TNFNF{kappa}B pathways. APOE4/E4 microglia showed elevated APOE and reduced DAB1pY232 under inflammatory stress, and blunted DAB2-knockdown transcriptomic responses, consistent with pathway-level genetic interaction. In vivo, RELN-deficiency reduced microglial ramification and increased CD68. These findings identify DAB2 as a regulator of microglial state transitions and a modifier of dementia-risk networks linking APOE genotype to inflammatory, phagocytic and amyloid-beta clearance pathways relevant to AD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766141v2",
-        "reasons": [
-          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.15.766816",
-        "title": "MK-6240",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-23",
-        "is_early_access": true,
-        "authors": [
-          "Biju, A. P.",
-          "Herrera, J. M.",
-          "McNamara, C. C.",
-          "Hipolito, E. L. M.",
-          "Liang, C.",
-          "Mukherjee, J."
-        ],
-        "abstract": "Flortaucipir and MK-6240 are two tau imaging agents currently in use for measuring neurofibrillary tangle (NFT) progression in Alzheimers disease (AD). The aims of this study were to use postmortem AD and Down syndrome (DS) brain sections to study three issues: (1) Measure binding affinity of flortaucipir and MK-6240 in AD brain sections by using [125I]IPPI; (2) Evaluate the binding characteristics of [18F]flortaucipir in AD, DS and cognitively normal (CN) brains sections and compare them with [18F]MK-6240, and (3) Assess the binding of [18F]flortaucipir in CN and Parkinsons disease (PD) brain sections to identify any off-target binding. The half-maximal inhibition (IC50) of [125I]IPPI bound to anterior cingulate (AC) in AD brain sections for flortaucipir was 2.91 nM and MK-6240 was 5.99 nM. Using frontal cortex (FCX) and temporal cortex (TCX) of AD, DS and CN brain sections, [18F]flortaucipir displayed high levels of binding in the gray matter (GM) of AD and DS. The average ratio of DSAD GM to CN GM was 15.7 in FCX, while DSAD GM to CN GM was 15.2 for the TCX. In the case of AD, average ratio of AD GM to CN GM was 12.4 in FCX, while AD GM to CN GM was 9.5 for the TCX. Binding of [18F]flortaucipir in brain section of AC from CN and PD cases did not exhibit any off-target binding to monoamine oxidase-A (MAO-A). In summary, both flortaucipir and MK-6240 exhibit similar high affinity to tau and [18F]flortaucipir exhibits higher binding compared to [18F]MK-6240 in DSAD.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766816v2",
-        "reasons": [
-          "关键词『Alzheimer、Parkinson、tau』(命中abstract)"
         ],
         "is_new": true
       }
