@@ -1,10 +1,102 @@
 {
-  "date": "2026-11-26",
-  "total": 4,
+  "date": "2026-11-27",
+  "total": 7,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.23.766131",
+        "title": "Nanobody-guided proximity proteomics reveals conformationally encoded molecular neighborhoods of LRRK2",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-26",
+        "is_early_access": true,
+        "authors": [
+          "Riebenbauer, B.",
+          "Hoffmann, F.",
+          "Galicia, C.",
+          "Ragazzini, A.",
+          "Raimondi, F.",
+          "Boldt, K.",
+          "Versees, W.",
+          "Gloeckner, C. J."
+        ],
+        "abstract": "Leucine-rich repeat kinase 2 (LRRK2) is a multidomain signaling protein implicated in Parkinson's disease whose activity is closely linked to conformational state. How these structural transitions shape the cellular molecular environment of LRRK2 remains poorly understood. Here, we combined nanobody-mediated conformational control with miniTurbo proximity proteomics to define molecular neighborhoods associated with inhibitory, neutral, and activating LRRK2 states. Structural modeling suggested that the activating nanobody Nb22 targets the WD40 domain and destabilizes interactions maintaining the autoinhibited conformation. Consistent with this model, activation was accompanied by ordered, reciprocal remodeling of the LRRK2 proximity proteome, with progressive enrichment of centrosomal, ciliary, and RAB/endolysosomal machinery and depletion of soluble cytosolic, proteostasis-associated and 14-3-3 proteins. Notably, the Nb22-associated proteome combined centrosomal and endolysosomal components previously linked to distinct LRRK2 signaling environments. These findings support a model in which conformational transitions reorganize the spatial molecular neighborhood of LRRK2 and thereby couple kinase state to distinct cellular signaling networks.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.766131v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2024.10.11.617939",
+        "title": "Striatal lateral inhibition regulates abnormal movements in a mouse model of levodopa-induced dyskinesia",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-26",
+        "is_early_access": true,
+        "authors": [
+          "Twedell, E. L.",
+          "Barnhill, O. K.",
+          "Bair-Marshall, C. J.",
+          "Girasole, A. E.",
+          "Scaria, L. K.",
+          "Sridhar, S.",
+          "Nelson, A. B."
+        ],
+        "abstract": "Striatal medium spiny neurons (MSNs) integrate convergent cortical, thalamic, and dopaminergic inputs to shape motor output. In addition, MSNs form local inhibitory synaptic connections with one another. Striatal lateral inhibition may contribute to the regulation of motor output, but its role in pathological motor function remains incompletely understood. Disruptions in motor function characterize several movement disorders, including levodopa-induced dyskinesia (LID), a complication of Parkinsons disease (PD) therapy characterized by involuntary movements. Here, we identify chronic changes in the strength of striatal lateral inhibitory synapses in a mouse model of PD/LID. These synapses are also modulated by acute dopamine signaling. Chemogenetic suppression of lateral inhibition originating from dopamine D2 receptor-expressing MSNs lowers the threshold for the expression of involuntary movements in vivo. Together, these findings identify a contribution of striatal lateral inhibition to motor dysfunction and suggest a broader role for this microcircuit in regulating motor output.",
+        "url": "https://www.biorxiv.org/content/10.1101/2024.10.11.617939v4",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.1101/2025.05.21.655189",
+        "title": "Estradiol enhances sensory-evoked dilation of cortical penetrating arterioles in a mouse model of menopause despite pre-existing metabolic dysfunction",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-26",
+        "is_early_access": true,
+        "authors": [
+          "Plumley, Z. M.",
+          "Calvo Iglesias, J.",
+          "Fernandez Ugidos, I.",
+          "Walker, A. B.",
+          "Pires dos Santos, I.",
+          "Taylor, H.",
+          "Ruscher, J. B.",
+          "Mostany, R."
+        ],
+        "abstract": "Estrogen loss during menopause is a risk factor for cardiometabolic and neurovascular dysfunction, cognitive decline, and Alzheimers disease. Rodent studies of menopause have shown neuroprotective effects of 17{beta}-estradiol (E2) treatment when administered within a critical period, though these benefits have not been fully demonstrated in clinical trials of hormone therapy. A proposed explanation for this mismatch is the \"healthy cell bias,\" where estrogen is only beneficial when initiated in physiologically intact systems. Our study investigates whether pre-existing metabolic dysfunction attenuates the effects of E2 on neurovascular coupling (NVC) in a rodent model of menopause. Female mice were fed 11 weeks of high-fat diet (HFD) or control diet (CD) to induce metabolic disease, followed by ovariectomy (OVX) and E2 or vehicle (Veh) treatment. NVC was assessed in awake mice using two-photon laser scanning microscopy of penetrating arterioles (PAs) in the somatosensory cortex, barrel field. Mice developed glucose intolerance and increased adiposity yet displayed intact NVC following HFD exposure, and subsequent OVX impaired NVC irrespective of metabolic health status. However, E2 treatment enhanced NVC responses regardless of diet relative to controls. These results indicate that estrogens effects on NVC are preserved in HFD+OVX conditions, which has implications for the use of hormone therapy in individuals that arrive at the menopause transition with pre-existing cardiometabolic disease.",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655189v2",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.08.03.742448",
+        "title": "Age-dependent brain pigmentation drives early neuroinflammatory molecular signatures linked to neurodegeneration",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-26",
+        "is_early_access": true,
+        "authors": [
+          "Penuelas, N.",
+          "Xicoy, H.",
+          "Lorente-Picon, M.",
+          "Nicolau-Vera, A.",
+          "Parent, A.",
+          "Gonzalez-Sepulveda, M.",
+          "Hoyo, J.",
+          "Laguna, A.",
+          "Vila, M."
+        ],
+        "abstract": "Background: Neuromelanin (NM) is a pigment that progressively accumulates with age in catecholaminergic neurons, particularly in the substantia nigra, ventral tegmental area, and locus coeruleus. These neuronal populations are especially vulnerable to degeneration in Parkinson s disease (PD). Elevated intracellular NM levels have been linked to neurodegeneration and PD-like phenotypes in experimental models. However, the molecular mechanisms underlying NM-induced pathology remain poorly understood, as human studies cannot disentangle the specific effects of NM accumulation from those of normal aging. Methods: We performed transcriptomic microarray analysis on laser-captured catecholaminergic neurons and regions (substantia nigra, ventral tegmental area, locus coeruleus) from NM-producing transgenic mice (tgNM) and NM-free wild-type controls across different ages, and compared them to data from postmortem human brain tissue. One of the molecular targets identified, GPNMB, was validated in mouse and human tissue, and functionally tested in vivo. Results: We identified region- and age-dependent transcriptional changes associated with progressive NM accumulation. NM consistently upregulated neuroinflammatory pathways with enrichment of disease-associated microglial genes, while downregulating transcription, translation, and mitochondrial functions. Locus coeruleus exhibited the earliest and strongest transcriptional alterations, whereas substantia nigra and ventral tegmental area showed a later-onset, age-progressive transcriptional dysfunction. Neuron-specific analyses revealed that many changes originated within NM-containing neurons rather than being solely glial-driven. NM-driven transcriptional profiles in mice strongly correlated with postmortem data from PD patients, underscoring their translational relevance. Among molecular targets, the glycoprotein GPNMB was consistently upregulated in NM-containing neurons and validated at RNA and protein levels in both NM-pr",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742448v2",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.11.24.768969",
         "title": "Linking Molecular Changes in the Hypothalamus to Alzheimer's Disease Phenotypes",
@@ -72,24 +164,6 @@
         "url": "https://www.biorxiv.org/content/10.1101/2021.09.06.459209v6",
         "reasons": [
           "关键词『tau』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.07.13.738145",
-        "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-24",
-        "is_early_access": true,
-        "authors": [
-          "Ghafari, T.",
-          "Quinn, A. J.",
-          "Jensen, O."
-        ],
-        "abstract": "Subcortical structures contribute to neocortical activity through extensive circuits supporting cognition and behaviour. Although these anatomical connections are well established, how subcortical structure relates to neocortical oscillations remains poorly understood. Previous studies have linked subcortical volume asymmetries to cortical alpha modulation during attention tasks, but whether these relationships extend to spontaneous brain activity remains unclear. Here, we investigated whether hemispheric asymmetries in subcortical volume are associated with lateralised resting-state oscillatory power. We analysed structural MRI and resting-state magnetoencephalography (MEG) data from 532 healthy adults in the Cambridge Centre for Ageing and Neuroscience (CamCAN) cohort, correlating volume asymmetries of seven subcortical structures with MEG power asymmetries across four frequency bands. We found that globus pallidus asymmetry was positively associated with alpha-band power lateralisation, extending previous task-based findings to the resting state. Within the striatum, putamen asymmetry was positively associated with frontal beta-band lateralisation, whereas caudate asymmetry was negatively associated with posterior beta- and delta-band lateralisation. Hippocampal asymmetry was negatively associated with frontal delta-band lateralisation. Despite the complexity of cortico-subcortical connectivity, these findings reveal distinct frequency-specific relationships between subcortical anatomy and spontaneous neocortical activity that align with the established functional roles of these structures. Our results demonstrate that these relationships can be detected non-invasively in resting state without requiring direct recording of deep brain regions, providing a foundation for investigating whether resting-state MEG can identify early functional changes associated with subcortical neurodegeneration.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738145v3",
-        "reasons": [
-          "关键词『neurodegeneration』(命中abstract)"
         ],
         "is_new": true
       }
