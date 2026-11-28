@@ -1,10 +1,504 @@
 {
-  "date": "2026-11-27",
-  "total": 7,
+  "date": "2026-11-28",
+  "total": 20,
   "feeds": {
     "突触与学习记忆": [],
     "神经环路与行为": [],
     "神经退行性疾病": [
+      {
+        "doi": "10.64898/2026.11.11.766001",
+        "title": "Sex-Related Associations Between Precuneus Volume and Subjective-Objective Memory Discrepancy in Amyloid-Positive Individuals",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Akzam-Ouellette, M.-A.",
+          "Fonov, V.",
+          "Rajabli, R.",
+          "Sharp, M.",
+          "Collins, D. L.",
+          "the Alzheimers Disease Neuroimaging Initiative,"
+        ],
+        "abstract": "INTRODUCTIONThe precuneus, a metamemory-related parietal region with sex-specific vulnerability in Alzheimers disease (AD), may contribute to reduced insight of memory deficit. We investigated whether precuneus structural integrity explained sex differences in subjective-objective memory discrepancy.\n\nMETHODSPrecuneus volumes, as well as three other control regions, were acquired in 350 A{beta}+ and 310 A{beta}-participants from the ADNI dataset to quantify within-individual changes in subjective-objective memory discrepancy across AD progression.\n\nRESULTSA{beta}+ participants exhibited steeper objective memory decline ({beta} = -0.446, p < 0.001) despite stable subjective complaints ({beta} = -0.027, p = 0.587), resulting in a widening subjective-objective memory discrepancy ({beta} = 0.317, p < 0.001). In this group, only precuneus atrophy showed a sex-dependent association with discrepancy ({beta} = 0.508, p = 0.002), a finding absent in the A{beta}- group or other brain regions.\n\nDISCUSSIONThe precuneus represents a neuroanatomical substrate associated with sex-related differences in metacognitive vulnerability in A{beta}+ individuals.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.766001v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.09.765323",
+        "title": "Global weight-Ranked cluster-grOWing (GROW): A Cluster-Growing Framework for Robust Functional Coordinate Network Mapping",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Liu, Y.",
+          "Fu, X.",
+          "Wang, X.",
+          "Wei, X.",
+          "Zhang, H.",
+          "Dong, H.",
+          "Luo, Y.",
+          "Lin, L.",
+          "Dong, Q.",
+          "Zhang, X.",
+          "Zhao, Z.",
+          "Liu, J.",
+          "Zhang, S.",
+          "Cao, X.",
+          "Ma, Q.",
+          "Kou, M.",
+          "Ding, H.",
+          "Yu, C.",
+          "Zhang, N.",
+          "Zhang, Y.",
+          "Qin, W."
+        ],
+        "abstract": "Coordinate Network Mapping (CNM) has become an important approach for translating scattered neuroimaging findings into circuit-level models of brain disorders such as Alzheimers disease (AD). But conventional CNM uses fixed-radius spheres and pools heterogeneous studies without accounting for confounders. We developed Global weight-Ranked cluster-grOWing (GROW), which reconstructs clusters behind reported peaks using cluster information and a reference statistical weight map, without original imaging data. We analyzed data from 521 participants and 69 published studies (82 experiments, 5,555 participants). GROW-CNM was compared with fixed-radius CNM (Fixed-CNM) in spatial fidelity, cross-study convergence, sampling stability, and sensitivity to confounders. At study level, Fixed-CNM corresponded poorly with the reference atrophy-derived functional network in AD (Spearman r = -0.24, overlap = 1.61%), and radius changes did not improve fidelity. In contrast, GROW-CNM recovered cluster morphology and generated maps closer to the reference network (r [&ge;] 0.85, overlap [&ge;] 87.30%). GROW-CNM also showed greater cross-study convergence (median peak probability, 0.99 vs. 0.67; z = 27.42, p < 0.001) and was robust to threshold/resampling (z = -169.84, p < 0.001). Fixed-CNM was associated with systematic factors; GROW-CNM was more sensitive to demographic confounders (p < 0.05, TFCE-FWE correction). Systematic confounding was attenuated by GROW-CNM; Fixed-CNM remained susceptible in core regions (p < 0.001). These findings indicate cross-study heterogeneity in coordinate-based AD network maps reflects seed definition and study-level confounders, not biology alone. Combining GROW-based seed reconstruction with confounder-adjusted population modeling may provide a robust framework for mapping disease-related brain networks and prioritizing candidate neuromodulation targets.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765323v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.23.768678",
+        "title": "Dynamic Weight Signatures as a Novel Biomarker of Motor Dysfunction in Mouse Models",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Papaneri, A.",
+          "Shoemaker, C. T.",
+          "Saha, S.",
+          "Ghosh, S.",
+          "Cui, G."
+        ],
+        "abstract": "Motor dysfunction is typically assessed through clinical examination and manual scoring, with gait analysis and accelerometry providing objective measures of subtle abnormalities. The observable 4-6 Hz resting tremor of Parkinsons disease highlights the importance of capturing motor fluctuations at relevant timescales. Using a high-precision industrial weighing module, we tested whether high-frequency weight recordings of freely moving mice could provide a simple, noninvasive means of detecting disease-associated motor abnormalities. Aging MitoPark mice spend more time in non-ambulatory states and exhibit less stable locomotion than healthy controls; however, bradykinesia and shaking can be mitigated by intraperitoneal levodopa. Here we demonstrate that irregular motor activity and tremor-like movements are quantifiable via weight frequency analyses, which permit detection of early symptoms and post-levodopa motor control restoration. This non-invasive approach is less data-intensive than video-based analyses, adaptable for home-cage monitoring, and potentially translatable for clinical or home use for detection of subclinical motor dysfunction.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768678v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.22.768387",
+        "title": "Paternal transmission of the APPPS1 transgene is associated with increased amyloid pathology and a small Thy1.2-APP methylation difference",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Brackhan, M.",
+          "Eiriz, I.",
+          "Brüning, T.",
+          "Halldorsson, S.",
+          "Gildenblat, J.",
+          "Pahnke, J."
+        ],
+        "abstract": "Maternal transmission of the APP transgene lowers amyloid burden in 5xFAD mice. We examined whether APPPS1-21 shows a similar parent-of-origin association and whether Thy1.2 methylation contributes. F1 offspring inheriting the transgene from the mother had less A{beta}42, fewer plaques, less gliosis, and less human APP at intermediate ages. The A{beta}42 difference was not detected in the F2 cohort at 100 days. Non-transgenic off-spring of APPPS1 mothers did not differ in glial counts, and serum anti-A{beta} antibody levels were not higher at 40 days. In an exploratory methylation analysis of 32 brains, parent-of-origin-associated differences were sex-specific and enriched on chromosome X, not chromosome 2. The Thy1.2-APP cassette showed an approximately three-percentage-point paternal increase; the PSEN1 cassette did not. These findings establish an association with parental transmission but do not show that methylation causes the pathology differences.\n\nHIGHLIGHTSO_LIMaternal transmission is associated with lower amyloid pathology\nC_LIO_LIThe amyloid-beta 42 difference was not detected in the second generation\nC_LIO_LIAmyloid precursor protein cassette methylation is higher with paternal transmission\nC_LIO_LIThe methylation difference does not establish a causal mechanism\nC_LI\n\nIN BRIEFWe report lower amyloid pathology after F0 maternal APPPS1 transmission to F1. The A{beta}42 difference was not detected in the F2 cohort. The small Thy1.2-APP methylation difference does not establish a causal mechanism.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768387v1",
+        "reasons": [
+          "关键词『amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.01.21.700784",
+        "title": "Loss of Tau in the adult brain causes progressive disruption of neuronal homeostasis and behavioral performance",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Silva, J. M.",
+          "Campos-Marques, C.",
+          "Lahiri, S. M.",
+          "Monteiro-Fernandes, D.",
+          "Soares-Cunha, C.",
+          "Godinho, B. M.",
+          "Solis-Mezarino, V.",
+          "Volker-Alber, M.",
+          "Papadimitriou, G.",
+          "Gomes, P.",
+          "Coimbra, B.",
+          "Campos, I. C.",
+          "Samiotaki, M.",
+          "Panayotou, G.",
+          "Kokras, N.",
+          "Dalla, C.",
+          "Wolozin, B.",
+          "Oliveira, J.",
+          "Abisambra, J.",
+          "Imhof, A.",
+          "Krishnamurthy, P. M.",
+          "Watts, J. K.",
+          "Rodrigues, A. J.",
+          "Sousa, N.",
+          "Sotiropoulos, I."
+        ],
+        "abstract": "Tau has been extensively studied in neurodegenerative disease, yet its physiological role in the adult brain remains elusive. Here, we generated an inducible conditional Tau knockout mouse model to selectively delete Tau in adult brain and investigated the consequences of Tau loss across multiple levels. Tau knock-down in the forebrain induced progressive emotional and cognitive deficits, accompanied by dendritic remodeling, impaired spine maturation, and disrupted neuronal network activity. Region-specific knock-down of Tau in the amygdala was sufficient to reproduce anxiety-like behavior, while Tau re-expression restored normal behavior. Crucially, antisense oligonucleotide-mediated Tau knockdown phenocopied these effects, demonstrating that partial depletion of endogenous Tau is sufficient to impair neuronal integrity and behavior. Together, these findings establish an essential role for physiological Tau in maintaining adult neuronal circuit homeostasis and provide important insight into the consequences of sustained Tau-lowering interventions.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.21.700784v2",
+        "reasons": [
+          "关键词『tau』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.23.768482",
+        "title": "PICALM deficiency exacerbates amyloid pathology in murine and nematode Alzheimers disease models",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Tehran, D. A.",
+          "Kochlamazashvili, G.",
+          "Gallrein, C.",
+          "Sleiman, M.",
+          "Mariscal, S. A.",
+          "Shergill, J. K.",
+          "Gharat, K.",
+          "Konkel, K.",
+          "Ruwolt, M.",
+          "Stephanowitz, H.",
+          "Wu, M.",
+          "Bahnik, C.",
+          "Löwe, D.",
+          "Carai, G.",
+          "Liu, F.",
+          "Kirstein, J.",
+          "Haucke, V.",
+          "Maritzen, T."
+        ],
+        "abstract": "Alzheimers disease (AD), characterized by the accumulation of amyloid {beta}-peptide (A{beta}) plaques, is a progressive age-related neurodegenerative disorder affecting more than 35 million people worldwide. The risk of developing AD is significantly influenced by genetic factors. Deciphering their molecular functions has substantially advanced our understanding of the pathogenic mechanisms underlying AD. The PICALM gene represents a highly validated AD risk factor, and the encoded endocytic adaptor CALM is critical for endothelial A{beta} clearance and microglial A{beta} phagocytosis. However, it remains controversial how neuronally expressed CALM modulates AD pathogenesis. We find that loss of neuronal CALM accelerates A{beta} plaque formation and impairs neurotransmission in an AD mouse model, revealing a protective role for neuronal CALM. These phenotypes are accompanied by an elevated surface level of the endolysosomal SNARE protein VAMP8, consistent with a role for CALM in promoting the turnover of aggregated proteins via the autophagy/lysosome pathway. Moreover, loss of CALM promotes A{beta} aggregation in a C. elegans model expressing fluorescently labelled A{beta}, while neuron-specific overexpression of CALM decreases A{beta} aggregation. Finally, we demonstrate that the ANTH domain of CALM displays chaperone-like activity by inhibiting A{beta} aggregation in vitro. Our combined data suggest that neuronal CALM might counteract AD progression by suppressing A{beta} aggregation and by safeguarding endolysosomal SNARE trafficking.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768482v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.25.769161",
+        "title": "Dopamine shifts striatal ramping dynamics",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Bova, A. S.",
+          "Volkman, R. A.",
+          "Khandelwal, V.",
+          "Weber, M. A.",
+          "McMurrin, M.",
+          "Kryca, J.",
+          "Sivakumar, K.",
+          "Hunter, C. M.",
+          "Weber, C. M.",
+          "Dawson, J. D.",
+          "Uc, E. Y.",
+          "Narayanan, N. S."
+        ],
+        "abstract": "Diseases that disrupt dopamine impair cognition; however, it is unknown how dopamine affects neuronal networks that instantiate cognitive processing. We studied this problem in the dorsomedial striatum during interval timing, an elementary cognitive task requiring working memory and attention to estimate an interval of several seconds. Interval timing requires medium spiny neurons (MSNs) that ramp up or down over temporal intervals. While these neurons receive prominent dopaminergic input from the substantia nigra, it is unknown how dopamine modulates MSN activity during interval timing. Here, we report four new findings. First, ramping activity of MSN ensembles predicts interval timing behavior. Second, dopamine dynamics predict timing behavior and preferentially predict the slope of MSN ensembles that ramp down; these relationships are not observed during tasks without temporal control such as Pavlovian conditioning. Third, inactivating substantia nigra dopamine disrupts timing as well as MSNs that ramp down, but not those that ramp up. Fourth, a drift-diffusion model perturbing down-ramping accurately predicted interval timing behavior in mice with dopamine inhibition and in humans with Parkinson's disease. Together, these results reveal how dopamine shapes striatal ramping dynamics and suggest that disrupting dopamine can alter specific trajectories of cognitive computations. These data are relevant for understanding the cognitive striatum and for generating new markers and therapeutic strategies for human striatal and dopaminergic diseases.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769161v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.26.769462",
+        "title": "Conditional feature importance with error control for machine-learning-based biomarker discovery in Alzheimer's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Paillard, J.",
+          "Silvestri, E.",
+          "Bryois, J.",
+          "Kam-Thong, T.",
+          "Di Paolo, G.",
+          "Reyero Lobo, A.",
+          "Chamma, A.",
+          "Stomrud, E.",
+          "Palmqvist, S.",
+          "Janelidze, S.",
+          "Mattsson-Carlgren, N.",
+          "Thirion, B.",
+          "Engemann, D. A.",
+          "for the Swedish BioFINDER study group,",
+          "for the Alzheimer's Disease Neuroimaging Initiative,"
+        ],
+        "abstract": "Alzheimer's disease (AD) is characterized by complex biology captured by proteomics, transcriptomics, genetics, and brain imaging. These high-dimensional and correlated data make biomarker discovery challenging. To disentangle biomedical AD data, we propose Conditional Feature Importance (CFI), a theory-grounded framework quantifying the unique contribution of individual or grouped variables in any machine learning model while controlling false discoveries. Across ADNI, BioFINDER, and UK Biobank (nearly 48,000 participants), CFI uncovered a striking contrast between unique versus redundant biomarkers across protein and imaging signatures of AD diagnosis, onset, and progression. Age and neurofilament light chain (NfL) were important for all three outcomes, and A{beta}42 was common to diagnosis and progression. Beyond these shared predictors, in BioFINDER, markers associated with neuronal and synaptic injury, including plasma total tau, CSF -synuclein, and CSF neurogranin, contributed unique predictive information for diagnosis, whereas markers related to the amyloid cascade, CSF p-tau181 and A{beta}40, contributed unique predictive information for progression. APOE {varepsilon}4 offered no unique information once downstream proteins were accounted for, whereas contextual markers such as CSF A{beta}40 emerged only through interactions with other biomarkers. We argue that CFI increases the scientific value of machine learning by providing rigorous statistical insights on complex datasets.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769462v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.24.768920",
+        "title": "A Cross-Tissue Multi-Omics Atlas of Brain Transcriptomes and Liquid Biopsy EV Proteomes in Parkinson's Disease and Multiple System Atrophy",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Lee, E. H.",
+          "Lee, Y.",
+          "Jo, K. B.",
+          "Song, H.",
+          "Han, J.",
+          "Seo, J. H.",
+          "Park, G.",
+          "Kim, M. S.-H.",
+          "Shim, H.",
+          "Lee, E.",
+          "Song, C.",
+          "Park, J.-H.",
+          "Choi, J.-H.",
+          "Lee, H.",
+          "An, J.-Y.",
+          "Yoon, K.-J.",
+          "Kim, H.-J.",
+          "Kim, J.-s.",
+          "Kim, J.-E.",
+          "Kim, D.-K."
+        ],
+        "abstract": "Parkinson's disease (PD) and Multiple System Atrophy (MSA) are progressive synucleinopathies characterized by widespread molecular alterations across neuronal and glial populations. While brain tissue provides direct insight into disease mechanisms, liquid biopsies, particularly extracellular vesicles (EVs) in plasma, cerebrospinal fluid (CSF), and urine, offer a minimally invasive avenue for clinical diagnosis and monitoring. However, the extent to which cell-type-specific brain transcriptional changes translate into detectable circulating protein signatures remains unclear. Here, we present a comprehensive multi-omics meta-analysis integrating eight human post-mortem brain single-nucleus RNA-sequencing (snRNA-seq) datasets with eight circulating proteomic datasets. We uniformly reprocessed and analyzed over 1 million nuclei, spanning ~20,000 protein-coding genes across four broadly defined disease-relevant brain regions from 171 individuals alongside ~8,000 liquid biopsy proteins from over 400 individuals. We resolved cell-type-specific differentially expressed genes (DEGs) across dopaminergic neurons, microglia, astrocytes, and oligodendrocytes alongside disease-specific differentially expressed proteins (DEPs) in peripheral biofluids. Mapping brain DEGs onto liquid biopsy proteomes revealed that ~25% of brain DEGs were detectable as biofluid DEPs in at least one dataset, while multi-cohort filtering prioritized 32 unique recurrent cross-omic biomarkers. These include concordantly regulated markers of complement and glial reactivity (C1QB, C3, CHI3L1), neurotrophic and neuropeptide signaling (IGFBP5, NRP1, SST), lipid metabolism (LPL, APOC1), proteostasis (HSP90B1), and cytoskeletal/extracellular matrix remodeling (MMP2, PLOD1), alongside inversely regulated chaperones and synaptic/vascular factors (HSP90AA1, CAMK2A, VWF). Furthermore, cross-omic protein-protein interaction networks converged on pathways governing chaperone-mediated protein folding, ubiquitin-pro",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768920v1",
+        "reasons": [
+          "关键词『Parkinson、neurodegeneration』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.26.769557",
+        "title": "Target-dependent modulation of finely tuned gamma by transcranial ultrasound in Parkinson's disease",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Asadian, A.",
+          "Sarica, C.",
+          "Ramezanpour, H.",
+          "Sastin, D.",
+          "Annirood, R.",
+          "Bhattacharya, A.",
+          "Yuen, J.",
+          "Loh, A.",
+          "Villamil, F.",
+          "Cabrera-Montes, J.",
+          "Chow, C.",
+          "Schmidt, F. A.",
+          "Nankoo, J.-F.",
+          "Munhoz, R. P.",
+          "Valiante, T. A.",
+          "Fasano, A.",
+          "Hodaie, M.",
+          "Kalia, S. K.",
+          "Chen, R.",
+          "Lozano, A. M.",
+          "Darmani, G."
+        ],
+        "abstract": "Background: Finely tuned gamma (FTG) is a narrowband oscillation associated with dopaminergic ON states and dyskinesia in Parkinson's disease (PD), although its physiological significance remains debated. While deep brain stimulation (DBS) can entrain gamma oscillations, whether noninvasive ultrasound can modulate endogenous FTG across motor circuits remains unclear. Methods: We analyzed local field potentials recorded using sensing-enabled DBS systems in two cohorts of patients: 17 with subthalamic nucleus (STN) and 10 with globus pallidus internus (GPi) electrodes. Theta-burst transcranial ultrasound stimulation (tbTUS) targeted the primary motor cortex (M1) or GPi. FTG was assessed before, during, and up to 45 minutes after sonication. Associations with beta activity, levodopa-equivalent daily dose (LEDD), and dyskinesia were also examined. Results: FTG was detected in eight STN patients and one GPi patient, with five exhibiting reproducible peaks suitable for longitudinal analysis, broadly consistent with previous reports of intermittent FTG expression. M1 sonication reduced STN FTG in three patients, whereas GPi sonication increased STN FTG in one but did not significantly alter locally recorded GPi FTG in another. Finger-tapping-related FTG responses were heterogeneous. Resting FTG was not significantly correlated with beta activity or LEDD. However, dyskinesia was more frequent in sessions with detectable FTG than in those without (47% vs. 20%), although this association was not statistically significant (p = 0.067). Conclusions: These findings suggest that noninvasive ultrasound can modulate endogenous FTG in a circuit-dependent manner, distinct from DBS-induced gamma entrainment. FTG may provide a complementary electrophysiological biomarker alongside beta oscillations, potentially capturing additional aspects of motor-network activity and dyskinesia. Combining noninvasive TUS with intracranial DBS sensing may offer a useful approach for investigating FTG a",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769557v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.25.769060",
+        "title": "Human lipidomics guides brain-inspired lipoprotein particle approach to ameliorate Alzheimer's disease pathology",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Pinals, R. L.",
+          "Koh, Y.",
+          "Ke, Z.",
+          "Tuyeras, A.",
+          "Lozano Cruz, C. F.",
+          "Gajarski, I.",
+          "Burman, A.",
+          "Yang, C.-Y.",
+          "Ngo, A.",
+          "Choy, L. B.",
+          "Weiss, J.",
+          "Balachundhar, P.",
+          "Leible, D.",
+          "Hurt, R.",
+          "Choi, A.",
+          "Chen, I.",
+          "Kang, E.",
+          "von Maydell, D.",
+          "Akay, L.",
+          "Rodrigues-Amorim, D.",
+          "McNamara, E.",
+          "Galani, K.",
+          "Cameron, J.",
+          "Liang, F.",
+          "Deik, A. A. A.",
+          "Pierce, K.",
+          "Yun, D.",
+          "Bennett, D. A.",
+          "Clish, C. B.",
+          "Tsai, L.-H."
+        ],
+        "abstract": "APOE encodes the principal lipid-transporting protein in the brain, and lipid dysregulation is increasingly implicated in Alzheimer's disease (AD) pathogenesis. The APOE4 allele, together with advanced age and female sex, are major risk factors for late-onset AD. Yet how these risk factors interact to reshape lipid composition and transport in the brain remains unclear. Herein, we characterize lipidomic profiles in the brain, cerebrospinal fluid (CSF), and blood of individuals with or without AD, as well as of mice expressing humanized APOE. We identify brain lipidomic shifts associated with AD in humans, including relative depletion of highly unsaturated lipids, with many changes resembling those associated with APOE4 alone. Individuals with AD show striking depletion of lipoprotein particle (LP)-associated lipid abundance in the CSF. Additionally, humanized APOE4 mice exhibit an age-dependent deficit in CSF LP-associated lipid abundance relative to APOE3 mice. Accordingly, we leverage these insights to engineer brain-inspired reconstituted LPs (rLPs) with the goal of restoring lipid transport in the brain. rLPs promote cholesterol efflux from human induced pluripotent stem cell-derived APOE4 astrocytes in vitro. In an AD mouse model (5xFAD) expressing humanized APOE4, these nanoparticles reduce lipid-droplet accumulation, facilitate amyloid-beta clearance, enhance synaptic integrity, and improve cognitive function. Together, our results provide a resource mapping lipidomic changes across the Alzheimer's risk triad and demonstrate that engineered rLPs can counter lipid accumulation and associated pathology in the brain, and cognitive deficits in vivo.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769060v1",
+        "reasons": [
+          "关键词『Alzheimer、amyloid』(命中title/abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.25.769298",
+        "title": "Neuronal heparan sulfate controls the brain accumulation and glymphatic clearance of pathogenic α-synuclein",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Digraskar, S.",
+          "Das, P.",
+          "Bash, R.",
+          "Huh, J.",
+          "Queiroz, R.",
+          "Houson, H.",
+          "Helman, E. H.",
+          "Samuel, S. S.",
+          "Sajdak, G.",
+          "Murchison, C.",
+          "Gearing, M.",
+          "Iliff, J.",
+          "Esko, J.",
+          "Cowell, R.",
+          "Lapi, S. E.",
+          "Sorace, A.",
+          "Volpicelli-Daley, L.",
+          "Aguilar-Calvo, P."
+        ],
+        "abstract": "In Parkinson's disease and dementia with Lewy bodies, fibrillar aggregates of the -synuclein (-syn) protein are released into the extracellular space and drive disease progression, yet the mechanisms governing their in vivo neuronal uptake and clearance remain poorly understood. Heparan sulfate proteoglycans (HSPGs) act as receptors for -syn fibril internalization in iPSC-derived dopaminergic neurons and could therefore advance synucleinopathy progression in patients. Here we show that -syn fibrils interact electrostatically with the sulfate groups in the HS chains with high affinity, and that genetically reducing the sulfation of neuronal HS reduces the accumulation of -syn aggregates in multiple brain areas, the loss of dopaminergic neurons, and the development of a locomotor behavioral phenotype in mice intracerebrally injected with -syn recombinant fibrils (PFFs). In vivo imaging revealed that HS is also a molecular obstacle to the glymphatic clearance of -syn fibrils, as radiolabeled -syn PFFs travel faster through the brain towards cerebrospinal clearance in mice with less sulfated neuronal HS than in wild-type mice. Collectively, this study provides in vivo evidence that neuronal HS accelerates -syn pathology, potentially by promoting neuronal uptake while slowing the glymphatic clearance of -syn fibrils and, therefore, is a promising therapeutic target to halt synucleinopathies.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769298v1",
+        "reasons": [
+          "关键词『Parkinson』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.26.769213",
+        "title": "The degree of Amyloid β pathology determines the impact of autophagy deficiency",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Jiang, R.",
+          "Johansson, L.",
+          "Tambaro, S.",
+          "Isla, A. G.",
+          "Sackmann, V.",
+          "Dunca, D.-D.",
+          "Guo, Y.",
+          "Roos, T.",
+          "Haytural, H.",
+          "Widgren, A.",
+          "Shimozawa, M.",
+          "Chu, F.",
+          "Arroyo Garcia, L. E.",
+          "Balleza-Tapia, H.",
+          "Sekiguchi, M.",
+          "Matsuba, Y.",
+          "Saito, T.",
+          "Sado, T. C.",
+          "Bergquist, J.",
+          "Fisahn, A.",
+          "Gouras, G. K.",
+          "Hallbeck, M.",
+          "Nilsson, P."
+        ],
+        "abstract": "Alzheimer's disease (AD) is characterized by amyloid {beta} (A{beta}) deposition, tau aggregation and impaired proteostasis, including autophagy dysfunction. However, how autophagy deficiency affects A{beta} pathology and disease progression remains unclear. We crossed excitatory neuronspecific Atg7 knockout mice with App knock-in mice (AppNL-F/NL-F and AppNL-G-F/NL-G-F) and assessed A{beta} pathology, extracellular vesicle (EV) release, cognition, gamma oscillatory activity, cell death, brain atrophy and proteomic changes. Autophagy deficiency reduced extracellular A{beta} plaque burden despite increased release of A{beta}-containing EVs. Notably, combined Arctic-A{beta} pathology and autophagy deficiency impaired gamma oscillatory activity, behaviour and memory, activated cell death signalling and shortened lifespan. CA1 proteomics identified a voltage-gated potassium channel subunit markedly increased upon Atg7 deletion. Surprisingly, less pronounced A{beta} pathology counteracted several detrimental effects, potentially through improved cellular transport and reduced protein translation. These findings reveal that autophagy regulates A{beta} metabolism and that A{beta} pathology severity determines the consequences of autophagy deficiency, highlighting autophagy modulation as a context-dependent therapeutic target in AD.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769213v1",
+        "reasons": [
+          "关键词『Alzheimer、tau、amyloid』(命中abstract/title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.27.769612",
+        "title": "Alpha-synuclein overexpression induces sex-dependent alterations in striatal autophagic-lysosomal markers in a Parkinson's disease mouse model",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Bidgood, R.",
+          "Zubelzu, M.",
+          "Eguinoa, E.",
+          "Jimenez-Ridruejo, I.",
+          "Murueta-Goyena, A.",
+          "Ruiz-Ortega, J. A.",
+          "Lafuente, J. V.",
+          "Mallet, N. P.",
+          "Plaza-Zabala, A.",
+          "Morera-Herreras, T."
+        ],
+        "abstract": "Parkinson's disease (PD) is characterized by pathological alpha-synuclein (-syn) accumulation and alterations in autophagy. While biological sex is increasingly recognized as a modifier of PD susceptibility and pathophysiology, its relationship with striatal autophagic-lysosomal alterations remains incompletely understood. In this study, we investigated sex-dependent changes in related molecular markers in a mouse model overexpressing -syn. Male and female C57BL/6J mice received bilateral intranigral injections of adeno-associated viral vectors encoding mutant A53T -syn or empty vectors. Dorsal striatal tissue from 29 animals was analyzed at 60 or 120 days post-injection. Confocal imaging of LC3B (microtubule-associated protein 1 light chain 3 beta; autophagosome marker) and LAMP1 (lysosomal-associated membrane protein 1; lysosomal marker) immunofluorescence quantified marker-positive areas, puncta densities, and colocalization. Associations with -syn immunoreactivity, striatal dopaminergic innervation, and axonopathy severity were also examined. At 60 days, no vector-related differences in autophagic-lysosomal markers were detected. However, at 120 days, vector x sex interactions were identified for LC3-positive area, LAMP1-positive area, and LC3 puncta density. Post-hoc comparisons showed reductions in all three measures in -syn males relative to male controls, whereas the corresponding comparisons in females were not significant. After adjustment for striatal -syn immunoreactivity, -syn males had lower LC3- and LAMP1-positive areas, LC3-LAMP1 colocalization area, and LAMP1 puncta density than -syn females. Across -syn mice, greater LAMP1 puncta density was associated with more advanced axonopathy after adjustment for sex and time. These findings identify sex-dependent alterations in striatal autophagic-lysosomal markers following A53T -syn overexpression and suggest an association between lysosomal organization and axonopathy severity. They also underscore the im",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.27.769612v1",
+        "reasons": [
+          "关键词『Parkinson、alpha-synuclein』(命中title)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.23.768680",
+        "title": "APOE isoforms shape brain network organization and its coupling with cardiac phenotypes in mice",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Badea, A.",
+          "Shahu, K.",
+          "Nadkarni, R.",
+          "Stout, J. A.",
+          "Moon, H. S.",
+          "Mahzarnia, A.",
+          "Han, Z.",
+          "Tremblay, J.",
+          "Anderson, R. J.",
+          "Foster, M.",
+          "Lutz, M.",
+          "Laskowitz, D.",
+          "Badea, C."
+        ],
+        "abstract": "BackgroundApolipoprotein E (APOE) isoforms influence Alzheimers disease susceptibility and cardiovascular physiology, but their roles in functional brain network organization and brain-heart relationships remain incompletely understood. We investigated whether APOE genotype modifies functional brain networks and their cardiovascular, behavioral, and molecular correlates.\n\nMethodsResting-state functional MRI was analyzed in 261 mice expressing human APOE2, APOE3, or APOE4, with 31 Apoe-knockout mice as additional comparators. Cardiac computed tomography, regional brain volume, intrinsic T1, cerebral blood flow (CBF), spatial-navigation behavior, and regional transcriptomics were evaluated in partially overlapping or independent cohorts. Covariate-adjusted analyses assessed network topology, regional connectivity, and APOE-dependent brain-cardiac associations, with false-discovery-rate correction within designated testing families.\n\nResultsCompared with APOE2, APOE4 mice exhibited lower positive functional connectivity strength ({beta} = -0.542, q = 0.0036), clustering ({beta} = -0.488, q = 0.0041), and modularity ({beta} = -0.375, q = 0.0252), together with higher global efficiency and altered persistent topology. Positive regional connectivity was lower in 15 cortical regions within the designated 244-region testing family, with left cingulate area 24b also surviving correction across all 1,464 regional tests (q = 0.0394). Among 108 mice with paired cardiac CT and functional MRI, APOE modified the association between left atrial volume and negative-network {beta} persistence (interaction p = 0.00386; q = 0.0463 across 12 persistence tests), predominantly reflecting a negative association in APOE3 mice; this interaction did not survive correction across all 28 global tests. Complementary regional MRI analyses identified genotype-dependent cardiac associations involving brain volume, intrinsic T1, and CBF, including three anatomically matched T1-CBF associations in li",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768680v1",
+        "reasons": [
+          "关键词『Alzheimer』(命中abstract)"
+        ],
+        "is_new": true
+      },
+      {
+        "doi": "10.64898/2026.11.23.768594",
+        "title": "Transcriptomic profiling of Parkinsons disease patient-derived midbrain organoids reveals selective vulnerability of ALDH1A1+ dopamine neurons",
+        "journal": "bioRxiv · Neuroscience",
+        "published_online": "2026-11-27",
+        "is_early_access": true,
+        "authors": [
+          "Deyab, G.",
+          "Lepine, P.",
+          "Goldsmith, T. M.",
+          "Gertsvolf, J.",
+          "Sirois, J.",
+          "Chen, C. X.- Q.",
+          "Abdian, N.",
+          "Stratton, J. A.",
+          "Durcan, T. M.",
+          "Thomas, R. A.",
+          "Fon, E. A."
+        ],
+        "abstract": "Parkinsons disease (PD) is a neurodegenerative disorder that affects millions worldwide and is broadly characterized by the extensive loss of dopamine neurons (DNs) in the substantia nigra pars compacta (SNpc) relative to neighboring DNs of the ventral tegmental area (VTA). Differences between SNpc and VTA DNs relating to selective vulnerability remains understudied due to limited access to human brain tissue prior to neuronal death, and the limited ability of animal models to fully recapitulate disease processes. Here we demonstrate that diverse DN subpopulations develop spontaneously within human induced pluripotent stem cell (iPSC)-derived midbrain organoids (hMOs). Furthermore, both genetic and sporadic PD patient-derived hMOs exhibit selective loss of SOX6+ALDH1A1+ but not CALB1+ DNs. Surviving SOX6+ALDH1A1+ DNs in PD hMOs exhibit an increase in mitochondria related gene expression, indicating potential mitochondrial dysfunction, which is not observed in CALB1+ DNs. These findings highlight the ability of hMOs to recapitulate key features of disease pathogenesis and identify pathways associated with disease progression and cellular vulnerability prior to cell death in a patient-derived model, something which remains challenging in human postmortem brain tissue.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768594v1",
+        "reasons": [
+          "关键词『Parkinson』(命中title)"
+        ],
+        "is_new": true
+      },
       {
         "doi": "10.64898/2026.11.23.766131",
         "title": "Nanobody-guided proximity proteomics reveals conformationally encoded molecular neighborhoods of LRRK2",
@@ -94,76 +588,6 @@
         "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742448v2",
         "reasons": [
           "关键词『Parkinson、neurodegeneration』(命中abstract/title)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.24.768969",
-        "title": "Linking Molecular Changes in the Hypothalamus to Alzheimer's Disease Phenotypes",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-25",
-        "is_early_access": true,
-        "authors": [
-          "Algoo, J.",
-          "Kaczorowski, C. C.",
-          "Dunn, A. R.",
-          "Menon, V.",
-          "O'Connell, K. M. S."
-        ],
-        "abstract": "In many individuals with Alzheimer's disease (AD), sleep disruption and weight loss emerge years before the onset of memory decline and dementia. However, the cellular and molecular bases of these early events are not well understood. The hypothalamus is a critical brain region for the regulation of these behaviors, but its response to amyloid has not been systematically characterized. We performed single-nucleus RNA sequencing to generate transcriptomic profiles of 1.1 million nuclei across the hypothalamus from 10 genetic backgrounds of the AD-BXD genetic reference panel spanning two ages and both sexes, including age-matched controls. Amyloid was associated with widespread, sex-biased molecular changes across diverse cell classes, including elevated neuroinflammatory signatures in microglia and astrocytes, upregulated ion transport pathways across barrier-associated cell types, and sex- and age-dependent changes to primary ciliary pathways in Glp1r+/Lepr+, Histaminergic, and Hcrt+ neuronal populations. Two metabolism-related populations showed differential expression exclusively in one sex: Glp1r+/Lepr+ neurons in females and Gpr50+ neurons in males. Several findings were conserved in analysis of human hypothalamus snRNAseq data, including reduced expression of TGF-{beta} pathway genes in medial mammillary body neurons and increased relative abundance of reactive Serpina3n+/YKL-40 astrocytes. This atlas provides a cellular framework for understanding the early, non-cognitive symptoms of AD and identifies several hypothalamic cell-type specific pathways that represent potential targets for therapeutic intervention.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768969v1",
-        "reasons": [
-          "关键词『Alzheimer、amyloid』(命中title/abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.64898/2026.11.24.769018",
-        "title": "An Open, Evolving Brain and Cognitive Aging Simulator Enabled by Agentic Artificial Intelligence",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-25",
-        "is_early_access": true,
-        "authors": [
-          "Buckner, R. L.",
-          "Walhovd, K. B.",
-          "Fjell, A. M.",
-          "Sperling, R. A.",
-          "Blacker, D.",
-          "Rogalski, E. J.",
-          "Hyman, B.",
-          "Nyberg, L."
-        ],
-        "abstract": "An agentic AI simulator was built to advance our understanding about how the human brain and cognition change with age. The simulator generates worlds based on hypothesized age-linked cascades and then simulates studies across varied experimental designs and selection criteria. Each simulated world begins with 120,000 individual lives initiated by baseline parameters (e.g., genetic risk, birth year) and then changed by age-dependent cascades (e.g., amyloid-dependent, cardiovascular). Examples illustrate how the simulator predicts distinct data patterns in cross-sectional versus longitudinal designs, how alternative participant selection strategies emphasize baseline differences versus age-related decline, and how variable levels of association emerge between brain and cognition dependent upon design choices. Simulations of clinical trials provide information about design, power, and outcome considerations. Experiments on alternative simulated worlds evaluate how well hypothesized cascades accommodate real-world data patterns, capturing the insights and open puzzles inside the application. Most critically, the application is built to evolve. Its code contains a complete description of how to construct and update itself so that any person or AI agent can explore a new finding, recalibrate to emerging data, or build and simulate a novel future study. The simulator is offered as a tool for understanding data patterns, teaching, and generation of hypotheses to be tested in future studies using real-world data collection.",
-        "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.769018v1",
-        "reasons": [
-          "关键词『amyloid』(命中abstract)"
-        ],
-        "is_new": true
-      },
-      {
-        "doi": "10.1101/2021.09.06.459209",
-        "title": "Neural mechanisms by which spaced learning promotes understanding",
-        "journal": "bioRxiv · Neuroscience",
-        "published_online": "2026-11-25",
-        "is_early_access": true,
-        "authors": [
-          "Liang, Y.",
-          "He, Y.",
-          "Cheng, Z.",
-          "Li, Y.",
-          "Liu, L.",
-          "Wu, Y.",
-          "Sun, Y.",
-          "Ren, F.",
-          "Shuai, M.",
-          "Luo, W.",
-          "Yang, X.",
-          "Zhang, L."
-        ],
-        "abstract": "Spaced learning reliably improves memory. A few studies suggest it also benefits understanding and problem solving, but none has examined the neural mechanism. We hypothesised that this benefit arises because spacing changes the memory trace rather than merely strengthening it. To test this, we taught participants how unfamiliar words meanings could be derived from familiar parts: meaningful rather than rote learning. Each participant learned words in one session, or in two sessions about 2 h (massed) or 48 h (spaced) apart, to the same criterion; one-session words served as the reference. A common interval separated the last session from a delayed test with electroencephalography (EEG). Immediately after learning, self-rated understanding did not differ between schedules, yet under spacing participants revised more of their written test responses between sessions (35% versus 25%). At the delayed test, the spacing effect appeared: recognition was higher and self-rated explanatory retrieval more fluent after spaced than after massed learning. At the neural level, late-retrieval EEG patterns for remembered words were less similar to the reference after spaced than after massed learning, over right frontocentral and temporal sensors. In partly overlapping sensors and windows, lower similarity was statistically associated with a larger fluency advantage, suggesting that the change is directed rather than random. Behavioural evidence hinted at convergence across learners: between sessions, revisions under spacing were smaller and moved responses toward those of others. Together, these findings suggest that spacing changes the memory trace rather than merely strengthening it, in a direction linked to self-rated understanding.\n\nSignificance StatementSpacing out study helps memory, but any benefit for understanding may not show when study ends. Each learner studied how familiar parts explained unfamiliar words meanings, revisiting some after about two hours and others after",
-        "url": "https://www.biorxiv.org/content/10.1101/2021.09.06.459209v6",
-        "reasons": [
-          "关键词『tau』(命中abstract)"
         ],
         "is_new": true
       }
